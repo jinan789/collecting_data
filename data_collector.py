@@ -3,7 +3,7 @@ sys.path.append("./lib")
 import Git
 
 repo_path = "/Users/jinanjiang/Documents/LinuxCommits/linux"
-# repo_path = "/home/jiangjinan/linux"
+repo_path = "/home/jiangjinan/linux"
 repo = Git.init(repo_path)
 
 import json
