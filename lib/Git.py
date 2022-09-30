@@ -37,7 +37,7 @@ def get_all_commits_from(repo, commit = None, max_count = None):
 
 
 
-def get_modified_lines(commit, filter_empty_line = 1, filter_comments = False):
+def get_modified_lines(commit, filter_empty_line = False, filter_comments = False):
     # returns dict
     #    key: filename
     #    value: list of modified lines for this file
