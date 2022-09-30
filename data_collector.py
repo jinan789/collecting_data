@@ -38,7 +38,7 @@ def collect(ins):
             infos = Git.get_info_from_commits(cur_date)
             with open("./all_commits_by_date/" + date + '_info.json', "w") as f:
                 json.dump(infos, f, indent=1)
-            print(cur_date, '\n')
+            #print(cur_date, '\n')
                 
             with open("./completed_log_" + str(i) + ".txt", "a") as f:
                 json.dump(date + "        ", f, indent=1)
