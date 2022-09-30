@@ -147,8 +147,8 @@
    "tools/testing/cxl/test"
   ],
   "mod_sys": [
-   "drivers",
-   "tools"
+   "tools",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -364,8 +364,8 @@
    "tools/testing/cxl/test"
   ],
   "mod_sys": [
-   "drivers",
-   "tools"
+   "tools",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -473,8 +473,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs",
-   "fs/xfs/libxfs"
+   "fs/xfs/libxfs",
+   "fs/xfs"
   ],
   "mod_sys": [
    "fs"
@@ -538,8 +538,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs",
-   "fs/xfs/libxfs"
+   "fs/xfs/libxfs",
+   "fs/xfs"
   ],
   "mod_sys": [
    "fs"
@@ -610,9 +610,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs/scrub",
+   "fs/xfs/libxfs",
    "fs/xfs",
-   "fs/xfs/libxfs"
+   "fs/xfs/scrub"
   ],
   "mod_sys": [
    "fs"
@@ -1779,16 +1779,16 @@
   "committer_date": "2022-07-09 13:06:50 -0700"
  },
  "0076cad30135f95bf9a144269906f9b7a4eb542c": {
-  "num_adds_if": 423,
-  "num_dels_if": 359,
-  "num_mod_total_if": 782,
-  "num_adds_loop": 151,
-  "num_dels_loop": 84,
+  "num_adds_if": 360,
+  "num_dels_if": 424,
+  "num_mod_total_if": 784,
+  "num_adds_loop": 84,
+  "num_dels_loop": 151,
   "num_mod_total_loop": 235,
   "file_hash": "0076cad30135f95bf9a144269906f9b7a4eb542c",
-  "num_adds": 6701,
-  "num_dels": 5141,
-  "num_mod_lns_total": 11842,
+  "num_adds": 4414,
+  "num_dels": 5785,
+  "num_mod_lns_total": 10199,
   "num_mod_files": 125,
   "is_merge": true,
   "parents": [
@@ -1872,8 +1872,6 @@
    "tools/lib/bpf/relo_core.c",
    "tools/lib/bpf/relo_core.h",
    "tools/lib/bpf/usdt.c",
-   "tools/lib/bpf/xsk.c",
-   "tools/lib/bpf/xsk.h",
    "tools/perf/util/bpf-loader.c",
    "tools/testing/selftests/bpf/.gitignore",
    "tools/testing/selftests/bpf/Makefile",
@@ -1918,11 +1916,13 @@
    "tools/testing/selftests/bpf/test_verifier.c",
    "tools/testing/selftests/bpf/test_xsk.sh",
    "tools/testing/selftests/bpf/verifier/bpf_loop_inline.c",
-   "tools/testing/selftests/bpf/xdpxceiver.c",
-   "tools/testing/selftests/bpf/xdpxceiver.h",
-   "tools/testing/selftests/bpf/xsk_prereqs.sh"
+   "tools/testing/selftests/bpf/xsk.c",
+   "tools/testing/selftests/bpf/xsk.h",
+   "tools/testing/selftests/bpf/xsk_prereqs.sh",
+   "tools/testing/selftests/bpf/xskxceiver.c",
+   "tools/testing/selftests/bpf/xskxceiver.h"
   ],
-  "entropy": 5.0316795146150675,
+  "entropy": 5.051259603144792,
   "ppl_signed_off": [
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
   ],
@@ -1936,45 +1936,45 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/net",
-   "include/net",
-   "tools/bpf/bpftool/bash-completion",
-   "Documentation/bpf/libbpf",
-   "tools/testing/selftests/bpf",
-   "tools/include/uapi/linux",
-   "net/ipv6",
-   "tools/testing/selftests/bpf/prog_tests",
-   "tools/include/linux",
-   "tools/lib/bpf",
-   "tools/testing/selftests/bpf/verifier",
-   "tools/perf/util",
-   "lib",
-   "net/ipv4",
-   "net/unix",
-   "tools/testing/selftests/bpf/progs",
-   "kernel/trace",
-   "include/uapi/linux",
-   "include/linux",
    "/",
-   "net/core",
-   "samples/bpf",
-   "arch/x86/net",
-   "tools/bpf/bpftool/Documentation",
-   "tools/bpf/bpftool",
    "Documentation/bpf",
    "tools/testing/selftests/bpf/benchs",
    "kernel/bpf",
+   "tools/lib/bpf",
+   "arch/x86/net",
+   "tools/testing/selftests/bpf/verifier",
+   "net/ipv6",
+   "Documentation/bpf/libbpf",
+   "kernel/trace",
+   "include/linux",
+   "tools/include/linux",
+   "include/net",
+   "arch/arm64/net",
+   "samples/bpf",
+   "tools/testing/selftests/bpf/prog_tests",
+   "net/unix",
+   "tools/testing/selftests/bpf/progs",
+   "lib",
+   "tools/bpf/bpftool/bash-completion",
+   "tools/bpf/bpftool/Documentation",
+   "tools/perf/util",
+   "net/core",
+   "tools/testing/selftests/bpf",
+   "net/ipv4",
+   "tools/bpf/bpftool",
+   "include/uapi/linux",
+   "tools/include/uapi/linux",
    "/"
   ],
   "mod_sys": [
-   "samples",
-   "kernel",
-   "lib",
-   "Documentation",
    "arch",
+   "include",
+   "samples",
    "net",
+   "Documentation",
    "tools",
-   "include"
+   "kernel",
+   "lib"
   ],
   "num_mod_dirs": 29,
   "num_mod_sys": 8,
@@ -1993,8 +1993,8 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b1c428b6c3684ee8ddf4137d68b3e8d51d2a700f",
-  "num_adds": 9,
-  "num_dels": 8,
+  "num_adds": 8,
+  "num_dels": 9,
   "num_mod_lns_total": 17,
   "num_mod_files": 2,
   "is_merge": true,
@@ -2617,16 +2617,16 @@
   "committer_date": "2022-07-09 10:56:02 -0700"
  },
  "fddb564f62aa6fd4c96a0c473526e2f86df95f4b": {
-  "num_adds_if": 44,
-  "num_dels_if": 51,
+  "num_adds_if": 51,
+  "num_dels_if": 44,
   "num_mod_total_if": 95,
-  "num_adds_loop": 11,
-  "num_dels_loop": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 11,
   "num_mod_total_loop": 12,
   "file_hash": "fddb564f62aa6fd4c96a0c473526e2f86df95f4b",
-  "num_adds": 522,
-  "num_dels": 486,
-  "num_mod_lns_total": 1008,
+  "num_adds": 464,
+  "num_dels": 498,
+  "num_mod_lns_total": 962,
   "num_mod_files": 40,
   "is_merge": true,
   "parents": [
@@ -2675,7 +2675,7 @@
    "fs/xfs/xfs_reflink.c",
    "fs/xfs/xfs_reflink.h"
   ],
-  "entropy": 4.3146278375623215,
+  "entropy": 4.340941803555416,
   "ppl_signed_off": [
    "Signed-off-by: Dave Chinner <dchinner@redhat.com>",
    "Signed-off-by: Darrick J. Wong <djwong@kernel.org>"
@@ -2690,9 +2690,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs/scrub",
+   "fs/xfs/libxfs",
    "fs/xfs",
-   "fs/xfs/libxfs"
+   "fs/xfs/scrub"
   ],
   "mod_sys": [
    "fs"
@@ -2707,16 +2707,16 @@
   "committer_date": "2022-07-09 10:55:44 -0700"
  },
  "dd81dc05598c3028666d00709ef0810aa459bf8d": {
-  "num_adds_if": 20,
-  "num_dels_if": 39,
+  "num_adds_if": 39,
+  "num_dels_if": 20,
   "num_mod_total_if": 59,
-  "num_adds_loop": 8,
-  "num_dels_loop": 34,
+  "num_adds_loop": 34,
+  "num_dels_loop": 8,
   "num_mod_total_loop": 42,
   "file_hash": "dd81dc05598c3028666d00709ef0810aa459bf8d",
-  "num_adds": 190,
-  "num_dels": 768,
-  "num_mod_lns_total": 958,
+  "num_adds": 682,
+  "num_dels": 183,
+  "num_mod_lns_total": 865,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -2734,7 +2734,7 @@
    "fs/xfs/xfs_trans.h",
    "fs/xfs/xfs_trans_priv.h"
   ],
-  "entropy": 1.621148400046577,
+  "entropy": 1.6413947778151599,
   "ppl_signed_off": [
    "Signed-off-by: Dave Chinner <dchinner@redhat.com>",
    "Signed-off-by: Darrick J. Wong <djwong@kernel.org>"
@@ -2749,12 +2749,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs",
-   "Documentation/filesystems"
+   "Documentation/filesystems",
+   "fs/xfs"
   ],
   "mod_sys": [
-   "fs",
-   "Documentation"
+   "Documentation",
+   "fs"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -2769,13 +2769,13 @@
   "num_adds_if": 1,
   "num_dels_if": 1,
   "num_mod_total_if": 2,
-  "num_adds_loop": 1,
-  "num_dels_loop": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "d9cdc3b12525c85b4a2a8b6f3f8f61d9f467ab9a",
-  "num_adds": 6,
-  "num_dels": 10,
-  "num_mod_lns_total": 16,
+  "num_adds": 7,
+  "num_dels": 6,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -3102,16 +3102,16 @@
   "committer_date": "2022-07-09 18:35:39 +0200"
  },
  "a4bd9358d5539516c19daa1b35b36bbc0c0637df": {
-  "num_adds_if": 14,
-  "num_dels_if": 17,
-  "num_mod_total_if": 31,
+  "num_adds_if": 16,
+  "num_dels_if": 13,
+  "num_mod_total_if": 29,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a4bd9358d5539516c19daa1b35b36bbc0c0637df",
-  "num_adds": 120,
-  "num_dels": 168,
-  "num_mod_lns_total": 288,
+  "num_adds": 157,
+  "num_dels": 111,
+  "num_mod_lns_total": 268,
   "num_mod_files": 21,
   "is_merge": true,
   "parents": [
@@ -3141,7 +3141,7 @@
    "sound/soc/ti/omap-mcbsp-st.c",
    "sound/soc/ti/omap-mcbsp.c"
   ],
-  "entropy": 3.8774297354013845,
+  "entropy": 3.848238356016303,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -3153,18 +3153,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "sound/soc/intel/boards",
-   "sound/soc/generic",
-   "sound/soc/ti",
    "Documentation/devicetree/bindings/sound",
-   "sound/soc/qcom/qdsp6",
-   "sound/soc/codecs",
+   "sound/soc/ti",
    "sound/soc/intel/skylake",
-   "Documentation/sound/soc"
+   "sound/soc/intel/boards",
+   "sound/soc/qcom/qdsp6",
+   "Documentation/sound/soc",
+   "sound/soc/generic",
+   "sound/soc/codecs"
   ],
   "mod_sys": [
-   "sound",
-   "Documentation"
+   "Documentation",
+   "sound"
   ],
   "num_mod_dirs": 8,
   "num_mod_sys": 2,
@@ -3211,8 +3211,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "net/netfilter",
-   "include/net/netfilter"
+   "include/net/netfilter",
+   "net/netfilter"
   ],
   "mod_sys": [
    "net",
@@ -3545,8 +3545,8 @@
   "num_mod_total_loop": 2,
   "file_hash": "be587adbf88a064e04eb1e65e5e31a75c2bfc9e2",
   "num_adds": 23,
-  "num_dels": 123,
-  "num_mod_lns_total": 146,
+  "num_dels": 113,
+  "num_mod_lns_total": 136,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -3561,7 +3561,7 @@
    "tools/testing/selftests/net/mptcp/simult_flows.sh",
    "tools/testing/selftests/net/mptcp/userspace_pm.sh"
   ],
-  "entropy": 1.535072852641354,
+  "entropy": 1.544052523953015,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -3575,13 +3575,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/net",
    "net/mptcp",
+   "include/net",
    "tools/testing/selftests/net/mptcp"
   ],
   "mod_sys": [
-   "net",
    "tools",
+   "net",
    "include"
   ],
   "num_mod_dirs": 3,
@@ -3884,8 +3884,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/net",
-   "net/mptcp"
+   "net/mptcp",
+   "include/net"
   ],
   "mod_sys": [
    "net",
@@ -3938,13 +3938,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "arch/x86/kernel/cpu",
    "tools/arch/x86/include/asm",
-   "arch/x86/include/asm",
-   "arch/x86/kernel/cpu"
+   "arch/x86/include/asm"
   ],
   "mod_sys": [
-   "arch",
-   "tools"
+   "tools",
+   "arch"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -4011,16 +4011,16 @@
   "committer_date": "2022-07-09 13:12:32 +0200"
  },
  "ac2a2303016baed1a60343500e265519cc45e4d2": {
-  "num_adds_if": 0,
-  "num_dels_if": 1,
+  "num_adds_if": 1,
+  "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 4,
-  "num_dels_loop": 6,
+  "num_adds_loop": 6,
+  "num_dels_loop": 4,
   "num_mod_total_loop": 10,
   "file_hash": "ac2a2303016baed1a60343500e265519cc45e4d2",
-  "num_adds": 49,
-  "num_dels": 118,
-  "num_mod_lns_total": 167,
+  "num_adds": 108,
+  "num_dels": 42,
+  "num_mod_lns_total": 150,
   "num_mod_files": 11,
   "is_merge": true,
   "parents": [
@@ -4040,7 +4040,7 @@
    "arch/powerpc/kvm/book3s_xics.h",
    "arch/powerpc/kvm/trace_hv.h"
   ],
-  "entropy": 3.024036954471173,
+  "entropy": 3.053052129060381,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4052,9 +4052,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/powerpc/include/asm",
    "arch/powerpc/kernel",
-   "arch/powerpc/kvm"
+   "arch/powerpc/kvm",
+   "arch/powerpc/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -4069,16 +4069,16 @@
   "committer_date": "2022-07-09 19:32:48 +1000"
  },
  "7e74dabc3daf0c217cb5e8e849a8f6c02927950f": {
-  "num_adds_if": 1,
-  "num_dels_if": 10,
+  "num_adds_if": 10,
+  "num_dels_if": 1,
   "num_mod_total_if": 11,
-  "num_adds_loop": 6,
-  "num_dels_loop": 3,
+  "num_adds_loop": 3,
+  "num_dels_loop": 6,
   "num_mod_total_loop": 9,
   "file_hash": "7e74dabc3daf0c217cb5e8e849a8f6c02927950f",
-  "num_adds": 61,
-  "num_dels": 144,
-  "num_mod_lns_total": 205,
+  "num_adds": 115,
+  "num_dels": 46,
+  "num_mod_lns_total": 161,
   "num_mod_files": 20,
   "is_merge": true,
   "parents": [
@@ -4107,7 +4107,7 @@
    "arch/powerpc/platforms/pseries/setup.c",
    "arch/powerpc/sysdev/xive/spapr.c"
   ],
-  "entropy": 3.432372486479379,
+  "entropy": 3.4143535095931896,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4119,16 +4119,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/powerpc/platforms/powernv",
-   "arch/powerpc/mm/nohash",
-   "arch/powerpc/include/asm",
-   "arch/powerpc",
    "arch/powerpc/mm",
-   "arch/powerpc/kernel",
+   "arch/powerpc/platforms/powernv",
    "arch/powerpc/sysdev/xive",
-   "arch/powerpc/include/uapi/asm",
+   "arch/powerpc",
    "arch/powerpc/platforms/microwatt",
-   "arch/powerpc/platforms/pseries"
+   "arch/powerpc/platforms/pseries",
+   "arch/powerpc/mm/nohash",
+   "arch/powerpc/kernel",
+   "arch/powerpc/include/uapi/asm",
+   "arch/powerpc/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -4285,8 +4285,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/9p",
-   "include/net/9p"
+   "include/net/9p",
+   "net/9p"
   ],
   "mod_sys": [
    "net",
@@ -4339,8 +4339,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/9p",
-   "include/net/9p"
+   "include/net/9p",
+   "net/9p"
   ],
   "mod_sys": [
    "net",

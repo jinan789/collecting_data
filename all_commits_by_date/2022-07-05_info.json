@@ -57,9 +57,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e4adceef5b0e75f000754254047af59c65295ac4",
-  "num_adds": 8,
-  "num_dels": 27,
-  "num_mod_lns_total": 35,
+  "num_adds": 7,
+  "num_dels": 23,
+  "num_mod_lns_total": 30,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -250,9 +250,9 @@
   "num_dels_loop": 19,
   "num_mod_total_loop": 19,
   "file_hash": "f6b9f6d57e5c765b5ff358af1d7749df5e30334c",
-  "num_adds": 18,
-  "num_dels": 648,
-  "num_mod_lns_total": 666,
+  "num_adds": 17,
+  "num_dels": 557,
+  "num_mod_lns_total": 574,
   "num_mod_files": 13,
   "is_merge": true,
   "parents": [
@@ -274,7 +274,7 @@
    "tools/testing/selftests/bpf/progs/test_core_reloc_kernel.c",
    "tools/testing/selftests/bpf/progs/test_core_reloc_type_based.c"
   ],
-  "entropy": 2.4825073632186427,
+  "entropy": 2.5134563881007024,
   "ppl_signed_off": [
    "Signed-off-by: Andrii Nakryiko <andrii@kernel.org>"
   ],
@@ -290,11 +290,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/bpf",
    "tools/testing/selftests/bpf/prog_tests",
+   "tools/bpf/bpftool",
+   "kernel/bpf",
    "tools/testing/selftests/bpf/progs",
    "tools/lib/bpf",
-   "tools/bpf/bpftool",
    "include/uapi/linux",
    "tools/include/uapi/linux"
   ],
@@ -586,7 +586,7 @@
    "tools/lib/bpf/relo_core.c",
    "tools/lib/bpf/relo_core.h"
   ],
-  "entropy": 0.4448708434576947,
+  "entropy": 0.4448708434576948,
   "ppl_signed_off": [
    "Signed-off-by: Daniel M\u00fcller <deso@posteo.net>",
    "Signed-off-by: Andrii Nakryiko <andrii@kernel.org>"
@@ -601,8 +601,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/lib/bpf",
-   "kernel/bpf"
+   "kernel/bpf",
+   "tools/lib/bpf"
   ],
   "mod_sys": [
    "kernel",
@@ -703,8 +703,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/uapi/linux",
    "tools/lib/bpf",
+   "include/uapi/linux",
    "tools/include/uapi/linux"
   ],
   "mod_sys": [
@@ -1965,15 +1965,15 @@
   "is_fix": false,
   "mod_dirs": [
    "/",
+   "Documentation/networking/device_drivers/ethernet",
    "drivers/net/ethernet/neterion/vxge",
    "drivers/net/ethernet/neterion",
    "Documentation/networking/device_drivers/ethernet/neterion",
-   "Documentation/networking/device_drivers/ethernet",
    "/"
   ],
   "mod_sys": [
-   "drivers",
-   "Documentation"
+   "Documentation",
+   "drivers"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 2,
@@ -2099,8 +2099,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "26c12725b462a4d39a8494554c9713d6fb86f6bd",
   "num_adds": 1,
-  "num_dels": 3,
-  "num_mod_lns_total": 4,
+  "num_dels": 2,
+  "num_mod_lns_total": 3,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -2111,7 +2111,7 @@
    "net/bluetooth/hci_core.c",
    "net/bluetooth/hci_sync.c"
   ],
-  "entropy": 0.8112781244591328,
+  "entropy": 0.9182958340544896,
   "ppl_signed_off": [
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
   ],
@@ -2294,8 +2294,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
    "kernel",
+   "/",
    "/"
   ],
   "mod_sys": [
@@ -2367,8 +2367,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2407,7 +2407,7 @@
    "include/linux/rcutree.h",
    "kernel/context_tracking.c"
   ],
-  "entropy": 1.044223950039286,
+  "entropy": 1.0442239500392856,
   "ppl_signed_off": [
    "Signed-off-by: Frederic Weisbecker <frederic@kernel.org>",
    "Signed-off-by: Paul E. McKenney <paulmck@kernel.org>"
@@ -2518,8 +2518,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2591,8 +2591,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2665,8 +2665,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2740,8 +2740,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2816,8 +2816,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2888,8 +2888,8 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/rcu"
   ],
   "mod_sys": [
    "kernel",
@@ -2966,18 +2966,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel",
-   "arch/arm64/kernel",
-   "Documentation/RCU/Design/Requirements",
    "arch",
+   "Documentation/RCU/Design/Requirements",
+   "kernel",
    "kernel/trace",
-   "kernel/entry",
-   "include/linux"
+   "include/linux",
+   "arch/arm64/kernel",
+   "kernel/entry"
   ],
   "mod_sys": [
    "kernel",
-   "arch",
    "Documentation",
+   "arch",
    "include"
   ],
   "num_mod_dirs": 7,
@@ -3060,23 +3060,23 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel",
-   "drivers/cpuidle",
-   "arch/x86/mm",
-   "arch/arm64/kernel",
-   "Documentation/RCU/Design/Requirements",
    "arch",
-   "Documentation/RCU",
-   "kernel/trace",
    "kernel/entry",
-   "include/linux"
+   "drivers/cpuidle",
+   "Documentation/RCU/Design/Requirements",
+   "kernel",
+   "kernel/trace",
+   "include/linux",
+   "arch/arm64/kernel",
+   "Documentation/RCU",
+   "arch/x86/mm"
   ],
   "mod_sys": [
-   "kernel",
+   "arch",
+   "include",
    "Documentation",
    "drivers",
-   "arch",
-   "include"
+   "kernel"
   ],
   "num_mod_dirs": 10,
   "num_mod_sys": 5,
@@ -3152,23 +3152,23 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/sched",
-   "kernel",
-   "drivers/cpuidle",
-   "drivers/acpi",
+   "kernel/rcu",
    "kernel/locking",
    "Documentation/RCU",
+   "drivers/cpuidle",
    "arch/arm/mach-imx",
-   "kernel/time",
-   "kernel/rcu",
-   "include/linux"
+   "include/linux",
+   "kernel/sched",
+   "kernel",
+   "drivers/acpi",
+   "kernel/time"
   ],
   "mod_sys": [
-   "kernel",
+   "arch",
+   "include",
    "Documentation",
    "drivers",
-   "arch",
-   "include"
+   "kernel"
   ],
   "num_mod_dirs": 10,
   "num_mod_sys": 5,
@@ -3277,8 +3277,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/amdgpu",
-   "drivers/gpu/drm/amd/display/amdgpu_dm"
+   "drivers/gpu/drm/amd/display/amdgpu_dm",
+   "drivers/gpu/drm/amd/amdgpu"
   ],
   "mod_sys": [
    "drivers"
@@ -3840,16 +3840,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dcn20",
    "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/amd/display/dc/dcn30",
+   "drivers/gpu/drm/amd/display/dc/core",
    "drivers/gpu/drm/amd/display/dc/dcn316",
-   "drivers/gpu/drm/amd/display/dc/dcn21",
-   "drivers/gpu/drm/amd/display/dc/dcn31",
+   "drivers/gpu/drm/amd/display/dc/dcn30",
    "drivers/gpu/drm/amd/display/dc/dcn32",
    "drivers/gpu/drm/amd/display/dc/dcn321",
-   "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/amd/display/dc/dcn315"
+   "drivers/gpu/drm/amd/display/dc/dcn31",
+   "drivers/gpu/drm/amd/display/dc/dcn21",
+   "drivers/gpu/drm/amd/display/dc/dcn315",
+   "drivers/gpu/drm/amd/display/dc/dcn20"
   ],
   "mod_sys": [
    "drivers"
@@ -3905,9 +3905,9 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/dcn321",
    "drivers/gpu/drm/amd/display/dc/dcn316",
-   "drivers/gpu/drm/amd/display/dc/dcn315"
+   "drivers/gpu/drm/amd/display/dc/dcn315",
+   "drivers/gpu/drm/amd/display/dc/dcn321"
   ],
   "mod_sys": [
    "drivers"
@@ -3943,7 +3943,7 @@
    "drivers/gpu/drm/amd/display/dc/dc_types.h",
    "drivers/gpu/drm/amd/display/include/set_mode_types.h"
   ],
-  "entropy": 1.7128876215181605,
+  "entropy": 1.7128876215181608,
   "ppl_signed_off": [
    "Signed-off-by: Chris Park <Chris.Park@amd.com>",
    "Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"
@@ -4000,7 +4000,7 @@
    "drivers/gpu/drm/amd/amdgpu/mes_v11_0.c",
    "drivers/gpu/drm/amd/include/mes_v11_api_def.h"
   ],
-  "entropy": 0.9402859586706311,
+  "entropy": 0.9402859586706309,
   "ppl_signed_off": [
    "Signed-off-by: Jack Xiao <Jack.Xiao@amd.com>",
    "Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"
@@ -4226,26 +4226,26 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dce120",
-   "drivers/gpu/drm/amd/display/dc/irq/dce80",
-   "drivers/gpu/drm/amd/display/dc/dce100",
-   "drivers/gpu/drm/amd/display/dc/virtual",
-   "drivers/gpu/drm/amd/display/dc/irq/dcn10",
-   "drivers/gpu/drm/amd/display/dc/basics",
-   "drivers/gpu/drm/amd/display/dc/dce",
-   "drivers/gpu/drm/amd/display/dc/gpio",
-   "drivers/gpu/drm/amd/display/dc/dce112",
-   "drivers/gpu/drm/amd/display/dc/irq",
-   "drivers/gpu/drm/amd/display/dc/irq/dce120",
-   "drivers/gpu/drm/amd/display/dc/bios",
-   "drivers/gpu/drm/amd/display/modules/freesync",
    "drivers/gpu/drm/amd/display/dc/dcn10",
-   "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/amd/display/dc/dce110",
-   "drivers/gpu/drm/amd/display/modules/color",
+   "drivers/gpu/drm/amd/display/dc/irq/dce80",
+   "drivers/gpu/drm/amd/display/dc/irq/dce110",
+   "drivers/gpu/drm/amd/display/modules/freesync",
+   "drivers/gpu/drm/amd/display/dc/dce112",
+   "drivers/gpu/drm/amd/display/dc/bios",
+   "drivers/gpu/drm/amd/display/dc/basics",
+   "drivers/gpu/drm/amd/display/dc/virtual",
    "drivers/gpu/drm/amd/display/dc/dce80",
+   "drivers/gpu/drm/amd/display/dc/gpio",
+   "drivers/gpu/drm/amd/display/modules/color",
+   "drivers/gpu/drm/amd/display/dc/irq",
+   "drivers/gpu/drm/amd/display/dc/dce120",
+   "drivers/gpu/drm/amd/display/dc",
+   "drivers/gpu/drm/amd/display/dc/irq/dce120",
+   "drivers/gpu/drm/amd/display/dc/dce100",
+   "drivers/gpu/drm/amd/display/dc/dce110",
    "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/amd/display/dc/irq/dce110"
+   "drivers/gpu/drm/amd/display/dc/irq/dcn10",
+   "drivers/gpu/drm/amd/display/dc/dce"
   ],
   "mod_sys": [
    "drivers"
@@ -5055,12 +5055,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dcn20",
    "drivers/gpu/drm/amd/display/dc/dcn10",
-   "drivers/gpu/drm/amd/display/dc/inc/hw",
    "drivers/gpu/drm/amd/display/dc/dcn30",
    "drivers/gpu/drm/amd/display/dc/dce",
-   "drivers/gpu/drm/amd/include/asic_reg/dce"
+   "drivers/gpu/drm/amd/include/asic_reg/dce",
+   "drivers/gpu/drm/amd/display/dc/inc/hw",
+   "drivers/gpu/drm/amd/display/dc/dcn20"
   ],
   "mod_sys": [
    "drivers"
@@ -5115,8 +5115,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/amd/display/dc/inc"
+   "drivers/gpu/drm/amd/display/dc/inc",
+   "drivers/gpu/drm/amd/display/dc/core"
   ],
   "mod_sys": [
    "drivers"
@@ -5280,8 +5280,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/amd/display/dc/inc"
+   "drivers/gpu/drm/amd/display/dc/inc",
+   "drivers/gpu/drm/amd/display/dc/core"
   ],
   "mod_sys": [
    "drivers"
@@ -5419,7 +5419,7 @@
    "drivers/gpu/drm/amd/display/dc/core/dc.c",
    "drivers/gpu/drm/amd/display/dc/dc_stream.h"
   ],
-  "entropy": 0.38890223229687704,
+  "entropy": 0.388902232296877,
   "ppl_signed_off": [
    "Signed-off-by: Rodrigo Siqueira <Rodrigo.Siqueira@amd.com>",
    "Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"
@@ -5596,12 +5596,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dml/dcn30",
    "drivers/gpu/drm/amd/display/dc",
+   "drivers/gpu/drm/amd/display/dc/core",
+   "drivers/gpu/drm/amd/display/dc/dml/dcn30",
    "drivers/gpu/drm/amd/display/dc/dcn30",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn20",
    "drivers/gpu/drm/amd/display/dmub/inc",
-   "drivers/gpu/drm/amd/display/dc/core"
+   "drivers/gpu/drm/amd/display/dc/dml/dcn20"
   ],
   "mod_sys": [
    "drivers"
@@ -5655,8 +5655,8 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/dcn30"
+   "drivers/gpu/drm/amd/display/dc/dcn30",
+   "drivers/gpu/drm/amd/display/dc/dcn32"
   ],
   "mod_sys": [
    "drivers"
@@ -5759,8 +5759,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32",
-   "drivers/gpu/drm/amd/display/dc/dcn32"
+   "drivers/gpu/drm/amd/display/dc/dcn32",
+   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32"
   ],
   "mod_sys": [
    "drivers"
@@ -5904,7 +5904,7 @@
    "drivers/gpu/drm/amd/display/dc/dml/display_mode_vba.c",
    "drivers/gpu/drm/amd/display/dc/inc/hw_sequencer_private.h"
   ],
-  "entropy": 1.9703969306711755,
+  "entropy": 1.970396930671175,
   "ppl_signed_off": [
    "Signed-off-by: Samson Tam <Samson.Tam@amd.com>",
    "Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"
@@ -5923,11 +5923,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dcn20",
    "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/amd/display/dc/dml",
+   "drivers/gpu/drm/amd/display/dc/inc",
    "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/inc"
+   "drivers/gpu/drm/amd/display/dc/dcn20",
+   "drivers/gpu/drm/amd/display/dc/dml"
   ],
   "mod_sys": [
    "drivers"
@@ -5986,10 +5986,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dcn20",
    "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/inc",
-   "drivers/gpu/drm/amd/display/dc/dcn10"
+   "drivers/gpu/drm/amd/display/dc/dcn20",
+   "drivers/gpu/drm/amd/display/dc/dcn10",
+   "drivers/gpu/drm/amd/display/dc/inc"
   ],
   "mod_sys": [
    "drivers"
@@ -6049,8 +6049,8 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/dcn321",
-   "drivers/gpu/drm/amd/display/dc/dcn30"
+   "drivers/gpu/drm/amd/display/dc/dcn30",
+   "drivers/gpu/drm/amd/display/dc/dcn321"
   ],
   "mod_sys": [
    "drivers"
@@ -6124,15 +6124,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/dc/dcn20",
    "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr",
-   "drivers/gpu/drm/amd/display/dmub/inc",
-   "drivers/gpu/drm/amd/display/dc/dml",
-   "drivers/gpu/drm/amd/display/dc/dcn32",
    "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/amd/display/dc/inc"
+   "drivers/gpu/drm/amd/display/dc/dcn32",
+   "drivers/gpu/drm/amd/display/dc/inc",
+   "drivers/gpu/drm/amd/display/dmub/inc",
+   "drivers/gpu/drm/amd/display/dc/clk_mgr",
+   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn32",
+   "drivers/gpu/drm/amd/display/dc/dcn20",
+   "drivers/gpu/drm/amd/display/dc/dml"
   ],
   "mod_sys": [
    "drivers"
@@ -6445,8 +6445,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/include",
-   "drivers/gpu/drm/amd/display/amdgpu_dm"
+   "drivers/gpu/drm/amd/display/amdgpu_dm",
+   "drivers/gpu/drm/amd/include"
   ],
   "mod_sys": [
    "drivers"
@@ -7605,8 +7605,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/base/power",
-   "include/linux"
+   "include/linux",
+   "drivers/base/power"
   ],
   "mod_sys": [
    "drivers",
@@ -7712,12 +7712,12 @@
   "is_fix": true,
   "mod_dirs": [
    "drivers/acpi",
-   "arch/x86/kernel/acpi",
-   "include/acpi"
+   "include/acpi",
+   "arch/x86/kernel/acpi"
   ],
   "mod_sys": [
-   "drivers",
    "arch",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 3,
@@ -7902,16 +7902,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/drm",
    "drivers/gpu/drm/sti",
-   "drivers/gpu/drm/panel",
-   "drivers/gpu/drm/exynos",
-   "drivers/gpu/drm/bridge/synopsys",
-   "drivers/gpu/drm/bridge",
    "drivers/gpu/drm/sun4i",
-   "drivers/gpu/drm/bridge/imx",
+   "drivers/gpu/drm/bridge/synopsys",
+   "drivers/gpu/drm/mcde",
+   "drivers/gpu/drm/panel",
    "drivers/gpu/drm/i2c",
-   "drivers/gpu/drm/mcde"
+   "drivers/gpu/drm/exynos",
+   "include/drm",
+   "drivers/gpu/drm/bridge",
+   "drivers/gpu/drm/bridge/imx"
   ],
   "mod_sys": [
    "drivers",
@@ -8004,24 +8004,24 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/imx",
-   "include/drm",
-   "drivers/gpu/drm",
-   "drivers/gpu/drm/ingenic",
-   "drivers/gpu/drm/tidss",
    "drivers/gpu/drm/bridge/cadence",
-   "drivers/gpu/drm/vc4",
-   "drivers/gpu/drm/mxsfb",
-   "drivers/gpu/drm/panel",
+   "drivers/gpu/drm/imx",
+   "drivers/gpu/drm/sun4i",
+   "drivers/gpu/drm/rockchip",
+   "drivers/gpu/drm",
    "drivers/gpu/drm/pl111",
    "drivers/gpu/drm/rcar-du",
-   "drivers/gpu/drm/rockchip",
-   "drivers/gpu/drm/stm",
+   "drivers/gpu/drm/panel",
    "drivers/gpu/drm/bridge",
+   "drivers/gpu/drm/mxsfb",
+   "drivers/gpu/drm/stm",
+   "include/drm",
+   "drivers/gpu/drm/ingenic",
    "drivers/gpu/drm/atmel-hlcdc",
+   "drivers/gpu/drm/vc4",
    "drivers/gpu/drm/mediatek",
-   "drivers/gpu/drm/sun4i",
-   "drivers/gpu/drm/bridge/imx"
+   "drivers/gpu/drm/bridge/imx",
+   "drivers/gpu/drm/tidss"
   ],
   "mod_sys": [
    "drivers",
@@ -8097,25 +8097,25 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/kmb",
-   "drivers/gpu/drm",
-   "drivers/gpu/drm/display",
    "drivers/gpu/drm/arm/display/komeda",
-   "drivers/gpu/drm/imx/dcss",
-   "drivers/gpu/drm/omapdrm",
-   "drivers/gpu/drm/sun4i",
-   "drivers/gpu/drm/hisilicon/kirin",
+   "drivers/gpu/drm/kmb",
    "drivers/gpu/drm/bridge",
    "drivers/gpu/drm/atmel-hlcdc",
-   "include/drm",
-   "drivers/gpu/drm/sti",
-   "drivers/gpu/drm/vc4",
-   "drivers/gpu/drm/vmwgfx",
-   "drivers/gpu/drm/exynos",
-   "drivers/gpu/drm/rcar-du",
-   "drivers/gpu/drm/tilcdc",
+   "drivers/gpu/drm/display",
    "drivers/gpu/drm/i915/display",
-   "drivers/gpu/drm/armada"
+   "drivers/gpu/drm/exynos",
+   "drivers/gpu/drm/omapdrm",
+   "drivers/gpu/drm/imx/dcss",
+   "drivers/gpu/drm/armada",
+   "drivers/gpu/drm/tilcdc",
+   "drivers/gpu/drm/sti",
+   "drivers/gpu/drm/vmwgfx",
+   "include/drm",
+   "drivers/gpu/drm/vc4",
+   "drivers/gpu/drm/sun4i",
+   "drivers/gpu/drm",
+   "drivers/gpu/drm/rcar-du",
+   "drivers/gpu/drm/hisilicon/kirin"
   ],
   "mod_sys": [
    "drivers",
@@ -8334,16 +8334,16 @@
   "committer_date": "2022-07-05 10:40:30 -0600"
  },
  "e35e5b6f695d241ffb1d223207da58a1fbcdff4b": {
-  "num_adds_if": 10,
-  "num_dels_if": 16,
+  "num_adds_if": 16,
+  "num_dels_if": 10,
   "num_mod_total_if": 26,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e35e5b6f695d241ffb1d223207da58a1fbcdff4b",
-  "num_adds": 23,
-  "num_dels": 93,
-  "num_mod_lns_total": 116,
+  "num_adds": 80,
+  "num_dels": 23,
+  "num_mod_lns_total": 103,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -8355,7 +8355,7 @@
    "drivers/block/xen-blkfront.c",
    "drivers/net/xen-netfront.c"
   ],
-  "entropy": 1.2417260317105026,
+  "entropy": 1.260410066760929,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -8367,13 +8367,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm/xen",
+   "drivers/net",
    "drivers/block",
-   "drivers/net"
+   "arch/arm/xen"
   ],
   "mod_sys": [
-   "drivers",
-   "arch"
+   "arch",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -8725,12 +8725,12 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "fs/fscache",
-   "include/linux"
+   "include/linux",
+   "fs/fscache"
   ],
   "mod_sys": [
-   "fs",
-   "include"
+   "include",
+   "fs"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -9003,16 +9003,16 @@
   "committer_date": "2022-07-05 15:58:59 +0200"
  },
  "2be9e847070939c50d745e68815e673960586ac2": {
-  "num_adds_if": 0,
-  "num_dels_if": 2,
+  "num_adds_if": 2,
+  "num_dels_if": 0,
   "num_mod_total_if": 2,
-  "num_adds_loop": 1,
-  "num_dels_loop": 2,
+  "num_adds_loop": 2,
+  "num_dels_loop": 1,
   "num_mod_total_loop": 3,
   "file_hash": "2be9e847070939c50d745e68815e673960586ac2",
-  "num_adds": 17,
-  "num_dels": 925,
-  "num_mod_lns_total": 942,
+  "num_adds": 845,
+  "num_dels": 15,
+  "num_mod_lns_total": 860,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -9030,7 +9030,7 @@
    "drivers/interconnect/qcom/sm6350.h",
    "include/dt-bindings/interconnect/qcom,sm6350.h"
   ],
-  "entropy": 2.068626574443105,
+  "entropy": 2.0295509158955887,
   "ppl_signed_off": [
    "Signed-off-by: Georgi Djakov <djakov@kernel.org>"
   ],
@@ -9044,13 +9044,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/dt-bindings/interconnect",
    "drivers/interconnect/qcom",
+   "include/dt-bindings/interconnect",
    "Documentation/devicetree/bindings/interconnect"
   ],
   "mod_sys": [
-   "drivers",
    "Documentation",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 3,
@@ -9881,7 +9881,7 @@
    "sound/soc/amd/acp-pcm-dma.c",
    "sound/soc/amd/acp.h"
   ],
-  "entropy": 0.6939659673342858,
+  "entropy": 0.693965967334286,
   "ppl_signed_off": [
    "Signed-off-by: Vijendar Mukunda <Vijendar.Mukunda@amd.com>",
    "Signed-off-by: Mark Brown <broonie@kernel.org>"
@@ -10218,9 +10218,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3d34cae102b0612dcce0bd4603a4d6302b8039ed",
-  "num_adds": 123,
-  "num_dels": 118,
-  "num_mod_lns_total": 241,
+  "num_adds": 117,
+  "num_dels": 123,
+  "num_mod_lns_total": 240,
   "num_mod_files": 15,
   "is_merge": true,
   "parents": [
@@ -10244,7 +10244,7 @@
    "arch/arm/boot/dts/aspeed-bmc-opp-witherspoon.dts",
    "arch/arm/boot/dts/aspeed-bmc-opp-zaius.dts"
   ],
-  "entropy": 3.4444045352561345,
+  "entropy": 3.4445138970443456,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -10416,13 +10416,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "arch/arm64/kernel",
    "Documentation/arm64",
-   "arch/arm64",
-   "arch/arm64/kernel"
+   "arch/arm64"
   ],
   "mod_sys": [
-   "arch",
-   "Documentation"
+   "Documentation",
+   "arch"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -10468,8 +10468,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10518,8 +10518,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10568,8 +10568,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10618,8 +10618,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10668,8 +10668,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10718,8 +10718,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10768,8 +10768,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10818,8 +10818,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10868,8 +10868,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10918,8 +10918,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -10953,7 +10953,7 @@
    "arch/arm64/include/asm/sysreg.h",
    "arch/arm64/tools/sysreg"
   ],
-  "entropy": 0.954434002924965,
+  "entropy": 0.9544340029249649,
   "ppl_signed_off": [
    "Signed-off-by: Mark Brown <broonie@kernel.org>",
    "Signed-off-by: Will Deacon <will@kernel.org>"
@@ -10968,8 +10968,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -11018,8 +11018,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/tools",
-   "arch/arm64/include/asm"
+   "arch/arm64/include/asm",
+   "arch/arm64/tools"
   ],
   "mod_sys": [
    "arch"
@@ -11074,10 +11074,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/kvm/hyp/include/nvhe",
    "arch/arm64/kvm/hyp/nvhe",
-   "arch/arm64/kernel",
+   "arch/arm64/kvm/hyp/include/nvhe",
    "arch/arm64/kvm",
+   "arch/arm64/kernel",
    "arch/arm64/include/asm"
   ],
   "mod_sys": [
@@ -11132,10 +11132,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/kvm/hyp/include/nvhe",
    "arch/arm64/kvm/hyp/nvhe",
-   "arch/arm64/kernel",
+   "arch/arm64/kvm/hyp/include/nvhe",
    "arch/arm64/kvm",
+   "arch/arm64/kernel",
    "arch/arm64/include/asm"
   ],
   "mod_sys": [
@@ -11233,8 +11233,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11284,8 +11284,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11335,9 +11335,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/kvm",
+   "arch/arm64/kernel",
    "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kvm"
   ],
   "mod_sys": [
    "arch"
@@ -11387,8 +11387,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11437,8 +11437,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11488,9 +11488,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/lib",
+   "arch/arm64/kernel",
    "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/lib"
   ],
   "mod_sys": [
    "arch"
@@ -11539,8 +11539,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11594,8 +11594,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -11840,8 +11840,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/kernel",
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -12416,9 +12416,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "tools/bpf/bpftool",
    "tools/bpf/bpftool/Documentation",
-   "tools/bpf/bpftool/bash-completion",
-   "tools/bpf/bpftool"
+   "tools/bpf/bpftool/bash-completion"
   ],
   "mod_sys": [
    "tools"
@@ -12871,7 +12871,7 @@
    "arch/arm/boot/dts/stm32mp153c-dhcor-drc-compact.dts",
    "arch/arm/boot/dts/stm32mp15xx-dhcor-drc-compact.dtsi"
   ],
-  "entropy": 0.44559516044893666,
+  "entropy": 0.4455951604489367,
   "ppl_signed_off": [
    "Signed-off-by: Marek Vasut <marex@denx.de>",
    "Signed-off-by: Alexandre Torgue <alexandre.torgue@foss.st.com>"
@@ -13276,8 +13276,8 @@
   "num_mod_total_loop": 1,
   "file_hash": "a94afe18ac3b4cae88a50a1e5de6bfe9989f06b0",
   "num_adds": 11,
-  "num_dels": 189,
-  "num_mod_lns_total": 200,
+  "num_dels": 157,
+  "num_mod_lns_total": 168,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -13290,7 +13290,7 @@
    "tools/testing/selftests/net/af_unix/Makefile",
    "tools/testing/selftests/net/af_unix/unix_connect.c"
   ],
-  "entropy": 0.9364728243753522,
+  "entropy": 0.9585118297141035,
   "ppl_signed_off": [
    "Signed-off-by: Paolo Abeni <pabeni@redhat.com>"
   ],
@@ -13305,12 +13305,12 @@
   "is_fix": false,
   "mod_dirs": [
    "net/unix",
-   "tools/testing/selftests/net",
-   "tools/testing/selftests/net/af_unix"
+   "tools/testing/selftests/net/af_unix",
+   "tools/testing/selftests/net"
   ],
   "mod_sys": [
-   "net",
-   "tools"
+   "tools",
+   "net"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -13357,8 +13357,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/net",
-   "tools/testing/selftests/net/af_unix"
+   "tools/testing/selftests/net/af_unix",
+   "tools/testing/selftests/net"
   ],
   "mod_sys": [
    "tools"
@@ -14927,9 +14927,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ce05f30dc3a04ca32f91f9fd2a3de7e0b52b0417",
-  "num_adds": 0,
-  "num_dels": 20,
-  "num_mod_lns_total": 20,
+  "num_adds": 19,
+  "num_dels": 0,
+  "num_mod_lns_total": 19,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -16154,7 +16154,7 @@
    "drivers/pinctrl/renesas/Makefile",
    "drivers/pinctrl/renesas/pinctrl-rzv2m.c"
   ],
-  "entropy": 0.1096839582758765,
+  "entropy": 0.10968395827587651,
   "ppl_signed_off": [
    "Signed-off-by: Phil Edworthy <phil.edworthy@renesas.com>",
    "Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>"
@@ -17144,17 +17144,17 @@
   "committer_date": "2022-07-05 10:57:32 +0530"
  },
  "1ff1da40d6fc9b0125e1c0fcceb09f1d3bca9f05": {
-  "num_adds_if": 0,
-  "num_dels_if": 0,
-  "num_mod_total_if": 0,
-  "num_adds_loop": 0,
-  "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_adds_if": 52,
+  "num_dels_if": 64,
+  "num_mod_total_if": 116,
+  "num_adds_loop": 10,
+  "num_dels_loop": 17,
+  "num_mod_total_loop": 27,
   "file_hash": "1ff1da40d6fc9b0125e1c0fcceb09f1d3bca9f05",
-  "num_adds": 0,
-  "num_dels": 0,
-  "num_mod_lns_total": 0,
-  "num_mod_files": 0,
+  "num_adds": 1043,
+  "num_dels": 1011,
+  "num_mod_lns_total": 2054,
+  "num_mod_files": 58,
   "is_merge": true,
   "parents": [
    "2311720a0182",
@@ -17165,8 +17165,67 @@
    "eeda2bc4fcd9",
    "97b10e15df73"
   ],
-  "mod_files_lst": [],
-  "entropy": 0.0,
+  "mod_files_lst": [
+   "Documentation/devicetree/bindings/display/msm/dp-controller.yaml",
+   "Documentation/devicetree/bindings/display/msm/hdmi.txt",
+   "Documentation/devicetree/bindings/display/msm/hdmi.yaml",
+   "Documentation/devicetree/bindings/phy/qcom,hdmi-phy-other.yaml",
+   "Documentation/devicetree/bindings/phy/qcom,hdmi-phy-qmp.yaml",
+   "drivers/gpu/drm/msm/Makefile",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_core_perf.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_core_perf.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_crtc.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_encoder.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_encoder.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_encoder_phys_wb.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_catalog.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_catalog.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_ctl.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_dsc.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_dsc.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_dspp.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_interrupts.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_interrupts.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_intf.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_intf.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_lm.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_merge3d.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_pingpong.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_sspp.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_sspp.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_top.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_util.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_util.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_vbif.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_hw_wb.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_kms.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_kms.h",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_plane.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_rm.c",
+   "drivers/gpu/drm/msm/disp/dpu1/dpu_rm.h",
+   "drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.c",
+   "drivers/gpu/drm/msm/disp/mdp4/mdp4_kms.h",
+   "drivers/gpu/drm/msm/disp/mdp5/mdp5_cfg.c",
+   "drivers/gpu/drm/msm/dp/dp_clk_util.c",
+   "drivers/gpu/drm/msm/dp/dp_clk_util.h",
+   "drivers/gpu/drm/msm/dp/dp_ctrl.c",
+   "drivers/gpu/drm/msm/dp/dp_display.c",
+   "drivers/gpu/drm/msm/dp/dp_display.h",
+   "drivers/gpu/drm/msm/dp/dp_drm.c",
+   "drivers/gpu/drm/msm/dp/dp_drm.h",
+   "drivers/gpu/drm/msm/dp/dp_parser.c",
+   "drivers/gpu/drm/msm/dp/dp_parser.h",
+   "drivers/gpu/drm/msm/dp/dp_power.c",
+   "drivers/gpu/drm/msm/dsi/dsi_host.c",
+   "drivers/gpu/drm/msm/hdmi/hdmi.c",
+   "drivers/gpu/drm/msm/hdmi/hdmi.h",
+   "drivers/gpu/drm/msm/hdmi/hdmi_bridge.c",
+   "drivers/gpu/drm/msm/hdmi/hdmi_hpd.c",
+   "drivers/gpu/drm/msm/hdmi/hdmi_phy_8x60.c",
+   "drivers/gpu/drm/msm/msm_drv.h"
+  ],
+  "entropy": 4.381468543523144,
   "ppl_signed_off": [
    "Signed-off-by: Dmitry Baryshkov <dmitry.baryshkov@linaro.org>"
   ],
@@ -17179,10 +17238,23 @@
   "ppl_co_developed": [],
   "fixes_lst": [],
   "is_fix": false,
-  "mod_dirs": [],
-  "mod_sys": [],
-  "num_mod_dirs": 0,
-  "num_mod_sys": 0,
+  "mod_dirs": [
+   "drivers/gpu/drm/msm/hdmi",
+   "Documentation/devicetree/bindings/display/msm",
+   "Documentation/devicetree/bindings/phy",
+   "drivers/gpu/drm/msm/dsi",
+   "drivers/gpu/drm/msm/dp",
+   "drivers/gpu/drm/msm/disp/mdp5",
+   "drivers/gpu/drm/msm/disp/mdp4",
+   "drivers/gpu/drm/msm/disp/dpu1",
+   "drivers/gpu/drm/msm"
+  ],
+  "mod_sys": [
+   "Documentation",
+   "drivers"
+  ],
+  "num_mod_dirs": 9,
+  "num_mod_sys": 2,
   "author": "Dmitry Baryshkov",
   "author_email": "dmitry.baryshkov@linaro.org",
   "committer": "Dmitry Baryshkov",
@@ -17334,12 +17406,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/msm",
-   "Documentation/gpu"
+   "Documentation/gpu",
+   "drivers/gpu/drm/msm"
   ],
   "mod_sys": [
-   "drivers",
-   "Documentation"
+   "Documentation",
+   "drivers"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,

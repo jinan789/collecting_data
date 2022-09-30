@@ -182,8 +182,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/include/linux/sched",
-   "include/linux"
+   "include/linux",
+   "tools/include/linux/sched"
   ],
   "mod_sys": [
    "tools",
@@ -415,7 +415,7 @@
    "net/sunrpc/sched.c",
    "net/sunrpc/xprtrdma/transport.c"
   ],
-  "entropy": 1.198192411043098,
+  "entropy": 1.1981924110430977,
   "ppl_signed_off": [
    "Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"
   ],
@@ -430,8 +430,8 @@
   "is_fix": false,
   "mod_dirs": [
    "net/sunrpc/auth_gss",
-   "net/sunrpc",
-   "net/sunrpc/xprtrdma"
+   "net/sunrpc/xprtrdma",
+   "net/sunrpc"
   ],
   "mod_sys": [
    "net"
@@ -490,16 +490,16 @@
   "committer_date": "2022-07-10 14:40:51 -0700"
  },
  "24f4b40ec2184f3698faed3082895fcc1f6be282": {
-  "num_adds_if": 1,
-  "num_dels_if": 3,
+  "num_adds_if": 3,
+  "num_dels_if": 1,
   "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "24f4b40ec2184f3698faed3082895fcc1f6be282",
-  "num_adds": 13,
-  "num_dels": 18,
-  "num_mod_lns_total": 31,
+  "num_adds": 17,
+  "num_dels": 13,
+  "num_mod_lns_total": 30,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -511,7 +511,7 @@
    "kernel/ptrace.c",
    "lib/idr.c"
   ],
-  "entropy": 0.7939924338116537,
+  "entropy": 0.8118475207241324,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -695,16 +695,16 @@
   "committer_date": "2022-07-10 12:10:07 -0700"
  },
  "952c53cd357c71338a59d444933ed48a879229e1": {
-  "num_adds_if": 11,
-  "num_dels_if": 6,
+  "num_adds_if": 6,
+  "num_dels_if": 11,
   "num_mod_total_if": 17,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "952c53cd357c71338a59d444933ed48a879229e1",
-  "num_adds": 56,
-  "num_dels": 43,
-  "num_mod_lns_total": 99,
+  "num_adds": 42,
+  "num_dels": 53,
+  "num_mod_lns_total": 95,
   "num_mod_files": 11,
   "is_merge": true,
   "parents": [
@@ -724,7 +724,7 @@
    "drivers/dma/qcom/bam_dma.c",
    "drivers/dma/ti/dma-crossbar.c"
   ],
-  "entropy": 2.8119230025768824,
+  "entropy": 2.8313539857319787,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -736,17 +736,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/dma/idxd",
-   "Documentation/devicetree/bindings/dma",
    "drivers/dma",
-   "drivers/dma/dw-axi-dmac",
-   "drivers/dma/qcom",
+   "Documentation/devicetree/bindings/dma",
    "drivers/dma/lgm",
-   "drivers/dma/ti"
+   "drivers/dma/ti",
+   "drivers/dma/idxd",
+   "drivers/dma/dw-axi-dmac",
+   "drivers/dma/qcom"
   ],
   "mod_sys": [
-   "drivers",
-   "Documentation"
+   "Documentation",
+   "drivers"
   ],
   "num_mod_dirs": 7,
   "num_mod_sys": 2,
@@ -945,8 +945,8 @@
    "tools/testing/cxl/test"
   ],
   "mod_sys": [
-   "drivers",
-   "tools"
+   "tools",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -1206,16 +1206,16 @@
   "committer_date": "2022-07-10 09:51:56 -0700"
  },
  "b41362fdf26710693535fade5e4eeda019c3b410": {
-  "num_adds_if": 1,
-  "num_dels_if": 2,
+  "num_adds_if": 2,
+  "num_dels_if": 1,
   "num_mod_total_if": 3,
   "num_adds_loop": 1,
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "b41362fdf26710693535fade5e4eeda019c3b410",
-  "num_adds": 24,
-  "num_dels": 31,
-  "num_mod_lns_total": 55,
+  "num_adds": 28,
+  "num_dels": 24,
+  "num_mod_lns_total": 52,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -1227,7 +1227,7 @@
    "drivers/misc/eeprom/at25.c",
    "include/linux/rtsx_usb.h"
   ],
-  "entropy": 1.1887525275231678,
+  "entropy": 1.1956217818146277,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1239,8 +1239,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/misc/eeprom",
    "include/linux",
+   "drivers/misc/eeprom",
    "drivers/misc/cardreader"
   ],
   "mod_sys": [
@@ -1257,16 +1257,16 @@
   "committer_date": "2022-07-10 09:45:29 -0700"
  },
  "d9919d43cbf6790d2bc0c0a2743c51fc25f26919": {
-  "num_adds_if": 0,
-  "num_dels_if": 1,
+  "num_adds_if": 1,
+  "num_dels_if": 0,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d9919d43cbf6790d2bc0c0a2743c51fc25f26919",
-  "num_adds": 0,
-  "num_dels": 3,
-  "num_mod_lns_total": 3,
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -1610,9 +1610,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "2fbd36dfae40cc90ba6a4761e0efff62e4d919fe",
-  "num_adds": 6,
-  "num_dels": 3,
-  "num_mod_lns_total": 9,
+  "num_adds": 3,
+  "num_dels": 5,
+  "num_mod_lns_total": 8,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -1623,7 +1623,7 @@
    "scripts/Makefile.modinst",
    "scripts/clang-tools/gen_compile_commands.py"
   ],
-  "entropy": 0.9182958340544896,
+  "entropy": 0.8112781244591328,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1635,8 +1635,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "scripts/clang-tools",
-   "scripts"
+   "scripts",
+   "scripts/clang-tools"
   ],
   "mod_sys": [
    "scripts"
@@ -1651,16 +1651,16 @@
   "committer_date": "2022-07-10 08:59:02 -0700"
  },
  "2b9b31cedb7064b16510251cf20ed44b05b71456": {
-  "num_adds_if": 1,
-  "num_dels_if": 3,
+  "num_adds_if": 3,
+  "num_dels_if": 1,
   "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2b9b31cedb7064b16510251cf20ed44b05b71456",
-  "num_adds": 12,
-  "num_dels": 33,
-  "num_mod_lns_total": 45,
+  "num_adds": 28,
+  "num_dels": 11,
+  "num_mod_lns_total": 39,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -1672,7 +1672,7 @@
    "drivers/irqchip/irq-apple-aic.c",
    "drivers/irqchip/irq-gic-v3.c"
   ],
-  "entropy": 0.5216390476776429,
+  "entropy": 0.5796354087834323,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1702,13 +1702,13 @@
   "num_adds_if": 1,
   "num_dels_if": 1,
   "num_mod_total_if": 2,
-  "num_adds_loop": 0,
-  "num_dels_loop": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "74a0032b8524ee2bd4443128c0bf9775928680b0",
-  "num_adds": 16,
-  "num_dels": 29,
-  "num_mod_lns_total": 45,
+  "num_adds": 23,
+  "num_dels": 15,
+  "num_mod_lns_total": 38,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -1725,7 +1725,7 @@
    "arch/x86/xen/xen-head.S",
    "tools/objtool/check.c"
   ],
-  "entropy": 2.673302601017791,
+  "entropy": 2.6466713206940726,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1738,15 +1738,15 @@
   "is_fix": false,
   "mod_dirs": [
    "arch/x86/kernel",
-   "arch/x86/xen",
-   "arch/x86/boot/compressed",
-   "arch/x86/include/asm",
+   "arch/x86/include/uapi/asm",
    "tools/objtool",
-   "arch/x86/include/uapi/asm"
+   "arch/x86/xen",
+   "arch/x86/include/asm",
+   "arch/x86/boot/compressed"
   ],
   "mod_sys": [
-   "arch",
-   "tools"
+   "tools",
+   "arch"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 2,
@@ -2470,16 +2470,16 @@
   "committer_date": "2022-07-10 11:17:40 +0200"
  },
  "d4a930a08c2664662e08e9a895c4d10fd30c04d9": {
-  "num_adds_if": 10,
-  "num_dels_if": 19,
+  "num_adds_if": 19,
+  "num_dels_if": 10,
   "num_mod_total_if": 29,
   "num_adds_loop": 2,
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "d4a930a08c2664662e08e9a895c4d10fd30c04d9",
-  "num_adds": 125,
-  "num_dels": 176,
-  "num_mod_lns_total": 301,
+  "num_adds": 158,
+  "num_dels": 119,
+  "num_mod_lns_total": 277,
   "num_mod_files": 25,
   "is_merge": true,
   "parents": [
@@ -2513,7 +2513,7 @@
    "kernel/irq/ipi.c",
    "kernel/irq/manage.c"
   ],
-  "entropy": 3.5015272169192206,
+  "entropy": 3.5986882690947017,
   "ppl_signed_off": [
    "Signed-off-by: Marc Zyngier <maz@kernel.org>"
   ],
@@ -2528,26 +2528,26 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel/irq",
-   "arch/xtensa/kernel",
-   "drivers/parisc",
-   "drivers/sh/intc",
-   "arch/ia64/kernel",
-   "arch/alpha/kernel",
-   "arch/mips/cavium-octeon",
-   "arch/arm/mach-hisi",
+   "arch/sh/kernel",
    "arch/x86/hyperv",
    "drivers/irqchip",
-   "arch/sh/kernel",
-   "drivers/pci/controller",
-   "drivers/iommu",
+   "arch/xtensa/kernel",
+   "arch/mips/cavium-octeon",
    "drivers/xen/events",
+   "drivers/iommu",
+   "arch/ia64/kernel",
+   "drivers/parisc",
+   "include/linux",
+   "drivers/sh/intc",
+   "arch/alpha/kernel",
    "arch/parisc/kernel",
-   "include/linux"
+   "drivers/pci/controller",
+   "arch/arm/mach-hisi"
   ],
   "mod_sys": [
    "kernel",
-   "drivers",
    "arch",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 16,
@@ -2657,16 +2657,16 @@
   "committer_date": "2022-07-10 09:50:04 +0100"
  },
  "4f4b8f8f95f2f4055a7725283ba144a16e05f2bb": {
-  "num_adds_if": 7,
-  "num_dels_if": 17,
+  "num_adds_if": 17,
+  "num_dels_if": 7,
   "num_mod_total_if": 24,
   "num_adds_loop": 1,
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "4f4b8f8f95f2f4055a7725283ba144a16e05f2bb",
-  "num_adds": 95,
-  "num_dels": 141,
-  "num_mod_lns_total": 236,
+  "num_adds": 128,
+  "num_dels": 91,
+  "num_mod_lns_total": 219,
   "num_mod_files": 24,
   "is_merge": true,
   "parents": [
@@ -2699,7 +2699,7 @@
    "kernel/irq/ipi.c",
    "kernel/irq/manage.c"
   ],
-  "entropy": 3.4986096117785106,
+  "entropy": 3.6082698929039894,
   "ppl_signed_off": [
    "Signed-off-by: Marc Zyngier <maz@kernel.org>"
   ],
@@ -2714,26 +2714,26 @@
   "is_fix": false,
   "mod_dirs": [
    "kernel/irq",
-   "arch/xtensa/kernel",
-   "drivers/parisc",
-   "drivers/sh/intc",
-   "arch/ia64/kernel",
-   "arch/alpha/kernel",
-   "arch/mips/cavium-octeon",
-   "arch/arm/mach-hisi",
+   "arch/sh/kernel",
    "arch/x86/hyperv",
    "drivers/irqchip",
-   "arch/sh/kernel",
-   "drivers/pci/controller",
-   "drivers/iommu",
+   "arch/xtensa/kernel",
+   "arch/mips/cavium-octeon",
    "drivers/xen/events",
+   "drivers/iommu",
+   "arch/ia64/kernel",
+   "drivers/parisc",
+   "include/linux",
+   "drivers/sh/intc",
+   "arch/alpha/kernel",
    "arch/parisc/kernel",
-   "include/linux"
+   "drivers/pci/controller",
+   "arch/arm/mach-hisi"
   ],
   "mod_sys": [
    "kernel",
-   "drivers",
    "arch",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 16,
@@ -2749,13 +2749,13 @@
   "num_adds_if": 4,
   "num_dels_if": 4,
   "num_mod_total_if": 8,
-  "num_adds_loop": 1,
-  "num_dels_loop": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "828f5602978c3828c2d8a5f0c81b33e4b270f670",
-  "num_adds": 127,
-  "num_dels": 126,
-  "num_mod_lns_total": 253,
+  "num_adds": 121,
+  "num_dels": 122,
+  "num_mod_lns_total": 243,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -2766,7 +2766,7 @@
    "drivers/irqchip/irq-stm32-exti.c",
    "kernel/irq/chip.c"
   ],
-  "entropy": 0.0928712084188745,
+  "entropy": 0.09597040299587187,
   "ppl_signed_off": [
    "Signed-off-by: Marc Zyngier <maz@kernel.org>"
   ],
@@ -2780,8 +2780,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/irq",
-   "drivers/irqchip"
+   "drivers/irqchip",
+   "kernel/irq"
   ],
   "mod_sys": [
    "kernel",
@@ -3104,8 +3104,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/pinctrl/qcom",
    "drivers/gpio",
+   "drivers/pinctrl/qcom",
    "include/linux/gpio"
   ],
   "mod_sys": [
@@ -3122,16 +3122,16 @@
   "committer_date": "2022-07-10 09:30:00 +0100"
  },
  "04131ae29b2d9879ad2357e2b20a5de4dfee89cb": {
-  "num_adds_if": 0,
-  "num_dels_if": 74,
+  "num_adds_if": 74,
+  "num_dels_if": 0,
   "num_mod_total_if": 74,
-  "num_adds_loop": 0,
-  "num_dels_loop": 21,
+  "num_adds_loop": 21,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 21,
   "file_hash": "04131ae29b2d9879ad2357e2b20a5de4dfee89cb",
-  "num_adds": 6,
-  "num_dels": 5610,
-  "num_mod_lns_total": 5616,
+  "num_adds": 5057,
+  "num_dels": 6,
+  "num_mod_lns_total": 5063,
   "num_mod_files": 12,
   "is_merge": true,
   "parents": [
@@ -3152,7 +3152,7 @@
    "include/dt-bindings/pinctrl/rzg2l-pinctrl.h",
    "include/dt-bindings/pinctrl/rzv2m-pinctrl.h"
   ],
-  "entropy": 1.0215241952941518,
+  "entropy": 0.9857539385322679,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -3164,13 +3164,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "drivers/pinctrl/renesas",
    "include/dt-bindings/pinctrl",
-   "Documentation/devicetree/bindings/pinctrl",
-   "drivers/pinctrl/renesas"
+   "Documentation/devicetree/bindings/pinctrl"
   ],
   "mod_sys": [
-   "drivers",
    "Documentation",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 3,
@@ -3337,9 +3337,9 @@
   "num_dels_loop": 10,
   "num_mod_total_loop": 20,
   "file_hash": "5495d1636b93ad9e5471f74a94487964c99f8b08",
-  "num_adds": 54,
-  "num_dels": 471,
-  "num_mod_lns_total": 525,
+  "num_adds": 452,
+  "num_dels": 54,
+  "num_mod_lns_total": 506,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -3358,7 +3358,7 @@
    "drivers/pinctrl/intel/pinctrl-merrifield.c",
    "drivers/pinctrl/intel/pinctrl-meteorlake.c"
   ],
-  "entropy": 1.3209201579568355,
+  "entropy": 1.3464530854770462,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -3370,8 +3370,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
    "drivers/pinctrl/intel",
+   "/",
    "/"
   ],
   "mod_sys": [

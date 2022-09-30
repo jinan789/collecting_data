@@ -54,9 +54,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "785538bfdd682c8e962341d585f9b88262a0475e",
-  "num_adds": 15,
-  "num_dels": 54,
-  "num_mod_lns_total": 69,
+  "num_adds": 17,
+  "num_dels": 58,
+  "num_mod_lns_total": 75,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -66,7 +66,7 @@
    "drivers/scsi/sd.c",
    "drivers/scsi/sd.h"
   ],
-  "entropy": 0.3193373865339728,
+  "entropy": 0.30039141736478187,
   "ppl_signed_off": [
    "Signed-off-by: Bart Van Assche <bvanassche@acm.org>",
    "Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"
@@ -168,9 +168,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "5003e52c311a2135d737ae906577c639fbaafe54",
-  "num_adds": 29,
-  "num_dels": 109,
-  "num_mod_lns_total": 138,
+  "num_adds": 25,
+  "num_dels": 94,
+  "num_mod_lns_total": 119,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -188,7 +188,7 @@
    "tools/testing/selftests/drivers/net/bonding/config",
    "tools/testing/selftests/drivers/net/bonding/settings"
   ],
-  "entropy": 1.5551403285885186,
+  "entropy": 1.568770824531315,
   "ppl_signed_off": [
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
   ],
@@ -202,17 +202,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/drivers/net/bonding",
    "/",
-   "drivers/net/bonding",
-   "include/net",
+   "tools/testing/selftests/drivers/net/bonding",
    "tools/testing/selftests",
+   "include/net",
+   "drivers/net/bonding",
    "/"
   ],
   "mod_sys": [
-   "include",
    "tools",
-   "drivers"
+   "drivers",
+   "include"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 3,
@@ -232,8 +232,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "f2e44dffa97f2e1c222a959ea5b6e604548b891b",
   "num_adds": 4,
-  "num_dels": 6,
-  "num_mod_lns_total": 10,
+  "num_dels": 9,
+  "num_mod_lns_total": 13,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -244,7 +244,7 @@
    "drivers/net/bonding/bond_main.c",
    "include/net/bond_3ad.h"
   ],
-  "entropy": 1.3709505944546687,
+  "entropy": 1.198183947911799,
   "ppl_signed_off": [
    "Signed-off-by: Jonathan Toppins <jtoppins@redhat.com>",
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
@@ -261,12 +261,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/bonding",
-   "include/net"
+   "include/net",
+   "drivers/net/bonding"
   ],
   "mod_sys": [
-   "include",
-   "drivers"
+   "drivers",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -285,9 +285,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d745b5062ad2b5da90a5e728d7ca884fc07315fd",
-  "num_adds": 13,
-  "num_dels": 16,
-  "num_mod_lns_total": 29,
+  "num_adds": 16,
+  "num_dels": 20,
+  "num_mod_lns_total": 36,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -370,9 +370,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "/",
    "tools/testing/selftests/drivers/net/bonding",
    "tools/testing/selftests",
-   "/",
    "/"
   ],
   "mod_sys": [
@@ -395,9 +395,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "0ee7828dfc56e97d71e51e6374dc7b4eb2b6e081",
-  "num_adds": 4,
+  "num_adds": 5,
   "num_dels": 4,
-  "num_mod_lns_total": 8,
+  "num_mod_lns_total": 9,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -545,13 +545,13 @@
   "num_adds_if": 1,
   "num_dels_if": 1,
   "num_mod_total_if": 2,
-  "num_adds_loop": 0,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_mod_total_loop": 1,
   "file_hash": "5fbb08eb7f945c7e8896ea39f03143ce66dfa4c7",
-  "num_adds": 4,
+  "num_adds": 7,
   "num_dels": 1,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 8,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -650,16 +650,16 @@
   "committer_date": "2022-08-22 16:59:49 -0700"
  },
  "1d9e325793db26a5f816cdc54346eeaed2af31a3": {
-  "num_adds_if": 15,
-  "num_dels_if": 37,
+  "num_adds_if": 37,
+  "num_dels_if": 15,
   "num_mod_total_if": 52,
-  "num_adds_loop": 4,
-  "num_dels_loop": 3,
+  "num_adds_loop": 3,
+  "num_dels_loop": 4,
   "num_mod_total_loop": 7,
   "file_hash": "1d9e325793db26a5f816cdc54346eeaed2af31a3",
-  "num_adds": 119,
-  "num_dels": 240,
-  "num_mod_lns_total": 359,
+  "num_adds": 215,
+  "num_dels": 110,
+  "num_mod_lns_total": 325,
   "num_mod_files": 18,
   "is_merge": true,
   "parents": [
@@ -686,7 +686,7 @@
    "mm/userfaultfd.c",
    "mm/vmstat.c"
   ],
-  "entropy": 3.3355717312905235,
+  "entropy": 3.3556204281645514,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -698,21 +698,21 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux",
    "/",
-   "kernel",
-   "fs",
-   "mm",
-   "fs/proc",
    "drivers/block/zram",
+   "fs",
+   "fs/proc",
+   "include/linux",
+   "kernel",
+   "mm",
    "/"
   ],
   "mod_sys": [
-   "kernel",
-   "fs",
-   "mm",
    "include",
-   "drivers"
+   "fs",
+   "drivers",
+   "kernel",
+   "mm"
   ],
   "num_mod_dirs": 8,
   "num_mod_sys": 5,
@@ -1199,8 +1199,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "7b3707fc79044871ab8f3d5fa5e9603155bb5577",
   "num_adds": 0,
-  "num_dels": 6,
-  "num_mod_lns_total": 6,
+  "num_dels": 8,
+  "num_mod_lns_total": 8,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1282,12 +1282,12 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "drivers/net/ethernet/mellanox/mlx5/core",
-   "include/linux/mlx5"
+   "include/linux/mlx5",
+   "drivers/net/ethernet/mellanox/mlx5/core"
   ],
   "mod_sys": [
-   "include",
-   "drivers"
+   "drivers",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1561,16 +1561,16 @@
   "committer_date": "2022-08-22 12:57:06 -0700"
  },
  "072e51356cd5a4a1c12c1020bc054c99b98333df": {
-  "num_adds_if": 1,
-  "num_dels_if": 3,
+  "num_adds_if": 3,
+  "num_dels_if": 1,
   "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "072e51356cd5a4a1c12c1020bc054c99b98333df",
-  "num_adds": 16,
-  "num_dels": 24,
-  "num_mod_lns_total": 40,
+  "num_adds": 22,
+  "num_dels": 16,
+  "num_mod_lns_total": 38,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -1587,7 +1587,7 @@
    "include/linux/nfs_fs.h",
    "net/sunrpc/clnt.c"
   ],
-  "entropy": 2.4900682599577406,
+  "entropy": 2.4722926624592523,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1599,13 +1599,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/sunrpc",
    "include/linux",
+   "net/sunrpc",
    "fs/nfs"
   ],
   "mod_sys": [
-   "include",
    "net",
+   "include",
    "fs"
   ],
   "num_mod_dirs": 3,
@@ -1618,16 +1618,16 @@
   "committer_date": "2022-08-22 11:40:01 -0700"
  },
  "d3cd67d671eea1f0d3860996863bd95e1e0b1c76": {
-  "num_adds_if": 0,
-  "num_dels_if": 1,
+  "num_adds_if": 1,
+  "num_dels_if": 0,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d3cd67d671eea1f0d3860996863bd95e1e0b1c76",
-  "num_adds": 20,
-  "num_dels": 31,
-  "num_mod_lns_total": 51,
+  "num_adds": 28,
+  "num_dels": 20,
+  "num_mod_lns_total": 48,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -1641,7 +1641,7 @@
    "fs/overlayfs/inode.c",
    "fs/posix_acl.c"
   ],
-  "entropy": 2.097747083274608,
+  "entropy": 2.05512332660786,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1653,10 +1653,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs",
-   "fs/ntfs3",
    "/",
    "fs/overlayfs",
+   "fs/ntfs3",
+   "fs",
    "/"
   ],
   "mod_sys": [
@@ -1679,8 +1679,8 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b20ee4813f3fe79f5ee227c576a55c2df5d59078",
-  "num_adds": 0,
-  "num_dels": 1,
+  "num_adds": 1,
+  "num_dels": 0,
   "num_mod_lns_total": 1,
   "num_mod_files": 1,
   "is_merge": true,
@@ -1771,16 +1771,16 @@
   "committer_date": "2022-08-22 09:44:19 -0700"
  },
  "79d3d1d12e6f22c904195f9356069859e2595f00": {
-  "num_adds_if": 1,
+  "num_adds_if": 2,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
-  "num_adds_loop": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 3,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_mod_total_loop": 3,
   "file_hash": "79d3d1d12e6f22c904195f9356069859e2595f00",
-  "num_adds": 2,
+  "num_adds": 13,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1828,13 +1828,13 @@
   "num_adds_if": 3,
   "num_dels_if": 1,
   "num_mod_total_if": 4,
-  "num_adds_loop": 0,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_mod_total_loop": 1,
   "file_hash": "4a445b7b6178d88956192c0202463063f52e8667",
-  "num_adds": 11,
+  "num_adds": 26,
   "num_dels": 4,
-  "num_mod_lns_total": 15,
+  "num_mod_lns_total": 30,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2146,16 +2146,16 @@
   "committer_date": "2022-08-22 08:47:26 -0700"
  },
  "8d1e09cfbd4da67d68a03e86818db5340c05abb8": {
-  "num_adds_if": 0,
-  "num_dels_if": 1,
+  "num_adds_if": 1,
+  "num_dels_if": 0,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "8d1e09cfbd4da67d68a03e86818db5340c05abb8",
-  "num_adds": 2,
-  "num_dels": 6,
-  "num_mod_lns_total": 8,
+  "num_adds": 4,
+  "num_dels": 2,
+  "num_mod_lns_total": 6,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -2166,7 +2166,7 @@
    "drivers/thunderbolt/ctl.c",
    "drivers/thunderbolt/switch.c"
   ],
-  "entropy": 0.8112781244591328,
+  "entropy": 0.9182958340544896,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -2200,8 +2200,8 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "220e979bd906015b74eb485e16464ee5abbd3c9b",
-  "num_adds": 7,
-  "num_dels": 8,
+  "num_adds": 8,
+  "num_dels": 7,
   "num_mod_lns_total": 15,
   "num_mod_files": 5,
   "is_merge": true,
@@ -2296,16 +2296,16 @@
   "committer_date": "2022-08-22 14:51:30 +0100"
  },
  "123d6455771ec577ce65f8d1bda548fb0eb7ef21": {
-  "num_adds_if": 5,
-  "num_dels_if": 5,
-  "num_mod_total_if": 10,
+  "num_adds_if": 6,
+  "num_dels_if": 7,
+  "num_mod_total_if": 13,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "123d6455771ec577ce65f8d1bda548fb0eb7ef21",
-  "num_adds": 17,
-  "num_dels": 21,
-  "num_mod_lns_total": 38,
+  "num_adds": 28,
+  "num_dels": 39,
+  "num_mod_lns_total": 67,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2354,8 +2354,8 @@
   "num_mod_total_loop": 2,
   "file_hash": "6e10001c6e666f7e07e3cfd806d8fa11c4151d00",
   "num_adds": 15,
-  "num_dels": 12,
-  "num_mod_lns_total": 27,
+  "num_dels": 10,
+  "num_mod_lns_total": 25,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -2397,13 +2397,13 @@
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 0,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_mod_total_loop": 2,
   "file_hash": "b75d612014447e04abdf0e37ffb8f2fd8b0b49d6",
-  "num_adds": 6,
+  "num_adds": 8,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
+  "num_mod_lns_total": 8,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2557,9 +2557,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a8d302a0b77057568350fe0123e639d02dba0745",
-  "num_adds": 62,
+  "num_adds": 64,
   "num_dels": 15,
-  "num_mod_lns_total": 77,
+  "num_mod_lns_total": 79,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2601,16 +2601,16 @@
   "committer_date": "2022-08-22 13:01:27 +0200"
  },
  "63f1560930e4e1c4f6279b8ae715c9841fe1a6d3": {
-  "num_adds_if": 3,
+  "num_adds_if": 4,
   "num_dels_if": 6,
-  "num_mod_total_if": 9,
+  "num_mod_total_if": 10,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "63f1560930e4e1c4f6279b8ae715c9841fe1a6d3",
-  "num_adds": 11,
-  "num_dels": 18,
-  "num_mod_lns_total": 29,
+  "num_adds": 15,
+  "num_dels": 25,
+  "num_mod_lns_total": 40,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2719,8 +2719,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "0c3bc7899e6dfb52df1c46118a5a670ae619645f",
   "num_adds": 7,
-  "num_dels": 8,
-  "num_mod_lns_total": 15,
+  "num_dels": 9,
+  "num_mod_lns_total": 16,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2763,16 +2763,16 @@
   "committer_date": "2022-08-22 12:52:23 +0200"
  },
  "591d2108f3abc4db9f9073cae37cf3591fd250d6": {
-  "num_adds_if": 0,
+  "num_adds_if": 1,
   "num_dels_if": 0,
-  "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 2,
   "file_hash": "591d2108f3abc4db9f9073cae37cf3591fd250d6",
-  "num_adds": 36,
+  "num_adds": 38,
   "num_dels": 1,
-  "num_mod_lns_total": 37,
+  "num_mod_lns_total": 39,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2962,8 +2962,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "b4b18f47f4f9682fbf5827682645da7c8dde8f80",
   "num_adds": 0,
-  "num_dels": 6,
-  "num_mod_lns_total": 6,
+  "num_dels": 7,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [

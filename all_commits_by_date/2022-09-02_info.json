@@ -36,9 +36,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "/",
    "Documentation/block",
    "drivers/nvme/target",
-   "/",
    "drivers/nvme/host",
    "/"
   ],
@@ -97,13 +97,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "io_uring",
+   "tools/testing/selftests/net",
    "include/uapi/linux",
-   "tools/testing/selftests/net"
+   "io_uring"
   ],
   "mod_sys": [
-   "io_uring",
    "tools",
+   "io_uring",
    "include"
   ],
   "num_mod_dirs": 3,
@@ -196,8 +196,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "security/landlock",
-   "tools/testing/selftests/landlock"
+   "tools/testing/selftests/landlock",
+   "security/landlock"
   ],
   "mod_sys": [
    "security",
@@ -335,28 +335,28 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
+   "drivers/gpu/drm/amd/include",
+   "drivers/gpu/drm/amd/display/dc/dcn32",
+   "drivers/gpu/drm/amd/pm/swsmu/smu13",
+   "drivers/gpu/drm/amd/display/dc/dcn314",
    "drivers/gpu/drm/msm",
+   "drivers/dma-buf",
    "drivers/gpu/drm/amd/display/dc/dml/dcn32",
-   "drivers/gpu/drm/i915/gt",
+   "drivers/gpu/drm/msm/dsi",
+   "drivers/gpu/drm/i915/gvt",
    "drivers/gpu/drm/i915/display",
    "drivers/gpu/drm/amd/display/dc/dcn31",
-   "drivers/gpu/drm/amd/include",
-   "drivers/gpu/drm/msm/dsi",
+   "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
+   "drivers/gpu/drm/msm/dsi/phy",
+   "drivers/gpu/drm/msm/dp",
    "drivers/gpu/drm/amd/display/dc/core",
    "drivers/gpu/drm/i915",
-   "drivers/dma-buf",
-   "drivers/gpu/drm/amd/amdgpu",
-   "drivers/gpu/drm/msm/dp",
-   "drivers/gpu/drm/amd/display/dc/link",
-   "drivers/gpu/drm/i915/gvt",
-   "drivers/gpu/drm/msm/disp/dpu1",
-   "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/display/dc/dcn314",
-   "drivers/gpu/drm/i915/gt/uc",
-   "drivers/gpu/drm/msm/dsi/phy",
    "drivers/gpu/drm/amd/pm/swsmu/inc",
-   "drivers/gpu/drm/amd/pm/swsmu/smu13"
+   "drivers/gpu/drm/amd/display/dc/link",
+   "drivers/gpu/drm/msm/disp/dpu1",
+   "drivers/gpu/drm/i915/gt/uc",
+   "drivers/gpu/drm/i915/gt",
+   "drivers/gpu/drm/amd/amdgpu"
   ],
   "mod_sys": [
    "drivers"
@@ -410,12 +410,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/base/power",
-   "include/linux/device",
-   "drivers/base/firmware_loader",
    "drivers/net/mdio",
    "drivers/iommu",
-   "drivers/base"
+   "drivers/base/power",
+   "include/linux/device",
+   "drivers/base",
+   "drivers/base/firmware_loader"
   ],
   "mod_sys": [
    "drivers",
@@ -473,15 +473,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "Documentation/devicetree/bindings/iio/gyroscope",
    "drivers/peci",
    "drivers/iio/light",
-   "drivers/peci/controller",
-   "drivers/iio/adc",
    "drivers/bus/mhi/host",
    "drivers/misc",
+   "drivers/soundwire",
+   "drivers/iio/adc",
    "drivers/android",
-   "Documentation/devicetree/bindings/iio/gyroscope",
-   "drivers/soundwire"
+   "drivers/peci/controller"
   ],
   "mod_sys": [
    "Documentation",
@@ -565,28 +565,28 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/usb/storage",
-   "include/linux",
-   "drivers/usb/dwc2",
-   "drivers/usb/dwc3",
-   "drivers/usb/typec/tcpm",
    "drivers/usb/typec",
-   "drivers/thunderbolt",
-   "drivers/usb/typec/altmodes",
-   "include/linux/usb",
-   "drivers/usb/serial",
+   "drivers/usb/storage",
    "drivers/usb/host",
    "drivers/usb/typec/ucsi",
-   "drivers/usb/class",
    "drivers/media/rc",
-   "drivers/usb/core",
-   "drivers/usb/musb",
-   "drivers/usb/misc",
-   "drivers/usb/gadget/udc",
+   "include/linux/usb",
    "drivers/usb/typec/mux",
+   "include/linux",
    "Documentation/devicetree/bindings/usb",
+   "drivers/usb/musb",
+   "drivers/usb/gadget/function",
+   "drivers/thunderbolt",
+   "drivers/usb/core",
+   "drivers/usb/serial",
+   "drivers/usb/typec/altmodes",
    "drivers/usb/cdns3",
-   "drivers/usb/gadget/function"
+   "drivers/usb/dwc2",
+   "drivers/usb/gadget/udc",
+   "drivers/usb/dwc3",
+   "drivers/usb/class",
+   "drivers/usb/typec/tcpm",
+   "drivers/usb/misc"
   ],
   "mod_sys": [
    "Documentation",
@@ -642,10 +642,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/platform/surface",
+   "drivers/platform/mellanox",
    "include/linux/platform_data/x86",
-   "drivers/platform/x86",
-   "drivers/platform/mellanox"
+   "drivers/platform/surface",
+   "drivers/platform/x86"
   ],
   "mod_sys": [
    "drivers",
@@ -695,9 +695,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "arch/arm64/kernel",
    "drivers/perf",
-   "arch/arm64/include/asm",
-   "arch/arm64/kernel"
+   "arch/arm64/include/asm"
   ],
   "mod_sys": [
    "arch",
@@ -756,8 +756,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/block",
    "/",
+   "Documentation/block",
    "/"
   ],
   "mod_sys": [
@@ -813,8 +813,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "security/landlock",
-   "tools/testing/selftests/landlock"
+   "tools/testing/selftests/landlock",
+   "security/landlock"
   ],
   "mod_sys": [
    "security",
@@ -918,10 +918,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/soc/at91",
    "arch/arm/boot/dts",
-   "arch/arm/mach-at91",
-   "arch/arm/configs"
+   "arch/arm/configs",
+   "include/soc/at91",
+   "arch/arm/mach-at91"
   ],
   "mod_sys": [
    "arch",
@@ -1655,11 +1655,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/msm",
    "drivers/gpu/drm/msm/dsi",
+   "drivers/gpu/drm/msm/dp",
    "drivers/gpu/drm/msm/disp/dpu1",
    "drivers/gpu/drm/msm/dsi/phy",
-   "drivers/gpu/drm/msm/dp"
+   "drivers/gpu/drm/msm"
   ],
   "mod_sys": [
    "drivers"
@@ -1729,17 +1729,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
-   "drivers/gpu/drm/amd/display/dc/dcn31",
-   "drivers/gpu/drm/amd/display/dc/link",
-   "drivers/gpu/drm/amd/include",
    "drivers/gpu/drm/amd/display/dc/core",
+   "drivers/gpu/drm/amd/include",
+   "drivers/gpu/drm/amd/display/dc/dcn32",
    "drivers/gpu/drm/amd/display/dc/dml/dcn32",
    "drivers/gpu/drm/amd/pm/swsmu/inc",
    "drivers/gpu/drm/amd/pm/swsmu/smu13",
-   "drivers/gpu/drm/amd/display/dc/dcn32",
-   "drivers/gpu/drm/amd/amdgpu",
-   "drivers/gpu/drm/amd/display/dc/dcn314"
+   "drivers/gpu/drm/amd/display/dc/dcn314",
+   "drivers/gpu/drm/amd/display/dc/dcn31",
+   "drivers/gpu/drm/amd/display/dc/link",
+   "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
+   "drivers/gpu/drm/amd/amdgpu"
   ],
   "mod_sys": [
    "drivers"

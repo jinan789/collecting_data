@@ -38,8 +38,8 @@
    "include/net"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -99,17 +99,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "drivers/net/dsa",
+   "drivers/net/dsa/mv88e6xxx",
+   "drivers/net/dsa/b53",
    "drivers/net/dsa/microchip",
    "include/net",
-   "drivers/net/dsa/b53",
-   "drivers/net/dsa/mv88e6xxx",
-   "drivers/net/dsa",
    "net/dsa"
   ],
   "mod_sys": [
    "drivers",
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 3,
@@ -282,17 +282,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/bluetooth",
-   "drivers/bluetooth",
-   "net/6lowpan",
    "net/bluetooth/rfcomm",
+   "drivers/bluetooth",
    "drivers/usb/core",
-   "include/net/bluetooth"
+   "include/net/bluetooth",
+   "net/6lowpan",
+   "net/bluetooth"
   ],
   "mod_sys": [
    "drivers",
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 3,
@@ -688,8 +688,8 @@
    "include/net"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -736,13 +736,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/ipv4",
    "include/net/netns",
+   "net/ipv4",
    "net/ipv6"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -792,8 +792,8 @@
    "net/ipv6"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1045,9 +1045,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/ethernet/hisilicon/hns3",
+   "drivers/net/ethernet/hisilicon/hns3/hns3pf",
    "drivers/net/ethernet/hisilicon/hns3/hns3vf",
-   "drivers/net/ethernet/hisilicon/hns3/hns3pf"
+   "drivers/net/ethernet/hisilicon/hns3"
   ],
   "mod_sys": [
    "drivers"
@@ -1206,8 +1206,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "drivers/net/ethernet/hisilicon/hns3/hns3vf",
-   "drivers/net/ethernet/hisilicon/hns3/hns3pf"
+   "drivers/net/ethernet/hisilicon/hns3/hns3pf",
+   "drivers/net/ethernet/hisilicon/hns3/hns3vf"
   ],
   "mod_sys": [
    "drivers"
@@ -1318,9 +1318,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/ethernet/hisilicon/hns3",
+   "drivers/net/ethernet/hisilicon/hns3/hns3pf",
    "drivers/net/ethernet/hisilicon/hns3/hns3vf",
-   "drivers/net/ethernet/hisilicon/hns3/hns3pf"
+   "drivers/net/ethernet/hisilicon/hns3"
   ],
   "mod_sys": [
    "drivers"
@@ -1720,14 +1720,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/drivers/net/mlxsw/spectrum-2",
    "include/trace/events",
-   "drivers/net/ethernet/mellanox/mlxsw"
+   "drivers/net/ethernet/mellanox/mlxsw",
+   "tools/testing/selftests/drivers/net/mlxsw/spectrum-2"
   ],
   "mod_sys": [
+   "tools",
    "drivers",
-   "include",
-   "tools"
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 3,
@@ -3289,10 +3289,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/team",
-   "net/8021q",
    "drivers/net/ethernet/netronome/nfp",
-   "drivers/net/bonding"
+   "drivers/net/team",
+   "drivers/net/bonding",
+   "net/8021q"
   ],
   "mod_sys": [
    "drivers",
@@ -3349,9 +3349,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/8021q",
    "drivers/net/team",
-   "drivers/net/bonding"
+   "drivers/net/bonding",
+   "net/8021q"
   ],
   "mod_sys": [
    "drivers",
@@ -3744,14 +3744,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/core",
+   "drivers/net",
    "include/linux",
-   "drivers/net"
+   "net/core"
   ],
   "mod_sys": [
    "drivers",
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 3,
@@ -3903,8 +3903,8 @@
    "include/linux"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3954,8 +3954,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/tc-testing",
-   "tools/testing/selftests/tc-testing/tc-tests/filters"
+   "tools/testing/selftests/tc-testing/tc-tests/filters",
+   "tools/testing/selftests/tc-testing"
   ],
   "mod_sys": [
    "tools"
@@ -4052,8 +4052,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/tc-testing",
-   "tools/testing/selftests/tc-testing/tc-tests/filters"
+   "tools/testing/selftests/tc-testing/tc-tests/filters",
+   "tools/testing/selftests/tc-testing"
   ],
   "mod_sys": [
    "tools"
@@ -4150,8 +4150,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/tc-testing",
-   "tools/testing/selftests/tc-testing/tc-tests/filters"
+   "tools/testing/selftests/tc-testing/tc-tests/filters",
+   "tools/testing/selftests/tc-testing"
   ],
   "mod_sys": [
    "tools"
@@ -4297,8 +4297,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/tc-testing",
-   "tools/testing/selftests/tc-testing/tc-tests/filters"
+   "tools/testing/selftests/tc-testing/tc-tests/filters",
+   "tools/testing/selftests/tc-testing"
   ],
   "mod_sys": [
    "tools"
@@ -4649,10 +4649,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/base/power",
    "drivers/gpu/drm/i915",
+   "include/linux",
    "drivers/base",
-   "include/linux"
+   "drivers/base/power"
   ],
   "mod_sys": [
    "drivers",
@@ -4734,16 +4734,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux/platform_data",
-   "drivers/thermal",
-   "drivers/opp",
-   "include/linux",
-   "drivers/acpi",
    "/",
-   "arch/arm/mach-davinci/include/mach",
-   "arch/arm/mach-davinci",
    "drivers/cpufreq",
+   "include/linux/platform_data",
+   "drivers/opp",
+   "arch/arm/mach-davinci/include/mach",
+   "include/linux",
    "include/acpi",
+   "drivers/thermal",
+   "drivers/acpi",
+   "arch/arm/mach-davinci",
    "/"
   ],
   "mod_sys": [
@@ -4874,12 +4874,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/acpi/acpica",
    "drivers/gpio",
+   "drivers/acpi/acpica",
    "drivers/platform/x86",
-   "drivers/acpi",
+   "include/acpi",
    "drivers/pnp/pnpacpi",
-   "include/acpi"
+   "drivers/acpi"
   ],
   "mod_sys": [
    "drivers",
@@ -5402,121 +5402,121 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/amd/display/amdgpu_dm",
-   "drivers/gpu/drm/radeon",
-   "Documentation/process",
-   "drivers/net/ethernet/atheros/atlx",
-   "arch/powerpc/platforms/powernv",
-   "init",
-   "net/ipv4",
-   "net/ceph",
-   "drivers/net/ethernet/chelsio/cxgb4",
-   "/",
-   "arch/arm64/boot/dts/marvell",
-   "net/x25",
-   "drivers/infiniband/ulp/srp",
-   "drivers/gpio",
-   "drivers/clk/sunxi-ng",
-   "drivers/net/ipvlan",
-   "net/smc",
-   "drivers/net/ethernet/intel/ixgbe",
-   "Documentation/networking",
-   "fs/proc",
-   "security",
-   "include/net",
-   "drivers/infiniband/hw/cxgb4",
-   "include/net/phonet",
-   "drivers/net/ethernet/netronome/nfp/bpf",
-   "drivers/net/team",
-   "drivers/mtd/devices",
-   "drivers/pinctrl/meson",
-   "mm",
-   "include/linux",
-   "kernel/sched",
-   "net/tipc",
-   "net/xdp",
-   "net/phonet",
-   "drivers/gpu/drm/amd/display/dc/dce",
-   "net/xfrm",
-   "arch/s390/kvm",
-   "net",
-   "arch/arm64/mm",
-   "drivers/pinctrl/qcom",
-   "lib",
-   "drivers/net/ethernet/intel/i40e",
-   "Documentation/admin-guide",
-   "drivers/gpu/drm/amd/display/dc/dcn10",
-   "net/unix",
-   "arch/sh/boot/dts",
-   "security/keys",
-   "drivers/net/wireless",
-   "net/bpf",
-   "sound/soc/generic",
-   "drivers/net/ethernet/broadcom/bnxt",
-   "drivers/scsi/libsas",
-   "drivers/scsi",
-   "fs/nfs",
-   "net/bridge",
-   "mm/kasan",
    "arch/arc",
-   "arch/x86/kvm",
-   "drivers/gpu/drm/amd/display/dc/dce100",
-   "arch/arm64/kernel",
-   "drivers/gpu/drm/amd/amdgpu",
-   "drivers/net",
-   "drivers/cpufreq",
-   "arch/arc/kernel",
-   "arch/arm/boot/dts",
-   "kernel/bpf",
-   "arch/arc/include/asm",
-   "drivers/net/phy",
-   "Documentation/translations/it_IT/admin-guide",
-   "drivers/net/usb",
-   "drivers/mtd",
-   "tools/testing/selftests/net",
-   "sound/soc",
-   "include/keys",
-   "fs/ceph",
-   "arch/arc/configs",
-   "net/sctp",
-   "sound/pci/hda",
-   "arch/arm64/include/asm",
-   "drivers/gpu/drm/i915",
-   "tools/testing/selftests/bpf",
-   "drivers/net/ethernet/cavium/thunder",
-   "net/key",
-   "Documentation/networking/dsa",
-   "net/ipv6",
-   "drivers/base/power",
-   "drivers/gpu/drm/amd/display/dc/dce80",
-   "scripts",
-   "sound/soc/samsung",
-   "drivers/net/ethernet/marvell",
-   "net/mac80211",
    "drivers/clk/at91",
-   "net/dsa",
-   "arch/parisc/kernel",
-   "arch/arc/lib",
+   "net/bpf",
+   "fs/ceph",
+   "arch/arm64/include/asm",
+   "net/tipc",
+   "drivers/net/ethernet/atheros/atlx",
+   "Documentation/admin-guide",
+   "drivers/net/ipvlan",
+   "fs/nfs",
+   "sound/soc/generic",
+   "security/keys",
+   "security",
+   "drivers/net/wireless",
    "arch/x86/include/asm",
+   "Documentation/networking/dsa",
+   "net/key",
    "arch/arc/plat-hsdk",
+   "drivers/gpu/drm/i915",
+   "arch/powerpc/platforms/powernv",
+   "drivers/mtd",
+   "net/mac80211",
+   "drivers/gpu/drm/amd/display/amdgpu_dm",
+   "sound/soc/samsung",
+   "net/xfrm",
+   "drivers/net/ethernet/intel/ixgbe",
+   "drivers/scsi/libsas",
+   "init",
+   "arch/arc/configs",
+   "arch/sh/boot/dts",
+   "drivers/gpio",
+   "scripts",
+   "drivers/net/usb",
+   "include/linux",
+   "net/xdp",
+   "arch/s390/kvm",
+   "drivers/cpufreq",
+   "arch/arm64/mm",
+   "drivers/scsi",
+   "arch/arm64/boot/dts/marvell",
+   "arch/arc/lib",
+   "mm",
+   "kernel/sched",
+   "tools/testing/selftests/bpf",
+   "sound/pci/hda",
+   "drivers/gpu/drm/amd/amdgpu",
+   "/",
+   "drivers/net/phy",
+   "drivers/net",
+   "drivers/net/team",
+   "drivers/net/ethernet/chelsio/cxgb4",
+   "include/keys",
+   "drivers/net/ethernet/marvell",
+   "drivers/net/ethernet/cavium/thunder",
+   "drivers/net/ethernet/intel/i40e",
+   "arch/arc/include/asm",
+   "net/ipv6",
+   "arch/x86/kvm",
+   "drivers/pinctrl/qcom",
+   "include/net",
+   "drivers/clk/sunxi-ng",
+   "net/smc",
+   "net",
+   "Documentation/translations/it_IT/admin-guide",
+   "net/ceph",
+   "net/sctp",
+   "Documentation/networking",
+   "drivers/gpu/drm/amd/display/dc/dce100",
+   "net/unix",
+   "arch/parisc/kernel",
+   "drivers/pinctrl/meson",
+   "drivers/gpu/drm/amd/display/dc/dce",
+   "arch/arm/boot/dts",
+   "drivers/net/ethernet/broadcom/bnxt",
+   "arch/arc/kernel",
+   "mm/kasan",
+   "tools/testing/selftests/net",
+   "drivers/infiniband/hw/cxgb4",
+   "drivers/gpu/drm/amd/display/dc/dcn10",
+   "kernel/bpf",
+   "drivers/mtd/devices",
+   "net/phonet",
+   "net/bridge",
+   "net/x25",
+   "drivers/gpu/drm/amd/display/dc/dce80",
+   "sound/soc",
+   "drivers/base/power",
+   "net/dsa",
+   "Documentation/process",
+   "drivers/gpu/drm/radeon",
+   "fs/proc",
    "drivers/net/bonding",
+   "arch/arm64/kernel",
+   "drivers/infiniband/ulp/srp",
+   "drivers/net/ethernet/netronome/nfp/bpf",
+   "lib",
+   "include/net/phonet",
+   "net/ipv4",
    "/",
    "/"
   ],
   "mod_sys": [
-   "security",
-   "fs",
-   "mm",
-   "net",
    "scripts",
    "arch",
-   "kernel",
-   "tools",
-   "init",
-   "sound",
-   "Documentation",
-   "drivers",
    "include",
+   "security",
+   "net",
+   "fs",
+   "Documentation",
+   "tools",
+   "drivers",
+   "sound",
+   "init",
+   "kernel",
+   "mm",
    "lib"
   ],
   "num_mod_dirs": 100,
@@ -5564,8 +5564,8 @@
   "is_fix": false,
   "mod_dirs": [
    "arch/s390/kvm",
-   "arch/x86/include/asm",
-   "arch/x86/kvm"
+   "arch/x86/kvm",
+   "arch/x86/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -5674,56 +5674,56 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/bpf",
-   "drivers/net/usb",
-   "drivers/net/ethernet/broadcom/bnxt",
-   "include/linux",
-   "tools/testing/selftests/net",
-   "net/bridge",
-   "drivers/net/ethernet/atheros/atlx",
-   "net/tipc",
-   "net/xdp",
-   "net/ipv4",
-   "net/sctp",
-   "net/phonet",
-   "net/xfrm",
    "/",
-   "net/x25",
-   "drivers/net/wireless",
-   "drivers/net/ethernet/cavium/thunder",
-   "net/key",
-   "tools/testing/selftests/bpf",
-   "drivers/net",
-   "Documentation/networking/dsa",
-   "net",
-   "net/ipv6",
-   "drivers/net/ethernet/marvell",
    "drivers/net/phy",
-   "drivers/net/ipvlan",
-   "net/mac80211",
-   "net/smc",
-   "drivers/net/ethernet/intel/ixgbe",
-   "net/dsa",
-   "Documentation/networking",
-   "drivers/net/ethernet/intel/i40e",
-   "security",
-   "include/net",
-   "kernel/bpf",
-   "net/unix",
-   "include/net/phonet",
-   "drivers/net/bonding",
-   "drivers/net/ethernet/netronome/nfp/bpf",
+   "net/bpf",
+   "drivers/net",
    "drivers/net/team",
+   "kernel/bpf",
+   "drivers/net/ethernet/marvell",
+   "drivers/net/ethernet/cavium/thunder",
+   "drivers/net/ethernet/intel/i40e",
+   "net/phonet",
+   "net/bridge",
+   "net/ipv6",
+   "net/tipc",
+   "net/x25",
+   "drivers/net/usb",
+   "drivers/net/ethernet/atheros/atlx",
+   "include/linux",
+   "drivers/net/ipvlan",
+   "include/net",
+   "net/xdp",
+   "net/dsa",
+   "security",
+   "net/smc",
+   "net",
+   "drivers/net/wireless",
+   "net/sctp",
+   "drivers/net/bonding",
+   "Documentation/networking",
+   "net/unix",
+   "drivers/net/ethernet/netronome/nfp/bpf",
+   "Documentation/networking/dsa",
+   "net/key",
+   "drivers/net/ethernet/broadcom/bnxt",
+   "include/net/phonet",
+   "net/mac80211",
+   "tools/testing/selftests/bpf",
+   "net/ipv4",
+   "net/xfrm",
+   "tools/testing/selftests/net",
+   "drivers/net/ethernet/intel/ixgbe",
    "/"
   ],
   "mod_sys": [
+   "include",
    "security",
    "net",
-   "kernel",
-   "tools",
    "Documentation",
+   "tools",
    "drivers",
-   "include"
+   "kernel"
   ],
   "num_mod_dirs": 41,
   "num_mod_sys": 7,
@@ -5773,9 +5773,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs",
    "include/linux",
    "fs/gfs2",
+   "fs/xfs",
    "fs"
   ],
   "mod_sys": [
@@ -6037,8 +6037,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "drivers/i2c",
-   "include/linux"
+   "include/linux",
+   "drivers/i2c"
   ],
   "mod_sys": [
    "drivers",
@@ -6286,8 +6286,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/misc/habanalabs",
-   "drivers/misc/habanalabs/include/hw_ip/mmu"
+   "drivers/misc/habanalabs/include/hw_ip/mmu",
+   "drivers/misc/habanalabs"
   ],
   "mod_sys": [
    "drivers"
@@ -6385,8 +6385,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/misc/habanalabs/goya",
-   "drivers/misc/habanalabs/include"
+   "drivers/misc/habanalabs/include",
+   "drivers/misc/habanalabs/goya"
   ],
   "mod_sys": [
    "drivers"

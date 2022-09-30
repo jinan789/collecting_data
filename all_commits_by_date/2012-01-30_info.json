@@ -130,8 +130,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/hwmon",
    "/",
+   "drivers/hwmon",
    "/"
   ],
   "mod_sys": [
@@ -353,9 +353,9 @@
   "is_fix": false,
   "mod_dirs": [
    "tools/perf",
-   "tools/perf/util/ui",
    "tools/perf/util",
-   "tools/perf/util/ui/browsers"
+   "tools/perf/util/ui/browsers",
+   "tools/perf/util/ui"
   ],
   "mod_sys": [
    "tools"
@@ -426,9 +426,9 @@
   "mod_dirs": [
    "drivers/infiniband/hw/qib",
    "drivers/infiniband/hw/nes",
+   "drivers/infiniband/hw/mlx4",
    "drivers/infiniband/core",
-   "drivers/infiniband/hw/ipath",
-   "drivers/infiniband/hw/mlx4"
+   "drivers/infiniband/hw/ipath"
   ],
   "mod_sys": [
    "drivers"
@@ -621,11 +621,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/tty/serial/8250",
    "/",
    "drivers/tty/serial/jsm",
-   "drivers/tty",
    "drivers/tty/serial",
+   "drivers/tty/serial/8250",
+   "drivers/tty",
    "/"
   ],
   "mod_sys": [
@@ -887,8 +887,8 @@
    "sound/soc/codecs"
   ],
   "mod_sys": [
-   "include",
-   "sound"
+   "sound",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1064,12 +1064,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/wireless/rtlwifi/rtl8192ce",
    "drivers/net/wireless/rtlwifi/rtl8192se",
-   "drivers/net/wireless/rtlwifi/rtl8192de",
+   "drivers/net/wireless/rtlwifi",
    "drivers/net/wireless/rtlwifi/rtl8192cu",
+   "drivers/net/wireless/rtlwifi/rtl8192ce",
    "drivers/net/wireless/rtlwifi/rtl8192c",
-   "drivers/net/wireless/rtlwifi"
+   "drivers/net/wireless/rtlwifi/rtl8192de"
   ],
   "mod_sys": [
    "drivers"
@@ -1514,12 +1514,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/mac80211",
-   "include/net"
+   "include/net",
+   "net/mac80211"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1568,12 +1568,12 @@
   "is_fix": false,
   "mod_dirs": [
    "include/linux",
-   "net/wireless",
-   "include/net"
+   "include/net",
+   "net/wireless"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -1636,12 +1636,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/wireless/rtlwifi/rtl8192ce",
    "drivers/net/wireless/rtlwifi/rtl8192se",
-   "drivers/net/wireless/rtlwifi/rtl8192de",
+   "drivers/net/wireless/rtlwifi",
    "drivers/net/wireless/rtlwifi/rtl8192cu",
+   "drivers/net/wireless/rtlwifi/rtl8192ce",
    "drivers/net/wireless/rtlwifi/rtl8192c",
-   "drivers/net/wireless/rtlwifi"
+   "drivers/net/wireless/rtlwifi/rtl8192de"
   ],
   "mod_sys": [
    "drivers"
@@ -1957,10 +1957,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/perf/bench",
-   "tools/perf/util/scripting-engines",
    "tools/perf/util",
-   "tools/perf/util/ui/browsers"
+   "tools/perf/util/ui/browsers",
+   "tools/perf/bench",
+   "tools/perf/util/scripting-engines"
   ],
   "mod_sys": [
    "tools"
@@ -2217,13 +2217,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/netlink",
    "include/linux",
-   "include/net"
+   "include/net",
+   "net/netlink"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -2376,8 +2376,8 @@
   "is_fix": false,
   "mod_dirs": [
    "tools/perf",
-   "tools/perf/Documentation",
-   "tools/perf/util"
+   "tools/perf/util",
+   "tools/perf/Documentation"
   ],
   "mod_sys": [
    "tools"
@@ -2439,8 +2439,8 @@
   "is_fix": false,
   "mod_dirs": [
    "tools/perf",
-   "tools/perf/Documentation",
-   "tools/perf/util"
+   "tools/perf/util",
+   "tools/perf/Documentation"
   ],
   "mod_sys": [
    "tools"
@@ -2642,18 +2642,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/usb/storage",
-   "drivers/usb/wusbcore",
-   "drivers/usb/host",
-   "drivers/usb/renesas_usbhs",
-   "drivers/usb/class",
-   "drivers/usb/gadget",
-   "include/linux/usb",
-   "drivers/usb/dwc3",
-   "drivers/usb/serial",
    "drivers/usb/musb",
    "drivers/usb/otg",
    "drivers/usb",
+   "drivers/usb/storage",
+   "drivers/usb/dwc3",
+   "drivers/usb/wusbcore",
+   "drivers/usb/serial",
+   "drivers/usb/gadget",
+   "include/linux/usb",
+   "drivers/usb/class",
+   "drivers/usb/renesas_usbhs",
+   "drivers/usb/host",
    "drivers/usb/misc"
   ],
   "mod_sys": [
@@ -2752,8 +2752,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm/mach-highbank/include/mach",
    "arch/arm",
+   "arch/arm/mach-highbank/include/mach",
    "arch/arm/mach-highbank"
   ],
   "mod_sys": [
@@ -3214,21 +3214,21 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/ipv4",
-   "include/net/netns",
-   "include/net",
    "net/l2tp",
-   "net/unix",
    "drivers/net/wireless/iwlwifi",
-   "net/core",
-   "net/mac80211",
    "net/caif",
-   "drivers/net"
+   "include/net/netns",
+   "net/mac80211",
+   "drivers/net",
+   "net/core",
+   "include/net",
+   "net/ipv4",
+   "net/unix"
   ],
   "mod_sys": [
    "drivers",
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 10,
   "num_mod_sys": 3,
@@ -3571,20 +3571,20 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/ethernet/3com",
-   "Documentation/networking",
    "Documentation/zh_CN",
-   "drivers/net/ethernet/dec/tulip",
    "drivers/net/ethernet/8390",
-   "drivers/net/ethernet/ibm/emac",
-   "drivers/net/ethernet/realtek",
    "drivers/net/ethernet/ibm/ehea",
-   "drivers/net/ethernet/amd",
-   "drivers/net/ethernet",
+   "drivers/net/ethernet/ibm/emac",
    "Documentation",
-   "drivers/net/ethernet/micrel",
    "drivers/net/can",
-   "drivers/net/ethernet/freescale"
+   "drivers/net/ethernet/3com",
+   "drivers/net/ethernet/dec/tulip",
+   "drivers/net/ethernet",
+   "Documentation/networking",
+   "drivers/net/ethernet/amd",
+   "drivers/net/ethernet/freescale",
+   "drivers/net/ethernet/micrel",
+   "drivers/net/ethernet/realtek"
   ],
   "mod_sys": [
    "Documentation",
@@ -3743,12 +3743,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/ipv4",
-   "include/net"
+   "include/net",
+   "net/ipv4"
   ],
   "mod_sys": [
-   "include",
-   "net"
+   "net",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3842,9 +3842,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/s390",
    "arch/s390/kernel",
-   "drivers/s390/block"
+   "drivers/s390/block",
+   "arch/s390"
   ],
   "mod_sys": [
    "arch",
@@ -3892,8 +3892,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/microblaze/include/asm",
-   "arch/microblaze"
+   "arch/microblaze",
+   "arch/microblaze/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -3992,9 +3992,9 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/i810",
-   "drivers/gpu/drm/radeon",
+   "drivers/gpu/drm",
    "drivers/gpu/drm/vmwgfx",
-   "drivers/gpu/drm"
+   "drivers/gpu/drm/radeon"
   ],
   "mod_sys": [
    "drivers"

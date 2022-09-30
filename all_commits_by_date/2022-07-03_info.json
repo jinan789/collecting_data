@@ -101,8 +101,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -574,10 +574,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
+   "include/linux",
    "arch/arm64/mm",
    "arch/arm64/include/asm",
-   "include/linux"
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -733,8 +733,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -788,13 +788,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "Documentation/filesystems",
    "Documentation/ABI/testing",
-   "fs/proc",
-   "Documentation/filesystems"
+   "fs/proc"
   ],
   "mod_sys": [
-   "fs",
-   "Documentation"
+   "Documentation",
+   "fs"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -1002,14 +1002,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
    "Documentation/admin-guide",
+   "mm",
    "include/linux",
    "Documentation/admin-guide/sysctl"
   ],
   "mod_sys": [
-   "mm",
    "Documentation",
+   "mm",
    "include"
   ],
   "num_mod_dirs": 4,
@@ -1065,8 +1065,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -1269,8 +1269,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -1465,9 +1465,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
    "net/core",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -2046,8 +2046,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -2396,8 +2396,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -2458,8 +2458,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -2807,7 +2807,7 @@
    "mm/damon/paddr.c",
    "mm/damon/sysfs.c"
   ],
-  "entropy": 1.3940869633870296,
+  "entropy": 1.3940869633870294,
   "ppl_signed_off": [
    "Signed-off-by: SeongJae Park <sj@kernel.org>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3365,8 +3365,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/admin-guide/mm",
-   "mm"
+   "mm",
+   "Documentation/admin-guide/mm"
   ],
   "mod_sys": [
    "Documentation",
@@ -3571,42 +3571,42 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/virtio",
-   "arch/x86/kvm/mmu",
+   "kernel/rcu",
    "net/sunrpc",
-   "mm",
-   "fs",
+   "fs/ubifs",
+   "drivers/md/bcache",
+   "drivers/gpu/drm/msm",
+   "drivers/gpu/drm/panfrost",
+   "fs/ext4",
+   "drivers/misc",
+   "drivers/gpu/drm/i915/gem",
+   "include/linux",
    "fs/f2fs",
+   "fs/nfs",
+   "fs/xfs",
+   "drivers/virtio",
+   "drivers/gpu/drm/ttm",
+   "arch/x86/kvm/mmu",
+   "fs/erofs",
+   "fs",
+   "fs/gfs2",
    "fs/jbd2",
    "fs/nfsd",
-   "fs/ubifs",
-   "drivers/xen/xenbus",
-   "fs/erofs",
-   "drivers/misc",
-   "drivers/md/bcache",
-   "drivers/gpu/drm/panfrost",
-   "fs/btrfs",
-   "drivers/android",
    "fs/quota",
-   "fs/ext4",
-   "fs/xfs",
-   "kernel/rcu",
-   "include/linux",
-   "fs/nfs",
-   "drivers/gpu/drm/ttm",
-   "drivers/gpu/drm/i915/gem",
-   "fs/gfs2",
-   "drivers/gpu/drm/msm",
-   "drivers/md"
+   "mm",
+   "drivers/xen/xenbus",
+   "fs/btrfs",
+   "drivers/md",
+   "drivers/android"
   ],
   "mod_sys": [
-   "kernel",
-   "mm",
+   "arch",
+   "include",
+   "net",
    "fs",
    "drivers",
-   "arch",
-   "net",
-   "include"
+   "kernel",
+   "mm"
   ],
   "num_mod_dirs": 27,
   "num_mod_sys": 7,
@@ -3665,9 +3665,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "include/linux",
    "mm",
-   "lib",
-   "include/linux"
+   "lib"
   ],
   "mod_sys": [
    "mm",
@@ -3726,8 +3726,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -3944,8 +3944,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -4374,8 +4374,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -4446,8 +4446,8 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -4562,8 +4562,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "include/linux"
+   "include/linux",
+   "mm"
   ],
   "mod_sys": [
    "mm",
@@ -5265,8 +5265,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "lib",
-   "include/linux"
+   "include/linux",
+   "lib"
   ],
   "mod_sys": [
    "lib",
@@ -5289,9 +5289,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7ecd8a7af36efa52fb95fb42ecab03bc4e76c848",
-  "num_adds": 9,
-  "num_dels": 20,
-  "num_mod_lns_total": 29,
+  "num_adds": 19,
+  "num_dels": 9,
+  "num_mod_lns_total": 28,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -5308,7 +5308,7 @@
    "arch/arm64/boot/dts/qcom/sdm845.dtsi",
    "arch/arm64/boot/dts/qcom/sm8450.dtsi"
   ],
-  "entropy": 2.3992579293066596,
+  "entropy": 2.446436481492097,
   "ppl_signed_off": [
    "Signed-off-by: Arnd Bergmann <arnd@arndb.de>"
   ],
@@ -5690,16 +5690,16 @@
   "committer_date": "2022-07-03 11:32:22 -0700"
  },
  "20855e4cb361adeabce3665f5174b09b4a6ebfe6": {
-  "num_adds_if": 9,
-  "num_dels_if": 7,
-  "num_mod_total_if": 16,
-  "num_adds_loop": 4,
-  "num_dels_loop": 6,
-  "num_mod_total_loop": 10,
+  "num_adds_if": 6,
+  "num_dels_if": 8,
+  "num_mod_total_if": 14,
+  "num_adds_loop": 7,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 12,
   "file_hash": "20855e4cb361adeabce3665f5174b09b4a6ebfe6",
-  "num_adds": 131,
-  "num_dels": 130,
-  "num_mod_lns_total": 261,
+  "num_adds": 126,
+  "num_dels": 123,
+  "num_mod_lns_total": 249,
   "num_mod_files": 14,
   "is_merge": true,
   "parents": [
@@ -5722,7 +5722,7 @@
    "fs/xfs/xfs_super.c",
    "fs/xfs/xfs_trace.h"
   ],
-  "entropy": 2.960884953224627,
+  "entropy": 2.9468435449937407,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5734,8 +5734,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/xfs",
-   "fs/xfs/libxfs"
+   "fs/xfs/libxfs",
+   "fs/xfs"
   ],
   "mod_sys": [
    "fs"
@@ -5849,16 +5849,16 @@
   "committer_date": "2022-07-03 13:03:40 +0100"
  },
  "a48e789dd2633bdeb6552dfdfedd0435f9c2f897": {
-  "num_adds_if": 7,
-  "num_dels_if": 122,
+  "num_adds_if": 122,
+  "num_dels_if": 7,
   "num_mod_total_if": 129,
-  "num_adds_loop": 3,
-  "num_dels_loop": 45,
+  "num_adds_loop": 45,
+  "num_dels_loop": 3,
   "num_mod_total_loop": 48,
   "file_hash": "a48e789dd2633bdeb6552dfdfedd0435f9c2f897",
-  "num_adds": 107,
-  "num_dels": 2034,
-  "num_mod_lns_total": 2141,
+  "num_adds": 1638,
+  "num_dels": 98,
+  "num_mod_lns_total": 1736,
   "num_mod_files": 14,
   "is_merge": true,
   "parents": [
@@ -5874,14 +5874,14 @@
    "drivers/net/can/can327.c",
    "drivers/net/can/ctucanfd/ctucanfd_base.c",
    "drivers/net/can/dev/netlink.c",
-   "drivers/net/can/slcan.c",
    "drivers/net/can/slcan/Makefile",
+   "drivers/net/can/slcan/slcan-core.c",
    "drivers/net/can/slcan/slcan-ethtool.c",
    "drivers/net/can/slcan/slcan.h",
    "include/linux/can/bittiming.h",
    "include/uapi/linux/tty.h"
   ],
-  "entropy": 1.862389722691376,
+  "entropy": 1.8354935406231447,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -5896,18 +5896,18 @@
   "is_fix": false,
   "mod_dirs": [
    "/",
-   "drivers/net/can/dev",
-   "include/linux/can",
-   "drivers/net/can/ctucanfd",
-   "include/uapi/linux",
    "drivers/net/can/slcan",
    "Documentation/networking/device_drivers/can",
    "drivers/net/can",
+   "drivers/net/can/ctucanfd",
+   "drivers/net/can/dev",
+   "include/linux/can",
+   "include/uapi/linux",
    "/"
   ],
   "mod_sys": [
-   "drivers",
    "Documentation",
+   "drivers",
    "include"
   ],
   "num_mod_dirs": 9,
@@ -5920,16 +5920,16 @@
   "committer_date": "2022-07-03 12:32:15 +0100"
  },
  "280e3a857d96f9ca8e24632788e1e7a0fec4e9f7": {
-  "num_adds_if": 2,
-  "num_dels_if": 4,
+  "num_adds_if": 4,
+  "num_dels_if": 2,
   "num_mod_total_if": 6,
   "num_adds_loop": 2,
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "280e3a857d96f9ca8e24632788e1e7a0fec4e9f7",
-  "num_adds": 16,
-  "num_dels": 41,
-  "num_mod_lns_total": 57,
+  "num_adds": 32,
+  "num_dels": 12,
+  "num_mod_lns_total": 44,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -5940,7 +5940,7 @@
    "net/netfilter/nf_tables_api.c",
    "net/netfilter/nft_set_pipapo.c"
   ],
-  "entropy": 0.6292492238560345,
+  "entropy": 0.6840384356390417,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -5976,9 +5976,9 @@
   "num_dels_loop": 11,
   "num_mod_total_loop": 11,
   "file_hash": "c67289e064cacda22ace61b8079a4e3f0e4aa520",
-  "num_adds": 149,
-  "num_dels": 1563,
-  "num_mod_lns_total": 1712,
+  "num_adds": 132,
+  "num_dels": 1284,
+  "num_mod_lns_total": 1416,
   "num_mod_files": 27,
   "is_merge": true,
   "parents": [
@@ -6014,7 +6014,7 @@
    "drivers/net/ethernet/mellanox/mlx5/core/sriov.c",
    "include/linux/mlx5/eswitch.h"
   ],
-  "entropy": 3.189801904273431,
+  "entropy": 3.2453323650576658,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -6028,15 +6028,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/ethernet/mellanox/mlx5/core/en_accel",
-   "drivers/net/ethernet/mellanox/mlx5/core/lag",
+   "drivers/net/ethernet/mellanox/mlx5/core/en/tc",
    "drivers/net/ethernet/mellanox/mlx5/core/sf",
    "drivers/net/ethernet/mellanox/mlx5/core/en",
    "drivers/net/ethernet/mellanox/mlx5/core/lib",
    "include/linux/mlx5",
-   "drivers/net/ethernet/mellanox/mlx5/core/en/tc/act",
    "drivers/net/ethernet/mellanox/mlx5/core",
-   "drivers/net/ethernet/mellanox/mlx5/core/en/tc"
+   "drivers/net/ethernet/mellanox/mlx5/core/en/tc/act",
+   "drivers/net/ethernet/mellanox/mlx5/core/lag",
+   "drivers/net/ethernet/mellanox/mlx5/core/en_accel"
   ],
   "mod_sys": [
    "drivers",
@@ -6059,9 +6059,9 @@
   "num_dels_loop": 6,
   "num_mod_total_loop": 9,
   "file_hash": "0ebd5529d2ddab76a46681991d350b82c62ef13e",
-  "num_adds": 105,
-  "num_dels": 536,
-  "num_mod_lns_total": 641,
+  "num_adds": 96,
+  "num_dels": 462,
+  "num_mod_lns_total": 558,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -6078,7 +6078,7 @@
    "drivers/net/can/slcan/slcan.h",
    "include/linux/can/bittiming.h"
   ],
-  "entropy": 1.1613956245144819,
+  "entropy": 1.117402626583608,
   "ppl_signed_off": [
    "Signed-off-by: Marc Kleine-Budde <mkl@pengutronix.de>"
   ],
@@ -6092,10 +6092,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/can/dev",
-   "drivers/net/can/slcan",
    "include/linux/can",
-   "drivers/net/can"
+   "drivers/net/can",
+   "drivers/net/can/slcan",
+   "drivers/net/can/dev"
   ],
   "mod_sys": [
    "drivers",
@@ -6293,8 +6293,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/can/slcan",
-   "drivers/net/can"
+   "drivers/net/can",
+   "drivers/net/can/slcan"
   ],
   "mod_sys": [
    "drivers"
@@ -6548,8 +6548,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/net/can/dev",
-   "include/linux/can"
+   "include/linux/can",
+   "drivers/net/can/dev"
   ],
   "mod_sys": [
    "drivers",

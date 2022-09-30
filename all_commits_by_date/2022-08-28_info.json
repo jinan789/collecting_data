@@ -117,8 +117,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "c3a72bb213209adfe981a4a92ea5746a778323e4",
   "num_adds": 7,
-  "num_dels": 6,
-  "num_mod_lns_total": 13,
+  "num_dels": 10,
+  "num_mod_lns_total": 17,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -128,7 +128,7 @@
    "fs/cifs/cifsfs.c",
    "fs/cifs/smb2ops.c"
   ],
-  "entropy": 0.39124356362925566,
+  "entropy": 0.3227569588973982,
   "ppl_signed_off": [
    "Signed-off-by: David Howells <dhowells@redhat.com>",
    "Signed-off-by: Steve French <stfrench@microsoft.com>"
@@ -202,16 +202,16 @@
   "committer_date": "2022-08-28 15:05:29 -0700"
  },
  "b467192ec7070d2d6d14ab5e6774a8afdcc9e89d": {
-  "num_adds_if": 9,
-  "num_dels_if": 16,
+  "num_adds_if": 16,
+  "num_dels_if": 9,
   "num_mod_total_if": 25,
-  "num_adds_loop": 1,
-  "num_dels_loop": 2,
+  "num_adds_loop": 2,
+  "num_dels_loop": 1,
   "num_mod_total_loop": 3,
   "file_hash": "b467192ec7070d2d6d14ab5e6774a8afdcc9e89d",
-  "num_adds": 60,
-  "num_dels": 108,
-  "num_mod_lns_total": 168,
+  "num_adds": 99,
+  "num_dels": 56,
+  "num_mod_lns_total": 155,
   "num_mod_files": 21,
   "is_merge": true,
   "parents": [
@@ -241,7 +241,7 @@
    "mm/shmem.c",
    "mm/zsmalloc.c"
   ],
-  "entropy": 3.701561078159841,
+  "entropy": 3.7551143806056198,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -253,24 +253,24 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/squashfs",
-   "mm",
-   "fs",
-   "fs/ocfs2",
-   "/",
-   "include/asm-generic",
    "mm/damon",
+   "/",
+   "fs/squashfs",
+   "include/asm-generic",
+   "fs/ocfs2",
+   "fs",
    "include/linux",
    "kernel",
+   "mm",
    "drivers/android",
    "/"
   ],
   "mod_sys": [
-   "mm",
    "include",
    "fs",
    "drivers",
-   "kernel"
+   "kernel",
+   "mm"
   ],
   "num_mod_dirs": 11,
   "num_mod_sys": 5,
@@ -285,13 +285,13 @@
   "num_adds_if": 1,
   "num_dels_if": 1,
   "num_mod_total_if": 2,
-  "num_adds_loop": 0,
-  "num_dels_loop": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "373eff576e580b6bbc1e709cd3ca0d100783431f",
-  "num_adds": 23,
-  "num_dels": 37,
-  "num_mod_lns_total": 60,
+  "num_adds": 35,
+  "num_dels": 23,
+  "num_mod_lns_total": 58,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -302,9 +302,9 @@
    "MAINTAINERS",
    "lib/Kconfig.debug",
    "lib/Makefile",
-   "lib/test_cpumask.c"
+   "lib/cpumask_kunit.c"
   ],
-  "entropy": 0.8428190298895275,
+  "entropy": 0.8126265577832248,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -316,8 +316,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "lib",
    "/",
+   "lib",
    "/"
   ],
   "mod_sys": [
@@ -504,13 +504,13 @@
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 0,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 0,
+  "num_mod_total_loop": 1,
   "file_hash": "d26f60703606ab425eee9882b32a1781a8bed74d",
-  "num_adds": 2,
+  "num_adds": 3,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
+  "num_mod_lns_total": 3,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -732,7 +732,7 @@
    "fs/ocfs2/dlmglue.c",
    "fs/ocfs2/super.c"
   ],
-  "entropy": 0.8453509366224364,
+  "entropy": 0.8453509366224365,
   "ppl_signed_off": [
    "Signed-off-by: Heming Zhao <heming.zhao@suse.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -962,9 +962,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "fcab34b433e2c13e333b2f53c4a8409eadc432c7",
-  "num_adds": 5,
+  "num_adds": 8,
   "num_dels": 3,
-  "num_mod_lns_total": 8,
+  "num_mod_lns_total": 11,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1161,12 +1161,12 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "fs",
-   "mm"
+   "mm",
+   "fs"
   ],
   "mod_sys": [
-   "fs",
-   "mm"
+   "mm",
+   "fs"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1289,16 +1289,16 @@
   "committer_date": "2022-08-28 14:02:43 -0700"
  },
  "8379c0b31fbc5d20946f617f8e2fe4791e6f58c1": {
-  "num_adds_if": 8,
-  "num_dels_if": 10,
+  "num_adds_if": 10,
+  "num_dels_if": 8,
   "num_mod_total_if": 18,
-  "num_adds_loop": 0,
-  "num_dels_loop": 4,
+  "num_adds_loop": 4,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 4,
   "file_hash": "8379c0b31fbc5d20946f617f8e2fe4791e6f58c1",
-  "num_adds": 70,
-  "num_dels": 79,
-  "num_mod_lns_total": 149,
+  "num_adds": 72,
+  "num_dels": 65,
+  "num_mod_lns_total": 137,
   "num_mod_files": 11,
   "is_merge": true,
   "parents": [
@@ -1318,7 +1318,7 @@
    "fs/btrfs/volumes.c",
    "fs/btrfs/xattr.c"
   ],
-  "entropy": 2.671355247507707,
+  "entropy": 2.6790681033213994,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1352,9 +1352,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "c7bb3fbc1b499b56a8819b56978c514fd63f66cc",
-  "num_adds": 67,
-  "num_dels": 70,
-  "num_mod_lns_total": 137,
+  "num_adds": 64,
+  "num_dels": 62,
+  "num_mod_lns_total": 126,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -1369,7 +1369,7 @@
    "fs/cifs/smb2pdu.c",
    "fs/cifs/transport.c"
   ],
-  "entropy": 2.053397494749558,
+  "entropy": 2.097029843931007,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1396,16 +1396,16 @@
   "committer_date": "2022-08-28 10:35:16 -0700"
  },
  "2f23a7c914317ac0b2a7e2bbe48dc00213652f98": {
-  "num_adds_if": 4,
-  "num_dels_if": 12,
+  "num_adds_if": 12,
+  "num_dels_if": 4,
   "num_mod_total_if": 16,
-  "num_adds_loop": 1,
-  "num_dels_loop": 8,
+  "num_adds_loop": 8,
+  "num_dels_loop": 1,
   "num_mod_total_loop": 9,
   "file_hash": "2f23a7c914317ac0b2a7e2bbe48dc00213652f98",
-  "num_adds": 88,
-  "num_dels": 183,
-  "num_mod_lns_total": 271,
+  "num_adds": 173,
+  "num_dels": 87,
+  "num_mod_lns_total": 260,
   "num_mod_files": 15,
   "is_merge": true,
   "parents": [
@@ -1429,7 +1429,7 @@
    "arch/x86/mm/pat/memtype.c",
    "tools/objtool/check.c"
   ],
-  "entropy": 3.0720561021430552,
+  "entropy": 3.064350927667242,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1441,20 +1441,20 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/x86/include/asm",
-   "arch/x86/mm/pat",
-   "Documentation/admin-guide/hw-vuln",
-   "Documentation/ABI/testing",
-   "arch/x86/kernel/cpu",
-   "arch/x86/kernel",
-   "arch/x86/boot/compressed",
    "arch/x86/entry",
-   "tools/objtool"
+   "arch/x86/kernel",
+   "arch/x86/kernel/cpu",
+   "tools/objtool",
+   "arch/x86/mm/pat",
+   "arch/x86/include/asm",
+   "Documentation/admin-guide/hw-vuln",
+   "arch/x86/boot/compressed",
+   "Documentation/ABI/testing"
   ],
   "mod_sys": [
    "Documentation",
-   "arch",
-   "tools"
+   "tools",
+   "arch"
   ],
   "num_mod_dirs": 9,
   "num_mod_sys": 3,
@@ -1469,13 +1469,13 @@
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 0,
-  "num_dels_loop": 4,
+  "num_adds_loop": 4,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 4,
   "file_hash": "4459d800f71d01042b36326fd8ece1f823b9da16",
-  "num_adds": 7,
-  "num_dels": 36,
-  "num_mod_lns_total": 43,
+  "num_adds": 32,
+  "num_dels": 7,
+  "num_mod_lns_total": 39,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -1488,7 +1488,7 @@
    "arch/x86/events/intel/lbr.c",
    "arch/x86/events/intel/uncore_snb.c"
   ],
-  "entropy": 1.817791118381265,
+  "entropy": 1.8322987710915533,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1515,16 +1515,16 @@
   "committer_date": "2022-08-28 10:05:42 -0700"
  },
  "611875d510a1ea7bcdf0e58ff7eedda08199d77e": {
-  "num_adds_if": 0,
-  "num_dels_if": 3,
+  "num_adds_if": 3,
+  "num_dels_if": 0,
   "num_mod_total_if": 3,
-  "num_adds_loop": 0,
-  "num_dels_loop": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "611875d510a1ea7bcdf0e58ff7eedda08199d77e",
-  "num_adds": 32,
-  "num_dels": 61,
-  "num_mod_lns_total": 93,
+  "num_adds": 57,
+  "num_dels": 28,
+  "num_mod_lns_total": 85,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -1541,7 +1541,7 @@
    "tools/perf/tests/shell/stat.sh",
    "tools/perf/util/stat-shadow.c"
   ],
-  "entropy": 2.5480903896279514,
+  "entropy": 2.521675272603736,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1553,11 +1553,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/perf/tests/shell",
-   "tools/perf",
    "tools/arch/arm64/include/uapi/asm",
-   "tools/perf/Documentation",
-   "tools/perf/util"
+   "tools/perf",
+   "tools/perf/util",
+   "tools/perf/tests/shell",
+   "tools/perf/Documentation"
   ],
   "mod_sys": [
    "tools"
