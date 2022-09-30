@@ -25,11 +25,13 @@ def collect(ins):
     month = dates[0][:7]
     for date in dates:
         cur_month = date[:7]
+        """
         if cur_month != month:
             month = cur_month
             os.system("git add *")
             os.system("git commit -m \"1\"")
             os.system("git push")
+        """
 
         try:
             with open("./all_commits_by_date/" + date + '.json', "r") as f:
