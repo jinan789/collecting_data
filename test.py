@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     args = []
     for i in range(num_proc):
-        args.append([dates, i, num_proc])
+        args.append(range(num_proc))
     pool.map(collect, args)
     pool.close()
 
