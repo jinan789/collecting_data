@@ -391,7 +391,7 @@ def get_commit_info(cur_commit):
 def get_info_from_commits(commits):
     from tqdm import tqdm
     com_dict = {}
-    for c in tqdm(commits):
+    for c in commits:
         com_dict[c] = get_commit_info(c)
     return com_dict
 
