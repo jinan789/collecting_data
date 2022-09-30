@@ -52,7 +52,7 @@ def collect(ins):
 if __name__ == '__main__':
     import multiprocessing as mp
 
-    num_proc = 10
+    num_proc = 20
     pool = mp.Pool(num_proc)
 
     args = []
