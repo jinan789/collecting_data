@@ -1,0 +1,3309 @@
+{
+ "6fd941784b8ac3e74313f7112f0586076dc36544": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6fd941784b8ac3e74313f7112f0586076dc36544",
+  "num_adds": 4,
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8a98ec7c7b39"
+  ],
+  "mod_files_lst": [
+   "fs/ext4/acl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Chengguang Xu <cgxu519@gmx.com>",
+   "Signed-off-by: Theodore Ts'o <tytso@mit.edu>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [
+   "Reviewed-by: Jan Kara <jack@suse.cz>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "fs/ext4"
+  ],
+  "mod_sys": [
+   "fs"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Chengguang Xu",
+  "author_email": "cgxu519@gmx.com",
+  "committer": "Theodore Ts'o",
+  "committer_email": "tytso@mit.edu",
+  "author_date": "2018-10-06 22:40:34 -0400",
+  "committer_date": "2018-10-06 22:40:34 -0400"
+ },
+ "72438f8cef4e75a22140853baa4c68392c721b22": {
+  "num_adds_if": 166,
+  "num_dels_if": 102,
+  "num_mod_total_if": 268,
+  "num_adds_loop": 26,
+  "num_dels_loop": 9,
+  "num_mod_total_loop": 35,
+  "file_hash": "72438f8cef4e75a22140853baa4c68392c721b22",
+  "num_adds": 1494,
+  "num_dels": 806,
+  "num_mod_lns_total": 2300,
+  "num_mod_files": 136,
+  "is_merge": true,
+  "parents": [
+   "fb4ee67529ff",
+   "c1d84a1b42ef"
+  ],
+  "mod_files_lst": [
+   "MAINTAINERS",
+   "arch/arm/mm/ioremap.c",
+   "arch/arm/tools/syscall.tbl",
+   "arch/powerpc/kvm/book3s_64_mmu_radix.c",
+   "arch/riscv/kernel/setup.c",
+   "arch/x86/entry/vdso/Makefile",
+   "arch/x86/entry/vdso/vclock_gettime.c",
+   "arch/x86/events/amd/uncore.c",
+   "arch/x86/events/intel/uncore_snbep.c",
+   "arch/x86/include/asm/perf_event.h",
+   "arch/x86/include/asm/uv/uv.h",
+   "arch/x86/kernel/cpu/amd.c",
+   "arch/x86/kernel/tsc.c",
+   "arch/x86/kvm/mmu.c",
+   "arch/x86/kvm/vmx.c",
+   "arch/x86/kvm/x86.c",
+   "drivers/base/power/main.c",
+   "drivers/crypto/caam/caamalg.c",
+   "drivers/crypto/chelsio/chcr_algo.c",
+   "drivers/crypto/chelsio/chcr_crypto.h",
+   "drivers/crypto/mxs-dcp.c",
+   "drivers/crypto/qat/qat_c3xxx/adf_drv.c",
+   "drivers/crypto/qat/qat_c3xxxvf/adf_drv.c",
+   "drivers/crypto/qat/qat_c62x/adf_drv.c",
+   "drivers/crypto/qat/qat_c62xvf/adf_drv.c",
+   "drivers/crypto/qat/qat_dh895xcc/adf_drv.c",
+   "drivers/crypto/qat/qat_dh895xccvf/adf_drv.c",
+   "drivers/gpio/gpiolib.c",
+   "drivers/gpu/drm/amd/amdkfd/kfd_device_queue_manager.c",
+   "drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c",
+   "drivers/gpu/drm/drm_client.c",
+   "drivers/gpu/drm/drm_fb_cma_helper.c",
+   "drivers/gpu/drm/drm_fb_helper.c",
+   "drivers/gpu/drm/drm_lease.c",
+   "drivers/gpu/drm/exynos/exynos_drm_iommu.h",
+   "drivers/gpu/drm/i2c/tda9950.c",
+   "drivers/gpu/drm/i915/i915_gpu_error.c",
+   "drivers/gpu/drm/i915/i915_gpu_error.h",
+   "drivers/gpu/drm/i915/i915_irq.c",
+   "drivers/gpu/drm/i915/i915_pci.c",
+   "drivers/iommu/amd_iommu.c",
+   "drivers/md/dm-cache-metadata.c",
+   "drivers/md/dm-cache-target.c",
+   "drivers/md/dm-mpath.c",
+   "drivers/md/dm-raid.c",
+   "drivers/md/dm-thin-metadata.c",
+   "drivers/net/dsa/b53/b53_common.c",
+   "drivers/net/ethernet/broadcom/bnxt/bnxt.c",
+   "drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c",
+   "drivers/net/ethernet/chelsio/cxgb3/cxgb3_main.c",
+   "drivers/net/ethernet/emulex/benet/be_main.c",
+   "drivers/net/ethernet/marvell/mvpp2/mvpp2_main.c",
+   "drivers/net/ethernet/mellanox/mlxsw/pci.c",
+   "drivers/net/ethernet/mellanox/mlxsw/spectrum.c",
+   "drivers/net/hamradio/yam.c",
+   "drivers/net/phy/phylink.c",
+   "drivers/net/team/team.c",
+   "drivers/net/usb/smsc75xx.c",
+   "drivers/pci/controller/pci-mvebu.c",
+   "drivers/pci/pci.c",
+   "fs/cifs/cifsglob.h",
+   "fs/cifs/connect.c",
+   "fs/cifs/smb2ops.c",
+   "fs/cifs/transport.c",
+   "fs/ioctl.c",
+   "fs/iomap.c",
+   "fs/nfsd/vfs.c",
+   "fs/ocfs2/dlm/dlmmaster.c",
+   "fs/ocfs2/refcounttree.c",
+   "fs/overlayfs/copy_up.c",
+   "fs/overlayfs/file.c",
+   "fs/overlayfs/inode.c",
+   "fs/overlayfs/namei.c",
+   "fs/overlayfs/overlayfs.h",
+   "fs/overlayfs/util.c",
+   "fs/proc/base.c",
+   "fs/read_write.c",
+   "fs/xfs/libxfs/xfs_attr.c",
+   "fs/xfs/libxfs/xfs_attr_remote.c",
+   "fs/xfs/libxfs/xfs_bmap.c",
+   "fs/xfs/libxfs/xfs_format.h",
+   "fs/xfs/libxfs/xfs_inode_buf.c",
+   "fs/xfs/scrub/alloc.c",
+   "fs/xfs/scrub/inode.c",
+   "fs/xfs/xfs_bmap_util.c",
+   "fs/xfs/xfs_buf_item.c",
+   "fs/xfs/xfs_buf_item.h",
+   "fs/xfs/xfs_inode.c",
+   "fs/xfs/xfs_iops.c",
+   "fs/xfs/xfs_log_recover.c",
+   "fs/xfs/xfs_reflink.c",
+   "fs/xfs/xfs_trace.h",
+   "fs/xfs/xfs_trans.c",
+   "fs/xfs/xfs_trans_buf.c",
+   "include/drm/drm_client.h",
+   "include/linux/fs.h",
+   "include/linux/hugetlb.h",
+   "include/linux/mm.h",
+   "include/linux/mmzone.h",
+   "include/linux/virtio_net.h",
+   "include/trace/events/migrate.h",
+   "include/uapi/asm-generic/hugetlb_encode.h",
+   "include/uapi/linux/memfd.h",
+   "include/uapi/linux/mman.h",
+   "include/uapi/linux/shm.h",
+   "ipc/shm.c",
+   "kernel/bpf/local_storage.c",
+   "kernel/bpf/verifier.c",
+   "kernel/events/core.c",
+   "kernel/locking/test-ww_mutex.c",
+   "kernel/sched/core.c",
+   "kernel/sched/deadline.c",
+   "kernel/sched/fair.c",
+   "kernel/sched/sched.h",
+   "mm/gup_benchmark.c",
+   "mm/huge_memory.c",
+   "mm/hugetlb.c",
+   "mm/madvise.c",
+   "mm/migrate.c",
+   "mm/page_alloc.c",
+   "mm/rmap.c",
+   "mm/vmscan.c",
+   "mm/vmstat.c",
+   "net/bpfilter/bpfilter_kern.c",
+   "net/core/rtnetlink.c",
+   "net/ipv6/raw.c",
+   "net/mac80211/cfg.c",
+   "net/openvswitch/conntrack.c",
+   "net/packet/af_packet.c",
+   "net/sched/sch_api.c",
+   "net/wireless/reg.c",
+   "net/wireless/wext-compat.c",
+   "sound/hda/hdac_i915.c",
+   "sound/pci/hda/patch_realtek.c",
+   "tools/kvm/kvm_stat/kvm_stat",
+   "tools/testing/selftests/x86/test_vdso.c"
+  ],
+  "entropy": 5.881356751586226,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "sound/pci/hda",
+   "net/bpfilter",
+   "arch/x86/kvm",
+   "drivers/crypto/qat/qat_c62xvf",
+   "drivers/crypto",
+   "drivers/net/hamradio",
+   "drivers/net/ethernet/emulex/benet",
+   "arch/powerpc/kvm",
+   "drivers/crypto/qat/qat_c3xxx",
+   "ipc",
+   "arch/riscv/kernel",
+   "include/linux",
+   "drivers/md",
+   "drivers/crypto/caam",
+   "drivers/net/ethernet/marvell/mvpp2",
+   "arch/x86/include/asm",
+   "drivers/net/phy",
+   "drivers/pci",
+   "kernel/events",
+   "/",
+   "arch/x86/kernel",
+   "fs/xfs/scrub",
+   "arch/arm/mm",
+   "drivers/net/dsa/b53",
+   "arch/arm/tools",
+   "arch/x86/include/asm/uv",
+   "drivers/gpu/drm/amd/display/amdgpu_dm",
+   "drivers/crypto/chelsio",
+   "arch/x86/events/amd",
+   "net/openvswitch",
+   "drivers/net/usb",
+   "drivers/iommu",
+   "tools/testing/selftests/x86",
+   "drivers/crypto/qat/qat_c62x",
+   "net/mac80211",
+   "drivers/gpio",
+   "fs/ocfs2/dlm",
+   "net/packet",
+   "arch/x86/entry/vdso",
+   "net/sched",
+   "fs/xfs/libxfs",
+   "fs/xfs",
+   "mm",
+   "kernel/sched",
+   "arch/x86/kernel/cpu",
+   "drivers/gpu/drm/i915",
+   "drivers/crypto/qat/qat_dh895xccvf",
+   "drivers/net/ethernet/mellanox/mlxsw",
+   "drivers/net/team",
+   "include/trace/events",
+   "net/wireless",
+   "kernel/bpf",
+   "fs",
+   "tools/kvm/kvm_stat",
+   "drivers/base/power",
+   "drivers/gpu/drm/amd/amdkfd",
+   "kernel/locking",
+   "include/uapi/asm-generic",
+   "drivers/gpu/drm/i2c",
+   "drivers/pci/controller",
+   "sound/hda",
+   "drivers/gpu/drm",
+   "drivers/net/ethernet/chelsio/cxgb3",
+   "fs/cifs",
+   "drivers/crypto/qat/qat_dh895xcc",
+   "fs/ocfs2",
+   "include/drm",
+   "net/ipv6",
+   "fs/nfsd",
+   "include/uapi/linux",
+   "net/core",
+   "arch/x86/events/intel",
+   "fs/overlayfs",
+   "drivers/crypto/qat/qat_c3xxxvf",
+   "drivers/net/ethernet/broadcom/bnxt",
+   "drivers/gpu/drm/exynos",
+   "fs/proc",
+   "/"
+  ],
+  "mod_sys": [
+   "net",
+   "include",
+   "arch",
+   "tools",
+   "kernel",
+   "sound",
+   "drivers",
+   "mm",
+   "fs",
+   "ipc"
+  ],
+  "num_mod_dirs": 78,
+  "num_mod_sys": 10,
+  "author": "David S. Miller",
+  "author_email": "davem@davemloft.net",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2018-10-06 14:43:42 -0700",
+  "committer_date": "2018-10-06 14:43:42 -0700"
+ },
+ "fa112cf1e8bc693d5a666b1c479a2859c8b6e0f1": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fa112cf1e8bc693d5a666b1c479a2859c8b6e0f1",
+  "num_adds": 1,
+  "num_dels": 2,
+  "num_mod_lns_total": 3,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "d92116b800fb"
+  ],
+  "mod_files_lst": [
+   "arch/x86/Kconfig"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Borislav Petkov <bp@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Lubomir Rintel <lkundrak@v3.sk>",
+   "Cc: x86@kernel.org"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Borislav Petkov",
+  "author_email": "bp@suse.de",
+  "committer": "Borislav Petkov",
+  "committer_email": "bp@suse.de",
+  "author_date": "2018-10-05 15:13:07 +0200",
+  "committer_date": "2018-10-06 20:40:43 +0200"
+ },
+ "32b89760ddf4477da436c272be2abc016e169031": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 6,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 12,
+  "file_hash": "32b89760ddf4477da436c272be2abc016e169031",
+  "num_adds": 120,
+  "num_dels": 51,
+  "num_mod_lns_total": 171,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "5b1290406579"
+  ],
+  "mod_files_lst": [
+   "Documentation/x86/x86_64/mm.txt"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@kernel.org>",
+   "Cc: Baoquan He <bhe@redhat.com>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Dave Hansen <dave.hansen@linux.intel.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: H. Peter Anvin <hpa@zytor.com>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Rik van Riel <riel@surriel.com>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>",
+   "Cc: corbet@lwn.net",
+   "Cc: linux-doc@vger.kernel.org",
+   "Cc: linux-kernel@vger.kernel.org",
+   "Cc: thgarnie@google.com"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/x86/x86_64"
+  ],
+  "mod_sys": [
+   "Documentation"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Ingo Molnar",
+  "author_email": "mingo@kernel.org",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-06 13:41:12 +0200",
+  "committer_date": "2018-10-06 16:36:12 +0200"
+ },
+ "5bdcd510c2ac9efaf55c4cbd8d46421d8e2320cd": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "5bdcd510c2ac9efaf55c4cbd8d46421d8e2320cd",
+  "num_adds": 20,
+  "num_dels": 55,
+  "num_mod_lns_total": 75,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "d5a581d84ae6"
+  ],
+  "mod_files_lst": [
+   "arch/x86/entry/calling.h",
+   "arch/x86/include/asm/jump_label.h",
+   "arch/x86/kernel/macros.S"
+  ],
+  "entropy": 0.2790240224445944,
+  "ppl_signed_off": [
+   "Signed-off-by: Nadav Amit <namit@vmware.com>",
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Peter Zijlstra (Intel) <peterz@infradead.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@amacapital.net>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>",
+   "Cc: Kate Stewart <kstewart@linuxfoundation.org>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Philippe Ombredanne <pombredanne@nexb.com>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: Kees Cook <keescook@chromium.org>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86/kernel",
+   "arch/x86/include/asm",
+   "arch/x86/entry"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 1,
+  "author": "Nadav Amit",
+  "author_email": "namit@vmware.com",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-05 13:27:18 -0700",
+  "committer_date": "2018-10-06 15:52:17 +0200"
+ },
+ "d5a581d84ae6b8a4a740464b80d8d9cf1e7947b2": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d5a581d84ae6b8a4a740464b80d8d9cf1e7947b2",
+  "num_adds": 48,
+  "num_dels": 35,
+  "num_mod_lns_total": 83,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "0474d5d9d2f7"
+  ],
+  "mod_files_lst": [
+   "arch/x86/include/asm/cpufeature.h",
+   "arch/x86/kernel/macros.S"
+  ],
+  "entropy": 0.09408443883267345,
+  "ppl_signed_off": [
+   "Signed-off-by: Nadav Amit <namit@vmware.com>",
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Peter Zijlstra (Intel) <peterz@infradead.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@amacapital.net>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: Kees Cook <keescook@chromium.org>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86/include/asm",
+   "arch/x86/kernel"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Nadav Amit",
+  "author_email": "namit@vmware.com",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-05 13:27:17 -0700",
+  "committer_date": "2018-10-06 15:52:16 +0200"
+ },
+ "0474d5d9d2f7f3b11262f7bf87d0e7314ead9200": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0474d5d9d2f7f3b11262f7bf87d0e7314ead9200",
+  "num_adds": 21,
+  "num_dels": 33,
+  "num_mod_lns_total": 54,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "02678a582392"
+  ],
+  "mod_files_lst": [
+   "arch/x86/include/asm/asm.h",
+   "arch/x86/kernel/macros.S"
+  ],
+  "entropy": 0.13303964861069895,
+  "ppl_signed_off": [
+   "Signed-off-by: Nadav Amit <namit@vmware.com>",
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Peter Zijlstra (Intel) <peterz@infradead.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@amacapital.net>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: Josh Poimboeuf <jpoimboe@redhat.com>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: Kees Cook <keescook@chromium.org>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86/include/asm",
+   "arch/x86/kernel"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Nadav Amit",
+  "author_email": "namit@vmware.com",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-05 13:27:16 -0700",
+  "committer_date": "2018-10-06 15:52:15 +0200"
+ },
+ "02678a582392111928650f116b34091bfdb6441e": {
+  "num_adds_if": 17,
+  "num_dels_if": 16,
+  "num_mod_total_if": 33,
+  "num_adds_loop": 0,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 3,
+  "file_hash": "02678a582392111928650f116b34091bfdb6441e",
+  "num_adds": 226,
+  "num_dels": 174,
+  "num_mod_lns_total": 400,
+  "num_mod_files": 21,
+  "is_merge": true,
+  "parents": [
+   "bce6824cc8e8",
+   "77ac1c02d9f2"
+  ],
+  "mod_files_lst": [
+   "arch/Kconfig",
+   "arch/arm64/Kconfig",
+   "arch/arm64/include/asm/jump_label.h",
+   "arch/arm64/kernel/jump_label.c",
+   "arch/s390/Kconfig",
+   "arch/s390/include/asm/jump_label.h",
+   "arch/s390/kernel/jump_label.c",
+   "arch/s390/kernel/vmlinux.lds.S",
+   "arch/x86/Kconfig",
+   "arch/x86/include/asm/elf.h",
+   "arch/x86/include/asm/jump_label.h",
+   "arch/x86/kernel/jump_label.c",
+   "arch/x86/kernel/module.c",
+   "arch/x86/tools/relocs.c",
+   "arch/x86/um/asm/elf.h",
+   "include/asm-generic/vmlinux.lds.h",
+   "include/linux/jump_label.h",
+   "init/main.c",
+   "kernel/jump_label.c",
+   "kernel/module.c",
+   "tools/objtool/special.c"
+  ],
+  "entropy": 3.297662486077259,
+  "ppl_signed_off": [
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/s390/kernel",
+   "arch/x86/um/asm",
+   "tools/objtool",
+   "arch",
+   "arch/x86/tools",
+   "include/linux",
+   "include/asm-generic",
+   "arch/arm64/include/asm",
+   "arch/x86/kernel",
+   "init",
+   "kernel",
+   "arch/s390/include/asm",
+   "arch/s390",
+   "arch/arm64",
+   "arch/x86/include/asm",
+   "arch/arm64/kernel",
+   "arch/x86"
+  ],
+  "mod_sys": [
+   "include",
+   "arch",
+   "init",
+   "tools",
+   "kernel"
+  ],
+  "num_mod_dirs": 17,
+  "num_mod_sys": 5,
+  "author": "Ingo Molnar",
+  "author_email": "mingo@kernel.org",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-06 15:51:56 +0200",
+  "committer_date": "2018-10-06 15:51:56 +0200"
+ },
+ "a223464217737c6563c7986df67fe3b7a7aaff1e": {
+  "num_adds_if": 64,
+  "num_dels_if": 21,
+  "num_mod_total_if": 85,
+  "num_adds_loop": 14,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 18,
+  "file_hash": "a223464217737c6563c7986df67fe3b7a7aaff1e",
+  "num_adds": 1174,
+  "num_dels": 194,
+  "num_mod_lns_total": 1368,
+  "num_mod_files": 20,
+  "is_merge": true,
+  "parents": [
+   "94967b55ebf3",
+   "2130b789b3ef"
+  ],
+  "mod_files_lst": [
+   "Documentation/devicetree/bindings/interrupt-controller/marvell,icu.txt",
+   "Documentation/devicetree/bindings/interrupt-controller/marvell,sei.txt",
+   "Documentation/devicetree/bindings/interrupt-controller/renesas,irqc.txt",
+   "arch/arm64/Kconfig.platforms",
+   "drivers/base/platform-msi.c",
+   "drivers/firmware/efi/efi.c",
+   "drivers/firmware/efi/libstub/arm-stub.c",
+   "drivers/irqchip/Kconfig",
+   "drivers/irqchip/Makefile",
+   "drivers/irqchip/irq-gic-v3-its.c",
+   "drivers/irqchip/irq-gic-v3.c",
+   "drivers/irqchip/irq-mvebu-icu.c",
+   "drivers/irqchip/irq-mvebu-sei.c",
+   "drivers/irqchip/qcom-pdc.c",
+   "include/linux/efi.h",
+   "include/linux/irqchip/arm-gic-common.h",
+   "include/linux/irqchip/arm-gic-v3.h",
+   "include/linux/irqchip/arm-gic.h",
+   "include/linux/irqdomain.h",
+   "include/linux/msi.h"
+  ],
+  "entropy": 2.73398227739481,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/devicetree/bindings/interrupt-controller",
+   "include/linux",
+   "drivers/firmware/efi/libstub",
+   "drivers/base",
+   "drivers/irqchip",
+   "drivers/firmware/efi",
+   "include/linux/irqchip",
+   "arch/arm64"
+  ],
+  "mod_sys": [
+   "drivers",
+   "include",
+   "Documentation",
+   "arch"
+  ],
+  "num_mod_dirs": 8,
+  "num_mod_sys": 4,
+  "author": "Thomas Gleixner",
+  "author_email": "tglx@linutronix.de",
+  "committer": "Thomas Gleixner",
+  "committer_email": "tglx@linutronix.de",
+  "author_date": "2018-10-06 15:45:07 +0200",
+  "committer_date": "2018-10-06 15:45:07 +0200"
+ },
+ "5b12904065798fee8b153a506ac7b72d5ebbe26c": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 4,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 8,
+  "file_hash": "5b12904065798fee8b153a506ac7b72d5ebbe26c",
+  "num_adds": 42,
+  "num_dels": 42,
+  "num_mod_lns_total": 84,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "06d4a462e954"
+  ],
+  "mod_files_lst": [
+   "Documentation/x86/x86_64/mm.txt"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Baoquan He <bhe@redhat.com>",
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@amacapital.net>",
+   "Cc: Andy Lutomirski <luto@kernel.org>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Dave Hansen <dave.hansen@linux.intel.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: H. Peter Anvin <hpa@zytor.com>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Rik van Riel <riel@surriel.com>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>",
+   "Cc: corbet@lwn.net",
+   "Cc: linux-doc@vger.kernel.org",
+   "Cc: thgarnie@google.com"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/x86/x86_64"
+  ],
+  "mod_sys": [
+   "Documentation"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Baoquan He",
+  "author_email": "bhe@redhat.com",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-06 16:43:26 +0800",
+  "committer_date": "2018-10-06 14:46:47 +0200"
+ },
+ "06d4a462e954756f3d3d54e6f3f1bdc2e6f592a9": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "06d4a462e954756f3d3d54e6f3f1bdc2e6f592a9",
+  "num_adds": 9,
+  "num_dels": 6,
+  "num_mod_lns_total": 15,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "992b649a3f01"
+  ],
+  "mod_files_lst": [
+   "arch/x86/include/asm/page_64_types.h"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Baoquan He <bhe@redhat.com>",
+   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Andy Lutomirski <luto@amacapital.net>",
+   "Cc: Andy Lutomirski <luto@kernel.org>",
+   "Cc: Borislav Petkov <bp@alien8.de>",
+   "Cc: Brian Gerst <brgerst@gmail.com>",
+   "Cc: Dave Hansen <dave.hansen@linux.intel.com>",
+   "Cc: Denys Vlasenko <dvlasenk@redhat.com>",
+   "Cc: H. Peter Anvin <hpa@zytor.com>",
+   "Cc: Linus Torvalds <torvalds@linux-foundation.org>",
+   "Cc: Peter Zijlstra <peterz@infradead.org>",
+   "Cc: Rik van Riel <riel@surriel.com>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>",
+   "Cc: corbet@lwn.net",
+   "Cc: linux-doc@vger.kernel.org",
+   "Cc: thgarnie@google.com"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86/include/asm"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Baoquan He",
+  "author_email": "bhe@redhat.com",
+  "committer": "Ingo Molnar",
+  "committer_email": "mingo@kernel.org",
+  "author_date": "2018-10-06 16:43:25 +0800",
+  "committer_date": "2018-10-06 14:46:46 +0200"
+ },
+ "5580d810560da33804053ae3bca13110c9a8d5e8": {
+  "num_adds_if": 62,
+  "num_dels_if": 76,
+  "num_mod_total_if": 138,
+  "num_adds_loop": 16,
+  "num_dels_loop": 20,
+  "num_mod_total_loop": 36,
+  "file_hash": "5580d810560da33804053ae3bca13110c9a8d5e8",
+  "num_adds": 1684,
+  "num_dels": 2088,
+  "num_mod_lns_total": 3772,
+  "num_mod_files": 73,
+  "is_merge": true,
+  "parents": [
+   "2a4550122653",
+   "9b43960b899c"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/mediatek/mt76/Kconfig",
+   "drivers/net/wireless/mediatek/mt76/Makefile",
+   "drivers/net/wireless/mediatek/mt76/mt76.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/Kconfig",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/Makefile",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/debugfs.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/eeprom.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/eeprom.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/init.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/initvals.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/mac.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/mac.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/main.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/mcu.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/mt76x0.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/pci.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/pci_mcu.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/phy.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/trace.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/tx.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/usb.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x0/usb_mcu.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_dfs.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_dma.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_mac.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_mac.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_mcu.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_mmio.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_phy.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_phy.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_trace.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_trace.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_txrx.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_usb.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_usb_core.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_util.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x02_util.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/Kconfig",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/Makefile",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/debugfs.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/dfs.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/eeprom.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/eeprom.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/init.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mac.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mac.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mcu.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mcu.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2u.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_dfs.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_init.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_mac.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_main.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_mcu.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_phy.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/pci_tx.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/phy.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb_init.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb_mac.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb_main.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb_mcu.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2/usb_phy.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2_core.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2_mac.h",
+   "drivers/net/wireless/mediatek/mt76/mt76x2_mac_common.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2_tx_common.c",
+   "drivers/net/wireless/mediatek/mt76/mt76x2u_core.c",
+   "drivers/net/wireless/mediatek/mt76/usb.c"
+  ],
+  "entropy": 5.416376924560979,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/mediatek/mt76/mt76x0",
+   "drivers/net/wireless/mediatek/mt76/mt76x2",
+   "drivers/net/wireless/mediatek/mt76"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 1,
+  "author": "Kalle Valo",
+  "author_email": "kvalo@codeaurora.org",
+  "committer": "Kalle Valo",
+  "committer_email": "kvalo@codeaurora.org",
+  "author_date": "2018-10-06 14:22:47 +0300",
+  "committer_date": "2018-10-06 14:22:47 +0300"
+ },
+ "992b649a3f013465d8128da02e5449def662a4c3": {
+  "num_adds_if": 4,
+  "num_dels_if": 2,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "992b649a3f013465d8128da02e5449def662a4c3",
+  "num_adds": 63,
+  "num_dels": 25,
+  "num_mod_lns_total": 88,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "8780158cf977"
+  ],
+  "mod_files_lst": [
+   "arch/x86/kernel/crash_dump_64.c",
+   "fs/proc/vmcore.c",
+   "include/linux/crash_dump.h"
+  ],
+  "entropy": 1.090652803252992,
+  "ppl_signed_off": [
+   "Signed-off-by: Lianbo Jiang <lijiang@redhat.com>",
+   "Signed-off-by: Borislav Petkov <bp@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: kexec@lists.infradead.org",
+   "Cc: tglx@linutronix.de",
+   "Cc: mingo@redhat.com",
+   "Cc: hpa@zytor.com",
+   "Cc: akpm@linux-foundation.org",
+   "Cc: dan.j.williams@intel.com",
+   "Cc: bhelgaas@google.com",
+   "Cc: baiyaowei@cmss.chinamobile.com",
+   "Cc: tiwai@suse.de",
+   "Cc: brijesh.singh@amd.com",
+   "Cc: dyoung@redhat.com",
+   "Cc: bhe@redhat.com",
+   "Cc: jroedel@suse.de"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/linux",
+   "fs/proc",
+   "arch/x86/kernel"
+  ],
+  "mod_sys": [
+   "fs",
+   "include",
+   "arch"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 3,
+  "author": "Lianbo Jiang",
+  "author_email": "lijiang@redhat.com",
+  "committer": "Borislav Petkov",
+  "committer_email": "bp@suse.de",
+  "author_date": "2018-09-30 16:37:41 +0800",
+  "committer_date": "2018-10-06 12:09:26 +0200"
+ },
+ "8780158cf977ea5f9912931a30b3d575b36dba22": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "8780158cf977ea5f9912931a30b3d575b36dba22",
+  "num_adds": 12,
+  "num_dels": 2,
+  "num_mod_lns_total": 14,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "9cf38d5559e8"
+  ],
+  "mod_files_lst": [
+   "drivers/iommu/amd_iommu_init.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Lianbo Jiang <lijiang@redhat.com>",
+   "Signed-off-by: Borislav Petkov <bp@suse.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Joerg Roedel <jroedel@suse.de>"
+  ],
+  "ppl_cc": [
+   "Cc: kexec@lists.infradead.org",
+   "Cc: tglx@linutronix.de",
+   "Cc: mingo@redhat.com",
+   "Cc: hpa@zytor.com",
+   "Cc: akpm@linux-foundation.org",
+   "Cc: dan.j.williams@intel.com",
+   "Cc: bhelgaas@google.com",
+   "Cc: baiyaowei@cmss.chinamobile.com",
+   "Cc: tiwai@suse.de",
+   "Cc: brijesh.singh@amd.com",
+   "Cc: dyoung@redhat.com",
+   "Cc: bhe@redhat.com"
+  ],
+  "ppl_reviewed": [
+   "Reviewed-by: Tom Lendacky <thomas.lendacky@amd.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/iommu"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Lianbo Jiang",
+  "author_email": "lijiang@redhat.com",
+  "committer": "Borislav Petkov",
+  "committer_email": "bp@suse.de",
+  "author_date": "2018-09-30 11:10:32 +0800",
+  "committer_date": "2018-10-06 12:08:24 +0200"
+ },
+ "9cf38d5559e813cccdba8b44c82cc46ba48d0896": {
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9cf38d5559e813cccdba8b44c82cc46ba48d0896",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "c3a7a61c192e"
+  ],
+  "mod_files_lst": [
+   "kernel/kexec_core.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Lianbo Jiang <lijiang@redhat.com>",
+   "Signed-off-by: Borislav Petkov <bp@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: kexec@lists.infradead.org",
+   "Cc: tglx@linutronix.de",
+   "Cc: mingo@redhat.com",
+   "Cc: hpa@zytor.com",
+   "Cc: akpm@linux-foundation.org",
+   "Cc: dan.j.williams@intel.com",
+   "Cc: bhelgaas@google.com",
+   "Cc: baiyaowei@cmss.chinamobile.com",
+   "Cc: tiwai@suse.de",
+   "Cc: brijesh.singh@amd.com",
+   "Cc: dyoung@redhat.com",
+   "Cc: bhe@redhat.com",
+   "Cc: jroedel@suse.de"
+  ],
+  "ppl_reviewed": [
+   "Reviewed-by: Tom Lendacky <thomas.lendacky@amd.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "kernel"
+  ],
+  "mod_sys": [
+   "kernel"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Lianbo Jiang",
+  "author_email": "lijiang@redhat.com",
+  "committer": "Borislav Petkov",
+  "committer_email": "bp@suse.de",
+  "author_date": "2018-09-30 11:10:31 +0800",
+  "committer_date": "2018-10-06 12:01:51 +0200"
+ },
+ "c3a7a61c192ec350330128edb13db33a9bc0ace1": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c3a7a61c192ec350330128edb13db33a9bc0ace1",
+  "num_adds": 18,
+  "num_dels": 9,
+  "num_mod_lns_total": 27,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "b3541fbc3c25"
+  ],
+  "mod_files_lst": [
+   "arch/x86/include/asm/io.h",
+   "arch/x86/mm/ioremap.c"
+  ],
+  "entropy": 0.5032583347756457,
+  "ppl_signed_off": [
+   "Signed-off-by: Lianbo Jiang <lijiang@redhat.com>",
+   "Signed-off-by: Borislav Petkov <bp@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: kexec@lists.infradead.org",
+   "Cc: tglx@linutronix.de",
+   "Cc: mingo@redhat.com",
+   "Cc: hpa@zytor.com",
+   "Cc: akpm@linux-foundation.org",
+   "Cc: dan.j.williams@intel.com",
+   "Cc: bhelgaas@google.com",
+   "Cc: baiyaowei@cmss.chinamobile.com",
+   "Cc: tiwai@suse.de",
+   "Cc: brijesh.singh@amd.com",
+   "Cc: dyoung@redhat.com",
+   "Cc: bhe@redhat.com",
+   "Cc: jroedel@suse.de"
+  ],
+  "ppl_reviewed": [
+   "Reviewed-by: Tom Lendacky <thomas.lendacky@amd.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/x86/include/asm",
+   "arch/x86/mm"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Lianbo Jiang",
+  "author_email": "lijiang@redhat.com",
+  "committer": "Borislav Petkov",
+  "committer_email": "bp@suse.de",
+  "author_date": "2018-09-27 15:19:51 +0800",
+  "committer_date": "2018-10-06 11:57:51 +0200"
+ },
+ "2a4550122653e6342c9a4e05c4fe4216f12d96a0": {
+  "num_adds_if": 99,
+  "num_dels_if": 91,
+  "num_mod_total_if": 190,
+  "num_adds_loop": 24,
+  "num_dels_loop": 20,
+  "num_mod_total_loop": 44,
+  "file_hash": "2a4550122653e6342c9a4e05c4fe4216f12d96a0",
+  "num_adds": 627,
+  "num_dels": 762,
+  "num_mod_lns_total": 1389,
+  "num_mod_files": 31,
+  "is_merge": true,
+  "parents": [
+   "e1c02eb16a9c",
+   "ea7cb8293874"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/cfg/22000.c",
+   "drivers/net/wireless/intel/iwlwifi/cfg/9000.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/api/nvm-reg.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/api/rx.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/api/scan.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/debugfs.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/error-dump.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/file.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/img.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/runtime.h",
+   "drivers/net/wireless/intel/iwlwifi/iwl-drv.c",
+   "drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c",
+   "drivers/net/wireless/intel/iwlwifi/iwl-trans.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/debugfs.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/fw.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/mac-ctxt.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/nvm.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/rx.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/scan.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/time-event.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/tx.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/utils.c",
+   "drivers/net/wireless/intel/iwlwifi/pcie/rx.c",
+   "drivers/net/wireless/intel/iwlwifi/pcie/trans.c",
+   "drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c",
+   "drivers/net/wireless/intel/iwlwifi/pcie/tx.c"
+  ],
+  "entropy": 3.339940195279252,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/cfg",
+   "drivers/net/wireless/intel/iwlwifi/mvm",
+   "drivers/net/wireless/intel/iwlwifi/fw/api",
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi",
+   "drivers/net/wireless/intel/iwlwifi/pcie"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 6,
+  "num_mod_sys": 1,
+  "author": "Kalle Valo",
+  "author_email": "kvalo@codeaurora.org",
+  "committer": "Kalle Valo",
+  "committer_email": "kvalo@codeaurora.org",
+  "author_date": "2018-10-06 12:50:14 +0300",
+  "committer_date": "2018-10-06 12:50:14 +0300"
+ },
+ "59c66636aec742abd7652fb4b4a4e5995ee7f444": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "59c66636aec742abd7652fb4b4a4e5995ee7f444",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "d72e8256c209"
+  ],
+  "mod_files_lst": [
+   "MAINTAINERS"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Guenter Roeck <linux@roeck-us.net>",
+   "Signed-off-by: Wim Van Sebroeck <wim@linux-watchdog.org>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Joe Perches <joe@perches.com>",
+   "Cc: Johannes Thumshirn <jth@kernel.org>"
+  ],
+  "ppl_reviewed": [
+   "Reviewed-by: Wim Van Sebroeck <wim@linux-watchdog.org>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Joe Perches <joe@perches.com>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "/",
+   "/"
+  ],
+  "mod_sys": [],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 0,
+  "author": "Guenter Roeck",
+  "author_email": "linux@roeck-us.net",
+  "committer": "Wim Van Sebroeck",
+  "committer_email": "wim@linux-watchdog.org",
+  "author_date": "2018-09-30 15:16:50 -0700",
+  "committer_date": "2018-10-06 11:24:06 +0200"
+ },
+ "c1d84a1b42ef70d8ae601df9cadedc7ed4f1beb1": {
+  "num_adds_if": 36,
+  "num_dels_if": 18,
+  "num_mod_total_if": 54,
+  "num_adds_loop": 3,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 3,
+  "file_hash": "c1d84a1b42ef70d8ae601df9cadedc7ed4f1beb1",
+  "num_adds": 203,
+  "num_dels": 81,
+  "num_mod_lns_total": 284,
+  "num_mod_files": 24,
+  "is_merge": true,
+  "parents": [
+   "091a1eaa0e30",
+   "35f3625c2185"
+  ],
+  "mod_files_lst": [
+   "drivers/net/dsa/b53/b53_common.c",
+   "drivers/net/ethernet/broadcom/bnxt/bnxt.c",
+   "drivers/net/ethernet/broadcom/bnxt/bnxt_dcb.c",
+   "drivers/net/ethernet/chelsio/cxgb3/cxgb3_main.c",
+   "drivers/net/ethernet/emulex/benet/be_main.c",
+   "drivers/net/ethernet/marvell/mvpp2/mvpp2_main.c",
+   "drivers/net/ethernet/mellanox/mlxsw/pci.c",
+   "drivers/net/ethernet/mellanox/mlxsw/spectrum.c",
+   "drivers/net/hamradio/yam.c",
+   "drivers/net/phy/phylink.c",
+   "drivers/net/team/team.c",
+   "drivers/net/usb/smsc75xx.c",
+   "include/linux/virtio_net.h",
+   "kernel/bpf/local_storage.c",
+   "kernel/bpf/verifier.c",
+   "net/bpfilter/bpfilter_kern.c",
+   "net/core/rtnetlink.c",
+   "net/ipv6/raw.c",
+   "net/mac80211/cfg.c",
+   "net/openvswitch/conntrack.c",
+   "net/packet/af_packet.c",
+   "net/sched/sch_api.c",
+   "net/wireless/reg.c",
+   "net/wireless/wext-compat.c"
+  ],
+  "entropy": 4.06954264451187,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/dsa/b53",
+   "drivers/net/ethernet/chelsio/cxgb3",
+   "net/bpfilter",
+   "drivers/net/hamradio",
+   "drivers/net/ethernet/emulex/benet",
+   "drivers/net/ethernet/mellanox/mlxsw",
+   "drivers/net/team",
+   "net/wireless",
+   "net/ipv6",
+   "net/openvswitch",
+   "kernel/bpf",
+   "net/core",
+   "drivers/net/usb",
+   "include/linux",
+   "net/mac80211",
+   "drivers/net/ethernet/marvell/mvpp2",
+   "net/packet",
+   "drivers/net/phy",
+   "drivers/net/ethernet/broadcom/bnxt",
+   "net/sched"
+  ],
+  "mod_sys": [
+   "drivers",
+   "kernel",
+   "net",
+   "include"
+  ],
+  "num_mod_dirs": 20,
+  "num_mod_sys": 4,
+  "author": "Greg Kroah-Hartman",
+  "author_email": "gregkh@linuxfoundation.org",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@linuxfoundation.org",
+  "author_date": "2018-10-06 02:11:30 -0700",
+  "committer_date": "2018-10-06 02:11:30 -0700"
+ },
+ "ea7cb8293874f8d9cf36c9e5387e2247f15373dc": {
+  "num_adds_if": 3,
+  "num_dels_if": 4,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ea7cb8293874f8d9cf36c9e5387e2247f15373dc",
+  "num_adds": 20,
+  "num_dels": 21,
+  "num_mod_lns_total": 41,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "af303252bffa"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c"
+  ],
+  "entropy": 0.5587770161236656,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-21 14:44:28 +0300",
+  "committer_date": "2018-10-06 10:25:55 +0300"
+ },
+ "af303252bffa8d0622e077dc9cb246695b47ad07": {
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "af303252bffa8d0622e077dc9cb246695b47ad07",
+  "num_adds": 11,
+  "num_dels": 7,
+  "num_mod_lns_total": 18,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "5bea4304eea7"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h"
+  ],
+  "entropy": 0.5032583347756457,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-21 14:24:45 +0300",
+  "committer_date": "2018-10-06 10:25:54 +0300"
+ },
+ "5bea4304eea790766dd45cdd328ee287df2ade75": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "5bea4304eea790766dd45cdd328ee287df2ade75",
+  "num_adds": 4,
+  "num_dels": 9,
+  "num_mod_lns_total": 13,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "136521cb9c2f"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/debugfs.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Yisheng Xie <xieyisheng1@huawei.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [
+   "Reviewed-by: Andy Shevchenko <andy.shevchenko@gmail.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Yisheng Xie",
+  "author_email": "xieyisheng1@huawei.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-05-21 19:57:44 +0800",
+  "committer_date": "2018-10-06 10:25:54 +0300"
+ },
+ "136521cb9c2fc8aa7db836c9d5de9c91ba4a0979": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "136521cb9c2fc8aa7db836c9d5de9c91ba4a0979",
+  "num_adds": 4,
+  "num_dels": 6,
+  "num_mod_lns_total": 10,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "69f3ca8ed33d"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-21 09:43:59 +0300",
+  "committer_date": "2018-10-06 10:25:54 +0300"
+ },
+ "69f3ca8ed33dd39937ba0ea0c6643d78663db46a": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "69f3ca8ed33dd39937ba0ea0c6643d78663db46a",
+  "num_adds": 31,
+  "num_dels": 36,
+  "num_mod_lns_total": 67,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8a07e8d4b736"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-19 09:32:00 +0200",
+  "committer_date": "2018-10-06 10:25:53 +0300"
+ },
+ "8a07e8d4b7361d3eb522b1306e33f50e4836e340": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "8a07e8d4b7361d3eb522b1306e33f50e4836e340",
+  "num_adds": 6,
+  "num_dels": 5,
+  "num_mod_lns_total": 11,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "755384b3778d"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/api/rx.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.8453509366224365,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm",
+   "drivers/net/wireless/intel/iwlwifi/fw/api"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-19 09:21:58 +0200",
+  "committer_date": "2018-10-06 10:25:53 +0300"
+ },
+ "755384b3778ddc33d168ef02547385e209775a7e": {
+  "num_adds_if": 8,
+  "num_dels_if": 0,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "755384b3778ddc33d168ef02547385e209775a7e",
+  "num_adds": 64,
+  "num_dels": 0,
+  "num_mod_lns_total": 64,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "d3f4b6debcc0"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/debugfs.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Shahar S Matityahu <shahar.s.matityahu@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Shahar S Matityahu",
+  "author_email": "shahar.s.matityahu@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-05-28 11:18:43 +0300",
+  "committer_date": "2018-10-06 10:25:52 +0300"
+ },
+ "d3f4b6debcc04b601d23b0f9a93f10cb97f68068": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d3f4b6debcc04b601d23b0f9a93f10cb97f68068",
+  "num_adds": 14,
+  "num_dels": 0,
+  "num_mod_lns_total": 14,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "a19f015dea60"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/runtime.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c"
+  ],
+  "entropy": 0.37123232664087563,
+  "ppl_signed_off": [
+   "Signed-off-by: Shahar S Matityahu <shahar.s.matityahu@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Shahar S Matityahu",
+  "author_email": "shahar.s.matityahu@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-12 15:40:42 +0300",
+  "committer_date": "2018-10-06 10:25:52 +0300"
+ },
+ "a19f015dea6053f9c5a55bc42da90bc5b28c4272": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a19f015dea6053f9c5a55bc42da90bc5b28c4272",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "47fe2f8ed5eb"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/cfg/22000.c",
+   "drivers/net/wireless/intel/iwlwifi/cfg/9000.c"
+  ],
+  "entropy": 1.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/cfg"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-05-09 11:01:12 +0200",
+  "committer_date": "2018-10-06 10:25:52 +0300"
+ },
+ "47fe2f8ed5ebe76411285994619f71d22519d550": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 3,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 7,
+  "file_hash": "47fe2f8ed5ebe76411285994619f71d22519d550",
+  "num_adds": 45,
+  "num_dels": 54,
+  "num_mod_lns_total": 99,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "6e00a2376fb7"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/api/nvm-reg.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/file.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/nvm.c"
+  ],
+  "entropy": 1.1528327316003963,
+  "ppl_signed_off": [
+   "Signed-off-by: Haim Dreyfuss <haim.dreyfuss@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi/fw/api",
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 1,
+  "author": "Haim Dreyfuss",
+  "author_email": "haim.dreyfuss@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-04 13:20:00 +0300",
+  "committer_date": "2018-10-06 10:25:51 +0300"
+ },
+ "6e00a2376fb7d9974fa8ef791aabdca5314b91d3": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6e00a2376fb7d9974fa8ef791aabdca5314b91d3",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "e00b7b8b9185"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/pcie/tx.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/pcie"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-18 09:53:36 +0200",
+  "committer_date": "2018-10-06 10:25:51 +0300"
+ },
+ "e00b7b8b91856215743f4e65ac199b41c2e2a3cb": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e00b7b8b91856215743f4e65ac199b41c2e2a3cb",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "76dd61d2c57e"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/iwl-drv.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-18 10:22:03 +0200",
+  "committer_date": "2018-10-06 10:25:51 +0300"
+ },
+ "76dd61d2c57e881020cd2ea61994bf2dc8aefd84": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "76dd61d2c57e881020cd2ea61994bf2dc8aefd84",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "e7eeee084348"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [
+   "Fixes: ab6c644539e9 (\"iwlwifi: pcie: copy TX functions to new transport\")"
+  ],
+  "is_fix": true,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/pcie"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-18 09:53:36 +0200",
+  "committer_date": "2018-10-06 10:25:50 +0300"
+ },
+ "e7eeee08434873c2f781dc1afaa42b03a014b95d": {
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e7eeee08434873c2f781dc1afaa42b03a014b95d",
+  "num_adds": 16,
+  "num_dels": 8,
+  "num_mod_lns_total": 24,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "f38efdb29389"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/api/nvm-reg.h",
+   "drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c"
+  ],
+  "entropy": 0.9798687566511528,
+  "ppl_signed_off": [
+   "Signed-off-by: Naftali Goldstein <naftali.goldstein@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [
+   "Fixes: e9e1ba3dbf00 (\"iwlwifi: mvm: support getting nvm data from firmware\")"
+  ],
+  "is_fix": true,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi",
+   "drivers/net/wireless/intel/iwlwifi/fw/api"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Naftali Goldstein",
+  "author_email": "naftali.goldstein@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-12 09:08:40 +0300",
+  "committer_date": "2018-10-06 10:25:50 +0300"
+ },
+ "f38efdb29389cc3ac6a466896a01f0fbdb14f4c7": {
+  "num_adds_if": 5,
+  "num_dels_if": 1,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f38efdb29389cc3ac6a466896a01f0fbdb14f4c7",
+  "num_adds": 34,
+  "num_dels": 1,
+  "num_mod_lns_total": 35,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "868a1e863f95"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/error-dump.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/runtime.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/fw.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c"
+  ],
+  "entropy": 1.289798372418862,
+  "ppl_signed_off": [
+   "Signed-off-by: Shahar S Matityahu <shahar.s.matityahu@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Shahar S Matityahu",
+  "author_email": "shahar.s.matityahu@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-05-27 17:17:07 +0300",
+  "committer_date": "2018-10-06 10:25:50 +0300"
+ },
+ "868a1e863f95183f00809363fefba6d4f5bcd116": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "868a1e863f95183f00809363fefba6d4f5bcd116",
+  "num_adds": 21,
+  "num_dels": 11,
+  "num_mod_lns_total": 32,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "1eda295f5459"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/pcie/rx.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Shaul Triebitz <shaul.triebitz@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/pcie"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Shaul Triebitz",
+  "author_email": "shaul.triebitz@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-06 17:20:58 +0300",
+  "committer_date": "2018-10-06 10:25:49 +0300"
+ },
+ "1eda295f54594257ba45bd370dabcde5bea0a3fd": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1eda295f54594257ba45bd370dabcde5bea0a3fd",
+  "num_adds": 4,
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "fed3c4ea6f8f"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-15 14:21:53 +0200",
+  "committer_date": "2018-10-06 10:25:49 +0300"
+ },
+ "fed3c4ea6f8f12cb73010c969070f7dbed46ff3f": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fed3c4ea6f8f12cb73010c969070f7dbed46ff3f",
+  "num_adds": 31,
+  "num_dels": 4,
+  "num_mod_lns_total": 35,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "750f43774eb4"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 16:30:52 +0200",
+  "committer_date": "2018-10-06 10:25:48 +0300"
+ },
+ "750f43774eb43aa36465c2df5874dbeafb67c9bd": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "750f43774eb43aa36465c2df5874dbeafb67c9bd",
+  "num_adds": 11,
+  "num_dels": 5,
+  "num_mod_lns_total": 16,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2b1476345fb6"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:58:24 +0200",
+  "committer_date": "2018-10-06 10:25:48 +0300"
+ },
+ "2b1476345fb6c837fae608c4fd9fddb48059c612": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2b1476345fb6c837fae608c4fd9fddb48059c612",
+  "num_adds": 5,
+  "num_dels": 0,
+  "num_mod_lns_total": 5,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "42d8a9d5783e"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:54:38 +0200",
+  "committer_date": "2018-10-06 10:25:47 +0300"
+ },
+ "42d8a9d5783e4efdbdf746b139dc98e2b64f3ce3": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "42d8a9d5783e4efdbdf746b139dc98e2b64f3ce3",
+  "num_adds": 10,
+  "num_dels": 25,
+  "num_mod_lns_total": 35,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "ffe9d734b8b5"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:52:19 +0200",
+  "committer_date": "2018-10-06 10:25:47 +0300"
+ },
+ "ffe9d734b8b556737c87acaa08666d0a6c1686ab": {
+  "num_adds_if": 3,
+  "num_dels_if": 4,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "ffe9d734b8b556737c87acaa08666d0a6c1686ab",
+  "num_adds": 89,
+  "num_dels": 77,
+  "num_mod_lns_total": 166,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "59b8cf0cfb5a"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:48:27 +0200",
+  "committer_date": "2018-10-06 10:25:47 +0300"
+ },
+ "59b8cf0cfb5ac508e362ae1ddf0dfb91744856fb": {
+  "num_adds_if": 5,
+  "num_dels_if": 5,
+  "num_mod_total_if": 10,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "59b8cf0cfb5ac508e362ae1ddf0dfb91744856fb",
+  "num_adds": 59,
+  "num_dels": 46,
+  "num_mod_lns_total": 105,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "eb89c0fb9191"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:36:22 +0200",
+  "committer_date": "2018-10-06 10:25:46 +0300"
+ },
+ "eb89c0fb9191e6ebd8f1af52624f1aa034b707b6": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "eb89c0fb9191e6ebd8f1af52624f1aa034b707b6",
+  "num_adds": 4,
+  "num_dels": 4,
+  "num_mod_lns_total": 8,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "f9fe579386a8"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [
+   "Fixes: e5721e3f770f (\"iwlwifi: mvm: add radiotap data for HE\")"
+  ],
+  "is_fix": true,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-15 09:43:43 +0200",
+  "committer_date": "2018-10-06 10:25:46 +0300"
+ },
+ "f9fe579386a84878eea9217c8e825a7d11335feb": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f9fe579386a84878eea9217c8e825a7d11335feb",
+  "num_adds": 3,
+  "num_dels": 8,
+  "num_mod_lns_total": 11,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "07f62bb953e8"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:17:42 +0200",
+  "committer_date": "2018-10-06 10:25:45 +0300"
+ },
+ "07f62bb953e83f070df068589b391f74cc06ccca": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "07f62bb953e83f070df068589b391f74cc06ccca",
+  "num_adds": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "155f7e0441cd"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-14 14:07:49 +0200",
+  "committer_date": "2018-10-06 10:25:45 +0300"
+ },
+ "155f7e0441cd121b1e673d465a35e99f4b9b2f0b": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "155f7e0441cd121b1e673d465a35e99f4b9b2f0b",
+  "num_adds": 6,
+  "num_dels": 3,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "6c042d7505d0"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [
+   "Fixes: bf8b286f86fc (\"iwlwifi: mvm: defer setting IWL_MVM_STATUS_IN_HW_RESTART\")"
+  ],
+  "is_fix": true,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Emmanuel Grumbach",
+  "author_email": "emmanuel.grumbach@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-13 11:49:20 +0300",
+  "committer_date": "2018-10-06 10:25:45 +0300"
+ },
+ "6c042d7505d082b3bda0909c8a2c9817aa210ea2": {
+  "num_adds_if": 20,
+  "num_dels_if": 30,
+  "num_mod_total_if": 50,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6c042d7505d082b3bda0909c8a2c9817aa210ea2",
+  "num_adds": 77,
+  "num_dels": 93,
+  "num_mod_lns_total": 170,
+  "num_mod_files": 9,
+  "is_merge": false,
+  "parents": [
+   "7339cc292c1d"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/mac-ctxt.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/rx.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/time-event.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/tx.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/utils.c"
+  ],
+  "entropy": 3.037804423357415,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-12 10:41:35 +0300",
+  "committer_date": "2018-10-06 10:25:44 +0300"
+ },
+ "7339cc292c1df3b8f05a90088f8b4e5d2a02cc46": {
+  "num_adds_if": 3,
+  "num_dels_if": 4,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "7339cc292c1df3b8f05a90088f8b4e5d2a02cc46",
+  "num_adds": 34,
+  "num_dels": 58,
+  "num_mod_lns_total": 92,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "9c16e0bbe140"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-12 14:34:32 +0300",
+  "committer_date": "2018-10-06 10:25:44 +0300"
+ },
+ "9c16e0bbe140623fa7a31d7f0dabbba7180658b7": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9c16e0bbe140623fa7a31d7f0dabbba7180658b7",
+  "num_adds": 7,
+  "num_dels": 1,
+  "num_mod_lns_total": 8,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "a6820511f193"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/api/scan.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/scan.c"
+  ],
+  "entropy": 0.9544340029249649,
+  "ppl_signed_off": [
+   "Signed-off-by: Ayala Beker <ayala.beker@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm",
+   "drivers/net/wireless/intel/iwlwifi/fw/api"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Ayala Beker",
+  "author_email": "ayala.beker@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-05-17 10:05:17 +0300",
+  "committer_date": "2018-10-06 10:25:43 +0300"
+ },
+ "a6820511f193a94c841122e71bcc4da7f33db499": {
+  "num_adds_if": 6,
+  "num_dels_if": 5,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a6820511f193a94c841122e71bcc4da7f33db499",
+  "num_adds": 40,
+  "num_dels": 23,
+  "num_mod_lns_total": 63,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "68025d5f9bfe"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-11 15:30:07 +0300",
+  "committer_date": "2018-10-06 10:25:43 +0300"
+ },
+ "68025d5f9bfe87cdfee31ca933edbfdbbd8f616a": {
+  "num_adds_if": 6,
+  "num_dels_if": 13,
+  "num_mod_total_if": 19,
+  "num_adds_loop": 7,
+  "num_dels_loop": 8,
+  "num_mod_total_loop": 15,
+  "file_hash": "68025d5f9bfe87cdfee31ca933edbfdbbd8f616a",
+  "num_adds": 66,
+  "num_dels": 92,
+  "num_mod_lns_total": 158,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "17b809c9b22e"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-11 12:43:26 +0300",
+  "committer_date": "2018-10-06 10:25:42 +0300"
+ },
+ "17b809c9b22e34e17b1de6ff7c913127b7a249db": {
+  "num_adds_if": 27,
+  "num_dels_if": 27,
+  "num_mod_total_if": 54,
+  "num_adds_loop": 8,
+  "num_dels_loop": 10,
+  "num_mod_total_loop": 18,
+  "file_hash": "17b809c9b22e34e17b1de6ff7c913127b7a249db",
+  "num_adds": 108,
+  "num_dels": 101,
+  "num_mod_lns_total": 209,
+  "num_mod_files": 8,
+  "is_merge": false,
+  "parents": [
+   "2e1976bb7526"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.c",
+   "drivers/net/wireless/intel/iwlwifi/fw/dbg.h",
+   "drivers/net/wireless/intel/iwlwifi/fw/img.h",
+   "drivers/net/wireless/intel/iwlwifi/iwl-drv.c",
+   "drivers/net/wireless/intel/iwlwifi/iwl-trans.h",
+   "drivers/net/wireless/intel/iwlwifi/mvm/fw.c",
+   "drivers/net/wireless/intel/iwlwifi/mvm/ops.c",
+   "drivers/net/wireless/intel/iwlwifi/pcie/trans.c"
+  ],
+  "entropy": 2.1132029006489326,
+  "ppl_signed_off": [
+   "Signed-off-by: Sara Sharon <sara.sharon@intel.com>",
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/fw",
+   "drivers/net/wireless/intel/iwlwifi",
+   "drivers/net/wireless/intel/iwlwifi/mvm",
+   "drivers/net/wireless/intel/iwlwifi/pcie"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 4,
+  "num_mod_sys": 1,
+  "author": "Sara Sharon",
+  "author_email": "sara.sharon@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-11 11:43:09 +0300",
+  "committer_date": "2018-10-06 10:25:42 +0300"
+ },
+ "2e1976bb75263fbad918e82184b16a23bd721546": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2e1976bb75263fbad918e82184b16a23bd721546",
+  "num_adds": 6,
+  "num_dels": 2,
+  "num_mod_lns_total": 8,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "e1c02eb16a9c"
+  ],
+  "mod_files_lst": [
+   "drivers/net/wireless/intel/iwlwifi/mvm/fw.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [
+   "Fixes: 6996490501ed (\"iwlwifi: mvm: add support for EWRD (Dynamic SAR) ACPI table\")"
+  ],
+  "is_fix": true,
+  "mod_dirs": [
+   "drivers/net/wireless/intel/iwlwifi/mvm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Luca Coelho",
+  "author_email": "luciano.coelho@intel.com",
+  "committer": "Luca Coelho",
+  "committer_email": "luciano.coelho@intel.com",
+  "author_date": "2018-06-11 11:15:17 +0300",
+  "committer_date": "2018-10-06 10:25:42 +0300"
+ },
+ "b39989009bdb84992915c9869f58094ed5becf10": {
+  "num_adds_if": 6,
+  "num_dels_if": 2,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "b39989009bdb84992915c9869f58094ed5becf10",
+  "num_adds": 34,
+  "num_dels": 13,
+  "num_mod_lns_total": 47,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "dceeb47b0ed6"
+  ],
+  "mod_files_lst": [
+   "fs/xfs/xfs_reflink.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dave Chinner <dchinner@redhat.com>",
+   "Signed-off-by: Dave Chinner <david@fromorbit.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [
+   "Reviewed-by: Darrick J. Wong <darrick.wong@oracle.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "fs/xfs"
+  ],
+  "mod_sys": [
+   "fs"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dave Chinner",
+  "author_email": "david@fromorbit.com",
+  "committer": "Dave Chinner",
+  "committer_email": "david@fromorbit.com",
+  "author_date": "2018-10-06 11:44:39 +1000",
+  "committer_date": "2018-10-06 11:44:39 +1000"
+ },
+ "dceeb47b0ed65e14de53507a8a9c32a90831cfa1": {
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "dceeb47b0ed65e14de53507a8a9c32a90831cfa1",
+  "num_adds": 21,
+  "num_dels": 0,
+  "num_mod_lns_total": 21,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "7debbf015f58"
+  ],
+  "mod_files_lst": [
+   "fs/xfs/xfs_reflink.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dave Chinner <dchinner@redhat.com>",
+   "Signed-off-by: Dave Chinner <david@fromorbit.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [
+   "Reviewed-by: Darrick J. Wong <darrick.wong@oracle.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "fs/xfs"
+  ],
+  "mod_sys": [
+   "fs"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dave Chinner",
+  "author_email": "dchinner@redhat.com",
+  "committer": "Dave Chinner",
+  "committer_email": "david@fromorbit.com",
+  "author_date": "2018-10-06 11:44:19 +1000",
+  "committer_date": "2018-10-06 11:44:19 +1000"
+ }
+}
