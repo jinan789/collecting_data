@@ -34,6 +34,12 @@ def collect(ins):
         """
 
         try:
+            with open("./completed_log_" + str(i) + ".txt", "r") as f:
+                completed_dates = json.load(f)
+
+            if date in completed_dates:
+                continue
+            
             with open("./all_commits_by_date/" + date + '.json', "r") as f:
                 cur_date = json.load(f)
 
