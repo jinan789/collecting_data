@@ -50,9 +50,9 @@ def collect(ins):
                 
             with open("./completed_log_" + str(i) + ".txt", "a") as f:
                 json.dump(date + "        ", f, indent=1)
-        except:
+        except Exception as e:
             with open("./err_log_" + str(i) + ".txt", "a") as f:
-                json.dump(date + "        ", f, indent=1)
+                json.dump(date + "  " + str(e) "        ", f, indent=1)
 
 
 if __name__ == '__main__':
