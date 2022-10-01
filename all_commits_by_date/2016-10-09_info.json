@@ -7,9 +7,9 @@
   "num_dels_loop": 3,
   "num_mod_total_loop": 5,
   "file_hash": "24532f768121b07b16178ffb40442ece43365cbd",
-  "num_adds": 55,
-  "num_dels": 130,
-  "num_mod_lns_total": 185,
+  "num_adds": 58,
+  "num_dels": 149,
+  "num_mod_lns_total": 207,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -23,7 +23,7 @@
    "block/blk-mq.h",
    "include/linux/blk-mq.h"
   ],
-  "entropy": 1.3843810967490229,
+  "entropy": 1.384265970195941,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -35,12 +35,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux",
-   "block"
+   "block",
+   "include/linux"
   ],
   "mod_sys": [
-   "include",
-   "block"
+   "block",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -59,9 +59,9 @@
   "num_dels_loop": 3,
   "num_mod_total_loop": 9,
   "file_hash": "12e3d3cdd975fe986cc5c35f60b1467a8ec20b80",
-  "num_adds": 141,
-  "num_dels": 167,
-  "num_mod_lns_total": 308,
+  "num_adds": 159,
+  "num_dels": 191,
+  "num_mod_lns_total": 350,
   "num_mod_files": 27,
   "is_merge": true,
   "parents": [
@@ -97,7 +97,7 @@
    "include/linux/blk-mq-pci.h",
    "include/linux/blk-mq.h"
   ],
-  "entropy": 3.0779043772817687,
+  "entropy": 3.1232899702976074,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -110,19 +110,19 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/mtd/ubi",
-   "drivers/block",
-   "drivers/md",
-   "block",
    "drivers/nvme/target",
    "drivers/scsi",
+   "block",
    "include/linux",
+   "drivers/block",
+   "drivers/md",
    "drivers/nvme/host",
    "drivers/block/mtip32xx"
   ],
   "mod_sys": [
-   "drivers",
+   "block",
    "include",
-   "block"
+   "drivers"
   ],
   "num_mod_dirs": 9,
   "num_mod_sys": 3,
@@ -141,9 +141,9 @@
   "num_dels_loop": 4,
   "num_mod_total_loop": 17,
   "file_hash": "48915c2cbc77eceec2005afb695ac658fede4e0d",
-  "num_adds": 600,
-  "num_dels": 242,
-  "num_mod_lns_total": 842,
+  "num_adds": 716,
+  "num_dels": 265,
+  "num_mod_lns_total": 981,
   "num_mod_files": 16,
   "is_merge": true,
   "parents": [
@@ -168,7 +168,7 @@
    "drivers/md/persistent-data/dm-btree.h",
    "include/linux/device-mapper.h"
   ],
-  "entropy": 3.2148758188634607,
+  "entropy": 3.1833401711795943,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -180,13 +180,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "drivers/md",
    "include/linux",
-   "drivers/md/persistent-data",
-   "drivers/md"
+   "drivers/md/persistent-data"
   ],
   "mod_sys": [
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -205,9 +205,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 119,
   "file_hash": "b9044ac8292fc94bee33f6f08acaed3ac55f0c75",
-  "num_adds": 10276,
-  "num_dels": 452,
-  "num_mod_lns_total": 10728,
+  "num_adds": 12089,
+  "num_dels": 483,
+  "num_mod_lns_total": 12572,
   "num_mod_files": 114,
   "is_merge": true,
   "parents": [
@@ -330,7 +330,7 @@
    "net/sunrpc/xprtrdma/svc_rdma_transport.c",
    "net/sunrpc/xprtrdma/verbs.c"
   ],
-  "entropy": 4.430097423004962,
+  "entropy": 4.406784922468782,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -342,47 +342,47 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
-   "drivers/infiniband/hw/cxgb4",
-   "drivers/infiniband/ulp/isert",
-   "drivers/infiniband/hw/mthca",
-   "drivers/infiniband",
-   "drivers/infiniband/hw/mlx4",
-   "drivers/infiniband/hw",
-   "drivers/infiniband/hw/hns",
-   "drivers/infiniband/hw/qib",
-   "drivers/net/ethernet/chelsio/cxgb4",
-   "include/linux/mlx4",
-   "include/rdma",
-   "drivers/net/ethernet/hisilicon/hns",
    "drivers/infiniband/hw/nes",
-   "net/rds",
-   "Documentation/devicetree/bindings/infiniband",
-   "net/sunrpc/xprtrdma",
-   "drivers/infiniband/core",
-   "drivers/infiniband/ulp/srpt",
-   "net/9p",
    "drivers/infiniband/hw/ocrdma",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "drivers/infiniband/hw/i40iw",
-   "drivers/nvme/target",
-   "drivers/infiniband/hw/cxgb3",
+   "drivers/infiniband/hw/qib",
    "drivers/staging/lustre/lnet/klnds/o2iblnd",
    "drivers/infiniband/ulp/ipoib",
-   "drivers/nvme/host",
-   "drivers/infiniband/ulp/srp",
-   "drivers/staging/lustre/lnet",
    "drivers/infiniband/hw/mlx5",
-   "drivers/infiniband/hw/hfi1",
-   "include/uapi/rdma",
+   "drivers/nvme/target",
+   "drivers/infiniband/hw/hns",
+   "drivers/infiniband/ulp/srp",
+   "drivers/net/ethernet/chelsio/cxgb4",
+   "net/sunrpc/xprtrdma",
+   "/",
+   "drivers/infiniband/hw/mlx4",
    "drivers/infiniband/ulp/iser",
+   "include/rdma",
+   "drivers/net/ethernet/hisilicon/hns",
+   "net/9p",
+   "Documentation/devicetree/bindings/infiniband",
+   "drivers/infiniband/hw/cxgb4",
+   "drivers/infiniband/hw/cxgb3",
+   "include/linux/mlx4",
+   "drivers/infiniband",
+   "include/uapi/rdma",
+   "drivers/nvme/host",
+   "drivers/infiniband/hw/i40iw",
+   "drivers/infiniband/hw",
+   "drivers/infiniband/ulp/srpt",
+   "drivers/infiniband/hw/mthca",
+   "net/rds",
+   "drivers/net/ethernet/mellanox/mlx4",
+   "drivers/infiniband/ulp/isert",
+   "drivers/infiniband/core",
+   "drivers/infiniband/hw/hfi1",
+   "drivers/staging/lustre/lnet",
    "/"
   ],
   "mod_sys": [
-   "Documentation",
-   "drivers",
    "net",
-   "include"
+   "Documentation",
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 35,
   "num_mod_sys": 4,
@@ -401,9 +401,9 @@
   "num_dels_loop": 4,
   "num_mod_total_loop": 8,
   "file_hash": "1fde76f173e4d9aa205432c2ed5eff978d00deee",
-  "num_adds": 193,
-  "num_dels": 116,
-  "num_mod_lns_total": 309,
+  "num_adds": 210,
+  "num_dels": 124,
+  "num_mod_lns_total": 334,
   "num_mod_files": 18,
   "is_merge": true,
   "parents": [
@@ -430,7 +430,7 @@
    "drivers/infiniband/sw/rxe/rxe_verbs.c",
    "include/rdma/ib_verbs.h"
   ],
-  "entropy": 3.551136907781191,
+  "entropy": 3.5294061678558752,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -447,8 +447,8 @@
    "drivers/infiniband/sw/rxe"
   ],
   "mod_sys": [
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -467,9 +467,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bfd8d3f23b51018388be0411ccbc2d56277fe294",
-  "num_adds": 10,
+  "num_adds": 11,
   "num_dels": 0,
-  "num_mod_lns_total": 10,
+  "num_mod_lns_total": 11,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -514,9 +514,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5e467652ffefb84b1159d5d8fda665c48e5fd840",
-  "num_adds": 26,
-  "num_dels": 31,
-  "num_mod_lns_total": 57,
+  "num_adds": 27,
+  "num_dels": 35,
+  "num_mod_lns_total": 62,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -561,9 +561,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c362c7ff84634390b44cc1ae7808519596de162d",
-  "num_adds": 33,
-  "num_dels": 36,
-  "num_mod_lns_total": 69,
+  "num_adds": 39,
+  "num_dels": 39,
+  "num_mod_lns_total": 78,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -608,9 +608,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "4bcc595ccd80decb4245096e3d1258989c50ed41",
-  "num_adds": 18,
+  "num_adds": 19,
   "num_dels": 23,
-  "num_mod_lns_total": 41,
+  "num_mod_lns_total": 42,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -623,7 +623,7 @@
    "kernel/printk/printk.c",
    "security/selinux/ss/policydb.c"
   ],
-  "entropy": 1.4522907162780874,
+  "entropy": 1.4306216165162238,
   "ppl_signed_off": [
    "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
   ],
@@ -637,16 +637,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/printk",
    "security/selinux/ss",
+   "kernel/printk",
    "include/linux",
    "drivers/tty/vt"
   ],
   "mod_sys": [
-   "kernel",
    "security",
-   "drivers",
-   "include"
+   "kernel",
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 4,
@@ -712,9 +712,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f9f4872df6e1801572949f8a370c886122d4b6da",
-  "num_adds": 4,
-  "num_dels": 4,
-  "num_mod_lns_total": 8,
+  "num_adds": 5,
+  "num_dels": 5,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -763,8 +763,8 @@
   "num_mod_total_loop": 2,
   "file_hash": "d24cd733bae8fc6c121c437b3197ab7f3930ca66",
   "num_adds": 6,
-  "num_dels": 42,
-  "num_mod_lns_total": 48,
+  "num_dels": 47,
+  "num_mod_lns_total": 53,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -777,7 +777,7 @@
    "drivers/net/ethernet/emulex/benet/be_hw.h",
    "drivers/net/ethernet/emulex/benet/be_main.c"
   ],
-  "entropy": 1.5433488778341813,
+  "entropy": 1.4940934822023215,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -862,9 +862,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "f3d6ad84807254954fc69bdebb6123e5a2883baf",
-  "num_adds": 11,
+  "num_adds": 12,
   "num_dels": 2,
-  "num_mod_lns_total": 13,
+  "num_mod_lns_total": 14,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -958,9 +958,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "f5ef017e1195d0a8c69a82bf95fea9c776b93ff0",
-  "num_adds": 19,
+  "num_adds": 23,
   "num_dels": 1,
-  "num_mod_lns_total": 20,
+  "num_mod_lns_total": 24,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1055,9 +1055,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f79b076eb3a8fa70662584f3ac63ab16787a79a0",
-  "num_adds": 3,
-  "num_dels": 2,
-  "num_mod_lns_total": 5,
+  "num_adds": 4,
+  "num_dels": 3,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1102,9 +1102,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6449e31ddebdce68508cfaf0915d31aad3835f4f",
-  "num_adds": 9,
+  "num_adds": 10,
   "num_dels": 3,
-  "num_mod_lns_total": 12,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1150,9 +1150,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f8850abb7ba68229838014b3409460e576751c6d",
-  "num_adds": 4,
-  "num_dels": 1,
-  "num_mod_lns_total": 5,
+  "num_adds": 5,
+  "num_dels": 2,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [

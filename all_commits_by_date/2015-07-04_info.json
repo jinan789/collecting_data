@@ -7,9 +7,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "1dc51b8288007753ad7cd7d08bb8fa930fc8bb10",
-  "num_adds": 726,
-  "num_dels": 515,
-  "num_mod_lns_total": 1241,
+  "num_adds": 784,
+  "num_dels": 553,
+  "num_mod_lns_total": 1337,
   "num_mod_files": 99,
   "is_merge": true,
   "parents": [
@@ -117,7 +117,7 @@
    "net/9p/client.c",
    "security/inode.c"
   ],
-  "entropy": 5.112054307540605,
+  "entropy": 5.091658967467698,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -129,71 +129,71 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/jffs2",
-   "arch/powerpc/platforms/cell/spufs",
-   "fs/squashfs",
-   "fs/ext2",
-   "fs/minix",
-   "fs/configfs",
-   "fs/jfs",
-   "fs/ceph",
-   "drivers/infiniband/hw/qib",
-   "fs/ufs",
-   "fs/affs",
    "arch/s390/hypfs",
-   "fs/ext4",
-   "drivers/block",
-   "fs/hpfs",
-   "fs/debugfs",
-   "fs/overlayfs",
-   "fs/coda",
-   "include/linux",
+   "arch/tile/kernel",
+   "arch/blackfin/kernel",
    "fs/nfs",
-   "fs/qnx6",
-   "fs/udf",
-   "fs/hfsplus",
-   "fs/cachefiles",
-   "fs/hfs",
-   "net/9p",
-   "fs/ntfs",
-   "fs/fscache",
+   "fs/freevxfs",
    "fs/xfs",
+   "fs/cachefiles",
+   "drivers/infiniband/hw/qib",
+   "drivers/infiniband/hw/ipath",
+   "include/linux",
+   "kernel/events",
+   "fs/autofs4",
+   "arch/tile/mm",
    "drivers/usb/gadget/function",
+   "fs/qnx6",
+   "drivers/md",
+   "fs/exofs",
+   "fs/udf",
+   "fs/nilfs2",
+   "fs/ufs",
+   "fs/fuse",
+   "security",
+   "fs/ceph",
+   "fs/hfsplus",
+   "fs",
+   "fs/hfs",
+   "fs/minix",
+   "fs/overlayfs",
+   "fs/fscache",
+   "Documentation/filesystems",
+   "arch/arc/kernel",
+   "fs/squashfs",
    "Documentation/filesystems/caching",
    "fs/ncpfs",
-   "security",
-   "fs/befs",
-   "fs/exofs",
-   "arch/tile/kernel",
-   "fs",
-   "fs/proc",
-   "fs/sysv",
-   "arch/tile/mm",
-   "drivers/block/drbd",
-   "fs/fuse",
-   "Documentation/filesystems",
-   "fs/autofs4",
+   "fs/tracefs",
+   "net/9p",
+   "fs/ext4",
+   "fs/ntfs",
    "mm",
+   "fs/debugfs",
+   "drivers/block/drbd",
+   "fs/jffs2",
+   "fs/affs",
+   "fs/coda",
+   "arch/powerpc/platforms/cell/spufs",
+   "fs/configfs",
+   "fs/jfs",
+   "fs/sysv",
+   "fs/befs",
+   "fs/proc",
+   "drivers/block",
    "fs/btrfs",
-   "kernel/events",
-   "fs/nilfs2",
-   "arch/blackfin/kernel",
-   "drivers/md",
-   "arch/arc/kernel",
-   "fs/freevxfs",
-   "drivers/infiniband/hw/ipath",
-   "fs/tracefs"
+   "fs/hpfs",
+   "fs/ext2"
   ],
   "mod_sys": [
-   "arch",
-   "include",
    "security",
    "net",
    "fs",
    "Documentation",
    "drivers",
    "kernel",
-   "mm"
+   "mm",
+   "arch",
+   "include"
   ],
   "num_mod_dirs": 54,
   "num_mod_sys": 9,
@@ -240,8 +240,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/bluetooth/hidp",
-   "net/bluetooth"
+   "net/bluetooth",
+   "net/bluetooth/hidp"
   ],
   "mod_sys": [
    "net"
@@ -263,9 +263,9 @@
   "num_dels_loop": 129,
   "num_mod_total_loop": 187,
   "file_hash": "5c755fe142b421d295e7dd64a9833c12abbfd28e",
-  "num_adds": 2910,
-  "num_dels": 5712,
-  "num_mod_lns_total": 8622,
+  "num_adds": 3163,
+  "num_dels": 6312,
+  "num_mod_lns_total": 9475,
   "num_mod_files": 68,
   "is_merge": true,
   "parents": [
@@ -342,7 +342,7 @@
    "include/target/target_core_fabric.h",
    "lib/crc-t10dif.c"
   ],
-  "entropy": 4.947659823724083,
+  "entropy": 4.942602014732653,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -354,28 +354,28 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/target/loopback",
-   "drivers/infiniband/ulp/isert",
-   "drivers/usb/gadget/legacy",
    "drivers/infiniband/ulp/srpt",
    "drivers/scsi/qla2xxx",
-   "drivers/vhost",
-   "Documentation/target",
-   "drivers/xen",
-   "drivers/target",
-   "include/linux",
    "drivers/target/tcm_fc",
-   "drivers/target/sbp",
-   "include/target",
    "include/target/iscsi",
+   "drivers/infiniband/ulp/isert",
+   "drivers/vhost",
+   "include/target",
+   "Documentation/target",
+   "include/linux",
    "drivers/target/iscsi",
-   "lib"
+   "drivers/usb/gadget/legacy",
+   "drivers/target/sbp",
+   "lib",
+   "drivers/target/loopback",
+   "drivers/xen",
+   "drivers/target"
   ],
   "mod_sys": [
    "Documentation",
+   "include",
    "drivers",
-   "lib",
-   "include"
+   "lib"
   ],
   "num_mod_dirs": 16,
   "num_mod_sys": 4,
@@ -394,9 +394,9 @@
   "num_dels_loop": 55,
   "num_mod_total_loop": 125,
   "file_hash": "6d7c8e1b3a1fae91daaf1bec4df694239c7a430b",
-  "num_adds": 4721,
-  "num_dels": 2470,
-  "num_mod_lns_total": 7191,
+  "num_adds": 5545,
+  "num_dels": 2816,
+  "num_mod_lns_total": 8361,
   "num_mod_files": 23,
   "is_merge": true,
   "parents": [
@@ -428,7 +428,7 @@
    "include/linux/ntb.h",
    "include/linux/ntb_transport.h"
   ],
-  "entropy": 3.081114626698502,
+  "entropy": 3.0586540149487886,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -440,20 +440,20 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/ntb/hw",
-   "/",
-   "drivers/ntb",
    "drivers/ntb/hw/intel",
    "drivers/ntb/test",
-   "drivers/net",
+   "/",
    "Documentation",
    "include/linux",
+   "drivers/ntb",
+   "drivers/ntb/hw",
+   "drivers/net",
    "/"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 9,
   "num_mod_sys": 3,
@@ -615,9 +615,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "43c3dd08da890e458f670b4fc0630513fb405620",
-  "num_adds": 5,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 6,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -808,9 +808,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "1b3618b60a487fa219c5381a9c983a00c40e6477",
-  "num_adds": 49,
-  "num_dels": 15,
-  "num_mod_lns_total": 64,
+  "num_adds": 54,
+  "num_dels": 16,
+  "num_mod_lns_total": 70,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -829,7 +829,7 @@
    "kernel/sched/core.c",
    "virt/kvm/kvm_main.c"
   ],
-  "entropy": 2.7684726020920376,
+  "entropy": 2.7887670210207443,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -841,20 +841,20 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/s390/kvm",
-   "arch/x86/kvm",
    "virt/kvm",
-   "include/linux",
+   "drivers/s390/kvm",
    "kernel/sched",
+   "arch/x86/kvm",
+   "include/linux",
    "arch/x86/include/asm",
    "arch/x86/include/uapi/asm"
   ],
   "mod_sys": [
-   "arch",
-   "include",
-   "drivers",
+   "virt",
    "kernel",
-   "virt"
+   "drivers",
+   "arch",
+   "include"
   ],
   "num_mod_dirs": 7,
   "num_mod_sys": 5,
@@ -873,9 +873,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bf44fe4671f97ee17d178e08c2d3b346188d062b",
-  "num_adds": 67,
+  "num_adds": 68,
   "num_dels": 15,
-  "num_mod_lns_total": 82,
+  "num_mod_lns_total": 83,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -969,9 +969,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7eb387813db6730a5793cd53077b4039d948d17f",
-  "num_adds": 3,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 3,
+  "num_mod_lns_total": 6,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -996,8 +996,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/ntb",
-   "drivers/ntb/hw/intel"
+   "drivers/ntb/hw/intel",
+   "drivers/ntb"
   ],
   "mod_sys": [
    "drivers"
@@ -1067,9 +1067,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "2f887b9a44015a8146d52e40bef9e2b7bc6cd275",
-  "num_adds": 448,
-  "num_dels": 448,
-  "num_mod_lns_total": 896,
+  "num_adds": 465,
+  "num_dels": 465,
+  "num_mod_lns_total": 930,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -1080,7 +1080,7 @@
    "drivers/ntb/hw/intel/ntb_hw_intel.c",
    "drivers/ntb/hw/intel/ntb_hw_intel.h"
   ],
-  "entropy": 1.0254997802204615,
+  "entropy": 1.0333349390361404,
   "ppl_signed_off": [
    "Signed-off-by: Dave Jiang <dave.jiang@intel.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1095,8 +1095,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation",
-   "drivers/ntb/hw/intel"
+   "drivers/ntb/hw/intel",
+   "Documentation"
   ],
   "mod_sys": [
    "Documentation",
@@ -1119,9 +1119,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a41ef053f700618f5f55a1dd658908a71163400b",
-  "num_adds": 12,
+  "num_adds": 13,
   "num_dels": 4,
-  "num_mod_lns_total": 16,
+  "num_mod_lns_total": 17,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1216,9 +1216,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0e041fb5369975c183d22ffeb156ea0dae760088",
-  "num_adds": 10,
+  "num_adds": 12,
   "num_dels": 6,
-  "num_mod_lns_total": 16,
+  "num_mod_lns_total": 18,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1264,9 +1264,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1199aa61264a74717bc747e7031673242bad5119",
-  "num_adds": 27,
+  "num_adds": 32,
   "num_dels": 14,
-  "num_mod_lns_total": 41,
+  "num_mod_lns_total": 46,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1360,9 +1360,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 10,
   "file_hash": "578b881ba9c4b253482903bf8fae438318f5629b",
-  "num_adds": 482,
+  "num_adds": 600,
   "num_dels": 0,
-  "num_mod_lns_total": 482,
+  "num_mod_lns_total": 600,
   "num_mod_files": 4,
   "is_merge": false,
   "parents": [
@@ -1374,7 +1374,7 @@
    "drivers/ntb/test/Makefile",
    "drivers/ntb/test/ntb_tool.c"
   ],
-  "entropy": 0.46502488275212395,
+  "entropy": 0.4485103834304136,
   "ppl_signed_off": [
    "Signed-off-by: Allen Hubbe <Allen.Hubbe@emc.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1413,9 +1413,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 3,
   "file_hash": "963de4739fb4f8fa8d5cd87969109a7d3282ed13",
-  "num_adds": 242,
+  "num_adds": 289,
   "num_dels": 1,
-  "num_mod_lns_total": 243,
+  "num_mod_lns_total": 290,
   "num_mod_files": 6,
   "is_merge": false,
   "parents": [
@@ -1429,7 +1429,7 @@
    "drivers/ntb/test/Makefile",
    "drivers/ntb/test/ntb_pingpong.c"
   ],
-  "entropy": 0.778592470483892,
+  "entropy": 0.7736055254496401,
   "ppl_signed_off": [
    "Signed-off-by: Allen Hubbe <Allen.Hubbe@emc.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1469,9 +1469,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "42fefc86a680f975e2816cd86c4ba50069766ef6",
-  "num_adds": 58,
-  "num_dels": 16,
-  "num_mod_lns_total": 74,
+  "num_adds": 68,
+  "num_dels": 19,
+  "num_mod_lns_total": 87,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1481,7 +1481,7 @@
    "Documentation/ntb.txt",
    "drivers/ntb/hw/intel/ntb_hw_intel.c"
   ],
-  "entropy": 0.5713549744279549,
+  "entropy": 0.5146464316834292,
   "ppl_signed_off": [
    "Signed-off-by: Allen Hubbe <Allen.Hubbe@emc.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1496,8 +1496,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation",
-   "drivers/ntb/hw/intel"
+   "drivers/ntb/hw/intel",
+   "Documentation"
   ],
   "mod_sys": [
    "Documentation",
@@ -1520,9 +1520,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2849b5d70641db76f9b674d00c6d204892c51515",
-  "num_adds": 24,
-  "num_dels": 7,
-  "num_mod_lns_total": 31,
+  "num_adds": 28,
+  "num_dels": 8,
+  "num_mod_lns_total": 36,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1664,9 +1664,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dd5d4d8edb6b40f75e5c8f0db65a4562bffc2e00",
-  "num_adds": 43,
-  "num_dels": 4,
-  "num_mod_lns_total": 47,
+  "num_adds": 44,
+  "num_dels": 5,
+  "num_mod_lns_total": 49,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1712,9 +1712,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5ae0beb6bcb781ba0439618a4883fdb243916f46",
-  "num_adds": 7,
+  "num_adds": 10,
   "num_dels": 0,
-  "num_mod_lns_total": 7,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1808,9 +1808,9 @@
   "num_dels_loop": 55,
   "num_mod_total_loop": 86,
   "file_hash": "e26a5843f7f5014ae4460030ca4de029a3ac35d3",
-  "num_adds": 2345,
-  "num_dels": 2108,
-  "num_mod_lns_total": 4453,
+  "num_adds": 2589,
+  "num_dels": 2195,
+  "num_mod_lns_total": 4784,
   "num_mod_files": 13,
   "is_merge": false,
   "parents": [
@@ -1831,7 +1831,7 @@
    "drivers/ntb/ntb_transport.c",
    "include/linux/ntb_transport.h"
   ],
-  "entropy": 1.4791428285024817,
+  "entropy": 1.504983163700076,
   "ppl_signed_off": [
    "Signed-off-by: Allen Hubbe <Allen.Hubbe@emc.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1846,19 +1846,19 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/ntb/hw",
-   "/",
-   "drivers/ntb",
    "drivers/ntb/hw/intel",
-   "drivers/net",
+   "/",
    "Documentation",
    "include/linux",
+   "drivers/ntb",
+   "drivers/ntb/hw",
+   "drivers/net",
    "/"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 8,
   "num_mod_sys": 3,
@@ -1877,9 +1877,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 25,
   "file_hash": "a1bd3baeb2f18b2b3d0f98ce5fdaa725149b950b",
-  "num_adds": 1139,
+  "num_adds": 1271,
   "num_dels": 1,
-  "num_mod_lns_total": 1140,
+  "num_mod_lns_total": 1272,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -1892,7 +1892,7 @@
    "drivers/ntb/ntb.c",
    "include/linux/ntb.h"
   ],
-  "entropy": 0.8790323799125669,
+  "entropy": 0.9164272121275504,
   "ppl_signed_off": [
    "Signed-off-by: Allen Hubbe <Allen.Hubbe@emc.com>",
    "Signed-off-by: Jon Mason <jdmason@kudzu.us>"
@@ -1908,15 +1908,15 @@
   "is_fix": false,
   "mod_dirs": [
    "Documentation",
-   "drivers/ntb",
    "include/linux",
+   "drivers/ntb",
    "/",
    "/"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 5,
   "num_mod_sys": 3,
@@ -1935,9 +1935,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "14a6f1989dae9445d4532941bdd6bbad84f4c8da",
-  "num_adds": 13,
-  "num_dels": 15,
-  "num_mod_lns_total": 28,
+  "num_adds": 15,
+  "num_dels": 18,
+  "num_mod_lns_total": 33,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -1948,7 +1948,7 @@
    "drivers/irqchip/irqchip.h",
    "include/linux/irqchip.h"
   ],
-  "entropy": 0.9852281360342515,
+  "entropy": 0.9833761901392235,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -1964,8 +1964,8 @@
    "include/linux"
   ],
   "mod_sys": [
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1984,9 +1984,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "b1be9ead135939136b87d73004891a6bac35bb43",
-  "num_adds": 12,
+  "num_adds": 13,
   "num_dels": 13,
-  "num_mod_lns_total": 25,
+  "num_mod_lns_total": 26,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -2000,7 +2000,7 @@
    "arch/x86/kernel/fpu/init.c",
    "arch/x86/kernel/setup.c"
   ],
-  "entropy": 2.117405811425518,
+  "entropy": 2.1118639908793058,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -2012,14 +2012,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/x86",
+   "arch/x86/kernel/fpu",
    "arch/x86/kernel/cpu",
-   "arch/x86/kernel",
-   "arch/x86/kernel/fpu"
+   "Documentation/x86",
+   "arch/x86/kernel"
   ],
   "mod_sys": [
-   "Documentation",
-   "arch"
+   "arch",
+   "Documentation"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 2,
@@ -2038,9 +2038,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "22a093b2fb52fb656658a32adc80c24ddc200ca4",
-  "num_adds": 64,
-  "num_dels": 29,
-  "num_mod_lns_total": 93,
+  "num_adds": 71,
+  "num_dels": 35,
+  "num_mod_lns_total": 106,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -2058,7 +2058,7 @@
    "kernel/sched/stats.h",
    "lib/Kconfig.debug"
   ],
-  "entropy": 2.6193087303793456,
+  "entropy": 2.5509985298387057,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -2070,18 +2070,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/proc",
    "kernel/sched",
    "include/linux",
-   "init",
-   "lib"
+   "fs/proc",
+   "lib",
+   "init"
   ],
   "mod_sys": [
-   "include",
    "fs",
-   "init",
+   "lib",
    "kernel",
-   "lib"
+   "init",
+   "include"
   ],
   "num_mod_dirs": 5,
   "num_mod_sys": 5,
@@ -2100,9 +2100,9 @@
   "num_dels_loop": 8,
   "num_mod_total_loop": 23,
   "file_hash": "c1776a18e3b5a3559f3dff5df0ecce570abd3a9f",
-  "num_adds": 768,
-  "num_dels": 388,
-  "num_mod_lns_total": 1156,
+  "num_adds": 885,
+  "num_dels": 422,
+  "num_mod_lns_total": 1307,
   "num_mod_files": 54,
   "is_merge": true,
   "parents": [
@@ -2165,7 +2165,7 @@
    "tools/perf/util/thread_map.c",
    "tools/perf/util/thread_map.h"
   ],
-  "entropy": 4.108576651368589,
+  "entropy": 4.076572372659469,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -2177,18 +2177,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/build",
    "tools/perf",
    "arch/x86/kernel/cpu",
-   "tools/perf/util",
-   "tools/perf/tests",
-   "tools/perf/config",
    "tools/perf/Documentation",
-   "tools/perf/ui/browsers"
+   "tools/perf/tests",
+   "tools/perf/ui/browsers",
+   "tools/perf/util",
+   "tools/perf/config",
+   "tools/build"
   ],
   "mod_sys": [
-   "tools",
-   "arch"
+   "arch",
+   "tools"
   ],
   "num_mod_dirs": 8,
   "num_mod_sys": 2,
@@ -2253,9 +2253,9 @@
   "num_dels_loop": 4,
   "num_mod_total_loop": 15,
   "file_hash": "ec0337e089b21d1d81e23d31807a9b02df11daac",
-  "num_adds": 1069,
+  "num_adds": 1296,
   "num_dels": 76,
-  "num_mod_lns_total": 1145,
+  "num_mod_lns_total": 1372,
   "num_mod_files": 12,
   "is_merge": true,
   "parents": [
@@ -2276,7 +2276,7 @@
    "drivers/input/touchscreen/wdt87xx_i2c.c",
    "include/linux/input/touchscreen.h"
   ],
-  "entropy": 1.1482076646484451,
+  "entropy": 1.0322665193448852,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -2288,17 +2288,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/input/keyboard",
-   "drivers/input/joystick",
-   "drivers/input/serio",
    "drivers/input/touchscreen",
-   "drivers/input",
+   "drivers/input/keyboard",
+   "include/linux/input",
    "drivers/input/misc",
-   "include/linux/input"
+   "drivers/input",
+   "drivers/input/joystick",
+   "drivers/input/serio"
   ],
   "mod_sys": [
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 7,
   "num_mod_sys": 2,
@@ -2378,9 +2378,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "397f2378f136128623fc237746157aa2564d1082",
-  "num_adds": 42,
-  "num_dels": 17,
-  "num_mod_lns_total": 59,
+  "num_adds": 47,
+  "num_dels": 23,
+  "num_mod_lns_total": 70,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -2391,7 +2391,7 @@
    "kernel/sched/fair.c",
    "kernel/sched/sched.h"
   ],
-  "entropy": 1.4390056802265259,
+  "entropy": 1.4043112730913894,
   "ppl_signed_off": [
    "Signed-off-by: Srikar Dronamraju <srikar@linux.vnet.ibm.com>",
    "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
@@ -2492,9 +2492,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6b55c9654fccf69ae7ace23ca101dc37b903181b",
-  "num_adds": 4,
+  "num_adds": 5,
   "num_dels": 2,
-  "num_mod_lns_total": 6,
+  "num_mod_lns_total": 7,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2504,7 +2504,7 @@
    "include/linux/sched.h",
    "kernel/sched/sched.h"
   ],
-  "entropy": 0.9182958340544896,
+  "entropy": 0.863120568566631,
   "ppl_signed_off": [
    "Signed-off-by: Srikar Dronamraju <srikar@linux.vnet.ibm.com>",
    "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
@@ -2527,12 +2527,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux",
-   "kernel/sched"
+   "kernel/sched",
+   "include/linux"
   ],
   "mod_sys": [
-   "kernel",
-   "include"
+   "include",
+   "kernel"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -2607,9 +2607,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f6db8347993256b58bd4746b0c4c5b935c32210d",
-  "num_adds": 11,
+  "num_adds": 12,
   "num_dels": 6,
-  "num_mod_lns_total": 17,
+  "num_mod_lns_total": 18,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -2622,7 +2622,7 @@
    "kernel/sched/stats.h",
    "lib/Kconfig.debug"
   ],
-  "entropy": 2.116299605701696,
+  "entropy": 2.107735252622104,
   "ppl_signed_off": [
    "Signed-off-by: Naveen N. Rao <naveen.n.rao@linux.vnet.ibm.com>",
    "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
@@ -2645,16 +2645,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux",
-   "lib",
+   "kernel/sched",
    "init",
-   "kernel/sched"
+   "include/linux",
+   "lib"
   ],
   "mod_sys": [
-   "kernel",
-   "lib",
    "init",
-   "include"
+   "include",
+   "kernel",
+   "lib"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 4,

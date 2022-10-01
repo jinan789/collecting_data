@@ -7,9 +7,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "98e01215708b6d416345465c09dce2bd4868c67a",
-  "num_adds": 12,
+  "num_adds": 13,
   "num_dels": 7,
-  "num_mod_lns_total": 19,
+  "num_mod_lns_total": 20,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -20,7 +20,7 @@
    "drivers/input/joystick/iforce/iforce-usb.c",
    "drivers/input/joystick/iforce/iforce.h"
   ],
-  "entropy": 1.5574319619297041,
+  "entropy": 1.5709505944546684,
   "ppl_signed_off": [
    "Signed-off-by: Hillf Danton <hdanton@sina.com>",
    "Signed-off-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>",
@@ -94,9 +94,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/thermal/intel/int340x_thermal",
+   "Documentation/devicetree/bindings/thermal",
    "drivers/thermal",
-   "Documentation/devicetree/bindings/thermal"
+   "drivers/thermal/intel/int340x_thermal"
   ],
   "mod_sys": [
    "Documentation",
@@ -212,9 +212,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dee1873796aff90bb932b0e0073a0073863b4b94",
-  "num_adds": 17,
-  "num_dels": 6,
-  "num_mod_lns_total": 23,
+  "num_adds": 19,
+  "num_dels": 7,
+  "num_mod_lns_total": 26,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -225,7 +225,7 @@
    "arch/s390/kernel/process.c",
    "arch/s390/mm/fault.c"
   ],
-  "entropy": 0.6665783579949205,
+  "entropy": 0.6193821946787638,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -260,9 +260,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "05519f2480a3e71053b892d4ea864e641949a77f",
-  "num_adds": 12,
+  "num_adds": 13,
   "num_dels": 13,
-  "num_mod_lns_total": 25,
+  "num_mod_lns_total": 26,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -275,7 +275,7 @@
    "drivers/xen/xen-scsiback.c",
    "drivers/xen/xenbus/xenbus_probe_frontend.c"
   ],
-  "entropy": 1.0263137138648348,
+  "entropy": 0.998952568973632,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -287,9 +287,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/x86/configs",
    "drivers/xen/xenbus",
-   "drivers/xen"
+   "drivers/xen",
+   "arch/x86/configs"
   ],
   "mod_sys": [
    "arch",
@@ -358,9 +358,9 @@
   "num_dels_loop": 3,
   "num_mod_total_loop": 12,
   "file_hash": "89b749d8552d78c4dd86dea86e2e6ba8aafab9fe",
-  "num_adds": 220,
-  "num_dels": 195,
-  "num_mod_lns_total": 415,
+  "num_adds": 240,
+  "num_dels": 201,
+  "num_mod_lns_total": 441,
   "num_mod_files": 34,
   "is_merge": true,
   "parents": [
@@ -403,7 +403,7 @@
    "drivers/video/fbdev/tgafb.c",
    "drivers/video/fbdev/tridentfb.c"
   ],
-  "entropy": 2.4065853645367468,
+  "entropy": 2.412380349870744,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -415,15 +415,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/video/fbdev/aty",
    "drivers/video/console",
+   "drivers/video/fbdev/geode",
+   "drivers/video/fbdev",
+   "drivers/video/fbdev/aty",
+   "drivers/video/fbdev/core",
+   "drivers/video/fbdev/omap2/omapfb",
    "drivers/video/fbdev/sis",
    "drivers/video/fbdev/omap",
-   "drivers/video/fbdev/geode",
-   "drivers/video/fbdev/omap2/omapfb",
-   "drivers/video/fbdev/matrox",
-   "drivers/video/fbdev/core",
-   "drivers/video/fbdev"
+   "drivers/video/fbdev/matrox"
   ],
   "mod_sys": [
    "drivers"
@@ -445,9 +445,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d6ffe6067a54972564552ea45d320fb98db1ac5e",
-  "num_adds": 22,
-  "num_dels": 32,
-  "num_mod_lns_total": 54,
+  "num_adds": 25,
+  "num_dels": 33,
+  "num_mod_lns_total": 58,
   "num_mod_files": 6,
   "is_merge": false,
   "parents": [
@@ -461,7 +461,7 @@
    "arch/s390/include/asm/bitops.h",
    "arch/sh/include/asm/bitops-op32.h"
   ],
-  "entropy": 2.5415008652468347,
+  "entropy": 2.516659559698866,
   "ppl_signed_off": [
    "Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>",
    "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
@@ -480,12 +480,12 @@
   ],
   "is_fix": true,
   "mod_dirs": [
-   "arch/sh/include/asm",
    "arch/hexagon/include/asm",
+   "arch/sh/include/asm",
    "arch/s390/include/asm",
+   "arch/alpha/include/asm",
    "arch/m68k/include/asm",
-   "arch/ia64/include/asm",
-   "arch/alpha/include/asm"
+   "arch/ia64/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -507,9 +507,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1bd3a383075c64d638e65d263c9267b08ee7733c",
-  "num_adds": 9,
+  "num_adds": 10,
   "num_dels": 0,
-  "num_mod_lns_total": 9,
+  "num_mod_lns_total": 10,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -519,7 +519,7 @@
    "drivers/net/usb/cdc_ether.c",
    "drivers/net/usb/r8152.c"
   ],
-  "entropy": 0.9182958340544896,
+  "entropy": 0.8812908992306927,
   "ppl_signed_off": [
    "Signed-off-by: Jean-Francois Le Fillatre <jflf_kernel@gmx.com>",
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
@@ -669,9 +669,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "d72e5cf3cf69d4c68d3b54aea232451b0a8b69d3",
-  "num_adds": 17,
-  "num_dels": 4,
-  "num_mod_lns_total": 21,
+  "num_adds": 19,
+  "num_dels": 5,
+  "num_mod_lns_total": 24,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -725,9 +725,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e89eaa611c7568d1288a2ccca88355a9434f2d47",
-  "num_adds": 1,
-  "num_dels": 9,
-  "num_mod_lns_total": 10,
+  "num_adds": 2,
+  "num_dels": 12,
+  "num_mod_lns_total": 14,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -737,7 +737,7 @@
    "tools/perf/Documentation/intel-hybrid.txt",
    "tools/perf/Documentation/perf-record.txt"
   ],
-  "entropy": 0.7219280948873623,
+  "entropy": 0.863120568566631,
   "ppl_signed_off": [
    "Signed-off-by: Andi Kleen <ak@linux.intel.com>",
    "Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
@@ -776,9 +776,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0c361c6eaba7fe1a29391540dd8797e850e49f21",
-  "num_adds": 18,
+  "num_adds": 19,
   "num_dels": 0,
-  "num_mod_lns_total": 18,
+  "num_mod_lns_total": 19,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1038,8 +1038,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/thermal",
-   "Documentation/devicetree/bindings/thermal"
+   "Documentation/devicetree/bindings/thermal",
+   "drivers/thermal"
   ],
   "mod_sys": [
    "Documentation",
@@ -1108,9 +1108,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "11745ecfe8fea4b4a4c322967a7605d2ecbd5080",
-  "num_adds": 15,
+  "num_adds": 17,
   "num_dels": 1,
-  "num_mod_lns_total": 16,
+  "num_mod_lns_total": 18,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [

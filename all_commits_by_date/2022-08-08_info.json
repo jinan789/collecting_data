@@ -7,9 +7,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "b8c3bf0ed2edf2deaedba5f0bf0bb54c76dee71d",
-  "num_adds": 56,
-  "num_dels": 36,
-  "num_mod_lns_total": 92,
+  "num_adds": 64,
+  "num_dels": 39,
+  "num_mod_lns_total": 103,
   "num_mod_files": 7,
   "is_merge": true,
   "parents": [
@@ -25,7 +25,7 @@
    "net/bluetooth/mgmt.c",
    "net/bluetooth/msft.c"
   ],
-  "entropy": 2.5775548539067388,
+  "entropy": 2.5875291047465163,
   "ppl_signed_off": [
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
   ],
@@ -61,9 +61,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7a07a29e4f6713b224f3bcde5f835e777301bdb8",
-  "num_adds": 44,
-  "num_dels": 119,
-  "num_mod_lns_total": 163,
+  "num_adds": 48,
+  "num_dels": 132,
+  "num_mod_lns_total": 180,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -73,7 +73,7 @@
    "drivers/s390/net/qeth_core_main.c",
    "drivers/s390/net/qeth_ethtool.c"
   ],
-  "entropy": 0.35646600792165883,
+  "entropy": 0.35335933502142136,
   "ppl_signed_off": [
    "Signed-off-by: Alexandra Winter <wintera@linux.ibm.com>",
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
@@ -168,9 +168,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3702e4041cfda50bc697363d29511ce8f6b24795",
-  "num_adds": 15,
-  "num_dels": 17,
-  "num_mod_lns_total": 32,
+  "num_adds": 16,
+  "num_dels": 18,
+  "num_mod_lns_total": 34,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -270,9 +270,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "7e4babffa6f340a74c820d44d44d16511e666424",
-  "num_adds": 13,
+  "num_adds": 14,
   "num_dels": 1,
-  "num_mod_lns_total": 14,
+  "num_mod_lns_total": 15,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -516,9 +516,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 5,
   "file_hash": "eb555cb5b794f4e12a9897f3d46d5a72104cd4a7",
-  "num_adds": 298,
-  "num_dels": 212,
-  "num_mod_lns_total": 510,
+  "num_adds": 322,
+  "num_dels": 220,
+  "num_mod_lns_total": 542,
   "num_mod_files": 20,
   "is_merge": true,
   "parents": [
@@ -547,7 +547,7 @@
    "fs/ksmbd/vfs.c",
    "fs/ksmbd/vfs_cache.c"
   ],
-  "entropy": 3.1828181602197634,
+  "entropy": 3.1806660065493784,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -559,9 +559,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "fs/ksmbd/mgmt",
    "fs/ksmbd",
    "/",
-   "fs/ksmbd/mgmt",
    "/"
   ],
   "mod_sys": [
@@ -584,9 +584,9 @@
   "num_dels_loop": 12,
   "num_mod_total_loop": 23,
   "file_hash": "f30adc0d332fdfe5315cb98bd6a7ff0d5cf2aa38",
-  "num_adds": 483,
-  "num_dels": 585,
-  "num_mod_lns_total": 1068,
+  "num_adds": 508,
+  "num_dels": 621,
+  "num_mod_lns_total": 1129,
   "num_mod_files": 30,
   "is_merge": true,
   "parents": [
@@ -625,7 +625,7 @@
    "net/rds/message.c",
    "net/tls/tls_sw.c"
   ],
-  "entropy": 1.9325251101437515,
+  "entropy": 1.922478852055152,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -637,34 +637,34 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "fs/fuse",
+   "net/core",
    "net/rds",
-   "block",
+   "fs/ceph",
+   "fs/nfs",
+   "fs/gfs2",
    "fs/iomap",
    "drivers/vhost",
-   "fs/hugetlbfs",
-   "fs",
-   "crypto",
    "fs/cifs",
-   "fs/fuse",
-   "fs/gfs2",
-   "fs/nfs",
-   "include/linux",
-   "fs/ceph",
    "net/9p",
-   "net/core",
+   "fs",
    "net/tls",
+   "block",
+   "crypto",
+   "include/linux",
+   "lib",
    "mm",
-   "lib"
+   "fs/hugetlbfs"
   ],
   "mod_sys": [
-   "include",
-   "block",
    "net",
    "fs",
+   "block",
    "crypto",
    "drivers",
+   "lib",
    "mm",
-   "lib"
+   "include"
   ],
   "num_mod_dirs": 18,
   "num_mod_sys": 8,
@@ -731,8 +731,8 @@
   "num_mod_total_loop": 1,
   "file_hash": "c7d57ab1632d29e256e3ae68f925751142330d88",
   "num_adds": 1,
-  "num_dels": 27,
-  "num_mod_lns_total": 28,
+  "num_dels": 30,
+  "num_mod_lns_total": 31,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -778,8 +778,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "f0f6b614f83dbae99d283b7b12ab5dd2e04df979",
   "num_adds": 6,
-  "num_dels": 14,
-  "num_mod_lns_total": 20,
+  "num_dels": 15,
+  "num_mod_lns_total": 21,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -872,8 +872,8 @@
   "num_mod_total_loop": 2,
   "file_hash": "746de1f86fcd33464acac047f111eea877f2f7a0",
   "num_adds": 6,
-  "num_dels": 27,
-  "num_mod_lns_total": 33,
+  "num_dels": 29,
+  "num_mod_lns_total": 35,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -919,8 +919,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "eba2d3d798295dc43cae8fade102f9d083a2a741",
   "num_adds": 20,
-  "num_dels": 27,
-  "num_mod_lns_total": 47,
+  "num_dels": 31,
+  "num_mod_lns_total": 51,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -930,7 +930,7 @@
    "include/linux/uio.h",
    "lib/iov_iter.c"
   ],
-  "entropy": 0.9839393951635756,
+  "entropy": 0.9975025463691153,
   "ppl_signed_off": [
    "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
   ],
@@ -950,8 +950,8 @@
    "lib"
   ],
   "mod_sys": [
-   "lib",
-   "include"
+   "include",
+   "lib"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1118,9 +1118,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 5,
   "file_hash": "7d690c157c58d22de9ad71ef5c4e1f43cd8ad0e7",
-  "num_adds": 23,
+  "num_adds": 24,
   "num_dels": 23,
-  "num_mod_lns_total": 46,
+  "num_mod_lns_total": 47,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1167,9 +1167,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "480cb846c27bda4e14d98a45a9f50c250f38f266",
-  "num_adds": 15,
-  "num_dels": 13,
-  "num_mod_lns_total": 28,
+  "num_adds": 18,
+  "num_dels": 14,
+  "num_mod_lns_total": 32,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1179,7 +1179,7 @@
    "block/bio.c",
    "block/blk-map.c"
   ],
-  "entropy": 0.8112781244591328,
+  "entropy": 0.7578784625383954,
   "ppl_signed_off": [
    "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
   ],
@@ -1215,9 +1215,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1ef255e257173f4bc44317ef2076e7e0de688fdf",
-  "num_adds": 30,
-  "num_dels": 28,
-  "num_mod_lns_total": 58,
+  "num_adds": 34,
+  "num_dels": 30,
+  "num_mod_lns_total": 64,
   "num_mod_files": 13,
   "is_merge": false,
   "parents": [
@@ -1238,7 +1238,7 @@
    "net/rds/message.c",
    "net/tls/tls_sw.c"
   ],
-  "entropy": 3.3999047015019066,
+  "entropy": 3.3203560636920493,
   "ppl_signed_off": [
    "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
   ],
@@ -1254,22 +1254,22 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "fs/fuse",
+   "net/core",
    "net/rds",
+   "fs/ceph",
+   "fs/nfs",
    "drivers/vhost",
+   "fs/cifs",
    "fs",
    "net/tls",
-   "fs/cifs",
-   "fs/fuse",
-   "include/linux",
-   "fs/nfs",
-   "net/core",
-   "fs/ceph"
+   "include/linux"
   ],
   "mod_sys": [
+   "fs",
    "net",
-   "drivers",
    "include",
-   "fs"
+   "drivers"
   ],
   "num_mod_dirs": 10,
   "num_mod_sys": 4,
@@ -1288,9 +1288,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3cf42da327f26eb4461864dd64812345b37f4fd9",
-  "num_adds": 31,
-  "num_dels": 42,
-  "num_mod_lns_total": 73,
+  "num_adds": 32,
+  "num_dels": 45,
+  "num_mod_lns_total": 77,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1337,9 +1337,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "8520008417c581c4c22e39597f92b9814ae34c31",
-  "num_adds": 36,
-  "num_dels": 34,
-  "num_mod_lns_total": 70,
+  "num_adds": 38,
+  "num_dels": 37,
+  "num_mod_lns_total": 75,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1387,8 +1387,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "0aa4fc32f54028f6fbb35bf71df4b0d86ff1662b",
   "num_adds": 1,
-  "num_dels": 8,
-  "num_mod_lns_total": 9,
+  "num_dels": 9,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1436,8 +1436,8 @@
   "num_mod_total_loop": 1,
   "file_hash": "451c0ba9475ebdce36249c5c769efa5d580d1d83",
   "num_adds": 27,
-  "num_dels": 55,
-  "num_mod_lns_total": 82,
+  "num_dels": 59,
+  "num_mod_lns_total": 86,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1482,9 +1482,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "68fe506f3731ecf7881de9512cc5f4c14fd13f3a",
-  "num_adds": 9,
-  "num_dels": 33,
-  "num_mod_lns_total": 42,
+  "num_adds": 10,
+  "num_dels": 39,
+  "num_mod_lns_total": 49,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1531,9 +1531,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "acbdeb8320b0a470bef1b6c0105d8c2bbc4c4ba0",
-  "num_adds": 16,
-  "num_dels": 28,
-  "num_mod_lns_total": 44,
+  "num_adds": 17,
+  "num_dels": 32,
+  "num_mod_lns_total": 49,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1581,8 +1581,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "c81ce28df500b04444ef97dc82a7b0299ce717e8",
   "num_adds": 2,
-  "num_dels": 5,
-  "num_mod_lns_total": 7,
+  "num_dels": 7,
+  "num_mod_lns_total": 9,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1629,9 +1629,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "91329559eb07c9b12c7ce80e893ad39579c40aa2",
-  "num_adds": 19,
+  "num_adds": 22,
   "num_dels": 16,
-  "num_mod_lns_total": 35,
+  "num_mod_lns_total": 38,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1678,9 +1678,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "12d426ab64a1c75f1b2ee5c33e933a4c16004049",
-  "num_adds": 18,
-  "num_dels": 43,
-  "num_mod_lns_total": 61,
+  "num_adds": 19,
+  "num_dels": 45,
+  "num_mod_lns_total": 64,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1690,7 +1690,7 @@
    "include/linux/pipe_fs_i.h",
    "lib/iov_iter.c"
   ],
-  "entropy": 0.875195788740725,
+  "entropy": 0.8960382325345573,
   "ppl_signed_off": [
    "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
   ],
@@ -1708,8 +1708,8 @@
    "lib"
   ],
   "mod_sys": [
-   "lib",
-   "include"
+   "include",
+   "lib"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1758,8 +1758,8 @@
    "lib"
   ],
   "mod_sys": [
-   "lib",
-   "include"
+   "include",
+   "lib"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -1778,9 +1778,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 3,
   "file_hash": "92acdc4f37207c556baee0ea28ce0823d22b9812",
-  "num_adds": 13,
-  "num_dels": 42,
-  "num_mod_lns_total": 55,
+  "num_adds": 14,
+  "num_dels": 46,
+  "num_mod_lns_total": 60,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1920,8 +1920,8 @@
   "num_mod_total_loop": 3,
   "file_hash": "e3b42964f84c028f352c11269661d47f6ca4ab2e",
   "num_adds": 25,
-  "num_dels": 50,
-  "num_mod_lns_total": 75,
+  "num_dels": 55,
+  "num_mod_lns_total": 80,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1966,9 +1966,9 @@
   "num_dels_loop": 3,
   "num_mod_total_loop": 6,
   "file_hash": "8fad7767edcfd3f93e0d9985cb2dc1db270b8719",
-  "num_adds": 89,
-  "num_dels": 72,
-  "num_mod_lns_total": 161,
+  "num_adds": 98,
+  "num_dels": 73,
+  "num_mod_lns_total": 171,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2013,9 +2013,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "47b7fcae419dc940e3fb8e58088a5b80ad813bbf",
-  "num_adds": 43,
-  "num_dels": 40,
-  "num_mod_lns_total": 83,
+  "num_adds": 46,
+  "num_dels": 42,
+  "num_mod_lns_total": 88,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2062,9 +2062,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2dcedb2a549a4d7430538213b1b28ef7271bc0aa",
-  "num_adds": 8,
+  "num_adds": 9,
   "num_dels": 6,
-  "num_mod_lns_total": 14,
+  "num_mod_lns_total": 15,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2211,9 +2211,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "fcb14cb1bdacec5b4374fe161e83fb8208164a85",
-  "num_adds": 100,
+  "num_adds": 108,
   "num_dels": 31,
-  "num_mod_lns_total": 131,
+  "num_mod_lns_total": 139,
   "num_mod_files": 12,
   "is_merge": false,
   "parents": [
@@ -2233,7 +2233,7 @@
    "lib/iov_iter.c",
    "mm/shmem.c"
   ],
-  "entropy": 1.9580721284662967,
+  "entropy": 1.9228454481563513,
   "ppl_signed_off": [
    "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
   ],
@@ -2247,24 +2247,24 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "block",
-   "fs/iomap",
-   "fs",
    "fs/fuse",
-   "fs/cifs",
-   "fs/gfs2",
-   "fs/nfs",
-   "include/linux",
    "fs/ceph",
-   "mm",
-   "lib"
+   "fs/nfs",
+   "fs/gfs2",
+   "fs/iomap",
+   "fs/cifs",
+   "fs",
+   "block",
+   "include/linux",
+   "lib",
+   "mm"
   ],
   "mod_sys": [
-   "include",
-   "block",
    "fs",
+   "block",
+   "lib",
    "mm",
-   "lib"
+   "include"
   ],
   "num_mod_dirs": 11,
   "num_mod_sys": 5,
@@ -2283,9 +2283,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "a9e9c93966afdaae74a6a7533552391646b93f2c",
-  "num_adds": 8,
+  "num_adds": 9,
   "num_dels": 4,
-  "num_mod_lns_total": 12,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2405,9 +2405,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "84b86f6054c42776c0d6482ab9a9071b247159fa",
-  "num_adds": 4,
+  "num_adds": 5,
   "num_dels": 0,
-  "num_mod_lns_total": 4,
+  "num_mod_lns_total": 5,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2465,9 +2465,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "6b3afe2eeec27a148b83235484149f42b22ef793",
-  "num_adds": 6,
+  "num_adds": 7,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2525,9 +2525,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "516ea046ec5558882b4a8e5f6b0c9b4c957db279",
-  "num_adds": 5,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 6,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -2708,8 +2708,8 @@
   "num_mod_total_loop": 1,
   "file_hash": "6f4614886baa59b6ae014093300482c1da4d3c93",
   "num_adds": 0,
-  "num_dels": 17,
-  "num_mod_lns_total": 17,
+  "num_dels": 18,
+  "num_mod_lns_total": 18,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -2720,7 +2720,7 @@
    "include/ras/ras_event.h",
    "mm/memory-failure.c"
   ],
-  "entropy": 0.6402064333604701,
+  "entropy": 0.6143694458867568,
   "ppl_signed_off": [
    "Signed-off-by: Naoya Horiguchi <naoya.horiguchi@nec.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -2750,8 +2750,8 @@
    "include/ras"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -2929,8 +2929,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -2949,9 +2949,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "ac5fcde0a96a18773f06b7c00c5ea081bbdc64b3",
-  "num_adds": 51,
+  "num_adds": 56,
   "num_dels": 5,
-  "num_mod_lns_total": 56,
+  "num_mod_lns_total": 61,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2961,7 +2961,7 @@
    "include/linux/swapops.h",
    "mm/memory-failure.c"
   ],
-  "entropy": 0.5435644431995964,
+  "entropy": 0.6036522497544011,
   "ppl_signed_off": [
    "Signed-off-by: Naoya Horiguchi <naoya.horiguchi@nec.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -2991,8 +2991,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3011,9 +3011,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "161df60e9e89651c9aa3ae0edc9aae3a8a2d21e7",
-  "num_adds": 103,
+  "num_adds": 116,
   "num_dels": 13,
-  "num_mod_lns_total": 116,
+  "num_mod_lns_total": 129,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -3024,7 +3024,7 @@
    "mm/hugetlb.c",
    "mm/memory-failure.c"
   ],
-  "entropy": 1.2180038831935627,
+  "entropy": 1.1982887387831265,
   "ppl_signed_off": [
    "Signed-off-by: Naoya Horiguchi <naoya.horiguchi@nec.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3054,8 +3054,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3074,9 +3074,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3a194f3f8ad01bce00bd7174aaba1563bcc827eb",
-  "num_adds": 36,
+  "num_adds": 37,
   "num_dels": 3,
-  "num_mod_lns_total": 39,
+  "num_mod_lns_total": 40,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3086,7 +3086,7 @@
    "arch/x86/mm/hugetlbpage.c",
    "mm/hugetlb.c"
   ],
-  "entropy": 0.7320666900931938,
+  "entropy": 0.7219280948873623,
   "ppl_signed_off": [
    "Signed-off-by: Naoya Horiguchi <naoya.horiguchi@nec.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3111,12 +3111,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "mm",
-   "arch/x86/mm"
+   "arch/x86/mm",
+   "mm"
   ],
   "mod_sys": [
-   "mm",
-   "arch"
+   "arch",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3251,9 +3251,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "838691a1c0ec44739db558834e6954d62577d6b8",
-  "num_adds": 45,
+  "num_adds": 49,
   "num_dels": 36,
-  "num_mod_lns_total": 81,
+  "num_mod_lns_total": 85,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3263,7 +3263,7 @@
    "Documentation/mm/vmemmap_dedup.rst",
    "include/linux/page-flags.h"
   ],
-  "entropy": 0.691289869405789,
+  "entropy": 0.6722948170756379,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3287,8 +3287,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/mm",
-   "include/linux"
+   "include/linux",
+   "Documentation/mm"
   ],
   "mod_sys": [
    "Documentation",
@@ -3311,9 +3311,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 3,
   "file_hash": "6213834c10de954470b7195cf0cdbda858edf0ee",
-  "num_adds": 95,
-  "num_dels": 101,
-  "num_mod_lns_total": 196,
+  "num_adds": 102,
+  "num_dels": 108,
+  "num_mod_lns_total": 210,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -3326,7 +3326,7 @@
    "mm/hugetlb_vmemmap.c",
    "mm/hugetlb_vmemmap.h"
   ],
-  "entropy": 1.3862223934865912,
+  "entropy": 1.381978485584303,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3355,8 +3355,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3376,8 +3376,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "30152245c63b59f835193b37212991bc24669645",
   "num_adds": 2,
-  "num_dels": 7,
-  "num_mod_lns_total": 9,
+  "num_dels": 8,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3433,9 +3433,9 @@
   "num_dels_loop": 12,
   "num_mod_total_loop": 24,
   "file_hash": "998a2997885f73e5cc732ac6d661dfa6e0f50654",
-  "num_adds": 337,
-  "num_dels": 345,
-  "num_mod_lns_total": 682,
+  "num_adds": 398,
+  "num_dels": 407,
+  "num_mod_lns_total": 805,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -3446,7 +3446,7 @@
    "mm/hugetlb_vmemmap.c",
    "mm/sparse-vmemmap.c"
   ],
-  "entropy": 1.0639149173950178,
+  "entropy": 1.063320819511501,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3475,8 +3475,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3495,9 +3495,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dff033818a06e7d0bf79271e34bda11c2d9d98d0",
-  "num_adds": 22,
+  "num_adds": 23,
   "num_dels": 24,
-  "num_mod_lns_total": 46,
+  "num_mod_lns_total": 47,
   "num_mod_files": 9,
   "is_merge": false,
   "parents": [
@@ -3514,7 +3514,7 @@
    "mm/hugetlb_vmemmap.c",
    "mm/hugetlb_vmemmap.h"
   ],
-  "entropy": 2.9109356632877947,
+  "entropy": 2.954997160882232,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3539,19 +3539,19 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs",
-   "Documentation/mm",
-   "Documentation/admin-guide",
-   "include/linux",
    "Documentation/admin-guide/sysctl",
+   "Documentation/admin-guide/mm",
+   "Documentation/admin-guide",
+   "fs",
+   "include/linux",
    "mm",
-   "Documentation/admin-guide/mm"
+   "Documentation/mm"
   ],
   "mod_sys": [
+   "fs",
    "Documentation",
-   "mm",
    "include",
-   "fs"
+   "mm"
   ],
   "num_mod_dirs": 7,
   "num_mod_sys": 4,
@@ -3571,8 +3571,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "cf5472e561133888df81d2e48f7da9ebd3299459",
   "num_adds": 9,
-  "num_dels": 52,
-  "num_mod_lns_total": 61,
+  "num_dels": 62,
+  "num_mod_lns_total": 71,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3582,7 +3582,7 @@
    "include/linux/page-flags.h",
    "mm/hugetlb_vmemmap.c"
   ],
-  "entropy": 0.46377734988775166,
+  "entropy": 0.4178642624458584,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3611,8 +3611,8 @@
    "mm"
   ],
   "mod_sys": [
-   "mm",
-   "include"
+   "include",
+   "mm"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -3632,8 +3632,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "2da1c30929a28c3c6b01d9c16c4216037be95597",
   "num_adds": 5,
-  "num_dels": 20,
-  "num_mod_lns_total": 25,
+  "num_dels": 22,
+  "num_mod_lns_total": 27,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3643,7 +3643,7 @@
    "arch/arm64/mm/flush.c",
    "include/linux/page-flags.h"
   ],
-  "entropy": 0.9988455359952018,
+  "entropy": 0.9990102708804813,
   "ppl_signed_off": [
    "Signed-off-by: Muchun Song <songmuchun@bytedance.com>",
    "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"
@@ -3668,8 +3668,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux",
-   "arch/arm64/mm"
+   "arch/arm64/mm",
+   "include/linux"
   ],
   "mod_sys": [
    "arch",
@@ -3692,9 +3692,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1d1ab5d39be7590bb2400418877bff43da9e75ec",
-  "num_adds": 9,
+  "num_adds": 11,
   "num_dels": 5,
-  "num_mod_lns_total": 14,
+  "num_mod_lns_total": 16,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3892,9 +3892,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "889f0346d47a0285093a3b665d1455c084636d9f",
-  "num_adds": 4,
+  "num_adds": 5,
   "num_dels": 2,
-  "num_mod_lns_total": 6,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3941,9 +3941,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b4443423278263d229dbeee12d09e657b78d64ab",
-  "num_adds": 3,
+  "num_adds": 4,
   "num_dels": 1,
-  "num_mod_lns_total": 4,
+  "num_mod_lns_total": 5,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3992,9 +3992,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ce78e557ff8819f2d10e8d6bae79404bfbbd6809",
-  "num_adds": 20,
+  "num_adds": 24,
   "num_dels": 6,
-  "num_mod_lns_total": 26,
+  "num_mod_lns_total": 30,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -4004,7 +4004,7 @@
    "net/bluetooth/aosp.c",
    "net/bluetooth/msft.c"
   ],
-  "entropy": 0.9957274520849255,
+  "entropy": 1.0,
   "ppl_signed_off": [
    "Signed-off-by: Soenke Huster <soenke.huster@eknoes.de>",
    "Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"
@@ -4093,8 +4093,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "10b9adb556508a299dc283b7c746b811f6918987",
   "num_adds": 2,
-  "num_dels": 7,
-  "num_mod_lns_total": 9,
+  "num_dels": 9,
+  "num_mod_lns_total": 11,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4192,8 +4192,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "332f1795ca202489c665a75e62e18ff6284de077",
   "num_adds": 6,
-  "num_dels": 6,
-  "num_mod_lns_total": 12,
+  "num_dels": 7,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4242,9 +4242,9 @@
   "num_dels_loop": 11,
   "num_mod_total_loop": 31,
   "file_hash": "5d5d353bed32dc3ea52e2619e0d1c60b17133b91",
-  "num_adds": 807,
-  "num_dels": 211,
-  "num_mod_lns_total": 1018,
+  "num_adds": 958,
+  "num_dels": 227,
+  "num_mod_lns_total": 1185,
   "num_mod_files": 28,
   "is_merge": true,
   "parents": [
@@ -4281,7 +4281,7 @@
    "include/linux/dma-map-ops.h",
    "kernel/dma/coherent.c"
   ],
-  "entropy": 3.5687816521934543,
+  "entropy": 3.527219771419372,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4293,17 +4293,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/remoteproc",
+   "Documentation/devicetree/bindings/soc/qcom",
+   "Documentation/devicetree/bindings/remoteproc",
    "kernel/dma",
    "include/linux",
-   "Documentation/devicetree/bindings/remoteproc",
-   "Documentation/devicetree/bindings/soc/qcom"
+   "drivers/remoteproc"
   ],
   "mod_sys": [
    "kernel",
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 5,
   "num_mod_sys": 4,
@@ -4323,8 +4323,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "c72687614b3627b3ea55d8d169e31cac70f56f3e",
   "num_adds": 20,
-  "num_dels": 15,
-  "num_mod_lns_total": 35,
+  "num_dels": 17,
+  "num_mod_lns_total": 37,
   "num_mod_files": 7,
   "is_merge": true,
   "parents": [
@@ -4340,7 +4340,7 @@
    "drivers/rpmsg/rpmsg_core.c",
    "drivers/rpmsg/rpmsg_internal.h"
   ],
-  "entropy": 2.5882631035293233,
+  "entropy": 2.556616124590541,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4374,9 +4374,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e6cc0b56e2be8746824915d3f7130899b98a1242",
-  "num_adds": 76,
-  "num_dels": 56,
-  "num_mod_lns_total": 132,
+  "num_adds": 80,
+  "num_dels": 57,
+  "num_mod_lns_total": 137,
   "num_mod_files": 19,
   "is_merge": true,
   "parents": [
@@ -4404,7 +4404,7 @@
    "drivers/watchdog/tegra_wdt.c",
    "drivers/watchdog/wdat_wdt.c"
   ],
-  "entropy": 3.581799616875331,
+  "entropy": 3.5323265573997737,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4440,9 +4440,9 @@
   "num_dels_loop": 36,
   "num_mod_total_loop": 100,
   "file_hash": "507f811f205c17fd6f64e8d34d4bf91cd01b07a2",
-  "num_adds": 1273,
-  "num_dels": 1141,
-  "num_mod_lns_total": 2414,
+  "num_adds": 1421,
+  "num_dels": 1285,
+  "num_mod_lns_total": 2706,
   "num_mod_files": 33,
   "is_merge": true,
   "parents": [
@@ -4484,7 +4484,7 @@
    "include/linux/pm_opp.h",
    "include/trace/events/power.h"
   ],
-  "entropy": 2.637885908566868,
+  "entropy": 2.5828788792899173,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4496,24 +4496,24 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/cpufreq",
-   "drivers/gpu/drm/lima",
-   "Documentation/devicetree/bindings/opp",
-   "drivers/devfreq",
-   "include/trace/events",
-   "drivers/cpuidle",
-   "drivers/opp",
-   "drivers/memory/tegra",
-   "drivers/media/platform/qcom/venus",
-   "include/linux",
-   "Documentation/devicetree/bindings/cpufreq",
    "drivers/soc/tegra",
+   "drivers/cpuidle",
+   "Documentation/devicetree/bindings/cpufreq",
+   "drivers/media/platform/qcom/venus",
+   "Documentation/devicetree/bindings/opp",
+   "drivers/memory/tegra",
+   "include/linux",
+   "include/trace/events",
+   "drivers/gpu/drm/lima",
+   "drivers/cpufreq",
+   "drivers/devfreq",
+   "drivers/opp",
    "drivers/gpu/drm/panfrost"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 13,
   "num_mod_sys": 3,
@@ -4532,9 +4532,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "033c88d58b66a5bf61a9a4f0029c4fb771f0555e",
-  "num_adds": 23,
+  "num_adds": 24,
   "num_dels": 16,
-  "num_mod_lns_total": 39,
+  "num_mod_lns_total": 40,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -4547,7 +4547,7 @@
    "drivers/thermal/thermal_sysfs.c",
    "tools/thermal/tmon/sysfs.c"
   ],
-  "entropy": 1.4759554232138237,
+  "entropy": 1.490468570732828,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4564,8 +4564,8 @@
    "tools/thermal/tmon"
   ],
   "mod_sys": [
-   "tools",
-   "drivers"
+   "drivers",
+   "tools"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -4584,9 +4584,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d5af75f77c52c6193fdf34bdb780cb615edadd76",
-  "num_adds": 7,
+  "num_adds": 9,
   "num_dels": 11,
-  "num_mod_lns_total": 18,
+  "num_mod_lns_total": 20,
   "num_mod_files": 1,
   "is_merge": true,
   "parents": [
@@ -4630,9 +4630,9 @@
   "num_dels_loop": 16,
   "num_mod_total_loop": 35,
   "file_hash": "e74acdf55da6649dd30be5b621a93b71cbe7f3f9",
-  "num_adds": 318,
-  "num_dels": 277,
-  "num_mod_lns_total": 595,
+  "num_adds": 375,
+  "num_dels": 327,
+  "num_mod_lns_total": 702,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -4651,7 +4651,7 @@
    "kernel/module/procfs.c",
    "scripts/module.lds.S"
   ],
-  "entropy": 1.8925974826154373,
+  "entropy": 1.8276870470364346,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4663,17 +4663,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "scripts",
-   "/",
    "kernel/module",
+   "/",
    "Documentation/admin-guide",
    "init",
+   "scripts",
    "/"
   ],
   "mod_sys": [
-   "kernel",
    "Documentation",
    "scripts",
+   "kernel",
    "init"
   ],
   "num_mod_dirs": 6,
@@ -4693,9 +4693,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0f3e72b5c8cfa0b57dc4fc7703a0a42dbc200ba9",
-  "num_adds": 1,
+  "num_adds": 2,
   "num_dels": 0,
-  "num_mod_lns_total": 1,
+  "num_mod_lns_total": 2,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -4743,9 +4743,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 5,
   "file_hash": "3c59366c207e4c6c6569524af606baf017a55c61",
-  "num_adds": 58,
+  "num_adds": 63,
   "num_dels": 18,
-  "num_mod_lns_total": 76,
+  "num_mod_lns_total": 81,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -4755,7 +4755,7 @@
    "fs/nfs/dir.c",
    "include/linux/nfs_fs.h"
   ],
-  "entropy": 0.524805134842907,
+  "entropy": 0.5032583347756457,
   "ppl_signed_off": [
    "Signed-off-by: NeilBrown <neilb@suse.de>",
    "Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"
@@ -4774,8 +4774,8 @@
    "fs/nfs"
   ],
   "mod_sys": [
-   "include",
-   "fs"
+   "fs",
+   "include"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -4844,9 +4844,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1e5907bcb3a3b569be0a03ebe668bba2ed320a50",
-  "num_adds": 28,
-  "num_dels": 24,
-  "num_mod_lns_total": 52,
+  "num_adds": 32,
+  "num_dels": 27,
+  "num_mod_lns_total": 59,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -4856,7 +4856,7 @@
    "sound/soc/codecs/tas2770.c",
    "sound/soc/codecs/tas2770.h"
   ],
-  "entropy": 0.23519338181924143,
+  "entropy": 0.21357981533827733,
   "ppl_signed_off": [
    "Signed-off-by: Martin Povi\u0161er <povik+lin@cutebit.org>",
    "Signed-off-by: Mark Brown <broonie@kernel.org>"
@@ -4896,8 +4896,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "482c23fbc7e9bf5a7a74defd0735d5346215db58",
   "num_adds": 0,
-  "num_dels": 29,
-  "num_mod_lns_total": 29,
+  "num_dels": 33,
+  "num_mod_lns_total": 33,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4995,9 +4995,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e9ac31f0a5d0e246b046c20348954519f91a297f",
-  "num_adds": 21,
+  "num_adds": 22,
   "num_dels": 1,
-  "num_mod_lns_total": 22,
+  "num_mod_lns_total": 23,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -5007,7 +5007,7 @@
    "sound/soc/codecs/tas2770.c",
    "sound/soc/codecs/tas2770.h"
   ],
-  "entropy": 0.5746356978376794,
+  "entropy": 0.5586293734521992,
   "ppl_signed_off": [
    "Signed-off-by: Martin Povi\u0161er <povik+lin@cutebit.org>",
    "Signed-off-by: Mark Brown <broonie@kernel.org>"
@@ -5104,9 +5104,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 7,
   "file_hash": "c8a684e2e110376c58f0bfa30fb3855d1e319670",
-  "num_adds": 699,
-  "num_dels": 206,
-  "num_mod_lns_total": 905,
+  "num_adds": 811,
+  "num_dels": 218,
+  "num_mod_lns_total": 1029,
   "num_mod_files": 13,
   "is_merge": true,
   "parents": [
@@ -5128,7 +5128,7 @@
    "drivers/leds/leds-turris-omnia.c",
    "drivers/leds/rgb/leds-pwm-multicolor.c"
   ],
-  "entropy": 1.8368954846014205,
+  "entropy": 1.9206591040474317,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5140,10 +5140,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/devicetree/bindings/leds",
-   "drivers/leds",
    "drivers/leds/blink",
-   "drivers/leds/rgb"
+   "drivers/leds/rgb",
+   "drivers/leds",
+   "Documentation/devicetree/bindings/leds"
   ],
   "mod_sys": [
    "Documentation",
@@ -5167,8 +5167,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "6492fed7d8c95f53b0b804ef541324d924d95d41",
   "num_adds": 0,
-  "num_dels": 2,
-  "num_mod_lns_total": 2,
+  "num_dels": 3,
+  "num_mod_lns_total": 3,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -5268,9 +5268,9 @@
   "num_dels_loop": 124,
   "num_mod_total_loop": 239,
   "file_hash": "607ca0f742b7d990b6efb3c3e7a52830f7e96419",
-  "num_adds": 3054,
-  "num_dels": 2762,
-  "num_mod_lns_total": 5816,
+  "num_adds": 3353,
+  "num_dels": 3197,
+  "num_mod_lns_total": 6550,
   "num_mod_files": 97,
   "is_merge": true,
   "parents": [
@@ -5376,7 +5376,7 @@
    "include/uapi/linux/serial_core.h",
    "include/uapi/linux/serial_reg.h"
   ],
-  "entropy": 4.580101181210328,
+  "entropy": 4.543310711175393,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5388,30 +5388,30 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
-   "include/uapi/asm-generic",
-   "drivers/video/console",
-   "Documentation/driver-api/serial",
-   "drivers/usb/misc/sisusbvga",
    "arch/mips/ath79",
-   "include/uapi/linux",
-   "include/linux",
-   "drivers/accessibility/speakup",
-   "drivers/tty/serial",
-   "drivers/accessibility/braille",
-   "drivers/tty/vt",
-   "drivers/of",
    "drivers/tty/serial/8250",
-   "drivers/tty",
-   "Documentation/devicetree/bindings/serial",
+   "drivers/usb/misc/sisusbvga",
+   "drivers/accessibility/speakup",
+   "drivers/video/console",
+   "include/uapi/linux",
+   "/",
+   "drivers/tty/serial",
+   "include/linux",
    "drivers/video/fbdev/core",
+   "Documentation/driver-api/serial",
+   "drivers/tty/vt",
+   "drivers/accessibility/braille",
+   "drivers/tty",
+   "drivers/of",
+   "Documentation/devicetree/bindings/serial",
+   "include/uapi/asm-generic",
    "/"
   ],
   "mod_sys": [
-   "Documentation",
    "arch",
-   "drivers",
-   "include"
+   "Documentation",
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 18,
   "num_mod_sys": 4,
@@ -5430,9 +5430,9 @@
   "num_dels_loop": 4,
   "num_mod_total_loop": 10,
   "file_hash": "1daf117f1d6b5056e27353fa289ef1bbcb619e8d",
-  "num_adds": 488,
-  "num_dels": 241,
-  "num_mod_lns_total": 729,
+  "num_adds": 562,
+  "num_dels": 254,
+  "num_mod_lns_total": 816,
   "num_mod_files": 16,
   "is_merge": true,
   "parents": [
@@ -5457,7 +5457,7 @@
    "fs/f2fs/sysfs.c",
    "include/uapi/linux/f2fs.h"
   ],
-  "entropy": 3.2158570323179685,
+  "entropy": 3.1873999675929525,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5470,14 +5470,14 @@
   "is_fix": false,
   "mod_dirs": [
    "Documentation/filesystems",
+   "include/uapi/linux",
    "fs/f2fs",
-   "Documentation/ABI/testing",
-   "include/uapi/linux"
+   "Documentation/ABI/testing"
   ],
   "mod_sys": [
+   "fs",
    "Documentation",
-   "include",
-   "fs"
+   "include"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 3,
@@ -5496,9 +5496,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 4,
   "file_hash": "2bd5d41e0e9d8e423a0bd446ee174584c8a495fe",
-  "num_adds": 114,
-  "num_dels": 31,
-  "num_mod_lns_total": 145,
+  "num_adds": 132,
+  "num_dels": 33,
+  "num_mod_lns_total": 165,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -5517,7 +5517,7 @@
    "fs/super.c",
    "include/linux/fs.h"
   ],
-  "entropy": 2.8872690581370577,
+  "entropy": 2.8777778186078473,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5529,15 +5529,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/filesystems",
+   "fs",
    "fs/fuse",
    "include/linux",
-   "fs"
+   "Documentation/filesystems"
   ],
   "mod_sys": [
+   "fs",
    "Documentation",
-   "include",
-   "fs"
+   "include"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 3,
@@ -5557,8 +5557,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "2826d447fbd60e6a05e53d5f918bceb8c04e315c",
   "num_adds": 6,
-  "num_dels": 13,
-  "num_mod_lns_total": 19,
+  "num_dels": 14,
+  "num_mod_lns_total": 20,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -5568,7 +5568,7 @@
    "drivers/gpu/drm/i915/gem/i915_gem_object.c",
    "drivers/gpu/drm/i915/i915_drv.h"
   ],
-  "entropy": 0.7424875695421236,
+  "entropy": 0.7219280948873623,
   "ppl_signed_off": [
    "Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>",
    "Signed-off-by: Nirmoy Das <nirmoy.das@intel.com>",
@@ -5619,9 +5619,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "59eda6ce824e95b98c45628fe6c0adb9130c6df2",
-  "num_adds": 103,
-  "num_dels": 29,
-  "num_mod_lns_total": 132,
+  "num_adds": 125,
+  "num_dels": 35,
+  "num_mod_lns_total": 160,
   "num_mod_files": 10,
   "is_merge": false,
   "parents": [
@@ -5639,7 +5639,7 @@
    "drivers/gpu/drm/i915/i915_vma_resource.c",
    "drivers/gpu/drm/i915/i915_vma_resource.h"
   ],
-  "entropy": 2.7505187641758138,
+  "entropy": 2.720453351608767,
   "ppl_signed_off": [
    "Signed-off-by: Chris Wilson <chris.p.wilson@intel.com>",
    "Signed-off-by: Mauro Carvalho Chehab <mchehab@kernel.org>",
@@ -5691,9 +5691,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "65512eb0e9e6308ca08110c88a9619a9e5a19aa9",
-  "num_adds": 19,
+  "num_adds": 21,
   "num_dels": 8,
-  "num_mod_lns_total": 27,
+  "num_mod_lns_total": 29,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -5707,7 +5707,7 @@
    "fs/overlayfs/overlayfs.h",
    "fs/overlayfs/super.c"
   ],
-  "entropy": 2.0102313415770166,
+  "entropy": 2.0436537075358086,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5741,9 +5741,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "f72fb74b8218f9aebfcc691b7e9bb641920dbc13",
-  "num_adds": 50,
-  "num_dels": 121,
-  "num_mod_lns_total": 171,
+  "num_adds": 54,
+  "num_dels": 138,
+  "num_mod_lns_total": 192,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -5761,7 +5761,7 @@
    "fs/exfat/nls.c",
    "fs/exfat/super.c"
   ],
-  "entropy": 2.378352797174663,
+  "entropy": 2.3386922755402773,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5773,8 +5773,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
    "fs/exfat",
+   "/",
    "/"
   ],
   "mod_sys": [
@@ -5858,9 +5858,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7f0169cde0ced2e2b7bdf3dcedcf8c71efc6afc0",
-  "num_adds": 21,
+  "num_adds": 22,
   "num_dels": 16,
-  "num_mod_lns_total": 37,
+  "num_mod_lns_total": 38,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -5873,7 +5873,7 @@
    "drivers/thermal/thermal_sysfs.c",
    "tools/thermal/tmon/sysfs.c"
   ],
-  "entropy": 1.2481445810265566,
+  "entropy": 1.2674438038072335,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5889,8 +5889,8 @@
    "tools/thermal/tmon"
   ],
   "mod_sys": [
-   "tools",
-   "drivers"
+   "drivers",
+   "tools"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -5909,9 +5909,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c3f834df191ac2e5e58c215b9110e7e19553100f",
-  "num_adds": 36,
-  "num_dels": 8,
-  "num_mod_lns_total": 44,
+  "num_adds": 38,
+  "num_dels": 10,
+  "num_mod_lns_total": 48,
   "num_mod_files": 7,
   "is_merge": true,
   "parents": [
@@ -5927,7 +5927,7 @@
    "drivers/cpufreq/qcom-cpufreq-hw.c",
    "drivers/cpufreq/tegra194-cpufreq.c"
   ],
-  "entropy": 2.3395590414285503,
+  "entropy": 2.354387765269814,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5939,9 +5939,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "Documentation/devicetree/bindings/opp",
    "drivers/cpufreq",
-   "Documentation/devicetree/bindings/cpufreq",
-   "Documentation/devicetree/bindings/opp"
+   "Documentation/devicetree/bindings/cpufreq"
   ],
   "mod_sys": [
    "Documentation",
@@ -5964,9 +5964,9 @@
   "num_dels_loop": 36,
   "num_mod_total_loop": 100,
   "file_hash": "c4f5a40bf000defdd6d04ef65e680183718fc3af",
-  "num_adds": 1216,
-  "num_dels": 1132,
-  "num_mod_lns_total": 2348,
+  "num_adds": 1356,
+  "num_dels": 1274,
+  "num_mod_lns_total": 2630,
   "num_mod_files": 24,
   "is_merge": true,
   "parents": [
@@ -5999,7 +5999,7 @@
    "drivers/soc/tegra/pmc.c",
    "include/linux/pm_opp.h"
   ],
-  "entropy": 2.448501150699196,
+  "entropy": 2.389093811857998,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6011,21 +6011,21 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/cpufreq",
-   "drivers/gpu/drm/lima",
+   "drivers/soc/tegra",
+   "drivers/media/platform/qcom/venus",
    "Documentation/devicetree/bindings/opp",
+   "drivers/memory/tegra",
+   "include/linux",
+   "drivers/gpu/drm/lima",
+   "drivers/cpufreq",
    "drivers/devfreq",
    "drivers/opp",
-   "drivers/memory/tegra",
-   "drivers/media/platform/qcom/venus",
-   "include/linux",
-   "drivers/soc/tegra",
    "drivers/gpu/drm/panfrost"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 10,
   "num_mod_sys": 3,
@@ -6094,9 +6094,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3466f49dd0dd9d30fe1e916b49fca1f4f99a3b66",
-  "num_adds": 21,
+  "num_adds": 25,
   "num_dels": 9,
-  "num_mod_lns_total": 30,
+  "num_mod_lns_total": 34,
   "num_mod_files": 2,
   "is_merge": true,
   "parents": [
@@ -6107,7 +6107,7 @@
    "drivers/hwspinlock/omap_hwspinlock.c",
    "drivers/hwspinlock/qcom_hwspinlock.c"
   ],
-  "entropy": 0.7219280948873623,
+  "entropy": 0.6722948170756379,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6141,9 +6141,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "92ceebf920aa9f103b89d102f98fc59c6b990cc0",
-  "num_adds": 61,
-  "num_dels": 45,
-  "num_mod_lns_total": 106,
+  "num_adds": 64,
+  "num_dels": 50,
+  "num_mod_lns_total": 114,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -6158,7 +6158,7 @@
    "drivers/mailbox/mtk-cmdq-mailbox.c",
    "include/linux/mailbox/mtk-cmdq-mailbox.h"
   ],
-  "entropy": 1.9362009839932535,
+  "entropy": 1.9754884568636197,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6170,14 +6170,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/linux/mailbox",
    "Documentation/devicetree/bindings/mailbox",
+   "include/linux/mailbox",
    "drivers/mailbox"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 3,
@@ -6196,9 +6196,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e5a95c83ed1492c0f442b448b20c90c8faaf702b",
-  "num_adds": 2,
+  "num_adds": 3,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
+  "num_mod_lns_total": 3,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6256,9 +6256,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "180abeb2c5032704787151135b6a38c6b71295a6",
-  "num_adds": 9,
+  "num_adds": 10,
   "num_dels": 0,
-  "num_mod_lns_total": 9,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6316,9 +6316,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "db100e28fdf026a1fc10657c5170bb1e65663805",
-  "num_adds": 15,
-  "num_dels": 8,
-  "num_mod_lns_total": 23,
+  "num_adds": 19,
+  "num_dels": 11,
+  "num_mod_lns_total": 30,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -6329,7 +6329,7 @@
    "drivers/gpu/drm/i915/gt/intel_gt.c",
    "drivers/gpu/drm/i915/gt/intel_gt_pm.h"
   ],
-  "entropy": 1.3015742892816131,
+  "entropy": 1.3248560371987566,
   "ppl_signed_off": [
    "Signed-off-by: Chris Wilson <chris.p.wilson@intel.com>",
    "Signed-off-by: Mauro Carvalho Chehab <mchehab@kernel.org>",
@@ -6379,9 +6379,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "232d150fa15606e96c0e01e5c7a2d4e03f621787",
-  "num_adds": 19,
+  "num_adds": 22,
   "num_dels": 1,
-  "num_mod_lns_total": 20,
+  "num_mod_lns_total": 23,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6493,9 +6493,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 4,
   "file_hash": "e6cfcdda8cbe81eaf821c897369a65fec987b404",
-  "num_adds": 26,
+  "num_adds": 27,
   "num_dels": 12,
-  "num_mod_lns_total": 38,
+  "num_mod_lns_total": 39,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -6505,7 +6505,7 @@
    "Documentation/admin-guide/kernel-parameters.txt",
    "arch/x86/kernel/cpu/bugs.c"
   ],
-  "entropy": 0.8314743880097293,
+  "entropy": 0.8212809417449863,
   "ppl_signed_off": [
    "Signed-off-by: Kim Phillips <kim.phillips@amd.com>",
    "Signed-off-by: Borislav Petkov <bp@suse.de>"
@@ -6528,8 +6528,8 @@
    "Documentation/admin-guide"
   ],
   "mod_sys": [
-   "Documentation",
-   "arch"
+   "arch",
+   "Documentation"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -6548,9 +6548,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "df7a456e7d1d7511b2c373dc1099cecfea093858",
-  "num_adds": 135,
+  "num_adds": 166,
   "num_dels": 14,
-  "num_mod_lns_total": 149,
+  "num_mod_lns_total": 180,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -6563,7 +6563,7 @@
    "drivers/hv/hyperv_vmbus.h",
    "drivers/hv/vmbus_drv.c"
   ],
-  "entropy": 1.1932114992382632,
+  "entropy": 1.1504236495536229,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6597,9 +6597,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "cab9de71694de738323e30c2d1a1eb51a03f6265",
-  "num_adds": 91,
-  "num_dels": 97,
-  "num_mod_lns_total": 188,
+  "num_adds": 99,
+  "num_dels": 105,
+  "num_mod_lns_total": 204,
   "num_mod_files": 45,
   "is_merge": true,
   "parents": [
@@ -6653,7 +6653,7 @@
    "scripts/coccinelle/tests/odd_ptr_err.cocci",
    "scripts/coccinelle/tests/unsigned_lesser_than_zero.cocci"
   ],
-  "entropy": 4.097838088519541,
+  "entropy": 3.9245797578512427,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6665,14 +6665,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "scripts/coccinelle/misc",
-   "scripts/coccinelle/iterators",
-   "scripts/coccinelle/tests",
    "scripts/coccinelle/api",
-   "scripts/coccinelle/free",
    "scripts/coccinelle/api/alloc",
+   "scripts/coccinelle/misc",
+   "scripts/coccinelle/free",
    "scripts/coccinelle/null",
-   "scripts/coccinelle/locks"
+   "scripts/coccinelle/locks",
+   "scripts/coccinelle/iterators",
+   "scripts/coccinelle/tests"
   ],
   "mod_sys": [
    "scripts"
@@ -6694,9 +6694,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "374a723c7448bbea22846884ba336ed83b085aab",
-  "num_adds": 4,
+  "num_adds": 6,
   "num_dels": 6,
-  "num_mod_lns_total": 10,
+  "num_mod_lns_total": 12,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6842,9 +6842,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "8447d0e75099eb54eea9306c2d43ecfc956d09ed",
-  "num_adds": 15,
+  "num_adds": 16,
   "num_dels": 4,
-  "num_mod_lns_total": 19,
+  "num_mod_lns_total": 20,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6949,9 +6949,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ffd5cfca5388e9d7c8386343763df41315ac1dd2",
-  "num_adds": 78,
+  "num_adds": 95,
   "num_dels": 0,
-  "num_mod_lns_total": 78,
+  "num_mod_lns_total": 95,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -7052,9 +7052,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f1d41f7720c89705c20e4335a807b1c518c2e7be",
-  "num_adds": 3,
+  "num_adds": 4,
   "num_dels": 0,
-  "num_mod_lns_total": 3,
+  "num_mod_lns_total": 4,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -7106,9 +7106,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "fda7409a8fcfa457814f8186f2861a9f00008e75",
-  "num_adds": 14,
-  "num_dels": 15,
-  "num_mod_lns_total": 29,
+  "num_adds": 19,
+  "num_dels": 20,
+  "num_mod_lns_total": 39,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -7118,7 +7118,7 @@
    "arch/loongarch/include/asm/irq.h",
    "drivers/irqchip/irq-loongson-pch-pic.c"
   ],
-  "entropy": 0.21639693245126462,
+  "entropy": 0.17203694935311378,
   "ppl_signed_off": [
    "Signed-off-by: Huacai Chen <chenhuacai@loongson.cn>",
    "Signed-off-by: Marc Zyngier <maz@kernel.org>"
@@ -7135,8 +7135,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/irqchip",
-   "arch/loongarch/include/asm"
+   "arch/loongarch/include/asm",
+   "drivers/irqchip"
   ],
   "mod_sys": [
    "arch",
@@ -7309,9 +7309,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f01272ee3856e62e8a0f8211e8edf1876a6f5e38",
-  "num_adds": 2,
+  "num_adds": 3,
   "num_dels": 2,
-  "num_mod_lns_total": 4,
+  "num_mod_lns_total": 5,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -7321,7 +7321,7 @@
    "drivers/net/wireless/microchip/wilc1000/hif.c",
    "drivers/net/wireless/microchip/wilc1000/hif.h"
   ],
-  "entropy": 1.0,
+  "entropy": 0.9709505944546686,
   "ppl_signed_off": [
    "Signed-off-by: Kalle Valo <kvalo@kernel.org>",
    "Signed-off-by: Kalle Valo <kvalo@kernel.org>"

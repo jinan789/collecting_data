@@ -7,9 +7,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a29564289973a519dae0d8936d2e4c414416e2e0",
-  "num_adds": 25,
+  "num_adds": 26,
   "num_dels": 15,
-  "num_mod_lns_total": 40,
+  "num_mod_lns_total": 41,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -55,9 +55,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "a7c1120d2dcc83691bafa034d98f70285757e826",
-  "num_adds": 77,
-  "num_dels": 73,
-  "num_mod_lns_total": 150,
+  "num_adds": 79,
+  "num_dels": 82,
+  "num_mod_lns_total": 161,
   "num_mod_files": 9,
   "is_merge": true,
   "parents": [
@@ -75,7 +75,7 @@
    "fs/jbd2/transaction.c",
    "include/trace/events/ext4.h"
   ],
-  "entropy": 2.2270907842754664,
+  "entropy": 2.1986649344699885,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -87,13 +87,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/trace/events",
    "fs/jbd2",
-   "fs/ext4"
+   "fs/ext4",
+   "include/trace/events"
   ],
   "mod_sys": [
-   "include",
-   "fs"
+   "fs",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -205,9 +205,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "8d05b3771da8775799673212b57d62f57c70d68a",
-  "num_adds": 72,
-  "num_dels": 22,
-  "num_mod_lns_total": 94,
+  "num_adds": 77,
+  "num_dels": 24,
+  "num_mod_lns_total": 101,
   "num_mod_files": 11,
   "is_merge": true,
   "parents": [
@@ -227,7 +227,7 @@
    "net/sunrpc/clnt.c",
    "net/sunrpc/xprt.c"
   ],
-  "entropy": 2.9294089621553034,
+  "entropy": 2.895354278775916,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -240,14 +240,14 @@
   "is_fix": false,
   "mod_dirs": [
    "include/linux/sunrpc",
-   "include/linux",
    "net/sunrpc",
+   "include/linux",
    "fs/nfs"
   ],
   "mod_sys": [
+   "fs",
    "net",
-   "include",
-   "fs"
+   "include"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 3,
@@ -266,9 +266,9 @@
   "num_dels_loop": 11,
   "num_mod_total_loop": 136,
   "file_hash": "b695188dd39162a1a6bff11fdbcc4c0b65b933ab",
-  "num_adds": 4780,
-  "num_dels": 953,
-  "num_mod_lns_total": 5733,
+  "num_adds": 5443,
+  "num_dels": 1019,
+  "num_mod_lns_total": 6462,
   "num_mod_files": 48,
   "is_merge": true,
   "parents": [
@@ -325,7 +325,7 @@
    "include/uapi/linux/Kbuild",
    "include/uapi/linux/btrfs.h"
   ],
-  "entropy": 3.578161796177044,
+  "entropy": 3.539154885000878,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -337,13 +337,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "fs/btrfs",
+   "include/uapi/linux",
    "include/linux",
-   "include/uapi/linux"
+   "fs/btrfs"
   ],
   "mod_sys": [
-   "include",
-   "fs"
+   "fs",
+   "include"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -362,9 +362,9 @@
   "num_dels_loop": 5,
   "num_mod_total_loop": 69,
   "file_hash": "48476df99894492a0f7239f2f3c9a2dde4ff38e2",
-  "num_adds": 1640,
-  "num_dels": 316,
-  "num_mod_lns_total": 1956,
+  "num_adds": 1881,
+  "num_dels": 331,
+  "num_mod_lns_total": 2212,
   "num_mod_files": 38,
   "is_merge": true,
   "parents": [
@@ -411,7 +411,7 @@
    "include/linux/mtd/map.h",
    "include/linux/platform_data/elm.h"
   ],
-  "entropy": 3.6339518171463316,
+  "entropy": 3.62466449628824,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -424,23 +424,23 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/mtd/ubi",
-   "include/linux/mtd",
-   "Documentation/devicetree/bindings/mtd",
-   "drivers/mtd/nand/gpmi-nand",
-   "drivers/mtd/tests",
    "include/linux/platform_data",
-   "drivers/mtd/chips",
+   "drivers/mtd/nand",
    "drivers/mtd",
    "drivers/mtd/maps",
+   "drivers/mtd/nand/gpmi-nand",
+   "drivers/mtd/chips",
+   "Documentation/devicetree/bindings/mtd",
+   "drivers/mtd/tests",
+   "include/linux/mtd",
+   "include/linux/bcma",
    "drivers/mtd/nand/bcm47xxnflash",
-   "drivers/mtd/nand",
-   "drivers/mtd/devices",
-   "include/linux/bcma"
+   "drivers/mtd/devices"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 13,
   "num_mod_sys": 3,
@@ -508,9 +508,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9b2ff35753c0512bc8c6adae9e9c87cbeee86f82",
-  "num_adds": 9,
-  "num_dels": 9,
-  "num_mod_lns_total": 18,
+  "num_adds": 10,
+  "num_dels": 10,
+  "num_mod_lns_total": 20,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -556,9 +556,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "262b4662f42787bff24453ddd3e657265b5d0039",
-  "num_adds": 25,
-  "num_dels": 6,
-  "num_mod_lns_total": 31,
+  "num_adds": 26,
+  "num_dels": 7,
+  "num_mod_lns_total": 33,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -805,9 +805,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f9caed59f801f77a2844ab04d2dea8df33ac862b",
-  "num_adds": 7,
+  "num_adds": 10,
   "num_dels": 1,
-  "num_mod_lns_total": 8,
+  "num_mod_lns_total": 11,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -901,9 +901,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c60ac31542e93499b58dcfc1e3f6550ba5b5728e",
-  "num_adds": 5,
+  "num_adds": 7,
   "num_dels": 0,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -999,9 +999,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2270e6d30bb6601ffd42e9d972442df0499ad547",
-  "num_adds": 19,
+  "num_adds": 20,
   "num_dels": 0,
-  "num_mod_lns_total": 19,
+  "num_mod_lns_total": 20,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -1012,7 +1012,7 @@
    "arch/metag/kernel/devtree.c",
    "arch/metag/kernel/setup.c"
   ],
-  "entropy": 0.7742433029172697,
+  "entropy": 0.747584679824574,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1028,8 +1028,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1124,8 +1124,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/mm"
+   "arch/metag/mm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1148,8 +1148,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "9da3ee9aa8a9c9fcf94188d4c0ae280afbeb63c1",
   "num_adds": 13,
-  "num_dels": 15,
-  "num_mod_lns_total": 28,
+  "num_dels": 16,
+  "num_mod_lns_total": 29,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1159,7 +1159,7 @@
    "arch/metag/kernel/metag_ksyms.c",
    "arch/metag/lib/usercopy.c"
   ],
-  "entropy": 0.996316519558962,
+  "entropy": 0.9922666387194963,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1173,8 +1173,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/lib"
+   "arch/metag/lib",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1197,8 +1197,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "7293dbed9d8be1916034dbfcf2f203e96bd8fae1",
   "num_adds": 3,
-  "num_dels": 4,
-  "num_mod_lns_total": 7,
+  "num_dels": 5,
+  "num_mod_lns_total": 8,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1208,7 +1208,7 @@
    "arch/metag/kernel/metag_ksyms.c",
    "arch/metag/kernel/setup.c"
   ],
-  "entropy": 0.9852281360342515,
+  "entropy": 0.9544340029249649,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1340,9 +1340,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "fa771d029af8f8a23089c97b6ab6a5745e98ad7e",
-  "num_adds": 18,
+  "num_adds": 20,
   "num_dels": 7,
-  "num_mod_lns_total": 25,
+  "num_mod_lns_total": 27,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1352,7 +1352,7 @@
    "arch/metag/include/asm/irqflags.h",
    "arch/metag/kernel/traps.c"
   ],
-  "entropy": 0.9895875212220556,
+  "entropy": 0.9751190649408661,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1366,8 +1366,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1436,9 +1436,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "f75c28d896f4dd0064e60bba1e82a4c98908d239",
-  "num_adds": 9,
-  "num_dels": 38,
-  "num_mod_lns_total": 47,
+  "num_adds": 10,
+  "num_dels": 42,
+  "num_mod_lns_total": 52,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1579,9 +1579,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3d6b7bb0a2c518d24bc3036f9bbb6f3fb35462c3",
-  "num_adds": 36,
+  "num_adds": 42,
   "num_dels": 7,
-  "num_mod_lns_total": 43,
+  "num_mod_lns_total": 49,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -1592,7 +1592,7 @@
    "arch/metag/kernel/setup.c",
    "arch/metag/kernel/smp.c"
   ],
-  "entropy": 0.5395046027107565,
+  "entropy": 0.4895386332002008,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1606,8 +1606,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1629,9 +1629,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c787c2d62fe0c482f5fb3e5b869cd262fe69b244",
-  "num_adds": 29,
-  "num_dels": 6,
-  "num_mod_lns_total": 35,
+  "num_adds": 31,
+  "num_dels": 7,
+  "num_mod_lns_total": 38,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1641,7 +1641,7 @@
    "arch/metag/include/asm/metag_regs.h",
    "arch/metag/kernel/setup.c"
   ],
-  "entropy": 0.512709142030877,
+  "entropy": 0.4854607607459134,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1655,8 +1655,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -1725,9 +1725,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1bea5b8188e98611e4d6961647809f87b023e14c",
-  "num_adds": 5,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 6,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1777,9 +1777,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 3,
   "file_hash": "883a635591ef25bc6a325f8a43af17ec8ecfe011",
-  "num_adds": 68,
+  "num_adds": 79,
   "num_dels": 0,
-  "num_mod_lns_total": 68,
+  "num_mod_lns_total": 79,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1871,9 +1871,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "ae85ac71b7433fa974759109c4380c620258f07f",
-  "num_adds": 87,
+  "num_adds": 105,
   "num_dels": 0,
-  "num_mod_lns_total": 87,
+  "num_mod_lns_total": 105,
   "num_mod_files": 9,
   "is_merge": false,
   "parents": [
@@ -1890,7 +1890,7 @@
    "arch/metag/kernel/da.c",
    "arch/metag/kernel/setup.c"
   ],
-  "entropy": 2.4801240879699313,
+  "entropy": 2.378446652039708,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -1904,10 +1904,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
    "arch/metag/configs",
-   "arch/metag/kernel",
+   "/",
    "arch/metag",
+   "arch/metag/kernel",
    "arch/metag/include/asm",
    "/"
   ],
@@ -1978,9 +1978,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "00512bdd4573674d10af1c1d60328b4b0f9dcafd",
-  "num_adds": 206,
+  "num_adds": 248,
   "num_dels": 1,
-  "num_mod_lns_total": 207,
+  "num_mod_lns_total": 249,
   "num_mod_files": 7,
   "is_merge": false,
   "parents": [
@@ -1995,7 +1995,7 @@
    "arch/metag/kernel/metag_ksyms.c",
    "scripts/recordmcount.c"
   ],
-  "entropy": 1.8485084469199944,
+  "entropy": 1.8180473792298435,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2015,13 +2015,13 @@
   "is_fix": false,
   "mod_dirs": [
    "scripts",
-   "arch/metag/kernel",
+   "arch/metag/include/asm",
    "arch/metag",
-   "arch/metag/include/asm"
+   "arch/metag/kernel"
   ],
   "mod_sys": [
-   "scripts",
-   "arch"
+   "arch",
+   "scripts"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 2,
@@ -2040,9 +2040,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 17,
   "file_hash": "903b20ad6810e05bc5f7cc038257e80463e71001",
-  "num_adds": 911,
+  "num_adds": 1073,
   "num_dels": 0,
-  "num_mod_lns_total": 911,
+  "num_mod_lns_total": 1073,
   "num_mod_files": 7,
   "is_merge": false,
   "parents": [
@@ -2057,7 +2057,7 @@
    "arch/metag/kernel/perf/perf_event.h",
    "arch/metag/kernel/perf_callchain.c"
   ],
-  "entropy": 0.9804135692635281,
+  "entropy": 0.976373379634643,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2076,10 +2076,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag",
+   "arch/metag/kernel/perf",
    "arch/metag/include/asm",
-   "arch/metag/kernel/perf"
+   "arch/metag",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2101,9 +2101,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 32,
   "file_hash": "5633004cc2498ff50a5b88d415d3746ff0c301f2",
-  "num_adds": 930,
+  "num_adds": 1124,
   "num_dels": 0,
-  "num_mod_lns_total": 930,
+  "num_mod_lns_total": 1124,
   "num_mod_files": 19,
   "is_merge": false,
   "parents": [
@@ -2130,7 +2130,7 @@
    "arch/metag/mm/Makefile",
    "arch/metag/tbx/Makefile"
   ],
-  "entropy": 3.7421972108145196,
+  "entropy": 3.6735700549103933,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2144,15 +2144,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/boot",
-   "arch/metag/tbx",
    "arch/metag/configs",
+   "arch/metag/tbx",
    "arch/metag/mm",
    "arch/metag/kernel",
    "arch/metag",
-   "arch/metag/include/asm",
+   "arch/metag/boot",
+   "arch/metag/lib",
    "arch/metag/include/uapi/asm",
-   "arch/metag/lib"
+   "arch/metag/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -2281,9 +2281,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 14,
   "file_hash": "1e57372eaccdd5959b8ae00bf99aa10d330f207d",
-  "num_adds": 423,
+  "num_adds": 526,
   "num_dels": 0,
-  "num_mod_lns_total": 423,
+  "num_mod_lns_total": 526,
   "num_mod_files": 11,
   "is_merge": false,
   "parents": [
@@ -2302,7 +2302,7 @@
    "arch/metag/include/uapi/asm/resource.h",
    "arch/metag/include/uapi/asm/swab.h"
   ],
-  "entropy": 2.422159747055667,
+  "entropy": 2.4486699524463007,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2316,8 +2316,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/include/asm",
-   "arch/metag/include/uapi/asm"
+   "arch/metag/include/uapi/asm",
+   "arch/metag/include/asm"
   ],
   "mod_sys": [
    "arch"
@@ -2339,9 +2339,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 3,
   "file_hash": "e8de3486a4b06389d4f996eb2dda678a39f20115",
-  "num_adds": 174,
+  "num_adds": 207,
   "num_dels": 0,
-  "num_mod_lns_total": 174,
+  "num_mod_lns_total": 207,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2351,7 +2351,7 @@
    "arch/metag/include/asm/stacktrace.h",
    "arch/metag/kernel/stacktrace.c"
   ],
-  "entropy": 0.44295867853848536,
+  "entropy": 0.45818345075181166,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2365,8 +2365,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2388,9 +2388,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 27,
   "file_hash": "086e9dc0e2ca925b1b58caefd04ed2757d14790b",
-  "num_adds": 1312,
+  "num_adds": 1474,
   "num_dels": 0,
-  "num_mod_lns_total": 1312,
+  "num_mod_lns_total": 1474,
   "num_mod_files": 20,
   "is_merge": false,
   "parents": [
@@ -2418,7 +2418,7 @@
    "arch/metag/lib/muldi3.S",
    "arch/metag/lib/ucmpdi2.S"
   ],
-  "entropy": 3.706256636335019,
+  "entropy": 3.7072462128235464,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2432,8 +2432,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/lib",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/lib"
   ],
   "mod_sys": [
    "arch"
@@ -2455,9 +2455,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 13,
   "file_hash": "f507758ccbed5c354cc1ce3b8f53ea072d7bc222",
-  "num_adds": 579,
+  "num_adds": 690,
   "num_dels": 0,
-  "num_mod_lns_total": 579,
+  "num_mod_lns_total": 690,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2467,7 +2467,7 @@
    "arch/metag/include/asm/dma-mapping.h",
    "arch/metag/kernel/dma.c"
   ],
-  "entropy": 0.8200541017535097,
+  "entropy": 0.8345178669312222,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2481,8 +2481,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2504,9 +2504,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 38,
   "file_hash": "42682c6c42a5765b2c7cccfca170368fef6191ef",
-  "num_adds": 870,
+  "num_adds": 1064,
   "num_dels": 0,
-  "num_mod_lns_total": 870,
+  "num_mod_lns_total": 1064,
   "num_mod_files": 9,
   "is_merge": false,
   "parents": [
@@ -2523,7 +2523,7 @@
    "arch/metag/kernel/smp.c",
    "arch/metag/kernel/topology.c"
   ],
-  "entropy": 2.254012987523707,
+  "entropy": 2.2418951869344865,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2537,8 +2537,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2560,9 +2560,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 11,
   "file_hash": "fdabf525b4b7aab3945c19eac39d3a65b68d0c4f",
-  "num_adds": 213,
+  "num_adds": 266,
   "num_dels": 0,
-  "num_mod_lns_total": 213,
+  "num_mod_lns_total": 266,
   "num_mod_files": 4,
   "is_merge": false,
   "parents": [
@@ -2574,7 +2574,7 @@
    "Documentation/metag/00-INDEX",
    "Documentation/metag/kernel-ABI.txt"
   ],
-  "entropy": 0.31719949222420185,
+  "entropy": 0.28836514226810694,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2592,8 +2592,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation",
-   "Documentation/metag"
+   "Documentation/metag",
+   "Documentation"
   ],
   "mod_sys": [
    "Documentation"
@@ -2615,9 +2615,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 7,
   "file_hash": "6006c0d8ce9441dd1363bf14f18a8e28d3588460",
-  "num_adds": 1155,
+  "num_adds": 1395,
   "num_dels": 0,
-  "num_mod_lns_total": 1155,
+  "num_mod_lns_total": 1395,
   "num_mod_files": 13,
   "is_merge": false,
   "parents": [
@@ -2638,7 +2638,7 @@
    "arch/metag/include/asm/spinlock_lock1.h",
    "arch/metag/include/asm/spinlock_types.h"
   ],
-  "entropy": 3.329885159437385,
+  "entropy": 3.3488526945739725,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2674,9 +2674,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 9,
   "file_hash": "9b802d1f43978869fcd98e92b854fd8785cefee7",
-  "num_adds": 275,
+  "num_adds": 321,
   "num_dels": 0,
-  "num_mod_lns_total": 275,
+  "num_mod_lns_total": 321,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2686,7 +2686,7 @@
    "arch/metag/include/asm/module.h",
    "arch/metag/kernel/module.c"
   ],
-  "entropy": 0.48605138233146705,
+  "entropy": 0.5155947317715217,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2700,8 +2700,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2723,9 +2723,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 12,
   "file_hash": "44dea393cf98a09b4b9f00dc3dd7e2c211f4b0e8",
-  "num_adds": 516,
+  "num_adds": 616,
   "num_dels": 0,
-  "num_mod_lns_total": 516,
+  "num_mod_lns_total": 616,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -2735,7 +2735,7 @@
    "arch/metag/include/asm/thread_info.h",
    "arch/metag/kernel/process.c"
   ],
-  "entropy": 0.8019325020834525,
+  "entropy": 0.8138409914166034,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2749,8 +2749,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2772,9 +2772,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 12,
   "file_hash": "26025bbfbba33a9425be1b89eccb4664ea4c17b6",
-  "num_adds": 429,
+  "num_adds": 508,
   "num_dels": 0,
-  "num_mod_lns_total": 429,
+  "num_mod_lns_total": 508,
   "num_mod_files": 8,
   "is_merge": false,
   "parents": [
@@ -2790,7 +2790,7 @@
    "arch/metag/kernel/sys_metag.c",
    "arch/metag/kernel/user_gateway.S"
   ],
-  "entropy": 2.4740596861558357,
+  "entropy": 2.4823294206976514,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2804,9 +2804,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
+   "arch/metag/include/uapi/asm",
    "arch/metag/include/asm",
-   "arch/metag/include/uapi/asm"
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2828,9 +2828,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 56,
   "file_hash": "5698c50d9da4ab2f57d98c64ea97675dcaf2a608",
-  "num_adds": 1172,
+  "num_adds": 1359,
   "num_dels": 0,
-  "num_mod_lns_total": 1172,
+  "num_mod_lns_total": 1359,
   "num_mod_files": 8,
   "is_merge": false,
   "parents": [
@@ -2846,7 +2846,7 @@
    "include/linux/irqchip/metag-ext.h",
    "include/linux/irqchip/metag.h"
   ],
-  "entropy": 1.4014909419685744,
+  "entropy": 1.4493689641902472,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2871,18 +2871,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
-   "include/linux/irqchip",
    "drivers/irqchip",
-   "arch/metag/kernel",
    "Documentation/devicetree/bindings/metag",
+   "include/linux/irqchip",
+   "/",
+   "arch/metag/kernel",
    "/"
   ],
   "mod_sys": [
-   "Documentation",
    "arch",
-   "drivers",
-   "include"
+   "Documentation",
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 4,
@@ -2901,9 +2901,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "63047ea36070d11f902ab7d09a5a18aea037c0f7",
-  "num_adds": 358,
+  "num_adds": 444,
   "num_dels": 0,
-  "num_mod_lns_total": 358,
+  "num_mod_lns_total": 444,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -2914,7 +2914,7 @@
    "arch/metag/include/asm/irqflags.h",
    "arch/metag/kernel/irq.c"
   ],
-  "entropy": 1.0666250497188703,
+  "entropy": 1.0925507045525318,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2928,8 +2928,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -2951,9 +2951,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 13,
   "file_hash": "ac919f0883e53d7785745566692c8a0620abd7ea",
-  "num_adds": 950,
+  "num_adds": 1167,
   "num_dels": 0,
-  "num_mod_lns_total": 950,
+  "num_mod_lns_total": 1167,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -2966,7 +2966,7 @@
    "arch/metag/kernel/tbiunexp.S",
    "arch/metag/kernel/traps.c"
   ],
-  "entropy": 0.9014714288150345,
+  "entropy": 0.9153965691096061,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -2982,8 +2982,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -3005,9 +3005,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "a2c5d4ed92bbc02ff4a37efc2adffe7d145abe4f",
-  "num_adds": 317,
+  "num_adds": 378,
   "num_dels": 0,
-  "num_mod_lns_total": 317,
+  "num_mod_lns_total": 378,
   "num_mod_files": 10,
   "is_merge": false,
   "parents": [
@@ -3025,7 +3025,7 @@
    "drivers/clocksource/metag_generic.c",
    "include/clocksource/metag_generic.h"
   ],
-  "entropy": 2.183845796033457,
+  "entropy": 2.1738318383645208,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3042,18 +3042,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "drivers/clocksource",
+   "arch/metag/include/asm/mach",
+   "include/clocksource",
    "/",
    "arch/metag/kernel",
-   "arch/metag/include/asm/mach",
-   "drivers/clocksource",
-   "include/clocksource",
    "arch/metag/include/asm",
    "/"
   ],
   "mod_sys": [
    "arch",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 7,
   "num_mod_sys": 3,
@@ -3072,9 +3072,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 3,
   "file_hash": "bc3966bf1583a6c22b76397535174445c43952de",
-  "num_adds": 493,
+  "num_adds": 555,
   "num_dels": 0,
-  "num_mod_lns_total": 493,
+  "num_mod_lns_total": 555,
   "num_mod_files": 4,
   "is_merge": false,
   "parents": [
@@ -3086,7 +3086,7 @@
    "arch/metag/kernel/ptrace.c",
    "include/uapi/linux/elf.h"
   ],
-  "entropy": 1.2032509651212049,
+  "entropy": 1.2178956915884818,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3106,10 +3106,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
    "include/uapi/linux",
+   "arch/metag/include/uapi/asm",
    "arch/metag/include/asm",
-   "arch/metag/include/uapi/asm"
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch",
@@ -3132,9 +3132,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "29dd78cf0b526d24063364a8c634b3e92514c1a2",
-  "num_adds": 136,
+  "num_adds": 160,
   "num_dels": 0,
-  "num_mod_lns_total": 136,
+  "num_mod_lns_total": 160,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -3147,7 +3147,7 @@
    "arch/metag/include/asm/prom.h",
    "arch/metag/kernel/devtree.c"
   ],
-  "entropy": 1.7179361952696977,
+  "entropy": 1.7297048415177203,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3163,9 +3163,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/boot/dts",
    "arch/metag/kernel",
-   "arch/metag/include/asm"
+   "arch/metag/include/asm",
+   "arch/metag/boot/dts"
   ],
   "mod_sys": [
    "arch"
@@ -3187,9 +3187,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "262d96b0deb44ed58823447825d6efa5dddb4108",
-  "num_adds": 320,
+  "num_adds": 383,
   "num_dels": 0,
-  "num_mod_lns_total": 320,
+  "num_mod_lns_total": 383,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -3200,7 +3200,7 @@
    "arch/metag/include/uapi/asm/siginfo.h",
    "arch/metag/kernel/signal.c"
   ],
-  "entropy": 0.5098040907525626,
+  "entropy": 0.5493072105424117,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3216,8 +3216,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
-   "arch/metag/include/uapi/asm"
+   "arch/metag/include/uapi/asm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -3239,9 +3239,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "c438b58e65462cfff172b396d03d6bc45c971fca",
-  "num_adds": 261,
+  "num_adds": 317,
   "num_dels": 0,
-  "num_mod_lns_total": 261,
+  "num_mod_lns_total": 317,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -3254,7 +3254,7 @@
    "arch/metag/kernel/tcm.c",
    "arch/metag/mm/numa.c"
   ],
-  "entropy": 1.884263503808166,
+  "entropy": 1.909863535399536,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3268,9 +3268,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/kernel",
    "arch/metag/include/asm",
-   "arch/metag/mm"
+   "arch/metag/mm",
+   "arch/metag/kernel"
   ],
   "mod_sys": [
    "arch"
@@ -3292,9 +3292,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 5,
   "file_hash": "bbc17704d5d3a8e4325dae74c2a2e77218c26057",
-  "num_adds": 249,
+  "num_adds": 294,
   "num_dels": 0,
-  "num_mod_lns_total": 249,
+  "num_mod_lns_total": 294,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -3305,7 +3305,7 @@
    "arch/metag/include/asm/highmem.h",
    "arch/metag/mm/highmem.c"
   ],
-  "entropy": 1.522618325763307,
+  "entropy": 1.5200157443141675,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3342,9 +3342,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "e624e95bd88f94fc70bbe612789bcac44c6f0923",
-  "num_adds": 325,
+  "num_adds": 377,
   "num_dels": 0,
-  "num_mod_lns_total": 325,
+  "num_mod_lns_total": 377,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3354,7 +3354,7 @@
    "arch/metag/include/asm/hugetlb.h",
    "arch/metag/mm/hugetlbpage.c"
   ],
-  "entropy": 0.7400098083839715,
+  "entropy": 0.7747138334525078,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3391,9 +3391,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 31,
   "file_hash": "373cd784d0fc83f076c899ca7da50ecca7286e42",
-  "num_adds": 1696,
+  "num_adds": 1904,
   "num_dels": 0,
-  "num_mod_lns_total": 1696,
+  "num_mod_lns_total": 1904,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -3406,7 +3406,7 @@
    "arch/metag/mm/ioremap.c",
    "arch/metag/mm/maccess.c"
   ],
-  "entropy": 1.3733878705414073,
+  "entropy": 1.4176582796856154,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3420,9 +3420,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/metag/lib",
    "arch/metag/include/asm",
-   "arch/metag/mm"
+   "arch/metag/mm",
+   "arch/metag/lib"
   ],
   "mod_sys": [
    "arch"
@@ -3444,9 +3444,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 39,
   "file_hash": "f5df8e268f749987c32c7eee001f7623fd7be69c",
-  "num_adds": 1494,
+  "num_adds": 1833,
   "num_dels": 0,
-  "num_mod_lns_total": 1494,
+  "num_mod_lns_total": 1833,
   "num_mod_files": 10,
   "is_merge": false,
   "parents": [
@@ -3464,7 +3464,7 @@
    "arch/metag/mm/mmu-meta1.c",
    "arch/metag/mm/mmu-meta2.c"
   ],
-  "entropy": 2.9647518507229367,
+  "entropy": 2.96533455401772,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3501,9 +3501,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 44,
   "file_hash": "99ef7c2ac1e3b01f532bfdebbe92e9960e95bebc",
-  "num_adds": 1082,
+  "num_adds": 1277,
   "num_dels": 0,
-  "num_mod_lns_total": 1082,
+  "num_mod_lns_total": 1277,
   "num_mod_files": 7,
   "is_merge": false,
   "parents": [
@@ -3518,7 +3518,7 @@
    "arch/metag/mm/cache.c",
    "arch/metag/mm/l2cache.c"
   ],
-  "entropy": 2.3304563143047368,
+  "entropy": 2.3613139461406316,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3555,9 +3555,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 63,
   "file_hash": "027f891f7640144d4b7b15113f3ae9af2c8b095d",
-  "num_adds": 2008,
+  "num_adds": 2172,
   "num_dels": 0,
-  "num_mod_lns_total": 2008,
+  "num_mod_lns_total": 2172,
   "num_mod_files": 11,
   "is_merge": false,
   "parents": [
@@ -3576,7 +3576,7 @@
    "arch/metag/tbx/tbistring.c",
    "arch/metag/tbx/tbitimer.S"
   ],
-  "entropy": 3.2005846153170943,
+  "entropy": 3.2351948865061777,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3612,9 +3612,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 72,
   "file_hash": "4ca151b20803eb2e31bb6d840d01eec461158e14",
-  "num_adds": 1237,
+  "num_adds": 1425,
   "num_dels": 0,
-  "num_mod_lns_total": 1237,
+  "num_mod_lns_total": 1425,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3659,9 +3659,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 13,
   "file_hash": "85d9d7a9206631abd1030cd69ebb1c45f4a01037",
-  "num_adds": 608,
+  "num_adds": 715,
   "num_dels": 0,
-  "num_mod_lns_total": 608,
+  "num_mod_lns_total": 715,
   "num_mod_files": 6,
   "is_merge": false,
   "parents": [
@@ -3675,7 +3675,7 @@
    "arch/metag/kernel/machines.c",
    "arch/metag/kernel/setup.c"
   ],
-  "entropy": 1.1707340763556444,
+  "entropy": 1.1502994987349329,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3689,10 +3689,10 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "arch/metag/include/asm/mach",
    "arch/metag/kernel",
    "arch/metag/include/asm",
-   "arch/metag/boot",
-   "arch/metag/include/asm/mach"
+   "arch/metag/boot"
   ],
   "mod_sys": [
    "arch"
@@ -3714,9 +3714,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 19,
   "file_hash": "87aa1328f23a6bec15115af4d815e9c378557ef6",
-  "num_adds": 999,
+  "num_adds": 1106,
   "num_dels": 0,
-  "num_mod_lns_total": 999,
+  "num_mod_lns_total": 1106,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3761,9 +3761,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 25,
   "file_hash": "af8a10493e35c6c53c21ff33fd36c0ce789bd000",
-  "num_adds": 1157,
+  "num_adds": 1261,
   "num_dels": 0,
-  "num_mod_lns_total": 1157,
+  "num_mod_lns_total": 1261,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -3773,7 +3773,7 @@
    "arch/metag/include/asm/metag_isa.h",
    "arch/metag/include/asm/metag_regs.h"
   ],
-  "entropy": 0.3190854108233539,
+  "entropy": 0.34403075188435395,
   "ppl_signed_off": [
    "Signed-off-by: James Hogan <james.hogan@imgtec.com>"
   ],
@@ -3809,9 +3809,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1228594528faf432ddc3eb51bccaf6a0d80bfc27",
-  "num_adds": 6,
+  "num_adds": 7,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
+  "num_mod_lns_total": 7,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3861,9 +3861,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "649508f684751122aa302ab10f0f06cb4a88415b",
-  "num_adds": 3,
+  "num_adds": 4,
   "num_dels": 2,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 6,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3913,9 +3913,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "c19fa94a8fed72754e81800dfa14af6daaf6d331",
-  "num_adds": 13,
+  "num_adds": 16,
   "num_dels": 0,
-  "num_mod_lns_total": 13,
+  "num_mod_lns_total": 16,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -3966,9 +3966,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c07380beafabee343a7f298bacd22598d72c7c87",
-  "num_adds": 2,
+  "num_adds": 4,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
+  "num_mod_lns_total": 4,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4117,9 +4117,9 @@
   "num_dels_loop": 6,
   "num_mod_total_loop": 124,
   "file_hash": "37cae6ad4c484030fa972241533c32730ec79b7d",
-  "num_adds": 7220,
-  "num_dels": 563,
-  "num_mod_lns_total": 7783,
+  "num_adds": 8791,
+  "num_dels": 601,
+  "num_mod_lns_total": 9392,
   "num_mod_files": 48,
   "is_merge": true,
   "parents": [
@@ -4176,7 +4176,7 @@
    "include/linux/dm-kcopyd.h",
    "include/uapi/linux/dm-ioctl.h"
   ],
-  "entropy": 3.8720242061064876,
+  "entropy": 3.8169050842834267,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4188,16 +4188,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/md",
+   "drivers/md/persistent-data",
+   "include/uapi/linux",
    "Documentation/device-mapper",
    "include/linux",
-   "drivers/md/persistent-data",
-   "include/uapi/linux"
+   "drivers/md"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 5,
   "num_mod_sys": 3,
@@ -4216,9 +4216,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "986248993d495aebffcdf0758ce28ab85aa4e9ff",
-  "num_adds": 13,
+  "num_adds": 15,
   "num_dels": 11,
-  "num_mod_lns_total": 24,
+  "num_mod_lns_total": 26,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -4232,7 +4232,7 @@
    "drivers/target/target_core_iblock.c",
    "drivers/target/target_core_pscsi.c"
   ],
-  "entropy": 1.957518749639422,
+  "entropy": 1.9087830712952814,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4244,9 +4244,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "drivers/target/sbp",
    "drivers/target",
-   "drivers/target/iscsi",
-   "drivers/target/sbp"
+   "drivers/target/iscsi"
   ],
   "mod_sys": [
    "drivers"
@@ -4268,9 +4268,9 @@
   "num_dels_loop": 32,
   "num_mod_total_loop": 128,
   "file_hash": "426d266c12e9116497e3055212f823a56e1a6914",
-  "num_adds": 3707,
-  "num_dels": 1112,
-  "num_mod_lns_total": 4819,
+  "num_adds": 4100,
+  "num_dels": 1205,
+  "num_mod_lns_total": 5305,
   "num_mod_files": 83,
   "is_merge": true,
   "parents": [
@@ -4362,7 +4362,7 @@
    "include/uapi/scsi/scsi_netlink.h",
    "include/uapi/scsi/scsi_netlink_fc.h"
   ],
-  "entropy": 4.882627671323733,
+  "entropy": 4.867221739404022,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4374,32 +4374,32 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/scsi/lpfc",
-   "drivers/scsi/mpt2sas",
-   "drivers/scsi/ufs",
-   "drivers/scsi/mvsas",
-   "include/scsi/fc",
-   "Documentation/scsi",
-   "drivers/scsi/bnx2fc",
-   "drivers/scsi/libfc",
-   "Documentation/ABI/testing",
-   "drivers/scsi/osd",
-   "drivers/scsi/megaraid",
-   "drivers/scsi/pm8001",
-   "drivers/scsi",
+   "drivers/scsi/qla2xxx",
    "drivers/scsi/aacraid",
    "drivers/scsi/fcoe",
-   "include/uapi/scsi",
-   "drivers/scsi/qla2xxx",
+   "Documentation/ABI/testing",
+   "drivers/scsi/libfc",
    "drivers/scsi/qla4xxx",
-   "include/scsi",
+   "drivers/scsi/ufs",
+   "include/uapi/scsi/fc",
+   "drivers/scsi/mpt2sas",
+   "drivers/scsi/pm8001",
+   "Documentation/scsi",
+   "include/scsi/fc",
+   "drivers/scsi/osd",
+   "drivers/scsi",
    "drivers/scsi/fnic",
-   "include/uapi/scsi/fc"
+   "drivers/scsi/lpfc",
+   "drivers/scsi/bnx2fc",
+   "drivers/scsi/megaraid",
+   "include/uapi/scsi",
+   "include/scsi",
+   "drivers/scsi/mvsas"
   ],
   "mod_sys": [
    "Documentation",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 21,
   "num_mod_sys": 3,
@@ -4466,8 +4466,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "1905b7716cb61feeca79da320be4d8968495bb31",
   "num_adds": 1,
-  "num_dels": 2,
-  "num_mod_lns_total": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 4,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4560,9 +4560,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "15fb9683c3e4eb1f8c6c982079a806b3894c2ba0",
-  "num_adds": 11,
+  "num_adds": 12,
   "num_dels": 3,
-  "num_mod_lns_total": 14,
+  "num_mod_lns_total": 15,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -4795,9 +4795,9 @@
   "num_dels_loop": 10,
   "num_mod_total_loop": 10,
   "file_hash": "20e6926dcbafa1b361f1c29d967688be14b6ca4b",
-  "num_adds": 23,
-  "num_dels": 480,
-  "num_mod_lns_total": 503,
+  "num_adds": 27,
+  "num_dels": 544,
+  "num_mod_lns_total": 571,
   "num_mod_files": 10,
   "is_merge": false,
   "parents": [
@@ -4815,7 +4815,7 @@
    "mm/memblock.c",
    "mm/page_alloc.c"
   ],
-  "entropy": 2.2349808817046886,
+  "entropy": 2.2319242639803782,
   "ppl_signed_off": [
    "Signed-off-by: Yinghai Lu <yinghai@kernel.org>",
    "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
@@ -4841,19 +4841,19 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/x86/kernel",
+   "arch/x86/mm",
    "Documentation",
    "include/linux",
-   "drivers/acpi",
+   "arch/x86/kernel",
    "mm",
-   "arch/x86/mm"
+   "drivers/acpi"
   ],
   "mod_sys": [
-   "arch",
-   "include",
    "Documentation",
    "drivers",
-   "mm"
+   "mm",
+   "arch",
+   "include"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 5,
@@ -4872,9 +4872,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "14cc0b55b70e297a4b5411733d58c6cdc2d7f1be",
-  "num_adds": 47,
-  "num_dels": 68,
-  "num_mod_lns_total": 115,
+  "num_adds": 50,
+  "num_dels": 80,
+  "num_mod_lns_total": 130,
   "num_mod_files": 18,
   "is_merge": true,
   "parents": [
@@ -4901,7 +4901,7 @@
    "fs/timerfd.c",
    "include/linux/compat.h"
   ],
-  "entropy": 3.909483059750684,
+  "entropy": 3.8673452026939223,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4913,18 +4913,18 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/s390/kernel",
-   "arch/sparc/kernel",
-   "arch/x86/syscalls",
-   "fs",
-   "include/linux",
    "arch/powerpc/kernel",
    "arch/x86/ia32",
-   "arch/arm64/kernel",
-   "arch/x86/include/asm",
-   "arch/mips/kernel",
-   "arch/parisc/kernel",
+   "arch/x86/syscalls",
    "arch/arm64/include/asm",
+   "arch/mips/kernel",
+   "arch/s390/kernel",
+   "arch/sparc/kernel",
+   "fs",
+   "arch/arm64/kernel",
+   "arch/parisc/kernel",
+   "arch/x86/include/asm",
+   "include/linux",
    "arch/powerpc/include/asm"
   ],
   "mod_sys": [
@@ -4949,9 +4949,9 @@
   "num_dels_loop": 5,
   "num_mod_total_loop": 8,
   "file_hash": "3cfb07743a5bffecba83f0da26444e85c0a9bfbb",
-  "num_adds": 78,
-  "num_dels": 113,
-  "num_mod_lns_total": 191,
+  "num_adds": 82,
+  "num_dels": 127,
+  "num_mod_lns_total": 209,
   "num_mod_files": 8,
   "is_merge": true,
   "parents": [
@@ -4968,7 +4968,7 @@
    "kernel/debug/kdb/kdb_private.h",
    "lib/Kconfig.kgdb"
   ],
-  "entropy": 1.7460708634877524,
+  "entropy": 1.7278442527885256,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -4980,15 +4980,15 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "lib",
-   "kernel/debug",
    "drivers/misc",
-   "kernel/debug/kdb"
+   "kernel/debug/kdb",
+   "lib",
+   "kernel/debug"
   ],
   "mod_sys": [
    "kernel",
-   "drivers",
-   "lib"
+   "lib",
+   "drivers"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 3,
@@ -5007,9 +5007,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5a4d729139b4e94f670288a3505657311f95c886",
-  "num_adds": 4,
-  "num_dels": 2,
-  "num_mod_lns_total": 6,
+  "num_adds": 6,
+  "num_dels": 3,
+  "num_mod_lns_total": 9,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -5105,9 +5105,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "f77ae9d8fd4b8ed984f33e996c62f2dfd9f73b37",
-  "num_adds": 6,
-  "num_dels": 4,
-  "num_mod_lns_total": 10,
+  "num_adds": 8,
+  "num_dels": 5,
+  "num_mod_lns_total": 13,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -5201,9 +5201,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a26302628ad164980493ab7768a05a7f3a8d8842",
-  "num_adds": 27,
+  "num_adds": 29,
   "num_dels": 20,
-  "num_mod_lns_total": 47,
+  "num_mod_lns_total": 49,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -5249,9 +5249,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 521,
   "file_hash": "e23b62256a361611cbd45cd1456638f1a5106b5c",
-  "num_adds": 16456,
+  "num_adds": 19552,
   "num_dels": 1,
-  "num_mod_lns_total": 16457,
+  "num_mod_lns_total": 19553,
   "num_mod_files": 147,
   "is_merge": true,
   "parents": [
@@ -5407,7 +5407,7 @@
    "lib/checksum.c",
    "tools/perf/perf.h"
   ],
-  "entropy": 6.200754420771318,
+  "entropy": 6.218014389884913,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -5419,36 +5419,36 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
-   "arch/arc",
    "tools/perf",
-   "init",
-   "arch/arc/configs",
-   "kernel",
-   "arch/arc/plat-arcfpga/include/plat",
-   "Documentation/devicetree/bindings/arc",
    "arch/arc/include/asm",
-   "arch/arc/plat-arcfpga",
-   "include/asm-generic",
-   "arch/arc/oprofile",
-   "arch/arc/lib",
-   "arch/arc/mm",
-   "lib",
-   "arch/arc/include/uapi/asm",
    "arch/arc/boot/dts",
-   "arch/arc/boot",
-   "arch/parisc",
+   "arch/arc/oprofile",
+   "lib",
+   "Documentation/devicetree/bindings/arc",
+   "arch/arc/include/uapi/asm",
+   "/",
+   "kernel",
    "arch/arc/kernel",
+   "arch/arc/plat-arcfpga",
+   "arch/arc/mm",
+   "arch/arc/plat-arcfpga/include/plat",
+   "arch/parisc",
+   "arch/arc/lib",
+   "arch/arc/boot",
+   "arch/arc/configs",
+   "include/asm-generic",
+   "arch/arc",
+   "init",
    "/"
   ],
   "mod_sys": [
-   "arch",
-   "include",
-   "Documentation",
    "tools",
-   "init",
+   "Documentation",
+   "lib",
    "kernel",
-   "lib"
+   "arch",
+   "init",
+   "include"
   ],
   "num_mod_dirs": 21,
   "num_mod_sys": 7,
@@ -5467,9 +5467,9 @@
   "num_dels_loop": 290,
   "num_mod_total_loop": 558,
   "file_hash": "aebb2afd5420c860b7fbc3882a323ef1247fbf16",
-  "num_adds": 15362,
-  "num_dels": 15264,
-  "num_mod_lns_total": 30626,
+  "num_adds": 16135,
+  "num_dels": 15926,
+  "num_mod_lns_total": 32061,
   "num_mod_files": 884,
   "is_merge": true,
   "parents": [
@@ -6362,7 +6362,7 @@
    "drivers/ssb/driver_chipcommon_pmu.c",
    "drivers/tty/serial/Kconfig"
   ],
-  "entropy": 7.947129730901235,
+  "entropy": 7.933482271623145,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -6374,151 +6374,151 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/mips/include/asm/netlogic",
-   "arch/mips/include/asm/mach-emma2rh",
-   "arch/mips/lib",
-   "arch/mips/include/asm/mach-db1x00",
-   "arch/mips/fw/lib",
-   "arch/mips/ar7",
-   "arch/mips/include/asm/octeon",
-   "arch/mips/include/asm/mach-sibyte",
-   "arch/mips/lantiq",
-   "arch/mips/loongson1",
-   "arch/mips/netlogic/dts",
-   "arch/mips/sibyte/common",
-   "drivers/ssb",
-   "arch/mips/power",
-   "arch/mips/loongson",
-   "arch/mips/pmc-sierra",
-   "arch/mips/include/asm/mach-bcm47xx",
-   "arch/mips/include/asm/mips-boards",
-   "arch/mips/lantiq/dts",
-   "arch/mips/powertv/asic",
-   "arch/mips/loongson/lemote-2f",
-   "arch/mips/sibyte",
-   "arch/mips/txx9/rbtx4927",
-   "arch/mips/include/asm/mach-ath79",
-   "arch/mips/include/asm/mach-au1x00",
-   "arch/mips/include/asm/mach-rc32434",
-   "arch/mips/alchemy/devboards",
-   "arch/mips/include/asm/mach-generic",
-   "arch/mips/include/asm/xtalk",
-   "arch/mips/netlogic/xlp",
-   "arch/mips/include/asm/mach-ar7",
-   "arch/mips/powertv",
-   "arch/mips/include/asm/mach-sead3",
-   "arch/mips/ralink/dts",
-   "arch/mips/loongson/common/cs5536",
-   "arch/mips/netlogic/common",
-   "arch/mips/netlogic/xlr",
-   "arch/mips/sgi-ip32",
-   "drivers/mtd",
-   "arch/mips/include/asm/mach-cobalt",
-   "arch/mips/include/asm/mach-ralink",
-   "arch/mips/include/asm/sibyte",
-   "arch/mips/alchemy/common",
-   "arch/mips/ralink",
-   "arch/mips/wrppmc",
    "arch/mips/sibyte/bcm1480",
-   "arch/mips/include/asm/mach-ip27",
-   "arch/mips/txx9/rbtx4938",
-   "arch/mips/include/asm/txx9",
-   "arch/mips/include/asm/netlogic/xlp-hal",
-   "arch/mips/include/asm/mach-lantiq/falcon",
-   "arch/mips/loongson1/ls1b",
-   "arch/mips/include/asm/mach-lantiq",
-   "arch/mips/cavium-octeon/executive",
-   "arch/mips/include/asm/mach-jz4740",
-   "arch/mips/txx9/generic",
-   "arch/mips/include/asm/fw/arc",
-   "arch/mips/pnx8550/common",
-   "arch/mips/boot",
-   "arch/mips/fw/sni",
-   "arch/mips/include/asm/netlogic/xlr",
-   "arch/mips/pci",
-   "arch/mips/mm",
-   "arch/mips/pnx8550/jbs",
-   "drivers/tty/serial",
-   "arch/mips/sgi-ip22",
-   "arch/mips/loongson/common",
-   "arch/mips/dec",
-   "arch/mips/include/asm/mach-lantiq/xway",
-   "arch/mips/lantiq/falcon",
-   "arch/mips/pmcs-msp71xx",
-   "arch/mips/boot/compressed",
-   "arch/mips/include/asm/emma",
-   "arch/mips/include/asm/mach-pmcs-msp71xx",
-   "arch/mips/pnx8550",
-   "arch/mips/include/asm/mach-loongson1",
    "arch/mips",
    "arch/mips/include/asm/mach-powertv",
-   "arch/mips/include/asm/mach-lasat",
-   "arch/mips/include/asm/vr41xx",
-   "arch/mips/vr41xx/common",
-   "arch/mips/lantiq/xway",
-   "arch/mips/include/asm/mach-ip28",
-   "arch/mips/netlogic",
-   "arch/mips/include/asm/pci",
-   "arch/mips/sgi-ip27",
-   "arch/mips/include/uapi/asm",
-   "arch/mips/cavium-octeon",
-   "arch/mips/pnx8550/stb810",
-   "arch/mips/sibyte/swarm",
-   "arch/mips/include/asm/mach-pnx833x",
-   "arch/mips/bcm63xx",
-   "arch/mips/bcm63xx/boards",
-   "arch/mips/include/asm/mach-loongson/cs5536",
-   "Documentation/devicetree/bindings/mips",
-   "arch/mips/include/asm/sn/sn0",
-   "arch/mips/include/asm/mach-loongson",
-   "arch/mips/emma/markeins",
-   "arch/mips/include/asm/ip32",
-   "arch/mips/math-emu",
-   "arch/mips/include/asm/mach-ip32",
-   "arch/mips/cobalt",
-   "drivers/net/ethernet/broadcom",
-   "arch/mips/include/asm/fw/cfe",
-   "arch/mips/lasat/image",
-   "arch/mips/loongson/fuloong-2e",
-   "arch/mips/lasat",
-   "arch/mips/ath79",
-   "arch/mips/include/asm/mach-jazz",
-   "arch/mips/include/asm/dec",
-   "arch/mips/sni",
-   "arch/mips/dec/prom",
-   "arch/mips/include/asm/sn",
-   "arch/mips/txx9",
-   "arch/mips/pnx833x/common",
-   "arch/mips/include/asm",
-   "arch/mips/include/asm/sgi",
-   "arch/mips/alchemy",
-   "arch/mips/rb532",
-   "arch/mips/bcm47xx",
-   "arch/mips/mti-malta",
-   "arch/mips/loongson1/common",
-   "arch/mips/pnx833x",
-   "arch/mips/include/asm/lasat",
-   "arch/mips/pnx833x/stb22x",
-   "arch/mips/include/asm/mach-cavium-octeon",
-   "arch/mips/kernel/cpufreq",
-   "arch/mips/txx9/rbtx4939",
-   "arch/mips/include/asm/mach-malta",
-   "arch/mips/include/asm/mach-pnx8550",
-   "arch/mips/jz4740",
-   "arch/mips/include/asm/mach-bcm63xx",
    "arch/mips/mti-sead3",
-   "arch/mips/fw/arc",
-   "arch/mips/oprofile",
-   "arch/mips/include/asm/mach-wrppmc",
-   "arch/mips/sibyte/sb1250",
+   "arch/mips/include/asm/mach-db1x00",
+   "arch/mips/include/asm/mach-lantiq/falcon",
+   "arch/mips/pnx833x",
+   "arch/mips/include/asm/mach-lasat",
+   "arch/mips/cavium-octeon",
+   "arch/mips/alchemy/common",
+   "drivers/tty/serial",
+   "arch/mips/include/asm/vr41xx",
+   "arch/mips/lantiq/dts",
+   "arch/mips/netlogic/dts",
+   "arch/mips/wrppmc",
+   "arch/mips/pci",
+   "arch/mips/loongson1",
+   "arch/mips/include/asm/mach-loongson1",
+   "arch/mips/pnx8550/jbs",
+   "arch/mips/include/asm/txx9",
    "arch/mips/jazz",
-   "arch/mips/configs",
+   "arch/mips/mm",
+   "arch/mips/ralink",
+   "arch/mips/pnx8550/stb810",
+   "arch/mips/include/asm/fw/arc",
+   "arch/mips/netlogic/xlp",
+   "arch/mips/include/asm/dec",
+   "arch/mips/include/asm/xtalk",
+   "arch/mips/netlogic/xlr",
+   "arch/mips/include/asm/mach-ip27",
+   "Documentation/devicetree/bindings/mips",
+   "arch/mips/loongson",
+   "drivers/net/ethernet/broadcom",
+   "arch/mips/include/asm/emma",
+   "arch/mips/power",
+   "arch/mips/txx9/rbtx4938",
+   "arch/mips/pnx833x/common",
+   "arch/mips/powertv",
    "arch/mips/kernel",
-   "Documentation/devicetree/bindings/serial"
+   "arch/mips/include/asm/mach-loongson",
+   "arch/mips/cobalt",
+   "arch/mips/include/asm/mach-rc32434",
+   "arch/mips/include/asm/sn",
+   "arch/mips/txx9/generic",
+   "drivers/ssb",
+   "arch/mips/alchemy/devboards",
+   "arch/mips/include/asm/mach-loongson/cs5536",
+   "arch/mips/ar7",
+   "arch/mips/include/asm/octeon",
+   "arch/mips/pmc-sierra",
+   "arch/mips/include/asm/mach-jz4740",
+   "arch/mips/lantiq/xway",
+   "arch/mips/lasat/image",
+   "arch/mips/include/asm/mach-lantiq",
+   "arch/mips/include/asm/mach-ralink",
+   "arch/mips/include/asm/mach-pnx833x",
+   "arch/mips/loongson/common",
+   "arch/mips/lantiq/falcon",
+   "arch/mips/include/asm/mach-pnx8550",
+   "arch/mips/include/asm/mach-ip32",
+   "arch/mips/loongson1/common",
+   "arch/mips/include/asm/sn/sn0",
+   "arch/mips/include/asm/sibyte",
+   "arch/mips/cavium-octeon/executive",
+   "arch/mips/pmcs-msp71xx",
+   "arch/mips/fw/sni",
+   "arch/mips/include/asm/mips-boards",
+   "arch/mips/pnx8550",
+   "arch/mips/include/asm/fw/cfe",
+   "arch/mips/bcm63xx/boards",
+   "arch/mips/include/asm/mach-jazz",
+   "Documentation/devicetree/bindings/serial",
+   "arch/mips/sgi-ip27",
+   "arch/mips/include/asm/mach-lantiq/xway",
+   "arch/mips/include/asm/netlogic/xlr",
+   "arch/mips/kernel/cpufreq",
+   "arch/mips/include/asm/mach-cobalt",
+   "arch/mips/pnx833x/stb22x",
+   "arch/mips/vr41xx/common",
+   "arch/mips/include/asm/ip32",
+   "arch/mips/rb532",
+   "arch/mips/include/asm/mach-bcm63xx",
+   "arch/mips/sni",
+   "arch/mips/sgi-ip32",
+   "arch/mips/sibyte/sb1250",
+   "arch/mips/sibyte/swarm",
+   "arch/mips/pnx8550/common",
+   "arch/mips/ralink/dts",
+   "arch/mips/sgi-ip22",
+   "arch/mips/include/asm/mach-bcm47xx",
+   "arch/mips/lib",
+   "arch/mips/include/uapi/asm",
+   "arch/mips/ath79",
+   "drivers/mtd",
+   "arch/mips/dec/prom",
+   "arch/mips/txx9/rbtx4939",
+   "arch/mips/include/asm/pci",
+   "arch/mips/sibyte",
+   "arch/mips/include/asm/mach-sibyte",
+   "arch/mips/mti-malta",
+   "arch/mips/include/asm/mach-wrppmc",
+   "arch/mips/boot",
+   "arch/mips/netlogic/common",
+   "arch/mips/include/asm/mach-ip28",
+   "arch/mips/include/asm/mach-generic",
+   "arch/mips/include/asm/netlogic/xlp-hal",
+   "arch/mips/loongson/common/cs5536",
+   "arch/mips/include/asm/mach-cavium-octeon",
+   "arch/mips/txx9/rbtx4927",
+   "arch/mips/fw/arc",
+   "arch/mips/configs",
+   "arch/mips/math-emu",
+   "arch/mips/fw/lib",
+   "arch/mips/dec",
+   "arch/mips/include/asm/mach-emma2rh",
+   "arch/mips/jz4740",
+   "arch/mips/lasat",
+   "arch/mips/loongson/lemote-2f",
+   "arch/mips/oprofile",
+   "arch/mips/loongson/fuloong-2e",
+   "arch/mips/powertv/asic",
+   "arch/mips/include/asm/mach-au1x00",
+   "arch/mips/include/asm",
+   "arch/mips/bcm63xx",
+   "arch/mips/include/asm/lasat",
+   "arch/mips/txx9",
+   "arch/mips/include/asm/netlogic",
+   "arch/mips/loongson1/ls1b",
+   "arch/mips/include/asm/mach-malta",
+   "arch/mips/sibyte/common",
+   "arch/mips/emma/markeins",
+   "arch/mips/alchemy",
+   "arch/mips/boot/compressed",
+   "arch/mips/include/asm/mach-sead3",
+   "arch/mips/netlogic",
+   "arch/mips/include/asm/mach-ath79",
+   "arch/mips/include/asm/mach-pmcs-msp71xx",
+   "arch/mips/lantiq",
+   "arch/mips/include/asm/sgi",
+   "arch/mips/bcm47xx",
+   "arch/mips/include/asm/mach-ar7"
   ],
   "mod_sys": [
-   "Documentation",
    "arch",
+   "Documentation",
    "drivers"
   ],
   "num_mod_dirs": 141,
@@ -6589,8 +6589,8 @@
   "num_mod_total_loop": 2,
   "file_hash": "36dfea42cc35509b481377980338cc3b89d79256",
   "num_adds": 2,
-  "num_dels": 36,
-  "num_mod_lns_total": 38,
+  "num_dels": 39,
+  "num_mod_lns_total": 41,
   "num_mod_files": 4,
   "is_merge": false,
   "parents": [
@@ -6602,7 +6602,7 @@
    "kernel/debug/kdb/kdb_main.c",
    "kernel/debug/kdb/kdb_private.h"
   ],
-  "entropy": 1.5107277328058335,
+  "entropy": 1.493196836380346,
   "ppl_signed_off": [
    "Signed-off-by: Vincent Stehl\u00e9 <vincent.stehle@laposte.net>",
    "Signed-off-by: Jason Wessel <jason.wessel@windriver.com>"
@@ -6687,8 +6687,8 @@
   "num_mod_total_loop": 3,
   "file_hash": "1b2caa2dcb8f18d2be9c5c3c992cb6da03f1a70a",
   "num_adds": 0,
-  "num_dels": 54,
-  "num_mod_lns_total": 54,
+  "num_dels": 65,
+  "num_mod_lns_total": 65,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6829,9 +6829,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "3b0eb71ec9e22c6735c84f800d6523c96839efe6",
-  "num_adds": 17,
+  "num_adds": 18,
   "num_dels": 0,
-  "num_mod_lns_total": 17,
+  "num_mod_lns_total": 18,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -6877,9 +6877,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "00370b8f8dd6e3171b8202f9c5187a5f73e99497",
-  "num_adds": 20,
+  "num_adds": 23,
   "num_dels": 6,
-  "num_mod_lns_total": 26,
+  "num_mod_lns_total": 29,
   "num_mod_files": 3,
   "is_merge": false,
   "parents": [
@@ -6890,7 +6890,7 @@
    "kernel/debug/gdbstub.c",
    "kernel/debug/kdb/kdb_debugger.c"
   ],
-  "entropy": 0.7732283485249176,
+  "entropy": 0.8306021151458061,
   "ppl_signed_off": [
    "Signed-off-by: Matt Klein <mklein@twitter.com>",
    "Signed-off-by: Jason Wessel <jason.wessel@windriver.com>"
@@ -6905,8 +6905,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/debug",
-   "kernel/debug/kdb"
+   "kernel/debug/kdb",
+   "kernel/debug"
   ],
   "mod_sys": [
    "kernel"
@@ -7264,9 +7264,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bcabdef12da49878789464ad7239e97d83ea5ef5",
-  "num_adds": 58,
-  "num_dels": 45,
-  "num_mod_lns_total": 103,
+  "num_adds": 65,
+  "num_dels": 47,
+  "num_mod_lns_total": 112,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [

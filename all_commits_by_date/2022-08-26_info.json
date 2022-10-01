@@ -167,9 +167,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2ca1c94ce0b65a2ce7512b718f3d8a0fe6224bca",
-  "num_adds": 3,
+  "num_adds": 6,
   "num_dels": 2,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 8,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -271,9 +271,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "037c97b2886e1b0bcdd14f96bb595f843faa07da",
-  "num_adds": 94,
-  "num_dels": 58,
-  "num_mod_lns_total": 152,
+  "num_adds": 105,
+  "num_dels": 61,
+  "num_mod_lns_total": 166,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -288,7 +288,7 @@
    "net/bluetooth/l2cap_core.c",
    "net/bluetooth/mgmt.c"
   ],
-  "entropy": 2.1693742313076565,
+  "entropy": 2.14732258885168,
   "ppl_signed_off": [
    "Signed-off-by: Jakub Kicinski <kuba@kernel.org>"
   ],
@@ -302,8 +302,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "net/bluetooth/hidp",
-   "net/bluetooth"
+   "net/bluetooth",
+   "net/bluetooth/hidp"
   ],
   "mod_sys": [
    "net"
@@ -377,9 +377,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 3,
   "file_hash": "dd9373402280cf4715fdc8fd5070f7d039e43511",
-  "num_adds": 27,
+  "num_adds": 32,
   "num_dels": 0,
-  "num_mod_lns_total": 27,
+  "num_mod_lns_total": 32,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -429,9 +429,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 4,
   "file_hash": "e022620b5d056e822e42eb9bc0f24fcb97389d86",
-  "num_adds": 118,
-  "num_dels": 51,
-  "num_mod_lns_total": 169,
+  "num_adds": 136,
+  "num_dels": 66,
+  "num_mod_lns_total": 202,
   "num_mod_files": 20,
   "is_merge": true,
   "parents": [
@@ -460,7 +460,7 @@
    "arch/arm64/tools/cpucaps",
    "init/main.c"
   ],
-  "entropy": 3.773085368662667,
+  "entropy": 3.870536565144616,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -472,19 +472,19 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm64/kernel/pi",
-   "arch/arm64",
-   "arch/arm64/mm",
-   "Documentation/admin-guide",
    "Documentation/arm64",
    "arch/arm64/tools",
+   "arch/arm64/mm",
+   "Documentation/admin-guide",
+   "arch/arm64/include/asm",
+   "arch/arm64/kernel/pi",
    "arch/arm64/kernel",
-   "init",
-   "arch/arm64/include/asm"
+   "arch/arm64",
+   "init"
   ],
   "mod_sys": [
-   "Documentation",
    "arch",
+   "Documentation",
    "init"
   ],
   "num_mod_dirs": 9,
@@ -504,9 +504,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "012bd7e859df9d6aa0a8ab4484c00aeded108071",
-  "num_adds": 14,
+  "num_adds": 19,
   "num_dels": 10,
-  "num_mod_lns_total": 24,
+  "num_mod_lns_total": 29,
   "num_mod_files": 7,
   "is_merge": true,
   "parents": [
@@ -522,7 +522,7 @@
    "arch/riscv/kernel/signal.c",
    "arch/riscv/kernel/traps.c"
   ],
-  "entropy": 2.506866543182522,
+  "entropy": 2.4133653747971895,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -534,8 +534,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/riscv/include/asm",
    "arch/riscv/kernel",
+   "arch/riscv/include/asm",
    "arch/riscv/boot/dts/microchip"
   ],
   "mod_sys": [
@@ -558,9 +558,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "c23f864dc7ef37655021c43beae98321436cbd9a",
-  "num_adds": 145,
-  "num_dels": 87,
-  "num_mod_lns_total": 232,
+  "num_adds": 164,
+  "num_dels": 98,
+  "num_mod_lns_total": 262,
   "num_mod_files": 13,
   "is_merge": true,
   "parents": [
@@ -582,7 +582,7 @@
    "arch/loongarch/vdso/vgetcpu.c",
    "arch/loongarch/vdso/vgettimeofday.c"
   ],
-  "entropy": 2.744155238507047,
+  "entropy": 2.6900327452823856,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -594,11 +594,11 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/loongarch/vdso",
-   "arch/loongarch",
-   "arch/loongarch/kernel",
+   "arch/loongarch/mm",
    "arch/loongarch/include/asm",
-   "arch/loongarch/mm"
+   "arch/loongarch/kernel",
+   "arch/loongarch/vdso",
+   "arch/loongarch"
   ],
   "mod_sys": [
    "arch"
@@ -620,9 +620,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 3,
   "file_hash": "78effb4a9b8c3589519b84759ac1757647072448",
-  "num_adds": 182,
-  "num_dels": 74,
-  "num_mod_lns_total": 256,
+  "num_adds": 206,
+  "num_dels": 82,
+  "num_mod_lns_total": 288,
   "num_mod_files": 24,
   "is_merge": true,
   "parents": [
@@ -655,7 +655,7 @@
    "drivers/gpu/drm/vc4/Kconfig",
    "drivers/gpu/drm/vc4/vc4_hdmi.c"
   ],
-  "entropy": 3.758751641152893,
+  "entropy": 3.710067285596622,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -668,16 +668,16 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/amd/amdkfd",
-   "drivers/gpu/drm/amd/pm/swsmu/inc",
-   "drivers/gpu/drm",
    "drivers/gpu/drm/radeon",
-   "drivers/gpu/drm/amd/display/dc/dcn314",
+   "drivers/gpu/drm/vc4",
    "drivers/gpu/drm/amd/display/amdgpu_dm",
    "drivers/gpu/drm/nouveau",
    "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
-   "drivers/gpu/drm/vc4",
+   "drivers/gpu/drm/amd/amdgpu",
+   "drivers/gpu/drm/amd/pm/swsmu/inc",
+   "drivers/gpu/drm/amd/display/dc/dcn314",
    "drivers/gpu/drm/amd/include/asic_reg/nbio",
-   "drivers/gpu/drm/amd/amdgpu"
+   "drivers/gpu/drm"
   ],
   "mod_sys": [
    "drivers"
@@ -699,9 +699,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3e5c673f0d75bc22b3c26eade87e4db4f374cd34",
-  "num_adds": 15,
+  "num_adds": 17,
   "num_dels": 10,
-  "num_mod_lns_total": 25,
+  "num_mod_lns_total": 27,
   "num_mod_files": 4,
   "is_merge": true,
   "parents": [
@@ -714,7 +714,7 @@
    "drivers/md/md.c",
    "drivers/md/raid10.c"
   ],
-  "entropy": 1.7450464172773454,
+  "entropy": 1.8169246397668828,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -726,13 +726,13 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "block",
    "drivers/md",
-   "drivers/block",
-   "block"
+   "drivers/block"
   ],
   "mod_sys": [
-   "drivers",
-   "block"
+   "block",
+   "drivers"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 2,
@@ -751,9 +751,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0b0861eb91cbfdd04d6df5a031152914c1114c18",
-  "num_adds": 65,
-  "num_dels": 15,
-  "num_mod_lns_total": 80,
+  "num_adds": 74,
+  "num_dels": 17,
+  "num_mod_lns_total": 91,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -772,7 +772,7 @@
    "io_uring/opdef.h",
    "io_uring/uring_cmd.c"
   ],
-  "entropy": 2.0607378464815804,
+  "entropy": 2.0367687051478276,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -784,14 +784,14 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "/",
    "include/uapi/linux",
    "io_uring",
+   "/",
    "/"
   ],
   "mod_sys": [
-   "io_uring",
-   "include"
+   "include",
+   "io_uring"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 2,
@@ -810,9 +810,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a5a923038d70d2d4a86cb4e3f32625a5ee6e7e24",
-  "num_adds": 19,
+  "num_adds": 25,
   "num_dels": 2,
-  "num_mod_lns_total": 21,
+  "num_mod_lns_total": 27,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -860,9 +860,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "5373081b99ed3c8e6e3866c366bf43fd8b03013a",
-  "num_adds": 57,
-  "num_dels": 100,
-  "num_mod_lns_total": 157,
+  "num_adds": 60,
+  "num_dels": 114,
+  "num_mod_lns_total": 174,
   "num_mod_files": 10,
   "is_merge": true,
   "parents": [
@@ -881,7 +881,7 @@
    "drivers/ufs/host/ufs-exynos.c",
    "include/ufs/ufshci.h"
   ],
-  "entropy": 2.2621021649995576,
+  "entropy": 2.1849644097402057,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -893,16 +893,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "include/ufs",
-   "drivers/scsi/megaraid",
    "drivers/scsi/qla2xxx",
-   "drivers/scsi",
+   "drivers/ufs/core",
    "drivers/ufs/host",
-   "drivers/ufs/core"
+   "drivers/scsi",
+   "include/ufs",
+   "drivers/scsi/megaraid"
   ],
   "mod_sys": [
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 2,
@@ -971,9 +971,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "8238b4579866b7c1bb99883cfe102a43db5506ff",
-  "num_adds": 54,
+  "num_adds": 60,
   "num_dels": 12,
-  "num_mod_lns_total": 66,
+  "num_mod_lns_total": 72,
   "num_mod_files": 10,
   "is_merge": false,
   "parents": [
@@ -991,7 +991,7 @@
    "include/linux/wait_bit.h",
    "kernel/sched/wait_bit.c"
   ],
-  "entropy": 2.758551492222486,
+  "entropy": 2.700751866099424,
   "ppl_signed_off": [
    "Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>",
    "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
@@ -1010,17 +1010,17 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
+   "include/asm-generic/bitops",
+   "kernel/sched",
    "Documentation",
    "include/linux",
-   "kernel/sched",
-   "arch/x86/include/asm",
-   "include/asm-generic/bitops"
+   "arch/x86/include/asm"
   ],
   "mod_sys": [
-   "kernel",
-   "Documentation",
    "arch",
-   "include"
+   "Documentation",
+   "include",
+   "kernel"
   ],
   "num_mod_dirs": 5,
   "num_mod_sys": 4,
@@ -1039,9 +1039,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "707527956d90ea4f304188555a97144183af1e49",
-  "num_adds": 5,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 5,
+  "num_mod_lns_total": 6,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1091,9 +1091,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f4d653dcaa4e4056e1630423e6a8ece4869b544f",
-  "num_adds": 22,
+  "num_adds": 25,
   "num_dels": 1,
-  "num_mod_lns_total": 23,
+  "num_mod_lns_total": 26,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -1103,7 +1103,7 @@
    "security/selinux/hooks.c",
    "security/selinux/include/classmap.h"
   ],
-  "entropy": 0.4262286569981449,
+  "entropy": 0.39124356362925566,
   "ppl_signed_off": [
    "Signed-off-by: Paul Moore <paul@paul-moore.com>"
   ],
@@ -1144,9 +1144,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2a5840124009f133bd09fd855963551fb2cefe22",
-  "num_adds": 17,
+  "num_adds": 18,
   "num_dels": 0,
-  "num_mod_lns_total": 17,
+  "num_mod_lns_total": 18,
   "num_mod_files": 5,
   "is_merge": false,
   "parents": [
@@ -1159,7 +1159,7 @@
    "io_uring/uring_cmd.c",
    "security/security.c"
   ],
-  "entropy": 2.1836670779209113,
+  "entropy": 2.1713600874958074,
   "ppl_signed_off": [
    "Signed-off-by: Luis Chamberlain <mcgrof@kernel.org>",
    "Signed-off-by: Paul Moore <paul@paul-moore.com>"
@@ -1186,8 +1186,8 @@
   ],
   "mod_sys": [
    "security",
-   "io_uring",
-   "include"
+   "include",
+   "io_uring"
   ],
   "num_mod_dirs": 3,
   "num_mod_sys": 3,
@@ -1256,9 +1256,9 @@
   "num_dels_loop": 2,
   "num_mod_total_loop": 5,
   "file_hash": "2e085ec0e2d7afa14bcfbcd4c41240f5d3372bfe",
-  "num_adds": 57,
-  "num_dels": 22,
-  "num_mod_lns_total": 79,
+  "num_adds": 61,
+  "num_dels": 24,
+  "num_mod_lns_total": 85,
   "num_mod_files": 13,
   "is_merge": true,
   "parents": [
@@ -1280,7 +1280,7 @@
    "tools/testing/selftests/bpf/DENYLIST.s390x",
    "tools/testing/selftests/bpf/verifier/precise.c"
   ],
-  "entropy": 3.0721761377922165,
+  "entropy": 3.0610557239404197,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -1294,22 +1294,22 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/testing/selftests/bpf/verifier",
    "net/core",
-   "tools/testing/selftests/bpf",
-   "include/net",
-   "net/ipv4",
-   "net/xdp",
    "kernel/bpf",
+   "net/ipv4",
+   "include/uapi/linux",
+   "include/net",
    "drivers/net/ethernet/mellanox/mlxsw",
-   "include/uapi/linux"
+   "tools/testing/selftests/bpf",
+   "tools/testing/selftests/bpf/verifier",
+   "net/xdp"
   ],
   "mod_sys": [
-   "include",
-   "net",
    "tools",
+   "net",
+   "kernel",
    "drivers",
-   "kernel"
+   "include"
   ],
   "num_mod_dirs": 9,
   "num_mod_sys": 5,
@@ -1380,9 +1380,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4ba9d38bb5a3255390dc15d8ac81f656a968273c",
-  "num_adds": 13,
+  "num_adds": 16,
   "num_dels": 7,
-  "num_mod_lns_total": 20,
+  "num_mod_lns_total": 23,
   "num_mod_files": 5,
   "is_merge": true,
   "parents": [
@@ -1396,7 +1396,7 @@
    "net/mac80211/tx.c",
    "net/wireless/debugfs.c"
   ],
-  "entropy": 2.0822287189138016,
+  "entropy": 2.0208000947814817,
   "ppl_signed_off": [
    "Signed-off-by: David S. Miller <davem@davemloft.net>"
   ],
@@ -1536,9 +1536,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "100d0ae82b5c240a4dc17486698e67bf116bd598",
-  "num_adds": 152,
-  "num_dels": 41,
-  "num_mod_lns_total": 193,
+  "num_adds": 173,
+  "num_dels": 47,
+  "num_mod_lns_total": 220,
   "num_mod_files": 18,
   "is_merge": true,
   "parents": [
@@ -1565,7 +1565,7 @@
    "drivers/gpu/drm/amd/pm/swsmu/inc/smu_v13_0.h",
    "drivers/gpu/drm/radeon/radeon_device.c"
   ],
-  "entropy": 3.1801863331655453,
+  "entropy": 3.133644265114119,
   "ppl_signed_off": [
    "Signed-off-by: Dave Airlie <airlied@redhat.com>"
   ],
@@ -1580,13 +1580,13 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/gpu/drm/amd/amdkfd",
-   "drivers/gpu/drm/amd/pm/swsmu/inc",
    "drivers/gpu/drm/radeon",
-   "drivers/gpu/drm/amd/display/dc/dcn314",
    "drivers/gpu/drm/amd/display/amdgpu_dm",
    "drivers/gpu/drm/amd/pm/swsmu/inc/pmfw_if",
-   "drivers/gpu/drm/amd/include/asic_reg/nbio",
-   "drivers/gpu/drm/amd/amdgpu"
+   "drivers/gpu/drm/amd/amdgpu",
+   "drivers/gpu/drm/amd/pm/swsmu/inc",
+   "drivers/gpu/drm/amd/display/dc/dcn314",
+   "drivers/gpu/drm/amd/include/asic_reg/nbio"
   ],
   "mod_sys": [
    "drivers"
@@ -1608,9 +1608,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "064d491f73464f5c9cf56ac24f55118f6f4c54c2",
-  "num_adds": 30,
-  "num_dels": 33,
-  "num_mod_lns_total": 63,
+  "num_adds": 33,
+  "num_dels": 35,
+  "num_mod_lns_total": 68,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -1625,7 +1625,7 @@
    "drivers/gpu/drm/vc4/Kconfig",
    "drivers/gpu/drm/vc4/vc4_hdmi.c"
   ],
-  "entropy": 2.2599571620226113,
+  "entropy": 2.2353801425262274,
   "ppl_signed_off": [
    "Signed-off-by: Dave Airlie <airlied@redhat.com>"
   ],
@@ -1639,8 +1639,8 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/gpu/drm/nouveau",
    "drivers/gpu/drm",
+   "drivers/gpu/drm/nouveau",
    "drivers/gpu/drm/vc4"
   ],
   "mod_sys": [

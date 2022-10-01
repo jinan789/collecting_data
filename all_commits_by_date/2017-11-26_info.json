@@ -250,9 +250,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bbecb1cfcca55f98cfcb62fa36a32d79975d8816",
-  "num_adds": 38,
+  "num_adds": 42,
   "num_dels": 6,
-  "num_mod_lns_total": 44,
+  "num_mod_lns_total": 48,
   "num_mod_files": 6,
   "is_merge": true,
   "parents": [
@@ -267,7 +267,7 @@
    "arch/arm/mm/dump.c",
    "arch/arm/mm/init.c"
   ],
-  "entropy": 2.3338414295790355,
+  "entropy": 2.3018796874098553,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -279,9 +279,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "arch/arm",
-   "arch/arm/kernel",
    "arch/arm/mm",
+   "arch/arm/kernel",
+   "arch/arm",
    "arch/arm/include/asm"
   ],
   "mod_sys": [
@@ -304,9 +304,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dec0029a59779d8279dde663ef8abe9824ee5773",
-  "num_adds": 47,
+  "num_adds": 52,
   "num_dels": 15,
-  "num_mod_lns_total": 62,
+  "num_mod_lns_total": 67,
   "num_mod_files": 12,
   "is_merge": true,
   "parents": [
@@ -327,7 +327,7 @@
    "kernel/irq/manage.c",
    "kernel/irq/matrix.c"
   ],
-  "entropy": 3.25689712623819,
+  "entropy": 3.2262224985648666,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -340,14 +340,14 @@
   "is_fix": false,
   "mod_dirs": [
    "drivers/irqchip",
-   "kernel/irq",
    "include/linux",
+   "kernel/irq",
    "include/linux/irqchip"
   ],
   "mod_sys": [
    "kernel",
-   "drivers",
-   "include"
+   "include",
+   "drivers"
   ],
   "num_mod_dirs": 4,
   "num_mod_sys": 3,
@@ -366,9 +366,9 @@
   "num_dels_loop": 7,
   "num_mod_total_loop": 12,
   "file_hash": "02fc87b117a9b9ec325089d098fce86ed11966bd",
-  "num_adds": 426,
-  "num_dels": 524,
-  "num_mod_lns_total": 950,
+  "num_adds": 472,
+  "num_dels": 616,
+  "num_mod_lns_total": 1088,
   "num_mod_files": 38,
   "is_merge": true,
   "parents": [
@@ -415,7 +415,7 @@
    "tools/testing/selftests/x86/pkey-helpers.h",
    "tools/testing/selftests/x86/protection_keys.c"
   ],
-  "entropy": 3.77502302390964,
+  "entropy": 3.779268742797579,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -427,29 +427,29 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "drivers/char",
-   "arch/x86/entry",
-   "arch/x86/kernel",
+   "arch/x86",
    "arch/x86/kernel/acpi",
-   "drivers/pci",
+   "arch/x86/boot/compressed",
    "arch/x86/kernel/cpu",
-   "arch/x86/events/intel",
-   "tools/testing/selftests/x86",
    "Documentation/x86",
+   "arch/x86/lib",
+   "arch/x86/mm",
+   "arch/x86/events/intel",
+   "arch/x86/kernel/apic",
+   "drivers/char",
    "include/linux",
    "arch/x86/include/asm",
-   "arch/x86/kernel/apic",
-   "arch/x86",
-   "arch/x86/boot/compressed",
-   "arch/x86/lib",
-   "arch/x86/mm"
+   "arch/x86/kernel",
+   "tools/testing/selftests/x86",
+   "drivers/pci",
+   "arch/x86/entry"
   ],
   "mod_sys": [
-   "arch",
-   "include",
-   "Documentation",
    "tools",
-   "drivers"
+   "Documentation",
+   "drivers",
+   "arch",
+   "include"
   ],
   "num_mod_dirs": 16,
   "num_mod_sys": 5,
@@ -468,9 +468,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6830c8db58c2616d8ba2bf45e7d98dca5f69b07f",
-  "num_adds": 16,
+  "num_adds": 17,
   "num_dels": 10,
-  "num_mod_lns_total": 26,
+  "num_mod_lns_total": 27,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -482,7 +482,7 @@
    "include/linux/sched.h",
    "include/trace/events/sched.h"
   ],
-  "entropy": 1.5262349099495227,
+  "entropy": 1.5098693043797227,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -494,9 +494,9 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "Documentation/scheduler",
    "include/trace/events",
-   "include/linux"
+   "include/linux",
+   "Documentation/scheduler"
   ],
   "mod_sys": [
    "Documentation",
@@ -519,9 +519,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "580e3d552ddf06537c7f36d1bfab04761489db9c",
-  "num_adds": 28,
+  "num_adds": 32,
   "num_dels": 12,
-  "num_mod_lns_total": 40,
+  "num_mod_lns_total": 44,
   "num_mod_files": 3,
   "is_merge": true,
   "parents": [
@@ -533,7 +533,7 @@
    "arch/x86/events/intel/uncore_snbep.c",
    "kernel/events/core.c"
   ],
-  "entropy": 0.772558571308465,
+  "entropy": 0.833865582431074,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -545,12 +545,12 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "kernel/events",
-   "arch/x86/events/intel"
+   "arch/x86/events/intel",
+   "kernel/events"
   ],
   "mod_sys": [
-   "kernel",
-   "arch"
+   "arch",
+   "kernel"
   ],
   "num_mod_dirs": 2,
   "num_mod_sys": 2,
@@ -615,9 +615,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "fcbc38b1b296cd38214891fb1fc714d52937d062",
-  "num_adds": 66,
+  "num_adds": 72,
   "num_dels": 40,
-  "num_mod_lns_total": 106,
+  "num_mod_lns_total": 112,
   "num_mod_files": 15,
   "is_merge": true,
   "parents": [
@@ -641,7 +641,7 @@
    "tools/objtool/orc.h",
    "tools/objtool/sync-check.sh"
   ],
-  "entropy": 2.9244481407528866,
+  "entropy": 2.887924419299314,
   "ppl_signed_off": [],
   "ppl_acked": [],
   "ppl_cc": [],
@@ -653,16 +653,16 @@
   "fixes_lst": [],
   "is_fix": false,
   "mod_dirs": [
-   "tools/objtool/arch/x86",
+   "tools/objtool/arch/x86/include/asm",
    "tools/objtool",
-   "tools/objtool/arch/x86/tools",
-   "include/linux",
    "tools/objtool/arch/x86/lib",
-   "tools/objtool/arch/x86/include/asm"
+   "include/linux",
+   "tools/objtool/arch/x86/tools",
+   "tools/objtool/arch/x86"
   ],
   "mod_sys": [
-   "tools",
-   "include"
+   "include",
+   "tools"
   ],
   "num_mod_dirs": 6,
   "num_mod_sys": 2,
@@ -681,9 +681,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "8bafae202c82dc257f649ea3c275a0f35ee15113",
-  "num_adds": 23,
+  "num_adds": 24,
   "num_dels": 0,
-  "num_mod_lns_total": 23,
+  "num_mod_lns_total": 24,
   "num_mod_files": 2,
   "is_merge": false,
   "parents": [
@@ -693,7 +693,7 @@
    "arch/arm/include/asm/assembler.h",
    "arch/arm/kernel/entry-header.S"
   ],
-  "entropy": 0.828055725379504,
+  "entropy": 0.8112781244591328,
   "ppl_signed_off": [
    "Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>"
   ],
@@ -730,9 +730,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "f41725bbe16b0773302c0cc7dc2e89f54828712d",
-  "num_adds": 32,
-  "num_dels": 47,
-  "num_mod_lns_total": 79,
+  "num_adds": 37,
+  "num_dels": 58,
+  "num_mod_lns_total": 95,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -831,9 +831,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "2f122e4f5107cf8ab0e592d63ed816a00110b4fe",
-  "num_adds": 21,
-  "num_dels": 14,
-  "num_mod_lns_total": 35,
+  "num_adds": 24,
+  "num_dels": 15,
+  "num_mod_lns_total": 39,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -881,9 +881,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4af7f7ff92a42b6c713293c99e7982bcfcf51a70",
-  "num_adds": 21,
+  "num_adds": 24,
   "num_dels": 4,
-  "num_mod_lns_total": 25,
+  "num_mod_lns_total": 28,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -931,9 +931,9 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
   "file_hash": "b4b591c87f2b0f4ebaf3a68d4f13873b241aa584",
-  "num_adds": 11,
-  "num_dels": 36,
-  "num_mod_lns_total": 47,
+  "num_adds": 14,
+  "num_dels": 40,
+  "num_mod_lns_total": 54,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -981,9 +981,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ad88d7fc6c032ddfb32b8d496a070ab71de3a64f",
-  "num_adds": 5,
+  "num_adds": 6,
   "num_dels": 4,
-  "num_mod_lns_total": 9,
+  "num_mod_lns_total": 10,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1137,9 +1137,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "8c946b8988acec785bcf67088b6bd0747f36d2d3",
-  "num_adds": 16,
+  "num_adds": 18,
   "num_dels": 0,
-  "num_mod_lns_total": 16,
+  "num_mod_lns_total": 18,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1240,8 +1240,8 @@
   "num_mod_total_loop": 1,
   "file_hash": "cf21654b40968609779751b34e7923180968fe5b",
   "num_adds": 34,
-  "num_dels": 9,
-  "num_mod_lns_total": 43,
+  "num_dels": 13,
+  "num_mod_lns_total": 47,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
@@ -1340,9 +1340,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9e741045faea17e28663f14a45f7f3304827c968",
-  "num_adds": 13,
-  "num_dels": 10,
-  "num_mod_lns_total": 23,
+  "num_adds": 14,
+  "num_dels": 11,
+  "num_mod_lns_total": 25,
   "num_mod_files": 1,
   "is_merge": false,
   "parents": [
