@@ -61,7 +61,7 @@ def strip_comments(diff_text, commit):
             if cur_l[:4] == 'diff':
                 if in_comment:
                     with open("errors.txt", 'a') as f:
-                        json.dump('**********' + "       " + commit + '**********', indent=1)
+                        json.dump('**********' + "       " + commit + '**********', f, indent=1)
                 in_file = False
                 new_file.append(cur_l)
                 continue
