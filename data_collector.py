@@ -4,7 +4,7 @@ import Git
 import os
 
 repo_path = "/Users/jinanjiang/Documents/LinuxCommits/linux"
-# repo_path = "/home/jiangjinan/linux"
+repo_path = "/home/jinan/linux"
 repo = Git.init(repo_path)
 
 import json
