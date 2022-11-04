@@ -155,13 +155,20 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
 
         if cur_text[:4] == 'diff':
             while True:
+                if cur_line + 1 == num_total_lines:
+                    break
                 temp_text = diff_text[cur_line + 1]
                 if temp_text[:4] == 'diff':
                     cur_line += 1
+                    if cur_line == num_total_lines:
+                        break
                     
                 else:
                     cur_text = diff_text[cur_line]
                     break
+                    
+            if cur_line == num_total_lines:
+                break
                 
             assert in_file
             in_file = False
@@ -175,8 +182,6 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
 
             file_to_mod_lines_dict[file_nm] = []
             cur_line += 1
-            
-            
             
             continue
             
@@ -292,7 +297,7 @@ def cal_entropy(file_len_lst):
 # sample use case:
 def get_commit_info(cur_commit):
     cur_commit_dict = {}
-    print(cur_commit)
+    #print(cur_commit)
 
     # cur_commit = "2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78"
     # cur_commit = "7fedb63a8307dda0ec3b8969a3b233a1dd7ea8e0"
