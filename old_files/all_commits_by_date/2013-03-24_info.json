@@ -1,0 +1,6354 @@
+{
+ "e226e34165d6ea827fcbd6fbf4df49090c4d0dbc": {
+  "num_adds_if": 930,
+  "num_dels_if": 0,
+  "num_mod_total_if": 930,
+  "num_adds_loop": 441,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 441,
+  "file_hash": "e226e34165d6ea827fcbd6fbf4df49090c4d0dbc",
+  "num_adds": 16503,
+  "num_dels": 0,
+  "num_mod_lns_total": 16503,
+  "num_mod_files": 41,
+  "is_merge": true,
+  "parents": [
+   "5bbcf5e6abe9",
+   "cafe56359144"
+  ],
+  "mod_files_lst": [
+   "Documentation/ABI/testing/sysfs-block-bcache",
+   "Documentation/bcache.txt",
+   "MAINTAINERS",
+   "drivers/char/random.c",
+   "drivers/md/Kconfig",
+   "drivers/md/Makefile",
+   "drivers/md/bcache/Kconfig",
+   "drivers/md/bcache/Makefile",
+   "drivers/md/bcache/alloc.c",
+   "drivers/md/bcache/bcache.h",
+   "drivers/md/bcache/bset.c",
+   "drivers/md/bcache/bset.h",
+   "drivers/md/bcache/btree.c",
+   "drivers/md/bcache/btree.h",
+   "drivers/md/bcache/closure.c",
+   "drivers/md/bcache/closure.h",
+   "drivers/md/bcache/debug.c",
+   "drivers/md/bcache/debug.h",
+   "drivers/md/bcache/io.c",
+   "drivers/md/bcache/journal.c",
+   "drivers/md/bcache/journal.h",
+   "drivers/md/bcache/movinggc.c",
+   "drivers/md/bcache/request.c",
+   "drivers/md/bcache/request.h",
+   "drivers/md/bcache/stats.c",
+   "drivers/md/bcache/stats.h",
+   "drivers/md/bcache/super.c",
+   "drivers/md/bcache/sysfs.c",
+   "drivers/md/bcache/sysfs.h",
+   "drivers/md/bcache/trace.c",
+   "drivers/md/bcache/util.c",
+   "drivers/md/bcache/util.h",
+   "drivers/md/bcache/writeback.c",
+   "include/linux/cgroup_subsys.h",
+   "include/linux/rwsem.h",
+   "include/linux/sched.h",
+   "include/trace/events/bcache.h",
+   "kernel/fork.c",
+   "kernel/lockdep.c",
+   "kernel/rwsem.c",
+   "kernel/trace/blktrace.c"
+  ],
+  "entropy": 4.266659004897603,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "kernel/trace",
+   "Documentation/ABI/testing",
+   "drivers/char",
+   "/",
+   "Documentation",
+   "include/linux",
+   "kernel",
+   "include/trace/events",
+   "drivers/md/bcache",
+   "drivers/md",
+   "/"
+  ],
+  "mod_sys": [
+   "kernel",
+   "Documentation",
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 11,
+  "num_mod_sys": 4,
+  "author": "Jens Axboe",
+  "author_email": "axboe@kernel.dk",
+  "committer": "Jens Axboe",
+  "committer_email": "axboe@kernel.dk",
+  "author_date": "2013-03-24 21:42:45 -0600",
+  "committer_date": "2013-03-24 21:42:45 -0600"
+ },
+ "705cd0ea1cde2ce9225f1485c5a32c5841cacc5f": {
+  "num_adds_if": 69,
+  "num_dels_if": 58,
+  "num_mod_total_if": 127,
+  "num_adds_loop": 20,
+  "num_dels_loop": 18,
+  "num_mod_total_loop": 38,
+  "file_hash": "705cd0ea1cde2ce9225f1485c5a32c5841cacc5f",
+  "num_adds": 645,
+  "num_dels": 630,
+  "num_mod_lns_total": 1275,
+  "num_mod_files": 39,
+  "is_merge": true,
+  "parents": [
+   "c8158819d506",
+   "29ed7813ce5c"
+  ],
+  "mod_files_lst": [
+   "block/blk-core.c",
+   "block/cfq-iosched.c",
+   "block/deadline-iosched.c",
+   "drivers/block/aoe/aoecmd.c",
+   "drivers/block/brd.c",
+   "drivers/block/floppy.c",
+   "drivers/block/pktcdvd.c",
+   "drivers/block/rbd.c",
+   "drivers/md/dm-crypt.c",
+   "drivers/md/dm-raid1.c",
+   "drivers/md/dm-stripe.c",
+   "drivers/md/dm-verity.c",
+   "drivers/md/faulty.c",
+   "drivers/md/linear.c",
+   "drivers/md/md.c",
+   "drivers/md/raid0.c",
+   "drivers/md/raid1.c",
+   "drivers/md/raid10.c",
+   "drivers/md/raid5.c",
+   "drivers/message/fusion/mptsas.c",
+   "drivers/s390/block/dcssblk.c",
+   "drivers/scsi/libsas/sas_expander.c",
+   "drivers/scsi/mpt2sas/mpt2sas_transport.c",
+   "fs/bio-integrity.c",
+   "fs/bio.c",
+   "fs/btrfs/extent_io.c",
+   "fs/btrfs/volumes.c",
+   "fs/buffer.c",
+   "fs/direct-io.c",
+   "fs/exofs/ore.c",
+   "fs/exofs/ore_raid.c",
+   "fs/gfs2/lops.c",
+   "fs/jfs/jfs_logmgr.c",
+   "fs/logfs/dev_bdev.c",
+   "include/linux/bio.h",
+   "include/linux/blk_types.h",
+   "include/trace/events/block.h",
+   "mm/bounce.c",
+   "mm/page_io.c"
+  ],
+  "entropy": 3.5383801462510474,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/scsi/mpt2sas",
+   "fs/logfs",
+   "fs/gfs2",
+   "drivers/scsi/libsas",
+   "fs/jfs",
+   "drivers/block/aoe",
+   "fs",
+   "block",
+   "drivers/message/fusion",
+   "drivers/s390/block",
+   "drivers/block",
+   "fs/btrfs",
+   "include/linux",
+   "fs/exofs",
+   "mm",
+   "include/trace/events",
+   "drivers/md"
+  ],
+  "mod_sys": [
+   "fs",
+   "block",
+   "drivers",
+   "mm",
+   "include"
+  ],
+  "num_mod_dirs": 17,
+  "num_mod_sys": 5,
+  "author": "Jens Axboe",
+  "author_email": "axboe@kernel.dk",
+  "committer": "Jens Axboe",
+  "committer_email": "axboe@kernel.dk",
+  "author_date": "2013-03-24 21:38:59 -0600",
+  "committer_date": "2013-03-24 21:38:59 -0600"
+ },
+ "6e997bb894beef128fcfe1679e0830f97dee6dc2": {
+  "num_adds_if": 319,
+  "num_dels_if": 176,
+  "num_mod_total_if": 495,
+  "num_adds_loop": 70,
+  "num_dels_loop": 54,
+  "num_mod_total_loop": 124,
+  "file_hash": "6e997bb894beef128fcfe1679e0830f97dee6dc2",
+  "num_adds": 3161,
+  "num_dels": 1599,
+  "num_mod_lns_total": 4760,
+  "num_mod_files": 300,
+  "is_merge": true,
+  "parents": [
+   "c6cc9fc9d42e",
+   "92413a9bee12"
+  ],
+  "mod_files_lst": [
+   "CREDITS",
+   "Documentation/hwmon/lm75",
+   "Documentation/i2c/busses/i2c-diolan-u2c",
+   "Documentation/sound/alsa/ALSA-Configuration.txt",
+   "Documentation/sound/alsa/seq_oss.html",
+   "MAINTAINERS",
+   "Makefile",
+   "arch/arm/Kconfig",
+   "arch/arm/boot/dts/at91sam9x5.dtsi",
+   "arch/arm/boot/dts/exynos4.dtsi",
+   "arch/arm/boot/dts/exynos5440.dtsi",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/lib/memset.S",
+   "arch/arm/mach-at91/include/mach/gpio.h",
+   "arch/arm/mach-at91/irq.c",
+   "arch/arm/mach-at91/pm.c",
+   "arch/arm/mach-davinci/dma.c",
+   "arch/arm/mach-footbridge/Kconfig",
+   "arch/arm/mach-imx/clk-imx35.c",
+   "arch/arm/mach-imx/imx25-dt.c",
+   "arch/arm/mach-mmp/gplugd.c",
+   "arch/arm/mach-s5pv210/clock.c",
+   "arch/arm/mach-s5pv210/mach-goni.c",
+   "arch/arm/mach-shmobile/board-marzen.c",
+   "arch/arm/net/bpf_jit_32.c",
+   "arch/arm64/Kconfig",
+   "arch/arm64/Kconfig.debug",
+   "arch/arm64/configs/defconfig",
+   "arch/arm64/include/asm/ucontext.h",
+   "arch/arm64/kernel/arm64ksyms.c",
+   "arch/arm64/kernel/signal32.c",
+   "arch/powerpc/Kconfig",
+   "arch/powerpc/include/asm/mmu-hash64.h",
+   "arch/powerpc/kernel/cputable.c",
+   "arch/powerpc/kernel/exceptions-64s.S",
+   "arch/powerpc/kernel/prom_init.c",
+   "arch/powerpc/kernel/ptrace.c",
+   "arch/powerpc/kvm/book3s_64_mmu_host.c",
+   "arch/powerpc/mm/hash_utils_64.c",
+   "arch/powerpc/mm/mmu_context_hash64.c",
+   "arch/powerpc/mm/pgtable_64.c",
+   "arch/powerpc/mm/slb_low.S",
+   "arch/powerpc/mm/tlb_hash64.c",
+   "arch/powerpc/perf/power7-pmu.c",
+   "arch/powerpc/platforms/85xx/sgy_cts1000.c",
+   "arch/powerpc/platforms/Kconfig.cputype",
+   "arch/s390/include/asm/eadm.h",
+   "arch/s390/include/asm/tlbflush.h",
+   "arch/s390/kernel/entry.S",
+   "arch/s390/kernel/entry64.S",
+   "arch/s390/kernel/setup.c",
+   "arch/sparc/Kconfig",
+   "arch/sparc/include/asm/spitfire.h",
+   "arch/sparc/kernel/cpu.c",
+   "arch/sparc/kernel/head_64.S",
+   "arch/sparc/kernel/leon_pci_grpci2.c",
+   "arch/tile/configs/tilegx_defconfig",
+   "arch/tile/configs/tilepro_defconfig",
+   "arch/x86/include/asm/kprobes.h",
+   "arch/x86/include/asm/kvm_host.h",
+   "arch/x86/kernel/cpu/perf_event_intel.c",
+   "arch/x86/kernel/kprobes/core.c",
+   "arch/x86/kvm/x86.c",
+   "drivers/amba/tegra-ahb.c",
+   "drivers/ata/Kconfig",
+   "drivers/ata/ahci.c",
+   "drivers/ata/ata_piix.c",
+   "drivers/ata/libata-acpi.c",
+   "drivers/ata/pata_samsung_cf.c",
+   "drivers/ata/sata_fsl.c",
+   "drivers/block/nvme.c",
+   "drivers/bluetooth/ath3k.c",
+   "drivers/bluetooth/btusb.c",
+   "drivers/clk/clk-vt8500.c",
+   "drivers/edac/amd64_edac.c",
+   "drivers/edac/edac_mc.c",
+   "drivers/edac/edac_mc_sysfs.c",
+   "drivers/gpu/drm/drm_edid.c",
+   "drivers/gpu/drm/i915/i915_debugfs.c",
+   "drivers/gpu/drm/i915/i915_gem_execbuffer.c",
+   "drivers/gpu/drm/i915/intel_dp.c",
+   "drivers/gpu/drm/i915/intel_i2c.c",
+   "drivers/gpu/drm/mgag200/mgag200_mode.c",
+   "drivers/gpu/drm/nouveau/core/core/object.c",
+   "drivers/gpu/drm/nouveau/core/include/subdev/therm.h",
+   "drivers/gpu/drm/nouveau/core/subdev/therm/base.c",
+   "drivers/gpu/drm/nouveau/core/subdev/therm/ic.c",
+   "drivers/gpu/drm/nouveau/core/subdev/therm/nv40.c",
+   "drivers/gpu/drm/nouveau/core/subdev/therm/priv.h",
+   "drivers/gpu/drm/nouveau/core/subdev/therm/temp.c",
+   "drivers/gpu/drm/nouveau/nouveau_pm.c",
+   "drivers/gpu/drm/nouveau/nv50_display.c",
+   "drivers/gpu/drm/radeon/ni.c",
+   "drivers/gpu/drm/radeon/radeon_benchmark.c",
+   "drivers/gpu/drm/radeon/si.c",
+   "drivers/hwmon/lm75.h",
+   "drivers/i2c/Kconfig",
+   "drivers/i2c/busses/Kconfig",
+   "drivers/i2c/busses/i2c-ismt.c",
+   "drivers/i2c/busses/i2c-tegra.c",
+   "drivers/i2c/muxes/i2c-mux-pca9541.c",
+   "drivers/infiniband/hw/cxgb4/cm.c",
+   "drivers/input/joystick/analog.c",
+   "drivers/isdn/hisax/Kconfig",
+   "drivers/md/dm-bufio.c",
+   "drivers/md/dm-cache-metadata.c",
+   "drivers/md/dm-cache-metadata.h",
+   "drivers/md/dm-cache-policy-cleaner.c",
+   "drivers/md/dm-cache-policy-internal.h",
+   "drivers/md/dm-cache-policy-mq.c",
+   "drivers/md/dm-cache-policy.c",
+   "drivers/md/dm-cache-policy.h",
+   "drivers/md/dm-cache-target.c",
+   "drivers/md/dm-thin.c",
+   "drivers/md/dm-verity.c",
+   "drivers/md/md.c",
+   "drivers/md/md.h",
+   "drivers/md/persistent-data/dm-btree-remove.c",
+   "drivers/md/raid5.c",
+   "drivers/md/raid5.h",
+   "drivers/mtd/bcm47xxpart.c",
+   "drivers/mtd/nand/nand_base.c",
+   "drivers/mtd/nand/nand_ids.c",
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/ethernet/broadcom/bnx2x/bnx2x_cmn.c",
+   "drivers/net/ethernet/broadcom/bnx2x/bnx2x_stats.h",
+   "drivers/net/ethernet/broadcom/tg3.c",
+   "drivers/net/ethernet/chelsio/cxgb4/t4_hw.c",
+   "drivers/net/ethernet/dec/tulip/Kconfig",
+   "drivers/net/ethernet/freescale/fec.c",
+   "drivers/net/ethernet/freescale/fec.h",
+   "drivers/net/ethernet/sfc/nic.c",
+   "drivers/net/ethernet/ti/cpsw.c",
+   "drivers/net/ethernet/ti/davinci_emac.c",
+   "drivers/net/netconsole.c",
+   "drivers/net/usb/Kconfig",
+   "drivers/net/usb/cdc_mbim.c",
+   "drivers/net/usb/cdc_ncm.c",
+   "drivers/net/usb/qmi_wwan.c",
+   "drivers/net/wireless/mwifiex/join.c",
+   "drivers/net/wireless/rt2x00/Kconfig",
+   "drivers/net/wireless/rt2x00/rt2800pci.c",
+   "drivers/net/wireless/rtlwifi/rtl8192cu/hw.c",
+   "drivers/pci/rom.c",
+   "drivers/pinctrl/pinctrl-at91.c",
+   "drivers/rtc/rtc-at91rm9200.c",
+   "drivers/rtc/rtc-at91rm9200.h",
+   "drivers/rtc/rtc-da9052.c",
+   "drivers/s390/block/scm_blk.c",
+   "drivers/s390/block/scm_blk.h",
+   "drivers/s390/block/scm_drv.c",
+   "drivers/s390/char/sclp_cmd.c",
+   "drivers/s390/cio/chsc.c",
+   "drivers/s390/cio/chsc.h",
+   "drivers/s390/cio/scm.c",
+   "drivers/s390/net/qeth_core.h",
+   "drivers/s390/net/qeth_core_main.c",
+   "drivers/s390/net/qeth_l3_main.c",
+   "drivers/s390/net/qeth_l3_sys.c",
+   "drivers/target/iscsi/iscsi_target_auth.c",
+   "drivers/target/target_core_file.h",
+   "drivers/target/target_core_pscsi.c",
+   "drivers/target/target_core_sbc.c",
+   "drivers/target/target_core_tpg.c",
+   "drivers/thermal/dove_thermal.c",
+   "drivers/thermal/exynos_thermal.c",
+   "drivers/thermal/kirkwood_thermal.c",
+   "drivers/thermal/rcar_thermal.c",
+   "drivers/tty/serial/sunsu.c",
+   "drivers/usb/class/cdc-acm.c",
+   "drivers/usb/core/hcd-pci.c",
+   "drivers/usb/gadget/f_rndis.c",
+   "drivers/usb/gadget/g_ffs.c",
+   "drivers/usb/gadget/net2272.c",
+   "drivers/usb/gadget/net2280.c",
+   "drivers/usb/gadget/u_serial.c",
+   "drivers/usb/gadget/udc-core.c",
+   "drivers/usb/host/ehci-hcd.c",
+   "drivers/usb/host/ehci-hub.c",
+   "drivers/usb/host/ehci-q.c",
+   "drivers/usb/host/ehci-timer.c",
+   "drivers/usb/host/xhci.c",
+   "drivers/usb/host/xhci.h",
+   "drivers/usb/musb/da8xx.c",
+   "drivers/usb/musb/musb_gadget.c",
+   "drivers/usb/serial/ark3116.c",
+   "drivers/usb/serial/ch341.c",
+   "drivers/usb/serial/cypress_m8.c",
+   "drivers/usb/serial/f81232.c",
+   "drivers/usb/serial/ftdi_sio.c",
+   "drivers/usb/serial/garmin_gps.c",
+   "drivers/usb/serial/io_edgeport.c",
+   "drivers/usb/serial/io_ti.c",
+   "drivers/usb/serial/mct_u232.c",
+   "drivers/usb/serial/mos7840.c",
+   "drivers/usb/serial/oti6858.c",
+   "drivers/usb/serial/pl2303.c",
+   "drivers/usb/serial/quatech2.c",
+   "drivers/usb/serial/spcp8x5.c",
+   "drivers/usb/serial/ssu100.c",
+   "drivers/usb/serial/ti_usb_3410_5052.c",
+   "drivers/usb/serial/usb-serial.c",
+   "drivers/usb/storage/unusual_devs.h",
+   "drivers/vfio/pci/vfio_pci_config.c",
+   "drivers/vfio/pci/vfio_pci_intrs.c",
+   "drivers/vhost/net.c",
+   "drivers/vhost/tcm_vhost.c",
+   "drivers/video/atmel_lcdfb.c",
+   "drivers/video/ep93xx-fb.c",
+   "drivers/watchdog/sp5100_tco.c",
+   "drivers/watchdog/sp5100_tco.h",
+   "fs/cifs/asn1.c",
+   "fs/cifs/cifsfs.c",
+   "fs/cifs/cifsfs.h",
+   "fs/cifs/file.c",
+   "fs/cifs/inode.c",
+   "fs/cifs/netmisc.c",
+   "fs/ext4/ext4.h",
+   "fs/ext4/extents.c",
+   "fs/ext4/extents_status.c",
+   "fs/ext4/extents_status.h",
+   "fs/ext4/ialloc.c",
+   "fs/ext4/inode.c",
+   "fs/ext4/mballoc.c",
+   "fs/ext4/move_extent.c",
+   "fs/ext4/page-io.c",
+   "fs/ext4/resize.c",
+   "fs/ext4/super.c",
+   "fs/jbd2/transaction.c",
+   "fs/proc/inode.c",
+   "fs/xfs/xfs_buf.c",
+   "fs/xfs/xfs_iomap.c",
+   "include/drm/drm_pciids.h",
+   "include/linux/edac.h",
+   "include/linux/hash.h",
+   "include/linux/irq_work.h",
+   "include/linux/kernel.h",
+   "include/linux/mmzone.h",
+   "include/linux/mtd/nand.h",
+   "include/linux/nvme.h",
+   "include/linux/printk.h",
+   "include/linux/skbuff.h",
+   "include/linux/usb/cdc_ncm.h",
+   "include/linux/usb/serial.h",
+   "include/linux/usb/ulpi.h",
+   "include/net/dst.h",
+   "include/net/inet_frag.h",
+   "include/net/ip_fib.h",
+   "include/video/atmel_lcdc.h",
+   "ipc/mqueue.c",
+   "kernel/events/core.c",
+   "kernel/printk.c",
+   "kernel/sys.c",
+   "kernel/trace/ftrace.c",
+   "kernel/trace/trace.c",
+   "kernel/trace/trace.h",
+   "kernel/trace/trace_irqsoff.c",
+   "kernel/trace/trace_sched_wakeup.c",
+   "kernel/workqueue.c",
+   "lib/bust_spinlocks.c",
+   "lib/dma-debug.c",
+   "mm/hugetlb.c",
+   "mm/memory_hotplug.c",
+   "net/batman-adv/bat_iv_ogm.c",
+   "net/bridge/br_netlink.c",
+   "net/core/dev.c",
+   "net/core/rtnetlink.c",
+   "net/ipv4/inet_fragment.c",
+   "net/ipv4/ip_fragment.c",
+   "net/ipv4/ip_gre.c",
+   "net/ipv4/ip_options.c",
+   "net/ipv4/tcp.c",
+   "net/ipv4/tcp_ipv4.c",
+   "net/ipv4/tcp_output.c",
+   "net/ipv6/netfilter/nf_conntrack_reasm.c",
+   "net/ipv6/reassembly.c",
+   "net/ipv6/tcp_ipv6.c",
+   "net/nfc/llcp/llcp.c",
+   "net/nfc/llcp/sock.c",
+   "net/openvswitch/actions.c",
+   "net/openvswitch/datapath.c",
+   "net/openvswitch/flow.c",
+   "net/openvswitch/vport-netdev.c",
+   "net/openvswitch/vport.c",
+   "net/sctp/associola.c",
+   "net/sctp/sm_statefuns.c",
+   "security/selinux/xfrm.c",
+   "sound/pci/hda/hda_codec.c",
+   "sound/pci/hda/hda_generic.c",
+   "sound/pci/hda/hda_intel.c",
+   "sound/pci/hda/patch_cirrus.c",
+   "sound/pci/hda/patch_conexant.c",
+   "sound/usb/mixer.c",
+   "tools/lib/traceevent/Makefile",
+   "tools/perf/Makefile",
+   "tools/perf/bench/bench.h",
+   "tools/perf/builtin-record.c",
+   "tools/perf/util/hist.h",
+   "tools/perf/util/strlist.c",
+   "virt/kvm/ioapic.c"
+  ],
+  "entropy": 7.040433674799214,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/ethernet/sfc",
+   "include/net",
+   "drivers/pci",
+   "drivers/gpu/drm/mgag200",
+   "net/nfc/llcp",
+   "drivers/video",
+   "net/ipv4",
+   "arch/arm64/configs",
+   "drivers/net/ethernet/chelsio/cxgb4",
+   "arch/powerpc",
+   "arch/powerpc/perf",
+   "drivers/tty/serial",
+   "arch/arm64/kernel",
+   "arch/sparc/include/asm",
+   "kernel",
+   "drivers/usb/gadget",
+   "drivers/gpu/drm",
+   "Documentation/hwmon",
+   "arch/arm/boot/dts",
+   "security/selinux",
+   "drivers/net/wireless/mwifiex",
+   "drivers/vhost",
+   "arch/s390/include/asm",
+   "net/bridge",
+   "net/sctp",
+   "drivers/net",
+   "ipc",
+   "drivers/edac",
+   "drivers/ata",
+   "drivers/net/usb",
+   "tools/lib/traceevent",
+   "drivers/gpu/drm/i915",
+   "drivers/usb/host",
+   "arch/powerpc/platforms",
+   "fs/xfs",
+   "drivers/net/ethernet/dec/tulip",
+   "drivers/s390/char",
+   "arch/arm/mach-mmp",
+   "drivers/net/ethernet/broadcom/bnx2x",
+   "arch/powerpc/platforms/85xx",
+   "drivers/gpu/drm/nouveau/core/core",
+   "fs/jbd2",
+   "drivers/net/ethernet/broadcom",
+   "drivers/md",
+   "drivers/usb/class",
+   "drivers/net/wireless/rt2x00",
+   "arch/powerpc/include/asm",
+   "drivers/usb/musb",
+   "kernel/trace",
+   "drivers/thermal",
+   "include/linux/mtd",
+   "arch/x86/kernel/kprobes",
+   "include/linux/usb",
+   "drivers/net/ethernet/freescale",
+   "drivers/i2c/muxes",
+   "drivers/md/persistent-data",
+   "drivers/isdn/hisax",
+   "arch/arm/mach-davinci",
+   "arch/arm/mach-shmobile",
+   "arch/tile/configs",
+   "arch/arm/mach-s5pv210",
+   "drivers/i2c",
+   "include/video",
+   "mm",
+   "include/drm",
+   "drivers/net/wireless/rtlwifi/rtl8192cu",
+   "arch/x86/kvm",
+   "arch/arm64/include/asm",
+   "drivers/s390/net",
+   "drivers/clk",
+   "drivers/s390/block",
+   "drivers/block",
+   "drivers/net/ethernet/ti",
+   "drivers/target",
+   "net/ipv6/netfilter",
+   "net/ipv6",
+   "drivers/vfio/pci",
+   "tools/perf",
+   "virt/kvm",
+   "drivers/gpu/drm/nouveau/core/subdev/therm",
+   "arch/sparc",
+   "drivers/usb/storage",
+   "include/linux",
+   "lib",
+   "arch/powerpc/mm",
+   "drivers/watchdog",
+   "/",
+   "arch/x86/kernel/cpu",
+   "arch/powerpc/kernel",
+   "drivers/gpu/drm/radeon",
+   "arch/arm/mach-at91/include/mach",
+   "drivers/infiniband/hw/cxgb4",
+   "arch/arm",
+   "arch/x86/include/asm",
+   "arch/arm64",
+   "drivers/s390/cio",
+   "net/openvswitch",
+   "Documentation/i2c/busses",
+   "drivers/mtd",
+   "drivers/pinctrl",
+   "arch/arm/lib",
+   "drivers/target/iscsi",
+   "drivers/net/bonding",
+   "sound/usb",
+   "net/core",
+   "drivers/mtd/nand",
+   "fs/cifs",
+   "arch/arm/net",
+   "arch/arm/mach-footbridge",
+   "drivers/hwmon",
+   "kernel/events",
+   "tools/perf/bench",
+   "arch/arm/kernel",
+   "tools/perf/util",
+   "sound/pci/hda",
+   "arch/arm/mach-imx",
+   "arch/arm/mach-at91",
+   "drivers/i2c/busses",
+   "arch/powerpc/kvm",
+   "drivers/rtc",
+   "drivers/amba",
+   "drivers/usb/core",
+   "Documentation/sound/alsa",
+   "net/batman-adv",
+   "drivers/usb/serial",
+   "fs/ext4",
+   "drivers/input/joystick",
+   "drivers/gpu/drm/nouveau/core/include/subdev",
+   "arch/s390/kernel",
+   "drivers/bluetooth",
+   "arch/sparc/kernel",
+   "drivers/gpu/drm/nouveau",
+   "fs/proc",
+   "/",
+   "/",
+   "/"
+  ],
+  "mod_sys": [
+   "ipc",
+   "security",
+   "virt",
+   "tools",
+   "net",
+   "fs",
+   "Documentation",
+   "lib",
+   "drivers",
+   "kernel",
+   "mm",
+   "arch",
+   "include",
+   "sound"
+  ],
+  "num_mod_dirs": 136,
+  "num_mod_sys": 14,
+  "author": "Anton Vorontsov",
+  "author_email": "anton@enomsg.org",
+  "committer": "Anton Vorontsov",
+  "committer_email": "anton@enomsg.org",
+  "author_date": "2013-03-24 20:06:35 -0700",
+  "committer_date": "2013-03-24 20:06:35 -0700"
+ },
+ "92413a9bee1299cedcc0e5cfbfbc6b42496fb817": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "92413a9bee1299cedcc0e5cfbfbc6b42496fb817",
+  "num_adds": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8bb9660418e0"
+  ],
+  "mod_files_lst": [
+   "drivers/power/pm2301_charger.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Lars-Peter Clausen <lars@metafoo.de>",
+   "Signed-off-by: Arnd Bergmann <arnd@arndb.de>",
+   "Signed-off-by: Anton Vorontsov <anton@enomsg.org>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Linus Walleij <linus.walleij@linaro.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Lee Jones <lee.jones@linaro.org>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/power"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Lars-Peter Clausen",
+  "author_email": "lars@metafoo.de",
+  "committer": "Anton Vorontsov",
+  "committer_email": "anton@enomsg.org",
+  "author_date": "2013-03-10 14:34:08 +0100",
+  "committer_date": "2013-03-24 19:55:03 -0700"
+ },
+ "ea6a4581ce11bd1a5dca421c01b11d1ff2867c2f": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ea6a4581ce11bd1a5dca421c01b11d1ff2867c2f",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2cbb14fb7065"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/Kconfig"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Paul Bolle <pebolle@tiscali.nl>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Paul Bolle",
+  "author_email": "pebolle@tiscali.nl",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-11 10:53:48 +0000",
+  "committer_date": "2013-03-24 23:56:41 +0100"
+ },
+ "2cbb14fb7065b0cc08ef03ee69dce93d65197c29": {
+  "num_adds_if": 1,
+  "num_dels_if": 6,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2cbb14fb7065b0cc08ef03ee69dce93d65197c29",
+  "num_adds": 35,
+  "num_dels": 52,
+  "num_mod_lns_total": 87,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "6b772e8f9e9d"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/scan.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Toshi Kani <toshi.kani@hp.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Toshi Kani",
+  "author_email": "toshi.kani@hp.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-05 22:33:31 +0000",
+  "committer_date": "2013-03-24 23:49:39 +0100"
+ },
+ "6b772e8f9e9deb3528402ac14fd0aa186d84ae75": {
+  "num_adds_if": 7,
+  "num_dels_if": 6,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6b772e8f9e9deb3528402ac14fd0aa186d84ae75",
+  "num_adds": 52,
+  "num_dels": 33,
+  "num_mod_lns_total": 85,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "c0af41757f40"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/scan.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Toshi Kani <toshi.kani@hp.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Toshi Kani",
+  "author_email": "toshi.kani@hp.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-04 21:30:43 +0000",
+  "committer_date": "2013-03-24 23:49:39 +0100"
+ },
+ "c0af41757f406651cdd32de3e915753746c2948a": {
+  "num_adds_if": 6,
+  "num_dels_if": 6,
+  "num_mod_total_if": 12,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c0af41757f406651cdd32de3e915753746c2948a",
+  "num_adds": 45,
+  "num_dels": 44,
+  "num_mod_lns_total": 89,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "d4e1a692e9e8"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/internal.h",
+   "drivers/acpi/power.c",
+   "drivers/acpi/scan.c"
+  ],
+  "entropy": 0.30946118858769384,
+  "ppl_signed_off": [
+   "Signed-off-by: Toshi Kani <toshi.kani@hp.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Toshi Kani",
+  "author_email": "toshi.kani@hp.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-04 21:30:42 +0000",
+  "committer_date": "2013-03-24 23:49:38 +0100"
+ },
+ "d4e1a692e9e85f9cbee090ea8d6158b133d32157": {
+  "num_adds_if": 15,
+  "num_dels_if": 16,
+  "num_mod_total_if": 31,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d4e1a692e9e85f9cbee090ea8d6158b133d32157",
+  "num_adds": 59,
+  "num_dels": 57,
+  "num_mod_lns_total": 116,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "b09753ec8091"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/scan.c",
+   "drivers/acpi/video_detect.c",
+   "drivers/gpu/drm/i915/intel_opregion.c",
+   "include/acpi/acpi_bus.h",
+   "include/linux/acpi.h"
+  ],
+  "entropy": 1.626191674689053,
+  "ppl_signed_off": [
+   "Signed-off-by: Toshi Kani <toshi.kani@hp.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi",
+   "drivers/gpu/drm/i915",
+   "include/linux",
+   "include/acpi"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 4,
+  "num_mod_sys": 2,
+  "author": "Toshi Kani",
+  "author_email": "toshi.kani@hp.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-04 21:30:41 +0000",
+  "committer_date": "2013-03-24 23:49:38 +0100"
+ },
+ "e2cb5f08469c991b187f66fa627d7673c7f3361b": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e2cb5f08469c991b187f66fa627d7673c7f3361b",
+  "num_adds": 2,
+  "num_dels": 3,
+  "num_mod_lns_total": 5,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "82160dd8ba4d"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/bus.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Andrei Epure <epure.andrei@gmail.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Andrei Epure",
+  "author_email": "epure.andrei@gmail.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-11 08:20:16 +0000",
+  "committer_date": "2013-03-24 23:31:33 +0100"
+ },
+ "82160dd8ba4db5674d1d6730afe8d9b499fb7a4a": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "82160dd8ba4db5674d1d6730afe8d9b499fb7a4a",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "771d09b3c4c4"
+  ],
+  "mod_files_lst": [
+   "include/acpi/acpi_drivers.h"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Toshi Kani <toshi.kani@hp.com>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/acpi"
+  ],
+  "mod_sys": [
+   "include"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Toshi Kani",
+  "author_email": "toshi.kani@hp.com",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-08 19:17:10 +0000",
+  "committer_date": "2013-03-24 23:28:02 +0100"
+ },
+ "771d09b3c4c45d4d534a83a68e6331b97fd82e15": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "771d09b3c4c45d4d534a83a68e6331b97fd82e15",
+  "num_adds": 8,
+  "num_dels": 0,
+  "num_mod_lns_total": 8,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8bb9660418e0"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/video.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Gustavo Maciel Dias Vieira <gustavo@sagui.org>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Gustavo Maciel Dias Vieira",
+  "author_email": "gustavo@sagui.org",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-04 15:23:37 +0000",
+  "committer_date": "2013-03-24 23:01:46 +0100"
+ },
+ "f5a03cf461f225d03ec7bf18b10b74e6f620cb49": {
+  "num_adds_if": 12,
+  "num_dels_if": 10,
+  "num_mod_total_if": 22,
+  "num_adds_loop": 3,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 6,
+  "file_hash": "f5a03cf461f225d03ec7bf18b10b74e6f620cb49",
+  "num_adds": 105,
+  "num_dels": 72,
+  "num_mod_lns_total": 177,
+  "num_mod_files": 1,
+  "is_merge": true,
+  "parents": [
+   "7b99a99390ca",
+   "8559e7f0694e"
+  ],
+  "mod_files_lst": [
+   "drivers/firewire/net.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/firewire"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "David S. Miller",
+  "author_email": "davem@davemloft.net",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-24 17:31:34 -0400",
+  "committer_date": "2013-03-24 17:31:34 -0400"
+ },
+ "7ebe183c6d444ef5587d803b64a1f4734b18c564": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7ebe183c6d444ef5587d803b64a1f4734b18c564",
+  "num_adds": 2,
+  "num_dels": 5,
+  "num_mod_lns_total": 7,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8fe7f99a9e11"
+  ],
+  "mod_files_lst": [
+   "net/ipv4/tcp_input.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Yuchung Cheng <ycheng@google.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Neal Cardwell <ncardwell@google.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/ipv4"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Yuchung Cheng",
+  "author_email": "ycheng@google.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-24 10:42:25 +0000",
+  "committer_date": "2013-03-24 17:27:28 -0400"
+ },
+ "8fe7f99a9e11a43183bc27420309ae105e1fec1a": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "8fe7f99a9e11a43183bc27420309ae105e1fec1a",
+  "num_adds": 9,
+  "num_dels": 9,
+  "num_mod_lns_total": 18,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "9b46922e15f4"
+  ],
+  "mod_files_lst": [
+   "drivers/net/ethernet/broadcom/bnx2x/bnx2x_dcb.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Kumar Amit Mehta <gmate.amit@gmail.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Dmitry Kravkov <dmitry@broadcom.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/ethernet/broadcom/bnx2x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Kumar Amit Mehta",
+  "author_email": "gmate.amit@gmail.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-23 20:10:25 +0000",
+  "committer_date": "2013-03-24 17:27:28 -0400"
+ },
+ "9b46922e15f4d9d2aedcd320c3b7f7f54d956da7": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9b46922e15f4d9d2aedcd320c3b7f7f54d956da7",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "4a7df340ed1b"
+  ],
+  "mod_files_lst": [
+   "net/bridge/br_fdb.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hong Zhiguo <honkiko@gmail.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/bridge"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hong zhi guo",
+  "author_email": "honkiko@gmail.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-23 02:27:50 +0000",
+  "committer_date": "2013-03-24 17:27:28 -0400"
+ },
+ "4a7df340ed1bac190c124c1601bfc10cde9fb4fb": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "4a7df340ed1bac190c124c1601bfc10cde9fb4fb",
+  "num_adds": 7,
+  "num_dels": 7,
+  "num_mod_lns_total": 14,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "9979a55a8338"
+  ],
+  "mod_files_lst": [
+   "net/8021q/vlan.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Cong Wang <amwang@redhat.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Eric Dumazet <edumazet@google.com>"
+  ],
+  "ppl_cc": [
+   "Cc: Patrick McHardy <kaber@trash.net>",
+   "Cc: \"David S. Miller\" <davem@davemloft.net>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/8021q"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Cong Wang",
+  "author_email": "amwang@redhat.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 19:14:07 +0000",
+  "committer_date": "2013-03-24 17:27:28 -0400"
+ },
+ "9979a55a833883242e3a29f3596676edd7199c46": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9979a55a833883242e3a29f3596676edd7199c46",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "f4541d60a449"
+  ],
+  "mod_files_lst": [
+   "net/core/dev.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Eric Dumazet <edumazet@google.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Laurent Chavey <chavey@google.com>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/core"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Eric Dumazet",
+  "author_email": "edumazet@google.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 14:38:28 +0000",
+  "committer_date": "2013-03-24 17:27:27 -0400"
+ },
+ "7b99a99390ca328f4678ac04358c94744ab0f8b4": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7b99a99390ca328f4678ac04358c94744ab0f8b4",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "5e95329b701c"
+  ],
+  "mod_files_lst": [
+   "net/bridge/br_netlink.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hong Zhiguo <honkiko@gmail.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/bridge"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hong zhi guo",
+  "author_email": "honkiko@gmail.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-24 03:26:47 +0000",
+  "committer_date": "2013-03-24 17:16:30 -0400"
+ },
+ "5e95329b701c4edf6c4d72487ec0369fa148c0bd": {
+  "num_adds_if": 25,
+  "num_dels_if": 1,
+  "num_mod_total_if": 26,
+  "num_adds_loop": 5,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 5,
+  "file_hash": "5e95329b701c4edf6c4d72487ec0369fa148c0bd",
+  "num_adds": 319,
+  "num_dels": 5,
+  "num_mod_lns_total": 324,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "eec2e6185ff6"
+  ],
+  "mod_files_lst": [
+   "Documentation/devicetree/bindings/net/dsa/dsa.txt",
+   "net/dsa/dsa.c"
+  ],
+  "entropy": 0.8566256696669439,
+  "ppl_signed_off": [
+   "Signed-off-by: Florian Fainelli <florian@openwrt.org>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/dsa",
+   "Documentation/devicetree/bindings/net/dsa"
+  ],
+  "mod_sys": [
+   "Documentation",
+   "net"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Florian Fainelli",
+  "author_email": "florian@openwrt.org",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 10:50:50 +0000",
+  "committer_date": "2013-03-24 17:16:30 -0400"
+ },
+ "eec2e6185ff6eab18c2cae9b01a9fbc5c33248fc": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "eec2e6185ff6eab18c2cae9b01a9fbc5c33248fc",
+  "num_adds": 23,
+  "num_dels": 2,
+  "num_mod_lns_total": 25,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "be991971d53e"
+  ],
+  "mod_files_lst": [
+   "include/net/ipv6.h",
+   "net/ipv6/reassembly.c"
+  ],
+  "entropy": 0.4021791902022728,
+  "ppl_signed_off": [
+   "Signed-off-by: Hannes Frederic Sowa <hannes@stressinduktion.org>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Eric Dumazet <eric.dumazet@gmail.com>",
+   "Cc: Jesper Dangaard Brouer <jbrouer@redhat.com>",
+   "Cc: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/net",
+   "net/ipv6"
+  ],
+  "mod_sys": [
+   "net",
+   "include"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hannes Frederic Sowa",
+  "author_email": "hannes@stressinduktion.org",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 08:24:44 +0000",
+  "committer_date": "2013-03-24 17:16:30 -0400"
+ },
+ "be991971d53e0f5b6d13e3940192054216590072": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "be991971d53e0f5b6d13e3940192054216590072",
+  "num_adds": 35,
+  "num_dels": 30,
+  "num_mod_lns_total": 65,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "63998ac24f83"
+  ],
+  "mod_files_lst": [
+   "include/net/inet_frag.h",
+   "net/ipv4/inet_fragment.c",
+   "net/ipv4/ip_fragment.c"
+  ],
+  "entropy": 1.4884119477874154,
+  "ppl_signed_off": [
+   "Signed-off-by: Hannes Frederic Sowa <hannes@stressinduktion.org>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Eric Dumazet <eric.dumazet@gmail.com>",
+   "Cc: Jesper Dangaard Brouer <jbrouer@redhat.com>",
+   "Cc: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/net",
+   "net/ipv4"
+  ],
+  "mod_sys": [
+   "net",
+   "include"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hannes Frederic Sowa",
+  "author_email": "hannes@stressinduktion.org",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 08:24:37 +0000",
+  "committer_date": "2013-03-24 17:16:30 -0400"
+ },
+ "63998ac24f8370caf99e433483532bab8368eb7e": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "63998ac24f8370caf99e433483532bab8368eb7e",
+  "num_adds": 9,
+  "num_dels": 0,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "0465277f6b3f"
+  ],
+  "mod_files_lst": [
+   "include/net/netns/ipv6.h",
+   "net/ipv6/addrconf.c"
+  ],
+  "entropy": 0.5032583347756457,
+  "ppl_signed_off": [
+   "Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Junwei Zhang <junwei.zhang@6wind.com>",
+   "Reported-by: Hongjun Li <hongjun.li@6wind.com>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/net/netns",
+   "net/ipv6"
+  ],
+  "mod_sys": [
+   "net",
+   "include"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Nicolas Dichtel",
+  "author_email": "nicolas.dichtel@6wind.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 06:28:43 +0000",
+  "committer_date": "2013-03-24 17:16:29 -0400"
+ },
+ "0465277f6b3fd0535428ae935644ac30ce903de0": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0465277f6b3fd0535428ae935644ac30ce903de0",
+  "num_adds": 10,
+  "num_dels": 1,
+  "num_mod_lns_total": 11,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "976c90b90187"
+  ],
+  "mod_files_lst": [
+   "net/core/rtnetlink.c",
+   "net/ipv4/devinet.c"
+  ],
+  "entropy": 0.9940302114769565,
+  "ppl_signed_off": [
+   "Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Junwei Zhang <junwei.zhang@6wind.com>",
+   "Reported-by: Hongjun Li <hongjun.li@6wind.com>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/core",
+   "net/ipv4"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 1,
+  "author": "Nicolas Dichtel",
+  "author_email": "nicolas.dichtel@6wind.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-22 06:28:42 +0000",
+  "committer_date": "2013-03-24 17:16:29 -0400"
+ },
+ "976c90b90187f2eb4778d766d52d6ab176714734": {
+  "num_adds_if": 3,
+  "num_dels_if": 2,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "976c90b90187f2eb4778d766d52d6ab176714734",
+  "num_adds": 9,
+  "num_dels": 3,
+  "num_mod_lns_total": 12,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "404b8bed1409"
+  ],
+  "mod_files_lst": [
+   "drivers/net/ethernet/marvell/mv643xx_eth.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Simon Baatz <gmbnomis@gmail.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Florian Fainelli <florian@openwrt.org>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/ethernet/marvell"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Simon Baatz",
+  "author_email": "gmbnomis@gmail.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-24 10:34:00 +0000",
+  "committer_date": "2013-03-24 17:07:15 -0400"
+ },
+ "404b8bed14097fb6fe74cc7fcf72781714ed263a": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "404b8bed14097fb6fe74cc7fcf72781714ed263a",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "1b7c92b90514"
+  ],
+  "mod_files_lst": [
+   "drivers/net/ethernet/marvell/mvmdio.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Simon Baatz <gmbnomis@gmail.com>",
+   "Signed-off-by: David S. Miller <davem@davemloft.net>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Florian Fainelli <florian@openwrt.org>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/ethernet/marvell"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Simon Baatz",
+  "author_email": "gmbnomis@gmail.com",
+  "committer": "David S. Miller",
+  "committer_email": "davem@davemloft.net",
+  "author_date": "2013-03-24 10:33:59 +0000",
+  "committer_date": "2013-03-24 17:07:15 -0400"
+ },
+ "3912a677f68f6084e0a7b6a1a29310ac1b083713": {
+  "num_adds_if": 3,
+  "num_dels_if": 2,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "3912a677f68f6084e0a7b6a1a29310ac1b083713",
+  "num_adds": 11,
+  "num_dels": 7,
+  "num_mod_lns_total": 18,
+  "num_mod_files": 6,
+  "is_merge": true,
+  "parents": [
+   "33b73e9b3ed4",
+   "740924a267e8"
+  ],
+  "mod_files_lst": [
+   "drivers/gpio/gpiolib-of.c",
+   "drivers/pinctrl/mvebu/pinctrl-mvebu.c",
+   "drivers/pinctrl/pinconf.c",
+   "drivers/pinctrl/pinconf.h",
+   "drivers/pinctrl/pinctrl-abx500.c",
+   "drivers/pinctrl/pinmux.c"
+  ],
+  "entropy": 2.4355205042826666,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpio",
+   "drivers/pinctrl",
+   "drivers/pinctrl/mvebu"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 1,
+  "author": "Linus Torvalds",
+  "author_email": "torvalds@linux-foundation.org",
+  "committer": "Linus Torvalds",
+  "committer_email": "torvalds@linux-foundation.org",
+  "author_date": "2013-03-24 10:11:29 -0700",
+  "committer_date": "2013-03-24 10:11:29 -0700"
+ },
+ "af2d68d1be24972a79b1616cf7d4d29137841f87": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "af2d68d1be24972a79b1616cf7d4d29137841f87",
+  "num_adds": 9,
+  "num_dels": 0,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "b781e6be79a3"
+  ],
+  "mod_files_lst": [
+   "drivers/media/platform/vivi.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/platform"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-12 03:56:55 -0300",
+  "committer_date": "2013-03-24 14:11:22 -0300"
+ },
+ "33b73e9b3ed450a000ad55901a92c22d70f3e92e": {
+  "num_adds_if": 8,
+  "num_dels_if": 3,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 6,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 7,
+  "file_hash": "33b73e9b3ed450a000ad55901a92c22d70f3e92e",
+  "num_adds": 139,
+  "num_dels": 63,
+  "num_mod_lns_total": 202,
+  "num_mod_files": 4,
+  "is_merge": true,
+  "parents": [
+   "8bb9660418e0",
+   "b9726d9df826"
+  ],
+  "mod_files_lst": [
+   "arch/x86/kernel/microcode_intel_early.c",
+   "arch/x86/lib/usercopy_64.c",
+   "drivers/firmware/Kconfig",
+   "drivers/firmware/efivars.c"
+  ],
+  "entropy": 1.150349247758729,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/firmware",
+   "arch/x86/lib",
+   "arch/x86/kernel"
+  ],
+  "mod_sys": [
+   "arch",
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 2,
+  "author": "Linus Torvalds",
+  "author_email": "torvalds@linux-foundation.org",
+  "committer": "Linus Torvalds",
+  "committer_email": "torvalds@linux-foundation.org",
+  "author_date": "2013-03-24 10:10:34 -0700",
+  "committer_date": "2013-03-24 10:10:34 -0700"
+ },
+ "b781e6be79a394cd6980e9cd8fd5c25822d152b6": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b781e6be79a394cd6980e9cd8fd5c25822d152b6",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "4e5f1130070e"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/sony-btf-mpx.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Hans Verkuil <hans.verkuil@cisco.com>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mauro Carvalho Chehab",
+  "author_email": "mchehab@redhat.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 13:51:21 -0300",
+  "committer_date": "2013-03-24 14:04:34 -0300"
+ },
+ "4e5f1130070ebfdde1b0ea6277e881404e5f34ce": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4e5f1130070ebfdde1b0ea6277e881404e5f34ce",
+  "num_adds": 25,
+  "num_dels": 0,
+  "num_mod_lns_total": 25,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "81b8cd928494"
+  ],
+  "mod_files_lst": [
+   "Documentation/DocBook/media/v4l/compat.xml",
+   "Documentation/DocBook/media/v4l/v4l2.xml"
+  ],
+  "entropy": 0.9988455359952018,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/DocBook/media/v4l"
+  ],
+  "mod_sys": [
+   "Documentation"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 06:08:00 -0300",
+  "committer_date": "2013-03-24 13:49:46 -0300"
+ },
+ "81b8cd9284945a323009482418c3d80de1d59d25": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "81b8cd9284945a323009482418c3d80de1d59d25",
+  "num_adds": 0,
+  "num_dels": 54,
+  "num_mod_lns_total": 54,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "098cbc38c27d"
+  ],
+  "mod_files_lst": [
+   "include/uapi/linux/videodev2.h"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/uapi/linux"
+  ],
+  "mod_sys": [
+   "include"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-02-15 15:22:56 -0300",
+  "committer_date": "2013-03-24 13:49:43 -0300"
+ },
+ "098cbc38c27dee66e5bc7f088c30b96e5cc96510": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 9,
+  "num_mod_total_loop": 9,
+  "file_hash": "098cbc38c27dee66e5bc7f088c30b96e5cc96510",
+  "num_adds": 2,
+  "num_dels": 460,
+  "num_mod_lns_total": 462,
+  "num_mod_files": 8,
+  "is_merge": false,
+  "parents": [
+   "02fa628217e9"
+  ],
+  "mod_files_lst": [
+   "Documentation/DocBook/media/v4l/common.xml",
+   "Documentation/DocBook/media/v4l/compat.xml",
+   "Documentation/DocBook/media/v4l/v4l2.xml",
+   "Documentation/DocBook/media/v4l/vidioc-enum-dv-presets.xml",
+   "Documentation/DocBook/media/v4l/vidioc-enuminput.xml",
+   "Documentation/DocBook/media/v4l/vidioc-enumoutput.xml",
+   "Documentation/DocBook/media/v4l/vidioc-g-dv-preset.xml",
+   "Documentation/DocBook/media/v4l/vidioc-query-dv-preset.xml"
+  ],
+  "entropy": 1.8217220368055391,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/DocBook/media/v4l"
+  ],
+  "mod_sys": [
+   "Documentation"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 06:09:29 -0300",
+  "committer_date": "2013-03-24 13:49:39 -0300"
+ },
+ "02fa628217e995bd7b1fe8c1b7cc7a510f6b8349": {
+  "num_adds_if": 0,
+  "num_dels_if": 4,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "02fa628217e995bd7b1fe8c1b7cc7a510f6b8349",
+  "num_adds": 2,
+  "num_dels": 47,
+  "num_mod_lns_total": 49,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "6c2afac434f0"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-compat-ioctl32.c",
+   "drivers/media/v4l2-core/v4l2-dev.c",
+   "drivers/media/v4l2-core/v4l2-ioctl.c",
+   "include/media/v4l2-ioctl.h"
+  ],
+  "entropy": 1.4406419867074367,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-02-15 15:21:06 -0300",
+  "committer_date": "2013-03-24 13:49:17 -0300"
+ },
+ "6c2afac434f00267c484239ad9210c1a075e7f16": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6c2afac434f00267c484239ad9210c1a075e7f16",
+  "num_adds": 0,
+  "num_dels": 16,
+  "num_mod_lns_total": 16,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2d80647b6ebd"
+  ],
+  "mod_files_lst": [
+   "include/media/v4l2-subdev.h"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media"
+  ],
+  "mod_sys": [
+   "include"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-02-15 15:19:33 -0300",
+  "committer_date": "2013-03-24 13:38:33 -0300"
+ },
+ "2d80647b6ebd2db6ef1df5e4e3319afd8867580c": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2d80647b6ebd2db6ef1df5e4e3319afd8867580c",
+  "num_adds": 0,
+  "num_dels": 48,
+  "num_mod_lns_total": 48,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "1f1aed2ed445"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-common.c",
+   "include/media/v4l2-common.h"
+  ],
+  "entropy": 0.1460942501201363,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-02-15 15:18:04 -0300",
+  "committer_date": "2013-03-24 13:37:10 -0300"
+ },
+ "1f1aed2ed4450381a322f5e727e89bd21e7a89fe": {
+  "num_adds_if": 4,
+  "num_dels_if": 2,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1f1aed2ed4450381a322f5e727e89bd21e7a89fe",
+  "num_adds": 75,
+  "num_dels": 3,
+  "num_mod_lns_total": 78,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "a000e9a02b58"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/Kconfig",
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 1.3768224336785804,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 10:15:03 -0300",
+  "committer_date": "2013-03-24 13:07:08 -0300"
+ },
+ "a000e9a02b5885b1b69f691c80e346d102f94a88": {
+  "num_adds_if": 7,
+  "num_dels_if": 0,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 4,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 4,
+  "file_hash": "a000e9a02b5885b1b69f691c80e346d102f94a88",
+  "num_adds": 252,
+  "num_dels": 0,
+  "num_mod_lns_total": 252,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "0a6ecbb40ebe"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/tw9906.c"
+  ],
+  "entropy": 0.27797194341938314,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 09:26:40 -0300",
+  "committer_date": "2013-03-24 13:06:39 -0300"
+ },
+ "0a6ecbb40ebe372028088b3e6b71a3adf9b1b674": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0a6ecbb40ebe372028088b3e6b71a3adf9b1b674",
+  "num_adds": 25,
+  "num_dels": 34,
+  "num_mod_lns_total": 59,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "ac41fa2a41ba"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-fw.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 1.690935431534147,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 10:56:20 -0300",
+  "committer_date": "2013-03-24 13:00:54 -0300"
+ },
+ "ac41fa2a41ba2eb224c982c2c8849169aca6310f": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ac41fa2a41ba2eb224c982c2c8849169aca6310f",
+  "num_adds": 4,
+  "num_dels": 2,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "778ca511537d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 10:11:32 -0300",
+  "committer_date": "2013-03-24 12:59:58 -0300"
+ },
+ "778ca511537da58d9154ab8e1c1f0d1bf738aec8": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "778ca511537da58d9154ab8e1c1f0d1bf738aec8",
+  "num_adds": 5,
+  "num_dels": 1,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "7e4bfb9ec066"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.6500224216483541,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 10:47:02 -0300",
+  "committer_date": "2013-03-24 12:59:42 -0300"
+ },
+ "7e4bfb9ec0663d08bcd1c4d10bc13412b0f66d36": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7e4bfb9ec0663d08bcd1c4d10bc13412b0f66d36",
+  "num_adds": 7,
+  "num_dels": 2,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "3e4c8478d4b3"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.5032583347756457,
+  "ppl_signed_off": [
+   "Signed-off-by: Volokh Konstantin <volokh84@gmail.com>",
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Volokh Konstantin",
+  "author_email": "volokh84@gmail.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 07:16:37 -0300",
+  "committer_date": "2013-03-24 12:59:22 -0300"
+ },
+ "3e4c8478d4b3bff3ca6fb36f47e9f1c6600ecde9": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3e4c8478d4b3bff3ca6fb36f47e9f1c6600ecde9",
+  "num_adds": 4,
+  "num_dels": 4,
+  "num_mod_lns_total": 8,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "98ded5904b0d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 18:58:21 -0300",
+  "committer_date": "2013-03-24 12:58:51 -0300"
+ },
+ "98ded5904b0dca23146d4d80ad91ab800f35b576": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "98ded5904b0dca23146d4d80ad91ab800f35b576",
+  "num_adds": 5,
+  "num_dels": 0,
+  "num_mod_lns_total": 5,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "0ee3d4d53e4e"
+  ],
+  "mod_files_lst": [
+   "MAINTAINERS"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "/",
+   "/"
+  ],
+  "mod_sys": [],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 0,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 12:59:44 -0300",
+  "committer_date": "2013-03-24 12:58:28 -0300"
+ },
+ "0ee3d4d53e4e170e9a9a70214de54b9f5d18d30c": {
+  "num_adds_if": 6,
+  "num_dels_if": 7,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "0ee3d4d53e4e170e9a9a70214de54b9f5d18d30c",
+  "num_adds": 68,
+  "num_dels": 92,
+  "num_mod_lns_total": 160,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "e129c9749409"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-loader.c",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 0.870423117927425,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:45:14 -0300",
+  "committer_date": "2013-03-24 12:57:02 -0300"
+ },
+ "e129c97494096fbda451619d746d661a05abba64": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "e129c97494096fbda451619d746d661a05abba64",
+  "num_adds": 54,
+  "num_dels": 70,
+  "num_mod_lns_total": 124,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "b20cc073c2e6"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/Kconfig",
+   "drivers/staging/media/go7007/Makefile",
+   "drivers/staging/media/go7007/go7007-loader.c",
+   "drivers/staging/media/go7007/s2250-loader.h"
+  ],
+  "entropy": 1.621794116784356,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 13:28:39 -0300",
+  "committer_date": "2013-03-24 12:55:24 -0300"
+ },
+ "b20cc073c2e6a206ebe6449a9c1f1db98376981b": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b20cc073c2e6a206ebe6449a9c1f1db98376981b",
+  "num_adds": 7,
+  "num_dels": 0,
+  "num_mod_lns_total": 7,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "793d7b7ffe7e"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/s2250-board.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-07 04:58:35 -0300",
+  "committer_date": "2013-03-24 12:54:04 -0300"
+ },
+ "793d7b7ffe7e9d35e8c841b9115ee60a362b078e": {
+  "num_adds_if": 0,
+  "num_dels_if": 3,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "793d7b7ffe7e9d35e8c841b9115ee60a362b078e",
+  "num_adds": 0,
+  "num_dels": 92,
+  "num_mod_lns_total": 92,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "6bb0e65d6761"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 12:10:35 -0300",
+  "committer_date": "2013-03-24 12:51:47 -0300"
+ },
+ "6bb0e65d6761b115e4169a5499fccc76ea90dd99": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6bb0e65d6761b115e4169a5499fccc76ea90dd99",
+  "num_adds": 26,
+  "num_dels": 37,
+  "num_mod_lns_total": 63,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "ffcc1c082fdd"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 0.7199485642106176,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:34:22 -0300",
+  "committer_date": "2013-03-24 12:51:35 -0300"
+ },
+ "ffcc1c082fdd8e3013f25f670d1fe66f86e04138": {
+  "num_adds_if": 20,
+  "num_dels_if": 61,
+  "num_mod_total_if": 81,
+  "num_adds_loop": 0,
+  "num_dels_loop": 8,
+  "num_mod_total_loop": 8,
+  "file_hash": "ffcc1c082fdd8e3013f25f670d1fe66f86e04138",
+  "num_adds": 205,
+  "num_dels": 526,
+  "num_mod_lns_total": 731,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "899eb84ce3b5"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/Kconfig",
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 1.1055875108590618,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:52:27 -0300",
+  "committer_date": "2013-03-24 12:51:08 -0300"
+ },
+ "899eb84ce3b50dfa8de6a12e6f39f4e30fde9781": {
+  "num_adds_if": 13,
+  "num_dels_if": 15,
+  "num_mod_total_if": 28,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "899eb84ce3b50dfa8de6a12e6f39f4e30fde9781",
+  "num_adds": 67,
+  "num_dels": 121,
+  "num_mod_lns_total": 188,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "b95dd82cd1b1"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.3215041167324202,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:18:20 -0300",
+  "committer_date": "2013-03-24 12:49:40 -0300"
+ },
+ "b95dd82cd1b1e81c2019effd5e012e6989622ba9": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b95dd82cd1b1e81c2019effd5e012e6989622ba9",
+  "num_adds": 12,
+  "num_dels": 1,
+  "num_mod_lns_total": 13,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "9ff76e36dc63"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 1.2957378005380122,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:12:10 -0300",
+  "committer_date": "2013-03-24 12:49:07 -0300"
+ },
+ "9ff76e36dc632289658e7ff65e9e5fdfe6cca905": {
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9ff76e36dc632289658e7ff65e9e5fdfe6cca905",
+  "num_adds": 9,
+  "num_dels": 24,
+  "num_mod_lns_total": 33,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "35d2d76dbeb6"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 1.5394847569315018,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 06:11:03 -0300",
+  "committer_date": "2013-03-24 12:48:45 -0300"
+ },
+ "35d2d76dbeb6075dc629f3592bae304db81579ce": {
+  "num_adds_if": 11,
+  "num_dels_if": 35,
+  "num_mod_total_if": 46,
+  "num_adds_loop": 0,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 4,
+  "file_hash": "35d2d76dbeb6075dc629f3592bae304db81579ce",
+  "num_adds": 181,
+  "num_dels": 507,
+  "num_mod_lns_total": 688,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "50deb74905d1"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-fw.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/go7007.h"
+  ],
+  "entropy": 1.2610198411492992,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 05:58:55 -0300",
+  "committer_date": "2013-03-24 12:48:19 -0300"
+ },
+ "50deb74905d1e123878f50ed31f829916b936ded": {
+  "num_adds_if": 23,
+  "num_dels_if": 35,
+  "num_mod_total_if": 58,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "50deb74905d1e123878f50ed31f829916b936ded",
+  "num_adds": 154,
+  "num_dels": 155,
+  "num_mod_lns_total": 309,
+  "num_mod_files": 5,
+  "is_merge": false,
+  "parents": [
+   "59d7b91a1d89"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/s2250-board.c"
+  ],
+  "entropy": 0.9067364151786667,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 05:50:21 -0300",
+  "committer_date": "2013-03-24 12:47:27 -0300"
+ },
+ "59d7b91a1d89168d44f07c8f8fb0ad0dc65a140f": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "59d7b91a1d89168d44f07c8f8fb0ad0dc65a140f",
+  "num_adds": 9,
+  "num_dels": 1,
+  "num_mod_lns_total": 10,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "bae743206096"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 11:25:09 -0300",
+  "committer_date": "2013-03-24 12:45:05 -0300"
+ },
+ "bae7432060960dd0ffdc4bd67986ac3d1f5733b0": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "bae7432060960dd0ffdc4bd67986ac3d1f5733b0",
+  "num_adds": 20,
+  "num_dels": 5,
+  "num_mod_lns_total": 25,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "d3b2ccd9e307"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.4021791902022728,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 11:08:41 -0300",
+  "committer_date": "2013-03-24 12:44:47 -0300"
+ },
+ "d3b2ccd9e307eae80b4b4eeb0ede46cb02212df2": {
+  "num_adds_if": 1,
+  "num_dels_if": 10,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d3b2ccd9e307eae80b4b4eeb0ede46cb02212df2",
+  "num_adds": 46,
+  "num_dels": 103,
+  "num_mod_lns_total": 149,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "9b8451d5af25"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/s2250-board.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-03 10:50:34 -0300",
+  "committer_date": "2013-03-24 12:44:26 -0300"
+ },
+ "9b8451d5af25ca79f63066e1312526ffee606a76": {
+  "num_adds_if": 4,
+  "num_dels_if": 9,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "9b8451d5af25ca79f63066e1312526ffee606a76",
+  "num_adds": 71,
+  "num_dels": 192,
+  "num_mod_lns_total": 263,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "d5d3a7cc127d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.33987291936026476,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 05:19:59 -0300",
+  "committer_date": "2013-03-24 12:43:59 -0300"
+ },
+ "d5d3a7cc127d096c22ad63c4ff72970e1beb22ef": {
+  "num_adds_if": 10,
+  "num_dels_if": 12,
+  "num_mod_total_if": 22,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "d5d3a7cc127d096c22ad63c4ff72970e1beb22ef",
+  "num_adds": 85,
+  "num_dels": 80,
+  "num_mod_lns_total": 165,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "95ef39403f89"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c",
+   "drivers/staging/media/go7007/snd-go7007.c"
+  ],
+  "entropy": 1.9242782401891168,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 04:48:30 -0300",
+  "committer_date": "2013-03-24 12:42:58 -0300"
+ },
+ "95ef39403f890360a3e48fe550d8e8e5d088ad74": {
+  "num_adds_if": 4,
+  "num_dels_if": 3,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "95ef39403f890360a3e48fe550d8e8e5d088ad74",
+  "num_adds": 24,
+  "num_dels": 21,
+  "num_mod_lns_total": 45,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "9b6ebf3309d1"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h"
+  ],
+  "entropy": 0.2623112196143366,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 10:37:52 -0300",
+  "committer_date": "2013-03-24 12:41:56 -0300"
+ },
+ "9b6ebf3309d1b2e62727133b446397a783813331": {
+  "num_adds_if": 4,
+  "num_dels_if": 4,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9b6ebf3309d1b2e62727133b446397a783813331",
+  "num_adds": 20,
+  "num_dels": 23,
+  "num_mod_lns_total": 43,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "fabfd71153c7"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/s2250-board.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 0.8653973116341155,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 09:59:16 -0300",
+  "committer_date": "2013-03-24 12:41:27 -0300"
+ },
+ "fabfd71153c7e98aca77c8069a633f3a25bcdaf7": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fabfd71153c7e98aca77c8069a633f3a25bcdaf7",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "4d217b83fe31"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-02-17 09:06:27 -0300",
+  "committer_date": "2013-03-24 12:40:39 -0300"
+ },
+ "4d217b83fe315776d54b11d752fb09c5fb0de2da": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4d217b83fe315776d54b11d752fb09c5fb0de2da",
+  "num_adds": 6,
+  "num_dels": 7,
+  "num_mod_lns_total": 13,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "c046981f1aa0"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 1.1451104143815827,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 09:38:03 -0300",
+  "committer_date": "2013-03-24 12:40:25 -0300"
+ },
+ "c046981f1aa0e1e1345e6ec43f6bea611e575351": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c046981f1aa0e1e1345e6ec43f6bea611e575351",
+  "num_adds": 6,
+  "num_dels": 5,
+  "num_mod_lns_total": 11,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "5e4105467bff"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/Makefile",
+   "drivers/staging/media/go7007/s2250-loader.c"
+  ],
+  "entropy": 0.9456603046006401,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 09:35:07 -0300",
+  "committer_date": "2013-03-24 12:39:57 -0300"
+ },
+ "5e4105467bfff64242e1b7aca17ae9e4438be32c": {
+  "num_adds_if": 5,
+  "num_dels_if": 0,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5e4105467bfff64242e1b7aca17ae9e4438be32c",
+  "num_adds": 48,
+  "num_dels": 3,
+  "num_mod_lns_total": 51,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "94c0c676592d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-v4l2.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 13:19:08 -0300",
+  "committer_date": "2013-03-24 12:36:28 -0300"
+ },
+ "94c0c676592da0e3a8da06fee7ba88c6e9c360f3": {
+  "num_adds_if": 0,
+  "num_dels_if": 95,
+  "num_mod_total_if": 95,
+  "num_adds_loop": 0,
+  "num_dels_loop": 19,
+  "num_mod_total_loop": 19,
+  "file_hash": "94c0c676592da0e3a8da06fee7ba88c6e9c360f3",
+  "num_adds": 0,
+  "num_dels": 2398,
+  "num_mod_lns_total": 2398,
+  "num_mod_files": 8,
+  "is_merge": false,
+  "parents": [
+   "3acd16ab5c1c"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/wis-i2c.h",
+   "drivers/staging/media/go7007/wis-ov7640.c",
+   "drivers/staging/media/go7007/wis-saa7113.c",
+   "drivers/staging/media/go7007/wis-saa7115.c",
+   "drivers/staging/media/go7007/wis-sony-tuner.c",
+   "drivers/staging/media/go7007/wis-tw2804.c",
+   "drivers/staging/media/go7007/wis-tw9903.c",
+   "drivers/staging/media/go7007/wis-uda1342.c"
+  ],
+  "entropy": 2.632693366071131,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 09:27:54 -0300",
+  "committer_date": "2013-03-24 12:35:50 -0300"
+ },
+ "3acd16ab5c1c4e2a679c5c3e082db648f0e85100": {
+  "num_adds_if": 13,
+  "num_dels_if": 3,
+  "num_mod_total_if": 16,
+  "num_adds_loop": 1,
+  "num_dels_loop": 8,
+  "num_mod_total_loop": 9,
+  "file_hash": "3acd16ab5c1c4e2a679c5c3e082db648f0e85100",
+  "num_adds": 135,
+  "num_dels": 134,
+  "num_mod_lns_total": 269,
+  "num_mod_files": 8,
+  "is_merge": false,
+  "parents": [
+   "dcafb6dea60f"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/Kconfig",
+   "drivers/staging/media/go7007/Makefile",
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-i2c.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/saa7134-go7007.c"
+  ],
+  "entropy": 2.1941961401654133,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 09:25:47 -0300",
+  "committer_date": "2013-03-24 12:33:44 -0300"
+ },
+ "dcafb6dea60fd6d4eaf20f8d5ce1503b0c03155d": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "dcafb6dea60fd6d4eaf20f8d5ce1503b0c03155d",
+  "num_adds": 14,
+  "num_dels": 10,
+  "num_mod_lns_total": 24,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "523a4f7fbcf8"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-driver.c",
+   "drivers/staging/media/go7007/go7007-priv.h",
+   "drivers/staging/media/go7007/go7007-usb.c"
+  ],
+  "entropy": 0.785235442391543,
+  "ppl_signed_off": [
+   "Signed-off-by: Volokh Konstantin <volokh84@gmail.com>",
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Volokh Konstantin",
+  "author_email": "volokh84@gmail.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 08:48:25 -0300",
+  "committer_date": "2013-03-24 12:31:51 -0300"
+ },
+ "523a4f7fbcf856fb1c2a4850f44edea6738ee37b": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "523a4f7fbcf856fb1c2a4850f44edea6738ee37b",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "12be52a9e0b3"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/tw2804.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Volokh Konstantin <volokh84@gmail.com>",
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Volokh Konstantin",
+  "author_email": "volokh84@gmail.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2012-08-22 07:45:15 -0300",
+  "committer_date": "2013-03-24 12:29:46 -0300"
+ },
+ "12be52a9e0b3e6f0402d721e8dada40a705cb78a": {
+  "num_adds_if": 23,
+  "num_dels_if": 0,
+  "num_mod_total_if": 23,
+  "num_adds_loop": 4,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 5,
+  "file_hash": "12be52a9e0b3e6f0402d721e8dada40a705cb78a",
+  "num_adds": 478,
+  "num_dels": 1,
+  "num_mod_lns_total": 479,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "0890ec19c65d"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/tw2804.c"
+  ],
+  "entropy": 0.1793037262175532,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 08:06:07 -0300",
+  "committer_date": "2013-03-24 12:28:48 -0300"
+ },
+ "0890ec19c65def8c8e445931b026e0fa8d809a34": {
+  "num_adds_if": 7,
+  "num_dels_if": 0,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 6,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 6,
+  "file_hash": "0890ec19c65def8c8e445931b026e0fa8d809a34",
+  "num_adds": 283,
+  "num_dels": 0,
+  "num_mod_lns_total": 283,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "73d9f979335e"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/tw9903.c"
+  ],
+  "entropy": 0.25416646272952925,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-18 04:10:56 -0300",
+  "committer_date": "2013-03-24 12:24:44 -0300"
+ },
+ "73d9f979335e9ae40f3901d38af739bc36d008c4": {
+  "num_adds_if": 3,
+  "num_dels_if": 0,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 3,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 3,
+  "file_hash": "73d9f979335e9ae40f3901d38af739bc36d008c4",
+  "num_adds": 152,
+  "num_dels": 0,
+  "num_mod_lns_total": 152,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "ec367c3cd186"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/uda1342.c",
+   "include/media/uda1342.h"
+  ],
+  "entropy": 1.063118325123871,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 07:20:12 -0300",
+  "committer_date": "2013-03-24 12:24:11 -0300"
+ },
+ "ec367c3cd18697991923685eb0e833f4424d37fb": {
+  "num_adds_if": 5,
+  "num_dels_if": 0,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 3,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 3,
+  "file_hash": "ec367c3cd18697991923685eb0e833f4424d37fb",
+  "num_adds": 119,
+  "num_dels": 1,
+  "num_mod_lns_total": 120,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "c7c54a988d21"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/ov7640.c"
+  ],
+  "entropy": 0.6071555665179115,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 07:09:18 -0300",
+  "committer_date": "2013-03-24 12:23:33 -0300"
+ },
+ "c7c54a988d21626874e9f1b8dc6bb0547bcddf9c": {
+  "num_adds_if": 13,
+  "num_dels_if": 0,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 3,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 3,
+  "file_hash": "c7c54a988d21626874e9f1b8dc6bb0547bcddf9c",
+  "num_adds": 410,
+  "num_dels": 1,
+  "num_mod_lns_total": 411,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "e4d2a6162d2a"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/Kconfig",
+   "drivers/media/i2c/Makefile",
+   "drivers/media/i2c/sony-btf-mpx.c"
+  ],
+  "entropy": 0.20243137843174067,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-22 11:13:58 -0300",
+  "committer_date": "2013-03-24 12:21:29 -0300"
+ },
+ "e4d2a6162d2a0a27be16b75da36f6bba64af63bc": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e4d2a6162d2a0a27be16b75da36f6bba64af63bc",
+  "num_adds": 78,
+  "num_dels": 6,
+  "num_mod_lns_total": 84,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "ffb9749346b4"
+  ],
+  "mod_files_lst": [
+   "Documentation/video4linux/CARDLIST.tuner",
+   "drivers/media/tuners/tuner-types.c",
+   "drivers/staging/media/go7007/go7007-usb.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/go7007/wis-i2c.h",
+   "include/media/tuner.h"
+  ],
+  "entropy": 1.0381168272527594,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/staging/media/go7007",
+   "drivers/media/tuners",
+   "Documentation/video4linux"
+  ],
+  "mod_sys": [
+   "Documentation",
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 4,
+  "num_mod_sys": 3,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 13:14:32 -0300",
+  "committer_date": "2013-03-24 12:11:35 -0300"
+ },
+ "ffb9749346b4e3bb567d0d5daa88edae9f8ec8ae": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ffb9749346b4e3bb567d0d5daa88edae9f8ec8ae",
+  "num_adds": 13,
+  "num_dels": 13,
+  "num_mod_lns_total": 26,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "1589037f8716"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/media/go7007/go7007-i2c.c",
+   "drivers/staging/media/go7007/go7007-usb.c"
+  ],
+  "entropy": 0.7793498372920852,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/media/go7007"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 06:18:03 -0300",
+  "committer_date": "2013-03-24 12:10:36 -0300"
+ },
+ "1589037f8716a605a36ee6dda6f7cdd4d043522b": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1589037f8716a605a36ee6dda6f7cdd4d043522b",
+  "num_adds": 15,
+  "num_dels": 8,
+  "num_mod_lns_total": 23,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "c875dee536ee"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/saa7115.c",
+   "include/media/saa7115.h"
+  ],
+  "entropy": 0.8865408928220899,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-11 03:47:25 -0300",
+  "committer_date": "2013-03-24 12:10:18 -0300"
+ },
+ "c875dee536ee2a95a353f5ef991717383baf8d60": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c875dee536ee2a95a353f5ef991717383baf8d60",
+  "num_adds": 28,
+  "num_dels": 28,
+  "num_mod_lns_total": 56,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "a0fc58868bbf"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/saa7115.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-10 09:59:37 -0300",
+  "committer_date": "2013-03-24 12:05:48 -0300"
+ },
+ "a0fc58868bbf34d0935947cdf1bc8c0ea32c68c4": {
+  "num_adds_if": 4,
+  "num_dels_if": 0,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a0fc58868bbf34d0935947cdf1bc8c0ea32c68c4",
+  "num_adds": 27,
+  "num_dels": 10,
+  "num_mod_lns_total": 37,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "9ca5470cc143"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/saa7115.c",
+   "include/media/saa7115.h"
+  ],
+  "entropy": 0.6394571324851641,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/i2c"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-08 11:22:03 -0300",
+  "committer_date": "2013-03-24 12:02:59 -0300"
+ },
+ "9ca5470cc1433200698a43de2d6e683815e536e6": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9ca5470cc1433200698a43de2d6e683815e536e6",
+  "num_adds": 9,
+  "num_dels": 0,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "73f35418a1e9"
+  ],
+  "mod_files_lst": [
+   "Documentation/DocBook/media/v4l/controls.xml",
+   "drivers/media/v4l2-core/v4l2-ctrls.c",
+   "include/uapi/linux/v4l2-controls.h"
+  ],
+  "entropy": 1.224394445405986,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/DocBook/media/v4l",
+   "include/uapi/linux",
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "Documentation",
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 3,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-17 10:34:04 -0300",
+  "committer_date": "2013-03-24 12:02:08 -0300"
+ },
+ "73f35418a1e921443b5c9f4c58ae70df8b9d1bb6": {
+  "num_adds_if": 9,
+  "num_dels_if": 9,
+  "num_mod_total_if": 18,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "73f35418a1e921443b5c9f4c58ae70df8b9d1bb6",
+  "num_adds": 13,
+  "num_dels": 9,
+  "num_mod_lns_total": 22,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2180f92def19"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-10 13:12:25 -0300",
+  "committer_date": "2013-03-24 12:01:26 -0300"
+ },
+ "2180f92def1921397f422f278b3cc65751b749cc": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2180f92def1921397f422f278b3cc65751b749cc",
+  "num_adds": 16,
+  "num_dels": 0,
+  "num_mod_lns_total": 16,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "6cd247ef22e4"
+  ],
+  "mod_files_lst": [
+   "include/media/v4l2-device.h",
+   "include/media/v4l2-subdev.h"
+  ],
+  "entropy": 0.6962122601251459,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media"
+  ],
+  "mod_sys": [
+   "include"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-03 20:12:31 -0300",
+  "committer_date": "2013-03-24 11:59:02 -0300"
+ },
+ "6cd247ef22e493e1884e576c066661538b031981": {
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6cd247ef22e493e1884e576c066661538b031981",
+  "num_adds": 31,
+  "num_dels": 6,
+  "num_mod_lns_total": 37,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "842059aa4796"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-ctrls.c",
+   "include/media/v4l2-ctrls.h"
+  ],
+  "entropy": 0.7531979910695014,
+  "ppl_signed_off": [
+   "Signed-off-by: Andy Walls <awalls@md.metrocast.net>",
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/media",
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Andy Walls",
+  "author_email": "awalls@md.metrocast.net",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-09 05:55:11 -0300",
+  "committer_date": "2013-03-24 11:47:09 -0300"
+ },
+ "b1289371fcd580b4c412e6d05c4cb8ac8d277239": {
+  "num_adds_if": 0,
+  "num_dels_if": 2,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b1289371fcd580b4c412e6d05c4cb8ac8d277239",
+  "num_adds": 5,
+  "num_dels": 8,
+  "num_mod_lns_total": 13,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2124b72e6283"
+  ],
+  "mod_files_lst": [
+   "drivers/gpu/drm/i915/intel_panel.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Jani Nikula <jani.nikula@intel.com>",
+   "Cc: Takashi Iwai <tiwai@suse.de>",
+   "Cc: stable@vger.kernel.org (the reverted commit was cc: stable, too)"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: Takashi Iwai <tiwai@suse.de>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpu/drm/i915"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Daniel Vetter",
+  "author_email": "daniel.vetter@ffwll.ch",
+  "committer": "Daniel Vetter",
+  "committer_email": "daniel.vetter@ffwll.ch",
+  "author_date": "2013-03-22 15:44:46 +0100",
+  "committer_date": "2013-03-24 13:23:20 +0100"
+ },
+ "2124b72e6283c4e84a55e71077fee91793f4c801": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2124b72e6283c4e84a55e71077fee91793f4c801",
+  "num_adds": 9,
+  "num_dels": 0,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "bba2181c49f1"
+  ],
+  "mod_files_lst": [
+   "drivers/gpu/drm/i915/i915_drv.c",
+   "drivers/gpu/drm/i915/i915_drv.h",
+   "drivers/gpu/drm/i915/intel_pm.c"
+  ],
+  "entropy": 1.3516441151533924,
+  "ppl_signed_off": [
+   "Signed-off-by: Paulo Zanoni <paulo.r.zanoni@intel.com>",
+   "Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Takashi Iwai <tiwai@suse.de>",
+   "Cc: Mengdong Lin <mengdong.lin@intel.com>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpu/drm/i915"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Paulo Zanoni",
+  "author_email": "paulo.r.zanoni@intel.com",
+  "committer": "Daniel Vetter",
+  "committer_email": "daniel.vetter@ffwll.ch",
+  "author_date": "2013-03-22 14:07:23 -0300",
+  "committer_date": "2013-03-24 13:22:33 +0100"
+ },
+ "bba2181c49f1dddf8b592804a1b53cc1a3cf408a": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "bba2181c49f1dddf8b592804a1b53cc1a3cf408a",
+  "num_adds": 5,
+  "num_dels": 5,
+  "num_mod_lns_total": 10,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8bb9660418e0"
+  ],
+  "mod_files_lst": [
+   "drivers/gpu/drm/i915/intel_display.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Paulo Zanoni <paulo.r.zanoni@intel.com>",
+   "Cc: Takashi Iwai <tiwai@suse.de>"
+  ],
+  "ppl_reviewed": [
+   "Reviewed-by: Paulo Zanoni <paulo.r.zanoni@intel.com>"
+  ],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpu/drm/i915"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Daniel Vetter",
+  "author_email": "daniel.vetter@ffwll.ch",
+  "committer": "Daniel Vetter",
+  "committer_email": "daniel.vetter@ffwll.ch",
+  "author_date": "2013-03-22 10:53:40 +0100",
+  "committer_date": "2013-03-24 13:22:32 +0100"
+ },
+ "842059aa4796d7c59bc3801d48896ba06b1a1287": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "842059aa4796d7c59bc3801d48896ba06b1a1287",
+  "num_adds": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "505d04bdc43a"
+  ],
+  "mod_files_lst": [
+   "Documentation/DocBook/media/dvb/dvbproperty.xml"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Masanari Iida <standby24x7@gmail.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "Documentation/DocBook/media/dvb"
+  ],
+  "mod_sys": [
+   "Documentation"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Masanari Iida",
+  "author_email": "standby24x7@gmail.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 02:25:56 -0300",
+  "committer_date": "2013-03-24 08:51:33 -0300"
+ },
+ "505d04bdc43a6a6c828835e90ab5fcb380d631d5": {
+  "num_adds_if": 1,
+  "num_dels_if": 4,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "505d04bdc43a6a6c828835e90ab5fcb380d631d5",
+  "num_adds": 2,
+  "num_dels": 13,
+  "num_mod_lns_total": 15,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "977ba3b1b73f"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-14 07:40:45 -0300",
+  "committer_date": "2013-03-24 08:47:16 -0300"
+ },
+ "977ba3b1b73f24fae2d0c8bd59d7a4696f1e0ccc": {
+  "num_adds_if": 5,
+  "num_dels_if": 6,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "977ba3b1b73f24fae2d0c8bd59d7a4696f1e0ccc",
+  "num_adds": 96,
+  "num_dels": 102,
+  "num_mod_lns_total": 198,
+  "num_mod_files": 69,
+  "is_merge": false,
+  "parents": [
+   "b5656e8b7363"
+  ],
+  "mod_files_lst": [
+   "drivers/media/dvb-frontends/au8522_decoder.c",
+   "drivers/media/i2c/ad9389b.c",
+   "drivers/media/i2c/adv7183.c",
+   "drivers/media/i2c/adv7604.c",
+   "drivers/media/i2c/ak881x.c",
+   "drivers/media/i2c/cs5345.c",
+   "drivers/media/i2c/cx25840/cx25840-core.c",
+   "drivers/media/i2c/m52790.c",
+   "drivers/media/i2c/mt9m032.c",
+   "drivers/media/i2c/mt9v011.c",
+   "drivers/media/i2c/ov7670.c",
+   "drivers/media/i2c/saa7115.c",
+   "drivers/media/i2c/saa7127.c",
+   "drivers/media/i2c/saa717x.c",
+   "drivers/media/i2c/soc_camera/mt9m001.c",
+   "drivers/media/i2c/soc_camera/mt9m111.c",
+   "drivers/media/i2c/soc_camera/mt9t031.c",
+   "drivers/media/i2c/soc_camera/mt9t112.c",
+   "drivers/media/i2c/soc_camera/mt9v022.c",
+   "drivers/media/i2c/soc_camera/ov2640.c",
+   "drivers/media/i2c/soc_camera/ov5642.c",
+   "drivers/media/i2c/soc_camera/ov6650.c",
+   "drivers/media/i2c/soc_camera/ov772x.c",
+   "drivers/media/i2c/soc_camera/ov9640.c",
+   "drivers/media/i2c/soc_camera/ov9740.c",
+   "drivers/media/i2c/soc_camera/rj54n1cb0c.c",
+   "drivers/media/i2c/soc_camera/tw9910.c",
+   "drivers/media/i2c/ths7303.c",
+   "drivers/media/i2c/tvp5150.c",
+   "drivers/media/i2c/tvp7002.c",
+   "drivers/media/i2c/upd64031a.c",
+   "drivers/media/i2c/upd64083.c",
+   "drivers/media/i2c/vs6624.c",
+   "drivers/media/pci/bt8xx/bttv-driver.c",
+   "drivers/media/pci/cx18/cx18-av-core.c",
+   "drivers/media/pci/cx18/cx18-ioctl.c",
+   "drivers/media/pci/cx23885/cx23885-ioctl.c",
+   "drivers/media/pci/cx23885/cx23885-ioctl.h",
+   "drivers/media/pci/cx23885/cx23888-ir.c",
+   "drivers/media/pci/cx25821/cx25821-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.h",
+   "drivers/media/pci/cx88/cx88-video.c",
+   "drivers/media/pci/ivtv/ivtv-ioctl.c",
+   "drivers/media/pci/saa7134/saa7134-video.c",
+   "drivers/media/pci/saa7146/mxb.c",
+   "drivers/media/pci/saa7164/saa7164-encoder.c",
+   "drivers/media/platform/blackfin/bfin_capture.c",
+   "drivers/media/platform/davinci/vpbe_display.c",
+   "drivers/media/platform/davinci/vpif_capture.c",
+   "drivers/media/platform/davinci/vpif_display.c",
+   "drivers/media/platform/marvell-ccic/mcam-core.c",
+   "drivers/media/platform/sh_vou.c",
+   "drivers/media/platform/soc_camera/soc_camera.c",
+   "drivers/media/usb/au0828/au0828-video.c",
+   "drivers/media/usb/cx231xx/cx231xx-video.c",
+   "drivers/media/usb/cx231xx/cx231xx.h",
+   "drivers/media/usb/em28xx/em28xx-video.c",
+   "drivers/media/usb/gspca/gspca.c",
+   "drivers/media/usb/gspca/gspca.h",
+   "drivers/media/usb/gspca/pac7302.c",
+   "drivers/media/usb/gspca/sn9c20x.c",
+   "drivers/media/usb/pvrusb2/pvrusb2-hdw.c",
+   "drivers/media/usb/pvrusb2/pvrusb2-hdw.h",
+   "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+   "drivers/media/usb/stk1160/stk1160-v4l.c",
+   "drivers/media/usb/usbvision/usbvision-video.c",
+   "drivers/media/v4l2-core/v4l2-ioctl.c",
+   "include/media/v4l2-ioctl.h",
+   "include/media/v4l2-subdev.h"
+  ],
+  "entropy": 5.533143220792685,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Guennadi Liakhovetski <g.liakhovetski@gmx.de>",
+   "Acked-by: Lad, Prabhakar <prabhakar.csengg@gmail.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/usb/cx231xx",
+   "drivers/media/platform/davinci",
+   "drivers/media/usb/au0828",
+   "drivers/media/i2c/cx25840",
+   "drivers/media/usb/gspca",
+   "drivers/media/pci/cx25821",
+   "drivers/media/pci/ivtv",
+   "drivers/media/pci/saa7134",
+   "drivers/media/i2c",
+   "drivers/media/v4l2-core",
+   "drivers/media/dvb-frontends",
+   "drivers/media/i2c/soc_camera",
+   "drivers/media/platform/soc_camera",
+   "drivers/media/usb/pvrusb2",
+   "drivers/media/pci/bt8xx",
+   "drivers/media/pci/cx88",
+   "drivers/media/pci/saa7146",
+   "drivers/media/usb/usbvision",
+   "drivers/media/pci/saa7164",
+   "drivers/media/platform/blackfin",
+   "drivers/media/pci/cx23885",
+   "drivers/media/platform",
+   "drivers/media/usb/stk1160",
+   "drivers/media/usb/em28xx",
+   "drivers/media/pci/cx18",
+   "include/media",
+   "drivers/media/platform/marvell-ccic"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 27,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 08:28:46 -0300",
+  "committer_date": "2013-03-24 08:47:01 -0300"
+ },
+ "b5656e8b7363c4e248e6372dc34828d3dfb17832": {
+  "num_adds_if": 5,
+  "num_dels_if": 5,
+  "num_mod_total_if": 10,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b5656e8b7363c4e248e6372dc34828d3dfb17832",
+  "num_adds": 13,
+  "num_dels": 13,
+  "num_mod_lns_total": 26,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "27d5a87cf4b4"
+  ],
+  "mod_files_lst": [
+   "drivers/media/pci/ivtv/ivtv-ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/pci/ivtv"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-24 08:24:19 -0300",
+  "committer_date": "2013-03-24 08:46:39 -0300"
+ },
+ "370bd005937c0e00f9104a602f9fe1dd6b21b54b": {
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "370bd005937c0e00f9104a602f9fe1dd6b21b54b",
+  "num_adds": 6,
+  "num_dels": 3,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "f9f475292dbb"
+  ],
+  "mod_files_lst": [
+   "net/mac80211/mesh.c",
+   "net/mac80211/mlme.c"
+  ],
+  "entropy": 0.9182958340544896,
+  "ppl_signed_off": [
+   "Signed-off-by: Ben Greear <greearb@candelatech.com>",
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/mac80211"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Ben Greear",
+  "author_email": "greearb@candelatech.com",
+  "committer": "Johannes Berg",
+  "committer_email": "johannes.berg@intel.com",
+  "author_date": "2013-03-19 17:50:50 -0700",
+  "committer_date": "2013-03-24 11:15:59 +0100"
+ },
+ "f9f475292dbb0e7035fb6661d1524761ea0888d9": {
+  "num_adds_if": 8,
+  "num_dels_if": 9,
+  "num_mod_total_if": 17,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "f9f475292dbb0e7035fb6661d1524761ea0888d9",
+  "num_adds": 92,
+  "num_dels": 47,
+  "num_mod_lns_total": 139,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "8b305780ed0c"
+  ],
+  "mod_files_lst": [
+   "net/wireless/core.c",
+   "net/wireless/core.h",
+   "net/wireless/nl80211.c",
+   "net/wireless/scan.c",
+   "net/wireless/sme.c",
+   "net/wireless/wext-sme.c"
+  ],
+  "entropy": 1.7937806205353488,
+  "ppl_signed_off": [
+   "Signed-off-by: Johannes Berg <johannes.berg@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "net/wireless"
+  ],
+  "mod_sys": [
+   "net"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Johannes Berg",
+  "author_email": "johannes.berg@intel.com",
+  "committer": "Johannes Berg",
+  "committer_email": "johannes.berg@intel.com",
+  "author_date": "2013-03-19 15:04:07 +0100",
+  "committer_date": "2013-03-24 11:15:58 +0100"
+ },
+ "27d5a87cf4b44cbcbd0f4706a433e4a68d496236": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "27d5a87cf4b44cbcbd0f4706a433e4a68d496236",
+  "num_adds": 34,
+  "num_dels": 26,
+  "num_mod_lns_total": 60,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "314527acbbb3"
+  ],
+  "mod_files_lst": [
+   "drivers/media/v4l2-core/v4l2-ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/v4l2-core"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-18 11:02:22 -0300",
+  "committer_date": "2013-03-24 07:13:54 -0300"
+ },
+ "314527acbbb3f33f72c2ef19d8cfabcada9912a5": {
+  "num_adds_if": 40,
+  "num_dels_if": 40,
+  "num_mod_total_if": 80,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "314527acbbb3f33f72c2ef19d8cfabcada9912a5",
+  "num_adds": 165,
+  "num_dels": 165,
+  "num_mod_lns_total": 330,
+  "num_mod_files": 56,
+  "is_merge": false,
+  "parents": [
+   "2f73c7c582a6"
+  ],
+  "mod_files_lst": [
+   "drivers/media/common/saa7146/saa7146_video.c",
+   "drivers/media/parport/pms.c",
+   "drivers/media/pci/bt8xx/bttv-driver.c",
+   "drivers/media/pci/cx18/cx18-driver.c",
+   "drivers/media/pci/cx18/cx18-ioctl.c",
+   "drivers/media/pci/cx18/cx18-ioctl.h",
+   "drivers/media/pci/cx23885/cx23885-417.c",
+   "drivers/media/pci/cx23885/cx23885-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.h",
+   "drivers/media/pci/cx88/cx88-blackbird.c",
+   "drivers/media/pci/cx88/cx88-video.c",
+   "drivers/media/pci/ivtv/ivtv-driver.c",
+   "drivers/media/pci/ivtv/ivtv-firmware.c",
+   "drivers/media/pci/ivtv/ivtv-ioctl.c",
+   "drivers/media/pci/ivtv/ivtv-ioctl.h",
+   "drivers/media/pci/saa7134/saa7134-empress.c",
+   "drivers/media/pci/saa7134/saa7134-video.c",
+   "drivers/media/pci/saa7134/saa7134.h",
+   "drivers/media/pci/saa7164/saa7164-encoder.c",
+   "drivers/media/pci/saa7164/saa7164-vbi.c",
+   "drivers/media/pci/sta2x11/sta2x11_vip.c",
+   "drivers/media/pci/zoran/zoran_driver.c",
+   "drivers/media/platform/blackfin/bfin_capture.c",
+   "drivers/media/platform/davinci/vpbe.c",
+   "drivers/media/platform/davinci/vpbe_display.c",
+   "drivers/media/platform/davinci/vpfe_capture.c",
+   "drivers/media/platform/davinci/vpif_capture.c",
+   "drivers/media/platform/davinci/vpif_display.c",
+   "drivers/media/platform/fsl-viu.c",
+   "drivers/media/platform/marvell-ccic/mcam-core.c",
+   "drivers/media/platform/s5p-tv/mixer_video.c",
+   "drivers/media/platform/sh_vou.c",
+   "drivers/media/platform/soc_camera/soc_camera.c",
+   "drivers/media/platform/timblogiw.c",
+   "drivers/media/platform/via-camera.c",
+   "drivers/media/platform/vino.c",
+   "drivers/media/usb/au0828/au0828-video.c",
+   "drivers/media/usb/cx231xx/cx231xx-417.c",
+   "drivers/media/usb/cx231xx/cx231xx-video.c",
+   "drivers/media/usb/em28xx/em28xx-video.c",
+   "drivers/media/usb/hdpvr/hdpvr-video.c",
+   "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+   "drivers/media/usb/s2255/s2255drv.c",
+   "drivers/media/usb/stk1160/stk1160-v4l.c",
+   "drivers/media/usb/tlg2300/pd-video.c",
+   "drivers/media/usb/tm6000/tm6000-video.c",
+   "drivers/media/usb/usbvision/usbvision-video.c",
+   "drivers/media/v4l2-core/v4l2-ioctl.c",
+   "drivers/staging/media/davinci_vpfe/vpfe_video.c",
+   "drivers/staging/media/dt3155v4l/dt3155v4l.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "drivers/staging/media/solo6x10/v4l2-enc.c",
+   "drivers/staging/media/solo6x10/v4l2.c",
+   "include/media/davinci/vpbe.h",
+   "include/media/v4l2-ioctl.h"
+  ],
+  "entropy": 5.530792708572317,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Laurent Pinchart <laurent.pinchart@ideasonboard.com>",
+   "Acked-by: Jonathan Corbet <corbet@lwn.net>",
+   "Acked-by: Guennadi Liakhovetski <g.liakhovetski@gmx.de>",
+   "Acked-by: Lad, Prabhakar <prabhakar.csengg@gmail.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/usb/cx231xx",
+   "drivers/media/platform/davinci",
+   "drivers/media/usb/hdpvr",
+   "drivers/staging/media/solo6x10",
+   "drivers/media/platform/s5p-tv",
+   "drivers/media/usb/au0828",
+   "drivers/staging/media/davinci_vpfe",
+   "drivers/media/pci/cx25821",
+   "drivers/media/pci/ivtv",
+   "drivers/media/pci/saa7134",
+   "drivers/media/usb/tlg2300",
+   "include/media/davinci",
+   "drivers/media/v4l2-core",
+   "drivers/media/platform/soc_camera",
+   "drivers/media/usb/pvrusb2",
+   "drivers/media/common/saa7146",
+   "drivers/media/pci/bt8xx",
+   "drivers/staging/media/dt3155v4l",
+   "drivers/media/pci/cx88",
+   "drivers/media/pci/sta2x11",
+   "drivers/media/parport",
+   "drivers/media/pci/saa7164",
+   "drivers/media/platform/blackfin",
+   "drivers/media/usb/tm6000",
+   "drivers/media/usb/usbvision",
+   "drivers/staging/media/go7007",
+   "drivers/media/pci/cx23885",
+   "drivers/media/platform",
+   "drivers/media/usb/stk1160",
+   "drivers/media/usb/em28xx",
+   "drivers/media/pci/cx18",
+   "include/media",
+   "drivers/media/pci/zoran",
+   "drivers/media/usb/s2255",
+   "drivers/media/platform/marvell-ccic"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 35,
+  "num_mod_sys": 2,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-15 06:10:40 -0300",
+  "committer_date": "2013-03-24 06:47:00 -0300"
+ },
+ "9a6d77d553856f461cdb5b6969b48da3a2b1f8e9": {
+  "num_adds_if": 3,
+  "num_dels_if": 6,
+  "num_mod_total_if": 9,
+  "num_adds_loop": 4,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 9,
+  "file_hash": "9a6d77d553856f461cdb5b6969b48da3a2b1f8e9",
+  "num_adds": 133,
+  "num_dels": 93,
+  "num_mod_lns_total": 226,
+  "num_mod_files": 11,
+  "is_merge": true,
+  "parents": [
+   "81f4f76bbc71",
+   "4fe27d2addda"
+  ],
+  "mod_files_lst": [
+   "Documentation/virtual/kvm/api.txt",
+   "arch/powerpc/include/asm/kvm_host.h",
+   "arch/powerpc/include/asm/kvm_ppc.h",
+   "arch/powerpc/include/uapi/asm/kvm.h",
+   "arch/powerpc/kernel/asm-offsets.c",
+   "arch/powerpc/kvm/book3s.c",
+   "arch/powerpc/kvm/booke.c",
+   "arch/powerpc/kvm/booke_interrupts.S",
+   "arch/powerpc/kvm/e500.h",
+   "arch/powerpc/kvm/e500_mmu_host.c",
+   "arch/powerpc/kvm/powerpc.c"
+  ],
+  "entropy": 2.34643895545242,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/powerpc/kvm",
+   "Documentation/virtual/kvm",
+   "arch/powerpc/kernel",
+   "arch/powerpc/include/uapi/asm",
+   "arch/powerpc/include/asm"
+  ],
+  "mod_sys": [
+   "arch",
+   "Documentation"
+  ],
+  "num_mod_dirs": 5,
+  "num_mod_sys": 2,
+  "author": "Gleb Natapov",
+  "author_email": "gleb@redhat.com",
+  "committer": "Gleb Natapov",
+  "committer_email": "gleb@redhat.com",
+  "author_date": "2013-03-24 11:43:09 +0200",
+  "committer_date": "2013-03-24 11:43:09 +0200"
+ },
+ "2f73c7c582a685b3198b974cd6d964d0338f8ab5": {
+  "num_adds_if": 2,
+  "num_dels_if": 4,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "2f73c7c582a685b3198b974cd6d964d0338f8ab5",
+  "num_adds": 68,
+  "num_dels": 75,
+  "num_mod_lns_total": 143,
+  "num_mod_files": 51,
+  "is_merge": false,
+  "parents": [
+   "b530a447bb58"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/cx25840/cx25840-core.c",
+   "drivers/media/i2c/msp3400-driver.c",
+   "drivers/media/i2c/saa6588.c",
+   "drivers/media/i2c/saa717x.c",
+   "drivers/media/i2c/tda9840.c",
+   "drivers/media/i2c/tvaudio.c",
+   "drivers/media/i2c/vp27smpx.c",
+   "drivers/media/pci/bt8xx/bttv-driver.c",
+   "drivers/media/pci/cx18/cx18-av-core.c",
+   "drivers/media/pci/cx18/cx18-ioctl.c",
+   "drivers/media/pci/cx23885/cx23885-417.c",
+   "drivers/media/pci/cx23885/cx23885-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.h",
+   "drivers/media/pci/cx88/cx88-blackbird.c",
+   "drivers/media/pci/cx88/cx88-video.c",
+   "drivers/media/pci/ivtv/ivtv-gpio.c",
+   "drivers/media/pci/ivtv/ivtv-ioctl.c",
+   "drivers/media/pci/saa7134/saa7134-video.c",
+   "drivers/media/pci/saa7146/mxb.c",
+   "drivers/media/pci/saa7164/saa7164-encoder.c",
+   "drivers/media/pci/saa7164/saa7164-vbi.c",
+   "drivers/media/pci/ttpci/av7110_v4l.c",
+   "drivers/media/radio/dsbr100.c",
+   "drivers/media/radio/radio-cadet.c",
+   "drivers/media/radio/radio-isa.c",
+   "drivers/media/radio/radio-ma901.c",
+   "drivers/media/radio/radio-miropcm20.c",
+   "drivers/media/radio/radio-mr800.c",
+   "drivers/media/radio/radio-sf16fmi.c",
+   "drivers/media/radio/radio-tea5764.c",
+   "drivers/media/radio/radio-tea5777.c",
+   "drivers/media/radio/radio-timb.c",
+   "drivers/media/radio/radio-wl1273.c",
+   "drivers/media/radio/si470x/radio-si470x-common.c",
+   "drivers/media/radio/tef6862.c",
+   "drivers/media/radio/wl128x/fmdrv_v4l2.c",
+   "drivers/media/usb/au0828/au0828-video.c",
+   "drivers/media/usb/cx231xx/cx231xx-video.c",
+   "drivers/media/usb/cx231xx/cx231xx.h",
+   "drivers/media/usb/em28xx/em28xx-video.c",
+   "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+   "drivers/media/usb/tlg2300/pd-radio.c",
+   "drivers/media/usb/tlg2300/pd-video.c",
+   "drivers/media/usb/tm6000/tm6000-video.c",
+   "drivers/media/usb/usbvision/usbvision-video.c",
+   "drivers/media/v4l2-core/tuner-core.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "include/media/v4l2-ioctl.h",
+   "include/media/v4l2-subdev.h",
+   "sound/i2c/other/tea575x-tuner.c"
+  ],
+  "entropy": 5.409979327880528,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Laurent Pinchart <laurent.pinchart@ideasonboard.com>",
+   "Acked-by: Alexey Klimov <klimov.linux@gmail.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/usb/cx231xx",
+   "drivers/media/usb/au0828",
+   "drivers/media/i2c/cx25840",
+   "drivers/media/pci/cx25821",
+   "drivers/media/pci/ivtv",
+   "sound/i2c/other",
+   "drivers/media/pci/saa7134",
+   "drivers/media/usb/tlg2300",
+   "drivers/media/i2c",
+   "drivers/media/v4l2-core",
+   "drivers/media/usb/pvrusb2",
+   "drivers/media/radio",
+   "drivers/media/pci/bt8xx",
+   "drivers/media/pci/cx88",
+   "drivers/media/pci/saa7146",
+   "drivers/media/usb/usbvision",
+   "drivers/media/pci/saa7164",
+   "drivers/media/usb/tm6000",
+   "drivers/media/pci/ttpci",
+   "drivers/staging/media/go7007",
+   "drivers/media/pci/cx23885",
+   "drivers/media/usb/em28xx",
+   "drivers/media/pci/cx18",
+   "drivers/media/radio/wl128x",
+   "include/media",
+   "drivers/media/radio/si470x"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers",
+   "sound"
+  ],
+  "num_mod_dirs": 26,
+  "num_mod_sys": 3,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-15 06:10:06 -0300",
+  "committer_date": "2013-03-24 06:31:23 -0300"
+ },
+ "7a6674dabfe240cc7015fc201f9662d0640e8081": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7a6674dabfe240cc7015fc201f9662d0640e8081",
+  "num_adds": 25,
+  "num_dels": 27,
+  "num_mod_lns_total": 52,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "e636602ac261"
+  ],
+  "mod_files_lst": [
+   "drivers/i2c/busses/i2c-s3c2410.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Heiko Stuebner <heiko@sntech.de>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Kukjin Kim <kgene.kim@samsung.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c/busses"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Heiko St\u00fcbner",
+  "author_email": "heiko@sntech.de",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-21 04:10:13 +0000",
+  "committer_date": "2013-03-24 10:30:57 +0100"
+ },
+ "e636602ac2613da8c1777cb42443223994be4107": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "e636602ac2613da8c1777cb42443223994be4107",
+  "num_adds": 40,
+  "num_dels": 59,
+  "num_mod_lns_total": 99,
+  "num_mod_files": 4,
+  "is_merge": false,
+  "parents": [
+   "1fdc66aefde6"
+  ],
+  "mod_files_lst": [
+   "arch/arm/mach-s3c24xx/mach-rx1950.c",
+   "arch/arm/plat-samsung/devs.c",
+   "arch/arm/plat-samsung/include/plat/regs-iic.h",
+   "drivers/i2c/busses/i2c-s3c2410.c"
+  ],
+  "entropy": 1.1256040157910514,
+  "ppl_signed_off": [
+   "Signed-off-by: Heiko Stuebner <heiko@sntech.de>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Kukjin Kim <kgene.kim@samsung.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/plat-samsung",
+   "drivers/i2c/busses",
+   "arch/arm/mach-s3c24xx",
+   "arch/arm/plat-samsung/include/plat"
+  ],
+  "mod_sys": [
+   "arch",
+   "drivers"
+  ],
+  "num_mod_dirs": 4,
+  "num_mod_sys": 2,
+  "author": "Heiko St\u00fcbner",
+  "author_email": "heiko@sntech.de",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-21 04:09:25 +0000",
+  "committer_date": "2013-03-24 10:30:57 +0100"
+ },
+ "1fdc66aefde6698a0fbc9159a6253c2d3a788779": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1fdc66aefde6698a0fbc9159a6253c2d3a788779",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "49a64ac555f1"
+  ],
+  "mod_files_lst": [
+   "drivers/i2c/busses/i2c-ismt.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Neil Horman <nhorman@tuxdriver.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c/busses"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Wolfram Sang",
+  "author_email": "wsa@the-dreams.de",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-22 11:10:53 +0100",
+  "committer_date": "2013-03-24 10:30:56 +0100"
+ },
+ "49a64ac555f1dabd2b94325553187d0db6ecac16": {
+  "num_adds_if": 1,
+  "num_dels_if": 3,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "49a64ac555f1dabd2b94325553187d0db6ecac16",
+  "num_adds": 7,
+  "num_dels": 46,
+  "num_mod_lns_total": 53,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "fe69c555ef4d"
+  ],
+  "mod_files_lst": [
+   "arch/arm/mach-tegra/board-dt-tegra20.c",
+   "drivers/i2c/busses/i2c-tegra.c",
+   "include/linux/i2c-tegra.h"
+  ],
+  "entropy": 1.193810314637982,
+  "ppl_signed_off": [
+   "Signed-off-by: Stephen Warren <swarren@nvidia.com>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c/busses",
+   "include/linux",
+   "arch/arm/mach-tegra"
+  ],
+  "mod_sys": [
+   "arch",
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 3,
+  "author": "Stephen Warren",
+  "author_email": "swarren@nvidia.com",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-21 08:08:46 +0000",
+  "committer_date": "2013-03-24 10:30:55 +0100"
+ },
+ "fe69c555ef4df4f3c7bc704bc1858c174832a069": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fe69c555ef4df4f3c7bc704bc1858c174832a069",
+  "num_adds": 9,
+  "num_dels": 11,
+  "num_mod_lns_total": 20,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "5f9296ba21b3"
+  ],
+  "mod_files_lst": [
+   "drivers/i2c/busses/i2c-pxa.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Doug Anderson <dianders@chromium.org>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c/busses"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Doug Anderson",
+  "author_email": "dianders@chromium.org",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-01 06:57:32 +0000",
+  "committer_date": "2013-03-24 10:30:54 +0100"
+ },
+ "5f9296ba21b3c395e53dd84e7ff9578f97f24295": {
+  "num_adds_if": 19,
+  "num_dels_if": 0,
+  "num_mod_total_if": 19,
+  "num_adds_loop": 11,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 11,
+  "file_hash": "5f9296ba21b3c395e53dd84e7ff9578f97f24295",
+  "num_adds": 200,
+  "num_dels": 0,
+  "num_mod_lns_total": 200,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "ee5c27440cc2"
+  ],
+  "mod_files_lst": [
+   "drivers/i2c/i2c-core.c",
+   "include/linux/i2c.h"
+  ],
+  "entropy": 0.731816079376955,
+  "ppl_signed_off": [
+   "Signed-off-by: Viresh Kumar <viresh.kumar@linaro.org>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c",
+   "include/linux"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Viresh Kumar",
+  "author_email": "viresh.kumar@linaro.org",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2012-02-28 18:26:31 +0530",
+  "committer_date": "2013-03-24 10:30:54 +0100"
+ },
+ "ee5c27440cc24d62ec463cce4c000bb32c5692c7": {
+  "num_adds_if": 3,
+  "num_dels_if": 1,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "ee5c27440cc24d62ec463cce4c000bb32c5692c7",
+  "num_adds": 34,
+  "num_dels": 11,
+  "num_mod_lns_total": 45,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8bb9660418e0"
+  ],
+  "mod_files_lst": [
+   "drivers/i2c/i2c-core.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Doug Anderson <dianders@chromium.org>",
+   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/i2c"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Doug Anderson",
+  "author_email": "dianders@chromium.org",
+  "committer": "Wolfram Sang",
+  "committer_email": "wsa@the-dreams.de",
+  "author_date": "2013-03-01 08:57:31 -0800",
+  "committer_date": "2013-03-24 10:30:53 +0100"
+ },
+ "b530a447bb588fdf43fdf4eb909e4ee1921d47ac": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b530a447bb588fdf43fdf4eb909e4ee1921d47ac",
+  "num_adds": 115,
+  "num_dels": 110,
+  "num_mod_lns_total": 225,
+  "num_mod_files": 56,
+  "is_merge": false,
+  "parents": [
+   "69aa6f4ec669"
+  ],
+  "mod_files_lst": [
+   "drivers/media/i2c/cx25840/cx25840-core.c",
+   "drivers/media/i2c/msp3400-driver.c",
+   "drivers/media/i2c/tvaudio.c",
+   "drivers/media/i2c/upd64031a.c",
+   "drivers/media/i2c/wm8775.c",
+   "drivers/media/pci/bt8xx/bttv-driver.c",
+   "drivers/media/pci/cx18/cx18-av-core.c",
+   "drivers/media/pci/cx18/cx18-ioctl.c",
+   "drivers/media/pci/cx18/cx18-ioctl.h",
+   "drivers/media/pci/cx23885/cx23885-417.c",
+   "drivers/media/pci/cx23885/cx23885-video.c",
+   "drivers/media/pci/cx23885/cx23885.h",
+   "drivers/media/pci/cx25821/cx25821-video.c",
+   "drivers/media/pci/cx25821/cx25821-video.h",
+   "drivers/media/pci/cx88/cx88-blackbird.c",
+   "drivers/media/pci/cx88/cx88-video.c",
+   "drivers/media/pci/cx88/cx88.h",
+   "drivers/media/pci/ivtv/ivtv-ioctl.c",
+   "drivers/media/pci/ivtv/ivtv-ioctl.h",
+   "drivers/media/pci/saa7134/saa7134-video.c",
+   "drivers/media/pci/saa7146/mxb.c",
+   "drivers/media/pci/saa7164/saa7164-encoder.c",
+   "drivers/media/pci/saa7164/saa7164-vbi.c",
+   "drivers/media/pci/ttpci/av7110_v4l.c",
+   "drivers/media/radio/dsbr100.c",
+   "drivers/media/radio/radio-cadet.c",
+   "drivers/media/radio/radio-isa.c",
+   "drivers/media/radio/radio-keene.c",
+   "drivers/media/radio/radio-ma901.c",
+   "drivers/media/radio/radio-miropcm20.c",
+   "drivers/media/radio/radio-mr800.c",
+   "drivers/media/radio/radio-sf16fmi.c",
+   "drivers/media/radio/radio-si4713.c",
+   "drivers/media/radio/radio-tea5764.c",
+   "drivers/media/radio/radio-tea5777.c",
+   "drivers/media/radio/radio-timb.c",
+   "drivers/media/radio/radio-wl1273.c",
+   "drivers/media/radio/si470x/radio-si470x-common.c",
+   "drivers/media/radio/si4713-i2c.c",
+   "drivers/media/radio/tef6862.c",
+   "drivers/media/radio/wl128x/fmdrv_v4l2.c",
+   "drivers/media/usb/au0828/au0828-video.c",
+   "drivers/media/usb/cx231xx/cx231xx-video.c",
+   "drivers/media/usb/cx231xx/cx231xx.h",
+   "drivers/media/usb/em28xx/em28xx-video.c",
+   "drivers/media/usb/pvrusb2/pvrusb2-v4l2.c",
+   "drivers/media/usb/tlg2300/pd-radio.c",
+   "drivers/media/usb/tlg2300/pd-video.c",
+   "drivers/media/usb/tm6000/tm6000-video.c",
+   "drivers/media/usb/usbvision/usbvision-video.c",
+   "drivers/media/v4l2-core/tuner-core.c",
+   "drivers/media/v4l2-core/v4l2-ioctl.c",
+   "drivers/staging/media/go7007/go7007-v4l2.c",
+   "include/media/v4l2-ioctl.h",
+   "include/media/v4l2-subdev.h",
+   "sound/i2c/other/tea575x-tuner.c"
+  ],
+  "entropy": 5.079703636944637,
+  "ppl_signed_off": [
+   "Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>",
+   "Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/media/usb/cx231xx",
+   "drivers/media/usb/au0828",
+   "drivers/media/i2c/cx25840",
+   "drivers/media/pci/cx25821",
+   "drivers/media/pci/ivtv",
+   "sound/i2c/other",
+   "drivers/media/pci/saa7134",
+   "drivers/media/usb/tlg2300",
+   "drivers/media/i2c",
+   "drivers/media/v4l2-core",
+   "drivers/media/usb/pvrusb2",
+   "drivers/media/radio",
+   "drivers/media/pci/bt8xx",
+   "drivers/media/pci/cx88",
+   "drivers/media/pci/saa7146",
+   "drivers/media/usb/usbvision",
+   "drivers/media/pci/saa7164",
+   "drivers/media/usb/tm6000",
+   "drivers/media/pci/ttpci",
+   "drivers/staging/media/go7007",
+   "drivers/media/pci/cx23885",
+   "drivers/media/usb/em28xx",
+   "drivers/media/pci/cx18",
+   "drivers/media/radio/wl128x",
+   "include/media",
+   "drivers/media/radio/si470x"
+  ],
+  "mod_sys": [
+   "include",
+   "drivers",
+   "sound"
+  ],
+  "num_mod_dirs": 26,
+  "num_mod_sys": 3,
+  "author": "Hans Verkuil",
+  "author_email": "hans.verkuil@cisco.com",
+  "committer": "Mauro Carvalho Chehab",
+  "committer_email": "mchehab@redhat.com",
+  "author_date": "2013-03-19 04:09:26 -0300",
+  "committer_date": "2013-03-24 06:25:34 -0300"
+ },
+ "a8c7687bf21603af6246e55cc58f98e42241bd01": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a8c7687bf21603af6246e55cc58f98e42241bd01",
+  "num_adds": 4,
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "b2273be8d2df"
+  ],
+  "mod_files_lst": [
+   "drivers/net/caif/caif_virtio.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sjur Br\u00e6ndeland <sjur.brandeland@stericsson.com>",
+   "Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/caif"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sjur Br\u00e6ndeland",
+  "author_email": "sjur.brandeland@stericsson.com",
+  "committer": "Rusty Russell",
+  "committer_email": "rusty@rustcorp.com.au",
+  "author_date": "2013-03-24 14:19:59 +1030",
+  "committer_date": "2013-03-24 14:29:15 +1030"
+ },
+ "b2273be8d2df7b77165a70930064aeb9e8faebfa": {
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b2273be8d2df7b77165a70930064aeb9e8faebfa",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "cf994e0afae9"
+  ],
+  "mod_files_lst": [
+   "drivers/net/caif/caif_virtio.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Sjur Br\u00e6ndeland <sjur.brandeland@stericsson.com>",
+   "Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/net/caif"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Sjur Br\u00e6ndeland",
+  "author_email": "sjur.brandeland@stericsson.com",
+  "committer": "Rusty Russell",
+  "committer_email": "rusty@rustcorp.com.au",
+  "author_date": "2013-03-24 14:19:44 +1030",
+  "committer_date": "2013-03-24 14:29:14 +1030"
+ },
+ "f084dbb939070281be7c882db63a4a428c51fcf4": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f084dbb939070281be7c882db63a4a428c51fcf4",
+  "num_adds": 4,
+  "num_dels": 1,
+  "num_mod_lns_total": 5,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "eccc534378e7"
+  ],
+  "mod_files_lst": [
+   "drivers/acpi/pci_link.c",
+   "drivers/platform/x86/sony-laptop.c",
+   "drivers/pnp/pnpacpi/rsparser.c"
+  ],
+  "entropy": 1.3709505944546687,
+  "ppl_signed_off": [
+   "Signed-off-by: Yinghai Lu <yinghai@kernel.org>",
+   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/acpi",
+   "drivers/platform/x86",
+   "drivers/pnp/pnpacpi"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 3,
+  "num_mod_sys": 1,
+  "author": "Yinghai Lu",
+  "author_email": "yinghai@kernel.org",
+  "committer": "Rafael J. Wysocki",
+  "committer_email": "rafael.j.wysocki@intel.com",
+  "author_date": "2013-03-23 19:16:37 +0000",
+  "committer_date": "2013-03-24 01:00:38 +0100"
+ }
+}

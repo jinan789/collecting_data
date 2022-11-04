@@ -1,0 +1,2527 @@
+{
+ "eb0474544bc16a9dab53b26abd846e86ba814eb1": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "eb0474544bc16a9dab53b26abd846e86ba814eb1",
+  "num_adds": 13,
+  "num_dels": 10,
+  "num_mod_lns_total": 23,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "6c5482d53f19"
+  ],
+  "mod_files_lst": [
+   "arch/arm/kernel/smp.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Thomas Gleinxer <tglx@linutronix.de>",
+   "Signed-off-by: Kukjin Kim <kgene.kim@samsung.com>",
+   "Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/kernel"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Thomas Gleinxer",
+  "author_email": "tglx@linutronix.de",
+  "committer": "Russell King",
+  "committer_email": "rmk+kernel@arm.linux.org.uk",
+  "author_date": "2011-10-14 12:44:41 +0100",
+  "committer_date": "2011-10-23 21:22:58 +0100"
+ },
+ "d136f2efdf3a4faba47f58603f8ace2207234d75": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d136f2efdf3a4faba47f58603f8ace2207234d75",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "899e3ee40496"
+  ],
+  "mod_files_lst": [
+   "drivers/md/dm-kcopyd.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Alasdair G Kergon <agk@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [
+   "Cc: Mikulas Patocka <mpatocka@redhat.com>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [
+   "Reported-by: Michael Leun <ml@newton.leun.net>"
+  ],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/md"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Alasdair G Kergon",
+  "author_email": "agk@redhat.com",
+  "committer": "Alasdair G Kergon",
+  "committer_email": "agk@redhat.com",
+  "author_date": "2011-10-23 20:55:17 +0100",
+  "committer_date": "2011-10-23 20:55:17 +0100"
+ },
+ "34471a9168c8bfd7f0d00989a7b0797ad27d585e": {
+  "num_adds_if": 55,
+  "num_dels_if": 15,
+  "num_mod_total_if": 70,
+  "num_adds_loop": 17,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 23,
+  "file_hash": "34471a9168c8bfd7f0d00989a7b0797ad27d585e",
+  "num_adds": 829,
+  "num_dels": 307,
+  "num_mod_lns_total": 1136,
+  "num_mod_files": 46,
+  "is_merge": true,
+  "parents": [
+   "cefd3e71efca",
+   "28af690a284d"
+  ],
+  "mod_files_lst": [
+   "arch/arm/Kconfig",
+   "arch/arm/common/gic.c",
+   "arch/arm/include/asm/cputype.h",
+   "arch/arm/include/asm/entry-macro-multi.S",
+   "arch/arm/include/asm/exception.h",
+   "arch/arm/include/asm/hardirq.h",
+   "arch/arm/include/asm/hardware/entry-macro-gic.S",
+   "arch/arm/include/asm/hardware/gic.h",
+   "arch/arm/include/asm/localtimer.h",
+   "arch/arm/include/asm/smp.h",
+   "arch/arm/include/asm/smp_twd.h",
+   "arch/arm/include/asm/system.h",
+   "arch/arm/include/asm/topology.h",
+   "arch/arm/kernel/Makefile",
+   "arch/arm/kernel/irq.c",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/kernel/smp_scu.c",
+   "arch/arm/kernel/smp_twd.c",
+   "arch/arm/kernel/topology.c",
+   "arch/arm/kernel/traps.c",
+   "arch/arm/mach-exynos4/include/mach/entry-macro.S",
+   "arch/arm/mach-exynos4/mct.c",
+   "arch/arm/mach-exynos4/platsmp.c",
+   "arch/arm/mach-msm/board-msm8x60.c",
+   "arch/arm/mach-msm/include/mach/entry-macro-qgic.S",
+   "arch/arm/mach-msm/platsmp.c",
+   "arch/arm/mach-msm/timer.c",
+   "arch/arm/mach-omap2/include/mach/entry-macro.S",
+   "arch/arm/mach-omap2/omap-smp.c",
+   "arch/arm/mach-pxa/irq.c",
+   "arch/arm/mach-realview/platsmp.c",
+   "arch/arm/mach-shmobile/entry-intc.S",
+   "arch/arm/mach-shmobile/include/mach/entry-macro.S",
+   "arch/arm/mach-shmobile/platsmp.c",
+   "arch/arm/mach-tegra/platsmp.c",
+   "arch/arm/mach-ux500/platsmp.c",
+   "arch/arm/mach-vexpress/ct-ca9x4.c",
+   "arch/arm/mm/fault.c",
+   "include/linux/interrupt.h",
+   "include/linux/irq.h",
+   "include/linux/irqdesc.h",
+   "kernel/irq/chip.c",
+   "kernel/irq/internals.h",
+   "kernel/irq/irqdesc.c",
+   "kernel/irq/manage.c",
+   "kernel/irq/settings.h"
+  ],
+  "entropy": 4.386613595181436,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/mm",
+   "arch/arm/mach-msm",
+   "arch/arm/mach-shmobile/include/mach",
+   "arch/arm/mach-pxa",
+   "arch/arm/mach-exynos4/include/mach",
+   "arch/arm/mach-msm/include/mach",
+   "arch/arm/common",
+   "arch/arm/mach-omap2/include/mach",
+   "arch/arm",
+   "arch/arm/include/asm",
+   "arch/arm/mach-tegra",
+   "include/linux",
+   "arch/arm/mach-realview",
+   "arch/arm/kernel",
+   "arch/arm/include/asm/hardware",
+   "kernel/irq",
+   "arch/arm/mach-omap2",
+   "arch/arm/mach-exynos4",
+   "arch/arm/mach-vexpress",
+   "arch/arm/mach-ux500",
+   "arch/arm/mach-shmobile"
+  ],
+  "mod_sys": [
+   "kernel",
+   "include",
+   "arch"
+  ],
+  "num_mod_dirs": 21,
+  "num_mod_sys": 3,
+  "author": "Russell King",
+  "author_email": "rmk+kernel@arm.linux.org.uk",
+  "committer": "Russell King",
+  "committer_email": "rmk+kernel@arm.linux.org.uk",
+  "author_date": "2011-10-23 14:42:30 +0100",
+  "committer_date": "2011-10-23 14:42:30 +0100"
+ },
+ "28af690a284dfcb627bd69d0963db1c0f412cb8c": {
+  "num_adds_if": 8,
+  "num_dels_if": 6,
+  "num_mod_total_if": 14,
+  "num_adds_loop": 2,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 3,
+  "file_hash": "28af690a284dfcb627bd69d0963db1c0f412cb8c",
+  "num_adds": 99,
+  "num_dels": 111,
+  "num_mod_lns_total": 210,
+  "num_mod_files": 8,
+  "is_merge": false,
+  "parents": [
+   "292b293ceef2"
+  ],
+  "mod_files_lst": [
+   "arch/arm/common/gic.c",
+   "arch/arm/include/asm/hardware/gic.h",
+   "arch/arm/include/asm/localtimer.h",
+   "arch/arm/include/asm/smp_twd.h",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/kernel/smp_twd.c",
+   "arch/arm/mach-exynos4/mct.c",
+   "arch/arm/mach-msm/timer.c"
+  ],
+  "entropy": 2.33982545412192,
+  "ppl_signed_off": [
+   "Signed-off-by: Marc Zyngier <marc.zyngier@arm.com>"
+  ],
+  "ppl_acked": [
+   "Acked-by: David Brown <davidb@codeaurora.org>"
+  ],
+  "ppl_cc": [
+   "Cc: David Brown <davidb@codeaurora.org>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: David Brown <davidb@codeaurora.org>",
+   "Tested-by: Shawn Guo <shawn.guo@linaro.org>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/common",
+   "arch/arm/mach-msm",
+   "arch/arm/include/asm",
+   "arch/arm/mach-exynos4",
+   "arch/arm/kernel",
+   "arch/arm/include/asm/hardware"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 6,
+  "num_mod_sys": 1,
+  "author": "Marc Zyngier",
+  "author_email": "marc.zyngier@arm.com",
+  "committer": "Marc Zyngier",
+  "committer_email": "marc.zyngier@arm.com",
+  "author_date": "2011-07-22 12:52:37 +0100",
+  "committer_date": "2011-10-23 13:32:33 +0100"
+ },
+ "292b293ceef2eda1f96f0c90b96e954d7bdabd1c": {
+  "num_adds_if": 4,
+  "num_dels_if": 3,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 3,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 8,
+  "file_hash": "292b293ceef2eda1f96f0c90b96e954d7bdabd1c",
+  "num_adds": 88,
+  "num_dels": 178,
+  "num_mod_lns_total": 266,
+  "num_mod_files": 14,
+  "is_merge": false,
+  "parents": [
+   "88b6fc8c5705"
+  ],
+  "mod_files_lst": [
+   "arch/arm/common/gic.c",
+   "arch/arm/include/asm/entry-macro-multi.S",
+   "arch/arm/include/asm/hardirq.h",
+   "arch/arm/include/asm/hardware/entry-macro-gic.S",
+   "arch/arm/include/asm/localtimer.h",
+   "arch/arm/include/asm/smp.h",
+   "arch/arm/kernel/irq.c",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/mach-exynos4/include/mach/entry-macro.S",
+   "arch/arm/mach-msm/board-msm8x60.c",
+   "arch/arm/mach-msm/include/mach/entry-macro-qgic.S",
+   "arch/arm/mach-omap2/include/mach/entry-macro.S",
+   "arch/arm/mach-shmobile/entry-intc.S",
+   "arch/arm/mach-shmobile/include/mach/entry-macro.S"
+  ],
+  "entropy": 2.9459897992170365,
+  "ppl_signed_off": [
+   "Signed-off-by: Marc Zyngier <marc.zyngier@arm.com>"
+  ],
+  "ppl_acked": [
+   "Acked-by: David Brown <davidb@codeaurora.org>"
+  ],
+  "ppl_cc": [
+   "Cc: Kukjin Kim <kgene.kim@samsung.com>",
+   "Cc: David Brown <davidb@codeaurora.org>",
+   "Cc: Bryan Huntsman <bryanh@codeaurora.org>",
+   "Cc: Tony Lindgren <tony@atomide.com>",
+   "Cc: Paul Mundt <lethal@linux-sh.org>",
+   "Cc: Magnus Damm <magnus.damm@gmail.com>",
+   "Cc: Thomas Gleixner <tglx@linutronix.de>"
+  ],
+  "ppl_reviewed": [],
+  "ppl_tested": [
+   "Tested-by: David Brown <davidb@codeaurora.org>",
+   "Tested-by: Shawn Guo <shawn.guo@linaro.org>"
+  ],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/mach-msm/include/mach",
+   "arch/arm/common",
+   "arch/arm/mach-msm",
+   "arch/arm/mach-shmobile/include/mach",
+   "arch/arm/mach-omap2/include/mach",
+   "arch/arm/mach-exynos4/include/mach",
+   "arch/arm/include/asm",
+   "arch/arm/kernel",
+   "arch/arm/include/asm/hardware",
+   "arch/arm/mach-shmobile"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 10,
+  "num_mod_sys": 1,
+  "author": "Marc Zyngier",
+  "author_email": "marc.zyngier@arm.com",
+  "committer": "Marc Zyngier",
+  "committer_email": "marc.zyngier@arm.com",
+  "author_date": "2011-07-20 16:24:14 +0100",
+  "committer_date": "2011-10-23 13:32:29 +0100"
+ },
+ "88b6fc8c57055590d8e9538f6faa85483db8c366": {
+  "num_adds_if": 30,
+  "num_dels_if": 3,
+  "num_mod_total_if": 33,
+  "num_adds_loop": 8,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 8,
+  "file_hash": "88b6fc8c57055590d8e9538f6faa85483db8c366",
+  "num_adds": 364,
+  "num_dels": 35,
+  "num_mod_lns_total": 399,
+  "num_mod_files": 8,
+  "is_merge": true,
+  "parents": [
+   "a06f916b7a9b",
+   "32cffdde4a3e"
+  ],
+  "mod_files_lst": [
+   "include/linux/interrupt.h",
+   "include/linux/irq.h",
+   "include/linux/irqdesc.h",
+   "kernel/irq/chip.c",
+   "kernel/irq/internals.h",
+   "kernel/irq/irqdesc.c",
+   "kernel/irq/manage.c",
+   "kernel/irq/settings.h"
+  ],
+  "entropy": 2.0556930629750347,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "include/linux",
+   "kernel/irq"
+  ],
+  "mod_sys": [
+   "kernel",
+   "include"
+  ],
+  "num_mod_dirs": 2,
+  "num_mod_sys": 2,
+  "author": "Marc Zyngier",
+  "author_email": "marc.zyngier@arm.com",
+  "committer": "Marc Zyngier",
+  "committer_email": "marc.zyngier@arm.com",
+  "author_date": "2011-10-23 13:32:19 +0100",
+  "committer_date": "2011-10-23 13:32:19 +0100"
+ },
+ "68cf162a1af23c35db8e3b78659c99196c9882ff": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "68cf162a1af23c35db8e3b78659c99196c9882ff",
+  "num_adds": 0,
+  "num_dels": 3,
+  "num_mod_lns_total": 3,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "09a3fc2bf18e"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:54 +0100",
+  "committer_date": "2011-10-23 11:35:13 +0200"
+ },
+ "09a3fc2bf18ee3655d359872283cad40f40c512d": {
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "09a3fc2bf18ee3655d359872283cad40f40c512d",
+  "num_adds": 46,
+  "num_dels": 35,
+  "num_mod_lns_total": 81,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "8310c602383d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:53 +0100",
+  "committer_date": "2011-10-23 11:35:13 +0200"
+ },
+ "8310c602383d916fde45ed879e5a355272ec5f20": {
+  "num_adds_if": 10,
+  "num_dels_if": 10,
+  "num_mod_total_if": 20,
+  "num_adds_loop": 5,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 10,
+  "file_hash": "8310c602383d916fde45ed879e5a355272ec5f20",
+  "num_adds": 128,
+  "num_dels": 134,
+  "num_mod_lns_total": 262,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "2288760e3bc1"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:52 +0100",
+  "committer_date": "2011-10-23 11:35:13 +0200"
+ },
+ "2288760e3bc1639d8a33ae751f36738b7d96af8f": {
+  "num_adds_if": 6,
+  "num_dels_if": 6,
+  "num_mod_total_if": 12,
+  "num_adds_loop": 3,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 6,
+  "file_hash": "2288760e3bc1639d8a33ae751f36738b7d96af8f",
+  "num_adds": 193,
+  "num_dels": 202,
+  "num_mod_lns_total": 395,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "a4d444bdef70"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:51 +0100",
+  "committer_date": "2011-10-23 11:35:13 +0200"
+ },
+ "a4d444bdef709d37838f83f92cab33b6c4475627": {
+  "num_adds_if": 8,
+  "num_dels_if": 8,
+  "num_mod_total_if": 16,
+  "num_adds_loop": 7,
+  "num_dels_loop": 7,
+  "num_mod_total_loop": 14,
+  "file_hash": "a4d444bdef709d37838f83f92cab33b6c4475627",
+  "num_adds": 214,
+  "num_dels": 220,
+  "num_mod_lns_total": 434,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "5da2b1581a24"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:50 +0100",
+  "committer_date": "2011-10-23 11:35:13 +0200"
+ },
+ "5da2b1581a24af6a50d40737c44a9ae13d3097b3": {
+  "num_adds_if": 15,
+  "num_dels_if": 15,
+  "num_mod_total_if": 30,
+  "num_adds_loop": 8,
+  "num_dels_loop": 8,
+  "num_mod_total_loop": 16,
+  "file_hash": "5da2b1581a24af6a50d40737c44a9ae13d3097b3",
+  "num_adds": 251,
+  "num_dels": 254,
+  "num_mod_lns_total": 505,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "36f2771a70c4"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:49 +0100",
+  "committer_date": "2011-10-23 11:35:12 +0200"
+ },
+ "36f2771a70c44b3fbc1be34d5a82e8472437c7ca": {
+  "num_adds_if": 3,
+  "num_dels_if": 3,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 4,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 8,
+  "file_hash": "36f2771a70c44b3fbc1be34d5a82e8472437c7ca",
+  "num_adds": 222,
+  "num_dels": 223,
+  "num_mod_lns_total": 445,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "44012dfe4e61"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:48 +0100",
+  "committer_date": "2011-10-23 11:35:12 +0200"
+ },
+ "44012dfe4e6113c5c51393e2cd6cd49d8108da96": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "44012dfe4e6113c5c51393e2cd6cd49d8108da96",
+  "num_adds": 60,
+  "num_dels": 66,
+  "num_mod_lns_total": 126,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "c018a5f11df2"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:47 +0100",
+  "committer_date": "2011-10-23 11:35:12 +0200"
+ },
+ "c018a5f11df2a0464455ba4f1f6eae88e0ef8666": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c018a5f11df2a0464455ba4f1f6eae88e0ef8666",
+  "num_adds": 0,
+  "num_dels": 2,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "ac8f4837f224"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:46 +0100",
+  "committer_date": "2011-10-23 11:35:12 +0200"
+ },
+ "ac8f4837f2240c692b968cdeaa3275ecc2ed173f": {
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "ac8f4837f2240c692b968cdeaa3275ecc2ed173f",
+  "num_adds": 0,
+  "num_dels": 14,
+  "num_mod_lns_total": 14,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "5ad5be581ed1"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:45 +0100",
+  "committer_date": "2011-10-23 11:35:12 +0200"
+ },
+ "5ad5be581ed19becd184731fd0e9711abc5650c6": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5ad5be581ed19becd184731fd0e9711abc5650c6",
+  "num_adds": 0,
+  "num_dels": 18,
+  "num_mod_lns_total": 18,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "16d8de3cc948"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:44 +0100",
+  "committer_date": "2011-10-23 11:35:11 +0200"
+ },
+ "16d8de3cc9484ccebab20331c03d1b6ba8636d76": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "16d8de3cc9484ccebab20331c03d1b6ba8636d76",
+  "num_adds": 0,
+  "num_dels": 6,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "a86581829fdd"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-23 10:22:43 +0100",
+  "committer_date": "2011-10-23 11:35:11 +0200"
+ },
+ "a86581829fdd646655116f89cb8af2f22b5fbf9e": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a86581829fdd646655116f89cb8af2f22b5fbf9e",
+  "num_adds": 5,
+  "num_dels": 4,
+  "num_mod_lns_total": 9,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "a5e4b81e274d"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/bcm/InterfaceDld.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Kevin McKinney <klmckinney1@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/bcm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Kevin McKinney",
+  "author_email": "klmckinney1@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 08:15:23 -0400",
+  "committer_date": "2011-10-23 10:16:34 +0200"
+ },
+ "a5e4b81e274d7b455531a5e33ce1523caaf31a84": {
+  "num_adds_if": 32,
+  "num_dels_if": 1,
+  "num_mod_total_if": 33,
+  "num_adds_loop": 8,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 12,
+  "file_hash": "a5e4b81e274d7b455531a5e33ce1523caaf31a84",
+  "num_adds": 161,
+  "num_dels": 213,
+  "num_mod_lns_total": 374,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "a3e2940c24d3"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/bcm/InterfaceDld.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Kevin McKinney <klmckinney1@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/bcm"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Kevin McKinney",
+  "author_email": "klmckinney1@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 08:15:22 -0400",
+  "committer_date": "2011-10-23 10:16:34 +0200"
+ },
+ "a3e2940c24d319558dcb7cb7736de9c814be7c7b": {
+  "num_adds_if": 19,
+  "num_dels_if": 0,
+  "num_mod_total_if": 19,
+  "num_adds_loop": 6,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 6,
+  "file_hash": "a3e2940c24d319558dcb7cb7736de9c814be7c7b",
+  "num_adds": 593,
+  "num_dels": 0,
+  "num_mod_lns_total": 593,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "dafb7d1bd07f"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/iio/dac/Kconfig",
+   "drivers/staging/iio/dac/Makefile",
+   "drivers/staging/iio/dac/ad5360.c"
+  ],
+  "entropy": 0.15113809701979528,
+  "ppl_signed_off": [
+   "Signed-off-by: Lars-Peter Clausen <lars@metafoo.de>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Jonathan Cameron <jic23@cam.ac.uk>",
+   "Acked-by: Michael Hennerich <michael.hennerich@analog.com>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/iio/dac"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Lars-Peter Clausen",
+  "author_email": "lars@metafoo.de",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 10:46:38 +0200",
+  "committer_date": "2011-10-23 10:15:02 +0200"
+ },
+ "dafb7d1bd07f61cbaf963345d4ed1c89923e6782": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "dafb7d1bd07f61cbaf963345d4ed1c89923e6782",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "0c849b3c16f4"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/iio/trigger/iio-trig-bfin-timer.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Lars-Peter Clausen <lars@metafoo.de>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [
+   "Acked-by: Jonathan Cameron <jic23@cam.ac.uk>"
+  ],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/iio/trigger"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Lars-Peter Clausen",
+  "author_email": "lars@metafoo.de",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 14:38:43 +0200",
+  "committer_date": "2011-10-23 10:15:02 +0200"
+ },
+ "0c849b3c16f4dab5848182868094adeb51210d8b": {
+  "num_adds_if": 3,
+  "num_dels_if": 0,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0c849b3c16f4dab5848182868094adeb51210d8b",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "0d3eb2b29f11"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/vt6655/ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/vt6655"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dan Carpenter",
+  "author_email": "dan.carpenter@oracle.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 09:10:09 +0300",
+  "committer_date": "2011-10-23 10:13:20 +0200"
+ },
+ "0d3eb2b29f116a2be4e042cbab0e14c9957cc8e2": {
+  "num_adds_if": 69,
+  "num_dels_if": 64,
+  "num_mod_total_if": 133,
+  "num_adds_loop": 5,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 10,
+  "file_hash": "0d3eb2b29f116a2be4e042cbab0e14c9957cc8e2",
+  "num_adds": 491,
+  "num_dels": 596,
+  "num_mod_lns_total": 1087,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "44ec5d291694"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/vt6655/ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/vt6655"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dan Carpenter",
+  "author_email": "dan.carpenter@oracle.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 09:09:46 +0300",
+  "committer_date": "2011-10-23 10:13:20 +0200"
+ },
+ "44ec5d29169426b00fe054f0a13744140de29e11": {
+  "num_adds_if": 3,
+  "num_dels_if": 0,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "44ec5d29169426b00fe054f0a13744140de29e11",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "883aeecc9ddc"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/vt6656/ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/vt6656"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dan Carpenter",
+  "author_email": "dan.carpenter@oracle.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 09:10:39 +0300",
+  "committer_date": "2011-10-23 10:13:20 +0200"
+ },
+ "883aeecc9ddc120e34a1157aee37738a4e96b517": {
+  "num_adds_if": 65,
+  "num_dels_if": 56,
+  "num_mod_total_if": 121,
+  "num_adds_loop": 7,
+  "num_dels_loop": 7,
+  "num_mod_total_loop": 14,
+  "file_hash": "883aeecc9ddc120e34a1157aee37738a4e96b517",
+  "num_adds": 483,
+  "num_dels": 552,
+  "num_mod_lns_total": 1035,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "4fb544c947a4"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/vt6656/ioctl.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/vt6656"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Dan Carpenter",
+  "author_email": "dan.carpenter@oracle.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 09:10:25 +0300",
+  "committer_date": "2011-10-23 10:13:19 +0200"
+ },
+ "4fb544c947a4b86ce8f302b64202e720f846ed70": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4fb544c947a4b86ce8f302b64202e720f846ed70",
+  "num_adds": 0,
+  "num_dels": 11,
+  "num_mod_lns_total": 11,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "26dc751e2502"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:48 +0100",
+  "committer_date": "2011-10-23 10:07:12 +0200"
+ },
+ "26dc751e25026c1f3e774bdd142fa6f405559c46": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "26dc751e25026c1f3e774bdd142fa6f405559c46",
+  "num_adds": 28,
+  "num_dels": 28,
+  "num_mod_lns_total": 56,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "06709e962322"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:47 +0100",
+  "committer_date": "2011-10-23 10:07:12 +0200"
+ },
+ "06709e962322eb565f1e5ce591df7efb3db07c1f": {
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "06709e962322eb565f1e5ce591df7efb3db07c1f",
+  "num_adds": 6,
+  "num_dels": 8,
+  "num_mod_lns_total": 14,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "26d19bf60be3"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/README",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.37123232664087563,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:46 +0100",
+  "committer_date": "2011-10-23 10:07:12 +0200"
+ },
+ "26d19bf60be3a41bbd6c31d89d13a9c5e8edef8b": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "26d19bf60be3a41bbd6c31d89d13a9c5e8edef8b",
+  "num_adds": 4,
+  "num_dels": 9,
+  "num_mod_lns_total": 13,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "675c8f68ca65"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/README",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.39124356362925566,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:45 +0100",
+  "committer_date": "2011-10-23 10:07:12 +0200"
+ },
+ "675c8f68ca65632624c0ebc03788f53c2109bf5b": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "675c8f68ca65632624c0ebc03788f53c2109bf5b",
+  "num_adds": 8,
+  "num_dels": 8,
+  "num_mod_lns_total": 16,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "0d1b7a84d367"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:44 +0100",
+  "committer_date": "2011-10-23 10:07:11 +0200"
+ },
+ "0d1b7a84d3672023c6bc6d7eaa988db8bd3202ba": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0d1b7a84d3672023c6bc6d7eaa988db8bd3202ba",
+  "num_adds": 22,
+  "num_dels": 18,
+  "num_mod_lns_total": 40,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "e592a9b06cdd"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/README",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.16866093149667025,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:43 +0100",
+  "committer_date": "2011-10-23 10:07:11 +0200"
+ },
+ "e592a9b06cdd9f1d5a6f8026f9ec8170ebf10ef5": {
+  "num_adds_if": 17,
+  "num_dels_if": 17,
+  "num_mod_total_if": 34,
+  "num_adds_loop": 8,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 12,
+  "file_hash": "e592a9b06cdd9f1d5a6f8026f9ec8170ebf10ef5",
+  "num_adds": 158,
+  "num_dels": 147,
+  "num_mod_lns_total": 305,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "6abafc164c13"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/README",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.03178030429664204,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:42 +0100",
+  "committer_date": "2011-10-23 10:07:11 +0200"
+ },
+ "6abafc164c13d4fa9e009d401ad7537991295add": {
+  "num_adds_if": 17,
+  "num_dels_if": 17,
+  "num_mod_total_if": 34,
+  "num_adds_loop": 5,
+  "num_dels_loop": 5,
+  "num_mod_total_loop": 10,
+  "file_hash": "6abafc164c13d4fa9e009d401ad7537991295add",
+  "num_adds": 140,
+  "num_dels": 153,
+  "num_mod_lns_total": 293,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "920d74a405a9"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:41 +0100",
+  "committer_date": "2011-10-23 10:07:11 +0200"
+ },
+ "920d74a405a91248c65490b668c556d4d8f8028a": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "920d74a405a91248c65490b668c556d4d8f8028a",
+  "num_adds": 11,
+  "num_dels": 10,
+  "num_mod_lns_total": 21,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "82e4b35f4d71"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h"
+  ],
+  "entropy": 0.998363672593813,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:40 +0100",
+  "committer_date": "2011-10-23 10:07:10 +0200"
+ },
+ "82e4b35f4d71199e90ab00a84bdbfae028f9fa62": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "82e4b35f4d71199e90ab00a84bdbfae028f9fa62",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "17ec9ff32c0f"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/README"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:39 +0100",
+  "committer_date": "2011-10-23 10:07:10 +0200"
+ },
+ "17ec9ff32c0fb8478958f3a2a99be6758846f657": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 4,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 10,
+  "file_hash": "17ec9ff32c0fb8478958f3a2a99be6758846f657",
+  "num_adds": 86,
+  "num_dels": 151,
+  "num_mod_lns_total": 237,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "562550b02bbe"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et1310_tx.h",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.9484103893488013,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:38 +0100",
+  "committer_date": "2011-10-23 10:07:10 +0200"
+ },
+ "562550b02bbe9e376b05c5ff7d7ef12e7c32fc30": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 5,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 11,
+  "file_hash": "562550b02bbe9e376b05c5ff7d7ef12e7c32fc30",
+  "num_adds": 180,
+  "num_dels": 244,
+  "num_mod_lns_total": 424,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "1c1c1b5fda62"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et1310_rx.h",
+   "drivers/staging/et131x/et131x.c"
+  ],
+  "entropy": 0.9845205867842726,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:37 +0100",
+  "committer_date": "2011-10-23 10:07:10 +0200"
+ },
+ "1c1c1b5fda62419615c8fda99359206b2b279489": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "1c1c1b5fda62419615c8fda99359206b2b279489",
+  "num_adds": 64,
+  "num_dels": 130,
+  "num_mod_lns_total": 194,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "fd0651a6d185"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x_defs.h"
+  ],
+  "entropy": 0.925015873745592,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:36 +0100",
+  "committer_date": "2011-10-23 10:07:09 +0200"
+ },
+ "fd0651a6d185e9572e1b2530d9f8f18c4cd5295c": {
+  "num_adds_if": 3,
+  "num_dels_if": 3,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 1,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 3,
+  "file_hash": "fd0651a6d185e9572e1b2530d9f8f18c4cd5295c",
+  "num_adds": 151,
+  "num_dels": 218,
+  "num_mod_lns_total": 369,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "2b2b9554de6c"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x_adapter.h"
+  ],
+  "entropy": 0.9774997716867457,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:35 +0100",
+  "committer_date": "2011-10-23 10:07:09 +0200"
+ },
+ "2b2b9554de6c1e0695bd349324f17cf0973f4c25": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 5,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 11,
+  "file_hash": "2b2b9554de6c1e0695bd349324f17cf0973f4c25",
+  "num_adds": 227,
+  "num_dels": 291,
+  "num_mod_lns_total": 518,
+  "num_mod_files": 3,
+  "is_merge": false,
+  "parents": [
+   "01df6aa26363"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et1310_phy.h",
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h"
+  ],
+  "entropy": 1.0075416029001278,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:34 +0100",
+  "committer_date": "2011-10-23 10:07:09 +0200"
+ },
+ "01df6aa2636335617a7a6f5b136b3f52b787a5f5": {
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 83,
+  "num_dels_loop": 85,
+  "num_mod_total_loop": 168,
+  "file_hash": "01df6aa2636335617a7a6f5b136b3f52b787a5f5",
+  "num_adds": 1370,
+  "num_dels": 1442,
+  "num_mod_lns_total": 2812,
+  "num_mod_files": 6,
+  "is_merge": false,
+  "parents": [
+   "bd156af600b6"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et1310_address_map.h",
+   "drivers/staging/et131x/et1310_phy.h",
+   "drivers/staging/et131x/et1310_rx.h",
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h",
+   "drivers/staging/et131x/et131x_adapter.h"
+  ],
+  "entropy": 1.0235673185385703,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:33 +0100",
+  "committer_date": "2011-10-23 10:07:09 +0200"
+ },
+ "bd156af600b6c289cf58d02867a255c2f41d0b87": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "bd156af600b6c289cf58d02867a255c2f41d0b87",
+  "num_adds": 32,
+  "num_dels": 32,
+  "num_mod_lns_total": 64,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "2d0c64ad0472"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h"
+  ],
+  "entropy": 0.9992954443621549,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:32 +0100",
+  "committer_date": "2011-10-23 10:07:08 +0200"
+ },
+ "2d0c64ad04725778237885212225d97f9470d34c": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2d0c64ad04725778237885212225d97f9470d34c",
+  "num_adds": 31,
+  "num_dels": 102,
+  "num_mod_lns_total": 133,
+  "num_mod_files": 2,
+  "is_merge": false,
+  "parents": [
+   "d2796743cba2"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h"
+  ],
+  "entropy": 0.7833465670569364,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:31 +0100",
+  "committer_date": "2011-10-23 10:07:08 +0200"
+ },
+ "d2796743cba2d30f018e10288effce53fbd53fbe": {
+  "num_adds_if": 293,
+  "num_dels_if": 294,
+  "num_mod_total_if": 587,
+  "num_adds_loop": 137,
+  "num_dels_loop": 148,
+  "num_mod_total_loop": 285,
+  "file_hash": "d2796743cba2d30f018e10288effce53fbd53fbe",
+  "num_adds": 5102,
+  "num_dels": 5862,
+  "num_mod_lns_total": 10964,
+  "num_mod_files": 13,
+  "is_merge": false,
+  "parents": [
+   "cd8eca6f7710"
+  ],
+  "mod_files_lst": [
+   "drivers/staging/et131x/Makefile",
+   "drivers/staging/et131x/et1310_eeprom.c",
+   "drivers/staging/et131x/et1310_mac.c",
+   "drivers/staging/et131x/et1310_phy.c",
+   "drivers/staging/et131x/et1310_pm.c",
+   "drivers/staging/et131x/et1310_rx.c",
+   "drivers/staging/et131x/et1310_tx.c",
+   "drivers/staging/et131x/et131x.c",
+   "drivers/staging/et131x/et131x.h",
+   "drivers/staging/et131x/et131x_ethtool.c",
+   "drivers/staging/et131x/et131x_initpci.c",
+   "drivers/staging/et131x/et131x_isr.c",
+   "drivers/staging/et131x/et131x_netdev.c"
+  ],
+  "entropy": 2.720136289944062,
+  "ppl_signed_off": [
+   "Signed-off-by: Mark Einon <mark.einon@gmail.com>",
+   "Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/staging/et131x"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Mark Einon",
+  "author_email": "mark.einon@gmail.com",
+  "committer": "Greg Kroah-Hartman",
+  "committer_email": "gregkh@suse.de",
+  "author_date": "2011-10-20 01:18:30 +0100",
+  "committer_date": "2011-10-23 10:03:40 +0200"
+ },
+ "1bf1aacedcda23c75e70fa3394e1caa6d4b5ee49": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1bf1aacedcda23c75e70fa3394e1caa6d4b5ee49",
+  "num_adds": 13,
+  "num_dels": 3,
+  "num_mod_lns_total": 16,
+  "num_mod_files": 6,
+  "is_merge": true,
+  "parents": [
+   "5117cc25fd43",
+   "fb630b9fc902"
+  ],
+  "mod_files_lst": [
+   "arch/arm/mach-s3c2410/s3c2410.c",
+   "arch/arm/mach-s3c2412/s3c2412.c",
+   "arch/arm/mach-s3c2416/s3c2416.c",
+   "arch/arm/mach-s3c2440/s3c2440.c",
+   "arch/arm/mach-s3c2440/s3c2442.c",
+   "arch/arm/plat-s5p/irq-gpioint.c"
+  ],
+  "entropy": 2.4056390622295662,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "arch/arm/mach-s3c2410",
+   "arch/arm/mach-s3c2416",
+   "arch/arm/plat-s5p",
+   "arch/arm/mach-s3c2412",
+   "arch/arm/mach-s3c2440"
+  ],
+  "mod_sys": [
+   "arch"
+  ],
+  "num_mod_dirs": 5,
+  "num_mod_sys": 1,
+  "author": "Linus Torvalds",
+  "author_email": "torvalds@linux-foundation.org",
+  "committer": "Linus Torvalds",
+  "committer_email": "torvalds@linux-foundation.org",
+  "author_date": "2011-10-23 10:44:40 +0300",
+  "committer_date": "2011-10-23 10:44:40 +0300"
+ },
+ "5117cc25fd43add94c04c9d2ace713c69a21bdb1": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5117cc25fd43add94c04c9d2ace713c69a21bdb1",
+  "num_adds": 3,
+  "num_dels": 2,
+  "num_mod_lns_total": 5,
+  "num_mod_files": 1,
+  "is_merge": true,
+  "parents": [
+   "2efd7c0fdcbe",
+   "133d324d82e1"
+  ],
+  "mod_files_lst": [
+   "drivers/hwmon/w83627ehf.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/hwmon"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Linus Torvalds",
+  "author_email": "torvalds@linux-foundation.org",
+  "committer": "Linus Torvalds",
+  "committer_email": "torvalds@linux-foundation.org",
+  "author_date": "2011-10-23 10:43:31 +0300",
+  "committer_date": "2011-10-23 10:43:31 +0300"
+ },
+ "c5c42360bc1cb14c7da3186683e9525b33b72656": {
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c5c42360bc1cb14c7da3186683e9525b33b72656",
+  "num_adds": 3,
+  "num_dels": 9,
+  "num_mod_lns_total": 12,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "64fc99447f5d"
+  ],
+  "mod_files_lst": [
+   "drivers/gpu/drm/vmwgfx/vmwgfx_kms.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Jakob Bornecrantz <jakob@vmware.com>",
+   "Signed-off-by: Thomas Hellstrom <thellstrom@vmware.com>",
+   "Signed-off-by: Dave Airlie <airlied@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpu/drm/vmwgfx"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Jakob Bornecrantz",
+  "author_email": "jakob@vmware.com",
+  "committer": "Dave Airlie",
+  "committer_email": "airlied@redhat.com",
+  "author_date": "2011-10-22 10:29:34 +0200",
+  "committer_date": "2011-10-23 07:48:00 +0100"
+ },
+ "64fc99447f5dc6dcb03b4cb4395431f957951e61": {
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "64fc99447f5dc6dcb03b4cb4395431f957951e61",
+  "num_adds": 9,
+  "num_dels": 1,
+  "num_mod_lns_total": 10,
+  "num_mod_files": 1,
+  "is_merge": false,
+  "parents": [
+   "19703058cd2e"
+  ],
+  "mod_files_lst": [
+   "drivers/gpu/drm/vmwgfx/vmwgfx_kms.c"
+  ],
+  "entropy": 0.0,
+  "ppl_signed_off": [
+   "Signed-off-by: Jakob Bornecrantz <jakob@vmware.com>",
+   "Signed-off-by: Thomas Hellstrom <thellstrom@vmware.com>",
+   "Signed-off-by: Dave Airlie <airlied@redhat.com>"
+  ],
+  "ppl_acked": [],
+  "ppl_cc": [],
+  "ppl_reviewed": [],
+  "ppl_tested": [],
+  "ppl_reported": [],
+  "ppl_suggested": [],
+  "ppl_co_developed": [],
+  "fixes_lst": [],
+  "is_fix": false,
+  "mod_dirs": [
+   "drivers/gpu/drm/vmwgfx"
+  ],
+  "mod_sys": [
+   "drivers"
+  ],
+  "num_mod_dirs": 1,
+  "num_mod_sys": 1,
+  "author": "Jakob Bornecrantz",
+  "author_email": "jakob@vmware.com",
+  "committer": "Dave Airlie",
+  "committer_email": "airlied@redhat.com",
+  "author_date": "2011-10-22 10:29:33 +0200",
+  "committer_date": "2011-10-23 07:47:53 +0100"
+ }
+}

@@ -4,15 +4,16 @@ import Git
 import os
 
 repo_path = "/Users/jinanjiang/Documents/LinuxCommits/linux"
-repo_path = "/home/jiangjinan/linux"
+# repo_path = "/home/jiangjinan/linux"
 repo = Git.init(repo_path)
 
 import json
 with open("./all_commits_by_date/" + "all_dates" + '.json', "r") as f:
     all_dates = json.load(f)
-   
 
-dates = all_dates[:4300]
+# dates = all_dates[4300:]
+
+dates = all_dates
 
 def collect(ins):
     dates, i, num_proc = ins

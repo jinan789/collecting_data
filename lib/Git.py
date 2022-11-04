@@ -9,6 +9,7 @@ sys.path.append("./lib")
 from Git import *
 """
 
+
 def init(repo_path):
     global git
     repo = git.Repo(repo_path)
@@ -17,6 +18,9 @@ def init(repo_path):
 
 def reset(commit):
     git.reset("--hard", commit)
+    
+def reset_to_origin():
+    reset('0066f1b0e27556381402db3ff31f85d2a2265858')
     
 def get_commit(commit):
     return git.log(commit, "-1").split("\n")[0].split()[1]
@@ -36,53 +40,114 @@ def get_all_commits_from(repo, commit = None, max_count = None):
     return all_commits_hash
 
 
+def strip_comments(diff_text):
+
+    # one way to simplify things is to preprocess. This also provides reference for other stuff. Also line counts for totals.
+    in_file = False
+    in_comment = False
+    new_file = []
+    for cur_l in diff_text:
+        #print(cur_l)
+        if not in_file:
+            if cur_l[:2] == '@@':
+                in_file = True
+            new_file.append(cur_l)
+            continue
+        else:
+            if cur_l[:4] == 'diff':
+                if in_comment:
+                    with open("errors.txt", 'a') as f:
+                        json.dump('**********' + "       " + commit + '**********', indent=1)
+                in_file = False
+                new_file.append(cur_l)
+                continue
+
+        new_cur_ln = cur_l[0]
+        cur_l = cur_l[1:]
+
+        while True:
+            # consider //
+            #print(cur_l)
+            if in_comment:
+                dex = cur_l.find('*/')
+                if dex == -1:
+                    break
+                else:
+                    in_comment = False
+                cur_l = cur_l[dex + 2:]
+                if len(cur_l) == 0:
+                    break
+
+            else:
+                dex = cur_l.find('/*')
+                double_bar_dex = cur_l.find('//')
+
+                if dex == -1:
+                    if double_bar_dex == -1:
+                        new_cur_ln += cur_l
+                        break
+                    else:
+                        cur_l = cur_l[:double_bar_dex]
+                        new_cur_ln += cur_l
+                        break
+                else:
+                    # there is /*
+                    if double_bar_dex != -1:
+                        if double_bar_dex < dex:
+                            cur_l = cur_l[:double_bar_dex]
+                            new_cur_ln += cur_l
+                            break
+                        else:
+                            in_comment = True
+                    else:
+                        in_comment = True
+
+
+                if dex > 0:
+                    new_cur_ln += cur_l[:dex]
+                cur_l = cur_l[dex:]
+                #print(cur_l)
+                if len(cur_l) == 0:
+                    break
+
+
+        new_file.append(new_cur_ln)
+    return new_file
+
+
+
+
 
 def get_modified_lines(commit, filter_empty_line = False, filter_comments = False):
     # returns dict
     #    key: filename
     #    value: list of modified lines for this file
-
-    diff_text = git.diff(commit+"^!", "-z").split('\n')
-    diff_text = [i for i in diff_text if i.startswith("diff") or i.startswith("+") or i.startswith("-")]
     
-    if filter_empty_line:
-        diff_text = [i for i in diff_text if (i != "+" and i != "-")]
+    diff_text = git.diff(commit+"^1", commit, '-U99999999999999999').split('\n')
         
     if filter_comments:
-        in_comment = False
-        res = []
-        try:
-            for i in diff_text:
-                cur_line = i[1:].strip()
-                if in_comment:
-                    if '*/' in cur_line:
-                        in_comment = False
-                        if cur_line.endswith('*/'):
-                            continue
-                        else:
-                            res.append(i)
-                            continue
-                if cur_line.startswith('/*'):
-                    if '*/' in cur_line:
-                        continue
-                    in_comment = True
-                    continue
-                if cur_line.startswith('//'):
-                    continue
-                res.append(i)
-            diff_text = res
-        except Exception as e:
-            with open("get_com.txt", 'a') as f:
-                json.dump('**********' + str(e) + "       " + commit + '**********', f, indent=1)
+        diff_text = strip_comments(diff_text)
+        
+    if filter_empty_line:
+        diff_text = [i for i in diff_text if len(i[1:].strip()) != 0]
+        
+    diff_text = [i for i in diff_text if i.startswith("diff") or i.startswith("+") or i.startswith("-") or i.startswith("@@")]
 
+    
     file_to_mod_lines_dict = {}
     file_nm = None
     
     cur_line = 0
     num_total_lines = len(diff_text)
+
+    
+    in_file = True
     while cur_line < num_total_lines:
         cur_text = diff_text[cur_line]
+
         if cur_text[:4] == 'diff':
+            assert in_file
+            in_file = False
             file_nm = cur_text.split()[-1]
 
             if file_nm[:2] == "a/":
@@ -90,46 +155,32 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
             if file_nm[:2] == "b/":
                 file_nm = file_nm[2:]
 
-            
-            file_to_mod_lines_dict[file_nm] = []
 
-            if cur_line + 1 == num_total_lines:
-                # no more lines to consume, just exit
-                break
-            next_line_st = diff_text[cur_line + 1][0]
-            if next_line_st == "+" or next_line_st == "-":
-                cur_line += 3 # skip 2 lines
-            else:
-                next_line_st = diff_text[cur_line + 1][:4]
-                assert next_line_st == "diff"
-                cur_line += 1
+            file_to_mod_lines_dict[file_nm] = []
+            cur_line += 1
+            continue
+            
+        elif cur_text[:2] == '@@':
+            assert not in_file
+            in_file = True
+            cur_line += 1
             continue
         else:
+            if not in_file:
+                cur_line += 1
+                continue
+            
             first_char = cur_text[0]
             assert first_char == '+' or first_char == '-'
+            
+            #print(cur_text)
             file_to_mod_lines_dict[file_nm].append(cur_text)
             cur_line += 1
+                
+        
     return file_to_mod_lines_dict
 
-def get_author_name(commit):
-    return git.log(commit, "-1", '--pretty=format:"%an"').replace('\"', '')
-
-def get_author_email(commit):
-    return git.log(commit, "-1", '--pretty=format:"%ae"').replace('\"', '')
-
-def get_committer_name(commit):
-    return git.log(commit, "-1", '--pretty=format:"%cn"').replace('\"', '')
-
-def get_committer_email(commit):
-    return git.log(commit, "-1", '--pretty=format:"%ce"').replace('\"', '')
-
-def get_author_date(commit):
-    return git.log(commit, "-1", '--pretty=format:"%ai').replace('\"', '')
-
-def get_commit_date(commit):
-    return git.log(commit, "-1", '--pretty=format:"%ci').replace('\"', '')
-
-def get_num_mod_lines(file_to_mod_lines_dict, filter_if = False, filter_loop = False):
+def get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_if = False, filter_loop = False):
     file_to_stats_dict = {}
     
     for file_nm in file_to_mod_lines_dict.keys():
@@ -140,13 +191,17 @@ def get_num_mod_lines(file_to_mod_lines_dict, filter_if = False, filter_loop = F
             if filter_if:
                 if "if" not in l.split():
                     continue
+                if '(' not in l or ')' not in l:
+                    continue
             if filter_loop:
                 if "for" not in l.split() and "while" not in l.split():
                     continue
+                if '(' not in l or ')' not in l:
+                    continue
                 
-            if l[:1] == "+":
+            if l[:1] == '+':
                 count_dict[0] += 1
-            elif l[:1] == "-":
+            elif l[:1] == '-':
                 count_dict[1] += 1
             else:
                 raise Exception("something wrong!")
@@ -200,123 +255,6 @@ def get_n_prev_commits(commit, n):
     return commits
 
 
-def find_mod_dirs_sys(files):
-    dirs = []
-    # files = [f[2:] for f in files] # to remove /b
-    for file in files:
-        right_ind = file.rfind("/")
-        if right_ind == -1:
-            dirs.append("/")
-        else:
-            dirs.append(file[0:right_ind])
-    dirs = list(set(dirs))
-
-    subsystems = []
-    for file in files:
-        left_ind = file.find("/")
-        if left_ind == -1:
-            dirs.append("/")
-        else:
-            subsystems.append(file[:left_ind])
-    subsystems = list(set(subsystems))
-    
-    return dirs, subsystems
-
-def get_people_involved(commit):
-    msg = get_msg(commit)
-    msg_lst = [i.strip() for i in msg.split('\n')]
-    people_inv_dict = {}
-    
-    # TODO: parse spaces to make sure it is indeed a person
-    signed_off_lst = [i for i in msg_lst if i.startswith("Signed-off-by:")]
-    acked_lst = [i for i in msg_lst if i.startswith("Acked-by:")]
-    cc_lst = [i for i in msg_lst if i.startswith("Cc:")]
-    reviewed_lst = [i for i in msg_lst if i.startswith("Reviewed-by:")]
-    tested_lst = [i for i in msg_lst if i.startswith("Tested-by:")]
-    reported_lst = [i for i in msg_lst if i.startswith("Reported-by:")]
-    suggested_lst = [i for i in msg_lst if i.startswith("Suggested-by:")]
-    fixes_lst = [i for i in msg_lst if (i.startswith("Fixes:") and i != 'Fixes:')] # some are not tags
-    co_developed_lst = [i for i in msg_lst if i.startswith("Co-Developed-by:")]
-    
-    people_inv_dict["signed_off_lst"] = tuple(signed_off_lst)
-    people_inv_dict["acked_lst"] = tuple(acked_lst)
-    people_inv_dict["cc_lst"] = tuple(cc_lst)
-    people_inv_dict["reviewed_lst"] = tuple(reviewed_lst)
-    people_inv_dict["tested_lst"] = tuple(tested_lst)
-    people_inv_dict["reported_lst"] = tuple(reported_lst)
-    people_inv_dict["suggested_lst"] = tuple(suggested_lst)
-    people_inv_dict["fixes_lst"] = tuple(fixes_lst)
-    people_inv_dict["co_developed_lst"] = tuple(co_developed_lst)
-    
-    return people_inv_dict
-
-
-def get_num_mod_fl_dir_sys(info_dict):
-    """
-    # usage:
-
-    cms = Git.get_all_commits_from(repo, commit = "446279168e030fd0ed68e2bba336bef8bb3da352", max_count = 100)
-    dicts = Git.get_info_from_commits(cms)
-    dir_num_mod_dict, sys_num_mod_dict = get_num_mod_dir_sys(dicts)
-    """
-
-    # info_dict should be a dict of dicts for each commit, i.e. from get_info_from_commits()
-    dir_num_mod_dict = {}
-    sys_num_mod_dict = {}
-    file_num_mod_dict = {}
-
-    for file in info_dict.keys():
-        cur_file_lst = info_dict[file]["mod_files_lst"]
-        cur_dir_lst = info_dict[file]["mod_dirs"]
-        cur_sys_lst = info_dict[file]["mod_sys"]
-        
-        for cur_file in cur_file_lst:
-            # dict membership checking takes O(1) (hashing)
-            if cur_file not in file_num_mod_dict:
-                file_num_mod_dict[cur_file] = 0
-            file_num_mod_dict[cur_file] += 1
-
-        for cur_dir in cur_dir_lst:
-            # dict membership checking takes O(1) (hashing)
-            if cur_dir not in dir_num_mod_dict:
-                dir_num_mod_dict[cur_dir] = 0
-            dir_num_mod_dict[cur_dir] += 1
-
-        for cur_sys in cur_sys_lst:        
-            if cur_sys not in sys_num_mod_dict:
-                sys_num_mod_dict[cur_sys] = 0
-            sys_num_mod_dict[cur_sys] += 1
-    
-    return file_num_mod_dict, dir_num_mod_dict, sys_num_mod_dict
-
-def get_kvfc_from(dicts):
-    # commits from get_info_from_commits
-    kvfc = []
-    for k in dicts.keys():
-        if dicts[k]["is_fix"]:
-            kvfc.append(dicts[k]["fixes_lst"])
-    return kvfc
-
-def get_kvic_from(kvfc):
-    """
-    # usage:
-
-    cms = Git.get_all_commits_from(repo, commit = "446279168e030fd0ed68e2bba336bef8bb3da352", max_count = 100)
-    dicts = Git.get_info_from_commits(cms)
-
-    fc = get_kvfc_from(dicts)
-    ic = get_kvic_from(fc)
-    """ 
-
-    kvic = []
-    
-    k = []
-    for i in range(len(kvfc)):
-        for s in kvfc[i]:
-            k.append(s.split()[1])
-    full_kvic = [Git.get_commit(i) for i in k]
-    return full_kvic
-
 
 def cal_entropy(file_len_lst):
     entropy = 0.0
@@ -328,63 +266,35 @@ def cal_entropy(file_len_lst):
         entropy += pi * math.log2(pi)
     return abs((-1) * entropy)
 
+
+
 # sample use case:
 def get_commit_info(cur_commit):
     cur_commit_dict = {}
 
     # cur_commit = "2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78"
     # cur_commit = "7fedb63a8307dda0ec3b8969a3b233a1dd7ea8e0"
-    file_to_mod_lines_dict = get_modified_lines(cur_commit)
+    file_to_mod_lines_dict = get_modified_lines(cur_commit, 1, 1)
 
-    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, filter_if = 1)
+    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_if = 1)
     cur_commit_dict["num_adds_if"] = overall_counts["num_adds"]
     cur_commit_dict["num_dels_if"] = overall_counts["num_dels"]
     cur_commit_dict["num_mod_total_if"] = overall_counts["num_mod_lns_total"]
 
-    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, filter_loop = 1)
+    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_loop = 1)
     cur_commit_dict["num_adds_loop"] = overall_counts["num_adds"]
     cur_commit_dict["num_dels_loop"] = overall_counts["num_dels"]
     cur_commit_dict["num_mod_total_loop"] = overall_counts["num_mod_lns_total"]
 
-    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, filter_if = 0)
+    file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_if = 0)
     cur_commit_dict["file_hash"] = cur_commit
     cur_commit_dict["num_adds"] = overall_counts["num_adds"]
     cur_commit_dict["num_dels"] = overall_counts["num_dels"]
     cur_commit_dict["num_mod_lns_total"] = overall_counts["num_mod_lns_total"]
-    cur_commit_dict["num_mod_files"] = overall_counts["num_mod_files"]
-    # cur_commit_dict["msg"] = get_msg(cur_commit)
-    cur_commit_dict["is_merge"] = is_merge(cur_commit)
-    cur_commit_dict["parents"] = tuple(get_parents(cur_commit))
     cur_commit_dict["mod_files_lst"] = tuple(file_to_stats_dict.keys())
-
-    # added, deleted, total
+    
     cur_commit_dict["entropy"] = cal_entropy([file_to_stats_dict[k][2] for k in file_to_stats_dict.keys()])
 
-    people_inv_dict = get_people_involved(cur_commit)
-    cur_commit_dict["ppl_signed_off"] = people_inv_dict["signed_off_lst"]
-    cur_commit_dict["ppl_acked"] = people_inv_dict["acked_lst"]
-    cur_commit_dict["ppl_cc"] = people_inv_dict["cc_lst"]
-    cur_commit_dict["ppl_reviewed"] = people_inv_dict["reviewed_lst"]
-    cur_commit_dict["ppl_tested"] = people_inv_dict["tested_lst"]
-    cur_commit_dict["ppl_reported"] = people_inv_dict["reported_lst"]
-    cur_commit_dict["ppl_suggested"] = people_inv_dict["suggested_lst"]
-    cur_commit_dict["ppl_co_developed"] = people_inv_dict["co_developed_lst"]
-
-    cur_commit_dict["fixes_lst"] = people_inv_dict["fixes_lst"]
-    cur_commit_dict["is_fix"] = (len(people_inv_dict["fixes_lst"]) > 0)
-
-    dirs, subsystems = find_mod_dirs_sys(cur_commit_dict["mod_files_lst"])                                                         
-    cur_commit_dict["mod_dirs"] = tuple(dirs)
-    cur_commit_dict["mod_sys"] = tuple(subsystems)
-    cur_commit_dict["num_mod_dirs"] = len(dirs)
-    cur_commit_dict["num_mod_sys"] = len(subsystems)
-
-    cur_commit_dict["author"] = get_author_name(cur_commit)
-    cur_commit_dict["author_email"] = get_author_email(cur_commit)
-    cur_commit_dict["committer"] = get_committer_name(cur_commit)
-    cur_commit_dict["committer_email"] = get_committer_email(cur_commit)
-    cur_commit_dict["author_date"] = get_author_date(cur_commit)
-    cur_commit_dict["committer_date"] = get_commit_date(cur_commit)
     
     return cur_commit_dict
 

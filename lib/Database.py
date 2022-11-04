@@ -6,7 +6,7 @@ class MySQL:
     conn = None
     err = Error.Error("err.log")
 
-    def connect(self, host='127.0.0.1', user="root", passwd="Mm781519636.", database="test", char_set="utf8mb4"):
+    def connect(self, host='127.0.0.1', user="root", passwd="Mm781519636.", database="kernel22", char_set="utf8mb4"):
         self.conn = pymysql.connect(host = host, user = user, password = passwd, database = database, charset=char_set, local_infile=True)
 
     def close(self):
