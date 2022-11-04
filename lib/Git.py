@@ -42,71 +42,6 @@ def get_all_commits_from(repo, commit = None, max_count = None):
     return all_commits_hash
 
 
-def strip_comments(diff_text, commit, proc_id = -1):
-
-    # one way to simplify things is to preprocess. This also provides reference for other stuff. Also line counts for totals.
-    in_file = False
-    new_file = []
-    cur_file = ''
-    cur_ind = 0
-    is_c_file = False
-    while cur_ind < len(diff_text):
-        cur_l = diff_text[cur_ind]
-        if cur_l[:4] == 'diff':
-            
-            if len(cur_file) != 0:
-                with open("temporary_file" + str(proc_id) + ".c", "w") as f:
-                    print(cur_file, file=f)
-                os.system("gcc-11 -fpreprocessed -dD -E -P -o output" + str(proc_id) + ".c temporary_file" + str(proc_id) + ".c")
-                 
-                with open("output.c", "r") as f:
-                    cur_file = f.read().split('\n')
-                
-                new_file.extend(cur_file)
-                cur_file = ''
-                 
-            in_file = False
-            file_nm = cur_l.split()[-1]
-            is_c_file = file_nm.endswith('.c')
-            new_file.append(cur_l)
-            cur_ind += 1
-            continue
-        
-        if cur_l[:2] == '@@':
-            in_file = True
-            new_file.append(cur_l)
-            cur_ind += 1
-            continue
-            
-        if in_file and is_c_file:
-            cur_file += cur_l + '\n'
-            cur_ind += 1
-            continue
-            
-        if in_file and not is_c_file:
-            #new_file.append(cur_l)
-            cur_ind += 1
-            continue
-        
-        if not in_file:
-            new_file.append(cur_l)
-            cur_ind += 1
-    
-    if len(cur_file) != 0:
-        with open("temporary_file" + str(proc_id) + ".c", "w") as f:
-            print(cur_file, file=f)
-        #/opt/homebrew/bin/gcc-11
-        os.system("gcc-11 -fpreprocessed -dD -E -P -o output" + str(proc_id) + ".c temporary_file" + str(proc_id) + ".c")
-
-        with open("output.c", "r") as f:
-            cur_file = f.read().split('\n')
-
-        new_file.extend(cur_file)
-                
-    return new_file
-
-
-
 
 
 def get_modified_lines(commit, filter_empty_line = False, filter_comments = False, proc_id = -1):
@@ -284,7 +219,7 @@ def get_commit_info(cur_commit, proc_id = -1):
 
     # cur_commit = "2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78"
     # cur_commit = "7fedb63a8307dda0ec3b8969a3b233a1dd7ea8e0"
-    file_to_mod_lines_dict = get_modified_lines(cur_commit, 1, 1, proc_id)
+    file_to_mod_lines_dict = get_modified_lines(cur_commit, proc_id)
 
     file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_if = 1)
     cur_commit_dict["num_adds_if"] = overall_counts["num_adds"]
