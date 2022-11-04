@@ -10,7 +10,7 @@ with open("./all_commits_by_date/" + "all_dates" + '.json', "r") as f:
 
 # dates = all_dates[4300:]
 
-dates = all_dates
+dates = all_dates[:4064]
 
 def iter_count(file_name):
     if not check_file(file_name):
