@@ -54,6 +54,7 @@ def collect(ins):
         print('copying ', str(i))
         command = 'cp -R ../linux/ /mnt/muhui/kernel_cve/L'  + str(i)
         os.system(command)
+        print('copying done: ', str(i))
 
     repo_path = '/mnt/muhui/kernel_cve/L' + str(i)
     repo = Git.init(repo_path)
