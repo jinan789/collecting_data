@@ -57,7 +57,7 @@ def strip_comments(diff_text, commit):
             if len(cur_file) != 0:
                 with open("temporary_file.c", "w") as f:
                     print(cur_file, file=f)
-                os.system('gcc -fpreprocessed -dD -E -P -o output.c temporary_file.c')
+                os.system('gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
                  
                 with open("output.c", "r") as f:
                     cur_file = f.read().split('\n')
@@ -96,7 +96,7 @@ def strip_comments(diff_text, commit):
         with open("temporary_file.c", "w") as f:
             print(cur_file, file=f)
         #/opt/homebrew/bin/gcc-11
-        os.system('gcc -fpreprocessed -dD -E -P -o output.c temporary_file.c')
+        os.system('gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
 
         with open("output.c", "r") as f:
             cur_file = f.read().split('\n')
