@@ -47,6 +47,10 @@ def strip_comments(diff_text, commit):
     in_comment = False
     new_file = []
     for cur_l in diff_text:
+        if cur_l[:4] == 'diff':
+            file_nm = cur_l.split()[-1]
+            is_c_file = file_nm.endswith('.c')
+        
         #print(cur_l)
         if not in_file:
             if cur_l[:2] == '@@':
@@ -62,6 +66,10 @@ def strip_comments(diff_text, commit):
                 new_file.append(cur_l)
                 continue
 
+        if not is_c_file:
+            # only count c files
+            continue
+            
         new_cur_ln = cur_l[0]
         cur_l = cur_l[1:]
 
@@ -122,7 +130,7 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
     # returns dict
     #    key: filename
     #    value: list of modified lines for this file
-    
+    #print(commit)
     diff_text = git.diff(commit+"^1", commit, '-U99999999999999999').split('\n')
         
     if filter_comments:
