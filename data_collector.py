@@ -45,7 +45,7 @@ def collect(ins):
             with open("./all_commits_by_date/" + date + '.json', "r") as f:
                 cur_date = json.load(f)
 
-            infos = Git.get_info_from_commits(cur_date)
+            infos = Git.get_info_from_commits(cur_date, i)
             with open("./all_commits_by_date/" + date + '_info.json', "w") as f:
                 json.dump(infos, f, indent=1)
             #print(cur_date, '\n')
