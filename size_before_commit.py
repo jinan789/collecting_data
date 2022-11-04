@@ -75,7 +75,7 @@ def collect(ins):
             with open(com_path, "r") as f:
                 info = json.load(f)
 
-            for commit_id in tqdm(info):    
+            for commit_id in info:    
                 Git.reset(commit_id+"^")
 
                 files = info[commit_id]['mod_files_lst']
