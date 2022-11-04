@@ -2,6 +2,8 @@ import git
 import sys
 import math
 import json
+import os
+
 
 """
 import sys
@@ -44,82 +46,62 @@ def strip_comments(diff_text, commit):
 
     # one way to simplify things is to preprocess. This also provides reference for other stuff. Also line counts for totals.
     in_file = False
-    in_comment = False
     new_file = []
-    for cur_l in diff_text:
+    cur_file = ''
+    cur_ind = 0
+    is_c_file = False
+    while cur_ind < len(diff_text):
+        cur_l = diff_text[cur_ind]
         if cur_l[:4] == 'diff':
+            
+            if len(cur_file) != 0:
+                with open("temporary_file.c", "w") as f:
+                    print(cur_file, file=f)
+                os.system('/opt/homebrew/bin/gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
+                 
+                with open("output.c", "r") as f:
+                    cur_file = f.read().split('\n')
+                
+                new_file.extend(cur_file)
+                cur_file = ''
+                 
+            in_file = False
             file_nm = cur_l.split()[-1]
             is_c_file = file_nm.endswith('.c')
-        
-        #print(cur_l)
-        if not in_file:
-            if cur_l[:2] == '@@':
-                in_file = True
             new_file.append(cur_l)
+            cur_ind += 1
             continue
-        else:
-            if cur_l[:4] == 'diff':
-                if in_comment:
-                    with open("errors.txt", 'a') as f:
-                        json.dump('**********' + "       " + commit + '**********', f, indent=1)
-                in_file = False
-                new_file.append(cur_l)
-                continue
-
-        if not is_c_file:
-            # only count c files
+        
+        if cur_l[:2] == '@@':
+            in_file = True
+            new_file.append(cur_l)
+            cur_ind += 1
             continue
             
-        new_cur_ln = cur_l[0]
-        cur_l = cur_l[1:]
+        if in_file and is_c_file:
+            cur_file += cur_l + '\n'
+            cur_ind += 1
+            continue
+            
+        if in_file and not is_c_file:
+            #new_file.append(cur_l)
+            cur_ind += 1
+            continue
+        
+        if not in_file:
+            new_file.append(cur_l)
+            cur_ind += 1
+    
+    if len(cur_file) != 0:
+        with open("temporary_file.c", "w") as f:
+            print(cur_file, file=f)
+        os.system('/opt/homebrew/bin/gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
 
-        while True:
-            # consider //
-            #print(cur_l)
-            if in_comment:
-                dex = cur_l.find('*/')
-                if dex == -1:
-                    break
-                else:
-                    in_comment = False
-                cur_l = cur_l[dex + 2:]
-                if len(cur_l) == 0:
-                    break
+        with open("output.c", "r") as f:
+            cur_file = f.read().split('\n')
 
-            else:
-                dex = cur_l.find('/*')
-                double_bar_dex = cur_l.find('//')
-
-                if dex == -1:
-                    if double_bar_dex == -1:
-                        new_cur_ln += cur_l
-                        break
-                    else:
-                        cur_l = cur_l[:double_bar_dex]
-                        new_cur_ln += cur_l
-                        break
-                else:
-                    # there is /*
-                    if double_bar_dex != -1:
-                        if double_bar_dex < dex:
-                            cur_l = cur_l[:double_bar_dex]
-                            new_cur_ln += cur_l
-                            break
-                        else:
-                            in_comment = True
-                    else:
-                        in_comment = True
-
-
-                if dex > 0:
-                    new_cur_ln += cur_l[:dex]
-                cur_l = cur_l[dex:]
-                #print(cur_l)
-                if len(cur_l) == 0:
-                    break
-
-
-        new_file.append(new_cur_ln)
+        new_file.extend(cur_file)
+                
     return new_file
 
 
