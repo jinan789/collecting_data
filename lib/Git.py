@@ -42,7 +42,7 @@ def get_all_commits_from(repo, commit = None, max_count = None):
     return all_commits_hash
 
 
-def strip_comments(diff_text, commit):
+def strip_comments(diff_text, commit, proc_id = -1):
 
     # one way to simplify things is to preprocess. This also provides reference for other stuff. Also line counts for totals.
     in_file = False
@@ -55,9 +55,9 @@ def strip_comments(diff_text, commit):
         if cur_l[:4] == 'diff':
             
             if len(cur_file) != 0:
-                with open("temporary_file.c", "w") as f:
+                with open("temporary_file" + str(proc_id) + ".c", "w") as f:
                     print(cur_file, file=f)
-                os.system('gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
+                os.system("gcc-11 -fpreprocessed -dD -E -P -o output" + str(proc_id) + ".c temporary_file" + str(proc_id) + ".c")
                  
                 with open("output.c", "r") as f:
                     cur_file = f.read().split('\n')
@@ -96,7 +96,7 @@ def strip_comments(diff_text, commit):
         with open("temporary_file.c", "w") as f:
             print(cur_file, file=f)
         #/opt/homebrew/bin/gcc-11
-        os.system('gcc-11 -fpreprocessed -dD -E -P -o output.c temporary_file.c')
+        os.system("gcc-11 -fpreprocessed -dD -E -P -o output" + str(proc_id) + ".c temporary_file" + str(proc_id) + ".c")
 
         with open("output.c", "r") as f:
             cur_file = f.read().split('\n')
@@ -109,7 +109,7 @@ def strip_comments(diff_text, commit):
 
 
 
-def get_modified_lines(commit, filter_empty_line = False, filter_comments = False):
+def get_modified_lines(commit, filter_empty_line = False, filter_comments = False, proc_id = -1):
     # returns dict
     #    key: filename
     #    value: list of modified lines for this file
@@ -117,7 +117,7 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
     diff_text = git.diff(commit+"^1", commit, '-U99999999999999999').split('\n')
         
     if filter_comments:
-        diff_text = strip_comments(diff_text, commit)
+        diff_text = strip_comments(diff_text, commit, proc_id)
         
     if filter_empty_line:
         diff_text = [i for i in diff_text if len(i[1:].strip()) != 0]
@@ -278,13 +278,13 @@ def cal_entropy(file_len_lst):
 
 
 # sample use case:
-def get_commit_info(cur_commit):
+def get_commit_info(cur_commit, proc_id = -1):
     cur_commit_dict = {}
     #print(cur_commit)
 
     # cur_commit = "2ea538dbee1c79f6f6c24a6f2f82986e4b7ccb78"
     # cur_commit = "7fedb63a8307dda0ec3b8969a3b233a1dd7ea8e0"
-    file_to_mod_lines_dict = get_modified_lines(cur_commit, 1, 1)
+    file_to_mod_lines_dict = get_modified_lines(cur_commit, 1, 1, proc_id)
 
     file_to_stats_dict, overall_counts = get_num_mod_lines(file_to_mod_lines_dict, cur_commit, filter_if = 1)
     cur_commit_dict["num_adds_if"] = overall_counts["num_adds"]
@@ -308,11 +308,11 @@ def get_commit_info(cur_commit):
     
     return cur_commit_dict
 
-def get_info_from_commits(commits):
+def get_info_from_commits(commits, proc_id = -1):
     from tqdm import tqdm
     com_dict = {}
     for c in commits:
-        com_dict[c] = get_commit_info(c)
+        com_dict[c] = get_commit_info(c, proc_id)
     return com_dict
 
 
