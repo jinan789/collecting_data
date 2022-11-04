@@ -40,7 +40,7 @@ def get_all_commits_from(repo, commit = None, max_count = None):
     return all_commits_hash
 
 
-def strip_comments(diff_text):
+def strip_comments(diff_text, commit):
 
     # one way to simplify things is to preprocess. This also provides reference for other stuff. Also line counts for totals.
     in_file = False
@@ -126,7 +126,7 @@ def get_modified_lines(commit, filter_empty_line = False, filter_comments = Fals
     diff_text = git.diff(commit+"^1", commit, '-U99999999999999999').split('\n')
         
     if filter_comments:
-        diff_text = strip_comments(diff_text)
+        diff_text = strip_comments(diff_text, commit)
         
     if filter_empty_line:
         diff_text = [i for i in diff_text if len(i[1:].strip()) != 0]
