@@ -93,7 +93,7 @@ def strip_comments(diff_text, commit, proc_id = -1):
             cur_ind += 1
     
     if len(cur_file) != 0:
-        with open("temporary_file.c", "w") as f:
+        with open("temporary_file" + str(proc_id) + ".c", "w") as f:
             print(cur_file, file=f)
         #/opt/homebrew/bin/gcc-11
         os.system("gcc-11 -fpreprocessed -dD -E -P -o output" + str(proc_id) + ".c temporary_file" + str(proc_id) + ".c")
