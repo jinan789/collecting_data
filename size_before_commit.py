@@ -49,6 +49,11 @@ def collect(ins):
         dates = dates[length * i :]
     else:
         dates = dates[length * i : length * (i+1)]
+        
+    if not os.path.exists('/mnt/muhui/kernel_cve/L' + str(i)):
+        print('copying ', str(i))
+        command = 'cp -R ../linux/ /mnt/muhui/kernel_cve/L'  + str(i)
+        os.system(command)
 
     repo_path = '/mnt/muhui/kernel_cve/L' + str(i)
     repo = Git.init(repo_path)
