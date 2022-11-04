@@ -91,7 +91,7 @@ def collect(ins):
                 
             with open("./size_completed_log_" + str(i) + ".txt", "a") as f:
                 json.dump(date + "        ", f, indent=1)
-        
+            print(date)
         except Exception as e:
             with open("./size_err_log_" + str(i) + ".txt", "a") as f:
                 json.dump(date + "  " + str(e) + "        ", f, indent=1)
