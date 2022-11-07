@@ -10,61 +10,22 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9c83633ad381"
-  ],
   "mod_files_lst": [
    "fs/jfs/jfs_imap.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Kleikamp <shaggy@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Jan Kucera <kucera.jan.cz@gmail.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/jfs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Kleikamp",
-  "author_email": "shaggy@linux.vnet.ibm.com",
-  "committer": "Dave Kleikamp",
-  "committer_email": "shaggy@linux.vnet.ibm.com",
-  "author_date": "2009-05-23 20:28:41 -0500",
-  "committer_date": "2009-05-23 20:28:41 -0500"
+  "entropy": 0.0
  },
  "ee0736627d3347be0be2769fa7b26431f9726c9d": {
-  "num_adds_if": 1682,
-  "num_dels_if": 2738,
-  "num_mod_total_if": 4420,
-  "num_adds_loop": 539,
-  "num_dels_loop": 1259,
-  "num_mod_total_loop": 1798,
+  "num_adds_if": 2408,
+  "num_dels_if": 1553,
+  "num_mod_total_if": 3961,
+  "num_adds_loop": 416,
+  "num_dels_loop": 193,
+  "num_mod_total_loop": 609,
   "file_hash": "ee0736627d3347be0be2769fa7b26431f9726c9d",
-  "num_adds": 64560,
-  "num_dels": 64942,
-  "num_mod_lns_total": 129502,
-  "num_mod_files": 2112,
-  "is_merge": true,
-  "parents": [
-   "cf9972a92147",
-   "0af48f42df15"
-  ],
+  "num_adds": 58750,
+  "num_dels": 62491,
+  "num_mod_lns_total": 121241,
   "mod_files_lst": [
    ".gitignore",
    "Documentation/ABI/testing/debugfs-pktcdvd",
@@ -96,7 +57,6 @@
    "Documentation/lguest/.gitignore",
    "Documentation/lguest/lguest.txt",
    "Documentation/lockdep-design.txt",
-   "Documentation/logo.gif",
    "Documentation/logo.svg",
    "Documentation/logo.txt",
    "Documentation/networking/bonding.txt",
@@ -137,12 +97,10 @@
    "arch/arm/configs/imx27ads_defconfig",
    "arch/arm/configs/kirkwood_defconfig",
    "arch/arm/configs/mv78xx0_defconfig",
-   "arch/arm/configs/mx31ads_defconfig",
-   "arch/arm/configs/mx31litekit_defconfig",
-   "arch/arm/configs/mx31moboard_defconfig",
+   "arch/arm/configs/mx1_defconfig",
+   "arch/arm/configs/mx27_defconfig",
+   "arch/arm/configs/mx3_defconfig",
    "arch/arm/configs/orion5x_defconfig",
-   "arch/arm/configs/pcm037_defconfig",
-   "arch/arm/configs/pcm038_defconfig",
    "arch/arm/configs/s3c2410_defconfig",
    "arch/arm/configs/viper_defconfig",
    "arch/arm/include/asm/elf.h",
@@ -155,7 +113,7 @@
    "arch/arm/mach-at91/at91sam926x_time.c",
    "arch/arm/mach-davinci/Kconfig",
    "arch/arm/mach-davinci/Makefile",
-   "arch/arm/mach-davinci/board-evm.c",
+   "arch/arm/mach-davinci/board-dm644x-evm.c",
    "arch/arm/mach-davinci/clock.c",
    "arch/arm/mach-davinci/clock.h",
    "arch/arm/mach-davinci/devices.c",
@@ -308,23 +266,26 @@
    "arch/avr32/kernel/time.c",
    "arch/blackfin/kernel/time-ts.c",
    "arch/cris/Makefile",
-   "arch/cris/arch-v10/boot/Makefile",
-   "arch/cris/arch-v10/boot/compressed/Makefile",
    "arch/cris/arch-v10/boot/compressed/README",
-   "arch/cris/arch-v10/boot/compressed/head.S",
    "arch/cris/arch-v10/boot/compressed/misc.c",
-   "arch/cris/arch-v10/boot/rescue/Makefile",
-   "arch/cris/arch-v10/boot/rescue/head.S",
    "arch/cris/arch-v10/kernel/entry.S",
    "arch/cris/arch-v32/boot/Makefile",
    "arch/cris/arch-v32/boot/compressed/Makefile",
-   "arch/cris/arch-v32/boot/compressed/head.S",
-   "arch/cris/arch-v32/boot/compressed/misc.c",
    "arch/cris/arch-v32/boot/rescue/Makefile",
    "arch/cris/arch-v32/drivers/mach-a3/gpio.c",
    "arch/cris/arch-v32/kernel/Makefile",
    "arch/cris/arch-v32/kernel/entry.S",
+   "arch/cris/boot/Makefile",
+   "arch/cris/boot/compressed/Makefile",
+   "arch/cris/boot/compressed/head_v10.S",
+   "arch/cris/boot/compressed/head_v32.S",
+   "arch/cris/boot/compressed/misc.c",
+   "arch/cris/boot/rescue/Makefile",
+   "arch/cris/boot/rescue/head_v10.S",
    "arch/cris/include/asm/unistd.h",
+   "arch/frv/include/asm/bug.h",
+   "arch/frv/include/asm/thread_info.h",
+   "arch/frv/include/asm/unistd.h",
    "arch/frv/kernel/entry.S",
    "arch/frv/kernel/head-mmu-fr451.S",
    "arch/frv/kernel/head-uc-fr401.S",
@@ -346,6 +307,7 @@
    "arch/ia64/sn/kernel/sn2/timer.c",
    "arch/ia64/xen/xensetup.S",
    "arch/m32r/boot/compressed/Makefile",
+   "arch/m32r/include/asm/assembler.h",
    "arch/m32r/kernel/Makefile",
    "arch/m32r/kernel/head.S",
    "arch/m32r/kernel/vmlinux.lds.S",
@@ -370,6 +332,7 @@
    "arch/m68knommu/Kconfig",
    "arch/m68knommu/configs/m5208evb_defconfig",
    "arch/m68knommu/configs/m5249evb_defconfig",
+   "arch/m68knommu/configs/m5272c3_defconfig",
    "arch/m68knommu/configs/m5275evb_defconfig",
    "arch/m68knommu/configs/m5307c3_defconfig",
    "arch/m68knommu/configs/m5407c3_defconfig",
@@ -386,6 +349,7 @@
    "arch/microblaze/Kconfig.debug",
    "arch/microblaze/Makefile",
    "arch/microblaze/boot/Makefile",
+   "arch/microblaze/configs/nommu_defconfig",
    "arch/microblaze/include/asm/Kbuild",
    "arch/microblaze/include/asm/atomic.h",
    "arch/microblaze/include/asm/auxvec.h",
@@ -584,6 +548,8 @@
    "arch/mips/txx9/rbtx4939/setup.c",
    "arch/mn10300/Makefile",
    "arch/mn10300/configs/asb2303_defconfig",
+   "arch/mn10300/include/asm/bug.h",
+   "arch/mn10300/include/asm/cache.h",
    "arch/mn10300/include/asm/cputime.h",
    "arch/mn10300/include/asm/emergency-restart.h",
    "arch/mn10300/include/asm/errno.h",
@@ -591,11 +557,15 @@
    "arch/mn10300/include/asm/futex.h",
    "arch/mn10300/include/asm/ioctl.h",
    "arch/mn10300/include/asm/ipc.h",
+   "arch/mn10300/include/asm/irq.h",
    "arch/mn10300/include/asm/local.h",
    "arch/mn10300/include/asm/percpu.h",
    "arch/mn10300/include/asm/poll.h",
    "arch/mn10300/include/asm/resource.h",
+   "arch/mn10300/include/asm/serial.h",
    "arch/mn10300/include/asm/statfs.h",
+   "arch/mn10300/include/asm/timex.h",
+   "arch/mn10300/include/asm/unistd.h",
    "arch/mn10300/include/asm/xor.h",
    "arch/mn10300/kernel/entry.S",
    "arch/mn10300/kernel/gdb-io-serial-low.S",
@@ -610,8 +580,13 @@
    "arch/mn10300/kernel/setup.c",
    "arch/mn10300/kernel/traps.c",
    "arch/mn10300/kernel/vmlinux.lds.S",
+   "arch/mn10300/proc-mn103e010/include/proc/clock.h",
+   "arch/mn10300/unit-asb2303/include/unit/serial.h",
+   "arch/mn10300/unit-asb2303/include/unit/timex.h",
    "arch/mn10300/unit-asb2303/leds.c",
    "arch/mn10300/unit-asb2303/smc91111.c",
+   "arch/mn10300/unit-asb2305/include/unit/serial.h",
+   "arch/mn10300/unit-asb2305/include/unit/timex.h",
    "arch/mn10300/unit-asb2305/leds.c",
    "arch/mn10300/unit-asb2305/unit-init.c",
    "arch/powerpc/Kconfig",
@@ -651,7 +626,6 @@
    "arch/powerpc/configs/85xx/mpc8544_ds_defconfig",
    "arch/powerpc/configs/85xx/mpc8560_ads_defconfig",
    "arch/powerpc/configs/85xx/mpc8568mds_defconfig",
-   "arch/powerpc/configs/85xx/mpc8572_ds_defconfig",
    "arch/powerpc/configs/85xx/mpc85xx_cds_defconfig",
    "arch/powerpc/configs/85xx/sbc8548_defconfig",
    "arch/powerpc/configs/85xx/sbc8560_defconfig",
@@ -680,6 +654,7 @@
    "arch/powerpc/configs/mpc8272_ads_defconfig",
    "arch/powerpc/configs/mpc83xx_defconfig",
    "arch/powerpc/configs/mpc85xx_defconfig",
+   "arch/powerpc/configs/mpc85xx_smp_defconfig",
    "arch/powerpc/configs/mpc866_ads_defconfig",
    "arch/powerpc/configs/mpc86xx_defconfig",
    "arch/powerpc/configs/mpc885_ads_defconfig",
@@ -1819,29 +1794,14 @@
    "include/acpi/processor.h",
    "include/acpi/video.h",
    "include/asm-arm/.gitignore",
-   "include/asm-frv/bug.h",
    "include/asm-frv/init.h",
-   "include/asm-frv/thread_info.h",
-   "include/asm-frv/unistd.h",
    "include/asm-generic/atomic.h",
    "include/asm-generic/bug.h",
    "include/asm-generic/local.h",
    "include/asm-generic/percpu.h",
    "include/asm-generic/siginfo.h",
    "include/asm-generic/vmlinux.lds.h",
-   "include/asm-m32r/assembler.h",
    "include/asm-mn10300/.gitignore",
-   "include/asm-mn10300/bug.h",
-   "include/asm-mn10300/cache.h",
-   "include/asm-mn10300/irq.h",
-   "include/asm-mn10300/proc-mn103e010/clock.h",
-   "include/asm-mn10300/serial.h",
-   "include/asm-mn10300/timex.h",
-   "include/asm-mn10300/unistd.h",
-   "include/asm-mn10300/unit-asb2303/serial.h",
-   "include/asm-mn10300/unit-asb2303/timex.h",
-   "include/asm-mn10300/unit-asb2305/serial.h",
-   "include/asm-mn10300/unit-asb2305/timex.h",
    "include/drm/drm_pciids.h",
    "include/drm/i915_drm.h",
    "include/linux/Kbuild",
@@ -2168,619 +2128,30 @@
    "sound/soc/soc-core.c",
    "sound/sparc/dbri.c",
    "sound/usb/caiaq/Makefile",
-   "sound/usb/caiaq/caiaq-audio.c",
-   "sound/usb/caiaq/caiaq-control.c",
-   "sound/usb/caiaq/caiaq-device.c",
-   "sound/usb/caiaq/caiaq-input.c",
-   "sound/usb/caiaq/caiaq-midi.c",
+   "sound/usb/caiaq/audio.c",
+   "sound/usb/caiaq/control.c",
+   "sound/usb/caiaq/device.c",
+   "sound/usb/caiaq/input.c",
+   "sound/usb/caiaq/midi.c",
    "sound/usb/usx2y/us122l.c",
    "sound/usb/usx2y/usX2Yhwdep.c",
    "sound/usb/usx2y/usb_stream.c",
    "sound/usb/usx2y/usbusx2yaudio.c",
    "virt/kvm/kvm_main.c"
   ],
-  "entropy": 8.215711797872569,
-  "ppl_signed_off": [
-   "Signed-off-by: H. Peter Anvin <hpa@zytor.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/arm",
-   "drivers/staging/b3dfg",
-   "firmware/yamaha",
-   "arch/xtensa/configs",
-   "arch/cris/arch-v32/boot",
-   "arch/microblaze",
-   "arch/powerpc/oprofile",
-   "include/linux/netfilter",
-   "net/802",
-   "include/sound",
-   "drivers/staging/stlc45xx",
-   "Documentation/isdn",
-   "drivers/net/pcmcia",
-   "arch/xtensa/include/asm",
-   "fs/proc",
-   "drivers/infiniband/core",
-   "drivers/hwmon",
-   "drivers/staging/rt2870",
-   "arch/sh/include/asm",
-   "drivers/scsi/cxgb3i",
-   "sound/pci/emu10k1",
-   "drivers/usb",
-   "arch/microblaze/include/asm",
-   "Documentation/filesystems/pohmelfs",
-   "fs/cifs",
-   "net/core",
-   "sound/isa",
-   "arch/mips/kernel",
-   "drivers/parisc",
-   "init",
-   "drivers/crypto",
-   "include/linux/spi",
-   "drivers/media/video/ivtv",
-   "drivers/mtd/nand",
-   "drivers/i2c",
-   "sound/core/seq",
-   "net/netfilter",
-   "arch/mn10300/include/asm",
-   "arch/xtensa/variants/s6000/include/variant",
-   "arch/mips/alchemy/common",
-   "drivers/infiniband/ulp/iser",
-   "arch/powerpc/sysdev",
-   "fs/hfs",
-   "include/net/9p",
-   "drivers/media/video/cx18",
-   "drivers/staging/line6",
-   "arch/mn10300/unit-asb2303",
-   "drivers/net/wireless/libertas",
-   "arch/arm/mach-kirkwood/include/mach",
-   "drivers/mtd/devices",
-   "arch/arm/mach-mx3",
-   "drivers/net/benet",
-   "arch/sh/kernel/cpu/sh5",
-   "net/xfrm",
-   "drivers/net/cxgb3",
-   "arch/arm/mach-omap2",
-   "sound/soc",
-   "fs/gfs2",
-   "drivers/gpu/drm/i915",
-   "arch/microblaze/mm",
-   "drivers/net/ehea",
-   "firmware",
-   "arch/arm/mach-orion5x/include/mach",
-   "arch/arm/mach-ep93xx",
-   "arch/mips/sgi-ip27",
-   "sound/pci/korg1212",
-   "arch/arm/configs",
-   "arch/arm/mach-at91",
-   "drivers/infiniband/hw/ipath",
-   "mm",
-   "Documentation/networking",
-   "fs/devpts",
-   "arch/ia64/include/asm/xen",
-   "drivers/mmc/card",
-   "drivers/staging/uc2322",
-   "fs/hpfs",
-   "arch/microblaze/platform",
-   "arch/frv/kernel",
-   "drivers/clocksource",
-   "fs/affs",
-   "fs/nfsd",
-   "net/mac80211",
-   "drivers/media/video",
-   "fs/ncpfs",
-   "drivers/message/fusion",
-   "fs/nilfs2",
-   "drivers/staging/sxg",
-   "arch/powerpc/platforms/cell",
-   "fs/configfs",
-   "arch/arm/mach-davinci/include/mach",
-   "Documentation/input",
-   "arch/x86/kernel/cpu/cpufreq",
-   "arch/cris/include/asm",
-   "sound/soc/omap",
-   "include/linux/usb",
-   "arch/powerpc/kernel",
-   "arch/arm/mach-mx1",
-   "sound/soc/au1x",
-   "drivers/pnp/pnpacpi",
-   "arch/arm/plat-mxc",
-   "arch/powerpc/platforms",
-   "net/ipv4/netfilter",
-   "lib",
-   "drivers/sh",
-   "arch/frv/mb93090-mb00",
-   "drivers/base",
-   "arch/cris/arch-v32/boot/rescue",
-   "drivers/usb/host",
-   "fs/hugetlbfs",
-   "drivers/misc",
-   "drivers/infiniband/hw/cxgb3",
-   "drivers/usb/atm",
-   "crypto",
-   "drivers/input/mouse",
-   "fs/xfs/linux-2.6",
-   "include/video",
-   "drivers/staging/rtl8187se",
-   "drivers/input/gameport",
-   "fs/sysfs",
-   "drivers/video/aty",
-   "drivers/staging/rt3070",
-   "sound/sparc",
-   "drivers/net/igb",
-   "arch/arm/mach-s3c2412",
-   "drivers/mtd",
-   "Documentation/block",
-   "drivers/mmc/core",
-   "arch/arm/mach-mv78xx0",
-   "arch/mips/sibyte/bcm1480",
-   "arch/arm/mm",
-   "arch/mips",
-   "arch/cris/arch-v32/boot/compressed",
-   "net/rds",
-   "drivers/staging/comedi",
-   "arch/arm/mach-msm",
-   "drivers/edac",
-   "net",
-   "drivers/net/igbvf",
-   "arch/alpha/kernel",
-   "drivers/staging/at76_usb",
-   "drivers/video/backlight",
-   "fs/autofs4",
-   "drivers/misc/eeprom",
-   "include/asm-frv",
-   "arch/powerpc/configs",
-   "include/asm-mn10300/unit-asb2305",
-   "drivers/media/video/pvrusb2",
-   "drivers/gpu/drm/r128",
-   "arch/alpha/include/asm",
-   "drivers/serial/jsm",
-   "arch/arm/mach-loki",
-   "drivers/pcmcia",
-   "arch/sh/kernel/timers",
-   "include/scsi",
-   "arch/cris/arch-v10/boot/compressed",
-   "arch/arm/mach-s3c2440",
-   "drivers/net/phy",
-   "fs/afs",
-   "drivers/misc/sgi-gru",
-   "fs/btrfs",
-   "Documentation/laptops",
-   "arch/arm/mach-versatile",
-   "arch/mips/rb532",
-   "arch/powerpc/include/asm",
-   "virt/kvm",
-   "Documentation/filesystems/caching",
-   "arch/m68knommu/platform/coldfire",
-   "drivers/usb/gadget",
-   "sound/soc/fsl",
-   "arch/sparc/configs",
-   "arch/x86/kernel/cpu/mcheck",
-   "kernel/power",
-   "include/asm-m32r",
-   "Documentation/DocBook",
-   "arch/mips/include/asm",
-   "Documentation/powerpc/dts-bindings",
-   "drivers/net",
-   "arch/mips/cavium-octeon",
-   "sound/drivers/pcsp",
-   "net/bluetooth/rfcomm",
-   "arch/arm/mach-s3c6400/include/mach",
-   "fs/jbd2",
-   "arch/x86/kernel/cpu",
-   "arch/mips/pmc-sierra",
-   "arch/m68k/include/asm",
-   "arch/mips/include/asm/mach-au1x00",
-   "drivers/net/ibm_newemac",
-   "arch/m68knommu/kernel",
-   "arch/m68knommu/configs",
-   "sound/drivers",
-   "arch/arm/mach-mx2",
-   "arch/arm/mach-kirkwood",
-   "fs/ext4",
-   "sound/pcmcia/pdaudiocf",
-   "sound/usb/caiaq",
-   "arch/arm/include/asm",
-   "drivers/usb/musb",
-   "arch/x86/kvm",
-   "drivers/net/usb",
-   "drivers/net/ixgbe",
-   "arch/s390/appldata",
-   "drivers/infiniband/ulp/ipoib",
-   "arch/arm/mach-davinci",
-   "arch/x86/ia32",
-   "sound/soc/sh",
-   "net/9p",
-   "arch/arm/plat-pxa",
-   "drivers/leds",
-   "scripts/kconfig",
-   "drivers/pci/pcie/aer",
-   "arch/powerpc/platforms/pseries",
-   "drivers/net/wireless/rt2x00",
-   "include/asm-arm",
-   "drivers/staging/slicoss",
-   "net/bluetooth",
-   "arch/xtensa/platforms/s6105",
-   "drivers/rtc",
-   "drivers/staging/winbond",
-   "arch/mips/mm",
-   "drivers/ide",
-   "include/scsi/fc",
-   "sound/core",
-   "arch/ia64/sn/kernel/sn2",
-   "arch/powerpc/configs/86xx",
-   "drivers/input/keyboard",
-   "sound/usb/usx2y",
-   "fs/squashfs",
-   "arch/s390/kernel",
-   "Documentation/powerpc",
-   "arch/x86/kernel/cpu/mtrr",
-   "arch/sh/mm",
-   "drivers/xen",
-   "net/ipv6/netfilter",
-   "arch/um/kernel",
-   "drivers/infiniband/hw/mlx4",
-   "drivers/input/tablet",
-   "arch/microblaze/kernel/cpu",
-   "arch/powerpc/platforms/iseries",
-   "arch/ia64/include/asm",
-   "arch/arm",
-   "arch/sh/kernel",
-   "arch/s390/include/asm",
-   "arch/x86/pci",
-   "drivers/scsi",
-   "drivers/staging/rt2860",
-   "kernel/time",
-   "arch/m68k/configs",
-   "drivers/block",
-   "drivers/net/e1000",
-   "include/asm-mn10300/proc-mn103e010",
-   "net/8021q",
-   "drivers/net/wireless/ath9k",
-   "net/netfilter/ipvs",
-   "drivers/pci/pcie",
-   "arch/arm/plat-omap",
-   "arch/xtensa/variants/s6000",
-   "drivers/net/fs_enet",
-   "Documentation/infiniband",
-   "arch/avr32/kernel",
-   "arch/mips/sgi-ip32",
-   "arch/mips/include/asm/mach-rc32434",
-   "drivers/staging/et131x",
-   "arch/arm/mach-pxa/include/mach",
-   "security/selinux",
-   "drivers/net/wireless/rtl818x",
-   "arch/mn10300",
-   "net/ax25",
-   "arch/m32r/kernel",
-   "drivers/media/video/cx23885",
-   "arch/m68k/kernel",
-   "Documentation/powerpc/dts-bindings/fsl",
-   "arch/arm/plat-s3c",
-   "fs/quota",
-   "Documentation/filesystems",
-   "arch/sparc/kernel",
-   "include/net/bluetooth",
-   "arch/sh/drivers/pci",
-   "arch/cris/arch-v32/drivers/mach-a3",
-   "fs/fat",
-   "drivers/staging/wlan-ng",
-   "arch/x86/lguest",
-   "drivers/sbus/char",
-   "arch/ia64/xen",
-   "drivers/s390/char",
-   "arch/mips/include/asm/mach-lemote",
-   "arch/arm/common",
-   "drivers/net/wireless/ar9170",
-   "drivers/net/wireless/orinoco",
-   "arch/sh/kernel/cpu/sh4a",
-   "net/sched",
-   "drivers/input/misc",
-   "drivers/net/bonding",
-   "sound/soc/s3c24xx",
-   "sound/ppc",
-   "arch/arm/mach-netx",
-   "kernel/trace",
-   "fs/lockd",
-   "drivers/net/mlx4",
-   "drivers/ata",
-   "arch/ia64/kvm",
-   "drivers/scsi/lpfc",
-   "drivers/virtio",
-   "arch/m32r/boot/compressed",
-   "arch/powerpc/platforms/40x",
-   "net/rose",
-   "arch/mn10300/unit-asb2305",
-   "drivers/media/video/zoran",
-   "drivers/char/hw_random",
-   "arch/x86",
-   "arch/powerpc/configs/83xx",
-   "drivers/isdn/capi",
-   "drivers/uio",
-   "firmware/av7110",
-   "net/packet",
-   "drivers/usb/wusbcore",
-   "drivers/hid",
-   "arch/x86/kernel/apic",
-   "fs/ubifs",
-   "arch/arm/mach-s3c6410",
-   "sound/pci/echoaudio",
-   "fs/jbd",
-   "drivers/gpu/drm/via",
-   "arch/mips/sibyte/sb1250",
-   "drivers/gpu/drm",
-   "arch/arm/mach-omap1",
-   "kernel/irq",
-   "net/atm",
-   "drivers/s390/cio",
-   "drivers",
-   "drivers/net/sfc",
-   "drivers/staging/android",
-   "drivers/firmware",
-   "arch/arm/mach-sa1100",
-   "fs/ext2",
-   "arch/mips/nxp/pnx8550/common",
-   "drivers/net/wireless/iwlwifi",
-   "arch/mn10300/configs",
-   "include/linux/sunrpc",
-   "fs/ocfs2",
-   "sound/pci/ac97",
-   "arch/arm/plat-mxc/include/mach",
-   "drivers/usb/core",
-   "drivers/watchdog",
-   "include/drm",
-   "arch",
-   "arch/mn10300/kernel",
-   "arch/xtensa/kernel",
-   "arch/arm/plat-orion",
-   "drivers/scsi/libfc",
-   "drivers/pci",
-   "arch/powerpc/boot/dts",
-   "drivers/input/touchscreen",
-   "arch/mips/pmc-sierra/msp71xx",
-   "arch/mips/lib",
-   "arch/arm/plat-s3c/include/plat",
-   "arch/microblaze/boot",
-   "drivers/hid/usbhid",
-   "drivers/input",
-   "drivers/net/e1000e",
-   "Documentation/lguest",
-   "fs/ecryptfs",
-   "sound/pci",
-   "fs/notify/inotify",
-   "drivers/scsi/fcoe",
-   "net/bridge",
-   "arch/cris/arch-v10/kernel",
-   "arch/x86/kernel",
-   "arch/sparc/include/asm",
-   "Documentation/ABI/testing",
-   "arch/cris/arch-v10/boot",
-   "Documentation/sound/alsa",
-   "drivers/scsi/mpt2sas",
-   "arch/x86/include/asm/uv",
-   "drivers/s390/block",
-   "drivers/input/serio",
-   "arch/m68knommu",
-   "drivers/video/intelfb",
-   "net/sunrpc",
-   "arch/powerpc/mm",
-   "fs/9p",
-   "drivers/media/video/au0828",
-   "drivers/usb/class",
-   "include/net/netfilter",
-   "drivers/scsi/aacraid",
-   "include/asm-mn10300",
-   "scripts",
-   "arch/arm/plat-s3c24xx",
-   "arch/cris/arch-v32/kernel",
-   "drivers/lguest",
-   "drivers/mmc/host",
-   "arch/arm/mach-loki/include/mach",
-   "arch/mips/include/asm/sn",
-   "arch/powerpc/platforms/ps3",
-   "Documentation/vm",
-   "drivers/spi",
-   "arch/powerpc/configs/85xx",
-   "arch/arm/mach-pxa",
-   "arch/arm/mach-mv78xx0/include/mach",
-   "sound/aoa/codecs",
-   "drivers/infiniband/hw/nes",
-   "include/net",
-   "arch/powerpc/configs/52xx",
-   "block",
-   "drivers/media/dvb/ttpci",
-   "/",
-   "arch/microblaze/platform/generic",
-   "arch/mips/txx9/rbtx4939",
-   "drivers/acpi",
-   "firmware/sxg",
-   "drivers/char",
-   "arch/x86/include/asm/xen",
-   "arch/blackfin/kernel",
-   "arch/arm/mach-ixp4xx",
-   "arch/arm/mach-imx/include/mach",
-   "arch/x86/mm",
-   "Documentation/driver-model",
-   "arch/powerpc",
-   "drivers/media/video/pwc",
-   "drivers/char/ipmi",
-   "drivers/platform/x86",
-   "arch/m68knommu/platform/527x",
-   "drivers/net/wireless/p54",
-   "arch/x86/vdso",
-   "drivers/video/sis",
-   "drivers/usb/otg",
-   "arch/powerpc/boot",
-   "arch/x86/boot",
-   "drivers/i2c/algos",
-   "security/smack",
-   "fs/nfs",
-   "arch/ia64/kernel",
-   "security/tomoyo",
-   "arch/s390",
-   "drivers/isdn/hisax",
-   "net/ipv6",
-   "drivers/media/video/cx231xx",
-   "sound/isa/msnd",
-   "sound/isa/wavefront",
-   "include/linux",
-   "arch/cris",
-   "scripts/dtc",
-   "arch/alpha/mm",
-   "drivers/net/atl1c",
-   "drivers/infiniband/hw/mthca",
-   "fs/fuse",
-   "arch/sh",
-   "sound/isa/sb",
-   "drivers/i2c/busses",
-   "scripts/mod",
-   "drivers/video/logo",
-   "drivers/staging/epl",
-   "Documentation",
-   "arch/cris/arch-v10/boot/rescue",
-   "net/can",
-   "drivers/net/wireless/b43",
-   "net/iucv",
-   "arch/x86/xen",
-   "firmware/cis",
-   "drivers/media/video/uvc",
-   "arch/mips/txx9/generic",
-   "sound/soc/codecs",
-   "Documentation/kbuild",
-   "fs",
-   "arch/arm/mach-imx",
-   "drivers/video",
-   "drivers/video/via",
-   "Documentation/sysctl",
-   "include/asm-mn10300/unit-asb2303",
-   "drivers/macintosh",
-   "drivers/staging/pohmelfs",
-   "arch/m68knommu/platform/68328",
-   "net/netlabel",
-   "net/wimax",
-   "drivers/serial",
-   "sound/arm",
-   "arch/arm/mach-ns9xxx",
-   "include/linux/regulator",
-   "drivers/atm",
-   "drivers/net/myri10ge",
-   "fs/xfs",
-   "drivers/acpi/acpica",
-   "fs/ufs",
-   "net/wireless",
-   "arch/powerpc/platforms/44x",
-   "arch/sh/configs",
-   "arch/powerpc/include/asm/iseries",
-   "arch/x86/include/asm",
-   "arch/arm/kernel",
-   "Documentation/cgroups",
-   "drivers/net/wireless",
-   "sound/pci/hda",
-   "arch/arm/mach-realview",
-   "arch/sh/boards",
-   "sound/pci/riptide",
-   "arch/microblaze/kernel",
-   "include/asm-generic",
-   "drivers/gpu/drm/radeon",
-   "sound/soc/pxa",
-   "arch/avr32",
-   "drivers/misc/sgi-xp",
-   "drivers/media/radio",
-   "drivers/char/agp",
-   "arch/xtensa",
-   "drivers/dma/ipu",
-   "drivers/video/console",
-   "drivers/s390/scsi",
-   "drivers/usb/host/whci",
-   "drivers/staging/otus",
-   "ipc",
-   "fs/romfs",
-   "drivers/thermal",
-   "arch/arm/mach-orion5x",
-   "arch/arm/plat-omap/include/mach",
-   "drivers/net/cris",
-   "drivers/usb/storage",
-   "drivers/dma",
-   "drivers/usb/serial",
-   "drivers/net/wireless/ath5k",
-   "kernel",
-   "arch/microblaze/lib",
-   "fs/reiserfs",
-   "drivers/net/wan",
-   "net/ipv4",
-   "Documentation/spi",
-   "net/netrom",
-   "firmware/slicoss",
-   "sound/soc/davinci",
-   "arch/powerpc/platforms/pasemi",
-   "drivers/staging/go7007",
-   "drivers/lguest/x86",
-   "include/acpi",
-   "drivers/regulator",
-   "arch/x86/oprofile",
-   "net/sunrpc/xprtrdma",
-   "fs/autofs",
-   "drivers/md",
-   "drivers/scsi/osd",
-   "arch/um",
-   "/",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "arch",
-   "scripts",
-   "kernel",
-   "net",
-   "init",
-   "Documentation",
-   "include",
-   "virt",
-   "security",
-   "block",
-   "lib",
-   "fs",
-   "firmware",
-   "ipc",
-   "crypto",
-   "sound",
-   "mm"
-  ],
-  "num_mod_dirs": 541,
-  "num_mod_sys": 18,
-  "author": "H. Peter Anvin",
-  "author_email": "hpa@zytor.com",
-  "committer": "H. Peter Anvin",
-  "committer_email": "hpa@zytor.com",
-  "author_date": "2009-05-23 16:42:19 -0700",
-  "committer_date": "2009-05-23 16:42:19 -0700"
+  "entropy": 8.110615836838104
  },
  "fc05505b77f7900a1bb74fb3f3a4343dee4265a4": {
-  "num_adds_if": 402,
-  "num_dels_if": 453,
-  "num_mod_total_if": 855,
-  "num_adds_loop": 108,
-  "num_dels_loop": 128,
-  "num_mod_total_loop": 236,
+  "num_adds_if": 396,
+  "num_dels_if": 368,
+  "num_mod_total_if": 764,
+  "num_adds_loop": 56,
+  "num_dels_loop": 50,
+  "num_mod_total_loop": 106,
   "file_hash": "fc05505b77f7900a1bb74fb3f3a4343dee4265a4",
-  "num_adds": 6127,
-  "num_dels": 9960,
-  "num_mod_lns_total": 16087,
-  "num_mod_files": 537,
-  "is_merge": true,
-  "parents": [
-   "a2ab67fae1ab",
-   "11c79740d3c0"
-  ],
+  "num_adds": 9235,
+  "num_dels": 5714,
+  "num_mod_lns_total": 14949,
   "mod_files_lst": [
    "Documentation/DocBook/kgdb.tmpl",
    "Documentation/kernel-parameters.txt",
@@ -2808,22 +2179,22 @@
    "arch/arm/mach-s3c2412/pm.c",
    "arch/arm/mach-s3c6400/include/mach/map.h",
    "arch/cris/Makefile",
-   "arch/cris/arch-v10/boot/Makefile",
-   "arch/cris/arch-v10/boot/compressed/Makefile",
    "arch/cris/arch-v10/boot/compressed/README",
-   "arch/cris/arch-v10/boot/compressed/head.S",
    "arch/cris/arch-v10/boot/compressed/misc.c",
-   "arch/cris/arch-v10/boot/rescue/Makefile",
-   "arch/cris/arch-v10/boot/rescue/head.S",
    "arch/cris/arch-v10/kernel/entry.S",
    "arch/cris/arch-v32/boot/Makefile",
    "arch/cris/arch-v32/boot/compressed/Makefile",
-   "arch/cris/arch-v32/boot/compressed/head.S",
-   "arch/cris/arch-v32/boot/compressed/misc.c",
    "arch/cris/arch-v32/boot/rescue/Makefile",
    "arch/cris/arch-v32/drivers/mach-a3/gpio.c",
    "arch/cris/arch-v32/kernel/Makefile",
    "arch/cris/arch-v32/kernel/entry.S",
+   "arch/cris/boot/Makefile",
+   "arch/cris/boot/compressed/Makefile",
+   "arch/cris/boot/compressed/head_v10.S",
+   "arch/cris/boot/compressed/head_v32.S",
+   "arch/cris/boot/compressed/misc.c",
+   "arch/cris/boot/rescue/Makefile",
+   "arch/cris/boot/rescue/head_v10.S",
    "arch/cris/include/asm/unistd.h",
    "arch/ia64/include/asm/idle.h",
    "arch/ia64/include/asm/xen/events.h",
@@ -3320,317 +2691,25 @@
    "sound/sparc/dbri.c",
    "sound/usb/usx2y/usbusx2yaudio.c"
   ],
-  "entropy": 7.3994170675241655,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/cris/arch-v32/boot/compressed",
-   "arch/ia64/xen",
-   "drivers/net/arm",
-   "drivers/staging/comedi",
-   "include/net",
-   "net",
-   "arch/mips/include/asm/mach-lemote",
-   "block",
-   "/",
-   "arch/powerpc/configs",
-   "arch/mips/txx9/rbtx4939",
-   "arch/xtensa/configs",
-   "drivers/char",
-   "net/sched",
-   "drivers/gpu/drm/r128",
-   "arch/cris/arch-v32/boot",
-   "arch/powerpc/oprofile",
-   "drivers/net/bonding",
-   "arch/alpha/include/asm",
-   "drivers/serial/jsm",
-   "include/linux/netfilter",
-   "drivers/mtd",
-   "kernel/trace",
-   "fs/lockd",
-   "drivers/net/mlx4",
-   "include/sound",
-   "arch/arm/mach-ixp4xx",
-   "arch/xtensa/include/asm",
-   "drivers/ata",
-   "arch/x86/mm",
-   "arch/cris/arch-v10/boot/compressed",
-   "fs/afs",
-   "fs/proc",
-   "drivers/hwmon",
-   "arch/x86/vdso",
-   "drivers/staging/rt2870",
-   "arch/powerpc/platforms/40x",
-   "arch/powerpc/boot",
-   "drivers/usb",
-   "fs/btrfs",
-   "drivers/i2c/algos",
-   "arch/powerpc/include/asm",
-   "fs/nfs",
-   "security/tomoyo",
-   "fs/cifs",
-   "drivers/media/video/zoran",
-   "net/core",
-   "sound/isa/msnd",
-   "arch/mips/kernel",
-   "include/linux",
-   "drivers/usb/gadget",
-   "sound/soc/fsl",
-   "arch/cris",
-   "arch/powerpc/configs/83xx",
-   "arch/x86/kernel/cpu/mcheck",
-   "arch/mips",
-   "drivers/isdn/capi",
-   "init",
-   "fs/fuse",
-   "Documentation/DocBook",
-   "drivers/i2c/busses",
-   "arch/mips/include/asm",
-   "drivers/media/video/ivtv",
-   "scripts/mod",
-   "net/netfilter",
-   "drivers/net",
-   "arch/mips/cavium-octeon",
-   "arch/xtensa/variants/s6000/include/variant",
-   "arch/mips/alchemy/common",
-   "Documentation",
-   "arch/cris/arch-v10/boot/rescue",
-   "drivers/hid",
-   "arch/powerpc/sysdev",
-   "sound/drivers/pcsp",
-   "arch/arm/mach-s3c6400/include/mach",
-   "arch/x86/kernel/cpu",
-   "arch/mips/pmc-sierra",
-   "fs/ubifs",
-   "include/net/9p",
-   "arch/mips/include/asm/mach-au1x00",
-   "arch/x86/xen",
-   "sound/drivers",
-   "sound/pci/echoaudio",
-   "drivers/media/video/uvc",
-   "arch/mips/txx9/generic",
-   "arch/mips/sibyte/sb1250",
-   "sound/soc/codecs",
-   "drivers/gpu/drm",
-   "fs/ext4",
-   "sound/pcmcia/pdaudiocf",
-   "drivers/mtd/devices",
-   "fs",
-   "arch/arm/include/asm",
-   "kernel/irq",
-   "net/atm",
-   "drivers/net/cxgb3",
-   "drivers/video",
-   "Documentation/sysctl",
-   "arch/x86/kvm",
-   "drivers/net/usb",
-   "drivers/video/via",
-   "sound/soc",
-   "fs/gfs2",
-   "drivers/gpu/drm/i915",
-   "drivers/net/ehea",
-   "drivers/net/wireless/iwlwifi",
-   "net/wimax",
-   "drivers/serial",
-   "fs/ocfs2",
-   "arch/arm/mach-davinci",
-   "sound/soc/sh",
-   "net/9p",
-   "sound/arm",
-   "drivers/pci/pcie/aer",
-   "sound/pci/korg1212",
-   "arch/arm/configs",
-   "net/bluetooth",
-   "include/drm",
-   "arch/xtensa/platforms/s6105",
-   "drivers/rtc",
-   "drivers/staging/winbond",
-   "fs/ufs",
-   "arch/mips/mm",
-   "drivers/infiniband/hw/ipath",
-   "drivers/md",
-   "arch/powerpc/platforms/44x",
-   "mm",
-   "net/wireless",
-   "arch/powerpc/configs/86xx",
-   "drivers/input/keyboard",
-   "sound/core",
-   "fs/devpts",
-   "sound/usb/usx2y",
-   "fs/squashfs",
-   "arch/ia64/include/asm/xen",
-   "arch/powerpc/include/asm/iseries",
-   "arch/xtensa/kernel",
-   "drivers/mmc/card",
-   "fs/hpfs",
-   "arch/arm/kernel",
-   "drivers/pci",
-   "drivers/xen",
-   "drivers/input/touchscreen",
-   "drivers/net/wireless",
-   "sound/pci/hda",
-   "net/ipv6/netfilter",
-   "arch/microblaze/kernel",
-   "include/asm-generic",
-   "fs/affs",
-   "fs/nfsd",
-   "drivers/gpu/drm/radeon",
-   "drivers/media/video",
-   "net/mac80211",
-   "sound/pci/riptide",
-   "drivers/infiniband/hw/mlx4",
-   "arch/mips/pmc-sierra/msp71xx",
-   "arch/mips/lib",
-   "arch/microblaze/kernel/cpu",
-   "arch/powerpc/platforms/iseries",
-   "arch/ia64/include/asm",
-   "fs/nilfs2",
-   "drivers/hid/usbhid",
-   "drivers/input",
-   "arch/powerpc/platforms/cell",
-   "drivers/media/radio",
-   "arch/xtensa",
-   "kernel/time",
-   "arch/arm/mach-davinci/include/mach",
-   "drivers/dma/ipu",
-   "drivers/scsi/osd",
-   "fs/ecryptfs",
-   "drivers/net/e1000",
-   "sound/pci",
-   "fs/notify/inotify",
-   "arch/cris/include/asm",
-   "net/netfilter/ipvs",
-   "fs/romfs",
-   "drivers/pci/pcie",
-   "include/linux/usb",
-   "arch/powerpc/kernel",
-   "arch/xtensa/variants/s6000",
-   "arch/cris/arch-v10/kernel",
-   "arch/arm/mach-ixp4xx/include/mach",
-   "arch/x86/kernel",
-   "arch/cris/arch-v10/boot",
-   "sound/soc/au1x",
-   "drivers/usb/storage",
-   "arch/mips/sgi-ip32",
-   "drivers/dma",
-   "drivers/usb/serial",
-   "drivers/net/wireless/ath5k",
-   "kernel",
-   "security/selinux",
-   "drivers/net/wireless/rtl818x",
-   "fs/reiserfs",
-   "drivers/net/wan",
-   "lib",
-   "net/ipv4",
-   "arch/powerpc/mm",
-   "fs/9p",
-   "drivers/base",
-   "drivers/media/video/cx23885",
-   "arch/cris/arch-v32/boot/rescue",
-   "sound/soc/davinci",
-   "fs/hugetlbfs",
-   "arch/cris/arch-v32/kernel",
-   "drivers/mmc/host",
-   "drivers/misc",
-   "drivers/infiniband/hw/cxgb3",
-   "drivers/usb/atm",
-   "drivers/staging/rtl8187se",
-   "sound/sparc",
-   "arch/mips/include/asm/sn",
-   "include/net/bluetooth",
-   "drivers/net/igb",
-   "arch/cris/arch-v32/drivers/mach-a3",
-   "drivers/spi",
-   "net/sunrpc/xprtrdma",
-   "arch/arm/mach-s3c2412",
-   "arch/powerpc/configs/85xx",
-   "arch/arm/mach-pxa",
-   "drivers/mmc/core",
-   "arch/mips/sibyte/bcm1480",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "arch",
-   "scripts",
-   "kernel",
-   "net",
-   "init",
-   "Documentation",
-   "include",
-   "security",
-   "block",
-   "lib",
-   "fs",
-   "sound",
-   "mm"
-  ],
-  "num_mod_dirs": 225,
-  "num_mod_sys": 14,
-  "author": "Russell King",
-  "author_email": "rmk@dyn-67.arm.linux.org.uk",
-  "committer": "Russell King",
-  "committer_email": "rmk+kernel@arm.linux.org.uk",
-  "author_date": "2009-05-23 23:18:40 +0100",
-  "committer_date": "2009-05-23 23:18:40 +0100"
+  "entropy": 7.401258025001498
  },
  "11c79740d3c03cb81f84e98cf2e2dbd8d9bb53cd": {
-  "num_adds_if": 14,
+  "num_adds_if": 13,
   "num_dels_if": 0,
-  "num_mod_total_if": 14,
+  "num_mod_total_if": 13,
   "num_adds_loop": 4,
   "num_dels_loop": 0,
   "num_mod_total_loop": 4,
   "file_hash": "11c79740d3c03cb81f84e98cf2e2dbd8d9bb53cd",
-  "num_adds": 514,
+  "num_adds": 431,
   "num_dels": 0,
-  "num_mod_lns_total": 514,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "0771c6939484"
-  ],
+  "num_mod_lns_total": 431,
   "mod_files_lst": [
    "arch/arm/mach-ixp4xx/Kconfig",
    "arch/arm/mach-ixp4xx/Makefile",
    "arch/arm/mach-ixp4xx/goramo_mlr.c"
   ],
-  "entropy": 0.1119832319467563,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-ixp4xx"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-05-23 23:58:30 +0200",
-  "committer_date": "2009-05-23 23:58:30 +0200"
+  "entropy": 0.11483819212833463
  },
  "59a3759d0fe8d969888c741bb33f4946e4d3750d": {
   "num_adds_if": 0,
@@ -3643,38 +2722,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4a5daceca1d9"
-  ],
   "mod_files_lst": [
    "Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2009-05-23 14:47:00 -0700",
-  "committer_date": "2009-05-23 14:47:00 -0700"
+  "entropy": 0.0
  },
  "0771c6939484d2ebe0ec28257c2570aecd9911e0": {
   "num_adds_if": 1,
@@ -3684,44 +2735,13 @@
   "num_dels_loop": 3,
   "num_mod_total_loop": 6,
   "file_hash": "0771c6939484d2ebe0ec28257c2570aecd9911e0",
-  "num_adds": 20,
+  "num_adds": 19,
   "num_dels": 15,
-  "num_mod_lns_total": 35,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d4c9e9fc9751"
-  ],
+  "num_mod_lns_total": 34,
   "mod_files_lst": [
    "arch/arm/mach-ixp4xx/ixp4xx_qmgr.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-ixp4xx"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-04-28 19:32:55 +0200",
-  "committer_date": "2009-05-23 23:37:04 +0200"
+  "entropy": 0.0
  },
  "d4c9e9fc97515588529e7fe48c7d5725292c6734": {
   "num_adds_if": 5,
@@ -3731,44 +2751,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "d4c9e9fc97515588529e7fe48c7d5725292c6734",
-  "num_adds": 59,
+  "num_adds": 49,
   "num_dels": 8,
-  "num_mod_lns_total": 67,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "61a5ccc85a98"
-  ],
+  "num_mod_lns_total": 57,
   "mod_files_lst": [
    "arch/arm/mach-ixp4xx/ixp4xx_qmgr.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-ixp4xx"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-05-23 23:36:03 +0200",
-  "committer_date": "2009-05-23 23:36:03 +0200"
+  "entropy": 0.0
  },
  "61a5ccc85a98f5eced89a3fda19b0ee708535c1b": {
   "num_adds_if": 0,
@@ -3779,43 +2768,12 @@
   "num_mod_total_loop": 1,
   "file_hash": "61a5ccc85a98f5eced89a3fda19b0ee708535c1b",
   "num_adds": 0,
-  "num_dels": 9,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8a4fe82497a5"
-  ],
+  "num_dels": 8,
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "arch/arm/mach-ixp4xx/ixp4xx_npe.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-ixp4xx"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-04-28 14:52:23 +0200",
-  "committer_date": "2009-05-23 23:16:23 +0200"
+  "entropy": 0.0
  },
  "8a4fe82497a52b6da45b5b3179cce7dd6a28a532": {
   "num_adds_if": 1,
@@ -3828,41 +2786,10 @@
   "num_adds": 6,
   "num_dels": 1,
   "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2e418400728a"
-  ],
   "mod_files_lst": [
    "arch/arm/mach-ixp4xx/include/mach/cpu.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-ixp4xx/include/mach"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-04-28 14:48:43 +0200",
-  "committer_date": "2009-05-23 23:16:21 +0200"
+  "entropy": 0.0
  },
  "2e418400728a9fcacb2ab75f0547584a56b8a584": {
   "num_adds_if": 0,
@@ -3875,90 +2802,27 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6a68afe3a297"
-  ],
   "mod_files_lst": [
    "drivers/net/arm/ixp4xx_eth.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/arm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-05-23 23:14:59 +0200",
-  "committer_date": "2009-05-23 23:14:59 +0200"
+  "entropy": 0.0
  },
  "6a68afe3a2971953e218e509b16eae0ece43f9ac": {
   "num_adds_if": 5,
   "num_dels_if": 5,
   "num_mod_total_if": 10,
-  "num_adds_loop": 2,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "6a68afe3a2971953e218e509b16eae0ece43f9ac",
   "num_adds": 15,
   "num_dels": 10,
   "num_mod_lns_total": 25,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a6a9fb857b55"
-  ],
   "mod_files_lst": [
    "drivers/net/arm/ixp4xx_eth.c",
    "drivers/net/wan/ixp4xx_hss.c"
   ],
-  "entropy": 0.9709505944546686,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Ha\u0142asa <khc@pm.waw.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wan",
-   "drivers/net/arm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Ha\u0142asa",
-  "author_email": "khc@pm.waw.pl",
-  "committer": "Krzysztof Ha\u0142asa",
-  "committer_email": "khc@pm.waw.pl",
-  "author_date": "2009-05-23 23:14:10 +0200",
-  "committer_date": "2009-05-23 23:14:10 +0200"
+  "entropy": 0.9709505944546686
  },
  "a366695592ebc9151dd5a248681270f0925d8324": {
   "num_adds_if": 1,
@@ -3971,51 +2835,13 @@
   "num_adds": 4,
   "num_dels": 1,
   "num_mod_lns_total": 5,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "d17bf602fbfe"
-  ],
   "mod_files_lst": [
    "drivers/scsi/fcoe/fcoe.c",
    "drivers/scsi/fnic/fnic_main.c",
    "drivers/scsi/libfc/fc_rport.c",
    "include/scsi/libfc.h"
   ],
-  "entropy": 1.9219280948873623,
-  "ppl_signed_off": [
-   "Signed-off-by: Abhijeet Joglekar <abjoglek@cisco.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Robert Love <robert.w.love@intel.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/fnic",
-   "include/scsi",
-   "drivers/scsi/fcoe",
-   "drivers/scsi/libfc"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 2,
-  "author": "Abhijeet Joglekar",
-  "author_email": "abjoglek@cisco.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-01 10:01:26 -0700",
-  "committer_date": "2009-05-23 15:44:18 -0500"
+  "entropy": 1.9219280948873623
  },
  "d17bf602fbfe4a5ab134a90f6c082fa161d398ee": {
   "num_adds_if": 0,
@@ -4028,91 +2854,27 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d5d135b3a767"
-  ],
   "mod_files_lst": [
    "drivers/scsi/mpt2sas/mpt2sas_base.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Moore <eric.moore@lsi.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mpt2sas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Moore",
-  "author_email": "eric.moore@lsi.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-18 13:02:49 -0600",
-  "committer_date": "2009-05-23 15:44:18 -0500"
+  "entropy": 0.0
  },
  "d5d135b3a76750df250e18956476b6b2c4ad97c2": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 4,
-  "num_dels_loop": 4,
-  "num_mod_total_loop": 8,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
   "file_hash": "d5d135b3a76750df250e18956476b6b2c4ad97c2",
   "num_adds": 89,
   "num_dels": 89,
   "num_mod_lns_total": 178,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "ddf59a35e98a"
-  ],
   "mod_files_lst": [
    "drivers/scsi/mpt2sas/mpt2sas_scsih.c",
    "drivers/scsi/mpt2sas/mpt2sas_transport.c"
   ],
-  "entropy": 0.7263997735417456,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Moore <eric.moore@lsi.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mpt2sas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Moore",
-  "author_email": "eric.moore@lsi.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-18 13:02:08 -0600",
-  "committer_date": "2009-05-23 15:44:17 -0500"
+  "entropy": 0.7263997735417456
  },
  "ddf59a35e98aa12255ed64c892271339504cc65c": {
   "num_adds_if": 3,
@@ -4122,195 +2884,65 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ddf59a35e98aa12255ed64c892271339504cc65c",
-  "num_adds": 21,
+  "num_adds": 20,
   "num_dels": 11,
-  "num_mod_lns_total": 32,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "993e0da7b767"
-  ],
+  "num_mod_lns_total": 31,
   "mod_files_lst": [
    "drivers/scsi/mpt2sas/mpt2sas_ctl.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Moore <eric.moore@lsi.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mpt2sas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Moore",
-  "author_email": "eric.moore@lsi.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-18 13:01:29 -0600",
-  "committer_date": "2009-05-23 15:44:17 -0500"
+  "entropy": 0.0
  },
  "993e0da7b767c0a7c1fd0079b16f3d28e6f25a48": {
-  "num_adds_if": 8,
+  "num_adds_if": 3,
   "num_dels_if": 0,
-  "num_mod_total_if": 8,
-  "num_adds_loop": 4,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 4,
+  "num_mod_total_loop": 1,
   "file_hash": "993e0da7b767c0a7c1fd0079b16f3d28e6f25a48",
-  "num_adds": 109,
-  "num_dels": 2,
-  "num_mod_lns_total": 111,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3c621b3ee143"
-  ],
+  "num_adds": 99,
+  "num_dels": 1,
+  "num_mod_lns_total": 100,
   "mod_files_lst": [
    "drivers/scsi/mpt2sas/mpt2sas_scsih.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Moore <eric.moore@lsi.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mpt2sas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Moore",
-  "author_email": "eric.moore@lsi.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-18 13:00:45 -0600",
-  "committer_date": "2009-05-23 15:44:17 -0500"
+  "entropy": 0.0
  },
  "3c621b3ee1432e7a2aca4a3b670b1d05f19ecf9c": {
-  "num_adds_if": 4,
+  "num_adds_if": 3,
   "num_dels_if": 0,
-  "num_mod_total_if": 4,
-  "num_adds_loop": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "3c621b3ee1432e7a2aca4a3b670b1d05f19ecf9c",
-  "num_adds": 119,
+  "num_adds": 104,
   "num_dels": 0,
-  "num_mod_lns_total": 119,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "6fcf41d1d879"
-  ],
+  "num_mod_lns_total": 104,
   "mod_files_lst": [
    "drivers/scsi/mpt2sas/mpt2sas_base.h",
    "drivers/scsi/mpt2sas/mpt2sas_scsih.c"
   ],
-  "entropy": 0.07001205049536138,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Moore <eric.moore@lsi.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mpt2sas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Moore",
-  "author_email": "eric.moore@lsi.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-18 12:59:41 -0600",
-  "committer_date": "2009-05-23 15:44:16 -0500"
+  "entropy": 0.07823246525771237
  },
  "6fcf41d1d8796f41b893754324704e23971c2ea1": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6fcf41d1d8796f41b893754324704e23971c2ea1",
-  "num_adds": 20,
-  "num_dels": 16,
-  "num_mod_lns_total": 36,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "ea460a81919f"
-  ],
+  "num_adds": 17,
+  "num_dels": 13,
+  "num_mod_lns_total": 30,
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_ccw.c",
    "drivers/s390/scsi/zfcp_def.h",
    "drivers/s390/scsi/zfcp_ext.h",
    "drivers/s390/scsi/zfcp_fsf.c"
   ],
-  "entropy": 1.173732859051434,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:21 +0200",
-  "committer_date": "2009-05-23 15:44:16 -0500"
+  "entropy": 1.2486092328524885
  },
  "ea460a81919f2b3410e7fb30183c0256d068d87a": {
   "num_adds_if": 2,
@@ -4323,44 +2955,11 @@
   "num_adds": 12,
   "num_dels": 2,
   "num_mod_lns_total": 14,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a17c5855643a"
-  ],
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_erp.c",
    "drivers/s390/scsi/zfcp_fc.c"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Swen Schillig <swen@vnet.ibm.com>",
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Swen Schillig",
-  "author_email": "swen@vnet.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:20 +0200",
-  "committer_date": "2009-05-23 15:44:16 -0500"
+  "entropy": 1.0
  },
  "a17c5855643afa7838f542cbd0a1ed9a73968cef": {
   "num_adds_if": 0,
@@ -4370,46 +2969,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a17c5855643afa7838f542cbd0a1ed9a73968cef",
-  "num_adds": 9,
+  "num_adds": 8,
   "num_dels": 3,
-  "num_mod_lns_total": 12,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "dceab655d9f7"
-  ],
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_fsf.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Martin Petermann <martin.petermann@de.ibm.com>",
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Martin Petermann",
-  "author_email": "martin.petermann@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:19 +0200",
-  "committer_date": "2009-05-23 15:44:15 -0500"
+  "entropy": 0.0
  },
  "dceab655d9f7d99881c2033c8ff4e1c7b444e104": {
   "num_adds_if": 0,
@@ -4422,45 +2988,11 @@
   "num_adds": 6,
   "num_dels": 0,
   "num_mod_lns_total": 6,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "bc90c8632f63"
-  ],
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_erp.c",
    "drivers/s390/scsi/zfcp_fsf.c"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:18 +0200",
-  "committer_date": "2009-05-23 15:44:15 -0500"
+  "entropy": 0.6500224216483541
  },
  "bc90c8632f63cd94246e3fb6f1b6d7ecba48f1a0": {
   "num_adds_if": 1,
@@ -4473,44 +3005,10 @@
   "num_adds": 2,
   "num_dels": 8,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a40a1bafe7da"
-  ],
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_fsf.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:17 +0200",
-  "committer_date": "2009-05-23 15:44:15 -0500"
+  "entropy": 0.0
  },
  "a40a1bafe7da0afe61b1c20fc50e18c07ce724f9": {
   "num_adds_if": 0,
@@ -4520,47 +3018,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "a40a1bafe7da0afe61b1c20fc50e18c07ce724f9",
-  "num_adds": 12,
+  "num_adds": 10,
   "num_dels": 1,
-  "num_mod_lns_total": 13,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "955a21555dc8"
-  ],
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_scsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:16 +0200",
-  "committer_date": "2009-05-23 15:44:14 -0500"
+  "entropy": 0.0
  },
  "955a21555dc8dc4a81da7063d595cd7558f413ce": {
   "num_adds_if": 0,
@@ -4573,44 +3037,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f0216ae9bd0e"
-  ],
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_ccw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:15 +0200",
-  "committer_date": "2009-05-23 15:44:14 -0500"
+  "entropy": 0.0
  },
  "f0216ae9bd0ea8a45736f386a3b8058aefc64dd8": {
   "num_adds_if": 0,
@@ -4623,44 +3053,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f9da3be5afc0"
-  ],
   "mod_files_lst": [
    "drivers/s390/scsi/zfcp_dbf.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christof Schmitt <christof.schmitt@de.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Swen Schillig <swen@vnet.ibm.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/s390/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christof Schmitt",
-  "author_email": "christof.schmitt@de.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-15 13:18:14 +0200",
-  "committer_date": "2009-05-23 15:44:14 -0500"
+  "entropy": 0.0
  },
  "f9da3be5afc08c40e7f7a395c8935d500a6898b1": {
   "num_adds_if": 0,
@@ -4673,44 +3069,10 @@
   "num_adds": 16,
   "num_dels": 18,
   "num_mod_lns_total": 34,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4421c9ebeeac"
-  ],
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-14 20:41:21 -0400",
-  "committer_date": "2009-05-23 15:44:13 -0500"
+  "entropy": 0.0
  },
  "4421c9ebeeacf3d9c4e6aa558e1a777178e71add": {
   "num_adds_if": 0,
@@ -4720,99 +3082,32 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4421c9ebeeacf3d9c4e6aa558e1a777178e71add",
-  "num_adds": 10,
-  "num_dels": 1,
-  "num_mod_lns_total": 11,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b3cd5050bf8e"
-  ],
+  "num_adds": 8,
+  "num_dels": 0,
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:50 -0500",
-  "committer_date": "2009-05-23 15:44:13 -0500"
+  "entropy": 0.0
  },
  "b3cd5050bf8eb32ceecee129cac7c59e6f1668c4": {
-  "num_adds_if": 6,
+  "num_adds_if": 5,
   "num_dels_if": 5,
-  "num_mod_total_if": 11,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_mod_total_if": 10,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "b3cd5050bf8eb32ceecee129cac7c59e6f1668c4",
-  "num_adds": 41,
-  "num_dels": 32,
-  "num_mod_lns_total": 73,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "1336aed10b8a"
-  ],
+  "num_adds": 40,
+  "num_dels": 31,
+  "num_mod_lns_total": 71,
   "mod_files_lst": [
    "drivers/infiniband/ulp/iser/iscsi_iser.c",
    "drivers/scsi/libiscsi.c",
    "drivers/scsi/libiscsi_tcp.c",
    "include/scsi/libiscsi.h"
   ],
-  "entropy": 0.9286612685935195,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/scsi",
-   "drivers/infiniband/ulp/iser",
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:49 -0500",
-  "committer_date": "2009-05-23 15:44:13 -0500"
+  "entropy": 0.9467276522961974
  },
  "1336aed10b8af791378b017f0fa8da4e5b827b8d": {
   "num_adds_if": 4,
@@ -4825,47 +3120,15 @@
   "num_adds": 11,
   "num_dels": 10,
   "num_mod_lns_total": 21,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "301e0f7e4d78"
-  ],
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:48 -0500",
-  "committer_date": "2009-05-23 15:44:12 -0500"
+  "entropy": 0.0
  },
  "301e0f7e4d78e956c58b66888e134dbdb44ea28e": {
   "num_adds_if": 1,
-  "num_dels_if": 1,
-  "num_mod_total_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -4873,189 +3136,59 @@
   "num_adds": 6,
   "num_dels": 9,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3bbaaad95fd3"
-  ],
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:47 -0500",
-  "committer_date": "2009-05-23 15:44:12 -0500"
+  "entropy": 0.0
  },
  "3bbaaad95fd38dedb7c66a601f14825b4e0c5a59": {
-  "num_adds_if": 13,
-  "num_dels_if": 10,
-  "num_mod_total_if": 23,
-  "num_adds_loop": 5,
+  "num_adds_if": 10,
+  "num_dels_if": 9,
+  "num_mod_total_if": 19,
+  "num_adds_loop": 3,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 6,
+  "num_mod_total_loop": 4,
   "file_hash": "3bbaaad95fd38dedb7c66a601f14825b4e0c5a59",
-  "num_adds": 118,
-  "num_dels": 112,
-  "num_mod_lns_total": 230,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "4c48a82935f8"
-  ],
+  "num_adds": 111,
+  "num_dels": 106,
+  "num_mod_lns_total": 217,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c",
    "include/scsi/libiscsi.h"
   ],
-  "entropy": 0.15109697051711368,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/scsi",
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:46 -0500",
-  "committer_date": "2009-05-23 15:44:12 -0500"
+  "entropy": 0.1581928138185114
  },
  "4c48a82935f833d94fcf44c2b0c5d2922acfc77a": {
-  "num_adds_if": 3,
-  "num_dels_if": 2,
-  "num_mod_total_if": 5,
-  "num_adds_loop": 1,
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "4c48a82935f833d94fcf44c2b0c5d2922acfc77a",
-  "num_adds": 29,
+  "num_adds": 26,
   "num_dels": 9,
-  "num_mod_lns_total": 38,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d1acfae51442"
-  ],
+  "num_mod_lns_total": 35,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:45 -0500",
-  "committer_date": "2009-05-23 15:44:11 -0500"
+  "entropy": 0.0
  },
  "d1acfae514425d680912907c6554852f1e258551": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "d1acfae514425d680912907c6554852f1e258551",
   "num_adds": 6,
   "num_dels": 0,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "26013ad4c43f"
-  ],
   "mod_files_lst": [
    "drivers/scsi/libiscsi_tcp.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:44 -0500",
-  "committer_date": "2009-05-23 15:44:11 -0500"
+  "entropy": 0.0
  },
  "26013ad4c43f49a038a6489c35e9b901491339fe": {
   "num_adds_if": 1,
@@ -5065,94 +3198,30 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "26013ad4c43f49a038a6489c35e9b901491339fe",
-  "num_adds": 8,
-  "num_dels": 3,
-  "num_mod_lns_total": 11,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "edbc9aa0580c"
-  ],
+  "num_adds": 6,
+  "num_dels": 2,
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:43 -0500",
-  "committer_date": "2009-05-23 15:44:11 -0500"
+  "entropy": 0.0
  },
  "edbc9aa0580c0aca96ac8d11bfb2defa81d91bb3": {
-  "num_adds_if": 2,
+  "num_adds_if": 1,
   "num_dels_if": 0,
-  "num_mod_total_if": 2,
+  "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "edbc9aa0580c0aca96ac8d11bfb2defa81d91bb3",
-  "num_adds": 8,
+  "num_adds": 7,
   "num_dels": 1,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "8f9256cea10c"
-  ],
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c",
    "drivers/scsi/libiscsi_tcp.c"
   ],
-  "entropy": 0.5032583347756457,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:42 -0500",
-  "committer_date": "2009-05-23 15:44:10 -0500"
+  "entropy": 0.5435644431995964
  },
  "8f9256cea10ca43ac80f66e176643eb41db34244": {
   "num_adds_if": 0,
@@ -5165,45 +3234,11 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "5700b1af9338"
-  ],
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c",
    "include/scsi/libiscsi.h"
   ],
-  "entropy": 0.8112781244591328,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/scsi",
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:41 -0500",
-  "committer_date": "2009-05-23 15:44:10 -0500"
+  "entropy": 0.8112781244591328
  },
  "5700b1af93388544843a453e3c68f8f928bd1e88": {
   "num_adds_if": 3,
@@ -5213,93 +3248,29 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5700b1af93388544843a453e3c68f8f928bd1e88",
-  "num_adds": 33,
-  "num_dels": 75,
-  "num_mod_lns_total": 108,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "184b57c630c8"
-  ],
+  "num_adds": 30,
+  "num_dels": 73,
+  "num_mod_lns_total": 103,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:40 -0500",
-  "committer_date": "2009-05-23 15:44:10 -0500"
+  "entropy": 0.0
  },
  "184b57c630c86d35b7f92d4b6545fdf07647c5d5": {
   "num_adds_if": 4,
   "num_dels_if": 2,
   "num_mod_total_if": 6,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "184b57c630c86d35b7f92d4b6545fdf07647c5d5",
-  "num_adds": 12,
+  "num_adds": 11,
   "num_dels": 7,
-  "num_mod_lns_total": 19,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "10eb0f013c63"
-  ],
+  "num_mod_lns_total": 18,
   "mod_files_lst": [
    "drivers/scsi/libiscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:39 -0500",
-  "committer_date": "2009-05-23 15:44:09 -0500"
+  "entropy": 0.0
  },
  "10eb0f013c63c71c82ede77945a5f390c10cfda6": {
   "num_adds_if": 7,
@@ -5309,14 +3280,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "10eb0f013c63c71c82ede77945a5f390c10cfda6",
-  "num_adds": 87,
-  "num_dels": 29,
-  "num_mod_lns_total": 116,
-  "num_mod_files": 8,
-  "is_merge": false,
-  "parents": [
-   "5a2537959fa8"
-  ],
+  "num_adds": 76,
+  "num_dels": 27,
+  "num_mod_lns_total": 103,
   "mod_files_lst": [
    "drivers/infiniband/ulp/iser/iscsi_iser.c",
    "drivers/scsi/cxgb3i/cxgb3i.h",
@@ -5327,38 +3293,7 @@
    "include/scsi/iscsi_if.h",
    "include/scsi/scsi_transport_iscsi.h"
   ],
-  "entropy": 2.173945054307578,
-  "ppl_signed_off": [
-   "Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/scsi",
-   "drivers/scsi/cxgb3i",
-   "drivers/infiniband/ulp/iser",
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 2,
-  "author": "Mike Christie",
-  "author_email": "michaelc@cs.wisc.edu",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-13 17:57:38 -0500",
-  "committer_date": "2009-05-23 15:44:09 -0500"
+  "entropy": 2.23332387001135
  },
  "5a2537959fa8781012e8c286fc1614e0f6991327": {
   "num_adds_if": 0,
@@ -5371,43 +3306,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9870d9a24285"
-  ],
   "mod_files_lst": [
    "drivers/scsi/NCR_D700.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Zhenwen Xu <helight.xu@gmail.com>",
-   "Signed-off-by: Andrew Morton <akpm@linux-foundation.org>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Zhenwen Xu",
-  "author_email": "helight.xu@gmail.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-12 13:29:13 -0700",
-  "committer_date": "2009-05-23 15:44:09 -0500"
+  "entropy": 0.0
  },
  "9870d9a2428550e7ac3164a26306ad07a99051ae": {
   "num_adds_if": 0,
@@ -5417,48 +3319,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9870d9a2428550e7ac3164a26306ad07a99051ae",
-  "num_adds": 16,
-  "num_dels": 16,
-  "num_mod_lns_total": 32,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "77db27cdcbc8"
-  ],
+  "num_adds": 15,
+  "num_dels": 13,
+  "num_mod_lns_total": 28,
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.c",
    "drivers/scsi/mvsas/mv_sas.h"
   ],
-  "entropy": 0.4488644887230294,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-11 22:19:25 +0800",
-  "committer_date": "2009-05-23 15:44:08 -0500"
+  "entropy": 0.49123734182433315
  },
  "77db27cdcbc8ed371fd2f154cbadc7ff32ae8901": {
   "num_adds_if": 0,
@@ -5469,46 +3337,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "77db27cdcbc8ed371fd2f154cbadc7ff32ae8901",
   "num_adds": 1,
-  "num_dels": 2,
-  "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0f980a871678"
-  ],
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-11 21:56:31 +0800",
-  "committer_date": "2009-05-23 15:44:08 -0500"
+  "entropy": 0.0
  },
  "0f980a871678b7ec143fcb45b31bf9234e4585c8": {
   "num_adds_if": 2,
@@ -5519,46 +3353,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "0f980a871678b7ec143fcb45b31bf9234e4585c8",
   "num_adds": 4,
-  "num_dels": 4,
-  "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0b84b7094e87"
-  ],
+  "num_dels": 3,
+  "num_mod_lns_total": 7,
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-11 21:49:52 +0800",
-  "committer_date": "2009-05-23 15:44:08 -0500"
+  "entropy": 0.0
  },
  "0b84b7094e87769120def1e703b8b4d037281038": {
   "num_adds_if": 0,
@@ -5571,44 +3371,10 @@
   "num_adds": 6,
   "num_dels": 8,
   "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2b288133ab63"
-  ],
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-11 20:05:26 +0800",
-  "committer_date": "2009-05-23 15:44:07 -0500"
+  "entropy": 0.0
  },
  "2b288133ab6306b1761e0a2ef943b944ead6ad69": {
   "num_adds_if": 1,
@@ -5621,44 +3387,10 @@
   "num_adds": 5,
   "num_dels": 3,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6ff63896e5bd"
-  ],
   "mod_files_lst": [
    "drivers/scsi/mvsas/mv_sas.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ying Chu <jasonchu@marvell.com>",
-   "Signed-off-by: Andy Yan <ayan@marvell.com>",
-   "Signed-off-by: Ke Wei <kewei@marvell.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/mvsas"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Yan",
-  "author_email": "ayan@marvell.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-11 20:01:55 +0800",
-  "committer_date": "2009-05-23 15:44:07 -0500"
+  "entropy": 0.0
  },
  "6ff63896e5bd624d8563f4b67fe2fe06ce99c8dc": {
   "num_adds_if": 0,
@@ -5671,91 +3403,26 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a3ec723a949d"
-  ],
   "mod_files_lst": [
    "drivers/scsi/ipr.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Kleber S. Souza <klebers@linux.vnet.ibm.com>",
-   "Signed-off-by: Brian King <brking@linux.vnet.ibm.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Kleber S. Souza",
-  "author_email": "klebers@linux.vnet.ibm.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-04 10:41:02 -0300",
-  "committer_date": "2009-05-23 15:44:07 -0500"
+  "entropy": 0.0
  },
  "a3ec723a949d65bf0349cdf60958036454927729": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 2,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "a3ec723a949d65bf0349cdf60958036454927729",
   "num_adds": 9,
-  "num_dels": 10,
-  "num_mod_lns_total": 19,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "16b3858ec967"
-  ],
+  "num_dels": 9,
+  "num_mod_lns_total": 18,
   "mod_files_lst": [
    "drivers/scsi/Kconfig"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Eric Piel <eric.piel@tremplin-utc.net>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eric Piel",
-  "author_email": "eric.piel@tremplin-utc.net",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-04 12:43:02 +0200",
-  "committer_date": "2009-05-23 15:44:06 -0500"
+  "entropy": 0.0
  },
  "16b3858ec967f4d9817f6958cc7a0bf1222355f3": {
   "num_adds_if": 0,
@@ -5766,44 +3433,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "16b3858ec967f4d9817f6958cc7a0bf1222355f3",
   "num_adds": 0,
-  "num_dels": 3,
-  "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1da2019fffc6"
-  ],
+  "num_dels": 2,
+  "num_mod_lns_total": 2,
   "mod_files_lst": [
    "drivers/scsi/ibmvscsi/ibmvscsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Roel Kluin <roel.kluin@gmail.com>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/ibmvscsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Roel Kluin",
-  "author_email": "roel.kluin@gmail.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-02 22:14:54 +0200",
-  "committer_date": "2009-05-23 15:44:06 -0500"
+  "entropy": 0.0
  },
  "1da2019fffc65c02a613305919bac28c9bdfaf99": {
   "num_adds_if": 0,
@@ -5816,42 +3451,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5c10e63c943b"
-  ],
   "mod_files_lst": [
    "drivers/scsi/st.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Kai Makisara <kai.makisara@kolumbus.fi>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Kai Makisara",
-  "author_email": "Kai.Makisara@kolumbus.fi",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-05-02 08:49:34 +0300",
-  "committer_date": "2009-05-23 15:44:06 -0500"
+  "entropy": 0.0
  },
  "5c10e63c943b4c67561ddc6bf61e01d4141f881f": {
   "num_adds_if": 2,
@@ -5862,63 +3465,24 @@
   "num_mod_total_loop": 0,
   "file_hash": "5c10e63c943b4c67561ddc6bf61e01d4141f881f",
   "num_adds": 6,
-  "num_dels": 8,
-  "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b0d428adebe9"
-  ],
+  "num_dels": 7,
+  "num_mod_lns_total": 13,
   "mod_files_lst": [
    "drivers/scsi/scsi_lib.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Takahiro Yasui <tyasui@redhat.com>",
-   "Signed-off-by: Matthew Wilcox <matthew@wil.cx>",
-   "Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Takahiro Yasui",
-  "author_email": "tyasui@redhat.com",
-  "committer": "James Bottomley",
-  "committer_email": "James.Bottomley@HansenPartnership.com",
-  "author_date": "2009-04-29 12:13:02 -0400",
-  "committer_date": "2009-05-23 15:44:05 -0500"
+  "entropy": 0.0
  },
  "4a5daceca1d96e949fc35f2f600de816862e8e74": {
-  "num_adds_if": 1,
-  "num_dels_if": 354,
-  "num_mod_total_if": 355,
-  "num_adds_loop": 0,
-  "num_dels_loop": 172,
-  "num_mod_total_loop": 172,
+  "num_adds_if": 323,
+  "num_dels_if": 1,
+  "num_mod_total_if": 324,
+  "num_adds_loop": 88,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 88,
   "file_hash": "4a5daceca1d96e949fc35f2f600de816862e8e74",
-  "num_adds": 11,
-  "num_dels": 9213,
-  "num_mod_lns_total": 9224,
-  "num_mod_files": 45,
-  "is_merge": true,
-  "parents": [
-   "3eb9c8be0cc5",
-   "2b69a8a2b6e5"
-  ],
+  "num_adds": 7876,
+  "num_dels": 11,
+  "num_mod_lns_total": 7887,
   "mod_files_lst": [
    "MAINTAINERS",
    "drivers/misc/enclosure.c",
@@ -5966,102 +3530,35 @@
    "drivers/scsi/scsi_transport_iscsi.c",
    "include/scsi/scsi_transport_fc.h"
   ],
-  "entropy": 4.314728001575155,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/scsi",
-   "/",
-   "drivers/misc",
-   "drivers/scsi/fnic",
-   "drivers/scsi/mpt2sas",
-   "drivers/scsi",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 7,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2009-05-23 13:44:00 -0700",
-  "committer_date": "2009-05-23 13:44:00 -0700"
+  "entropy": 4.3282713935040835
  },
  "3eb9c8be0cc56619571b675a688001f2ddb25c90": {
-  "num_adds_if": 2,
-  "num_dels_if": 3,
+  "num_adds_if": 3,
+  "num_dels_if": 2,
   "num_mod_total_if": 5,
-  "num_adds_loop": 0,
-  "num_dels_loop": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "3eb9c8be0cc56619571b675a688001f2ddb25c90",
-  "num_adds": 19,
-  "num_dels": 24,
+  "num_adds": 24,
+  "num_dels": 19,
   "num_mod_lns_total": 43,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "95caa0a9bdaf",
-   "8db14ca12569"
-  ],
   "mod_files_lst": [
    "fs/cifs/dir.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2009-05-23 13:42:53 -0700",
-  "committer_date": "2009-05-23 13:42:53 -0700"
+  "entropy": 0.0
  },
  "a2ab67fae1ab9226679495a8d260f4e6555efc5f": {
-  "num_adds_if": 360,
-  "num_dels_if": 556,
-  "num_mod_total_if": 916,
-  "num_adds_loop": 284,
-  "num_dels_loop": 330,
-  "num_mod_total_loop": 614,
+  "num_adds_if": 493,
+  "num_dels_if": 311,
+  "num_mod_total_if": 804,
+  "num_adds_loop": 61,
+  "num_dels_loop": 62,
+  "num_mod_total_loop": 123,
   "file_hash": "a2ab67fae1ab9226679495a8d260f4e6555efc5f",
-  "num_adds": 16986,
-  "num_dels": 18275,
-  "num_mod_lns_total": 35261,
-  "num_mod_files": 523,
-  "is_merge": true,
-  "parents": [
-   "6d0485a99366",
-   "135cad366b4e"
-  ],
+  "num_adds": 16501,
+  "num_dels": 16044,
+  "num_mod_lns_total": 32545,
   "mod_files_lst": [
    "Documentation/DocBook/Makefile",
    "Documentation/DocBook/kernel-api.tmpl",
@@ -6072,7 +3569,6 @@
    "Documentation/isdn/INTERFACE.CAPI",
    "Documentation/kernel-doc-nano-HOWTO.txt",
    "Documentation/kernel-parameters.txt",
-   "Documentation/logo.gif",
    "Documentation/logo.svg",
    "Documentation/logo.txt",
    "Documentation/sysctl/vm.txt",
@@ -6095,12 +3591,12 @@
    "arch/arm/Kconfig",
    "arch/arm/Makefile",
    "arch/arm/configs/davinci_all_defconfig",
-   "arch/arm/configs/mx31moboard_defconfig",
+   "arch/arm/configs/mx21_defconfig",
    "arch/arm/configs/mx3_defconfig",
    "arch/arm/configs/viper_defconfig",
    "arch/arm/mach-davinci/Kconfig",
    "arch/arm/mach-davinci/Makefile",
-   "arch/arm/mach-davinci/board-evm.c",
+   "arch/arm/mach-davinci/board-dm644x-evm.c",
    "arch/arm/mach-davinci/clock.c",
    "arch/arm/mach-davinci/clock.h",
    "arch/arm/mach-davinci/devices.c",
@@ -6113,6 +3609,7 @@
    "arch/arm/mach-davinci/include/mach/clock.h",
    "arch/arm/mach-davinci/include/mach/common.h",
    "arch/arm/mach-davinci/include/mach/cputype.h",
+   "arch/arm/mach-davinci/include/mach/dm644x.h",
    "arch/arm/mach-davinci/include/mach/edma.h",
    "arch/arm/mach-davinci/include/mach/gpio.h",
    "arch/arm/mach-davinci/include/mach/hardware.h",
@@ -6149,10 +3646,8 @@
    "arch/arm/mach-imx/include/mach/irqs.h",
    "arch/arm/mach-imx/include/mach/memory.h",
    "arch/arm/mach-imx/include/mach/mmc.h",
-   "arch/arm/mach-imx/include/mach/mx1ads.h",
    "arch/arm/mach-imx/include/mach/spi_imx.h",
    "arch/arm/mach-imx/include/mach/system.h",
-   "arch/arm/mach-imx/include/mach/timex.h",
    "arch/arm/mach-imx/include/mach/uncompress.h",
    "arch/arm/mach-imx/include/mach/vmalloc.h",
    "arch/arm/mach-imx/irq.c",
@@ -6229,6 +3724,7 @@
    "arch/arm/plat-mxc/include/mach/board-mx31pdk.h",
    "arch/arm/plat-mxc/include/mach/board-pcm037.h",
    "arch/arm/plat-mxc/include/mach/board-pcm038.h",
+   "arch/arm/plat-mxc/include/mach/board-pcm043.h",
    "arch/arm/plat-mxc/include/mach/board-qong.h",
    "arch/arm/plat-mxc/include/mach/common.h",
    "arch/arm/plat-mxc/include/mach/debug-macro.S",
@@ -6587,189 +4083,7 @@
    "sound/usb/caiaq/audio.c",
    "sound/usb/caiaq/device.c"
   ],
-  "entropy": 6.165599642608743,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/alpha/kernel",
-   "/",
-   "fs/autofs4",
-   "drivers/acpi",
-   "arch/alpha/include/asm",
-   "sound/soc/s3c24xx",
-   "include/linux/netfilter",
-   "arch/m32r/include/asm",
-   "drivers/net/mlx4",
-   "Documentation/isdn",
-   "arch/arm/mach-imx/include/mach",
-   "include/scsi",
-   "arch/x86/mm",
-   "arch/powerpc",
-   "fs/proc",
-   "drivers/scsi/lpfc",
-   "arch/sh/include/asm",
-   "drivers/scsi/cxgb3i",
-   "arch/m32r/boot/compressed",
-   "arch/powerpc/boot",
-   "fs/btrfs",
-   "arch/microblaze/include/asm",
-   "arch/powerpc/include/asm",
-   "drivers/media/video/cx231xx",
-   "net/core",
-   "drivers/char/hw_random",
-   "include/linux",
-   "arch/x86",
-   "arch/x86/kernel/cpu/mcheck",
-   "drivers/isdn/capi",
-   "scripts/dtc",
-   "arch/alpha/mm",
-   "drivers/infiniband/hw/mthca",
-   "Documentation/DocBook",
-   "scripts/mod",
-   "drivers/video/logo",
-   "net/netfilter",
-   "drivers/net",
-   "Documentation",
-   "drivers/infiniband/ulp/iser",
-   "drivers/hid",
-   "arch/x86/kernel/apic",
-   "arch/frv/include/asm",
-   "drivers/media/video/cx18",
-   "arch/arm/mach-mx2",
-   "sound/soc/codecs",
-   "arch/arm/mach-omap1",
-   "fs/ext4",
-   "sound/usb/caiaq",
-   "fs",
-   "arch/arm/mach-mx3",
-   "kernel/irq",
-   "arch/arm/mach-imx",
-   "arch/sh/kernel/cpu/sh5",
-   "drivers",
-   "drivers/video",
-   "Documentation/sysctl",
-   "arch/arm/mach-omap2",
-   "drivers/firmware",
-   "net/xfrm",
-   "drivers/net/ixgbe",
-   "arch/arm/mach-sa1100",
-   "drivers/gpu/drm/i915",
-   "fs/ext2",
-   "drivers/serial",
-   "include/linux/sunrpc",
-   "fs/ocfs2",
-   "drivers/infiniband/ulp/ipoib",
-   "arch/arm/mach-davinci",
-   "arch/arm/plat-pxa",
-   "include/linux/regulator",
-   "arch/arm/plat-mxc/include/mach",
-   "arch/arm/configs",
-   "net/bluetooth",
-   "fs/xfs",
-   "drivers/acpi/acpica",
-   "include/drm",
-   "drivers/ide",
-   "include/scsi/fc",
-   "arch/sh/configs",
-   "mm",
-   "drivers/input/keyboard",
-   "arch/mn10300/kernel",
-   "arch/s390/kernel",
-   "arch/xtensa/kernel",
-   "drivers/scsi/libfc",
-   "arch/x86/include/asm",
-   "drivers/pci",
-   "arch/powerpc/boot/dts",
-   "arch/frv/kernel",
-   "drivers/input/touchscreen",
-   "sound/pci/hda",
-   "net/ipv6/netfilter",
-   "include/asm-generic",
-   "drivers/media/video",
-   "drivers/input/tablet",
-   "arch/arm",
-   "arch/avr32",
-   "arch/sh/kernel",
-   "arch/powerpc/platforms/cell",
-   "drivers/hid/usbhid",
-   "drivers/input",
-   "arch/x86/pci",
-   "drivers/scsi",
-   "fs/configfs",
-   "arch/arm/mach-davinci/include/mach",
-   "fs/ecryptfs",
-   "drivers/scsi/osd",
-   "drivers/block",
-   "Documentation/input",
-   "drivers/s390/scsi",
-   "drivers/video/console",
-   "sound/pci",
-   "net/8021q",
-   "drivers/scsi/fcoe",
-   "net/bridge",
-   "arch/arm/plat-omap",
-   "arch/powerpc/kernel",
-   "arch/x86/kernel",
-   "arch/arm/mach-mx1",
-   "arch/arm/plat-omap/include/mach",
-   "arch/arm/plat-mxc",
-   "net/ipv4/netfilter",
-   "drivers/scsi/mpt2sas",
-   "drivers/input/serio",
-   "kernel",
-   "net/sunrpc",
-   "net/ipv4",
-   "arch/powerpc/mm",
-   "arch/m32r/kernel",
-   "drivers/media/video/cx23885",
-   "drivers/media/video/au0828",
-   "arch/m68k/kernel",
-   "scripts",
-   "fs/quota",
-   "drivers/mmc/host",
-   "drivers/infiniband/hw/cxgb3",
-   "drivers/input/mouse",
-   "Documentation/filesystems",
-   "arch/sparc/kernel",
-   "arch/powerpc/platforms/ps3",
-   "include/acpi",
-   "drivers/regulator",
-   "include/net/bluetooth",
-   "drivers/spi",
-   "arch/arm/mach-pxa",
-   "arch/arm/mm",
-   "drivers/infiniband/hw/nes",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "arch",
-   "scripts",
-   "kernel",
-   "net",
-   "Documentation",
-   "include",
-   "fs",
-   "sound",
-   "mm"
-  ],
-  "num_mod_dirs": 150,
-  "num_mod_sys": 10,
-  "author": "Russell King",
-  "author_email": "rmk@dyn-67.arm.linux.org.uk",
-  "committer": "Russell King",
-  "committer_email": "rmk+kernel@arm.linux.org.uk",
-  "author_date": "2009-05-23 20:57:31 +0100",
-  "committer_date": "2009-05-23 20:57:31 +0100"
+  "entropy": 6.04251781315475
  },
  "8db14ca12569fe885694bd3d5ff84c2d973d3cb0": {
   "num_adds_if": 3,
@@ -6782,45 +4096,10 @@
   "num_adds": 24,
   "num_dels": 19,
   "num_mod_lns_total": 43,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a15ae93ff7c7"
-  ],
   "mod_files_lst": [
    "fs/cifs/dir.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Steve French <sfrench@us.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Shirish Pargaonkar <shirishp@us.ibm.com>"
-  ],
-  "ppl_tested": [
-   "Tested-by: Jeff Layton <jlayton@redhat.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Steve French",
-  "author_email": "sfrench@us.ibm.com",
-  "committer": "Steve French",
-  "committer_email": "sfrench@us.ibm.com",
-  "author_date": "2009-05-23 18:57:25 +0000",
-  "committer_date": "2009-05-23 18:57:25 +0000"
+  "entropy": 0.0
  },
  "aa9c67f53d1969cf1db4c9c2db3a78c4ceb96469": {
   "num_adds_if": 0,
@@ -6831,49 +4110,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "aa9c67f53d1969cf1db4c9c2db3a78c4ceb96469",
   "num_adds": 1,
-  "num_dels": 4,
-  "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1a482f38c5aa"
-  ],
+  "num_dels": 3,
+  "num_mod_lns_total": 4,
   "mod_files_lst": [
    "kernel/perf_counter.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Paul Mackerras <paulus@samba.org>",
-   "Cc: Corey Ashford <cjashfor@linux.vnet.ibm.com>",
-   "Cc: Arnaldo Carvalho de Melo <acme@redhat.com>",
-   "Cc: John Kacur <jkacur@redhat.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Zijlstra",
-  "author_email": "a.p.zijlstra@chello.nl",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-23 18:28:59 +0200",
-  "committer_date": "2009-05-23 19:37:47 +0200"
+  "entropy": 0.0
  },
  "1a482f38c5aafeb3576079a38a5b21b46619f3d2": {
   "num_adds_if": 0,
@@ -6883,53 +4125,16 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1a482f38c5aafeb3576079a38a5b21b46619f3d2",
-  "num_adds": 22,
-  "num_dels": 22,
-  "num_mod_lns_total": 44,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "682076ae1de0"
-  ],
+  "num_adds": 18,
+  "num_dels": 16,
+  "num_mod_lns_total": 34,
   "mod_files_lst": [
    "Documentation/perf_counter/builtin-record.c",
    "Documentation/perf_counter/builtin-stat.c",
    "Documentation/perf_counter/builtin-top.c",
    "Documentation/perf_counter/perf.h"
   ],
-  "entropy": 1.3331985715229742,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Paul Mackerras <paulus@samba.org>",
-   "Cc: Corey Ashford <cjashfor@linux.vnet.ibm.com>",
-   "Cc: Arnaldo Carvalho de Melo <acme@redhat.com>",
-   "Cc: John Kacur <jkacur@redhat.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/perf_counter"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Zijlstra",
-  "author_email": "a.p.zijlstra@chello.nl",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-23 18:28:58 +0200",
-  "committer_date": "2009-05-23 19:37:46 +0200"
+  "entropy": 1.2533138044603827
  },
  "682076ae1de0aba9c2da509f7b19dc03e30a6e1f": {
   "num_adds_if": 0,
@@ -6939,106 +4144,30 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "682076ae1de0aba9c2da509f7b19dc03e30a6e1f",
-  "num_adds": 7,
+  "num_adds": 6,
   "num_dels": 2,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "fccc714b3148"
-  ],
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "kernel/perf_counter.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Paul Mackerras <paulus@samba.org>",
-   "Cc: Corey Ashford <cjashfor@linux.vnet.ibm.com>",
-   "Cc: Arnaldo Carvalho de Melo <acme@redhat.com>",
-   "Cc: John Kacur <jkacur@redhat.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Zijlstra",
-  "author_email": "a.p.zijlstra@chello.nl",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-23 18:28:57 +0200",
-  "committer_date": "2009-05-23 19:37:46 +0200"
+  "entropy": 0.0
  },
  "fccc714b3148ab9741fafc1e90c3876d50df6093": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "fccc714b3148ab9741fafc1e90c3876d50df6093",
-  "num_adds": 22,
-  "num_dels": 32,
-  "num_mod_lns_total": 54,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "e220d2dcb944"
-  ],
+  "num_adds": 21,
+  "num_dels": 25,
+  "num_mod_lns_total": 46,
   "mod_files_lst": [
    "include/linux/perf_counter.h",
    "kernel/perf_counter.c"
   ],
-  "entropy": 0.5564215672884281,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Paul Mackerras <paulus@samba.org>",
-   "Cc: Corey Ashford <cjashfor@linux.vnet.ibm.com>",
-   "Cc: Arnaldo Carvalho de Melo <acme@redhat.com>",
-   "Cc: John Kacur <jkacur@redhat.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Peter Zijlstra",
-  "author_email": "a.p.zijlstra@chello.nl",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-23 18:28:56 +0200",
-  "committer_date": "2009-05-23 19:37:45 +0200"
+  "entropy": 0.5586293734521992
  },
  "e220d2dcb944c5c488b6855d15ec66d76900514f": {
   "num_adds_if": 0,
@@ -7048,104 +4177,31 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e220d2dcb944c5c488b6855d15ec66d76900514f",
-  "num_adds": 5,
+  "num_adds": 4,
   "num_dels": 2,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "c6eb13847ba0"
-  ],
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "include/linux/perf_counter.h",
    "kernel/perf_counter.c",
    "kernel/sched.c"
   ],
-  "entropy": 1.4488156357251847,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Paul Mackerras <paulus@samba.org>",
-   "Cc: Corey Ashford <cjashfor@linux.vnet.ibm.com>",
-   "Cc: Arnaldo Carvalho de Melo <acme@redhat.com>",
-   "Cc: John Kacur <jkacur@redhat.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Peter Zijlstra",
-  "author_email": "a.p.zijlstra@chello.nl",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-23 18:28:55 +0200",
-  "committer_date": "2009-05-23 19:37:44 +0200"
+  "entropy": 1.4591479170272446
  },
  "f9fcfc3b4627a1ec9b50411060f1b384926d6610": {
-  "num_adds_if": 3,
-  "num_dels_if": 3,
-  "num_mod_total_if": 6,
-  "num_adds_loop": 5,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 6,
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "f9fcfc3b4627a1ec9b50411060f1b384926d6610",
-  "num_adds": 79,
+  "num_adds": 67,
   "num_dels": 24,
-  "num_mod_lns_total": 103,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "df391e0eda1e"
-  ],
+  "num_mod_lns_total": 91,
   "mod_files_lst": [
    "Documentation/input/multi-touch-protocol.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Henrik Rydberg <rydberg@euromail.se>",
-   "Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: St\u00e9phane Chatty <chatty@enac.fr>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/input"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Henrik Rydberg",
-  "author_email": "rydberg@euromail.se",
-  "committer": "Dmitry Torokhov",
-  "committer_email": "dmitry.torokhov@gmail.com",
-  "author_date": "2009-05-23 09:51:21 -0700",
-  "committer_date": "2009-05-23 09:53:26 -0700"
+  "entropy": 0.0
  },
  "df391e0eda1e678add56a8e34226edf05d89af6a": {
   "num_adds_if": 0,
@@ -7158,47 +4214,11 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "705a76d2d22a"
-  ],
   "mod_files_lst": [
    "drivers/input/input.c",
    "include/linux/input.h"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Henrik Rydberg <rydberg@euromail.se>",
-   "Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: St\u00e9phane Chatty <chatty@enac.fr>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "drivers/input"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Henrik Rydberg",
-  "author_email": "rydberg@euromail.se",
-  "committer": "Dmitry Torokhov",
-  "committer_email": "dmitry.torokhov@gmail.com",
-  "author_date": "2009-05-23 09:51:20 -0700",
-  "committer_date": "2009-05-23 09:53:18 -0700"
+  "entropy": 1.0
  },
  "290815710b51de23f9ed6799d3e0bb762d4f907c": {
   "num_adds_if": 0,
@@ -7208,15 +4228,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "290815710b51de23f9ed6799d3e0bb762d4f907c",
-  "num_adds": 12,
-  "num_dels": 29,
+  "num_adds": 29,
+  "num_dels": 12,
   "num_mod_lns_total": 41,
-  "num_mod_files": 5,
-  "is_merge": true,
-  "parents": [
-   "14f0aa359365",
-   "a49a018a6ea6"
-  ],
   "mod_files_lst": [
    "arch/arm/mach-kirkwood/common.c",
    "arch/arm/mach-kirkwood/ts219-setup.c",
@@ -7224,82 +4238,24 @@
    "arch/arm/mach-mv78xx0/common.c",
    "arch/arm/mach-orion5x/common.c"
   ],
-  "entropy": 2.1714741879573354,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-mv78xx0",
-   "arch/arm/mach-loki",
-   "arch/arm/mach-orion5x",
-   "arch/arm/mach-kirkwood"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 1,
-  "author": "Russell King",
-  "author_email": "rmk@dyn-67.arm.linux.org.uk",
-  "committer": "Russell King",
-  "committer_email": "rmk+kernel@arm.linux.org.uk",
-  "author_date": "2009-05-23 17:24:51 +0100",
-  "committer_date": "2009-05-23 17:24:51 +0100"
+  "entropy": 2.1714741879573354
  },
  "4fcbbb67a3cdc7129190a76763480f5ef63e5772": {
   "num_adds_if": 5,
   "num_dels_if": 8,
   "num_mod_total_if": 13,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "4fcbbb67a3cdc7129190a76763480f5ef63e5772",
-  "num_adds": 116,
-  "num_dels": 156,
-  "num_mod_lns_total": 272,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "1a55b3f6ed1d"
-  ],
+  "num_adds": 108,
+  "num_dels": 146,
+  "num_mod_lns_total": 254,
   "mod_files_lst": [
    "sound/soc/codecs/wm8974.c",
    "sound/soc/codecs/wm8974.h"
   ],
-  "entropy": 0.13225896538631848,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/soc/codecs"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark Brown",
-  "author_email": "broonie@opensource.wolfsonmicro.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@opensource.wolfsonmicro.com",
-  "author_date": "2009-05-23 12:27:03 +0100",
-  "committer_date": "2009-05-23 16:43:12 +0100"
+  "entropy": 0.09257319250520818
  },
  "948cd52906baf1f92aeea2f9b5c515db1b2e592a": {
   "num_adds_if": 2,
@@ -7309,97 +4265,29 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "948cd52906baf1f92aeea2f9b5c515db1b2e592a",
-  "num_adds": 14,
+  "num_adds": 13,
   "num_dels": 4,
-  "num_mod_lns_total": 18,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4c6f18fc8156"
-  ],
+  "num_mod_lns_total": 17,
   "mod_files_lst": [
    "kernel/irq/handle.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul Mundt <lethal@linux-sh.org>",
-   "Signed-off-by: Ingo Molnar <mingo@elte.hu>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Yinghai Lu <yinghai@kernel.org>"
-  ],
-  "ppl_cc": [
-   "Cc: Andrew Morton <akpm@linux-foundation.org>",
-   "Cc: Mel Gorman <mel@csn.ul.ie>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/irq"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul Mundt",
-  "author_email": "lethal@linux-sh.org",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@elte.hu",
-  "author_date": "2009-05-22 10:40:09 +0900",
-  "committer_date": "2009-05-23 14:55:24 +0200"
+  "entropy": 0.0
  },
  "14f0aa359365e8a93a77b71e3b840274b9b4dcb1": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "14f0aa359365e8a93a77b71e3b840274b9b4dcb1",
   "num_adds": 9,
   "num_dels": 0,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "355532bdda14"
-  ],
   "mod_files_lst": [
    "arch/arm/kernel/elf.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Russell King",
-  "author_email": "rmk@dyn-67.arm.linux.org.uk",
-  "committer": "Russell King",
-  "committer_email": "rmk+kernel@arm.linux.org.uk",
-  "author_date": "2009-05-23 11:36:20 +0100",
-  "committer_date": "2009-05-23 11:36:20 +0100"
+  "entropy": 0.0
  },
  "1a55b3f6ed1d917dd26271dae19dda088d820540": {
   "num_adds_if": 3,
@@ -7409,95 +4297,33 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "1a55b3f6ed1d917dd26271dae19dda088d820540",
-  "num_adds": 52,
-  "num_dels": 54,
-  "num_mod_lns_total": 106,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "0a1bf5533590"
-  ],
+  "num_adds": 51,
+  "num_dels": 52,
+  "num_mod_lns_total": 103,
   "mod_files_lst": [
    "sound/soc/codecs/wm8974.c",
    "sound/soc/codecs/wm8974.h"
   ],
-  "entropy": 0.83294582353614,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/soc/codecs"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark Brown",
-  "author_email": "broonie@opensource.wolfsonmicro.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@opensource.wolfsonmicro.com",
-  "author_date": "2009-05-23 11:31:40 +0100",
-  "committer_date": "2009-05-23 11:31:40 +0100"
+  "entropy": 0.844099171796772
  },
  "0a1bf553359013621c8c5cf745354212c6ef51d3": {
-  "num_adds_if": 17,
+  "num_adds_if": 16,
   "num_dels_if": 0,
-  "num_mod_total_if": 17,
-  "num_adds_loop": 3,
+  "num_mod_total_if": 16,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "0a1bf553359013621c8c5cf745354212c6ef51d3",
-  "num_adds": 954,
+  "num_adds": 812,
   "num_dels": 0,
-  "num_mod_lns_total": 954,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "0154724d4875"
-  ],
+  "num_mod_lns_total": 812,
   "mod_files_lst": [
    "sound/soc/codecs/Kconfig",
    "sound/soc/codecs/Makefile",
    "sound/soc/codecs/wm8974.c",
    "sound/soc/codecs/wm8974.h"
   ],
-  "entropy": 0.5566992862407969,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/soc/codecs"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark Brown",
-  "author_email": "broonie@opensource.wolfsonmicro.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@opensource.wolfsonmicro.com",
-  "author_date": "2009-05-23 11:18:41 +0100",
-  "committer_date": "2009-05-23 11:28:03 +0100"
+  "entropy": 0.5614427145852996
  },
  "355532bdda14a7162cee55fdd67600bf9bc9a152": {
   "num_adds_if": 0,
@@ -7507,15 +4333,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "355532bdda14a7162cee55fdd67600bf9bc9a152",
-  "num_adds": 31,
-  "num_dels": 55,
-  "num_mod_lns_total": 86,
-  "num_mod_files": 13,
-  "is_merge": true,
-  "parents": [
-   "2528ed119b8f",
-   "6ec04f434d29"
-  ],
+  "num_adds": 51,
+  "num_dels": 30,
+  "num_mod_lns_total": 81,
   "mod_files_lst": [
    "arch/arm/mach-mmp/include/mach/mfp-pxa168.h",
    "arch/arm/mach-mmp/include/mach/mfp-pxa910.h",
@@ -7531,85 +4351,25 @@
    "arch/arm/mach-pxa/spitz.c",
    "arch/arm/mach-pxa/tosa.c"
   ],
-  "entropy": 2.903179621067895,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mach-mmp/include/mach",
-   "arch/arm/mach-pxa",
-   "arch/arm/mach-pxa/include/mach",
-   "arch/arm/mach-mmp"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 1,
-  "author": "Russell King",
-  "author_email": "rmk@dyn-67.arm.linux.org.uk",
-  "committer": "Russell King",
-  "committer_email": "rmk+kernel@arm.linux.org.uk",
-  "author_date": "2009-05-23 11:16:05 +0100",
-  "committer_date": "2009-05-23 11:16:05 +0100"
+  "entropy": 2.846170182450056
  },
  "606689e9f8c52b537c85fd4bc1ba5ce7b3ee2678": {
   "num_adds_if": 22,
   "num_dels_if": 0,
   "num_mod_total_if": 22,
-  "num_adds_loop": 13,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 13,
+  "num_mod_total_loop": 2,
   "file_hash": "606689e9f8c52b537c85fd4bc1ba5ce7b3ee2678",
-  "num_adds": 492,
+  "num_adds": 409,
   "num_dels": 0,
-  "num_mod_lns_total": 492,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "0154724d4875"
-  ],
+  "num_mod_lns_total": 409,
   "mod_files_lst": [
    "sound/soc/s3c24xx/Kconfig",
    "sound/soc/s3c24xx/Makefile",
    "sound/soc/s3c24xx/neo1973_gta02_wm8753.c"
   ],
-  "entropy": 0.1697748746352338,
-  "ppl_signed_off": [
-   "Signed-off-by: Graeme Gregory <graeme@openmoko.com>",
-   "Signed-off-by: Andy Green <andy@openmoko.com>",
-   "Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/soc/s3c24xx"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark Brown",
-  "author_email": "broonie@opensource.wolfsonmicro.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@opensource.wolfsonmicro.com",
-  "author_date": "2009-02-28 17:33:52 +0000",
-  "committer_date": "2009-05-23 11:06:11 +0100"
+  "entropy": 0.18339534699378804
  },
  "0154724d487586241c1ad57cfd348ed2ff2274e2": {
   "num_adds_if": 0,
@@ -7622,41 +4382,10 @@
   "num_adds": 4,
   "num_dels": 2,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "86ed3669f068"
-  ],
   "mod_files_lst": [
    "sound/soc/codecs/wm9081.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/soc/codecs"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark Brown",
-  "author_email": "broonie@opensource.wolfsonmicro.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@opensource.wolfsonmicro.com",
-  "author_date": "2009-05-23 00:01:05 +0100",
-  "committer_date": "2009-05-23 10:24:15 +0100"
+  "entropy": 0.0
  },
  "3b77f777b8f1c001b63e317c4ce317292ff0ff94": {
   "num_adds_if": 0,
@@ -7669,41 +4398,9 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c72758f33784"
-  ],
   "mod_files_lst": [
    "drivers/ide/ide-disk.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>",
-   "Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/ide"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Martin K. Petersen",
-  "author_email": "martin.petersen@oracle.com",
-  "committer": "Jens Axboe",
-  "committer_email": "jens.axboe@oracle.com",
-  "author_date": "2009-05-23 08:23:16 +0200",
-  "committer_date": "2009-05-23 08:23:16 +0200"
+  "entropy": 0.0
  }
 }

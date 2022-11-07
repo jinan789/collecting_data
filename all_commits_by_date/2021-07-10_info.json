@@ -1,21 +1,15 @@
 {
  "de5540965853e514a85d3b775e9049deb85a2ff3": {
-  "num_adds_if": 33,
-  "num_dels_if": 56,
-  "num_mod_total_if": 89,
-  "num_adds_loop": 4,
-  "num_dels_loop": 13,
-  "num_mod_total_loop": 17,
+  "num_adds_if": 30,
+  "num_dels_if": 45,
+  "num_mod_total_if": 75,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
   "file_hash": "de5540965853e514a85d3b775e9049deb85a2ff3",
-  "num_adds": 440,
-  "num_dels": 601,
-  "num_mod_lns_total": 1041,
-  "num_mod_files": 33,
-  "is_merge": true,
-  "parents": [
-   "6bce244390a8",
-   "4aa90c036df6"
-  ],
+  "num_adds": 380,
+  "num_dels": 538,
+  "num_mod_lns_total": 918,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/rtc/epson,rx8900.txt",
    "Documentation/devicetree/bindings/rtc/epson,rx8900.yaml",
@@ -51,33 +45,7 @@
    "drivers/rtc/rtc-v3020.c",
    "drivers/rtc/sysfs.c"
   ],
-  "entropy": 3.416956888143058,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/rtc",
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers",
-   "Documentation"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 16:19:10 -0700",
-  "committer_date": "2021-07-10 16:19:10 -0700"
+  "entropy": 3.4333145153915896
  },
  "6bce244390a8bad89536ae0ea5c03c59ae155a12": {
   "num_adds_if": 0,
@@ -88,49 +56,13 @@
   "num_mod_total_loop": 1,
   "file_hash": "6bce244390a8bad89536ae0ea5c03c59ae155a12",
   "num_adds": 0,
-  "num_dels": 14,
-  "num_mod_lns_total": 14,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "1e16624d7b43"
-  ],
+  "num_dels": 13,
+  "num_mod_lns_total": 13,
   "mod_files_lst": [
    "lib/Kconfig.debug",
    "mm/page_alloc.c"
   ],
-  "entropy": 0.74959525725948,
-  "ppl_signed_off": [
-   "Signed-off-by: Mel Gorman <mgorman@techsingularity.net>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: dbbee9d5cd83 (\"mm/page_alloc: convert per-cpu list protection to local_lock\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "mm",
-   "lib"
-  ],
-  "mod_sys": [
-   "mm",
-   "lib"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Mel Gorman",
-  "author_email": "mgorman@techsingularity.net",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-05 10:51:17 +0100",
-  "committer_date": "2021-07-10 16:09:39 -0700"
+  "entropy": 0.6193821946787638
  },
  "4aa90c036df670b8757140e0dae2a94e7b0d42b4": {
   "num_adds_if": 3,
@@ -140,66 +72,25 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4aa90c036df670b8757140e0dae2a94e7b0d42b4",
-  "num_adds": 73,
-  "num_dels": 73,
-  "num_mod_lns_total": 146,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2f8619846755"
-  ],
+  "num_adds": 68,
+  "num_dels": 68,
+  "num_mod_lns_total": 136,
   "mod_files_lst": [
    "drivers/rtc/rtc-pcf8523.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: kernel test robot <lkp@intel.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 7fd70c65faac (\"ARM: irqstat: Get rid of duplicated declaration\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexandre Belloni",
-  "author_email": "alexandre.belloni@bootlin.com",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-10 23:14:31 +0200",
-  "committer_date": "2021-07-10 23:18:30 +0200"
+  "entropy": 0.0
  },
  "1e16624d7b4376797ede36e3c955375cf0f23298": {
-  "num_adds_if": 13,
+  "num_adds_if": 11,
   "num_dels_if": 0,
-  "num_mod_total_if": 13,
-  "num_adds_loop": 2,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "1e16624d7b4376797ede36e3c955375cf0f23298",
-  "num_adds": 135,
-  "num_dels": 29,
-  "num_mod_lns_total": 164,
-  "num_mod_files": 12,
-  "is_merge": true,
-  "parents": [
-   "67d8d3656462",
-   "4d069f6022e9"
-  ],
+  "num_adds": 122,
+  "num_dels": 28,
+  "num_mod_lns_total": 150,
   "mod_files_lst": [
    "fs/cifs/cifs_dfs_ref.c",
    "fs/cifs/cifsfs.c",
@@ -214,31 +105,7 @@
    "fs/cifs/smb2pdu.h",
    "fs/cifs/transport.c"
   ],
-  "entropy": 2.3063189738763112,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 12:04:58 -0700",
-  "committer_date": "2021-07-10 12:04:58 -0700"
+  "entropy": 2.354776280505936
  },
  "67d8d365646217225b458d90234f332e8d41f93d": {
   "num_adds_if": 0,
@@ -249,42 +116,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "67d8d365646217225b458d90234f332e8d41f93d",
   "num_adds": 4,
-  "num_dels": 46,
-  "num_mod_lns_total": 50,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "88bbd8a031b8",
-   "62efe3eebc8b"
-  ],
+  "num_dels": 36,
+  "num_mod_lns_total": 40,
   "mod_files_lst": [
    "drivers/pci/probe.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/pci"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 11:57:57 -0700",
-  "committer_date": "2021-07-10 11:57:57 -0700"
+  "entropy": 0.0
  },
  "88bbd8a031b83d4a91f1f8f4c1ce8caa16dc0886": {
   "num_adds_if": 0,
@@ -297,58 +134,22 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "f7ea4be434fe",
-   "3e5feb11a829"
-  ],
   "mod_files_lst": [
    "drivers/i3c/master/svc-i3c-master.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/i3c/master"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 11:53:06 -0700",
-  "committer_date": "2021-07-10 11:53:06 -0700"
+  "entropy": 0.0
  },
  "f7ea4be434fe7ea38699d14c1192481899e6ac94": {
-  "num_adds_if": 44,
-  "num_dels_if": 25,
-  "num_mod_total_if": 69,
-  "num_adds_loop": 4,
-  "num_dels_loop": 11,
-  "num_mod_total_loop": 15,
+  "num_adds_if": 43,
+  "num_dels_if": 24,
+  "num_mod_total_if": 67,
+  "num_adds_loop": 0,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 3,
   "file_hash": "f7ea4be434fe7ea38699d14c1192481899e6ac94",
-  "num_adds": 1066,
-  "num_dels": 384,
-  "num_mod_lns_total": 1450,
-  "num_mod_files": 22,
-  "is_merge": true,
-  "parents": [
-   "81361b837a34",
-   "fe6a6de6692e"
-  ],
+  "num_adds": 882,
+  "num_dels": 330,
+  "num_mod_lns_total": 1212,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/thermal/nvidia,tegra30-tsensor.yaml",
    "Documentation/devicetree/bindings/thermal/qcom-tsens.yaml",
@@ -373,102 +174,35 @@
    "drivers/thermal/thermal_core.c",
    "drivers/thermal/thermal_of.c"
   ],
-  "entropy": 3.2306317857670694,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/thermal",
-   "drivers/thermal/st",
-   "Documentation/devicetree/bindings/thermal",
-   "drivers/thermal/intel/int340x_thermal",
-   "drivers/thermal/intel"
-  ],
-  "mod_sys": [
-   "drivers",
-   "Documentation"
-  ],
-  "num_mod_dirs": 5,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 11:43:25 -0700",
-  "committer_date": "2021-07-10 11:43:25 -0700"
+  "entropy": 3.2654708950047464
  },
  "222722bc6ebfabf5d54467070f05cf9c0a55ea8c": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "222722bc6ebfabf5d54467070f05cf9c0a55ea8c",
   "num_adds": 7,
   "num_dels": 1,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "849fd444dd73"
-  ],
   "mod_files_lst": [
    "drivers/net/virtio_net.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Yunjian Wang <wangyunjian@huawei.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yunjian Wang",
-  "author_email": "wangyunjian@huawei.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-07-10 11:32:49 +0800",
-  "committer_date": "2021-07-10 11:29:30 -0700"
+  "entropy": 0.0
  },
  "81361b837a3450f0a44255fddfd7a4c72502b667": {
-  "num_adds_if": 4,
-  "num_dels_if": 10,
-  "num_mod_total_if": 14,
-  "num_adds_loop": 4,
-  "num_dels_loop": 12,
-  "num_mod_total_loop": 16,
+  "num_adds_if": 1,
+  "num_dels_if": 4,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "81361b837a3450f0a44255fddfd7a4c72502b667",
-  "num_adds": 215,
-  "num_dels": 252,
-  "num_mod_lns_total": 467,
-  "num_mod_files": 47,
-  "is_merge": true,
-  "parents": [
-   "e98e03d07553",
-   "27932b6a2088"
-  ],
+  "num_adds": 189,
+  "num_dels": 215,
+  "num_mod_lns_total": 404,
   "mod_files_lst": [
    "Makefile",
    "arch/alpha/Kbuild",
@@ -518,88 +252,19 @@
    "scripts/syscallnr.sh",
    "scripts/syscalltbl.sh"
   ],
-  "entropy": 3.81938986650943,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arc",
-   "arch/parisc",
-   "arch/parisc/kernel/syscalls",
-   "arch/microblaze",
-   "arch/xtensa",
-   "lib",
-   "scripts/kconfig",
-   "scripts/mod",
-   "arch/powerpc",
-   "init",
-   "arch/m68k",
-   "arch/riscv",
-   "arch/s390",
-   "arch/csky",
-   "scripts",
-   "arch/hexagon",
-   "arch/arm",
-   "arch/ia64",
-   "arch/sparc",
-   "arch/sparc/kernel/syscalls",
-   "arch/sh",
-   "include/linux",
-   "arch/openrisc",
-   "arch/nios2",
-   "arch/mips",
-   "arch/um",
-   "arch/x86",
-   "arch/nds32",
-   "arch/h8300",
-   "arch/alpha",
-   "kernel",
-   "/",
-   "arch/arm64",
-   "arch/nds32/boot",
-   "/"
-  ],
-  "mod_sys": [
-   "include",
-   "arch",
-   "lib",
-   "init",
-   "kernel",
-   "scripts"
-  ],
-  "num_mod_dirs": 35,
-  "num_mod_sys": 6,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 11:01:38 -0700",
-  "committer_date": "2021-07-10 11:01:38 -0700"
+  "entropy": 3.8556831944518275
  },
  "e98e03d075537a14928661ebfbfcde34b0eced1a": {
-  "num_adds_if": 113,
-  "num_dels_if": 131,
-  "num_mod_total_if": 244,
-  "num_adds_loop": 49,
-  "num_dels_loop": 32,
-  "num_mod_total_loop": 81,
+  "num_adds_if": 103,
+  "num_dels_if": 120,
+  "num_mod_total_if": 223,
+  "num_adds_loop": 23,
+  "num_dels_loop": 17,
+  "num_mod_total_loop": 40,
   "file_hash": "e98e03d075537a14928661ebfbfcde34b0eced1a",
-  "num_adds": 2110,
-  "num_dels": 1721,
-  "num_mod_lns_total": 3831,
-  "num_mod_files": 66,
-  "is_merge": true,
-  "parents": [
-   "379cf80a9861",
-   "6a942f578054"
-  ],
+  "num_adds": 1907,
+  "num_dels": 1552,
+  "num_mod_lns_total": 3459,
   "mod_files_lst": [
    "arch/s390/Kconfig",
    "arch/s390/Makefile",
@@ -668,43 +333,7 @@
    "drivers/s390/crypto/zcrypt_queue.c",
    "include/linux/cpuhotplug.h"
   ],
-  "entropy": 3.662946284185911,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/s390/kernel",
-   "arch/s390/boot",
-   "include/linux",
-   "arch/s390/kernel/vdso64",
-   "arch/s390/lib",
-   "arch/s390/include/asm",
-   "arch/s390",
-   "arch/s390/kernel/vdso32",
-   "arch/s390/mm",
-   "drivers/s390/crypto",
-   "arch/s390/include/asm/vdso"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "arch"
-  ],
-  "num_mod_dirs": 11,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 10:46:14 -0700",
-  "committer_date": "2021-07-10 10:46:14 -0700"
+  "entropy": 3.688828144455534
  },
  "379cf80a9861e4356792185bc3fcdd7d4133f2f7": {
   "num_adds_if": 0,
@@ -714,46 +343,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "379cf80a9861e4356792185bc3fcdd7d4133f2f7",
-  "num_adds": 5,
+  "num_adds": 4,
   "num_dels": 3,
-  "num_mod_lns_total": 8,
-  "num_mod_files": 3,
-  "is_merge": true,
-  "parents": [
-   "af4cf6a5689a",
-   "47ce8527fbba"
-  ],
+  "num_mod_lns_total": 7,
   "mod_files_lst": [
    "arch/mips/boot/compressed/Makefile",
    "arch/mips/boot/compressed/decompress.c",
    "arch/mips/include/asm/vdso/vdso.h"
   ],
-  "entropy": 1.5,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/mips/include/asm/vdso",
-   "arch/mips/boot/compressed"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 10:36:33 -0700",
-  "committer_date": "2021-07-10 10:36:33 -0700"
+  "entropy": 1.3787834934861753
  },
  "af4cf6a5689a9ecc21722cb2bb6220dcaee89c6e": {
   "num_adds_if": 0,
@@ -766,12 +364,6 @@
   "num_adds": 33,
   "num_dels": 2,
   "num_mod_lns_total": 35,
-  "num_mod_files": 10,
-  "is_merge": true,
-  "parents": [
-   "071e5aceebeb",
-   "e6adbcb7e2d7"
-  ],
   "mod_files_lst": [
    "arch/arm/configs/aspeed_g4_defconfig",
    "arch/arm/configs/aspeed_g5_defconfig",
@@ -784,50 +376,19 @@
    "arch/arm/configs/tegra_defconfig",
    "arch/arm64/configs/defconfig"
   ],
-  "entropy": 2.5049574090062223,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/configs",
-   "arch/arm64/configs"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 10:29:35 -0700",
-  "committer_date": "2021-07-10 10:29:35 -0700"
+  "entropy": 2.5049574090062223
  },
  "071e5aceebebf1d33b5c29ccfd2688ed39c60007": {
-  "num_adds_if": 154,
-  "num_dels_if": 91,
-  "num_mod_total_if": 245,
-  "num_adds_loop": 61,
-  "num_dels_loop": 105,
-  "num_mod_total_loop": 166,
+  "num_adds_if": 149,
+  "num_dels_if": 88,
+  "num_mod_total_if": 237,
+  "num_adds_loop": 24,
+  "num_dels_loop": 21,
+  "num_mod_total_loop": 45,
   "file_hash": "071e5aceebebf1d33b5c29ccfd2688ed39c60007",
-  "num_adds": 8428,
-  "num_dels": 5174,
-  "num_mod_lns_total": 13602,
-  "num_mod_files": 97,
-  "is_merge": true,
-  "parents": [
-   "e083bbd6040f",
-   "2afd1c20e754"
-  ],
+  "num_adds": 7876,
+  "num_dels": 4927,
+  "num_mod_lns_total": 12803,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/arm/rockchip/pmu.txt",
    "Documentation/devicetree/bindings/arm/rockchip/pmu.yaml",
@@ -927,85 +488,19 @@
    "include/memory/renesas-rpc-if.h",
    "include/soc/tegra/mc.h"
   ],
-  "entropy": 4.346593198078667,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/phy",
-   "Documentation/devicetree/bindings/power",
-   "drivers/reset/sti",
-   "drivers/soc/mediatek",
-   "drivers/firmware/tegra",
-   "drivers/soc/imx",
-   "drivers/iommu/arm/arm-smmu",
-   "drivers/firmware",
-   "include/soc/tegra",
-   "Documentation/devicetree/bindings/iommu",
-   "drivers/soc/amlogic",
-   "Documentation/devicetree/bindings/soc/mediatek",
-   "drivers/reset/hisilicon",
-   "Documentation/devicetree/bindings/firmware",
-   "drivers/soc/renesas",
-   "drivers/memory/tegra",
-   "drivers/iommu",
-   "include/linux",
-   "Documentation/devicetree/bindings/soc/qcom",
-   "Documentation/devicetree/bindings/arm/rockchip",
-   "Documentation/devicetree/bindings/reset",
-   "drivers/soc/bcm/brcmstb",
-   "drivers/reset",
-   "drivers/soc/rockchip",
-   "drivers/memory",
-   "drivers/soc/ti",
-   "include/dt-bindings/power",
-   "include/memory",
-   "Documentation/devicetree/bindings/soc/rockchip",
-   "drivers/bus",
-   "drivers/soc/qcom",
-   "/",
-   "drivers/firmware/arm_ffa",
-   "drivers/firmware/arm_scmi",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "Documentation"
-  ],
-  "num_mod_dirs": 35,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 09:46:20 -0700",
-  "committer_date": "2021-07-10 09:46:20 -0700"
+  "entropy": 4.2631309543929925
  },
  "e083bbd6040f4efa5c13633fb4e460b919d69dae": {
-  "num_adds_if": 2,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 2,
-  "num_adds_loop": 57,
-  "num_dels_loop": 30,
-  "num_mod_total_loop": 87,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 5,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 5,
   "file_hash": "e083bbd6040f4efa5c13633fb4e460b919d69dae",
-  "num_adds": 24060,
-  "num_dels": 3691,
-  "num_mod_lns_total": 27751,
-  "num_mod_files": 552,
-  "is_merge": true,
-  "parents": [
-   "6e207b882159",
-   "b62b189f7e2c"
-  ],
+  "num_adds": 20833,
+  "num_dels": 3383,
+  "num_mod_lns_total": 24216,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/arm/amlogic.yaml",
    "Documentation/devicetree/bindings/arm/bcm/bcm2835.yaml",
@@ -1560,84 +1055,19 @@
    "include/dt-bindings/mailbox/qcom-ipcc.h",
    "include/dt-bindings/pinctrl/hisi.h"
   ],
-  "entropy": 6.525224807509772,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/phy",
-   "Documentation/devicetree/bindings/timer",
-   "arch/arm64/boot/dts/rockchip",
-   "Documentation/devicetree/bindings",
-   "arch/arm64/boot/dts/mediatek",
-   "Documentation/devicetree/bindings/power",
-   "include/dt-bindings/pinctrl",
-   "arch/arm64/boot/dts/nvidia",
-   "Documentation/devicetree/bindings/net",
-   "arch/arm64/boot/dts/ti",
-   "arch/arm64/boot/dts/qcom",
-   "Documentation/devicetree/bindings/arm/tegra",
-   "arch/arm64/boot/dts/hisilicon",
-   "arch/arm64/boot/dts/freescale",
-   "arch/arm64/boot/dts/exynos",
-   "Documentation/devicetree/bindings/arm",
-   "Documentation/devicetree/bindings/pwm",
-   "arch/arm64/boot/dts/amlogic",
-   "arch/arm64/boot/dts/marvell",
-   "include/dt-bindings/mailbox",
-   "arch/arm64/boot/dts/broadcom/stingray",
-   "arch/arm64/boot/dts/arm",
-   "Documentation/devicetree/bindings/arm/bcm",
-   "arch/arm64/boot/dts/toshiba",
-   "Documentation/devicetree/bindings/sound",
-   "Documentation/devicetree/bindings/clock",
-   "arch/arm64/boot/dts/broadcom",
-   "arch/arm64/boot/dts/broadcom/bcm4908",
-   "arch/arm64/boot/dts/renesas",
-   "Documentation/devicetree/bindings/i2c",
-   "/",
-   "arch/arm64/boot/dts/allwinner",
-   "arch/arm/boot/dts",
-   "/"
-  ],
-  "mod_sys": [
-   "include",
-   "Documentation",
-   "arch"
-  ],
-  "num_mod_dirs": 34,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 09:33:54 -0700",
-  "committer_date": "2021-07-10 09:33:54 -0700"
+  "entropy": 6.555252636490116
  },
  "6e207b882159ed3e35a4cd4ff0fc155cce5e3cbc": {
-  "num_adds_if": 101,
-  "num_dels_if": 10,
-  "num_mod_total_if": 111,
-  "num_adds_loop": 27,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 28,
+  "num_adds_if": 88,
+  "num_dels_if": 8,
+  "num_mod_total_if": 96,
+  "num_adds_loop": 6,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 6,
   "file_hash": "6e207b882159ed3e35a4cd4ff0fc155cce5e3cbc",
-  "num_adds": 1841,
-  "num_dels": 460,
-  "num_mod_lns_total": 2301,
-  "num_mod_files": 76,
-  "is_merge": true,
-  "parents": [
-   "b6fd9e259457",
-   "42accadb3265"
-  ],
+  "num_adds": 1575,
+  "num_dels": 404,
+  "num_mod_lns_total": 1979,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/pci/intel,ixp4xx-pci.yaml",
    "Documentation/devicetree/bindings/rng/intel,ixp46x-rng.yaml",
@@ -1716,64 +1146,7 @@
    "include/soc/tegra/fuse.h",
    "include/soc/tegra/pmc.h"
   ],
-  "entropy": 4.393082403916186,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/soc/tegra/fuse",
-   "arch/arm64/boot/dts/rockchip",
-   "arch/arm/mach-ixp4xx",
-   "arch/arm/mach-omap1",
-   "Documentation/devicetree/bindings/rng",
-   "include/linux/soc/samsung",
-   "drivers/soc/imx",
-   "include/linux/platform_data",
-   "drivers/crypto",
-   "arch/arm",
-   "drivers/soc/tegra",
-   "drivers/ata",
-   "include/soc/tegra",
-   "arch/arm/mach-s3c",
-   "Documentation/devicetree/bindings/pci",
-   "drivers/soc/ixp4xx",
-   "arch/arm/mach-exynos",
-   "arch/arm/mach-ixp4xx/include/mach",
-   "include/linux/soc/ixp4xx",
-   "arch/arm/mach-imx",
-   "arch/arm/mach-omap2",
-   "include/soc/imx",
-   "drivers/net/wan",
-   "/",
-   "arch/arm64/boot/dts/allwinner",
-   "arch/arm64",
-   "drivers/char/hw_random",
-   "drivers/net/ethernet/xscale",
-   "drivers/pci/controller",
-   "arch/arm/boot/dts",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "Documentation",
-   "arch"
-  ],
-  "num_mod_dirs": 31,
-  "num_mod_sys": 4,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 09:22:44 -0700",
-  "committer_date": "2021-07-10 09:22:44 -0700"
+  "entropy": 4.424451522411108
  },
  "b6fd9e259457b847646844ed202b830e585289dd": {
   "num_adds_if": 1,
@@ -1786,106 +1159,40 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "20d5e570aee7",
-   "024591f9a6e0"
-  ],
   "mod_files_lst": [
    "arch/arm/mm/ioremap.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/mm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 09:17:13 -0700",
-  "committer_date": "2021-07-10 09:17:13 -0700"
+  "entropy": 0.0
  },
  "20d5e570aee77afa44849dc652ff256290ea978e": {
   "num_adds_if": 3,
   "num_dels_if": 1,
   "num_mod_total_if": 4,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "20d5e570aee77afa44849dc652ff256290ea978e",
-  "num_adds": 35,
-  "num_dels": 8,
-  "num_mod_lns_total": 43,
-  "num_mod_files": 3,
-  "is_merge": true,
-  "parents": [
-   "50be9417e23a",
-   "93274f1dd6b0"
-  ],
+  "num_adds": 33,
+  "num_dels": 7,
+  "num_mod_lns_total": 40,
   "mod_files_lst": [
    "mm/percpu-km.c",
    "mm/percpu-vm.c",
    "mm/percpu.c"
   ],
-  "entropy": 1.074650441242476,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "mm"
-  ],
-  "mod_sys": [
-   "mm"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-07-10 09:06:41 -0700",
-  "committer_date": "2021-07-10 09:06:41 -0700"
+  "entropy": 0.9921849424766138
  },
  "7c4ed5ded8538a469d1e1ced8063ac4b13f8aea5": {
-  "num_adds_if": 37,
-  "num_dels_if": 38,
-  "num_mod_total_if": 75,
+  "num_adds_if": 34,
+  "num_dels_if": 33,
+  "num_mod_total_if": 67,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7c4ed5ded8538a469d1e1ced8063ac4b13f8aea5",
-  "num_adds": 185,
-  "num_dels": 227,
-  "num_mod_lns_total": 412,
-  "num_mod_files": 13,
-  "is_merge": true,
-  "parents": [
-   "db0e04ad42bb",
-   "21dd1fd6d718"
-  ],
+  "num_adds": 216,
+  "num_dels": 176,
+  "num_mod_lns_total": 392,
   "mod_files_lst": [
    "fs/ksmbd/connection.c",
    "fs/ksmbd/connection.h",
@@ -1901,31 +1208,7 @@
    "fs/ksmbd/vfs_cache.c",
    "fs/ksmbd/vfs_cache.h"
   ],
-  "entropy": 2.0968549257497138,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Steve French",
-  "author_email": "smfrench@gmail.com",
-  "committer": "GitHub",
-  "committer_email": "noreply@github.com",
-  "author_date": "2021-07-10 07:44:41 -0500",
-  "committer_date": "2021-07-10 07:44:41 -0500"
+  "entropy": 2.0341664852189028
  },
  "21dd1fd6d718ac59841c3ee3d0b1d82508ef24dc": {
   "num_adds_if": 2,
@@ -1936,47 +1219,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "21dd1fd6d718ac59841c3ee3d0b1d82508ef24dc",
   "num_adds": 11,
-  "num_dels": 13,
-  "num_mod_lns_total": 24,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ce154c32af3c"
-  ],
+  "num_dels": 12,
+  "num_mod_lns_total": 23,
   "mod_files_lst": [
    "fs/ksmbd/smb2pdu.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Hyunchul Lee <hyc.lee@gmail.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Dan Carpenter <dan.carpenter@oracle.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hyunchul Lee",
-  "author_email": "hyc.lee@gmail.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-09 17:06:34 +0900",
-  "committer_date": "2021-07-10 16:24:00 +0900"
+  "entropy": 0.0
  },
  "ce154c32af3c60727171ff28ae97bcceda63b1c6": {
   "num_adds_if": 6,
@@ -1989,46 +1237,11 @@
   "num_adds": 8,
   "num_dels": 8,
   "num_mod_lns_total": 16,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "45a64e8b0849"
-  ],
   "mod_files_lst": [
    "fs/ksmbd/oplock.c",
    "fs/ksmbd/smb2pdu.c"
   ],
-  "entropy": 0.5435644431995964,
-  "ppl_signed_off": [
-   "Signed-off-by: Hyunchul Lee <hyc.lee@gmail.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Dan Carpenter <dan.carpenter@oracle.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hyunchul Lee",
-  "author_email": "hyc.lee@gmail.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-09 17:06:33 +0900",
-  "committer_date": "2021-07-10 16:23:58 +0900"
+  "entropy": 0.5435644431995964
  },
  "45a64e8b08493b768fa029a5508cec8cf2b89f2d": {
   "num_adds_if": 0,
@@ -2041,62 +1254,24 @@
   "num_adds": 4,
   "num_dels": 4,
   "num_mod_lns_total": 8,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "d63528eb0d43"
-  ],
   "mod_files_lst": [
    "fs/ksmbd/smb2pdu.c",
    "fs/ksmbd/vfs.c",
    "fs/ksmbd/vfs.h"
   ],
-  "entropy": 1.5,
-  "ppl_signed_off": [
-   "Signed-off-by: Hyunchul Lee <hyc.lee@gmail.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hyunchul Lee",
-  "author_email": "hyc.lee@gmail.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-10 09:34:20 +0900",
-  "committer_date": "2021-07-10 16:23:56 +0900"
+  "entropy": 1.5
  },
  "d63528eb0d43c4796c42aad56889dec12cf4e122": {
-  "num_adds_if": 10,
-  "num_dels_if": 9,
-  "num_mod_total_if": 19,
+  "num_adds_if": 6,
+  "num_dels_if": 5,
+  "num_mod_total_if": 11,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d63528eb0d43c4796c42aad56889dec12cf4e122",
-  "num_adds": 125,
-  "num_dels": 66,
-  "num_mod_lns_total": 191,
-  "num_mod_files": 7,
-  "is_merge": false,
-  "parents": [
-   "4b92841ef27b"
-  ],
+  "num_adds": 115,
+  "num_dels": 63,
+  "num_mod_lns_total": 178,
   "mod_files_lst": [
    "fs/ksmbd/connection.c",
    "fs/ksmbd/connection.h",
@@ -2106,35 +1281,7 @@
    "fs/ksmbd/vfs_cache.c",
    "fs/ksmbd/vfs_cache.h"
   ],
-  "entropy": 1.1363482692622149,
-  "ppl_signed_off": [
-   "Signed-off-by: Hyunchul Lee <hyc.lee@gmail.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hyunchul Lee",
-  "author_email": "hyc.lee@gmail.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-10 16:22:41 +0900",
-  "committer_date": "2021-07-10 16:23:50 +0900"
+  "entropy": 0.9854435383314358
  },
  "4fdd600214e666debb3bbe0ded1f6888c3ee49ec": {
   "num_adds_if": 0,
@@ -2145,100 +1292,28 @@
   "num_mod_total_loop": 0,
   "file_hash": "4fdd600214e666debb3bbe0ded1f6888c3ee49ec",
   "num_adds": 0,
-  "num_dels": 6,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f08a2a1eecb6"
-  ],
+  "num_dels": 5,
+  "num_mod_lns_total": 5,
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/nwl-dsi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jagan Teki <jagan@amarulasolutions.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Guido G\u00fcnther <agx@sigxcpu.org>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Guido G\u00fcnther <agx@sigxcpu.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jagan Teki",
-  "author_email": "jagan@amarulasolutions.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2021-07-04 15:04:33 +0530",
-  "committer_date": "2021-07-10 09:10:09 +0200"
+  "entropy": 0.0
  },
  "2f8619846755176a6720c71d580ffd09394a74bc": {
   "num_adds_if": 22,
   "num_dels_if": 9,
   "num_mod_total_if": 31,
-  "num_adds_loop": 2,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "2f8619846755176a6720c71d580ffd09394a74bc",
-  "num_adds": 133,
-  "num_dels": 59,
-  "num_mod_lns_total": 192,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "37aadf9b2a7e"
-  ],
+  "num_adds": 119,
+  "num_dels": 56,
+  "num_mod_lns_total": 175,
   "mod_files_lst": [
    "drivers/rtc/rtc-pcf2127.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mian Yousaf Kaukab <ykaukab@suse.de>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Bruno Thomsen <bruno.thomsen@gmail.com>"
-  ],
-  "ppl_tested": [
-   "Tested-by: Bruno Thomsen <bruno.thomsen@gmail.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mian Yousaf Kaukab",
-  "author_email": "ykaukab@suse.de",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-06-29 17:06:43 +0200",
-  "committer_date": "2021-07-10 02:58:31 +0200"
+  "entropy": 0.0
  },
  "37aadf9b2a7ea64a358ea7532d7f477fe6837ef1": {
   "num_adds_if": 1,
@@ -2251,47 +1326,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f2581b1dfa98"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-at91sam9.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Nicolas Ferre <nicolas.ferre@microchip.com>"
-  ],
-  "ppl_cc": [
-   "Cc: Nicolas Ferre <nicolas.ferre@microchip.com>",
-   "Cc: Ludovic Desroches <ludovic.desroches@microchip.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-08 14:13:40 +0900",
-  "committer_date": "2021-07-10 02:42:08 +0200"
+  "entropy": 0.0
  },
  "f2581b1dfa9858e342afa8034b0f64f923bbf233": {
   "num_adds_if": 0,
@@ -2302,50 +1340,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "f2581b1dfa9858e342afa8034b0f64f923bbf233",
   "num_adds": 1,
-  "num_dels": 3,
-  "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9734a1ae34ec"
-  ],
+  "num_dels": 2,
+  "num_mod_lns_total": 3,
   "mod_files_lst": [
    "drivers/rtc/rtc-s5m.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>",
-   "Cc: Bartlomiej Zolnierkiewicz <b.zolnierkie@samsung.com>",
-   "Cc: linux-samsung-soc@vger.kernel.org"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-08 14:13:04 +0900",
-  "committer_date": "2021-07-10 02:41:52 +0200"
+  "entropy": 0.0
  },
  "4b92841ef27b56883fa4491a3d51db3eef68c481": {
   "num_adds_if": 1,
@@ -2358,43 +1358,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "07781de90518"
-  ],
   "mod_files_lst": [
    "fs/ksmbd/connection.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Hyunchul Lee <hyc.lee@gmail.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hyunchul Lee",
-  "author_email": "hyc.lee@gmail.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-10 09:31:08 +0900",
-  "committer_date": "2021-07-10 09:40:26 +0900"
+  "entropy": 0.0
  },
  "07781de9051859d2f38a9e199384c64bb1924c47": {
   "num_adds_if": 1,
@@ -2405,45 +1372,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "07781de9051859d2f38a9e199384c64bb1924c47",
   "num_adds": 6,
-  "num_dels": 21,
-  "num_mod_lns_total": 27,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0f6619aee86f"
-  ],
+  "num_dels": 19,
+  "num_mod_lns_total": 25,
   "mod_files_lst": [
    "fs/ksmbd/vfs.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dan Carpenter",
-  "author_email": "dan.carpenter@oracle.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-07 13:15:32 +0300",
-  "committer_date": "2021-07-10 09:29:13 +0900"
+  "entropy": 0.0
  },
  "0f6619aee86f11cee0c5063777c4febdf18cb28b": {
   "num_adds_if": 0,
@@ -2456,43 +1390,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3867369ef8f7"
-  ],
   "mod_files_lst": [
    "fs/ksmbd/smb2pdu.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
-   "Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ksmbd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dan Carpenter",
-  "author_email": "dan.carpenter@oracle.com",
-  "committer": "Namjae Jeon",
-  "committer_email": "namjae.jeon@samsung.com",
-  "author_date": "2021-07-07 13:15:40 +0300",
-  "committer_date": "2021-07-10 09:29:11 +0900"
+  "entropy": 0.0
  },
  "9734a1ae34ecedf8aeaa842c9b3541cf8421c546": {
   "num_adds_if": 0,
@@ -2505,138 +1406,42 @@
   "num_adds": 1,
   "num_dels": 4,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9d0c49fa115c"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-spear.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:58:04 +0900",
-  "committer_date": "2021-07-10 01:53:57 +0200"
+  "entropy": 0.0
  },
  "9d0c49fa115c9c9e16853d6c05f4fdf1420f790b": {
   "num_adds_if": 0,
-  "num_dels_if": 1,
-  "num_mod_total_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "9d0c49fa115c9c9e16853d6c05f4fdf1420f790b",
   "num_adds": 1,
   "num_dels": 14,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3f019164816f"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-tps6586x.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:58:02 +0900",
-  "committer_date": "2021-07-10 01:53:40 +0200"
+  "entropy": 0.0
  },
  "3f019164816fb7da6dd8b369e9bf584b97ba9654": {
   "num_adds_if": 0,
-  "num_dels_if": 1,
-  "num_mod_total_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "3f019164816fb7da6dd8b369e9bf584b97ba9654",
   "num_adds": 1,
   "num_dels": 14,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "41a2ed5c7107"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-tps80031.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:58:01 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "41a2ed5c710774f3ac3c7cae4e2aa5f8e09ba4b4": {
   "num_adds_if": 0,
@@ -2649,42 +1454,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "078699417a39"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-rtd119x.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:58:00 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "078699417a3983873fcc883312069b20f5923cbe": {
   "num_adds_if": 0,
@@ -2697,94 +1470,26 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1d9539ed2da8"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-sc27xx.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Orson Zhai <orsonzhai@gmail.com>",
-   "Cc: Baolin Wang <baolin.wang7@gmail.com>",
-   "Cc: Chunyan Zhang <zhang.lyra@gmail.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:57:59 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "1d9539ed2da86296de04173c413378459cf6eb32": {
   "num_adds_if": 0,
-  "num_dels_if": 1,
-  "num_mod_total_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "1d9539ed2da86296de04173c413378459cf6eb32",
   "num_adds": 1,
   "num_dels": 14,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cd13635e1c7d"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-palmas.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:57:58 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "cd13635e1c7d17b0e105531d2bbdd1a537ce00da": {
   "num_adds_if": 0,
@@ -2797,42 +1502,10 @@
   "num_adds": 3,
   "num_dels": 5,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "67561a8e1ed1"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-max6900.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:57:57 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "67561a8e1ed184b2f7c029bb160f2b6239255e29": {
   "num_adds_if": 0,
@@ -2845,90 +1518,26 @@
   "num_adds": 2,
   "num_dels": 5,
   "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "299e726f77f9"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-ds1374.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:57:56 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "299e726f77f924b1233873cd2a1974a654119539": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "299e726f77f924b1233873cd2a1974a654119539",
   "num_adds": 1,
   "num_dels": 4,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "98c25b801246"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-au1xxx.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nobuhiro Iwamatsu <nobuhiro1.iwamatsu@toshiba.co.jp>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nobuhiro Iwamatsu",
-  "author_email": "nobuhiro1.iwamatsu@toshiba.co.jp",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-07-07 16:57:55 +0900",
-  "committer_date": "2021-07-10 01:53:39 +0200"
+  "entropy": 0.0
  },
  "98c25b8012461f569a4d20bc4a48c489099cf7fd": {
   "num_adds_if": 0,
@@ -2941,44 +1550,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "08eeafbba566"
-  ],
   "mod_files_lst": [
    "drivers/rtc/rtc-pcf85063.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Fabio Estevam <festevam@gmail.com>",
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/rtc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Fabio Estevam",
-  "author_email": "festevam@gmail.com",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-06-24 09:09:53 -0300",
-  "committer_date": "2021-07-10 01:40:49 +0200"
+  "entropy": 0.0
  },
  "08eeafbba566ad0413b2e118e72658bee0550efb": {
   "num_adds_if": 0,
@@ -2991,42 +1566,9 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "94af1e732abe"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/rtc/ti,bq32000.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexandre Belloni <alexandre.belloni@bootlin.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Pavel Machek <pavel@ucw.cz>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/rtc"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexandre Belloni",
-  "author_email": "alexandre.belloni@bootlin.com",
-  "committer": "Alexandre Belloni",
-  "committer_email": "alexandre.belloni@bootlin.com",
-  "author_date": "2021-06-21 00:40:29 +0200",
-  "committer_date": "2021-07-10 01:39:22 +0200"
+  "entropy": 0.0
  }
 }

@@ -1,76 +1,34 @@
 {
  "f5fe1b51905df7cfe4fdfd85c5fb7bc5b71a094f": {
-  "num_adds_if": 2,
+  "num_adds_if": 1,
   "num_dels_if": 2,
-  "num_mod_total_if": 4,
+  "num_mod_total_if": 3,
   "num_adds_loop": 5,
   "num_dels_loop": 3,
   "num_mod_total_loop": 8,
   "file_hash": "f5fe1b51905df7cfe4fdfd85c5fb7bc5b71a094f",
-  "num_adds": 45,
-  "num_dels": 29,
-  "num_mod_lns_total": 74,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "84c37c168c0e"
-  ],
+  "num_adds": 43,
+  "num_dels": 27,
+  "num_mod_lns_total": 70,
   "mod_files_lst": [
    "block/bio.c",
    "block/blk-core.c",
    "drivers/md/dm.c",
    "drivers/md/raid10.c"
   ],
-  "entropy": 1.6707695245779703,
-  "ppl_signed_off": [
-   "Signed-off-by: NeilBrown <neilb@suse.com>",
-   "Signed-off-by: Jens Axboe <axboe@fb.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 79bd99596b73 (\"blk: improve order of bio handling in generic_make_request()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/md",
-   "block"
-  ],
-  "mod_sys": [
-   "drivers",
-   "block"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "NeilBrown",
-  "author_email": "neilb@suse.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@fb.com",
-  "author_date": "2017-03-10 17:00:47 +1100",
-  "committer_date": "2017-03-11 15:31:37 -0700"
+  "entropy": 1.6853178723243807
  },
  "106e4da60209b508894956b6adf4688f84c1766d": {
-  "num_adds_if": 8,
+  "num_adds_if": 7,
   "num_dels_if": 9,
-  "num_mod_total_if": 17,
+  "num_mod_total_if": 16,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "106e4da60209b508894956b6adf4688f84c1766d",
-  "num_adds": 191,
-  "num_dels": 101,
-  "num_mod_lns_total": 292,
-  "num_mod_files": 13,
-  "is_merge": true,
-  "parents": [
-   "4b050f22b5c6",
-   "6a29b512cf1e"
-  ],
+  "num_adds": 164,
+  "num_dels": 93,
+  "num_mod_lns_total": 257,
   "mod_files_lst": [
    "Documentation/virtual/kvm/api.txt",
    "arch/arm/include/asm/kvm_arm.h",
@@ -86,42 +44,7 @@
    "virt/kvm/arm/vgic/vgic-mmio.c",
    "virt/kvm/arm/vgic/vgic-v3.c"
   ],
-  "entropy": 2.636812674432892,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "virt/kvm/arm/vgic",
-   "Documentation/virtual/kvm",
-   "arch/arm64/kvm",
-   "arch/arm64/include/asm",
-   "arch/arm/include/asm",
-   "arch/arm/kvm",
-   "include/linux/irqchip",
-   "arch/x86/kvm",
-   "arch/arm64/kvm/hyp"
-  ],
-  "mod_sys": [
-   "virt",
-   "include",
-   "Documentation",
-   "arch"
-  ],
-  "num_mod_dirs": 9,
-  "num_mod_sys": 4,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 14:24:58 -0800",
-  "committer_date": "2017-03-11 14:24:58 -0800"
+  "entropy": 2.6849101050343367
  },
  "4b050f22b5c68fab3f96641249a364ebfe354493": {
   "num_adds_if": 0,
@@ -134,42 +57,11 @@
   "num_adds": 3,
   "num_dels": 0,
   "num_mod_lns_total": 3,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "84c37c168c0e",
-   "0acf611997d9"
-  ],
   "mod_files_lst": [
    "arch/score/kernel/traps.c",
    "arch/score/mm/extable.c"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/score/kernel",
-   "arch/score/mm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 14:16:50 -0800",
-  "committer_date": "2017-03-11 14:16:50 -0800"
+  "entropy": 0.9182958340544896
  },
  "33d8c15559df4f0bce25d7e16ebb5879e249f2e7": {
   "num_adds_if": 0,
@@ -180,44 +72,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "33d8c15559df4f0bce25d7e16ebb5879e249f2e7",
   "num_adds": 1,
-  "num_dels": 15,
-  "num_mod_lns_total": 16,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "fa3aa7a54fe6"
-  ],
+  "num_dels": 12,
+  "num_mod_lns_total": 13,
   "mod_files_lst": [
    "drivers/clocksource/tcb_clksrc.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Romain Izard <romain.izard.pro@gmail.com>",
-   "Signed-off-by: Daniel Lezcano <daniel.lezcano@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/clocksource"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Romain Izard",
-  "author_email": "romain.izard.pro@gmail.com",
-  "committer": "Daniel Lezcano",
-  "committer_email": "daniel.lezcano@linaro.org",
-  "author_date": "2017-03-09 17:58:38 +0100",
-  "committer_date": "2017-03-11 22:03:34 +0100"
+  "entropy": 0.0
  },
  "0a124e98f4a5b9b03950af02a57a067ccc1016c1": {
   "num_adds_if": 0,
@@ -228,44 +88,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "0a124e98f4a5b9b03950af02a57a067ccc1016c1",
   "num_adds": 1,
-  "num_dels": 3,
-  "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3a1e32938575"
-  ],
+  "num_dels": 2,
+  "num_mod_lns_total": 3,
   "mod_files_lst": [
    "drivers/staging/iio/meter/ade7754.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bo YU <tsu.yubo@gmail.com>",
-   "Signed-off-by: Jonathan Cameron <jic23@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/iio/meter"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Bo Yu",
-  "author_email": "tsu.yubo@gmail.com",
-  "committer": "Jonathan Cameron",
-  "committer_email": "jic23@kernel.org",
-  "author_date": "2017-03-09 22:57:38 -0500",
-  "committer_date": "2017-03-11 18:24:38 +0000"
+  "entropy": 0.0
  },
  "3a1e3293857568f04b8886246b7a0fec130f5055": {
   "num_adds_if": 0,
@@ -275,98 +103,32 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3a1e3293857568f04b8886246b7a0fec130f5055",
-  "num_adds": 49,
-  "num_dels": 54,
-  "num_mod_lns_total": 103,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "d1caa9905538"
-  ],
+  "num_adds": 44,
+  "num_dels": 48,
+  "num_mod_lns_total": 92,
   "mod_files_lst": [
    "drivers/staging/iio/meter/ade7759.c",
    "drivers/staging/iio/meter/ade7759.h"
   ],
-  "entropy": 0.9993879681484048,
-  "ppl_signed_off": [
-   "Signed-off-by: sayli karnik <karniksayli1995@gmail.com>",
-   "Signed-off-by: Jonathan Cameron <jic23@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/iio/meter"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "sayli karnik",
-  "author_email": "karniksayli1995@gmail.com",
-  "committer": "Jonathan Cameron",
-  "committer_email": "jic23@kernel.org",
-  "author_date": "2017-03-08 15:16:38 +0530",
-  "committer_date": "2017-03-11 17:17:25 +0000"
+  "entropy": 0.9996590716691398
  },
  "84c37c168c0e49a412d7021cda3183a72adac0d0": {
   "num_adds_if": 6,
-  "num_dels_if": 8,
-  "num_mod_total_if": 14,
-  "num_adds_loop": 1,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 3,
+  "num_dels_if": 5,
+  "num_mod_total_if": 11,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "84c37c168c0e49a412d7021cda3183a72adac0d0",
-  "num_adds": 65,
-  "num_dels": 83,
-  "num_mod_lns_total": 148,
-  "num_mod_files": 3,
-  "is_merge": true,
-  "parents": [
-   "434fd6353b4c",
-   "db61ffe3a71c"
-  ],
+  "num_adds": 64,
+  "num_dels": 73,
+  "num_mod_lns_total": 137,
   "mod_files_lst": [
    "drivers/char/random.c",
    "include/linux/random.h",
    "init/main.c"
   ],
-  "entropy": 0.5911630549832647,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "init",
-   "drivers/char"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "init"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 09:08:47 -0800",
-  "committer_date": "2017-03-11 09:08:47 -0800"
+  "entropy": 0.6018993666473804
  },
  "0acf611997d9d05dbfb559c3c6e379c861eb5957": {
   "num_adds_if": 0,
@@ -379,46 +141,11 @@
   "num_adds": 3,
   "num_dels": 0,
   "num_mod_lns_total": 3,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "c1ae3cfa0e89"
-  ],
   "mod_files_lst": [
    "arch/score/kernel/traps.c",
    "arch/score/mm/extable.c"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [
-   "Signed-off-by: Guenter Roeck <linux@roeck-us.net>",
-   "Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 90858794c960 (\"module.h: remove extable.h include now users have migrated\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "arch/score/kernel",
-   "arch/score/mm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Guenter Roeck",
-  "author_email": "linux@roeck-us.net",
-  "committer": "Paul Gortmaker",
-  "committer_email": "paul.gortmaker@windriver.com",
-  "author_date": "2017-02-22 11:07:57 -0800",
-  "committer_date": "2017-03-11 11:57:21 -0500"
+  "entropy": 0.9182958340544896
  },
  "23866a3def0851fa19da32212658c51cf89451cc": {
   "num_adds_if": 0,
@@ -428,14 +155,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "23866a3def0851fa19da32212658c51cf89451cc",
-  "num_adds": 46,
-  "num_dels": 46,
-  "num_mod_lns_total": 92,
-  "num_mod_files": 9,
-  "is_merge": false,
-  "parents": [
-   "2201c7f10d4f"
-  ],
+  "num_adds": 37,
+  "num_dels": 37,
+  "num_mod_lns_total": 74,
   "mod_files_lst": [
    "arch/arm/boot/dts/uniphier-ld4-ref.dts",
    "arch/arm/boot/dts/uniphier-ld6b-ref.dts",
@@ -447,33 +169,7 @@
    "arch/arm/boot/dts/uniphier-sld3-ref.dts",
    "arch/arm/boot/dts/uniphier-sld8-ref.dts"
   ],
-  "entropy": 3.1673250256261123,
-  "ppl_signed_off": [
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/boot/dts"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Masahiro Yamada",
-  "author_email": "yamada.masahiro@socionext.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-11 22:52:59 +0900",
-  "committer_date": "2017-03-11 23:48:03 +0900"
+  "entropy": 3.16594956902255
  },
  "b9f2fc38115344fa8c8631c7257948f4de0eec73": {
   "num_adds_if": 0,
@@ -483,45 +179,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b9f2fc38115344fa8c8631c7257948f4de0eec73",
-  "num_adds": 10,
-  "num_dels": 10,
-  "num_mod_lns_total": 20,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "b5027603c4c7"
-  ],
+  "num_adds": 8,
+  "num_dels": 8,
+  "num_mod_lns_total": 16,
   "mod_files_lst": [
    "arch/arm64/boot/dts/socionext/uniphier-ld11-ref.dts",
    "arch/arm64/boot/dts/socionext/uniphier-ld20-ref.dts"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm64/boot/dts/socionext"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Masahiro Yamada",
-  "author_email": "yamada.masahiro@socionext.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-11 22:58:59 +0900",
-  "committer_date": "2017-03-11 23:47:03 +0900"
+  "entropy": 1.0
  },
  "90b20432aeb850ef84086a72893cd9411479d896": {
   "num_adds_if": 4,
@@ -531,14 +196,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "90b20432aeb850ef84086a72893cd9411479d896",
-  "num_adds": 42,
+  "num_adds": 36,
   "num_dels": 2,
-  "num_mod_lns_total": 44,
-  "num_mod_files": 7,
-  "is_merge": false,
-  "parents": [
-   "0733379b512c"
-  ],
+  "num_mod_lns_total": 38,
   "mod_files_lst": [
    "arch/x86/entry/vdso/vclock_gettime.c",
    "arch/x86/entry/vdso/vdso-layout.lds.S",
@@ -548,102 +208,24 @@
    "arch/x86/include/asm/clocksource.h",
    "arch/x86/include/asm/vdso.h"
   ],
-  "entropy": 2.0796558349926415,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Stephen Hemminger <sthemmin@microsoft.com>",
-   "Cc: Haiyang Zhang <haiyangz@microsoft.com>",
-   "Cc: Dexuan Cui <decui@microsoft.com>",
-   "Cc: Andy Lutomirski <luto@amacapital.net>",
-   "Cc: devel@linuxdriverproject.org",
-   "Cc: \"K. Y. Srinivasan\" <kys@microsoft.com>",
-   "Cc: virtualization@lists.linux-foundation.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/hyperv",
-   "arch/x86/include/asm",
-   "arch/x86/entry/vdso"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 14:21:42 +0100",
-  "committer_date": "2017-03-11 14:47:28 +0100"
+  "entropy": 2.0370563716232875
  },
  "0733379b512ce36ba0b10942f9597b74f579f063": {
   "num_adds_if": 2,
   "num_dels_if": 3,
   "num_mod_total_if": 5,
-  "num_adds_loop": 2,
+  "num_adds_loop": 1,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "0733379b512ce36ba0b10942f9597b74f579f063",
-  "num_adds": 50,
-  "num_dels": 32,
-  "num_mod_lns_total": 82,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "bd2a9adaadb8"
-  ],
+  "num_adds": 43,
+  "num_dels": 28,
+  "num_mod_lns_total": 71,
   "mod_files_lst": [
    "arch/x86/hyperv/hv_init.c",
    "arch/x86/include/asm/mshyperv.h"
   ],
-  "entropy": 0.9892452969285004,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Stephen Hemminger <sthemmin@microsoft.com>",
-   "Cc: Haiyang Zhang <haiyangz@microsoft.com>",
-   "Cc: Dexuan Cui <decui@microsoft.com>",
-   "Cc: Andy Lutomirski <luto@amacapital.net>",
-   "Cc: devel@linuxdriverproject.org",
-   "Cc: \"K. Y. Srinivasan\" <kys@microsoft.com>",
-   "Cc: virtualization@lists.linux-foundation.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/hyperv",
-   "arch/x86/include/asm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 14:21:41 +0100",
-  "committer_date": "2017-03-11 14:47:28 +0100"
+  "entropy": 0.9883779727795041
  },
  "bd2a9adaadb8defcaf6c284bca7ff41634105f51": {
   "num_adds_if": 0,
@@ -653,58 +235,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bd2a9adaadb8defcaf6c284bca7ff41634105f51",
-  "num_adds": 18,
+  "num_adds": 16,
   "num_dels": 2,
-  "num_mod_lns_total": 20,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "434fd6353b4c"
-  ],
+  "num_mod_lns_total": 18,
   "mod_files_lst": [
    "arch/x86/hyperv/hv_init.c",
    "arch/x86/include/asm/mshyperv.h",
    "drivers/hv/Kconfig"
   ],
-  "entropy": 1.4577174691301484,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Stephen Hemminger <sthemmin@microsoft.com>",
-   "Cc: Haiyang Zhang <haiyangz@microsoft.com>",
-   "Cc: Dexuan Cui <decui@microsoft.com>",
-   "Cc: Andy Lutomirski <luto@amacapital.net>",
-   "Cc: devel@linuxdriverproject.org",
-   "Cc: \"K. Y. Srinivasan\" <kys@microsoft.com>",
-   "Cc: virtualization@lists.linux-foundation.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/hyperv",
-   "arch/x86/include/asm",
-   "drivers/hv"
-  ],
-  "mod_sys": [
-   "drivers",
-   "arch"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 14:21:40 +0100",
-  "committer_date": "2017-03-11 14:47:28 +0100"
+  "entropy": 1.3921472236645345
  },
  "a77d6cd968497792e072b74dff45b891ba778ddb": {
   "num_adds_if": 1,
@@ -714,112 +253,30 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a77d6cd968497792e072b74dff45b891ba778ddb",
-  "num_adds": 11,
+  "num_adds": 10,
   "num_dels": 4,
-  "num_mod_lns_total": 15,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "8c8cb30f49b8"
-  ],
+  "num_mod_lns_total": 14,
   "mod_files_lst": [
    "drivers/acpi/acpi_processor.c",
    "include/linux/acpi.h"
   ],
-  "entropy": 0.5665095065529053,
-  "ppl_signed_off": [
-   "Signed-off-by: Dou Liyang <douly.fnst@cn.fujitsu.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: rjw@rjwysocki.net",
-   "Cc: linux-acpi@vger.kernel.org",
-   "Cc: guzheng1@huawei.com",
-   "Cc: izumi.taku@jp.fujitsu.com",
-   "Cc: lenb@kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Xiaolong Ye <xiaolong.ye@intel.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Dou Liyang",
-  "author_email": "douly.fnst@cn.fujitsu.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 16:02:27 +0800",
-  "committer_date": "2017-03-11 14:41:20 +0100"
+  "entropy": 0.5916727785823275
  },
  "8c8cb30f49b86333d8e036e1945cf1a78c03577e": {
   "num_adds_if": 2,
   "num_dels_if": 0,
   "num_mod_total_if": 2,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "8c8cb30f49b86333d8e036e1945cf1a78c03577e",
-  "num_adds": 32,
+  "num_adds": 28,
   "num_dels": 7,
-  "num_mod_lns_total": 39,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2b85b3d22920"
-  ],
+  "num_mod_lns_total": 35,
   "mod_files_lst": [
    "drivers/acpi/acpi_processor.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dou Liyang <douly.fnst@cn.fujitsu.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: rjw@rjwysocki.net",
-   "Cc: linux-acpi@vger.kernel.org",
-   "Cc: guzheng1@huawei.com",
-   "Cc: izumi.taku@jp.fujitsu.com",
-   "Cc: lenb@kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Xiaolong Ye <xiaolong.ye@intel.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dou Liyang",
-  "author_email": "douly.fnst@cn.fujitsu.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 16:02:26 +0800",
-  "committer_date": "2017-03-11 14:41:20 +0100"
+  "entropy": 0.0
  },
  "2b85b3d22920db7473e5fed5719e7955c0ec323e": {
   "num_adds_if": 1,
@@ -829,128 +286,42 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2b85b3d22920db7473e5fed5719e7955c0ec323e",
-  "num_adds": 13,
-  "num_dels": 20,
-  "num_mod_lns_total": 33,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "09c3f2bd5c7e"
-  ],
+  "num_adds": 12,
+  "num_dels": 18,
+  "num_mod_lns_total": 30,
   "mod_files_lst": [
    "arch/x86/kernel/acpi/boot.c",
    "arch/x86/kernel/apic/apic.c"
   ],
-  "entropy": 0.7455178428108284,
-  "ppl_signed_off": [
-   "Signed-off-by: Dou Liyang <douly.fnst@cn.fujitsu.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: rjw@rjwysocki.net",
-   "Cc: linux-acpi@vger.kernel.org",
-   "Cc: guzheng1@huawei.com",
-   "Cc: izumi.taku@jp.fujitsu.com",
-   "Cc: lenb@kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Xiaolong Ye <xiaolong.ye@intel.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/kernel/apic",
-   "arch/x86/kernel/acpi"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Dou Liyang",
-  "author_email": "douly.fnst@cn.fujitsu.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 16:02:25 +0800",
-  "committer_date": "2017-03-11 14:41:19 +0100"
+  "entropy": 0.7219280948873623
  },
  "09c3f2bd5c7e5f18687663acb6adc6b167484ca5": {
   "num_adds_if": 8,
-  "num_dels_if": 8,
-  "num_mod_total_if": 16,
+  "num_dels_if": 4,
+  "num_mod_total_if": 12,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "09c3f2bd5c7e5f18687663acb6adc6b167484ca5",
   "num_adds": 22,
-  "num_dels": 38,
-  "num_mod_lns_total": 60,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c962cff17dfa"
-  ],
+  "num_dels": 37,
+  "num_mod_lns_total": 59,
   "mod_files_lst": [
    "drivers/acpi/processor_core.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dou Liyang <douly.fnst@cn.fujitsu.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: rjw@rjwysocki.net",
-   "Cc: linux-acpi@vger.kernel.org",
-   "Cc: guzheng1@huawei.com",
-   "Cc: izumi.taku@jp.fujitsu.com",
-   "Cc: lenb@kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Xiaolong Ye <xiaolong.ye@intel.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dou Liyang",
-  "author_email": "douly.fnst@cn.fujitsu.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 16:02:24 +0800",
-  "committer_date": "2017-03-11 14:41:18 +0100"
+  "entropy": 0.0
  },
  "c962cff17dfa11f4a8227ac16de2b28aea3312e4": {
   "num_adds_if": 0,
   "num_dels_if": 5,
   "num_mod_total_if": 5,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "c962cff17dfa11f4a8227ac16de2b28aea3312e4",
   "num_adds": 1,
-  "num_dels": 83,
-  "num_mod_lns_total": 84,
-  "num_mod_files": 5,
-  "is_merge": false,
-  "parents": [
-   "434fd6353b4c"
-  ],
+  "num_dels": 70,
+  "num_mod_lns_total": 71,
   "mod_files_lst": [
    "arch/x86/kernel/acpi/boot.c",
    "drivers/acpi/acpi_processor.c",
@@ -958,46 +329,7 @@
    "drivers/acpi/processor_core.c",
    "include/linux/acpi.h"
   ],
-  "entropy": 0.7944397945068371,
-  "ppl_signed_off": [
-   "Signed-off-by: Dou Liyang <douly.fnst@cn.fujitsu.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: rjw@rjwysocki.net",
-   "Cc: linux-acpi@vger.kernel.org",
-   "Cc: guzheng1@huawei.com",
-   "Cc: izumi.taku@jp.fujitsu.com",
-   "Cc: lenb@kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Xiaolong Ye <xiaolong.ye@intel.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi",
-   "include/linux",
-   "arch/x86/kernel/acpi"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "arch"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "Dou Liyang",
-  "author_email": "douly.fnst@cn.fujitsu.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-03 16:02:23 +0800",
-  "committer_date": "2017-03-11 14:41:18 +0100"
+  "entropy": 0.7812940033921996
  },
  "6415813bae75feba10b8ca3ed6634a72c2a4d313": {
   "num_adds_if": 1,
@@ -1007,14 +339,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6415813bae75feba10b8ca3ed6634a72c2a4d313",
-  "num_adds": 12,
+  "num_adds": 10,
   "num_dels": 18,
-  "num_mod_lns_total": 30,
-  "num_mod_files": 5,
-  "is_merge": false,
-  "parents": [
-   "04402116846f"
-  ],
+  "num_mod_lns_total": 28,
   "mod_files_lst": [
    "arch/x86/include/asm/processor.h",
    "arch/x86/kernel/cpu/proc.c",
@@ -1022,48 +349,7 @@
    "arch/x86/mm/init_32.c",
    "arch/x86/xen/enlighten.c"
   ],
-  "entropy": 2.033800152527589,
-  "ppl_signed_off": [
-   "Signed-off-by: Mathias Krause <minipli@googlemail.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Borislav Petkov <bp@alien8.de>"
-  ],
-  "ppl_cc": [
-   "Cc: Jesper Nilsson <jesper.nilsson@axis.com>",
-   "Cc: Jeremy Fitzhardinge <jeremy.fitzhardinge@citrix.com>",
-   "Cc: Arnd Hannemann <hannemann@nets.rwth-aachen.de>",
-   "Cc: Mikael Starvik <starvik@axis.com>",
-   "Cc: Geert Uytterhoeven <geert@linux-m68k.org>",
-   "Cc: Andrew Morton <akpm@linux-foundation.org>",
-   "Cc: \"David S. Miller\" <davem@davemloft.net>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/mm",
-   "arch/x86/kernel/cpu",
-   "arch/x86/xen",
-   "arch/x86/include/asm",
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 5,
-  "num_mod_sys": 1,
-  "author": "Mathias Krause",
-  "author_email": "minipli@googlemail.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-02-12 22:12:08 +0100",
-  "committer_date": "2017-03-11 14:30:24 +0100"
+  "entropy": 2.0634648712250883
  },
  "04402116846f36adea9503d7cd5104a7ed27a1a6": {
   "num_adds_if": 0,
@@ -1074,52 +360,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "04402116846f36adea9503d7cd5104a7ed27a1a6",
   "num_adds": 1,
-  "num_dels": 6,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "434fd6353b4c"
-  ],
+  "num_dels": 5,
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "arch/x86/include/asm/processor.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mathias Krause <minipli@googlemail.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Borislav Petkov <bp@alien8.de>"
-  ],
-  "ppl_cc": [
-   "Cc: Jesper Nilsson <jesper.nilsson@axis.com>",
-   "Cc: Mikael Starvik <starvik@axis.com>",
-   "Cc: Geert Uytterhoeven <geert@linux-m68k.org>",
-   "Cc: Andrew Morton <akpm@linux-foundation.org>",
-   "Cc: \"David S. Miller\" <davem@davemloft.net>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/include/asm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mathias Krause",
-  "author_email": "minipli@googlemail.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-02-12 22:12:07 +0100",
-  "committer_date": "2017-03-11 14:30:23 +0100"
+  "entropy": 0.0
  },
  "45e5202213ae6541f7916bb3c64fbcd3019ec473": {
   "num_adds_if": 0,
@@ -1129,47 +375,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "45e5202213ae6541f7916bb3c64fbcd3019ec473",
-  "num_adds": 4,
+  "num_adds": 3,
   "num_dels": 1,
-  "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "434fd6353b4c"
-  ],
+  "num_mod_lns_total": 4,
   "mod_files_lst": [
    "kernel/irq/chip.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Charles Keepax <ckeepax@opensource.wolfsonmicro.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: patches@opensource.wolfsonmicro.com"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/irq"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Charles Keepax",
-  "author_email": "ckeepax@opensource.wolfsonmicro.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-03-07 16:28:18 +0000",
-  "committer_date": "2017-03-11 12:57:03 +0100"
+  "entropy": 0.0
  },
  "5a920155e388ec22a22e0532fb695b9215c9b34d": {
   "num_adds_if": 1,
@@ -1179,50 +391,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5a920155e388ec22a22e0532fb695b9215c9b34d",
-  "num_adds": 14,
-  "num_dels": 18,
-  "num_mod_lns_total": 32,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "b9894a2f5bd1"
-  ],
+  "num_adds": 12,
+  "num_dels": 16,
+  "num_mod_lns_total": 28,
   "mod_files_lst": [
    "arch/x86/include/asm/tlbflush.h",
    "arch/x86/kernel/process.c"
   ],
-  "entropy": 0.8960382325345573,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Peter Zijlstra <peterz@infradead.org>",
-   "Cc: Andy Lutomirski <luto@kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/include/asm",
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Thomas Gleixner",
-  "author_email": "tglx@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-02-14 00:11:04 -0800",
-  "committer_date": "2017-03-11 12:45:18 +0100"
+  "entropy": 0.863120568566631
  },
  "b9894a2f5bd18b1691cb6872c9afe32b148d0132": {
   "num_adds_if": 1,
@@ -1235,116 +411,39 @@
   "num_adds": 8,
   "num_dels": 5,
   "num_mod_lns_total": 13,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "af8b3cd3934e"
-  ],
   "mod_files_lst": [
    "arch/x86/include/asm/msr-index.h",
    "arch/x86/kernel/process.c"
   ],
-  "entropy": 0.39124356362925566,
-  "ppl_signed_off": [
-   "Signed-off-by: Kyle Huey <khuey@kylehuey.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Peter Zijlstra <peterz@infradead.org>",
-   "Cc: Andy Lutomirski <luto@kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/include/asm",
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Kyle Huey",
-  "author_email": "me@kylehuey.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-02-14 00:11:03 -0800",
-  "committer_date": "2017-03-11 12:45:18 +0100"
+  "entropy": 0.39124356362925566
  },
  "af8b3cd3934ec60f4c2a420d19a9d416554f140b": {
   "num_adds_if": 6,
   "num_dels_if": 6,
   "num_mod_total_if": 12,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "af8b3cd3934ec60f4c2a420d19a9d416554f140b",
-  "num_adds": 36,
-  "num_dels": 29,
-  "num_mod_lns_total": 65,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "434fd6353b4c"
-  ],
+  "num_adds": 33,
+  "num_dels": 26,
+  "num_mod_lns_total": 59,
   "mod_files_lst": [
    "arch/x86/kernel/process.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Kyle Huey <khuey@kylehuey.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Peter Zijlstra <peterz@infradead.org>",
-   "Cc: Andy Lutomirski <luto@kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Kyle Huey",
-  "author_email": "me@kylehuey.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2017-02-14 00:11:02 -0800",
-  "committer_date": "2017-03-11 12:45:17 +0100"
+  "entropy": 0.0
  },
  "a45216547e8925078b18b2a6b539100c3814e973": {
   "num_adds_if": 19,
-  "num_dels_if": 21,
-  "num_mod_total_if": 40,
-  "num_adds_loop": 6,
-  "num_dels_loop": 6,
-  "num_mod_total_loop": 12,
+  "num_dels_if": 20,
+  "num_mod_total_if": 39,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
   "file_hash": "a45216547e8925078b18b2a6b539100c3814e973",
-  "num_adds": 236,
-  "num_dels": 336,
-  "num_mod_lns_total": 572,
-  "num_mod_files": 22,
-  "is_merge": true,
-  "parents": [
-   "35dc8aabc878",
-   "76adb460fd93"
-  ],
+  "num_adds": 192,
+  "num_dels": 279,
+  "num_mod_lns_total": 471,
   "mod_files_lst": [
    "Documentation/gpu/drm-internals.rst",
    "drivers/gpu/drm/Makefile",
@@ -1369,46 +468,7 @@
    "include/drm/drmP.h",
    "include/drm/drm_pci.h"
   ],
-  "entropy": 2.016264508285967,
-  "ppl_signed_off": [
-   "Signed-off-by: Daniel Vetter <daniel.vetter@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/sti",
-   "include/drm",
-   "drivers/gpu/drm/armada",
-   "drivers/gpu/drm",
-   "Documentation/gpu",
-   "drivers/gpu/drm/msm/mdp/mdp5",
-   "drivers/gpu/drm/nouveau",
-   "drivers/gpu/drm/tilcdc",
-   "drivers/gpu/drm/msm/mdp/mdp4",
-   "drivers/gpu/drm/exynos",
-   "drivers/gpu/drm/shmobile",
-   "drivers/gpu/drm/msm"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include",
-   "Documentation"
-  ],
-  "num_mod_dirs": 12,
-  "num_mod_sys": 3,
-  "author": "Daniel Vetter",
-  "author_email": "daniel.vetter@ffwll.ch",
-  "committer": "Daniel Vetter",
-  "committer_email": "daniel.vetter@ffwll.ch",
-  "author_date": "2017-03-11 11:46:03 +0100",
-  "committer_date": "2017-03-11 11:46:03 +0100"
+  "entropy": 2.083890933493721
  },
  "434fd6353b4c83938029ca6ea7dfa4fc82d602bd": {
   "num_adds_if": 3,
@@ -1418,45 +478,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "434fd6353b4c83938029ca6ea7dfa4fc82d602bd",
-  "num_adds": 73,
-  "num_dels": 65,
-  "num_mod_lns_total": 138,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "852988086172",
-   "f98c7bce570b"
-  ],
+  "num_adds": 58,
+  "num_dels": 52,
+  "num_mod_lns_total": 110,
   "mod_files_lst": [
    "drivers/tty/n_hdlc.c",
    "drivers/tty/serial/samsung.c"
   ],
-  "entropy": 0.2580186686648155,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/tty",
-   "drivers/tty/serial"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 00:20:12 -0800",
-  "committer_date": "2017-03-11 00:20:12 -0800"
+  "entropy": 0.30540057087920036
  },
  "85298808617299fe713ed3e03114058883ce3d8a": {
   "num_adds_if": 0,
@@ -1469,60 +498,23 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "46552bf4337b",
-   "69eb1596b4df"
-  ],
   "mod_files_lst": [
    "drivers/staging/octeon/ethernet-rx.c",
    "drivers/staging/vc04_services/Kconfig"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/vc04_services",
-   "drivers/staging/octeon"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 00:13:28 -0800",
-  "committer_date": "2017-03-11 00:13:28 -0800"
+  "entropy": 1.0
  },
  "46552bf4337b99322c0cc65f6003e59b7f36bf15": {
-  "num_adds_if": 30,
-  "num_dels_if": 30,
-  "num_mod_total_if": 60,
-  "num_adds_loop": 7,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 9,
+  "num_adds_if": 29,
+  "num_dels_if": 26,
+  "num_mod_total_if": 55,
+  "num_adds_loop": 3,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 4,
   "file_hash": "46552bf4337b99322c0cc65f6003e59b7f36bf15",
-  "num_adds": 213,
-  "num_dels": 144,
-  "num_mod_lns_total": 357,
-  "num_mod_files": 26,
-  "is_merge": true,
-  "parents": [
-   "cb853a82dfe4",
-   "dcc7620cad5a"
-  ],
+  "num_adds": 191,
+  "num_dels": 131,
+  "num_mod_lns_total": 322,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/usb/usb251xb.txt",
    "MAINTAINERS",
@@ -1551,44 +543,7 @@
    "drivers/usb/serial/safe_serial.c",
    "drivers/usb/storage/unusual_devs.h"
   ],
-  "entropy": 3.715185222243154,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/usb/serial",
-   "drivers/usb/host",
-   "drivers/usb/dwc3",
-   "/",
-   "Documentation/devicetree/bindings/usb",
-   "drivers/usb/gadget/legacy",
-   "drivers/usb/storage",
-   "drivers/usb/gadget",
-   "drivers/usb/phy",
-   "drivers/usb/misc",
-   "drivers/usb/gadget/function",
-   "drivers/usb/gadget/udc",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers",
-   "Documentation"
-  ],
-  "num_mod_dirs": 13,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 00:08:39 -0800",
-  "committer_date": "2017-03-11 00:08:39 -0800"
+  "entropy": 3.694367582874064
  },
  "cb853a82dfe48a60b63831191e8d1d8a1b8b116c": {
   "num_adds_if": 0,
@@ -1598,45 +553,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "cb853a82dfe48a60b63831191e8d1d8a1b8b116c",
-  "num_adds": 21,
+  "num_adds": 17,
   "num_dels": 6,
-  "num_mod_lns_total": 27,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "24c534bb161b",
-   "96e1ce8fcd66"
-  ],
+  "num_mod_lns_total": 23,
   "mod_files_lst": [
    "drivers/pinctrl/qcom/pinctrl-msm.c",
    "drivers/pinctrl/uniphier/pinctrl-uniphier-ld11.c"
   ],
-  "entropy": 0.9910760598382222,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/pinctrl/qcom",
-   "drivers/pinctrl/uniphier"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2017-03-11 00:06:18 -0800",
-  "committer_date": "2017-03-11 00:06:18 -0800"
+  "entropy": 0.9986359641585718
  },
  "4607ebf04b8190d2c7aa5504959e9fddfc0cd736": {
   "num_adds_if": 0,
@@ -1649,44 +573,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8b38f890eff6"
-  ],
   "mod_files_lst": [
    "scripts/Makefile.lib"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bruce Allan <bruce.w.allan@intel.com>",
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "scripts"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Allan, Bruce W",
-  "author_email": "bruce.w.allan@intel.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-07 15:48:23 -0800",
-  "committer_date": "2017-03-11 11:25:57 +0900"
+  "entropy": 0.0
  },
  "35288e30ebca59effbd44c5976afc71a342e9a85": {
   "num_adds_if": 0,
@@ -1699,41 +589,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ef44bca87c6b"
-  ],
   "mod_files_lst": [
    "Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Seung-Woo Kim <sw0312.kim@samsung.com>",
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Seung-Woo Kim",
-  "author_email": "sw0312.kim@samsung.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-10 11:01:00 +0900",
-  "committer_date": "2017-03-11 11:25:50 +0900"
+  "entropy": 0.0
  },
  "65ba6fa439e7c3cbf97de9dce9e7a3390ae2638c": {
   "num_adds_if": 0,
@@ -1746,44 +605,10 @@
   "num_adds": 4,
   "num_dels": 1,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c1ae3cfa0e89"
-  ],
   "mod_files_lst": [
    "scripts/objdiff"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stephen Boyd <stephen.boyd@linaro.org>",
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Jason Cooper <jason@lakedaemon.net>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "scripts"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stephen Boyd",
-  "author_email": "stephen.boyd@linaro.org",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-02-16 13:18:20 -0800",
-  "committer_date": "2017-03-11 11:13:38 +0900"
+  "entropy": 0.0
  },
  "ef44bca87c6b505df0d54e12d67e839837cbcd30": {
   "num_adds_if": 0,
@@ -1794,43 +619,13 @@
   "num_mod_total_loop": 0,
   "file_hash": "ef44bca87c6b505df0d54e12d67e839837cbcd30",
   "num_adds": 234,
-  "num_dels": 242,
-  "num_mod_lns_total": 476,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "c1ae3cfa0e89",
-   "fde42bfcd232"
-  ],
+  "num_dels": 240,
+  "num_mod_lns_total": 474,
   "mod_files_lst": [
    "scripts/genksyms/parse.tab.c_shipped",
    "scripts/genksyms/parse.y"
   ],
-  "entropy": 0.039220494447072034,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "scripts/genksyms"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Masahiro Yamada",
-  "author_email": "yamada.masahiro@socionext.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-11 01:18:25 +0900",
-  "committer_date": "2017-03-11 01:18:25 +0900"
+  "entropy": 0.039360296791109084
  },
  "8b38f890eff6efc153130254a96452570f971159": {
   "num_adds_if": 0,
@@ -1843,41 +638,9 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c1ae3cfa0e89"
-  ],
   "mod_files_lst": [
    "MAINTAINERS"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Masahiro Yamada <yamada.masahiro@socionext.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Michal Marek <mmarek@suse.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Masahiro Yamada",
-  "author_email": "yamada.masahiro@socionext.com",
-  "committer": "Masahiro Yamada",
-  "committer_email": "yamada.masahiro@socionext.com",
-  "author_date": "2017-03-10 10:41:50 +0900",
-  "committer_date": "2017-03-11 01:15:26 +0900"
+  "entropy": 0.0
  }
 }

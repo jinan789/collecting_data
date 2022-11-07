@@ -1,21 +1,15 @@
 {
  "eb84d6b60491a3ca3d90d62ee5346b007770d40d": {
-  "num_adds_if": 611,
-  "num_dels_if": 327,
-  "num_mod_total_if": 938,
-  "num_adds_loop": 111,
-  "num_dels_loop": 66,
-  "num_mod_total_loop": 177,
+  "num_adds_if": 531,
+  "num_dels_if": 296,
+  "num_mod_total_if": 827,
+  "num_adds_loop": 46,
+  "num_dels_loop": 33,
+  "num_mod_total_loop": 79,
   "file_hash": "eb84d6b60491a3ca3d90d62ee5346b007770d40d",
-  "num_adds": 6360,
-  "num_dels": 3445,
-  "num_mod_lns_total": 9805,
-  "num_mod_files": 694,
-  "is_merge": true,
-  "parents": [
-   "97a13e5289ba",
-   "d030671f3f26"
-  ],
+  "num_adds": 5731,
+  "num_dels": 3170,
+  "num_mod_lns_total": 8901,
   "mod_files_lst": [
    "Documentation/SubmittingPatches",
    "Documentation/devicetree/bindings/input/atmel,maxtouch.txt",
@@ -466,23 +460,8 @@
    "drivers/usb/serial/whiteheat.c",
    "drivers/usb/serial/zte_ev.c",
    "drivers/usb/storage/unusual_devs.h",
-   "drivers/usb/usbip/Kconfig",
-   "drivers/usb/usbip/Makefile",
-   "drivers/usb/usbip/README",
-   "drivers/usb/usbip/stub.h",
    "drivers/usb/usbip/stub_dev.c",
-   "drivers/usb/usbip/stub_main.c",
-   "drivers/usb/usbip/stub_rx.c",
-   "drivers/usb/usbip/stub_tx.c",
-   "drivers/usb/usbip/usbip_common.c",
    "drivers/usb/usbip/usbip_common.h",
-   "drivers/usb/usbip/usbip_event.c",
-   "drivers/usb/usbip/usbip_protocol.txt",
-   "drivers/usb/usbip/vhci.h",
-   "drivers/usb/usbip/vhci_hcd.c",
-   "drivers/usb/usbip/vhci_rx.c",
-   "drivers/usb/usbip/vhci_sysfs.c",
-   "drivers/usb/usbip/vhci_tx.c",
    "drivers/usb/wusbcore/wa-xfer.c",
    "drivers/video/backlight/pwm_bl.c",
    "drivers/video/fbdev/amba-clcd.c",
@@ -583,7 +562,6 @@
    "include/sound/soc.h",
    "include/trace/events/irq.h",
    "include/uapi/drm/radeon_drm.h",
-   "include/uapi/linux/usbip.h",
    "include/uapi/linux/xattr.h",
    "kernel/cgroup.c",
    "kernel/compat.c",
@@ -674,395 +652,25 @@
    "tools/testing/selftests/ipc/Makefile",
    "tools/testing/selftests/kcmp/Makefile",
    "tools/testing/selftests/memfd/Makefile",
-   "tools/usb/usbip/.gitignore",
-   "tools/usb/usbip/AUTHORS",
-   "tools/usb/usbip/COPYING",
-   "tools/usb/usbip/INSTALL",
-   "tools/usb/usbip/Makefile.am",
-   "tools/usb/usbip/README",
-   "tools/usb/usbip/autogen.sh",
-   "tools/usb/usbip/cleanup.sh",
-   "tools/usb/usbip/configure.ac",
-   "tools/usb/usbip/doc/usbip.8",
-   "tools/usb/usbip/doc/usbipd.8",
-   "tools/usb/usbip/libsrc/Makefile.am",
-   "tools/usb/usbip/libsrc/list.h",
-   "tools/usb/usbip/libsrc/names.c",
-   "tools/usb/usbip/libsrc/names.h",
-   "tools/usb/usbip/libsrc/sysfs_utils.c",
-   "tools/usb/usbip/libsrc/sysfs_utils.h",
-   "tools/usb/usbip/libsrc/usbip_common.c",
-   "tools/usb/usbip/libsrc/usbip_common.h",
-   "tools/usb/usbip/libsrc/usbip_host_driver.c",
-   "tools/usb/usbip/libsrc/usbip_host_driver.h",
-   "tools/usb/usbip/libsrc/vhci_driver.c",
-   "tools/usb/usbip/libsrc/vhci_driver.h",
-   "tools/usb/usbip/src/Makefile.am",
-   "tools/usb/usbip/src/usbip.c",
-   "tools/usb/usbip/src/usbip.h",
-   "tools/usb/usbip/src/usbip_attach.c",
-   "tools/usb/usbip/src/usbip_bind.c",
-   "tools/usb/usbip/src/usbip_detach.c",
-   "tools/usb/usbip/src/usbip_list.c",
-   "tools/usb/usbip/src/usbip_network.c",
-   "tools/usb/usbip/src/usbip_network.h",
-   "tools/usb/usbip/src/usbip_port.c",
-   "tools/usb/usbip/src/usbip_unbind.c",
-   "tools/usb/usbip/src/usbipd.c",
-   "tools/usb/usbip/src/utils.c",
-   "tools/usb/usbip/src/utils.h"
+   "tools/usb/usbip/.gitignore"
   ],
-  "entropy": 8.027628958640769,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/pci/hda",
-   "include/sound",
-   "drivers/pinctrl/nomadik",
-   "drivers/usb/serial",
-   "drivers/net/ethernet/broadcom",
-   "arch/powerpc",
-   "drivers/spi",
-   "drivers/sh/intc",
-   "net/ieee802154",
-   "arch/mips/include/asm/mach-netlogic",
-   "drivers/usb/storage",
-   "drivers/leds",
-   "drivers/block/zram",
-   "block",
-   "tools/usb/usbip",
-   "arch/s390/kernel",
-   "arch/x86/kernel/apic",
-   "drivers/net/ethernet/amd/xgbe",
-   "arch/s390/kvm",
-   "drivers/acpi",
-   "drivers/net/ethernet/intel/e1000e",
-   "include/linux/platform_data",
-   "net/mac802154",
-   "tools/testing/selftests/memfd",
-   "arch/s390/include/uapi/asm",
-   "arch/mips/pmcs-msp71xx",
-   "arch/sh",
-   "drivers/ata",
-   "drivers/usb/gadget/legacy",
-   "net/netfilter",
-   "arch/powerpc/kvm",
-   "drivers/usb/gadget/udc",
-   "drivers/net/ethernet/aeroflex",
-   "fs/jbd2",
-   "include/acpi",
-   "drivers/input/mouse",
-   "sound/soc/generic",
-   "arch/alpha/kernel",
-   "tools/usb/usbip/src",
-   "Documentation/i2c",
-   "drivers/net/ethernet/stmicro/stmmac",
-   "include/linux",
-   "arch/mips/include/asm/mach-malta",
-   "drivers/md",
-   "drivers/pinctrl/samsung",
-   "drivers/usb/usbip",
-   "drivers/cpuidle",
-   "Documentation/x86",
-   "arch/arm/mach-exynos",
-   "Documentation/devicetree/bindings/sound",
-   "arch/alpha/include/asm",
-   "arch/x86",
-   "arch/x86/include/asm",
-   "drivers/net/ethernet/intel/i40e",
-   "kernel/irq",
-   "drivers/net/phy",
-   "drivers/thunderbolt",
-   "arch/arm/mach-imx",
-   "drivers/gpu/drm/nouveau/core/core",
-   "drivers/bus",
-   "drivers/net/ethernet/moxa",
-   "drivers/video",
-   "kernel/events",
-   "/",
-   "arch/s390/include/asm",
-   "arch/sh/mm",
-   "arch/tile",
-   "drivers/gpu/drm/msm/mdp/mdp4",
-   "arch/arm/mach-at91",
-   "arch/arm64/kernel",
-   "arch/x86/pci",
-   "fs/ocfs2/cluster",
-   "arch/arm/mach-shmobile",
-   "arch/x86/kernel",
-   "drivers/rtc",
-   "arch/arm/mm",
-   "arch/arm64/crypto",
-   "drivers/net/ethernet/renesas",
-   "security/tomoyo",
-   "sound/pci/ctxfi",
-   "arch/x86/purgatory",
-   "drivers/scsi",
-   "drivers/infiniband/hw/mlx4",
-   "fs/f2fs",
-   "Documentation/devicetree/bindings/mfd",
-   "net/rfkill",
-   "drivers/usb",
-   "drivers/i2c/busses",
-   "kernel/time",
-   "crypto/asymmetric_keys",
-   "arch/xtensa/mm",
-   "arch/s390/mm",
-   "drivers/usb/misc/sisusbvga",
-   "drivers/staging/lustre/lustre/libcfs",
-   "arch/arm/mach-bcm",
-   "arch/m68k/kernel",
-   "scripts",
-   "drivers/acpi/acpica",
-   "drivers/staging",
-   "drivers/misc/mei",
-   "kernel/trace",
-   "arch/xtensa/include/uapi/asm",
-   "arch/m68k/include/asm",
-   "drivers/hwmon",
-   "net/openvswitch",
-   "arch/xtensa/include/asm",
-   "Documentation/devicetree/bindings/input",
-   "drivers/net/ethernet/calxeda",
-   "drivers/gpu/drm/sti",
-   "drivers/usb/gadget/function",
-   "include/net",
-   "arch/mips/cavium-octeon",
-   "drivers/net/wireless/rtlwifi/btcoexist",
-   "net/mac80211",
-   "drivers/gpio",
-   "drivers/sh",
-   "drivers/base/regmap",
-   "drivers/cpufreq",
-   "drivers/net/ethernet/apm/xgene",
-   "net/l2tp",
-   "drivers/pci/host",
-   "drivers/net/ethernet/nxp",
-   "Documentation/power/regulator",
-   "drivers/net/ethernet/brocade/bna",
-   "net/bluetooth",
-   "arch/arm/mach-omap2",
-   "net/netfilter/ipvs",
-   "drivers/ssb",
-   "kernel",
-   "arch/m68k/include/uapi/asm",
-   "kernel/rcu",
-   "fs/xfs/libxfs",
-   "fs/xfs",
-   "drivers/pinctrl",
-   "drivers/net/xen-netback",
-   "arch/xtensa/configs",
-   "mm",
-   "lib",
-   "arch/arm64/kvm",
-   "arch/mips/loongson/loongson-3",
-   "drivers/dma-buf",
-   "Documentation/devicetree/bindings/regulator",
-   "include/linux/mlx4",
-   "arch/m68k",
-   "arch/s390",
-   "arch/mips/include/asm",
-   "net/sctp",
-   "Documentation/devicetree/bindings/pinctrl",
-   "drivers/gpu/drm/i915",
-   "drivers/gpu/drm/msm",
-   "drivers/hid",
-   "drivers/usb/musb",
-   "drivers/net/ethernet/3com",
-   "drivers/net/ethernet/marvell",
-   "drivers/s390/char",
-   "drivers/net/ethernet/intel/e1000",
-   "arch/arm",
-   "arch/ia64",
-   "include/uapi/drm",
-   "arch/arm/include/asm",
-   "drivers/staging/lustre/lustre/obdclass",
-   "sound/firewire",
-   "include/trace/events",
-   "kernel/power",
-   "drivers/net/vmxnet3",
-   "drivers/usb/phy",
-   "fs",
-   "sound/soc/tegra",
-   "tools/usb/usbip/doc",
-   "arch/mips/mti-malta",
-   "arch/mips/mm",
-   "drivers/bcma",
-   "net/ipv4/netfilter",
-   "arch/unicore32/kernel",
-   "Documentation",
-   "drivers/net/ethernet/intel/i40evf",
-   "drivers/staging/rtl8188eu/os_dep",
-   "security/keys",
-   "drivers/net/wireless/ath/ath9k",
-   "drivers/s390/net",
-   "drivers/gpu/drm/ast",
-   "fs/ufs",
-   "drivers/platform/x86",
-   "net",
-   "include/net/sctp",
-   "drivers/usb/host",
-   "drivers/staging/android",
-   "drivers/staging/et131x",
-   "arch/arm/mach-vexpress",
-   "drivers/firmware/efi",
-   "drivers/gpu/drm/radeon",
-   "include/net/bluetooth",
-   "arch/tile/kernel",
-   "Documentation/filesystems/nfs",
-   "drivers/net/ethernet/chelsio/cxgb4",
-   "drivers/usb/gadget",
-   "drivers/usb/dwc3",
-   "drivers/video/fbdev",
-   "arch/arm/boot/dts",
-   "arch/mips/bcm47xx",
-   "arch/alpha/include/uapi/asm",
-   "drivers/gpu/drm",
-   "drivers/usb/dwc2",
-   "arch/xtensa",
-   "drivers/pinctrl/sh-pfc",
-   "arch/arm64/include/asm",
-   "drivers/mtd/chips",
-   "drivers/net/ethernet/qlogic/qlge",
-   "drivers/mfd",
-   "drivers/usb/core",
-   "drivers/usb/wusbcore",
-   "drivers/input",
-   "include/linux/gpio",
-   "drivers/net/wireless/iwlwifi/dvm",
-   "arch/mips/kernel",
-   "include/net/netns",
-   "include/linux/mtd",
-   "fs/ocfs2",
-   "include/drm",
-   "arch/arm/common",
-   "Documentation/devicetree/bindings/net",
-   "drivers/net/wireless/rtlwifi/rtl8192cu",
-   "Documentation/kdump",
-   "arch/hexagon/mm",
-   "Documentation/devicetree/bindings/mtd",
-   "sound/soc",
-   "arch/x86/mm",
-   "arch/mips/alchemy/devboards",
-   "drivers/net/ethernet/ibm/ehea",
-   "sound/soc/sh/rcar",
-   "drivers/input/serio",
-   "net/ipv6",
-   "drivers/mtd/nand",
-   "drivers/net/ethernet/broadcom/bnx2x",
-   "Documentation/gpio",
-   "include/uapi/linux",
-   "net/core",
-   "net/ipv6/netfilter",
-   "drivers/gpu/drm/vmwgfx",
-   "arch/xtensa/boot/dts",
-   "drivers/net/wireless",
-   "sound/soc/omap",
-   "tools/testing/selftests/kcmp",
-   "include/linux/spi",
-   "drivers/video/backlight",
-   "arch/arm/kernel",
-   "arch/mips",
-   "fs/btrfs",
-   "sound/soc/codecs",
-   "arch/arc/mm",
-   "drivers/block",
-   "drivers/powercap",
-   "sound/core",
-   "tools/testing/selftests/ipc",
-   "arch/xtensa/kernel",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "drivers/net/wireless/iwlwifi",
-   "fs/ext4",
-   "include/linux/regulator",
-   "Documentation/misc-devices",
-   "tools/usb/usbip/libsrc",
-   "arch/arm/kvm",
-   "drivers/net/fddi/skfp/h",
-   "fs/nfs",
-   "Documentation/filesystems",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "crypto",
-   "net",
-   "include",
-   "arch",
-   "lib",
-   "Documentation",
-   "tools",
-   "kernel",
-   "sound",
-   "drivers",
-   "mm",
-   "security",
-   "block",
-   "fs",
-   "scripts"
-  ],
-  "num_mod_dirs": 267,
-  "num_mod_sys": 15,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-07 21:41:53 -0700",
-  "committer_date": "2014-09-07 21:41:53 -0700"
+  "entropy": 8.063637435975226
  },
  "d030671f3f261e528dc6e396a13f10859a74ae7c": {
-  "num_adds_if": 3,
+  "num_adds_if": 2,
   "num_dels_if": 1,
-  "num_mod_total_if": 4,
-  "num_adds_loop": 3,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 2,
   "num_dels_loop": 2,
-  "num_mod_total_loop": 5,
+  "num_mod_total_loop": 4,
   "file_hash": "d030671f3f261e528dc6e396a13f10859a74ae7c",
-  "num_adds": 33,
-  "num_dels": 14,
-  "num_mod_lns_total": 47,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "6a5c75ce10cb",
-   "aa32362f011c"
-  ],
+  "num_adds": 29,
+  "num_dels": 13,
+  "num_mod_lns_total": 42,
   "mod_files_lst": [
    "kernel/cgroup.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 20:20:16 -0700",
-  "committer_date": "2014-09-07 20:20:16 -0700"
+  "entropy": 0.0
  },
  "6a5c75ce10cbfc805a4e6305638d6329a3beb77a": {
   "num_adds_if": 2,
@@ -1072,62 +680,26 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "6a5c75ce10cbfc805a4e6305638d6329a3beb77a",
-  "num_adds": 18,
+  "num_adds": 15,
   "num_dels": 6,
-  "num_mod_lns_total": 24,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "cfa7c641ded6",
-   "3189eddbcafc"
-  ],
+  "num_mod_lns_total": 21,
   "mod_files_lst": [
    "mm/percpu-vm.c",
    "mm/percpu.c"
   ],
-  "entropy": 0.41381685030363374,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "mm"
-  ],
-  "mod_sys": [
-   "mm"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 20:10:06 -0700",
-  "committer_date": "2014-09-07 20:10:06 -0700"
+  "entropy": 0.2761954276479391
  },
  "cfa7c641ded6e67a8d8fc54bd24f53a60465e68f": {
-  "num_adds_if": 7,
+  "num_adds_if": 4,
   "num_dels_if": 1,
-  "num_mod_total_if": 8,
-  "num_adds_loop": 5,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 6,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "cfa7c641ded6e67a8d8fc54bd24f53a60465e68f",
-  "num_adds": 99,
-  "num_dels": 18,
-  "num_mod_lns_total": 117,
-  "num_mod_files": 5,
-  "is_merge": true,
-  "parents": [
-   "b531f5dd9cb8",
-   "0babe614b6b4"
-  ],
+  "num_adds": 90,
+  "num_dels": 16,
+  "num_mod_lns_total": 106,
   "mod_files_lst": [
    "drivers/ata/ahci.c",
    "drivers/ata/ahci_tegra.c",
@@ -1135,49 +707,19 @@
    "drivers/ata/ata_piix.c",
    "drivers/ata/pata_jmicron.c"
   ],
-  "entropy": 1.9113476929268494,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/ata"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 20:06:44 -0700",
-  "committer_date": "2014-09-07 20:06:44 -0700"
+  "entropy": 1.934751692215601
  },
  "b531f5dd9cb84c5ee40156a230f8e28f69083821": {
-  "num_adds_if": 115,
-  "num_dels_if": 54,
-  "num_mod_total_if": 169,
-  "num_adds_loop": 9,
-  "num_dels_loop": 7,
-  "num_mod_total_loop": 16,
+  "num_adds_if": 103,
+  "num_dels_if": 49,
+  "num_mod_total_if": 152,
+  "num_adds_loop": 5,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 11,
   "file_hash": "b531f5dd9cb84c5ee40156a230f8e28f69083821",
-  "num_adds": 1082,
-  "num_dels": 555,
-  "num_mod_lns_total": 1637,
-  "num_mod_files": 116,
-  "is_merge": true,
-  "parents": [
-   "2ce7598c9a45",
-   "45ce829dd010"
-  ],
+  "num_adds": 982,
+  "num_dels": 512,
+  "num_mod_lns_total": 1494,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/net/stmmac.txt",
    "drivers/bcma/host_pci.c",
@@ -1296,92 +838,7 @@
    "net/sctp/socket.c",
    "net/socket.c"
   ],
-  "entropy": 5.459205106647525,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/renesas",
-   "drivers/net/ethernet/broadcom",
-   "drivers/infiniband/hw/mlx4",
-   "net/rfkill",
-   "drivers/net/ethernet/qlogic/qlge",
-   "include/linux/mlx4",
-   "net/ieee802154",
-   "drivers/net",
-   "net/sctp",
-   "drivers/net/wireless/iwlwifi/dvm",
-   "include/net/netns",
-   "drivers/net/ethernet/amd/xgbe",
-   "Documentation/devicetree/bindings/net",
-   "drivers/net/ethernet/3com",
-   "drivers/net/ethernet/intel/e1000e",
-   "drivers/net/wireless/rtlwifi/rtl8192cu",
-   "drivers/net/ethernet/marvell",
-   "net/mac802154",
-   "drivers/net/ethernet/intel/e1000",
-   "drivers/net/ethernet/ibm/ehea",
-   "include/trace/events",
-   "drivers/net/fddi/skfp/h",
-   "net/netfilter",
-   "net/ipv6",
-   "drivers/net/vmxnet3",
-   "drivers/net/ethernet/broadcom/bnx2x",
-   "net/openvswitch",
-   "drivers/net/ethernet/calxeda",
-   "drivers/net/ethernet/aeroflex",
-   "include/net",
-   "net/core",
-   "drivers/bcma",
-   "net/ipv6/netfilter",
-   "net/ipv4/netfilter",
-   "drivers/net/ethernet/stmicro/stmmac",
-   "include/linux",
-   "drivers/net/wireless",
-   "drivers/net/wireless/rtlwifi/btcoexist",
-   "net/mac80211",
-   "drivers/net/ethernet/intel/i40evf",
-   "drivers/net/wireless/ath/ath9k",
-   "drivers/s390/net",
-   "drivers/net/ethernet/intel/i40e",
-   "drivers/net/ethernet/apm/xgene",
-   "net",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "net/l2tp",
-   "drivers/net/phy",
-   "drivers/net/wireless/iwlwifi",
-   "drivers/net/ethernet/nxp",
-   "include/net/sctp",
-   "drivers/net/ethernet/brocade/bna",
-   "drivers/net/ethernet/moxa",
-   "net/bluetooth",
-   "net/netfilter/ipvs",
-   "drivers/ssb",
-   "include/net/bluetooth",
-   "drivers/net/ethernet/chelsio/cxgb4",
-   "drivers/net/xen-netback"
-  ],
-  "mod_sys": [
-   "drivers",
-   "net",
-   "include",
-   "Documentation"
-  ],
-  "num_mod_dirs": 59,
-  "num_mod_sys": 4,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 19:56:38 -0700",
-  "committer_date": "2014-09-07 19:56:38 -0700"
+  "entropy": 5.452765550086201
  },
  "284a8c93af47306beed967a303d84730b32bab39": {
   "num_adds_if": 3,
@@ -1392,13 +849,8 @@
   "num_mod_total_loop": 0,
   "file_hash": "284a8c93af47306beed967a303d84730b32bab39",
   "num_adds": 42,
-  "num_dels": 37,
-  "num_mod_lns_total": 79,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "1d082fd06188"
-  ],
+  "num_dels": 34,
+  "num_mod_lns_total": 76,
   "mod_files_lst": [
    "include/linux/rcupdate.h",
    "include/linux/rcutiny.h",
@@ -1407,38 +859,7 @@
    "kernel/rcu/tree_plugin.h",
    "kernel/softirq.c"
   ],
-  "entropy": 1.9167556834961053,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Peter Zijlstra <peterz@infradead.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel",
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-14 16:38:46 -0700",
-  "committer_date": "2014-09-07 16:27:35 -0700"
+  "entropy": 1.939628650015401
  },
  "1d082fd061884a587c490c4fc8a2056ce1e47624": {
   "num_adds_if": 4,
@@ -1449,50 +870,15 @@
   "num_mod_total_loop": 1,
   "file_hash": "1d082fd061884a587c490c4fc8a2056ce1e47624",
   "num_adds": 26,
-  "num_dels": 26,
-  "num_mod_lns_total": 52,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "4ff475ed4cf6"
-  ],
+  "num_dels": 25,
+  "num_mod_lns_total": 51,
   "mod_files_lst": [
    "include/linux/init_task.h",
    "include/linux/sched.h",
    "kernel/rcu/tree_plugin.h",
    "kernel/rcu/update.c"
   ],
-  "entropy": 1.3158243335257076,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Peter Zijlstra <peterz@infradead.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-14 16:01:53 -0700",
-  "committer_date": "2014-09-07 16:27:34 -0700"
+  "entropy": 1.3076535981650685
  },
  "4ff475ed4cf61a7f56bbfbc424147189d0022b38": {
   "num_adds_if": 0,
@@ -1502,44 +888,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4ff475ed4cf61a7f56bbfbc424147189d0022b38",
-  "num_adds": 9,
+  "num_adds": 8,
   "num_dels": 0,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "01a81330344b"
-  ],
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-10 19:47:12 -0700",
-  "committer_date": "2014-09-07 16:27:33 -0700"
+  "entropy": 0.0
  },
  "01a81330344b09028881c953a51d1106a9e63518": {
   "num_adds_if": 0,
@@ -1552,43 +907,10 @@
   "num_adds": 0,
   "num_dels": 2,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8f20a5e83d2c"
-  ],
   "mod_files_lst": [
    "include/linux/rcupdate.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Lai Jiangshan <laijs@cn.fujitsu.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux"
-  ],
-  "mod_sys": [
-   "include"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-05 05:23:35 -0700",
-  "committer_date": "2014-09-07 16:27:32 -0700"
+  "entropy": 0.0
  },
  "8f20a5e83d2c5d0e126a2fc9bca67f7430dac907": {
   "num_adds_if": 0,
@@ -1601,43 +923,10 @@
   "num_adds": 6,
   "num_dels": 5,
   "num_mod_lns_total": 11,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "176f8f7a52cc"
-  ],
   "mod_files_lst": [
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Frederic Weisbecker <fweisbec@gmail.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-05 05:10:24 -0700",
-  "committer_date": "2014-09-07 16:27:31 -0700"
+  "entropy": 0.0
  },
  "176f8f7a52cc6d09d686f0d900abda6942a52fbb": {
   "num_adds_if": 0,
@@ -1647,14 +936,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "176f8f7a52cc6d09d686f0d900abda6942a52fbb",
-  "num_adds": 27,
+  "num_adds": 25,
   "num_dels": 2,
-  "num_mod_lns_total": 29,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "84a8f446ffd7"
-  ],
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "include/linux/init_task.h",
    "include/linux/sched.h",
@@ -1663,129 +947,39 @@
    "kernel/rcu/tree_plugin.h",
    "kernel/rcu/update.c"
   ],
-  "entropy": 2.0043641847081424,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-04 17:43:50 -0700",
-  "committer_date": "2014-09-07 16:27:30 -0700"
+  "entropy": 2.0860780054608785
  },
  "84a8f446ffd70c2799a96268aaa4d47c22a83ff0": {
-  "num_adds_if": 4,
+  "num_adds_if": 3,
   "num_dels_if": 1,
-  "num_mod_total_if": 5,
+  "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "84a8f446ffd70c2799a96268aaa4d47c22a83ff0",
-  "num_adds": 26,
+  "num_adds": 25,
   "num_dels": 7,
-  "num_mod_lns_total": 33,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "37fe5f0e2713"
-  ],
+  "num_mod_lns_total": 32,
   "mod_files_lst": [
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-04 07:24:21 -0700",
-  "committer_date": "2014-09-07 16:27:29 -0700"
+  "entropy": 0.0
  },
  "37fe5f0e2713608573c5df5e529e13a135625629": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
+  "num_mod_total_if": 0,
   "num_adds_loop": 1,
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "37fe5f0e2713608573c5df5e529e13a135625629",
-  "num_adds": 24,
+  "num_adds": 20,
   "num_dels": 9,
-  "num_mod_lns_total": 33,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c7b24d2b9a0f"
-  ],
+  "num_mod_lns_total": 29,
   "mod_files_lst": [
    "Documentation/RCU/stallwarn.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/RCU"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-29 09:49:23 -0700",
-  "committer_date": "2014-09-07 16:27:28 -0700"
+  "entropy": 0.0
  },
  "c7b24d2b9a0f2ce19fdf631d3148c80a8f6010b1": {
   "num_adds_if": 2,
@@ -1798,91 +992,27 @@
   "num_adds": 12,
   "num_dels": 2,
   "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "52db30ab23b6"
-  ],
   "mod_files_lst": [
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-28 14:39:25 -0700",
-  "committer_date": "2014-09-07 16:27:27 -0700"
+  "entropy": 0.0
  },
  "52db30ab23b6d00cf80b22a510c4ea4be4458031": {
-  "num_adds_if": 4,
-  "num_dels_if": 1,
-  "num_mod_total_if": 5,
-  "num_adds_loop": 1,
+  "num_adds_if": 3,
+  "num_dels_if": 0,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "52db30ab23b6d00cf80b22a510c4ea4be4458031",
-  "num_adds": 30,
+  "num_adds": 28,
   "num_dels": 4,
-  "num_mod_lns_total": 34,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "f1a828f5fa35"
-  ],
+  "num_mod_lns_total": 32,
   "mod_files_lst": [
    "Documentation/kernel-parameters.txt",
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.6024308020404452,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "Documentation"
-  ],
-  "mod_sys": [
-   "kernel",
-   "Documentation"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-01 18:16:30 -0700",
-  "committer_date": "2014-09-07 16:27:26 -0700"
+  "entropy": 0.5435644431995964
  },
  "f1a828f5fa3537456c417a81ad534c14022c268c": {
   "num_adds_if": 0,
@@ -1895,11 +1025,6 @@
   "num_adds": 30,
   "num_dels": 0,
   "num_mod_lns_total": 30,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "69c604557ce3"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/configs/rcu/TASKS01",
    "tools/testing/selftests/rcutorture/configs/rcu/TASKS01.boot",
@@ -1908,85 +1033,24 @@
    "tools/testing/selftests/rcutorture/configs/rcu/TASKS03",
    "tools/testing/selftests/rcutorture/configs/rcu/TASKS03.boot"
   ],
-  "entropy": 1.9654012015001245,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/configs/rcu"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-01 12:56:20 -0700",
-  "committer_date": "2014-09-07 16:27:25 -0700"
+  "entropy": 1.9654012015001245
  },
  "69c604557ce34015629b325b85ff1a4996038a3b": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "69c604557ce34015629b325b85ff1a4996038a3b",
-  "num_adds": 50,
+  "num_adds": 40,
   "num_dels": 1,
-  "num_mod_lns_total": 51,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "06c2a9238fad"
-  ],
+  "num_mod_lns_total": 41,
   "mod_files_lst": [
    "include/linux/rcupdate.h",
    "kernel/rcu/rcutorture.c"
   ],
-  "entropy": 0.13923299905509887,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Josh Triplett <josh@joshtriplett.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-01 11:59:36 -0700",
-  "committer_date": "2014-09-07 16:27:24 -0700"
+  "entropy": 0.1654270339962668
  },
  "06c2a9238fad48ec38f1be00455bf942d54377ee": {
   "num_adds_if": 0,
@@ -1999,167 +1063,57 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3f95aa81d265"
-  ],
   "mod_files_lst": [
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Steven Rostedt <rostedt@goodmis.org>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Josh Triplett <josh@joshtriplett.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Steven Rostedt",
-  "author_email": "rostedt@goodmis.org",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-02 18:17:19 -0700",
-  "committer_date": "2014-09-07 16:27:23 -0700"
+  "entropy": 0.0
  },
  "3f95aa81d265223fdb13ea2b59883766a05adbdf": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 3,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "3f95aa81d265223fdb13ea2b59883766a05adbdf",
-  "num_adds": 27,
+  "num_adds": 24,
   "num_dels": 0,
-  "num_mod_lns_total": 27,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "53c6d4edf874"
-  ],
+  "num_mod_lns_total": 24,
   "mod_files_lst": [
    "include/linux/rcupdate.h",
    "kernel/exit.c",
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.9864267287308425,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Oleg Nesterov <oleg@redhat.com>"
-  ],
-  "ppl_suggested": [
-   "Suggested-by: Lai Jiangshan <laijs@cn.fujitsu.com>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel",
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-04 06:10:23 -0700",
-  "committer_date": "2014-09-07 16:27:22 -0700"
+  "entropy": 1.061278124459133
  },
  "53c6d4edf874d3cbc031a53738c6cba9277faea5": {
-  "num_adds_if": 5,
+  "num_adds_if": 3,
   "num_dels_if": 0,
-  "num_mod_total_if": 5,
-  "num_adds_loop": 5,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 5,
+  "num_mod_total_loop": 2,
   "file_hash": "53c6d4edf874d3cbc031a53738c6cba9277faea5",
-  "num_adds": 57,
+  "num_adds": 54,
   "num_dels": 0,
-  "num_mod_lns_total": 57,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "bde6c3aa9930"
-  ],
+  "num_mod_lns_total": 54,
   "mod_files_lst": [
    "include/linux/rcupdate.h",
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.2192973081321754,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-01 12:22:23 -0700",
-  "committer_date": "2014-09-07 16:27:21 -0700"
+  "entropy": 0.228538143953528
  },
  "bde6c3aa993066acb0d6ce32ecabe03b9d5df92d": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 2,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 1,
   "file_hash": "bde6c3aa993066acb0d6ce32ecabe03b9d5df92d",
-  "num_adds": 24,
+  "num_adds": 23,
   "num_dels": 11,
-  "num_mod_lns_total": 35,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "8315f42295d2"
-  ],
+  "num_mod_lns_total": 34,
   "mod_files_lst": [
    "fs/file.c",
    "include/linux/rcupdate.h",
@@ -2168,56 +1122,19 @@
    "kernel/rcu/tree_plugin.h",
    "mm/mlock.c"
   ],
-  "entropy": 2.125703978531021,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "mm",
-   "kernel/rcu",
-   "include/linux",
-   "fs"
-  ],
-  "mod_sys": [
-   "kernel",
-   "mm",
-   "include",
-   "fs"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 4,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-01 11:26:57 -0700",
-  "committer_date": "2014-09-07 16:27:20 -0700"
+  "entropy": 2.1451363701530526
  },
  "8315f42295d2667a7f942f154b73a86fd7cb2227": {
-  "num_adds_if": 8,
+  "num_adds_if": 6,
   "num_dels_if": 0,
-  "num_mod_total_if": 8,
-  "num_adds_loop": 18,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 7,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 18,
+  "num_mod_total_loop": 7,
   "file_hash": "8315f42295d2667a7f942f154b73a86fd7cb2227",
-  "num_adds": 242,
-  "num_dels": 11,
-  "num_mod_lns_total": 253,
-  "num_mod_files": 7,
-  "is_merge": false,
-  "parents": [
-   "11ed7f934cb8"
-  ],
+  "num_adds": 219,
+  "num_dels": 7,
+  "num_mod_lns_total": 226,
   "mod_files_lst": [
    "include/linux/init_task.h",
    "include/linux/rcupdate.h",
@@ -2227,39 +1144,7 @@
    "kernel/rcu/tree.c",
    "kernel/rcu/update.c"
   ],
-  "entropy": 1.5625959025655454,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [
-   "Suggested-by: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux",
-   "init"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include",
-   "init"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-06-27 13:42:20 -0700",
-  "committer_date": "2014-09-07 16:27:19 -0700"
+  "entropy": 1.572839730493305
  },
  "bc51896da2ceef188f9cd708943d48c1259ebe84": {
   "num_adds_if": 0,
@@ -2272,43 +1157,10 @@
   "num_adds": 4,
   "num_dels": 0,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b76592412a32"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/bin/parse-console.sh"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/bin"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-26 11:35:43 -0700",
-  "committer_date": "2014-09-07 16:24:49 -0700"
+  "entropy": 0.0
  },
  "b76592412a320dd58572fa3517c39adb2fdbd7ed": {
   "num_adds_if": 0,
@@ -2321,97 +1173,27 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "38706bc5a29a"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/bin/kvm-test-1-run.sh"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/bin"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-25 20:41:47 -0700",
-  "committer_date": "2014-09-07 16:24:48 -0700"
+  "entropy": 0.0
  },
  "38706bc5a29a73645e512c06ffb759fb56259d83": {
-  "num_adds_if": 5,
+  "num_adds_if": 4,
   "num_dels_if": 0,
-  "num_mod_total_if": 5,
+  "num_mod_total_if": 4,
   "num_adds_loop": 6,
   "num_dels_loop": 0,
   "num_mod_total_loop": 6,
   "file_hash": "38706bc5a29a73645e512c06ffb759fb56259d83",
-  "num_adds": 103,
+  "num_adds": 96,
   "num_dels": 1,
-  "num_mod_lns_total": 104,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "eea203fea348"
-  ],
+  "num_mod_lns_total": 97,
   "mod_files_lst": [
    "Documentation/kernel-parameters.txt",
    "kernel/rcu/rcutorture.c"
   ],
-  "entropy": 0.6646953053493417,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: David Miller <davem@davemloft.net>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "Documentation"
-  ],
-  "mod_sys": [
-   "kernel",
-   "Documentation"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-18 21:12:17 -0700",
-  "committer_date": "2014-09-07 16:24:48 -0700"
+  "entropy": 0.5954670513561874
  },
  "eea203fea3484598280a07fe503e025e886297fb": {
   "num_adds_if": 0,
@@ -2421,51 +1203,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "eea203fea3484598280a07fe503e025e886297fb",
-  "num_adds": 64,
-  "num_dels": 81,
-  "num_mod_lns_total": 145,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "188c1e896c0c"
-  ],
+  "num_adds": 59,
+  "num_dels": 79,
+  "num_mod_lns_total": 138,
   "mod_files_lst": [
    "include/linux/torture.h",
    "kernel/rcu/rcutorture.c",
    "kernel/torture.c"
   ],
-  "entropy": 0.6036128471179341,
-  "ppl_signed_off": [
-   "Signed-off-by: Joe Perches <joe@perches.com>",
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel",
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Joe Perches",
-  "author_email": "joe@perches.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-14 09:16:15 -0400",
-  "committer_date": "2014-09-07 16:24:47 -0700"
+  "entropy": 0.6242717649446747
  },
  "188c1e896c0c28ac98809d11b6f29523805b34ef": {
   "num_adds_if": 0,
@@ -2478,60 +1224,22 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ae867ff03d09"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/configs/rcu/TREE07"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/configs/rcu"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-26 21:38:09 -0700",
-  "committer_date": "2014-09-07 16:24:46 -0700"
+  "entropy": 0.0
  },
  "ae867ff03d09c2aec56b0443b8b04e5a3fa1e336": {
-  "num_adds_if": 2,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 2,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ae867ff03d09c2aec56b0443b8b04e5a3fa1e336",
-  "num_adds": 26,
+  "num_adds": 25,
   "num_dels": 5,
-  "num_mod_lns_total": 31,
-  "num_mod_files": 5,
-  "is_merge": false,
-  "parents": [
-   "9e62b0efdcea"
-  ],
+  "num_mod_lns_total": 30,
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/bin/functions.sh",
    "tools/testing/selftests/rcutorture/bin/kvm-test-1-run.sh",
@@ -2539,36 +1247,7 @@
    "tools/testing/selftests/rcutorture/configs/rcu/TREE01",
    "tools/testing/selftests/rcutorture/configs/rcu/TREE01.boot"
   ],
-  "entropy": 1.5852104427176092,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/configs/rcu",
-   "tools/testing/selftests/rcutorture/bin"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-21 13:35:10 -0700",
-  "committer_date": "2014-09-07 16:24:45 -0700"
+  "entropy": 1.6165365037609145
  },
  "9e62b0efdcead5b66c0c006df2f19a449b22cf08": {
   "num_adds_if": 0,
@@ -2581,44 +1260,11 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "616fd166f64d"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/configs/rcu/TREE07",
    "tools/testing/selftests/rcutorture/configs/rcu/TREE07.boot"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/configs/rcu"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-21 13:13:35 -0700",
-  "committer_date": "2014-09-07 16:24:44 -0700"
+  "entropy": 0.9182958340544896
  },
  "616fd166f64df42db7d1bdd12918d9105f3add05": {
   "num_adds_if": 0,
@@ -2631,43 +1277,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3327d924a7fe"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/doc/initrd.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/doc"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-18 12:01:39 -0700",
-  "committer_date": "2014-09-07 16:24:43 -0700"
+  "entropy": 0.0
  },
  "3327d924a7fef224754273d70224f130d63997c6": {
   "num_adds_if": 0,
@@ -2680,11 +1293,6 @@
   "num_adds": 12,
   "num_dels": 15,
   "num_mod_lns_total": 27,
-  "num_mod_files": 12,
-  "is_merge": false,
-  "parents": [
-   "1a5e31fbf919"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/bin/config2frag.sh",
    "tools/testing/selftests/rcutorture/bin/configcheck.sh",
@@ -2699,34 +1307,7 @@
    "tools/testing/selftests/rcutorture/bin/parse-console.sh",
    "tools/testing/selftests/rcutorture/bin/parse-torture.sh"
   ],
-  "entropy": 3.559900001923083,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/bin"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-11 19:47:35 -0400",
-  "committer_date": "2014-09-07 16:24:38 -0700"
+  "entropy": 3.559900001923083
  },
  "1a5e31fbf9199212915095c47ebf22d0715d3389": {
   "num_adds_if": 0,
@@ -2739,11 +1320,6 @@
   "num_adds": 18,
   "num_dels": 18,
   "num_mod_lns_total": 36,
-  "num_mod_files": 12,
-  "is_merge": false,
-  "parents": [
-   "58ade2dbe9a2"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/rcutorture/bin/config2frag.sh",
    "tools/testing/selftests/rcutorture/bin/configcheck.sh",
@@ -2758,34 +1334,7 @@
    "tools/testing/selftests/rcutorture/bin/parse-console.sh",
    "tools/testing/selftests/rcutorture/bin/parse-torture.sh"
   ],
-  "entropy": 3.5032583347756456,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/rcutorture/bin"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-11 17:31:27 -0400",
-  "committer_date": "2014-09-07 16:24:32 -0700"
+  "entropy": 3.5032583347756456
  },
  "58ade2dbe9a253635e0835adedfaa822849aa3a3": {
   "num_adds_if": 0,
@@ -2798,44 +1347,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "11ed7f934cb8"
-  ],
   "mod_files_lst": [
    "kernel/rcu/rcutorture.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Josh Triplett <josh@joshtriplett.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-06-11 16:39:43 -0400",
-  "committer_date": "2014-09-07 16:24:17 -0700"
+  "entropy": 0.0
  },
  "73a860cd58a1eb258e889b615cebf738ab33aa23": {
   "num_adds_if": 0,
@@ -2848,44 +1363,11 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "2aa792e6faf1"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.c",
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 0.9709505944546686,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Oleg Nesterov <oleg@redhat.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-14 10:28:23 -0700",
-  "committer_date": "2014-09-07 16:18:20 -0700"
+  "entropy": 0.9709505944546686
  },
  "2aa792e6faf1a00f5accf1f69e87e11a390ba2cd": {
   "num_adds_if": 0,
@@ -2898,42 +1380,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ade9862470dd"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-12 13:07:47 -0400",
-  "committer_date": "2014-09-07 16:18:19 -0700"
+  "entropy": 0.0
  },
  "ade9862470dd0595d8e292ecea8445ed90b98df5": {
   "num_adds_if": 2,
@@ -2946,94 +1396,28 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9fdd3bc90058"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tiny.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Josh Triplett <josh@joshtriplett.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-31 16:02:33 -0700",
-  "committer_date": "2014-09-07 16:18:18 -0700"
+  "entropy": 0.0
  },
  "9fdd3bc9005824704f9802bec7b3e06f5edae434": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "9fdd3bc9005824704f9802bec7b3e06f5edae434",
-  "num_adds": 28,
+  "num_adds": 26,
   "num_dels": 10,
-  "num_mod_lns_total": 38,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "66d701ea7e14"
-  ],
+  "num_mod_lns_total": 36,
   "mod_files_lst": [
    "include/trace/events/rcu.h",
    "kernel/rcu/tree.h",
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 1.1559368506327254,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/trace/events"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-29 14:50:47 -0700",
-  "committer_date": "2014-09-07 16:18:17 -0700"
+  "entropy": 1.1462779945942128
  },
  "66d701ea7e148f8ed8b1497c9159fbf6175d462f": {
   "num_adds_if": 0,
@@ -3044,47 +1428,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "66d701ea7e148f8ed8b1497c9159fbf6175d462f",
   "num_adds": 0,
-  "num_dels": 2,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "fafb6e843f22"
-  ],
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "kernel/rcu/tree.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Josh Triplett <josh@joshtriplett.org>",
-   "Reviewed-by: Lai Jiangshan <laijs@cn.fujitsu.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-16 22:20:33 -0400",
-  "committer_date": "2014-09-07 16:18:16 -0700"
+  "entropy": 0.0
  },
  "fafb6e843f229a6e842a22773f16d93194ca06e4": {
   "num_adds_if": 0,
@@ -3097,42 +1446,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a8a29b3b7b18"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tiny.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-15 18:31:47 -0400",
-  "committer_date": "2014-09-07 16:18:15 -0700"
+  "entropy": 0.0
  },
  "a8a29b3b7b18251c4e3ffce501f25ae868302a75": {
   "num_adds_if": 0,
@@ -3142,98 +1459,30 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a8a29b3b7b18251c4e3ffce501f25ae868302a75",
-  "num_adds": 12,
+  "num_adds": 11,
   "num_dels": 3,
-  "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "85b39d305bfe"
-  ],
+  "num_mod_lns_total": 14,
   "mod_files_lst": [
    "kernel/rcu/tree.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ard Biesheuvel <ard.biesheuvel@linaro.org>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Ard Biesheuvel",
-  "author_email": "ard.biesheuvel@linaro.org",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-12 19:01:49 +0200",
-  "committer_date": "2014-09-07 16:18:14 -0700"
+  "entropy": 0.0
  },
  "85b39d305bfe809a11ff2770d380be3e2465beec": {
   "num_adds_if": 5,
   "num_dels_if": 5,
   "num_mod_total_if": 10,
-  "num_adds_loop": 4,
-  "num_dels_loop": 4,
-  "num_mod_total_loop": 8,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "85b39d305bfe809a11ff2770d380be3e2465beec",
-  "num_adds": 33,
-  "num_dels": 35,
-  "num_mod_lns_total": 68,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "e02b2edfa138"
-  ],
+  "num_adds": 32,
+  "num_dels": 34,
+  "num_mod_lns_total": 66,
   "mod_files_lst": [
    "include/linux/rcupdate.h",
    "kernel/rcu/update.c"
   ],
-  "entropy": 0.9975025463691153,
-  "ppl_signed_off": [
-   "Signed-off-by: Oleg Nesterov <oleg@redhat.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Oleg Nesterov",
-  "author_email": "oleg@redhat.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 15:17:59 -0700",
-  "committer_date": "2014-09-07 16:18:13 -0700"
+  "entropy": 0.9973487979180449
  },
  "e02b2edfa13878c6671d31d5c736f56f89d99bf1": {
   "num_adds_if": 0,
@@ -3246,42 +1495,10 @@
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "521d24ee598b"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-09 00:08:17 -0400",
-  "committer_date": "2014-09-07 16:18:12 -0700"
+  "entropy": 0.0
  },
  "521d24ee598bd8a8b71d7ac76ce2c0da0e548406": {
   "num_adds_if": 0,
@@ -3294,42 +1511,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d0bc90fd37e5"
-  ],
   "mod_files_lst": [
    "include/linux/rcupdate.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux"
-  ],
-  "mod_sys": [
-   "include"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 18:26:18 -0400",
-  "committer_date": "2014-09-07 16:18:11 -0700"
+  "entropy": 0.0
  },
  "d0bc90fd37e50e4ea22c51c26947fd78c2a7a6c2": {
   "num_adds_if": 0,
@@ -3342,42 +1527,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f534ed1fd71c"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 18:26:13 -0400",
-  "committer_date": "2014-09-07 16:18:10 -0700"
+  "entropy": 0.0
  },
  "f534ed1fd71cea885a59255d9b44c3b17df03eb1": {
   "num_adds_if": 0,
@@ -3390,42 +1543,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "bf33eb1aef23"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 18:26:11 -0400",
-  "committer_date": "2014-09-07 16:18:09 -0700"
+  "entropy": 0.0
  },
  "bf33eb1aef23e8049cd222471d35b0988c420b18": {
   "num_adds_if": 0,
@@ -3438,42 +1559,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4de376a1b14e"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 18:26:10 -0400",
-  "committer_date": "2014-09-07 16:18:08 -0700"
+  "entropy": 0.0
  },
  "4de376a1b14e32f550931274f06b571abc0f3d4b": {
   "num_adds_if": 0,
@@ -3486,98 +1575,32 @@
   "num_adds": 9,
   "num_dels": 5,
   "num_mod_lns_total": 14,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "11ed7f934cb8"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.c",
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 0.9852281360342515,
-  "ppl_signed_off": [
-   "Signed-off-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pranith Kumar",
-  "author_email": "bobby.prani@gmail.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-08 17:46:50 -0400",
-  "committer_date": "2014-09-07 16:18:07 -0700"
+  "entropy": 0.9852281360342515
  },
  "2456d2a617de0a37a0f8d1e44f4b270172c4f17a": {
-  "num_adds_if": 4,
-  "num_dels_if": 5,
-  "num_mod_total_if": 9,
-  "num_adds_loop": 2,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_adds_if": 2,
+  "num_dels_if": 3,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
   "file_hash": "2456d2a617de0a37a0f8d1e44f4b270172c4f17a",
-  "num_adds": 49,
-  "num_dels": 54,
-  "num_mod_lns_total": 103,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "efdcd51a4d5b"
-  ],
+  "num_adds": 45,
+  "num_dels": 50,
+  "num_mod_lns_total": 95,
   "mod_files_lst": [
    "Documentation/memory-barriers.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Pranith Kumar <bobby.prani@gmail.com>",
-   "Reported-by: Peter Zijlstra <peterz@infradead.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-13 15:40:02 -0700",
-  "committer_date": "2014-09-07 16:15:53 -0700"
+  "entropy": 0.0
  },
  "efdcd51a4d5bd355796b1a757ff0355bb09ed394": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -3585,43 +1608,10 @@
   "num_adds": 6,
   "num_dels": 3,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5646f7acc95f"
-  ],
   "mod_files_lst": [
    "Documentation/memory-barriers.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Pranith Kumar <pranith@gatech.edu>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-08-04 11:49:34 -0700",
-  "committer_date": "2014-09-07 16:15:52 -0700"
+  "entropy": 0.0
  },
  "5646f7acc95f14873f1ec715380c1c493b4243ce": {
   "num_adds_if": 1,
@@ -3631,48 +1621,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "5646f7acc95f14873f1ec715380c1c493b4243ce",
-  "num_adds": 17,
+  "num_adds": 16,
   "num_dels": 11,
-  "num_mod_lns_total": 28,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "11ed7f934cb8"
-  ],
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "Documentation/memory-barriers.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pranith Kumar <bobby.prani@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Nikolay Samofatov <nikolay.samofatov@gmail.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul E. McKenney",
-  "author_email": "paulmck@linux.vnet.ibm.com",
-  "committer": "Paul E. McKenney",
-  "committer_email": "paulmck@linux.vnet.ibm.com",
-  "author_date": "2014-07-25 17:05:24 -0700",
-  "committer_date": "2014-09-07 16:15:41 -0700"
+  "entropy": 0.0
  },
  "97a13e5289baa96eaddd06e61d277457d837af3a": {
   "num_adds_if": 0,
@@ -3685,62 +1640,22 @@
   "num_adds": 0,
   "num_dels": 2,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "13aa3463e574"
-  ],
   "mod_files_lst": [
    "drivers/net/phy/Kconfig"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Beniamino Galvani <b.galvani@gmail.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [
-   "Suggested-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/phy"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Beniamino Galvani",
-  "author_email": "b.galvani@gmail.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-06 00:28:23 +0200",
-  "committer_date": "2014-09-07 16:12:03 -0700"
+  "entropy": 0.0
  },
  "45ce829dd010668c3839a61b25843590eb4677dc": {
-  "num_adds_if": 8,
-  "num_dels_if": 1,
-  "num_mod_total_if": 9,
+  "num_adds_if": 6,
+  "num_dels_if": 0,
+  "num_mod_total_if": 6,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "45ce829dd010668c3839a61b25843590eb4677dc",
-  "num_adds": 33,
+  "num_adds": 29,
   "num_dels": 14,
-  "num_mod_lns_total": 47,
-  "num_mod_files": 11,
-  "is_merge": true,
-  "parents": [
-   "de185ab46cb0",
-   "1bd3fa7b8c9b"
-  ],
+  "num_mod_lns_total": 43,
   "mod_files_lst": [
    "drivers/net/wireless/iwlwifi/Kconfig",
    "drivers/net/wireless/iwlwifi/dvm/rxon.c",
@@ -3754,38 +1669,7 @@
    "net/mac80211/mlme.c",
    "net/mac80211/sta_info.c"
   ],
-  "entropy": 3.148686587430322,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/iwlwifi",
-   "include/net",
-   "drivers/net/wireless/iwlwifi/dvm",
-   "net/mac80211"
-  ],
-  "mod_sys": [
-   "drivers",
-   "net",
-   "include"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 3,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-07 16:11:10 -0700",
-  "committer_date": "2014-09-07 16:11:10 -0700"
+  "entropy": 3.2171085114534708
  },
  "de185ab46cb02df9738b0d898b0c3a89181c5526": {
   "num_adds_if": 0,
@@ -3798,49 +1682,10 @@
   "num_adds": 0,
   "num_dels": 2,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "bc55dc63b271"
-  ],
   "mod_files_lst": [
    "net/ipv6/anycast.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Cong Wang <xiyou.wangcong@gmail.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Hannes Frederic Sowa <hannes@stressinduktion.org>"
-  ],
-  "ppl_cc": [
-   "Cc: Sabrina Dubroca <sd@queasysnail.net>",
-   "Cc: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: commit a9ed4a2986e13011 (\"ipv6: fix rtnl locking in setsockopt for anycast and multicast\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "net/ipv6"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "WANG Cong",
-  "author_email": "xiyou.wangcong@gmail.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-05 14:33:00 -0700",
-  "committer_date": "2014-09-07 16:10:07 -0700"
+  "entropy": 0.0
  },
  "2ce7598c9a453e0acd0e07be7be3f5eb39608ebd": {
   "num_adds_if": 0,
@@ -3853,38 +1698,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7e0dae61e24a"
-  ],
   "mod_files_lst": [
    "Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 16:09:43 -0700",
-  "committer_date": "2014-09-07 16:09:43 -0700"
+  "entropy": 0.0
  },
  "13aa3463e574d2ae2618306dcd3e973c5eed6d7f": {
   "num_adds_if": 0,
@@ -3897,44 +1714,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a42f5c171311"
-  ],
   "mod_files_lst": [
    "net/rose/rose_link.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Eric Dumazet <edumazet@google.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/rose"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Shevchenko",
-  "author_email": "andriy.shevchenko@linux.intel.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-05 18:32:18 +0300",
-  "committer_date": "2014-09-07 16:07:25 -0700"
+  "entropy": 0.0
  },
  "fe3270425f5555bf382178f27327752f3f2c9c4a": {
   "num_adds_if": 0,
@@ -3945,135 +1728,48 @@
   "num_mod_total_loop": 0,
   "file_hash": "fe3270425f5555bf382178f27327752f3f2c9c4a",
   "num_adds": 1,
-  "num_dels": 9,
-  "num_mod_lns_total": 10,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "d47aa761612c"
-  ],
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
   "mod_files_lst": [
    "drivers/staging/greybus/battery-gb.c",
    "drivers/staging/greybus/gbuf.c"
   ],
-  "entropy": 0.8812908992306927,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/greybus"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Greg Kroah-Hartman",
-  "author_email": "greg@kroah.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "greg@kroah.com",
-  "author_date": "2014-09-07 15:57:07 -0700",
-  "committer_date": "2014-09-07 15:57:07 -0700"
+  "entropy": 0.0
  },
  "d47aa761612c9bc2174718889cdab185cb20b723": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "d47aa761612c9bc2174718889cdab185cb20b723",
   "num_adds": 4,
-  "num_dels": 2,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "33ea3a3f56d2"
-  ],
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
   "mod_files_lst": [
    "drivers/staging/greybus/battery-gb.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/greybus"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Greg Kroah-Hartman",
-  "author_email": "greg@kroah.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "greg@kroah.com",
-  "author_date": "2014-09-07 15:54:24 -0700",
-  "committer_date": "2014-09-07 15:54:24 -0700"
+  "entropy": 0.0
  },
  "33ea3a3f56d26f10e07ffe16fcaccaad904056d3": {
   "num_adds_if": 3,
   "num_dels_if": 0,
   "num_mod_total_if": 3,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "33ea3a3f56d26f10e07ffe16fcaccaad904056d3",
-  "num_adds": 167,
+  "num_adds": 134,
   "num_dels": 1,
-  "num_mod_lns_total": 168,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "43cc32a2ab9b"
-  ],
+  "num_mod_lns_total": 135,
   "mod_files_lst": [
    "drivers/staging/greybus/Makefile",
    "drivers/staging/greybus/battery-gb.c",
    "drivers/staging/greybus/core.c",
    "drivers/staging/greybus/greybus.h"
   ],
-  "entropy": 0.5641315451945984,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/greybus"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Greg Kroah-Hartman",
-  "author_email": "greg@kroah.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "greg@kroah.com",
-  "author_date": "2014-09-07 15:39:34 -0700",
-  "committer_date": "2014-09-07 15:39:34 -0700"
+  "entropy": 0.6041147252792567
  },
  "7e0dae61e24a88ad21af2f196e49454e78a8df78": {
   "num_adds_if": 0,
@@ -4086,43 +1782,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "731d5cca8272"
-  ],
   "mod_files_lst": [
    "Documentation/SubmittingPatches"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sudip Mukherjee <sudip@vectorindia.org>",
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sudip Mukherjee",
-  "author_email": "sudipm.mukherjee@gmail.com",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:26:12 -0700",
-  "committer_date": "2014-09-07 15:21:13 -0700"
+  "entropy": 0.0
  },
  "731d5cca82729c85ca3296902a64836619f4ba2d": {
   "num_adds_if": 0,
@@ -4135,47 +1798,10 @@
   "num_adds": 9,
   "num_dels": 7,
   "num_mod_lns_total": 16,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0024d6e9fd61"
-  ],
   "mod_files_lst": [
    "Documentation/filesystems/nfs/nfs-rdma.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Paul Bolle <pebolle@tiscali.nl>",
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: \"J. Bruce Fields\" <bfields@redhat.com>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Jeff Layton <jlayton@redhat.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/filesystems/nfs"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Paul Bolle",
-  "author_email": "pebolle@tiscali.nl",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:25:55 -0700",
-  "committer_date": "2014-09-07 15:21:13 -0700"
+  "entropy": 0.0
  },
  "0024d6e9fd61eefb3915749827ff005db7ce5084": {
   "num_adds_if": 1,
@@ -4188,43 +1814,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "257d6ef4aafa"
-  ],
   "mod_files_lst": [
    "Documentation/misc-devices/lis3lv02d"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Masanari Iida <standby24x7@gmail.com>",
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/misc-devices"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Masanari Iida",
-  "author_email": "standby24x7@gmail.com",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:25:45 -0700",
-  "committer_date": "2014-09-07 15:21:13 -0700"
+  "entropy": 0.0
  },
  "257d6ef4aafa5078e469eb277dfd49841a736618": {
   "num_adds_if": 1,
@@ -4237,96 +1830,26 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "77be4daf4e65"
-  ],
   "mod_files_lst": [
    "Documentation/i2c/dev-interface"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jose Alarcon Roldan <jose.alarcon.roldan@gmail.com>",
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/i2c"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jose Manuel Alarcon Roldan",
-  "author_email": "jose.alarcon.roldan@gmail.com",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:25:00 -0700",
-  "committer_date": "2014-09-07 15:21:13 -0700"
+  "entropy": 0.0
  },
  "77be4daf4e65eb1da70e6623ec61ecde62f5de95": {
-  "num_adds_if": 2,
+  "num_adds_if": 1,
   "num_dels_if": 0,
-  "num_mod_total_if": 2,
+  "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "77be4daf4e65eb1da70e6623ec61ecde62f5de95",
-  "num_adds": 33,
+  "num_adds": 25,
   "num_dels": 0,
-  "num_mod_lns_total": 33,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6fef37c9a7f1"
-  ],
+  "num_mod_lns_total": 25,
   "mod_files_lst": [
    "Documentation/filesystems/seq_file.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Rob Jones <rob.jones@codethink.co.uk>",
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Steven Whitehouse <swhiteho@redhat.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/filesystems"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Rob Jones",
-  "author_email": "rob.jones@codethink.co.uk",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:24:40 -0700",
-  "committer_date": "2014-09-07 15:21:13 -0700"
+  "entropy": 0.0
  },
  "06ed3d607b1030365e6f4bdae193e64378e4264b": {
   "num_adds_if": 0,
@@ -4339,42 +1862,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9ec1f58b9a8e"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfca/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:38 +0200",
-  "committer_date": "2014-09-07 23:56:49 +0200"
+  "entropy": 0.0
  },
  "9ec1f58b9a8ecd72e675c33bfe8ceaf1bc0dc4c5": {
   "num_adds_if": 0,
@@ -4384,45 +1875,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9ec1f58b9a8ecd72e675c33bfe8ceaf1bc0dc4c5",
-  "num_adds": 4,
+  "num_adds": 2,
   "num_dels": 1,
-  "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "df2566fe37d9"
-  ],
+  "num_mod_lns_total": 3,
   "mod_files_lst": [
    "drivers/nfc/st21nfca/st21nfca.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:37 +0200",
-  "committer_date": "2014-09-07 23:56:49 +0200"
+  "entropy": 0.0
  },
  "df2566fe37d92dfba032e6084ebfb708dac5dc9a": {
   "num_adds_if": 1,
@@ -4433,44 +1892,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "df2566fe37d92dfba032e6084ebfb708dac5dc9a",
   "num_adds": 5,
-  "num_dels": 10,
-  "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2c376a9e3c97"
-  ],
+  "num_dels": 9,
+  "num_mod_lns_total": 14,
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/st21nfcb.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:36 +0200",
-  "committer_date": "2014-09-07 23:56:48 +0200"
+  "entropy": 0.0
  },
  "2c376a9e3c973e7923daba78aa16c768503cdef3": {
   "num_adds_if": 0,
@@ -4483,42 +1910,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d363d7d0a575"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:35 +0200",
-  "committer_date": "2014-09-07 23:56:48 +0200"
+  "entropy": 0.0
  },
  "d363d7d0a5755b347de42c28aeab23ecfdcd2348": {
   "num_adds_if": 0,
@@ -4531,42 +1926,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "56ee645e304c"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:34 +0200",
-  "committer_date": "2014-09-07 23:56:48 +0200"
+  "entropy": 0.0
  },
  "56ee645e304c9b86b48768de8e52babd5b6e1d8a": {
   "num_adds_if": 0,
@@ -4577,44 +1940,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "56ee645e304c9b86b48768de8e52babd5b6e1d8a",
   "num_adds": 6,
-  "num_dels": 24,
-  "num_mod_lns_total": 30,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "361325e21d3a"
-  ],
+  "num_dels": 21,
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:33 +0200",
-  "committer_date": "2014-09-07 23:56:47 +0200"
+  "entropy": 0.0
  },
  "361325e21d3a06a31ab53baf452c0946743b7abb": {
   "num_adds_if": 0,
@@ -4627,42 +1958,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3e6df9191abe"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:32 +0200",
-  "committer_date": "2014-09-07 23:56:47 +0200"
+  "entropy": 0.0
  },
  "3e6df9191abe9dc46b7f9f540e1c3c73cfaccedf": {
   "num_adds_if": 0,
@@ -4672,47 +1971,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3e6df9191abe9dc46b7f9f540e1c3c73cfaccedf",
-  "num_adds": 4,
+  "num_adds": 0,
   "num_dels": 0,
-  "num_mod_lns_total": 4,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "6ae3ed1c52b9"
-  ],
+  "num_mod_lns_total": 0,
   "mod_files_lst": [
    "drivers/nfc/st21nfca/i2c.c",
    "drivers/nfc/st21nfca/st21nfca.c",
    "drivers/nfc/st21nfca/st21nfca_dep.c"
   ],
-  "entropy": 1.5,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:31 +0200",
-  "committer_date": "2014-09-07 23:56:46 +0200"
+  "entropy": 0.0
  },
  "6ae3ed1c52b9ce12e1b3d2ac8f648b7de1569dfe": {
   "num_adds_if": 0,
@@ -4725,42 +1992,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0be8ce737c1f"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfca/st21nfca.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:30 +0200",
-  "committer_date": "2014-09-07 23:56:46 +0200"
+  "entropy": 0.0
  },
  "0be8ce737c1f052a1811d029f8afb03583f7238f": {
   "num_adds_if": 0,
@@ -4771,46 +2006,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "0be8ce737c1f052a1811d029f8afb03583f7238f",
   "num_adds": 6,
-  "num_dels": 22,
-  "num_mod_lns_total": 28,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ce3a5de7f58f"
-  ],
+  "num_dels": 20,
+  "num_mod_lns_total": 26,
   "mod_files_lst": [
    "drivers/nfc/st21nfca/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Axel Lin <axel.lin@ingics.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Christophe RICARD <christophe-h.ricard@st.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Axel Lin",
-  "author_email": "axel.lin@ingics.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:29 +0200",
-  "committer_date": "2014-09-07 23:56:46 +0200"
+  "entropy": 0.0
  },
  "ce3a5de7f58f18976b6536d8ea663f90da0e8093": {
   "num_adds_if": 0,
@@ -4823,44 +2024,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cb174aba86fe"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfca/i2c.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Emil Goode <emilgoode@gmail.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Christophe RICARD <christophe-h.ricard@st.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Emil Goode",
-  "author_email": "emilgoode@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-07-28 18:11:28 +0200",
-  "committer_date": "2014-09-07 23:56:45 +0200"
+  "entropy": 0.0
  },
  "300c627fbc52aa5b2117ca267907ab8d7b990ead": {
   "num_adds_if": 0,
@@ -4873,44 +2040,10 @@
   "num_adds": 3,
   "num_dels": 2,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a1b27b3867b1"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfca/Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Daniel Wagner <wagi@monom.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfca"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-03 23:30:31 +0200",
-  "committer_date": "2014-09-07 23:45:53 +0200"
+  "entropy": 0.0
  },
  "a1b27b3867b17356089e2906c538a1049873ab42": {
   "num_adds_if": 0,
@@ -4923,44 +2056,10 @@
   "num_adds": 3,
   "num_dels": 2,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d07f1e8600cc"
-  ],
   "mod_files_lst": [
    "drivers/nfc/st21nfcb/Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe Ricard <christophe-h.ricard@st.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Daniel Wagner <wagi@monom.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc/st21nfcb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe Ricard",
-  "author_email": "christophe.ricard@gmail.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-03 23:30:33 +0200",
-  "committer_date": "2014-09-07 23:45:35 +0200"
+  "entropy": 0.0
  },
  "cb174aba86fe10ddac8b692c90a9480526c02953": {
   "num_adds_if": 7,
@@ -4970,45 +2069,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "cb174aba86fe10ddac8b692c90a9480526c02953",
-  "num_adds": 154,
-  "num_dels": 6,
-  "num_mod_lns_total": 160,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "13b4272a8264"
-  ],
+  "num_adds": 127,
+  "num_dels": 5,
+  "num_mod_lns_total": 132,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:46 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "13b4272a8264220ec043a922fd1fa05da72d57ae": {
   "num_adds_if": 28,
@@ -5018,45 +2085,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "13b4272a8264220ec043a922fd1fa05da72d57ae",
-  "num_adds": 339,
-  "num_dels": 35,
-  "num_mod_lns_total": 374,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1961843ceeca"
-  ],
+  "num_adds": 297,
+  "num_dels": 34,
+  "num_mod_lns_total": 331,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:45 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "1961843ceeca0d3e55744bba7ae8d9e23d04cf6a": {
   "num_adds_if": 4,
@@ -5066,45 +2101,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1961843ceeca0d3e55744bba7ae8d9e23d04cf6a",
-  "num_adds": 22,
+  "num_adds": 20,
   "num_dels": 7,
-  "num_mod_lns_total": 29,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6fb9edcb43d0"
-  ],
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:44 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "6fb9edcb43d0b1bf0ac2aaf6ba488d105c45f477": {
   "num_adds_if": 0,
@@ -5114,45 +2117,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6fb9edcb43d0b1bf0ac2aaf6ba488d105c45f477",
-  "num_adds": 2,
+  "num_adds": 1,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "851ee3cbf850"
-  ],
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:43 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "851ee3cbf850501104e76683e439a4061f378a96": {
   "num_adds_if": 8,
@@ -5162,45 +2133,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "851ee3cbf850501104e76683e439a4061f378a96",
-  "num_adds": 49,
+  "num_adds": 38,
   "num_dels": 2,
-  "num_mod_lns_total": 51,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7149d6bfecad"
-  ],
+  "num_mod_lns_total": 40,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:42 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "7149d6bfecadc255e9d964782a9fdd70f610f1ea": {
   "num_adds_if": 0,
@@ -5210,45 +2149,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7149d6bfecadc255e9d964782a9fdd70f610f1ea",
-  "num_adds": 2,
+  "num_adds": 1,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cfc708dbe402"
-  ],
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:41 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "cfc708dbe4022324bcd2bcb5817dd29f1f91299d": {
   "num_adds_if": 1,
@@ -5258,45 +2165,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "cfc708dbe4022324bcd2bcb5817dd29f1f91299d",
-  "num_adds": 4,
+  "num_adds": 3,
   "num_dels": 0,
-  "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "307e5caf6fb1"
-  ],
+  "num_mod_lns_total": 3,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:40 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "307e5caf6fb1dac1b9cfa1d78138d77e46517b56": {
   "num_adds_if": 0,
@@ -5309,42 +2184,10 @@
   "num_adds": 4,
   "num_dels": 4,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4e007f810664"
-  ],
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:39 -0700",
-  "committer_date": "2014-09-07 23:13:45 +0200"
+  "entropy": 0.0
  },
  "4e007f810664541078e619d050f6290bf137aa61": {
   "num_adds_if": 0,
@@ -5354,45 +2197,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4e007f810664541078e619d050f6290bf137aa61",
-  "num_adds": 2,
+  "num_adds": 1,
   "num_dels": 0,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "77c9539dc128"
-  ],
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:38 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "77c9539dc1284677539af442ac3629c9baf01202": {
   "num_adds_if": 0,
@@ -5402,45 +2213,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "77c9539dc1284677539af442ac3629c9baf01202",
-  "num_adds": 37,
+  "num_adds": 25,
   "num_dels": 0,
-  "num_mod_lns_total": 37,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b528281b8b7a"
-  ],
+  "num_mod_lns_total": 25,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:37 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "b528281b8b7a9c379baf37720191a799fbc9800c": {
   "num_adds_if": 1,
@@ -5450,45 +2229,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b528281b8b7a9c379baf37720191a799fbc9800c",
-  "num_adds": 43,
-  "num_dels": 29,
-  "num_mod_lns_total": 72,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ceccd6aa5088"
-  ],
+  "num_adds": 36,
+  "num_dels": 26,
+  "num_mod_lns_total": 62,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:36 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "ceccd6aa50887352e66d0edf68d8be510a639da6": {
   "num_adds_if": 10,
@@ -5498,45 +2245,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ceccd6aa50887352e66d0edf68d8be510a639da6",
-  "num_adds": 96,
-  "num_dels": 36,
-  "num_mod_lns_total": 132,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b5e17d9b5bd7"
-  ],
+  "num_adds": 73,
+  "num_dels": 30,
+  "num_mod_lns_total": 103,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:35 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "b5e17d9b5bd7e53696bce21e38eec5b9bb8abb88": {
   "num_adds_if": 3,
@@ -5549,42 +2264,10 @@
   "num_adds": 8,
   "num_dels": 8,
   "num_mod_lns_total": 16,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0a1de84205d3"
-  ],
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:34 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "0a1de84205d3fe7baa3d013ebf703416b1919ecc": {
   "num_adds_if": 2,
@@ -5594,45 +2277,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0a1de84205d3fe7baa3d013ebf703416b1919ecc",
-  "num_adds": 15,
+  "num_adds": 14,
   "num_dels": 6,
-  "num_mod_lns_total": 21,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "afa5b5f13e0e"
-  ],
+  "num_mod_lns_total": 20,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:33 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "afa5b5f13e0e2372e440f3ab44620d4e10fca496": {
   "num_adds_if": 0,
@@ -5645,90 +2296,26 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5d8f759424d3"
-  ],
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:32 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "5d8f759424d3d7da998a7a9eee702071c8e5d381": {
-  "num_adds_if": 3,
+  "num_adds_if": 2,
   "num_dels_if": 0,
-  "num_mod_total_if": 3,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "5d8f759424d3d7da998a7a9eee702071c8e5d381",
-  "num_adds": 15,
+  "num_adds": 12,
   "num_dels": 0,
-  "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "bece3c544fee"
-  ],
+  "num_mod_lns_total": 12,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:31 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "bece3c544fee62ba7750f70b214d612fd02dcc8f": {
   "num_adds_if": 3,
@@ -5738,45 +2325,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "bece3c544fee62ba7750f70b214d612fd02dcc8f",
-  "num_adds": 11,
+  "num_adds": 9,
   "num_dels": 1,
-  "num_mod_lns_total": 12,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0e840ed59ba7"
-  ],
+  "num_mod_lns_total": 10,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:30 -0700",
-  "committer_date": "2014-09-07 23:13:44 +0200"
+  "entropy": 0.0
  },
  "0e840ed59ba79670b66bba8c1d50b6f67e72d3fb": {
   "num_adds_if": 1,
@@ -5786,45 +2341,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0e840ed59ba79670b66bba8c1d50b6f67e72d3fb",
-  "num_adds": 6,
+  "num_adds": 5,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7a1e5552af61"
-  ],
+  "num_mod_lns_total": 5,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:29 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "7a1e5552af61dce180f70c6fafe31553254b3728": {
   "num_adds_if": 0,
@@ -5834,45 +2357,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7a1e5552af61dce180f70c6fafe31553254b3728",
-  "num_adds": 24,
-  "num_dels": 15,
-  "num_mod_lns_total": 39,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5974150dead6"
-  ],
+  "num_adds": 19,
+  "num_dels": 14,
+  "num_mod_lns_total": 33,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:28 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "5974150dead6da1db415f04a232f79b922f412a0": {
   "num_adds_if": 0,
@@ -5883,44 +2374,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "5974150dead6da1db415f04a232f79b922f412a0",
   "num_adds": 0,
-  "num_dels": 9,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "aff0564aa7b2"
-  ],
+  "num_dels": 7,
+  "num_mod_lns_total": 7,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:27 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "aff0564aa7b2118a1d76dc0118dfdbf4beaf4b8c": {
   "num_adds_if": 1,
@@ -5930,93 +2389,29 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "aff0564aa7b2118a1d76dc0118dfdbf4beaf4b8c",
-  "num_adds": 6,
+  "num_adds": 5,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "38b4eb1f7fa8"
-  ],
+  "num_mod_lns_total": 5,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:26 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "38b4eb1f7fa87079a5a40f5d2ec4b5c0c7f14a4b": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 3,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 1,
   "file_hash": "38b4eb1f7fa87079a5a40f5d2ec4b5c0c7f14a4b",
   "num_adds": 12,
   "num_dels": 3,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4e64eff837fb"
-  ],
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:25 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "4e64eff837fb682dfb2a1188fb036d75ec57375c": {
   "num_adds_if": 0,
@@ -6026,45 +2421,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "4e64eff837fb682dfb2a1188fb036d75ec57375c",
-  "num_adds": 13,
+  "num_adds": 12,
   "num_dels": 1,
-  "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a08e54549e74"
-  ],
+  "num_mod_lns_total": 13,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:24 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "a08e54549e743ea3704da939f92caf3eaa8471d3": {
   "num_adds_if": 1,
@@ -6074,45 +2437,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a08e54549e743ea3704da939f92caf3eaa8471d3",
-  "num_adds": 8,
-  "num_dels": 6,
-  "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6c08df422ede"
-  ],
+  "num_adds": 6,
+  "num_dels": 5,
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:23 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "6c08df422ede7db94776b8099a5f43597629234c": {
   "num_adds_if": 1,
@@ -6122,45 +2453,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "6c08df422ede7db94776b8099a5f43597629234c",
-  "num_adds": 6,
+  "num_adds": 4,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "17b2151733ec"
-  ],
+  "num_mod_lns_total": 4,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:22 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "17b2151733ecdc96ee4fecdf5fae973b8cb0fea7": {
   "num_adds_if": 0,
@@ -6171,44 +2470,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "17b2151733ecdc96ee4fecdf5fae973b8cb0fea7",
   "num_adds": 0,
-  "num_dels": 2,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1568bfef18a9"
-  ],
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:21 -0700",
-  "committer_date": "2014-09-07 23:13:43 +0200"
+  "entropy": 0.0
  },
  "1568bfef18a9150d83b0f91aa254cef7ebead4cd": {
   "num_adds_if": 0,
@@ -6221,42 +2488,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4542e8345af6"
-  ],
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:20 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "4542e8345af6076c87d036c7bd3f9dfa30768b1e": {
   "num_adds_if": 0,
@@ -6266,45 +2501,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4542e8345af6076c87d036c7bd3f9dfa30768b1e",
-  "num_adds": 3,
-  "num_dels": 13,
-  "num_mod_lns_total": 16,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3e7f335689eb"
-  ],
+  "num_adds": 2,
+  "num_dels": 12,
+  "num_mod_lns_total": 14,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:19 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "3e7f335689ebfa0a68814dfe9f0588076fb9ad01": {
   "num_adds_if": 0,
@@ -6314,45 +2517,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "3e7f335689ebfa0a68814dfe9f0588076fb9ad01",
-  "num_adds": 16,
+  "num_adds": 12,
   "num_dels": 3,
-  "num_mod_lns_total": 19,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "24707296c762"
-  ],
+  "num_mod_lns_total": 15,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:18 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "24707296c762d1828c4a51aa1872dc275dc3fccc": {
   "num_adds_if": 1,
@@ -6362,45 +2533,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "24707296c762d1828c4a51aa1872dc275dc3fccc",
-  "num_adds": 6,
+  "num_adds": 5,
   "num_dels": 0,
-  "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cc8d7158644c"
-  ],
+  "num_mod_lns_total": 5,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:17 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "cc8d7158644c439d946bfc65778a507b6f12b10d": {
   "num_adds_if": 0,
@@ -6411,44 +2550,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "cc8d7158644c439d946bfc65778a507b6f12b10d",
   "num_adds": 0,
-  "num_dels": 12,
-  "num_mod_lns_total": 12,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d3a6d33a7f72"
-  ],
+  "num_dels": 9,
+  "num_mod_lns_total": 9,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:16 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "d3a6d33a7f72fa4d3bb0224da0839a5ca871d7a4": {
   "num_adds_if": 0,
@@ -6459,156 +2566,60 @@
   "num_mod_total_loop": 0,
   "file_hash": "d3a6d33a7f72fa4d3bb0224da0839a5ca871d7a4",
   "num_adds": 0,
-  "num_dels": 2,
-  "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "83724c3329c9"
-  ],
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
   "mod_files_lst": [
    "drivers/nfc/trf7970a.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Mark A. Greer <mgreer@animalcreek.com>",
-   "Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nfc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Mark A. Greer",
-  "author_email": "mgreer@animalcreek.com",
-  "committer": "Samuel Ortiz",
-  "committer_email": "sameo@linux.intel.com",
-  "author_date": "2014-09-02 15:12:15 -0700",
-  "committer_date": "2014-09-07 23:13:42 +0200"
+  "entropy": 0.0
  },
  "43cc32a2ab9ba004fa2fec1893ca5bd3e13f64d2": {
   "num_adds_if": 5,
   "num_dels_if": 0,
   "num_mod_total_if": 5,
-  "num_adds_loop": 2,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "43cc32a2ab9ba004fa2fec1893ca5bd3e13f64d2",
-  "num_adds": 151,
-  "num_dels": 2,
-  "num_mod_lns_total": 153,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "68f1fc4d2c9c"
-  ],
+  "num_adds": 126,
+  "num_dels": 0,
+  "num_mod_lns_total": 126,
   "mod_files_lst": [
    "drivers/staging/greybus/ap.c",
    "drivers/staging/greybus/es1-ap-usb.c"
   ],
-  "entropy": 0.23868451135100135,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/greybus"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Greg Kroah-Hartman",
-  "author_email": "greg@kroah.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "greg@kroah.com",
-  "author_date": "2014-09-07 13:51:12 -0700",
-  "committer_date": "2014-09-07 13:51:12 -0700"
+  "entropy": 0.2030739299866456
  },
  "68f1fc4d2c9c908b1a6f00847743545082353e99": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
-  "num_adds_loop": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "68f1fc4d2c9c908b1a6f00847743545082353e99",
-  "num_adds": 64,
+  "num_adds": 48,
   "num_dels": 8,
-  "num_mod_lns_total": 72,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "a39879fc089c"
-  ],
+  "num_mod_lns_total": 56,
   "mod_files_lst": [
    "drivers/staging/greybus/ap.c",
    "drivers/staging/greybus/core.c",
    "drivers/staging/greybus/es1-ap-usb.c",
    "drivers/staging/greybus/greybus.h"
   ],
-  "entropy": 1.808976372875017,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/greybus"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Greg Kroah-Hartman",
-  "author_email": "greg@kroah.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "greg@kroah.com",
-  "author_date": "2014-09-07 13:12:11 -0700",
-  "committer_date": "2014-09-07 13:12:11 -0700"
+  "entropy": 1.8366291946699242
  },
  "6fef37c9a7f15eb18d726e845f1bdff5809bd3f8": {
   "num_adds_if": 11,
   "num_dels_if": 5,
   "num_mod_total_if": 16,
-  "num_adds_loop": 4,
+  "num_adds_loop": 3,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 5,
+  "num_mod_total_loop": 4,
   "file_hash": "6fef37c9a7f15eb18d726e845f1bdff5809bd3f8",
-  "num_adds": 122,
-  "num_dels": 34,
-  "num_mod_lns_total": 156,
-  "num_mod_files": 12,
-  "is_merge": true,
-  "parents": [
-   "9142eadefe6a",
-   "9aa4e2f6ac2e"
-  ],
+  "num_adds": 108,
+  "num_dels": 32,
+  "num_mod_lns_total": 140,
   "mod_files_lst": [
    "drivers/acpi/acpica/nsprepkg.c",
    "drivers/acpi/ec.c",
@@ -6623,39 +2634,7 @@
    "kernel/power/suspend.c",
    "kernel/power/suspend_test.c"
   ],
-  "entropy": 2.6863796520251717,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/powercap",
-   "include/acpi",
-   "drivers/acpi",
-   "drivers/acpi/acpica",
-   "include/linux",
-   "kernel/power",
-   "drivers/cpufreq"
-  ],
-  "mod_sys": [
-   "drivers",
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 7,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 11:57:27 -0700",
-  "committer_date": "2014-09-07 11:57:27 -0700"
+  "entropy": 2.6989841944720583
  },
  "a42f5c17131103ec54a71dfb7e6bb7b3704686a1": {
   "num_adds_if": 0,
@@ -6668,42 +2647,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8b3bfffc4102"
-  ],
   "mod_files_lst": [
    "drivers/net/phy/amd-xgbe-phy.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Tom Lendacky <thomas.lendacky@amd.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/phy"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Tom Lendacky",
-  "author_email": "thomas.lendacky@amd.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2014-09-07 09:54:41 -0500",
-  "committer_date": "2014-09-07 11:21:31 -0700"
+  "entropy": 0.0
  },
  "9142eadefe6aff23511fee143ee1bc9fc26a4c13": {
   "num_adds_if": 2,
@@ -6713,146 +2660,52 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9142eadefe6aff23511fee143ee1bc9fc26a4c13",
-  "num_adds": 18,
-  "num_dels": 14,
-  "num_mod_lns_total": 32,
-  "num_mod_files": 4,
-  "is_merge": true,
-  "parents": [
-   "81368f8bb8dd",
-   "9ef7db7f38d0"
-  ],
+  "num_adds": 15,
+  "num_dels": 13,
+  "num_mod_lns_total": 28,
   "mod_files_lst": [
    "fs/namespace.c",
    "fs/pnode.c",
    "fs/ufs/inode.c",
    "fs/ufs/namei.c"
   ],
-  "entropy": 1.6820708027473965,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "fs/ufs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 10:59:58 -0700",
-  "committer_date": "2014-09-07 10:59:58 -0700"
+  "entropy": 1.7119608340912789
  },
  "81368f8bb8dd008f15d0300b89cbe1ffa7e675aa": {
   "num_adds_if": 1,
   "num_dels_if": 1,
   "num_mod_total_if": 2,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "81368f8bb8dd008f15d0300b89cbe1ffa7e675aa",
   "num_adds": 12,
   "num_dels": 12,
   "num_mod_lns_total": 24,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "ebc54f278f49",
-   "651bc1a474ad"
-  ],
   "mod_files_lst": [
    "kernel/rcu/tree.h",
    "kernel/rcu/tree_plugin.h"
   ],
-  "entropy": 0.41381685030363374,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/rcu"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 10:51:42 -0700",
-  "committer_date": "2014-09-07 10:51:42 -0700"
+  "entropy": 0.41381685030363374
  },
  "ebc54f278f496798a3ea1df9ae29c1055e9de95e": {
-  "num_adds_if": 7,
+  "num_adds_if": 3,
   "num_dels_if": 2,
-  "num_mod_total_if": 9,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "ebc54f278f496798a3ea1df9ae29c1055e9de95e",
-  "num_adds": 39,
-  "num_dels": 11,
-  "num_mod_lns_total": 50,
-  "num_mod_files": 4,
-  "is_merge": true,
-  "parents": [
-   "2b12164b55e7",
-   "9bf2419fa7bf"
-  ],
+  "num_adds": 36,
+  "num_dels": 8,
+  "num_mod_lns_total": 44,
   "mod_files_lst": [
    "include/linux/tick.h",
    "kernel/compat.c",
    "kernel/time/tick-sched.c",
    "kernel/time/timekeeping.c"
   ],
-  "entropy": 1.7517923126756398,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel",
-   "include/linux",
-   "kernel/time"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2014-09-07 10:37:48 -0700",
-  "committer_date": "2014-09-07 10:37:48 -0700"
+  "entropy": 1.6714517215372524
  },
  "9ef7db7f38d0472dd9c444e42d5c5175ccbe5451": {
   "num_adds_if": 1,
@@ -6862,209 +2715,62 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9ef7db7f38d0472dd9c444e42d5c5175ccbe5451",
-  "num_adds": 8,
-  "num_dels": 13,
-  "num_mod_lns_total": 21,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "81b6b0619760"
-  ],
+  "num_adds": 7,
+  "num_dels": 12,
+  "num_mod_lns_total": 19,
   "mod_files_lst": [
    "fs/ufs/inode.c",
    "fs/ufs/namei.c"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexey Khoroshilov <khoroshilov@ispras.ru>",
-   "Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org # 3.16"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ufs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexey Khoroshilov",
-  "author_email": "khoroshilov@ispras.ru",
-  "committer": "Al Viro",
-  "committer_email": "viro@zeniv.linux.org.uk",
-  "author_date": "2014-09-02 11:40:17 +0400",
-  "committer_date": "2014-09-07 13:26:39 -0400"
+  "entropy": 0.9494520153879484
  },
  "d02fc738a9a9e6cddeed0bf00771286e22d52dee": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "d02fc738a9a9e6cddeed0bf00771286e22d52dee",
   "num_adds": 41,
   "num_dels": 5,
   "num_mod_lns_total": 46,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "394c56ce557b"
-  ],
   "mod_files_lst": [
    "arch/arm/boot/dts/sun8i-a23.dtsi"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Maxime Ripard <maxime.ripard@free-electrons.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Chen-Yu Tsai <wens@csie.org>",
-   "Acked-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/boot/dts"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Maxime Ripard",
-  "author_email": "maxime.ripard@free-electrons.com",
-  "committer": "Maxime Ripard",
-  "committer_email": "maxime.ripard@free-electrons.com",
-  "author_date": "2014-09-02 19:25:26 +0200",
-  "committer_date": "2014-09-07 17:49:56 +0200"
+  "entropy": 0.0
  },
  "394c56ce557b8ea7e74c7b2684a21f0dd434aae1": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "394c56ce557b8ea7e74c7b2684a21f0dd434aae1",
   "num_adds": 41,
   "num_dels": 5,
   "num_mod_lns_total": 46,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6c3ba72415b1"
-  ],
   "mod_files_lst": [
    "arch/arm/boot/dts/sun7i-a20.dtsi"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Maxime Ripard <maxime.ripard@free-electrons.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Alexander Bersenev <bay@hackerdom.ru>",
-   "Acked-by: Alexandre Belloni <alexandre.belloni@free-electrons.com>",
-   "Acked-by: Carlo Caione <carlo@caione.org>",
-   "Acked-by: Chen-Yu Tsai <wens@csie.org>",
-   "Acked-by: Emilio L\u00f3pez <emilio@elopez.com.ar>",
-   "Acked-by: Hans de Goede <hdegoede@redhat.com>",
-   "Acked-by: Marc Zyngier <marc.zyngier@arm.com>",
-   "Acked-by: Oliver Schinagl <oliver@schinagl.nl>",
-   "Acked-by: Roman Byshko <rbyshko@gmail.com>",
-   "Acked-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/boot/dts"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Maxime Ripard",
-  "author_email": "maxime.ripard@free-electrons.com",
-  "committer": "Maxime Ripard",
-  "committer_email": "maxime.ripard@free-electrons.com",
-  "author_date": "2014-09-02 19:25:26 +0200",
-  "committer_date": "2014-09-07 17:49:53 +0200"
+  "entropy": 0.0
  },
  "6c3ba72415b15440ffc8085e502fbeca01dc2035": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "6c3ba72415b15440ffc8085e502fbeca01dc2035",
   "num_adds": 41,
   "num_dels": 5,
   "num_mod_lns_total": 46,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a71b4438af82"
-  ],
   "mod_files_lst": [
    "arch/arm/boot/dts/sun6i-a31.dtsi"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Maxime Ripard <maxime.ripard@free-electrons.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Boris BREZILLON <boris.brezillon@free-electrons.com>",
-   "Acked-by: Carlo Caione <carlo@caione.org>",
-   "Acked-by: Chen-Yu Tsai <wens@csie.org>",
-   "Acked-by: Hans de Goede <hdegoede@redhat.com>",
-   "Acked-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm/boot/dts"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Maxime Ripard",
-  "author_email": "maxime.ripard@free-electrons.com",
-  "committer": "Maxime Ripard",
-  "committer_email": "maxime.ripard@free-electrons.com",
-  "author_date": "2014-09-02 19:25:26 +0200",
-  "committer_date": "2014-09-07 17:49:48 +0200"
+  "entropy": 0.0
  },
  "679ab4ddbdfab8af39104e63819db71f428aefd9": {
   "num_adds_if": 0,
@@ -7077,43 +2783,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cbb8125eb40b"
-  ],
   "mod_files_lst": [
    "net/netfilter/Kconfig"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: kbuild test robot <fengguang.wu@intel.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/netfilter"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pablo Neira Ayuso",
-  "author_email": "pablo@netfilter.org",
-  "committer": "Pablo Neira Ayuso",
-  "committer_email": "pablo@netfilter.org",
-  "author_date": "2014-09-07 17:20:27 +0200",
-  "committer_date": "2014-09-07 17:25:16 +0200"
+  "entropy": 0.0
  },
  "e0f6429ecb0cc1d1cb39017135b658960e5b8417": {
   "num_adds_if": 0,
@@ -7124,44 +2797,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "e0f6429ecb0cc1d1cb39017135b658960e5b8417",
   "num_adds": 0,
-  "num_dels": 8,
-  "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7d1311b93e58"
-  ],
+  "num_dels": 6,
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "drivers/regulator/bcm590xx-regulator.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Axel Lin <axel.lin@ingics.com>",
-   "Signed-off-by: Mark Brown <broonie@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/regulator"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Axel Lin",
-  "author_email": "axel.lin@ingics.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@linaro.org",
-  "author_date": "2014-09-07 18:38:49 +0800",
-  "committer_date": "2014-09-07 16:06:57 +0100"
+  "entropy": 0.0
  },
  "192264e0a5473015df28f47241bcdbf6b8c24873": {
   "num_adds_if": 0,
@@ -7174,98 +2815,27 @@
   "num_adds": 28,
   "num_dels": 33,
   "num_mod_lns_total": 61,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7d1311b93e58"
-  ],
   "mod_files_lst": [
    "drivers/regulator/as3711-regulator.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Axel Lin <axel.lin@ingics.com>",
-   "Signed-off-by: Mark Brown <broonie@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/regulator"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Axel Lin",
-  "author_email": "axel.lin@ingics.com",
-  "committer": "Mark Brown",
-  "committer_email": "broonie@linaro.org",
-  "author_date": "2014-09-07 18:34:51 +0800",
-  "committer_date": "2014-09-07 16:03:55 +0100"
+  "entropy": 0.0
  },
  "177ef2a6315ea7bf173653182324e1dcd08ffeaa": {
   "num_adds_if": 0,
   "num_dels_if": 2,
   "num_mod_total_if": 2,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "177ef2a6315ea7bf173653182324e1dcd08ffeaa",
-  "num_adds": 10,
-  "num_dels": 13,
-  "num_mod_lns_total": 23,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "6b44f519017b"
-  ],
+  "num_adds": 9,
+  "num_dels": 10,
+  "num_mod_lns_total": 19,
   "mod_files_lst": [
    "kernel/sched/core.c",
    "kernel/sched/deadline.c",
    "kernel/sched/fair.c"
   ],
-  "entropy": 1.5310001550435155,
-  "ppl_signed_off": [
-   "Signed-off-by: Xiaofeng Yan <xiaofeng.yan@huawei.com>",
-   "Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>",
-   "Signed-off-by: Ingo Molnar <mingo@kernel.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Juri Lelli <juri.lelli@arm.com>"
-  ],
-  "ppl_cc": [
-   "Cc: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Li Zefan <lizefan@huawei.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/sched"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "xiaofeng.yan",
-  "author_email": "xiaofeng.yan@huawei.com",
-  "committer": "Ingo Molnar",
-  "committer_email": "mingo@kernel.org",
-  "author_date": "2014-08-26 03:15:41 +0000",
-  "committer_date": "2014-09-07 11:09:59 +0200"
+  "entropy": 1.5090275125326515
  }
 }

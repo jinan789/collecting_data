@@ -1,158 +1,553 @@
 {
  "5d2f248a5f3acac4b763439327c92091be7abb1c": {
-  "author": "Steve French",
-  "committer": "Steve French",
-  "author_date": "2006-02-22 23:38:53 +0000",
-  "committer_date": "2006-02-22 23:38:53 +0000"
+  "num_adds_if": 81,
+  "num_dels_if": 111,
+  "num_mod_total_if": 192,
+  "num_adds_loop": 10,
+  "num_dels_loop": 19,
+  "num_mod_total_loop": 29,
+  "file_hash": "5d2f248a5f3acac4b763439327c92091be7abb1c",
+  "num_adds": 954,
+  "num_dels": 1737,
+  "num_mod_lns_total": 2691,
+  "mod_files_lst": [
+   "Documentation/cpu-hotplug.txt",
+   "Documentation/feature-removal-schedule.txt",
+   "Documentation/filesystems/tmpfs.txt",
+   "Documentation/filesystems/v9fs.txt",
+   "Documentation/sysctl/kernel.txt",
+   "arch/arm/common/rtctime.c",
+   "arch/arm/kernel/entry-armv.S",
+   "arch/arm/kernel/traps.c",
+   "arch/arm/mach-at91rm9200/devices.c",
+   "arch/arm/mach-at91rm9200/gpio.c",
+   "arch/arm/mach-ixp4xx/common.c",
+   "arch/arm/mach-ixp4xx/nslu2-power.c",
+   "arch/arm/mach-ixp4xx/nslu2-setup.c",
+   "arch/arm/mach-versatile/pci.c",
+   "arch/arm/mm/abort-ev6.S",
+   "arch/arm/tools/mach-types",
+   "arch/h8300/Kconfig.debug",
+   "arch/h8300/defconfig",
+   "arch/i386/kernel/mpparse.c",
+   "arch/m32r/kernel/sys_m32r.c",
+   "arch/m68k/kernel/process.c",
+   "arch/mips/configs/ip27_defconfig",
+   "arch/mips/kernel/binfmt_elfn32.c",
+   "arch/mips/kernel/binfmt_elfo32.c",
+   "arch/mips/kernel/linux32.c",
+   "arch/mips/kernel/scall64-n32.S",
+   "arch/mips/kernel/signal32.c",
+   "arch/mips/kernel/signal_n32.c",
+   "arch/mips/kernel/smp.c",
+   "arch/mips/kernel/traps.c",
+   "arch/mips/mm/cex-sb1.S",
+   "arch/mips/pmc-sierra/yosemite/smp.c",
+   "arch/mips/sibyte/Kconfig",
+   "arch/mips/sibyte/bcm1480/irq.c",
+   "arch/powerpc/kernel/head_64.S",
+   "arch/powerpc/kernel/lparcfg.c",
+   "arch/powerpc/kernel/ppc_ksyms.c",
+   "arch/powerpc/kernel/setup_64.c",
+   "arch/powerpc/kernel/sys_ppc32.c",
+   "arch/powerpc/kernel/time.c",
+   "arch/powerpc/platforms/powermac/feature.c",
+   "arch/powerpc/platforms/pseries/smp.c",
+   "arch/ppc/kernel/ppc_ksyms.c",
+   "arch/ppc/xmon/start.c",
+   "arch/x86_64/defconfig",
+   "drivers/block/pktcdvd.c",
+   "drivers/char/agp/Kconfig",
+   "drivers/char/agp/amd64-agp.c",
+   "drivers/char/agp/sworks-agp.c",
+   "drivers/char/drm/i915_irq.c",
+   "drivers/char/drm/r300_cmdbuf.c",
+   "drivers/char/drm/r300_reg.h",
+   "drivers/char/drm/radeon_drv.h",
+   "drivers/char/sysrq.c",
+   "drivers/crypto/padlock-aes.c",
+   "drivers/fc4/fc.c",
+   "drivers/ieee1394/sbp2.c",
+   "drivers/mtd/chips/cfi_cmdset_0001.c",
+   "drivers/net/irda/irda-usb.c",
+   "drivers/net/irda/irda-usb.h",
+   "drivers/net/wireless/ipw2200.c",
+   "drivers/s390/block/Kconfig",
+   "drivers/s390/block/Makefile",
+   "drivers/s390/block/dasd.c",
+   "drivers/s390/block/dasd_3990_erp.c",
+   "drivers/s390/block/dasd_eckd.h",
+   "drivers/s390/block/dasd_eer.c",
+   "drivers/s390/block/dasd_int.h",
+   "drivers/s390/cio/qdio.c",
+   "drivers/scsi/esp.c",
+   "drivers/scsi/libata-core.c",
+   "drivers/scsi/sata_qstor.c",
+   "drivers/spi/spi.c",
+   "drivers/video/aty/radeon_pm.c",
+   "fs/9p/v9fs.c",
+   "fs/cifs/cifssmb.c",
+   "fs/cifs/connect.c",
+   "fs/proc/inode.c",
+   "fs/proc/root.c",
+   "fs/super.c",
+   "include/asm-arm/arch-at91rm9200/gpio.h",
+   "include/asm-arm/arch-ixp4xx/nas100d.h",
+   "include/asm-m32r/system.h",
+   "include/asm-m68k/irq.h",
+   "include/asm-m68k/raw_io.h",
+   "include/asm-mips/uaccess.h",
+   "include/asm-mips/unistd.h",
+   "include/asm-ppc/machdep.h",
+   "include/asm-s390/dasd.h",
+   "include/linux/acpi.h",
+   "include/linux/kobject.h",
+   "include/linux/libata.h",
+   "include/linux/mm.h",
+   "include/linux/mmc/mmc.h",
+   "include/linux/nfs_fs.h",
+   "include/linux/swap.h",
+   "include/linux/sysctl.h",
+   "kernel/auditsc.c",
+   "kernel/exit.c",
+   "kernel/sys_ni.c",
+   "kernel/sysctl.c",
+   "lib/iomap_copy.c",
+   "lib/kobject_uevent.c",
+   "mm/mempolicy.c",
+   "mm/nommu.c",
+   "mm/oom_kill.c",
+   "mm/page_alloc.c",
+   "mm/shmem.c",
+   "net/core/skbuff.c",
+   "net/ipv4/netfilter/ip_nat_core.c",
+   "net/ipv4/netfilter/ip_nat_standalone.c",
+   "net/ipv6/ip6_tunnel.c",
+   "net/xfrm/xfrm_policy.c",
+   "sound/core/control_compat.c"
+  ],
+  "entropy": 4.457133570881742
  },
  "9e956c2dac9bec602ed1ba29181b45ba6d2b6448": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 15:23:05 -0800",
-  "committer_date": "2006-02-22 15:23:05 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9e956c2dac9bec602ed1ba29181b45ba6d2b6448",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/scsi/esp.c"
+  ],
+  "entropy": 0.0
  },
  "1a6a35894f10870d5590199d1785d3a718927abe": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 15:21:57 -0800",
-  "committer_date": "2006-02-22 15:21:57 -0800"
+  "num_adds_if": 6,
+  "num_dels_if": 7,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "1a6a35894f10870d5590199d1785d3a718927abe",
+  "num_adds": 133,
+  "num_dels": 57,
+  "num_mod_lns_total": 190,
+  "mod_files_lst": [
+   "arch/arm/common/rtctime.c",
+   "arch/arm/kernel/entry-armv.S",
+   "arch/arm/kernel/traps.c",
+   "arch/arm/mach-at91rm9200/devices.c",
+   "arch/arm/mach-at91rm9200/gpio.c",
+   "arch/arm/mach-ixp4xx/common.c",
+   "arch/arm/mach-ixp4xx/nslu2-power.c",
+   "arch/arm/mach-ixp4xx/nslu2-setup.c",
+   "arch/arm/mach-versatile/pci.c",
+   "arch/arm/mm/abort-ev6.S",
+   "arch/arm/tools/mach-types",
+   "include/asm-arm/arch-at91rm9200/gpio.h",
+   "include/asm-arm/arch-ixp4xx/nas100d.h"
+  ],
+  "entropy": 2.643629145275793
  },
  "245599f573f302bfa27a0436408c80f13b457046": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 15:21:22 -0800",
-  "committer_date": "2006-02-22 15:21:22 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "245599f573f302bfa27a0436408c80f13b457046",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "include/linux/mmc/mmc.h"
+  ],
+  "entropy": 0.0
  },
  "6cec2aed8686840906f6298391dc4fd04d9ba843": {
-  "author": "Steve French",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 17:31:52 -0600",
-  "committer_date": "2006-02-22 15:20:33 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "6cec2aed8686840906f6298391dc4fd04d9ba843",
+  "num_adds": 8,
+  "num_dels": 7,
+  "num_mod_lns_total": 15,
+  "mod_files_lst": [
+   "fs/cifs/cifssmb.c",
+   "fs/cifs/connect.c"
+  ],
+  "entropy": 0.9967916319816366
  },
  "a6ceda7457b2303dcb07d3c472b25d52bbdb5a29": {
-  "author": "Christoph Hellwig",
-  "committer": "David S. Miller",
-  "author_date": "2006-02-22 14:35:52 -0800",
-  "committer_date": "2006-02-22 14:35:52 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a6ceda7457b2303dcb07d3c472b25d52bbdb5a29",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/scsi/esp.c"
+  ],
+  "entropy": 0.0
  },
  "06e4479bd092eca4125e5507e7c22619a491dab3": {
-  "author": "M\udce5rten Wikstr\udcf6m",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 22:27:23 +0000",
-  "committer_date": "2006-02-22 22:27:23 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 5,
+  "num_mod_total_if": 5,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "06e4479bd092eca4125e5507e7c22619a491dab3",
+  "num_adds": 13,
+  "num_dels": 6,
+  "num_mod_lns_total": 19,
+  "mod_files_lst": [
+   "arch/arm/mach-ixp4xx/common.c"
+  ],
+  "entropy": 0.0
  },
  "df666b9c510fd27fd3b1afd9ddfa1eaa62ce12b3": {
-  "author": "Andrew Victor",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:23:35 +0000",
-  "committer_date": "2006-02-22 21:23:35 +0000"
+  "num_adds_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "df666b9c510fd27fd3b1afd9ddfa1eaa62ce12b3",
+  "num_adds": 18,
+  "num_dels": 1,
+  "num_mod_lns_total": 19,
+  "mod_files_lst": [
+   "arch/arm/mach-at91rm9200/devices.c",
+   "arch/arm/mach-at91rm9200/gpio.c",
+   "include/asm-arm/arch-at91rm9200/gpio.h"
+  ],
+  "entropy": 1.0214554656116668
  },
  "43cc19816b3fc5286258e6f5e43ef4ead458f9a3": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:13:28 +0000",
-  "committer_date": "2006-02-22 21:13:28 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "43cc19816b3fc5286258e6f5e43ef4ead458f9a3",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "arch/arm/kernel/entry-armv.S",
+   "arch/arm/mm/abort-ev6.S"
+  ],
+  "entropy": 1.0
  },
  "75d2f18088ded458f5bc4014b6c4e2d9651d41d4": {
-  "author": "Uli Luckas",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:12:07 +0000",
-  "committer_date": "2006-02-22 21:12:07 +0000"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "75d2f18088ded458f5bc4014b6c4e2d9651d41d4",
+  "num_adds": 9,
+  "num_dels": 4,
+  "num_mod_lns_total": 13,
+  "mod_files_lst": [
+   "arch/arm/common/rtctime.c"
+  ],
+  "entropy": 0.0
  },
  "bc66d4496f106a8e3a936dc24c9965a2f9c13e50": {
-  "author": "Alessandro Zummo",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:12:06 +0000",
-  "committer_date": "2006-02-22 21:12:06 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "bc66d4496f106a8e3a936dc24c9965a2f9c13e50",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "arch/arm/mach-ixp4xx/nslu2-setup.c"
+  ],
+  "entropy": 0.0
  },
  "af898b8f602441a3bebe918a3b26adc92b30762e": {
-  "author": "Alessandro Zummo",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:12:06 +0000",
-  "committer_date": "2006-02-22 21:12:06 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "af898b8f602441a3bebe918a3b26adc92b30762e",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "include/asm-arm/arch-ixp4xx/nas100d.h"
+  ],
+  "entropy": 0.0
  },
  "d7353b25c855b3a8103647503deaa98f512bd439": {
-  "author": "Alessandro Zummo",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 21:12:05 +0000",
-  "committer_date": "2006-02-22 21:12:05 +0000"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d7353b25c855b3a8103647503deaa98f512bd439",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "arch/arm/mach-ixp4xx/nslu2-power.c"
+  ],
+  "entropy": 0.0
  },
  "c3f9da90b6e63c968070aa72057fe15356b3f7b5": {
-  "author": "Jan Beulich",
-  "committer": "Sam Ravnborg",
-  "author_date": "2006-02-22 13:29:04 +0100",
-  "committer_date": "2006-02-22 21:29:27 +0100"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c3f9da90b6e63c968070aa72057fe15356b3f7b5",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "Makefile"
+  ],
+  "entropy": 0.0
  },
  "6e10133fa4b2366e8ef18bc2ce34afe727b1c4ba": {
-  "author": "Sam Ravnborg",
-  "committer": "Sam Ravnborg",
-  "author_date": "2006-02-22 21:24:50 +0100",
-  "committer_date": "2006-02-22 21:24:50 +0100"
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "6e10133fa4b2366e8ef18bc2ce34afe727b1c4ba",
+  "num_adds": 16,
+  "num_dels": 0,
+  "num_mod_lns_total": 16,
+  "mod_files_lst": [
+   "scripts/mod/modpost.c"
+  ],
+  "entropy": 0.0
  },
  "d9e902668e815f9f33ba5056089684b0704eeac6": {
-  "author": "Herbert Poetzl",
-  "committer": "Dave Kleikamp",
-  "author_date": "2006-02-22 14:14:58 -0600",
-  "committer_date": "2006-02-22 14:14:58 -0600"
+  "num_adds_if": 9,
+  "num_dels_if": 0,
+  "num_mod_total_if": 9,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "d9e902668e815f9f33ba5056089684b0704eeac6",
+  "num_adds": 89,
+  "num_dels": 0,
+  "num_mod_lns_total": 89,
+  "mod_files_lst": [
+   "fs/jfs/ioctl.c"
+  ],
+  "entropy": 0.0
  },
  "c27a2164a32cfda80dc1647638a940103669af3d": {
-  "author": "Catalin Marinas",
-  "committer": "Russell King",
-  "author_date": "2006-02-22 19:51:38 +0000",
-  "committer_date": "2006-02-22 19:51:38 +0000"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "c27a2164a32cfda80dc1647638a940103669af3d",
+  "num_adds": 42,
+  "num_dels": 40,
+  "num_mod_lns_total": 82,
+  "mod_files_lst": [
+   "arch/arm/mach-versatile/pci.c"
+  ],
+  "entropy": 0.0
  },
  "fededcd2af6219de69b252b7d3ea4b4ec2f33c7a": {
-  "author": "akpm@osdl.org",
-  "committer": "Sam Ravnborg",
-  "author_date": "2006-02-22 03:19:54 -0800",
-  "committer_date": "2006-02-22 20:23:51 +0100"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fededcd2af6219de69b252b7d3ea4b4ec2f33c7a",
+  "num_adds": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "scripts/mod/modpost.c"
+  ],
+  "entropy": 0.0
  },
  "c45ec6566021ba3162233b575e7bc76d57b86688": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 10:24:52 -0800",
-  "committer_date": "2006-02-22 10:24:52 -0800"
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "c45ec6566021ba3162233b575e7bc76d57b86688",
+  "num_adds": 28,
+  "num_dels": 3,
+  "num_mod_lns_total": 31,
+  "mod_files_lst": [
+   "Documentation/feature-removal-schedule.txt",
+   "fs/super.c",
+   "include/linux/kobject.h",
+   "lib/kobject_uevent.c"
+  ],
+  "entropy": 1.8424470082082745
  },
  "fa675765afed59bb89adba3369094ebd428b930b": {
-  "author": "Greg Kroah-Hartman",
-  "committer": "Greg Kroah-Hartman",
-  "author_date": "2006-02-22 09:39:02 -0800",
-  "committer_date": "2006-02-22 09:39:02 -0800"
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "fa675765afed59bb89adba3369094ebd428b930b",
+  "num_adds": 28,
+  "num_dels": 3,
+  "num_mod_lns_total": 31,
+  "mod_files_lst": [
+   "Documentation/feature-removal-schedule.txt",
+   "fs/super.c",
+   "include/linux/kobject.h",
+   "lib/kobject_uevent.c"
+  ],
+  "entropy": 1.8424470082082745
  },
  "91ffd7db71e7451f89941a8f428b4daa2a7c1e38": {
-  "author": "Steven Whitehouse",
-  "committer": "Steven Whitehouse",
-  "author_date": "2006-02-22 16:41:45 +0000",
-  "committer_date": "2006-02-22 16:41:45 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "91ffd7db71e7451f89941a8f428b4daa2a7c1e38",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "fs/gfs2/lops.c"
+  ],
+  "entropy": 0.0
  },
  "102d60a2d8a6b54a20317a855dca3b598a2fd581": {
-  "author": "Herbert Xu",
-  "committer": "Linus Torvalds",
-  "author_date": "2006-02-22 23:43:40 +1100",
-  "committer_date": "2006-02-22 07:47:07 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "102d60a2d8a6b54a20317a855dca3b598a2fd581",
+  "num_adds": 4,
+  "num_dels": 4,
+  "num_mod_lns_total": 8,
+  "mod_files_lst": [
+   "drivers/crypto/padlock-aes.c"
+  ],
+  "entropy": 0.0
  },
  "13538b8e46022b6a3721cda097fe3e0d91f16959": {
-  "author": "Steven Whitehouse",
-  "committer": "Steven Whitehouse",
-  "author_date": "2006-02-22 11:15:03 +0000",
-  "committer_date": "2006-02-22 11:15:03 +0000"
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "13538b8e46022b6a3721cda097fe3e0d91f16959",
+  "num_adds": 8,
+  "num_dels": 25,
+  "num_mod_lns_total": 33,
+  "mod_files_lst": [
+   "fs/gfs2/lops.c"
+  ],
+  "entropy": 0.0
  },
  "a43c7ff8bafe841502cab52b7795e2825c2e42c4": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2006-02-20 10:18:38 +0000",
-  "committer_date": "2006-02-22 09:33:23 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a43c7ff8bafe841502cab52b7795e2825c2e42c4",
+  "num_adds": 33,
+  "num_dels": 2,
+  "num_mod_lns_total": 35,
+  "mod_files_lst": [
+   "arch/arm/tools/mach-types"
+  ],
+  "entropy": 0.0
  },
  "31867499b21b2374eb0cc6b3d1ea6b4ade4d1cc2": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2006-02-19 19:53:56 +0000",
-  "committer_date": "2006-02-22 09:33:22 +0000"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "31867499b21b2374eb0cc6b3d1ea6b4ade4d1cc2",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "arch/arm/kernel/traps.c"
+  ],
+  "entropy": 0.0
  },
  "5bd546aa78b5d74f3162815e41940f862215d9e3": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2006-02-17 20:23:29 +0000",
-  "committer_date": "2006-02-22 09:32:46 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5bd546aa78b5d74f3162815e41940f862215d9e3",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "include/linux/mmc/mmc.h"
+  ],
+  "entropy": 0.0
  }
 }

@@ -1,21 +1,15 @@
 {
  "87a0b2fafc09766d8c55461a18345a1cfb10a7fe": {
-  "num_adds_if": 30083,
-  "num_dels_if": 16412,
-  "num_mod_total_if": 46495,
-  "num_adds_loop": 8727,
-  "num_dels_loop": 4548,
-  "num_mod_total_loop": 13275,
+  "num_adds_if": 26583,
+  "num_dels_if": 14873,
+  "num_mod_total_if": 41456,
+  "num_adds_loop": 3473,
+  "num_dels_loop": 1862,
+  "num_mod_total_loop": 5335,
   "file_hash": "87a0b2fafc09766d8c55461a18345a1cfb10a7fe",
   "num_adds": 680446,
   "num_dels": 260529,
   "num_mod_lns_total": 940975,
-  "num_mod_files": 11971,
-  "is_merge": true,
-  "parents": [
-   "b6e43dddaea3",
-   "df0cc57e057f"
-  ],
   "mod_files_lst": [
    ".mailmap",
    "Documentation/ABI/obsolete/o2cb",
@@ -117,8 +111,6 @@
    "Documentation/admin-guide/mm/index.rst",
    "Documentation/admin-guide/mm/memory-hotplug.rst",
    "Documentation/admin-guide/mm/pagemap.rst",
-   "Documentation/admin-guide/mm/swap_numa.rst",
-   "Documentation/admin-guide/mm/zswap.rst",
    "Documentation/admin-guide/ramoops.rst",
    "Documentation/admin-guide/spkguide.txt",
    "Documentation/admin-guide/sysctl/kernel.rst",
@@ -369,8 +361,6 @@
    "Documentation/devicetree/bindings/media/st,stm32-dcmi.yaml",
    "Documentation/devicetree/bindings/media/ti,cal.yaml",
    "Documentation/devicetree/bindings/memory-controllers/ddr/jedec,lpddr2.yaml",
-   "Documentation/devicetree/bindings/memory-controllers/ddr/lpddr2-timings.txt",
-   "Documentation/devicetree/bindings/memory-controllers/ddr/lpddr3-timings.txt",
    "Documentation/devicetree/bindings/memory-controllers/ddr/lpddr3.txt",
    "Documentation/devicetree/bindings/memory-controllers/fsl/ddr.txt",
    "Documentation/devicetree/bindings/memory-controllers/fsl/fsl,ddr.yaml",
@@ -3779,7 +3769,6 @@
    "drivers/gpu/drm/amd/display/dc/dml/display_rq_dlg_helpers.h",
    "drivers/gpu/drm/amd/display/dc/dml/dml1_display_rq_dlg_calc.c",
    "drivers/gpu/drm/amd/display/dc/dml/dml1_display_rq_dlg_calc.h",
-   "drivers/gpu/drm/amd/display/dc/dml/dsc/qp_tables.h",
    "drivers/gpu/drm/amd/display/dc/dml/dsc/rc_calc_fpu.c",
    "drivers/gpu/drm/amd/display/dc/dml/dsc/rc_calc_fpu.h",
    "drivers/gpu/drm/amd/display/dc/dsc/Makefile",
@@ -9039,13 +9028,6 @@
    "include/dt-bindings/clock/am4.h",
    "include/dt-bindings/clock/exynos850.h",
    "include/dt-bindings/clock/imx8ulp-clock.h",
-   "include/dt-bindings/clock/ingenic,jz4725b-cgu.h",
-   "include/dt-bindings/clock/ingenic,jz4740-cgu.h",
-   "include/dt-bindings/clock/ingenic,jz4760-cgu.h",
-   "include/dt-bindings/clock/ingenic,jz4770-cgu.h",
-   "include/dt-bindings/clock/ingenic,jz4780-cgu.h",
-   "include/dt-bindings/clock/ingenic,x1000-cgu.h",
-   "include/dt-bindings/clock/ingenic,x1830-cgu.h",
    "include/dt-bindings/clock/meson8b-clkc.h",
    "include/dt-bindings/clock/mt8195-clk.h",
    "include/dt-bindings/clock/qcom,camcc-sc7280.h",
@@ -9061,10 +9043,8 @@
    "include/dt-bindings/power/qcom-rpmpd.h",
    "include/dt-bindings/reset-controller/mt8183-resets.h",
    "include/dt-bindings/reset/imx8ulp-pcc-reset.h",
-   "include/dt-bindings/reset/mt2712-resets.h",
    "include/dt-bindings/reset/mt8173-resets.h",
    "include/dt-bindings/reset/mt8183-resets.h",
-   "include/dt-bindings/reset/mt8192-resets.h",
    "include/dt-bindings/reset/stericsson,db8500-prcc-reset.h",
    "include/dt-bindings/soc/qcom,gpr.h",
    "include/dt-bindings/sound/qcom,lpass.h",
@@ -10381,7 +10361,6 @@
    "net/packet/af_packet.c",
    "net/phonet/pep.c",
    "net/qrtr/Makefile",
-   "net/qrtr/af_qrtr.c",
    "net/rds/connection.c",
    "net/rds/tcp.c",
    "net/rose/af_rose.c",
@@ -10980,7 +10959,6 @@
    "sound/soc/sof/intel/hda-dsp.c",
    "sound/soc/sof/intel/hda-ipc.c",
    "sound/soc/sof/intel/hda-loader.c",
-   "sound/soc/sof/intel/hda-probes.c",
    "sound/soc/sof/intel/hda-stream.c",
    "sound/soc/sof/intel/hda.c",
    "sound/soc/sof/intel/hda.h",
@@ -11989,2048 +11967,7 @@
    "virt/kvm/eventfd.c",
    "virt/kvm/kvm_main.c"
   ],
-  "entropy": 10.75329135481018,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/intel/iwlwifi/pcie",
-   "arch/riscv/include/asm",
-   "drivers/staging/fbtft",
-   "drivers/usb/typec/ucsi",
-   "drivers/net/wireless/ath/ath6kl",
-   "net/can",
-   "tools/lib/lockdep/include/liblockdep",
-   "drivers/pinctrl/mediatek",
-   "drivers/cpufreq",
-   "arch/s390",
-   "drivers/net/wireless/mediatek/mt76/mt76x2",
-   "arch/m68k/lib",
-   "drivers/infiniband/hw/hns",
-   "drivers/bus/mhi",
-   "drivers/crypto/hisilicon",
-   "drivers/iio/imu/st_lsm6dsx",
-   "Documentation/devicetree/bindings/gpu/host1x",
-   "drivers/media/pci/ddbridge",
-   "drivers/tty/serial",
-   "drivers/vdpa/vdpa_sim",
-   "include/soc/qcom",
-   "drivers/gpu/drm",
-   "drivers/net/can/mscan",
-   "drivers/scsi/ibmvscsi_tgt",
-   "arch/sparc/kernel/syscalls",
-   "net/nfc",
-   "tools/testing/selftests/drivers/net/mlxsw/spectrum-2",
-   "drivers/media/pci/cx18",
-   "drivers/infiniband/hw/hfi1",
-   "drivers/vdpa",
-   "Documentation/translations/ko_KR",
-   "drivers/phy/ti",
-   "drivers/media/usb/gspca/gl860",
-   "drivers/scsi/qla2xxx",
-   "tools/build/feature",
-   "Documentation/devicetree/bindings/riscv",
-   "Documentation/devicetree/bindings/iio/multiplexer",
-   "drivers/crypto/marvell/cesa",
-   "drivers/net/team",
-   "tools/perf/tests",
-   "drivers/gpu/drm/stm",
-   "drivers/net/ethernet/samsung/sxgbe",
-   "arch/arm/mach-omap1",
-   "fs",
-   "drivers/hwmon/pmbus",
-   "Documentation/devicetree/bindings/bus",
-   "drivers/cdrom",
-   "mm",
-   "drivers/net/ethernet/mellanox/mlx5/core/fpga",
-   "fs/coda",
-   "kernel/locking",
-   "arch/arm64/include/asm",
-   "drivers/media/test-drivers/vidtv",
-   "net/ipv6/netfilter",
-   "drivers/net/ethernet/chelsio/inline_crypto/chtls",
-   "drivers/scsi/mpi3mr",
-   "drivers/pinctrl/ralink",
-   "fs/gfs2",
-   "include/linux/soc/samsung",
-   "drivers/mtd/spi-nor/controllers",
-   "drivers/scsi/aic94xx",
-   "sound/pci/rme9652",
-   "drivers/net/ethernet/litex",
-   "tools/testing/selftests/ftrace/test.d/trigger",
-   "drivers/remoteproc",
-   "tools/lib/lockdep/tests",
-   "include/uapi/linux/can",
-   "include/linux/mlx5",
-   "arch/mips/sibyte/swarm",
-   "drivers/misc/habanalabs/gaudi",
-   "arch/s390/mm",
-   "kernel/bpf/preload/iterators",
-   "net/openvswitch",
-   "include/media",
-   "net/netrom",
-   "drivers/net/dsa/b53",
-   "include/xen/interface/hvm",
-   "drivers/net/wireless/realtek/rtlwifi",
-   "drivers/iio/imu/inv_mpu6050",
-   "drivers/staging/r8188eu/core",
-   "drivers/media/platform/omap",
-   "tools/testing/selftests/net/mptcp",
-   "arch/arm64/boot/dts/rockchip",
-   "sound/soc/mediatek",
-   "include/soc/mscc",
-   "drivers/media/usb/pvrusb2",
-   "drivers/gpu/drm/amd/display/dc/irq/dcn20",
-   "security/integrity/evm",
-   "drivers/rtc",
-   "arch/riscv",
-   "drivers/gpu/drm/amd/display/dc",
-   "drivers/dax",
-   "drivers/crypto/qat/qat_dh895xcc",
-   "tools/perf/util/bpf_skel",
-   "drivers/staging/media/imx",
-   "drivers/clk/ti",
-   "arch/sparc/mm",
-   "arch/sh/kernel/syscalls",
-   "tools/perf/arch/riscv64/annotate",
-   "arch/sh/include/asm",
-   "tools/testing/cxl/test",
-   "drivers/acpi/apei",
-   "kernel/dma",
-   "sound/soc/ux500",
-   "drivers/gpu/drm/amd/display/dc/dce",
-   "tools/testing/selftests/rcutorture/bin",
-   "drivers/net/ethernet/sfc",
-   "arch/x86/include/asm/trace",
-   "drivers/mtd/nand/raw",
-   "include/net",
-   "drivers/gpu/drm/bridge",
-   "drivers/net/ethernet/sun",
-   "drivers/block/paride",
-   "drivers/net/wireless/microchip/wilc1000",
-   "arch/powerpc/include/asm/nohash/32",
-   "drivers/media/mc",
-   "arch/powerpc/perf",
-   "tools/perf/arch/x86/include",
-   "sound/core",
-   "arch/sh/kernel/cpu",
-   "sound/soc/mediatek/mt8195",
-   "Documentation/devicetree/bindings/extcon",
-   "drivers/net/ethernet/atheros",
-   "drivers/net/ethernet/cortina",
-   "drivers/nfc/s3fwrn5",
-   "drivers/ipack/devices",
-   "arch/arm64/boot/dts/hisilicon",
-   "drivers/iio/light",
-   "lib/zstd/common",
-   "fs/zonefs",
-   "drivers/usb/dwc3",
-   "drivers/gpu/drm/amd/display/modules/freesync",
-   "net/netlink",
-   "drivers/scsi/arcmsr",
-   "tools/perf/dlfilters",
-   "drivers/media/platform/ti-vpe",
-   "arch/arm/mach-qcom",
-   "drivers/soc/aspeed",
-   "drivers/xen/xenbus",
-   "drivers/net/ethernet/marvell/octeontx2/nic",
-   "drivers",
-   "sound/drivers/opl3",
-   "drivers/md",
-   "drivers/usb/class",
-   "arch/powerpc/include/asm",
-   "drivers/staging/iio/frequency",
-   "drivers/bcma",
-   "net/sunrpc/xprtrdma",
-   "drivers/net/ethernet/amazon/ena",
-   "Documentation/filesystems",
-   "arch/powerpc/platforms/book3s",
-   "tools/testing/selftests/kvm/aarch64",
-   "arch/mips/txx9/generic",
-   "sound/hda/ext",
-   "drivers/input/touchscreen",
-   "drivers/iio/imu/st_lsm9ds0",
-   "drivers/md/persistent-data",
-   "arch/riscv/lib",
-   "arch/arm64/kvm/hyp/vhe",
-   "drivers/usb/gadget/legacy",
-   "fs/ntfs",
-   "arch/arm64/kvm/hyp",
-   "Documentation/bpf/libbpf",
-   "arch/nds32",
-   "Documentation/devicetree/bindings/pci",
-   "drivers/net/ethernet/agere",
-   "net/ipv6",
-   "tools/perf/scripts/python",
-   "fs/nfs/flexfilelayout",
-   "drivers/net/wireless/realtek/rtl8xxxu",
-   "arch/arm64/boot/dts/apple",
-   "drivers/net/ethernet/calxeda",
-   "drivers/scsi/bnx2i",
-   "drivers/net/wireless/intel/iwlwifi/dvm",
-   "arch/mips/rb532",
-   "Documentation/devicetree/bindings/mips/ingenic",
-   "drivers/media/usb/uvc",
-   "drivers/misc/cxl",
-   "drivers/net/ethernet/brocade/bna",
-   "tools/testing/cxl",
-   "drivers/net/wireless/ti/wlcore",
-   "net/vmw_vsock",
-   "Documentation/devicetree/bindings/regulator",
-   "drivers/gpu/drm/msm/disp/dpu1",
-   "include/linux/iio/imu",
-   "drivers/net/ethernet/sis",
-   "drivers/gpu/drm/v3d",
-   "drivers/nvme/host",
-   "drivers/net/ethernet/qlogic/netxen",
-   "drivers/net/ethernet/mellanox/mlx5/core/lag",
-   "Documentation/devicetree/bindings/power",
-   "drivers/scsi/qedi",
-   "drivers/soc/fsl/dpio",
-   "drivers/usb/atm",
-   "Documentation/devicetree/bindings/eeprom",
-   "arch/arc",
-   "arch/arm64/kvm/hyp/include/hyp",
-   "arch/mips/boot",
-   "tools/testing/selftests/drivers/net/mlxsw/spectrum",
-   "sound/soc/codecs",
-   "drivers/net/wireless/marvell/libertas_tf",
-   "drivers/net/ethernet/mellanox/mlx5/core/ipoib",
-   "arch/mips/configs",
-   "drivers/misc/habanalabs/include/common",
-   "drivers/vdpa/mlx5/core",
-   "drivers/misc/genwqe",
-   "drivers/net/wireless/realtek/rtl818x/rtl8187",
-   "drivers/media/platform/mtk-vcodec",
-   "drivers/staging/mt7621-dma",
-   "drivers/gpu/drm/msm/adreno",
-   "arch/arm/mach-at91",
-   "drivers/media/common/videobuf2",
-   "Documentation/devicetree/bindings/arm/mediatek",
-   "tools/perf/pmu-events/arch/s390/cf_z10",
-   "drivers/uio",
-   "tools/tracing/latency",
-   "drivers/net/ethernet/intel/ice",
-   "Documentation/devicetree/bindings/net/wireless",
-   "drivers/soc/ti",
-   "include/dt-bindings/soc",
-   "drivers/gpu/drm/msm/disp/mdp4",
-   "tools/perf/arch/powerpc/tests",
-   "tools/perf/pmu-events/arch/arm64/arm/neoverse-v1",
-   "kernel/futex",
-   "samples",
-   "drivers/net/can/usb/peak_usb",
-   "Documentation/devicetree/bindings/nvmem",
-   "tools/perf/arch/arm64/util",
-   "arch/xtensa/platforms/iss",
-   "arch/mips/cavium-octeon",
-   "drivers/net/wireless/intel/iwlwifi/fw/api",
-   "drivers/reset",
-   "kernel",
-   "lib/xz",
-   "include/linux/ceph",
-   "include/dt-bindings/power",
-   "sound/soc/mediatek/common",
-   "Documentation/ABI/obsolete",
-   "tools/testing/radix-tree/linux",
-   "Documentation",
-   "drivers/net/ethernet",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn31",
-   "kernel/time",
-   "drivers/net",
-   "drivers/media/platform/meson/ge2d",
-   "drivers/infiniband/ulp/srpt",
-   "drivers/virt/nitro_enclaves",
-   "arch/sh/boot/dts",
-   "drivers/pwm",
-   "arch/arm/mach-realview",
-   "arch/arm64/kvm/hyp/include/nvhe",
-   "drivers/misc/lkdtm",
-   "drivers/opp",
-   "arch/powerpc/platforms/powermac",
-   "drivers/gpu/drm/amd/display/dc/inc/hw",
-   "drivers/clk/mvebu",
-   "drivers/clk/mediatek",
-   "tools/perf/pmu-events/arch/test/test_soc/cpu",
-   "tools/perf/pmu-events/arch/arm64",
-   "include/net/netns",
-   "include/dt-bindings/reset-controller",
-   "include/linux/clk",
-   "include/net/9p",
-   "drivers/media/platform/stm32",
-   "include/linux/firmware/cirrus",
-   "include/linux/usb",
-   "drivers/iio/gyro",
-   "drivers/net/ethernet/mellanox/mlx5/core/sf/dev",
-   "drivers/net/wireless/intel/ipw2x00",
-   "arch/riscv/configs",
-   "sound/isa",
-   "arch/nios2/kernel",
-   "drivers/gpu/drm/qxl",
-   "tools/bpf/resolve_btfids",
-   "arch/arm64/kernel/vdso",
-   "arch/arm/mach-bcm",
-   "drivers/char/hw_random",
-   "drivers/virt/acrn",
-   "drivers/gpu/drm/panfrost",
-   "arch/powerpc/boot",
-   "drivers/gpu/drm/amd/include/asic_reg/df",
-   "drivers/cxl/core",
-   "include/trace/events",
-   "drivers/net/ethernet/hisilicon",
-   "include/xen/arm",
-   "drivers/net/ethernet/mscc",
-   "drivers/net/ethernet/ti",
-   "drivers/net/wireless/broadcom/brcm80211/brcmsmac",
-   "drivers/net/xen-netback",
-   "Documentation/ABI/stable",
-   "arch/s390/kernel/vdso64",
-   "drivers/scsi/elx/libefc",
-   "Documentation/kbuild",
-   "drivers/net/wireless/broadcom/b43legacy",
-   "arch/h8300/include/asm",
-   "arch/mips/include/asm/mach-lantiq/xway",
-   "tools/testing/selftests/ftrace/test.d/kprobe",
-   "arch/arm/include/asm",
-   "drivers/gpu/drm/msm/disp",
-   "arch/arm64/include/uapi/asm",
-   "drivers/gpu/drm/ast",
-   "Documentation/admin-guide/hw-vuln",
-   "arch/mips/sgi-ip32",
-   "drivers/net/hyperv",
-   "arch/x86/kernel/cpu",
-   "drivers/gpu/drm/amd/pm",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn201",
-   "drivers/net/hamradio",
-   "drivers/infiniband/hw/cxgb4",
-   "drivers/media/platform/imx-jpeg",
-   "include/linux/device",
-   "fs/nfs/blocklayout",
-   "Documentation/admin-guide/blockdev/drbd",
-   "tools/testing/selftests/wireguard/qemu",
-   "drivers/gpu/drm/i915/gt/uc",
-   "drivers/block/rsxx",
-   "arch/microblaze/kernel/syscalls",
-   "include/scsi",
-   "drivers/net/ethernet/nvidia",
-   "arch/x86/entry",
-   "drivers/hid",
-   "drivers/net/wireless/mediatek/mt7601u",
-   "drivers/pcmcia",
-   "drivers/misc/pvpanic",
-   "arch/powerpc/xmon",
-   "Documentation/networking/device_drivers/ethernet/intel",
-   "include/dt-bindings/phy",
-   "drivers/net/wireless/intersil/hostap",
-   "drivers/thunderbolt",
-   "arch/riscv/boot/dts/sifive",
-   "arch/x86/net",
-   "drivers/net/ethernet/pasemi",
-   "Documentation/devicetree/bindings/thermal",
-   "drivers/soc/fsl",
-   "net/phonet",
-   "drivers/mtd/nand/raw/brcmnand",
-   "tools/arch/powerpc/include/uapi/asm",
-   "drivers/clk/samsung",
-   "drivers/clk/sunxi-ng",
-   "include/linux/lockd",
-   "drivers/media/usb/em28xx",
-   "tools/objtool/arch/x86",
-   "drivers/gpu/drm/i915/pxp",
-   "drivers/power/reset",
-   "net/strparser",
-   "sound/firewire",
-   "drivers/net/ethernet/mellanox/mlx5/core/steering",
-   "Documentation/networking/device_drivers/ethernet/freescale/dpaa2",
-   "drivers/net/can/rcar",
-   "scripts/gdb/linux",
-   "drivers/video/backlight",
-   "drivers/gpu/drm/nouveau/nvkm/engine/disp",
-   "drivers/net/wireless/broadcom/b43",
-   "drivers/power/supply",
-   "drivers/net/ethernet/tehuti",
-   "drivers/media/rc/img-ir",
-   "drivers/gpu/drm/hyperv",
-   "Documentation/core-api/irq",
-   "sound/soc/intel/skylake",
-   "arch/arm/mach-ep93xx",
-   "net/nfc/nci",
-   "drivers/clk/ux500",
-   "arch/s390/lib",
-   "Documentation/w1/masters",
-   "drivers/iio/frequency",
-   "net/bridge",
-   "drivers/acpi",
-   "drivers/media/platform/vsp1",
-   "net/rds",
-   "drivers/tee/optee",
-   "arch/x86/ia32",
-   "arch/ia64/mm",
-   "Documentation/translations/zh_CN/process",
-   "drivers/gpu/drm/armada",
-   "drivers/gpu/drm/amd/include/asic_reg/clk",
-   "drivers/net/ethernet/xscale",
-   "tools/testing/kunit/test_data",
-   "drivers/net/ethernet/dlink",
-   "include/net/sctp",
-   "sound/soc/generic",
-   "drivers/staging/octeon",
-   "tools/include/uapi/sound",
-   "drivers/net/wireless/marvell/libertas",
-   "kernel/cgroup",
-   "arch/arm64/boot/dts/qcom",
-   "drivers/infiniband/hw/qib",
-   "drivers/media/pci/netup_unidvb",
-   "drivers/clk/meson",
-   "drivers/media/pci/ivtv",
-   "drivers/mfd",
-   "arch/mips/include/asm/mach-netlogic",
-   "drivers/net/ethernet/hisilicon/hns3",
-   "drivers/staging/rtl8192u",
-   "drivers/media/usb/dvb-usb-v2",
-   "arch/microblaze/boot/dts",
-   "include/uapi/linux/byteorder",
-   "drivers/net/ethernet/marvell/octeontx2",
-   "fs/kernfs",
-   "tools/testing/selftests/net/forwarding",
-   "Documentation/driver-api/thermal",
-   "drivers/net/mdio",
-   "drivers/net/ethernet/microchip",
-   "arch/x86/kernel/kprobes",
-   "Documentation/devicetree/bindings/ufs",
-   "include/dt-bindings/clock",
-   "Documentation/devicetree/bindings/iio/magnetometer",
-   "drivers/pci/endpoint",
-   "drivers/net/netdevsim",
-   "arch/mips/include/asm/octeon",
-   "net/unix",
-   "drivers/net/ethernet/freescale/fman",
-   "drivers/gpu/drm/nouveau/nvkm/engine/device",
-   "sound/pci/ctxfi",
-   "arch/alpha/kernel/syscalls",
-   "arch/parisc/include/uapi/asm",
-   "sound/soc/amd",
-   "drivers/gpu/drm/amd/display/dc/dce110",
-   "net/caif",
-   "drivers/nfc/microread",
-   "samples/nitro_enclaves",
-   "drivers/gpu/drm/vgem",
-   "drivers/staging",
-   "tools/testing/selftests/netfilter",
-   "net/smc",
-   "tools/perf/pmu-events/arch/s390/cf_z14",
-   "drivers/platform/x86/intel",
-   "drivers/media/platform/rcar-vin",
-   "sound/soc",
-   "tools/testing/selftests/memory-hotplug",
-   "drivers/net/dsa/xrs700x",
-   "drivers/staging/greybus",
-   "tools/scripts",
-   "drivers/staging/wlan-ng",
-   "drivers/acpi/acpica",
-   "Documentation/locking",
-   "drivers/gpu/drm/amd/pm/powerplay/hwmgr",
-   "tools/testing/selftests/kvm",
-   "arch/powerpc/platforms/44x",
-   "drivers/iio",
-   "arch/xtensa/mm",
-   "include/linux/decompress",
-   "net/8021q",
-   "fs/smbfs_common",
-   "include/uapi/drm",
-   "drivers/net/can/m_can",
-   "drivers/bus",
-   "drivers/media/cec/platform/sti",
-   "drivers/net/ethernet/ezchip",
-   "arch/xtensa/configs",
-   "drivers/gpu/drm/bridge/synopsys",
-   "drivers/s390/cio",
-   "drivers/net/can/usb/kvaser_usb",
-   "arch/nds32/kernel",
-   "drivers/iio/accel",
-   "tools/lib/bpf",
-   "arch/x86/math-emu",
-   "tools/testing/selftests/x86",
-   "arch/arm/mach-s3c",
-   "drivers/tee/amdtee",
-   "arch/arm64/kvm/hyp/nvhe",
-   "drivers/media/pci/tw5864",
-   "arch/powerpc/kexec",
-   "drivers/staging/axis-fifo",
-   "drivers/media/pci/saa7134",
-   "tools/lib",
-   "arch/sparc/boot",
-   "drivers/staging/rtl8723bs/core",
-   "tools/rcu",
-   "tools/perf/arch/arm/tests",
-   "drivers/usb/serial",
-   "drivers/firmware/tegra",
-   "arch/m68k/emu",
-   "drivers/hwmon/occ",
-   "include/linux/dsa",
-   "Documentation/driver-api",
-   "arch/m68k/configs",
-   "drivers/misc/mei/pxp",
-   "fs/sysv",
-   "drivers/dma/dw",
-   "tools/perf/arch/x86/util",
-   "drivers/gpio",
-   "Documentation/devicetree/bindings",
-   "arch/x86/boot",
-   "Documentation/driver-api/usb",
-   "arch/mips/boot/dts/ingenic",
-   "fs/notify",
-   "Documentation/driver-api/media",
-   "drivers/misc/eeprom",
-   "drivers/infiniband/hw/bnxt_re",
-   "arch/sh/boards/mach-se/7724",
-   "drivers/gpu/drm/aspeed",
-   "Documentation/translations/zh_TW/process",
-   "net/ethtool",
-   "arch/mips/pci",
-   "Documentation/doc-guide",
-   "drivers/gpu/drm/i915/display",
-   "drivers/platform/mellanox",
-   "scripts/gcc-plugins",
-   "Documentation/devicetree/bindings/crypto",
-   "Documentation/arm/stm32",
-   "tools/perf/arch/arm64/include",
-   "arch/mips/mm",
-   "Documentation/devicetree/bindings/rtc",
-   "net/mptcp",
-   "arch/hexagon/include/asm",
-   "drivers/gpu/drm/i915/gem",
-   "drivers/net/ethernet/rocker",
-   "sound/soc/intel/common",
-   "sound/soc/sof/imx",
-   "drivers/gpu/drm/rockchip",
-   "drivers/media/platform/marvell-ccic",
-   "sound/hda",
-   "fs/erofs",
-   "tools/perf/util/arm-spe-decoder",
-   "drivers/net/ethernet/dec/tulip",
-   "include/uapi/linux",
-   "drivers/spi",
-   "tools/counter",
-   "Documentation/devicetree/bindings/mips",
-   "drivers/most",
-   "tools/include/linux",
-   "drivers/net/ethernet/broadcom",
-   "drivers/net/ethernet/socionext",
-   "tools/build",
-   "drivers/dma/qcom",
-   "net/ethernet",
-   "drivers/hv",
-   "drivers/message/fusion",
-   "drivers/of",
-   "drivers/memstick/core",
-   "drivers/gpu/drm/etnaviv",
-   "arch/mips/alchemy/devboards",
-   "drivers/gpu/drm/amd/include/asic_reg/mp",
-   "arch/arm/mach-s5pv210",
-   "arch/riscv/net",
-   "tools/testing/selftests/bpf/prog_tests",
-   "drivers/scsi/pcmcia",
-   "include/drm",
-   "fs/affs",
-   "drivers/scsi/fnic",
-   "Documentation/devicetree/bindings/media",
-   "arch/um/include/asm",
-   "drivers/net/wireless/ath/ar5523",
-   "arch/x86/kvm",
-   "Documentation/devicetree/bindings/gnss",
-   "drivers/gpu/drm/exynos",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn21",
-   "arch/s390/net",
-   "arch/csky/kernel/probes",
-   "include/linux",
-   "tools/lib/perf/include/perf",
-   "drivers/net/ethernet/mellanox/mlx5/core/en/xsk",
-   "drivers/soc/bcm/bcm63xx",
-   "arch/x86/kernel/cpu/sgx",
-   "fs/hfsplus",
-   "/",
-   "arch/x86/pci",
-   "tools/testing/selftests/vm",
-   "Documentation/devicetree/bindings/hwmon",
-   "arch/ia64/kernel/syscalls",
-   "mm/damon",
-   "arch/x86/kvm/mmu",
-   "drivers/gpu/drm/amd/display/dc/dml",
-   "sound/soc/cirrus",
-   "drivers/scsi/esas2r",
-   "drivers/video/fbdev/core",
-   "arch/sh/configs",
-   "drivers/net/ethernet/cadence",
-   "Documentation/devicetree/bindings/mailbox",
-   "arch/arm64/net",
-   "net/ieee802154/6lowpan",
-   "tools/testing/selftests/futex/include",
-   "drivers/net/ethernet/packetengines",
-   "include/linux/soc/marvell/octeontx2",
-   "arch/um/drivers",
-   "drivers/net/can/sja1000",
-   "drivers/phy/cadence",
-   "drivers/media/platform/s3c-camif",
-   "drivers/misc/mei",
-   "Documentation/driver-api/cxl",
-   "include/drm/ttm",
-   "include/linux/netfilter_bridge",
-   "drivers/crypto/caam",
-   "tools/lib/perf",
-   "drivers/net/ethernet/freescale/enetc",
-   "drivers/net/bonding",
-   "drivers/net/ethernet/freescale/dpaa",
-   "include/linux/sched",
-   "arch/arm/net",
-   "arch/riscv/include/uapi/asm",
-   "drivers/regulator",
-   "drivers/base/regmap",
-   "drivers/clk/versatile",
-   "Documentation/devicetree/bindings/hwlock",
-   "arch/powerpc/platforms/powernv",
-   "Documentation/devicetree/bindings/arm/ti",
-   "drivers/media/i2c",
-   "drivers/usb/typec",
-   "fs/crypto",
-   "Documentation/gpu/rfc",
-   "arch/parisc/kernel/syscalls",
-   "drivers/infiniband/ulp/opa_vnic",
-   "drivers/dma/xilinx",
-   "drivers/usb/core",
-   "Documentation/timers",
-   "drivers/gpu/drm/gud",
-   "drivers/net/ethernet/renesas",
-   "drivers/gpu/drm/tiny",
-   "drivers/devfreq",
-   "drivers/net/ethernet/mellanox/mlx5/core/diag",
-   "Documentation/arm",
-   "arch/sparc/kernel",
-   "sound/xen",
-   "drivers/gpu/drm/panel",
-   "Documentation/RCU/Design/Memory-Ordering",
-   "drivers/gpu/drm/i915/gt",
-   "drivers/firmware/psci",
-   "drivers/crypto/qat/qat_common",
-   "Documentation/devicetree/bindings/iio/dac",
-   "arch/powerpc/mm/nohash",
-   "arch/csky/kernel",
-   "drivers/net/ethernet/ibm/ehea",
-   "drivers/gpu/drm/r128",
-   "drivers/net/pcs",
-   "drivers/infiniband/ulp/ipoib",
-   "arch/sh/boards/mach-landisk",
-   "drivers/phy/microchip",
-   "arch/x86",
-   "drivers/char/agp",
-   "net/ipv4",
-   "include/media/i2c",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn301",
-   "drivers/video/console",
-   "drivers/interconnect/qcom",
-   "tools/testing/selftests/arm64/fp",
-   "arch/arm/boot/dts",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr",
-   "arch/arm/mach-ux500",
-   "drivers/net/ethernet/cisco/enic",
-   "net/mac802154",
-   "drivers/net/fddi/skfp",
-   "arch/x86/kvm/svm",
-   "lib/kunit",
-   "kernel/irq",
-   "drivers/net/ethernet/intel/e1000e",
-   "Documentation/devicetree/bindings/iio/light",
-   "drivers/net/wireless/ralink/rt2x00",
-   "drivers/gpu/drm/omapdrm/dss",
-   "arch/arm/xen",
-   "drivers/hid/amd-sfh-hid",
-   "drivers/net/ethernet/synopsys",
-   "drivers/media/platform/s5p-jpeg",
-   "drivers/scsi/aacraid",
-   "drivers/net/ethernet/chelsio/cxgb4vf",
-   "net/xdp",
-   "drivers/gpu/drm/amd/display/dc/dcn302",
-   "drivers/infiniband/hw/usnic",
-   "fs/notify/fanotify",
-   "tools/testing/selftests/drivers/net/ocelot",
-   "drivers/media/platform/rockchip/rga",
-   "drivers/misc",
-   "tools/perf/ui",
-   "drivers/net/ethernet/actions",
-   "drivers/media/v4l2-core",
-   "drivers/net/ethernet/intel/iavf",
-   "usr",
-   "drivers/input/misc",
-   "Documentation/devicetree/bindings/w1",
-   "sound/soc/tegra",
-   "drivers/hid/intel-ish-hid/ipc",
-   "drivers/staging/rts5208",
-   "fs/ubifs",
-   "tools/perf/pmu-events/arch/s390/cf_z13",
-   "drivers/bus/fsl-mc",
-   "drivers/i2c",
-   "drivers/iio/trigger",
-   "tools/perf/pmu-events/arch/arm64/hisilicon/hip08",
-   "drivers/hid/surface-hid",
-   "arch/x86/kernel/acpi",
-   "drivers/staging/pi433",
-   "arch/x86/lib",
-   "drivers/net/ethernet/hisilicon/hns3/hns3vf",
-   "drivers/crypto/chelsio",
-   "drivers/s390/block",
-   "Documentation/devicetree/bindings/arm/samsung",
-   "drivers/tty",
-   "drivers/net/ethernet/huawei/hinic",
-   "drivers/net/fddi/skfp/h",
-   "virt/kvm",
-   "drivers/net/wireless/st/cw1200",
-   "drivers/infiniband/ulp/rtrs",
-   "drivers/net/wwan",
-   "lib/crypto",
-   "fs/cachefiles",
-   "drivers/crypto/hisilicon/zip",
-   "tools/perf/arch/powerpc/entry/syscalls",
-   "include/dt-bindings/leds",
-   "fs/lockd",
-   "drivers/staging/media/meson/vdec",
-   "Documentation/userspace-api/media",
-   "Documentation/devicetree/bindings/auxdisplay",
-   "drivers/gpu/drm/nouveau/nvkm/subdev/mmu",
-   "Documentation/admin-guide/mm/damon",
-   "arch/powerpc/kernel",
-   "Documentation/devicetree/bindings/mfd",
-   "Documentation/vm",
-   "net/bluetooth",
-   "drivers/gpu/drm/vboxvideo",
-   "drivers/gpu/drm/msm/disp/mdp5",
-   "net/switchdev",
-   "Documentation/devicetree/bindings/display/panel",
-   "drivers/crypto/ccp",
-   "drivers/rpmsg",
-   "arch/x86/xen",
-   "arch/parisc/include/asm",
-   "drivers/net/wireless/atmel",
-   "drivers/scsi/ibmvscsi",
-   "drivers/mtd/nand",
-   "drivers/net/dsa/sja1105",
-   "drivers/net/ethernet/myricom/myri10ge",
-   "drivers/cxl",
-   "drivers/scsi/cxlflash",
-   "include/target",
-   "Documentation/admin-guide/blockdev",
-   "arch/powerpc/include/asm/book3s/64",
-   "drivers/net/ethernet/atheros/alx",
-   "drivers/net/ethernet/cavium/octeon",
-   "drivers/firmware/arm_ffa",
-   "drivers/macintosh",
-   "tools/perf/ui/tui",
-   "drivers/infiniband/hw/efa",
-   "Documentation/devicetree/bindings/input/touchscreen",
-   "arch/arm64/boot/dts/renesas",
-   "arch/powerpc/platforms/83xx",
-   "include/linux/iio/common",
-   "drivers/gpu/drm/amd/display/include",
-   "drivers/net/wireless/mediatek/mt76/mt7921",
-   "drivers/net/ethernet/aeroflex",
-   "arch/x86/kvm/vmx",
-   "drivers/media/pci/cx23885",
-   "Documentation/devicetree/bindings/hwmon/pmbus",
-   "drivers/staging/wfx",
-   "include/linux/mlx4",
-   "Documentation/devicetree/bindings/soc/imx",
-   "drivers/net/ethernet/adaptec",
-   "drivers/net/ethernet/ni",
-   "drivers/cpuidle",
-   "drivers/net/dsa/hirschmann",
-   "sound/soc/sh/rcar",
-   "drivers/net/ethernet/faraday",
-   "Documentation/core-api",
-   "drivers/infiniband/core",
-   "drivers/media/pci/cobalt",
-   "Documentation/sound",
-   "Documentation/devicetree/bindings/leds",
-   "Documentation/arm64",
-   "arch/arm/mach-integrator",
-   "Documentation/devicetree/bindings/interrupt-controller",
-   "Documentation/devicetree/bindings/net",
-   "include/linux/netfilter_ipv6",
-   "include/sound",
-   "block/partitions",
-   "drivers/infiniband/ulp/srp",
-   "arch/nios2/include/asm",
-   "tools/perf/pmu-events/arch/nds32/n13",
-   "drivers/hid/intel-ish-hid/ishtp",
-   "include/linux/power",
-   "drivers/net/ethernet/atheros/atlx",
-   "drivers/pinctrl/renesas",
-   "security/integrity/ima",
-   "drivers/net/appletalk",
-   "drivers/media/usb/tm6000",
-   "drivers/vdpa/virtio_pci",
-   "arch/parisc/mm",
-   "arch/s390/include/asm",
-   "arch/mips/sgi-ip30",
-   "sound/soc/atmel",
-   "arch/powerpc/sysdev/xive",
-   "arch/sparc/include/uapi/asm",
-   "drivers/gpu/drm/amd/display/dmub",
-   "drivers/mux",
-   "arch/riscv/kernel/vdso",
-   "drivers/net/ethernet/stmicro/stmmac",
-   "drivers/staging/rtl8723bs/hal",
-   "drivers/net/usb",
-   "fs/xfs/libxfs",
-   "arch/m68k/include/asm",
-   "fs/xfs",
-   "drivers/soc/tegra",
-   "drivers/platform/x86",
-   "samples/kfifo",
-   "fs/nilfs2",
-   "drivers/mtd/ubi",
-   "Documentation/devicetree/bindings/clock/sifive",
-   "Documentation/gpu",
-   "drivers/s390/crypto",
-   "fs/sysfs",
-   "drivers/vfio/mdev",
-   "tools/perf/trace/beauty",
-   "drivers/mtd/devices",
-   "drivers/net/ethernet/fujitsu",
-   "tools/testing/selftests/kvm/include",
-   "tools/testing/selftests/drivers/net/mlxsw",
-   "drivers/block/null_blk",
-   "drivers/net/wireless/realtek",
-   "drivers/media/platform/s5p-mfc",
-   "tools/perf/arch/x86/tests",
-   "drivers/media/platform/rockchip/rkisp1",
-   "net/atm",
-   "drivers/net/fddi",
-   "drivers/block/aoe",
-   "drivers/soc/sunxi",
-   "drivers/dma",
-   "arch/sh/boards",
-   "tools/objtool",
-   "fs/fat",
-   "drivers/gpu/drm/amd/display/modules/color",
-   "drivers/block/xen-blkback",
-   "arch/riscv/kernel",
-   "drivers/media/platform/omap3isp",
-   "drivers/nfc/nfcmrvl",
-   "drivers/input",
-   "drivers/target/sbp",
-   "drivers/scsi/arm",
-   "drivers/net/ethernet/mellanox/mlx5/core/sf/diag",
-   "drivers/net/can",
-   "arch/mips/sgi-ip27",
-   "tools/testing/selftests/core",
-   "drivers/gpu/drm/amd/pm/swsmu",
-   "arch/mips/include/asm/netlogic/xlr",
-   "drivers/s390/scsi",
-   "drivers/gpu/drm/amd/display/dc/calcs",
-   "drivers/gpu/drm/shmobile",
-   "Documentation/devicetree/bindings/opp",
-   "drivers/media/pci/intel/ipu3",
-   "drivers/gpu/drm/xen",
-   "mm/kasan",
-   "Documentation/sound/soc",
-   "drivers/iommu/arm/arm-smmu-v3",
-   "arch/mips/sni",
-   "drivers/staging/vc04_services/interface/vchiq_arm",
-   "Documentation/devicetree/bindings/ddr",
-   "Documentation/userspace-api",
-   "Documentation/devicetree/bindings/display/tilcdc",
-   "net/dsa",
-   "drivers/pci/controller/dwc",
-   "Documentation/devicetree/bindings/firmware",
-   "drivers/staging/media/hantro",
-   "drivers/scsi/isci",
-   "arch/x86/kernel",
-   "drivers/net/ipvlan",
-   "drivers/md/bcache",
-   "Documentation/devicetree/bindings/dsp",
-   "drivers/net/ethernet/mellanox/mlx5/core/lib",
-   "drivers/hwmon",
-   "arch/mips/dec",
-   "include/linux/regulator",
-   "drivers/scsi/smartpqi",
-   "drivers/gpu/drm/zte",
-   "Documentation/devicetree/bindings/arm/bcm",
-   "sound/pci",
-   "arch/x86/include/uapi/asm",
-   "Documentation/devicetree/bindings/memory-controllers",
-   "drivers/gpu/drm/msm/dsi",
-   "drivers/amba",
-   "drivers/net/wireless/broadcom/brcm80211",
-   "tools/testing/selftests/bpf/verifier",
-   "tools/testing/selftests/sched",
-   "lib/zstd",
-   "tools/bpf/bpftool",
-   "drivers/net/wireless/ath",
-   "drivers/pci/controller",
-   "drivers/media/platform/allegro-dvt",
-   "arch/sh/math-emu",
-   "fs/btrfs",
-   "net/xfrm",
-   "drivers/misc/cardreader",
-   "drivers/net/ethernet/amd/xgbe",
-   "tools/perf/pmu-events/arch/arm64/arm/cortex-a76-n1",
-   "arch/hexagon/lib",
-   "Documentation/devicetree/bindings/timer",
-   "drivers/firmware/arm_scmi",
-   "drivers/scsi/fcoe",
-   "drivers/gpu/drm/amd/pm/powerplay",
-   "security",
-   "scripts/mod",
-   "Documentation/admin-guide/mm",
-   "drivers/net/ethernet/altera",
-   "drivers/usb",
-   "lib/test_fortify",
-   "drivers/platform/x86/intel/pmc",
-   "drivers/usb/typec/altmodes",
-   "Documentation/devicetree/bindings/input",
-   "scripts/package",
-   "Documentation/admin-guide",
-   "include/uapi/sound",
-   "drivers/iio/magnetometer",
-   "fs/isofs",
-   "arch/mips/include/asm/mach-loongson64",
-   "drivers/thermal/qcom",
-   "drivers/net/ethernet/apm/xgene-v2",
-   "drivers/crypto/marvell/octeontx2",
-   "drivers/sh/maple",
-   "arch/arm/common",
-   "drivers/soc/renesas",
-   "arch",
-   "Documentation/translations/zh_CN/doc-guide",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn20",
-   "arch/arm/mach-sunxi",
-   "Documentation/RCU",
-   "drivers/gpu/drm/rcar-du",
-   "drivers/mtd/maps",
-   "drivers/usb/early",
-   "sound/soc/stm",
-   "drivers/soc/tegra/fuse",
-   "Documentation/cpu-freq",
-   "sound/soc/sof/intel",
-   "drivers/net/ethernet/broadcom/bnx2x",
-   "Documentation/driver-api/serial",
-   "drivers/char/ipmi",
-   "fs/ocfs2",
-   "drivers/net/ethernet/qlogic/qede",
-   "drivers/scsi/libsas",
-   "arch/m68k/kernel",
-   "arch/arm64/boot/dts/arm",
-   "drivers/scsi/snic",
-   "sound/soc/qcom",
-   "drivers/ssb",
-   "tools/testing/kunit",
-   "Documentation/devicetree/bindings/memory-controllers/ddr",
-   "drivers/iio/buffer",
-   "drivers/phy/hisilicon",
-   "Documentation/devicetree/bindings/arm/sunxi",
-   "drivers/gpu/drm/i915/selftests",
-   "fs/hugetlbfs",
-   "drivers/tty/hvc",
-   "Documentation/userspace-api/ioctl",
-   "drivers/gpu/drm/amd/display/dc/dcn201",
-   "include/clocksource",
-   "arch/nds32/mm",
-   "sound/soc/mediatek/mt8173",
-   "drivers/scsi/megaraid",
-   "arch/mips/boot/dts",
-   "sound/soc/sof",
-   "fs/cramfs",
-   "arch/ia64/kernel",
-   "include/linux/soc/mediatek",
-   "drivers/scsi/sym53c8xx_2",
-   "net/sched",
-   "tools/perf/util/intel-pt-decoder",
-   "drivers/gpu/drm/amd/pm/swsmu/smu11",
-   "lib",
-   "tools/perf/arch/powerpc/util",
-   "arch/powerpc/mm",
-   "drivers/misc/lis3lv02d",
-   "drivers/xen",
-   "drivers/nvme/target",
-   "tools/testing/selftests/tc-testing/tc-tests/qdiscs",
-   "drivers/net/arcnet",
-   "drivers/net/ethernet/moxa",
-   "arch/arm64/boot/dts/exynos",
-   "drivers/usb/cdns3",
-   "arch/arm",
-   "arch/x86/events",
-   "drivers/base/power",
-   "drivers/gpu/drm/ttm",
-   "include/uapi/sound/sof",
-   "drivers/staging/r8188eu/include",
-   "arch/arm/mach-exynos",
-   "drivers/gpu/drm/amd/display/dc/dcn10",
-   "drivers/memory/tegra",
-   "drivers/platform/chrome",
-   "arch/xtensa/kernel/syscalls",
-   "drivers/gpu/drm/amd/display/dc/irq/dcn21",
-   "drivers/net/ethernet/xilinx",
-   "net/tipc",
-   "drivers/media/platform/exynos-gsc",
-   "tools/perf/arch/mips/entry/syscalls",
-   "tools/testing/selftests/cgroup",
-   "drivers/char/xillybus",
-   "Documentation/devicetree/bindings/iio/adc",
-   "net/rxrpc",
-   "drivers/tty/serial/cpm_uart",
-   "drivers/scsi/libfc",
-   "Documentation/driver-api/driver-model",
-   "arch/nds32/include/asm",
-   "arch/arm64/kernel/probes",
-   "drivers/base",
-   "arch/x86/entry/syscalls",
-   "drivers/gpu/drm/gma500",
-   "arch/arc/kernel",
-   "drivers/misc/habanalabs/include/gaudi",
-   "drivers/gpu/drm/amd/amdkfd",
-   "drivers/usb/chipidea",
-   "Documentation/scheduler",
-   "drivers/net/ethernet/freescale/fs_enet",
-   "drivers/misc/habanalabs/goya",
-   "drivers/video/fbdev",
-   "arch/s390/kvm",
-   "arch/arm/mach-stm32",
-   "drivers/soc/amlogic",
-   "include/linux/fsl",
-   "sound/usb/misc",
-   "tools/bootconfig",
-   "fs/proc",
-   "init",
-   "tools/perf/pmu-events/arch/s390/cf_zec12",
-   "drivers/iio/common/cros_ec_sensors",
-   "arch/mips",
-   "include/soc/fsl",
-   "drivers/net/wireless/ath/ath10k",
-   "Documentation/maintainer",
-   "drivers/gpu/drm/amd/display/dc/dcn31",
-   "Documentation/x86/x86_64",
-   "arch/arm64/kernel",
-   "arch/arm64/boot/dts/broadcom",
-   "drivers/gpu/drm/amd/display/dc/dcn20",
-   "drivers/net/wireless/cisco",
-   "drivers/target/loopback",
-   "tools/testing/selftests/net",
-   "drivers/iio/common/hid-sensors",
-   "drivers/net/wireless",
-   "Documentation/devicetree/bindings/iommu",
-   "lib/zstd/decompress",
-   "tools/perf/pmu-events/arch/arm64/ampere/emag",
-   "drivers/devfreq/event",
-   "arch/powerpc/configs",
-   "drivers/net/can/dev",
-   "Documentation/devicetree/bindings/sram",
-   "drivers/edac",
-   "drivers/media/dvb-core",
-   "drivers/media/common/siano",
-   "drivers/net/wan",
-   "drivers/misc/habanalabs/common",
-   "drivers/gpu/drm/i915",
-   "fs/hpfs",
-   "drivers/phy/marvell",
-   "drivers/firmware/efi",
-   "tools/perf/arch/x86/annotate",
-   "sound/virtio",
-   "tools/perf/Documentation",
-   "Documentation/cdrom",
-   "drivers/media/test-drivers/vivid",
-   "drivers/phy/samsung",
-   "drivers/usb/image",
-   "drivers/usb/musb",
-   "include/linux/mfd/da9063",
-   "drivers/target/iscsi/cxgbit",
-   "arch/powerpc/boot/dts",
-   "tools/testing/selftests/kvm/lib/aarch64",
-   "arch/powerpc/include/asm/nohash",
-   "drivers/net/ethernet/netronome/nfp/nfpcore",
-   "net/packet",
-   "drivers/comedi/drivers",
-   "arch/sh/boot",
-   "net/ceph",
-   "drivers/staging/fieldbus/anybuss",
-   "arch/arm64/boot/dts/ti",
-   "drivers/dma/dw-edma",
-   "arch/csky",
-   "drivers/media/platform/sti/hva",
-   "Documentation/devicetree/bindings/arm/firmware",
-   "drivers/gpu/drm/arm",
-   "drivers/net/ethernet/toshiba",
-   "drivers/pci/hotplug",
-   "net/sunrpc/auth_gss",
-   "drivers/vfio/pci",
-   "tools/perf",
-   "drivers/net/ethernet/mediatek",
-   "arch/arm64/boot/dts/mediatek",
-   "arch/mips/cavium-octeon/executive",
-   "drivers/usb/storage",
-   "drivers/net/ethernet/marvell/octeontx2/af",
-   "crypto",
-   "sound/soc/meson",
-   "drivers/tty/serial/8250",
-   "include/crypto/internal",
-   "net/ipv4/netfilter",
-   "arch/arm64/boot/dts/amlogic",
-   "Documentation/virt",
-   "Documentation/ABI/testing",
-   "tools/perf/tests/shell",
-   "drivers/clk/at91",
-   "include/linux/mmc",
-   "drivers/platform/x86/dell",
-   "arch/arm64/kernel/vdso32",
-   "drivers/net/ethernet/arc",
-   "arch/microblaze/pci",
-   "arch/powerpc/mm/ptdump",
-   "arch/x86/include/asm",
-   "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/staging/r8188eu/hal",
-   "net/bluetooth/bnep",
-   "include/xen/interface/io",
-   "drivers/mtd",
-   "drivers/net/dsa/mv88e6xxx",
-   "drivers/net/ethernet/oki-semi/pch_gbe",
-   "net/dccp",
-   "Documentation/driver-api/mmc",
-   "tools/testing/selftests/kvm/include/aarch64",
-   "arch/mips/generic",
-   "fs/ramfs",
-   "scripts/dtc/libfdt",
-   "drivers/net/ethernet/marvell/mvpp2",
-   "fs/fuse",
-   "arch/arm/kernel",
-   "arch/x86/realmode",
-   "drivers/net/wireless/ath/ath9k",
-   "Documentation/devicetree/bindings/iio/frequency",
-   "drivers/mtd/nand/onenand",
-   "arch/alpha/include/asm",
-   "sound/pci/hda",
-   "arch/arm64/boot/dts/allwinner",
-   "drivers/dma/ioat",
-   "drivers/misc/sgi-xp",
-   "include/linux/can",
-   "drivers/nfc/st-nci",
-   "drivers/staging/media/tegra-video",
-   "fs/ext4",
-   "drivers/net/slip",
-   "drivers/net/ethernet/sgi",
-   "include/linux/mux",
-   "arch/mips/boot/compressed",
-   "drivers/net/ethernet/intel/ixgb",
-   "drivers/soc/imx",
-   "fs/exfat",
-   "sound/soc/rockchip",
-   "drivers/bluetooth",
-   "net/rose",
-   "arch/mips/kvm",
-   "drivers/media/platform/mtk-vcodec/vdec",
-   "drivers/leds/trigger",
-   "include/linux/gpio",
-   "arch/x86/boot/compressed",
-   "arch/sh",
-   "drivers/net/ethernet/intel/fm10k",
-   "drivers/gpu/drm/msm/dp",
-   "drivers/net/ethernet/chelsio/cxgb4",
-   "tools/perf/pmu-events/arch/s390/cf_z196",
-   "drivers/net/ethernet/natsemi",
-   "drivers/net/wireless/intel/iwlwifi/fw",
-   "arch/arm64/include/asm/vdso",
-   "tools/testing/selftests/seccomp",
-   "drivers/gpu/drm/i915/gt/uc/abi",
-   "drivers/media/platform/qcom/camss",
-   "drivers/iio/multiplexer",
-   "drivers/soundwire",
-   "drivers/scsi/lpfc",
-   "drivers/gpu/drm/tegra",
-   "drivers/soc/bcm/brcmstb",
-   "drivers/nvmem",
-   "drivers/clk/imx",
-   "drivers/gpu/drm/i915/gem/selftests",
-   "drivers/gpu/drm/amd/display/dc/dsc",
-   "Documentation/translations/it_IT/doc-guide",
-   "drivers/net/can/usb",
-   "drivers/perf/hisilicon",
-   "sound/soc/amd/acp",
-   "sound/firewire/motu",
-   "sound/soc/au1x",
-   "tools/testing/selftests/futex/functional",
-   "drivers/net/wireless/mediatek/mt76/mt7615",
-   "drivers/net/ethernet/pensando/ionic",
-   "Documentation/devicetree/bindings/reserved-memory",
-   "fs/ceph",
-   "drivers/net/wireguard",
-   "kernel/bpf/preload",
-   "arch/ia64/include/asm",
-   "sound/firewire/oxfw",
-   "arch/arm64/boot/dts/toshiba",
-   "drivers/staging/netlogic",
-   "Documentation/virt/kvm/devices",
-   "drivers/net/ethernet/seeq",
-   "drivers/staging/unisys/visornic",
-   "drivers/staging/most/net",
-   "tools/perf/pmu-events/arch/s390/cf_z15",
-   "drivers/dma/hsu",
-   "Documentation/devicetree/bindings/phy",
-   "tools/testing/selftests/ftrace/test.d",
-   "drivers/pinctrl/tegra",
-   "drivers/rapidio/devices",
-   "include/linux/mfd",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "arch/mips/include/asm/mach-ralink",
-   "tools/testing/selftests/lkdtm",
-   "drivers/crypto/qat/qat_4xxx",
-   "drivers/net/wireless/ath/wcn36xx",
-   "drivers/net/ethernet/mellanox/mlx5/core/en",
-   "include/linux/spi",
-   "samples/bpf",
-   "fs/f2fs",
-   "drivers/mmc/core",
-   "kernel/power",
-   "drivers/memory/samsung",
-   "drivers/gpu/drm/amd/display/dmub/inc",
-   "drivers/media/usb/stkwebcam",
-   "drivers/staging/mt7621-dts",
-   "drivers/gpu/drm/lima",
-   "drivers/staging/rtl8192e",
-   "Documentation/devicetree/bindings/usb",
-   "security/selinux/ss",
-   "drivers/net/ppp",
-   "Documentation/power",
-   "Documentation/i2c",
-   "arch/mips/sgi-ip22",
-   "arch/x86/include/asm/fpu",
-   "drivers/infiniband/sw/rxe",
-   "drivers/net/ethernet/ibm",
-   "include/dt-bindings/sound",
-   "tools/testing/selftests/bpf/bpf_testmod",
-   "Documentation/devicetree/bindings/watchdog",
-   "security/selinux/include",
-   "Documentation/devicetree/bindings/soc/aspeed",
-   "drivers/gpu/drm/nouveau/nvkm/subdev/acr",
-   "security/apparmor",
-   "net/qrtr",
-   "drivers/mtd/chips",
-   "Documentation/devicetree/bindings/remoteproc",
-   "Documentation/spi",
-   "drivers/gpu/drm/amd/amdgpu",
-   "fs/nfs/filelayout",
-   "drivers/media/platform/sti/bdisp",
-   "drivers/media/firewire",
-   "drivers/auxdisplay",
-   "kernel/livepatch",
-   "drivers/memstick/host",
-   "security/tomoyo",
-   "net/bluetooth/rfcomm",
-   "drivers/infiniband/sw/siw",
-   "drivers/nfc/pn544",
-   "drivers/tee",
-   "arch/x86/mm/pat",
-   "drivers/net/dsa/ocelot",
-   "drivers/scsi/pm8001",
-   "net/hsr",
-   "Documentation/admin-guide/cgroup-v1",
-   "tools/include/uapi/linux",
-   "drivers/net/ethernet/qualcomm",
-   "samples/kprobes",
-   "drivers/net/ethernet/atheros/atl1e",
-   "Documentation/filesystems/ext4",
-   "Documentation/x86",
-   "arch/m68k/kernel/syscalls",
-   "drivers/block/rnbd",
-   "arch/mips/lantiq",
-   "drivers/hsi/clients",
-   "drivers/ptp",
-   "net/tls",
-   "tools/testing/selftests/kvm/include/x86_64",
-   "tools/include/asm-generic",
-   "drivers/net/wireless/zydas",
-   "fs/nfs",
-   "arch/arm/mach-hisi",
-   "tools/include/uapi/drm",
-   "drivers/dma/idxd",
-   "mm/kfence",
-   "arch/arm64/boot/dts/broadcom/bcm4908",
-   "drivers/misc/ocxl",
-   "tools/testing/selftests/gpio",
-   "Documentation/devicetree/bindings/display/mediatek",
-   "include/dt-bindings/pinctrl",
-   "drivers/gpu/drm/mxsfb",
-   "arch/arm64/configs",
-   "drivers/vdpa/alibaba",
-   "drivers/net/ethernet/davicom",
-   "drivers/net/wireless/quantenna/qtnfmac",
-   "drivers/media/radio",
-   "Documentation/hwmon",
-   "arch/x86/entry/vsyscall",
-   "drivers/gpu/drm/msm/dsi/phy",
-   "security/selinux",
-   "drivers/net/ethernet/qlogic",
-   "fs/tracefs",
-   "include/uapi/linux/netfilter",
-   "drivers/gpu/drm/mcde",
-   "kernel/bpf",
-   "arch/x86/hyperv",
-   "drivers/iio/chemical",
-   "drivers/media/platform/s5p-g2d",
-   "drivers/pinctrl/uniphier",
-   "drivers/gpu/drm/amd/include",
-   "net/mctp",
-   "arch/powerpc/platforms/85xx",
-   "drivers/crypto/keembay",
-   "drivers/iommu/arm/arm-smmu",
-   "include/acpi",
-   "drivers/staging/r8188eu",
-   "kernel/trace",
-   "arch/arm64/boot/dts/xilinx",
-   "drivers/media/platform/mtk-vpu",
-   "drivers/gpu/drm/amd/include/asic_reg/dcn",
-   "drivers/iio/adc",
-   "sound/soc/samsung",
-   "drivers/net/ethernet/cavium/thunder",
-   "drivers/nfc/fdp",
-   "drivers/media/usb/ttusb-dec",
-   "drivers/block/drbd",
-   "drivers/iio/common/st_sensors",
-   "drivers/gpu/drm/amd/include/asic_reg/dpcs",
-   "drivers/gpu/drm/amd/display/dc/irq/dcn201",
-   "drivers/clk",
-   "drivers/block",
-   "net/wireless",
-   "arch/nios2/boot",
-   "arch/x86/platform/efi",
-   "sound/soc/intel/boards",
-   "arch/x86/tools",
-   "drivers/pnp",
-   "drivers/net/dsa/qca",
-   "drivers/base/firmware_loader",
-   "drivers/staging/vt6655",
-   "drivers/gpu/drm/virtio",
-   "include/linux/firmware",
-   "drivers/nvdimm",
-   "drivers/media/dvb-frontends/cxd2880",
-   "drivers/staging/media/rkvdec",
-   "fs/afs",
-   "tools/testing/selftests/drivers/net/dsa",
-   "Documentation/devicetree/bindings/memory-controllers/fsl",
-   "drivers/staging/media/ipu3/include/uapi",
-   "arch/m68k/mm",
-   "arch/arm64/boot/dts/nvidia",
-   "drivers/media/usb/gspca/m5602",
-   "drivers/infiniband/hw/irdma",
-   "drivers/net/ethernet/neterion",
-   "drivers/fsi",
-   "Documentation/translations/zh_CN/PCI",
-   "Documentation/translations/it_IT/process",
-   "Documentation/security",
-   "arch/microblaze/mm",
-   "drivers/media/platform/atmel",
-   "sound/synth/emux",
-   "tools/perf/util",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn30",
-   "drivers/media/cec/platform/s5p",
-   "sound/usb/line6",
-   "drivers/scsi/mpt3sas",
-   "arch/um/kernel",
-   "drivers/media/pci/pt1",
-   "arch/mips/include/asm/netlogic",
-   "fs/netfs",
-   "drivers/mmc/host",
-   "arch/mips/sibyte/common",
-   "arch/x86/crypto",
-   "drivers/input/joystick",
-   "sound/soc/mediatek/mt2701",
-   "drivers/vfio/fsl-mc",
-   "arch/s390/kernel/vdso32",
-   "drivers/net/wireless/intersil/orinoco",
-   "arch/x86/power",
-   "fs/orangefs",
-   "drivers/crypto/qat/qat_c62x",
-   "drivers/usb/dwc2",
-   "drivers/net/ethernet/hisilicon/hns3/hns3pf",
-   "tools/testing/selftests/wireguard",
-   "security/smack",
-   "arch/powerpc/platforms/pseries",
-   "arch/s390/boot",
-   "fs/udf",
-   "drivers/media/cec/core",
-   "tools/testing/selftests/tc-testing",
-   "drivers/net/ethernet/mellanox/mlx5/core/en_accel",
-   "arch/openrisc/kernel",
-   "drivers/net/ethernet/xircom",
-   "drivers/pci/pcie",
-   "drivers/platform/surface",
-   "tools/power/acpi",
-   "drivers/gpu/drm/amd/display/dc/irq",
-   "tools/arch/x86/include/uapi/asm",
-   "drivers/net/ethernet/aquantia/atlantic/hw_atl2",
-   "sound/firewire/fireworks",
-   "tools/testing/selftests/kvm/lib",
-   "include/uapi/rdma",
-   "drivers/net/hippi",
-   "drivers/mtd/nand/raw/atmel",
-   "Documentation/translations/zh_CN/core-api",
-   "include/net/bluetooth",
-   "drivers/clk/renesas",
-   "include/linux/soc/qcom",
-   "sound/soc/bcm",
-   "drivers/clk/actions",
-   "tools/testing/selftests/proc",
-   "arch/mips/netlogic/xlr",
-   "Documentation/translations/zh_CN/maintainer",
-   "drivers/scsi/hisi_sas",
-   "drivers/perf",
-   "drivers/net/wireless/mediatek/mt76/mt7603",
-   "drivers/net/ethernet/ibm/emac",
-   "Documentation/userspace-api/media/drivers",
-   "drivers/staging/rtl8723bs/os_dep",
-   "Documentation/devicetree/bindings/power/supply",
-   "fs/hfs",
-   "drivers/net/ethernet/alacritech",
-   "lib/raid6",
-   "drivers/scsi/ufs",
-   "drivers/virtio",
-   "arch/mips/kernel/syscalls",
-   "drivers/idle",
-   "sound/soc/sof/xtensa",
-   "security/apparmor/include",
-   "drivers/gpu/drm/tilcdc",
-   "arch/mips/lantiq/xway",
-   "Documentation/translations/zh_CN/admin-guide",
-   "Documentation/leds",
-   "arch/powerpc/platforms/cell/spufs",
-   "drivers/s390/net",
-   "drivers/usb/typec/tipd",
-   "drivers/dma/sh",
-   "drivers/staging/qlge",
-   "net/sunrpc",
-   "arch/x86/mm",
-   "drivers/iommu/intel",
-   "include/uapi/misc",
-   "net/ax25",
-   "kernel/printk",
-   "Documentation/vm/damon",
-   "drivers/media/test-drivers",
-   "arch/arm64/crypto",
-   "drivers/net/ieee802154",
-   "arch/sh/mm",
-   "drivers/gpu/drm/nouveau/nvkm/engine/ce",
-   "drivers/xen/xen-pciback",
-   "arch/riscv/kernel/probes",
-   "drivers/gpu/drm/amd/display/dc/virtual",
-   "arch/arc/mm",
-   "drivers/powercap",
-   "drivers/vdpa/mlx5/net",
-   "drivers/pinctrl/bcm",
-   "include/linux/sunrpc",
-   "arch/arm64/xen",
-   "drivers/crypto/qat/qat_c3xxx",
-   "drivers/net/ethernet/cavium/liquidio",
-   "drivers/media/tuners",
-   "drivers/net/ethernet/intel/ixgbe",
-   "drivers/clk/qcom",
-   "fs/ksmbd",
-   "include/acpi/platform",
-   "Documentation/process",
-   "Documentation/devicetree/bindings/reset",
-   "drivers/iio/imu",
-   "drivers/net/ethernet/chelsio/cxgb",
-   "drivers/staging/mt7621-pci",
-   "sound/usb",
-   "drivers/net/ethernet/aquantia/atlantic",
-   "Documentation/trace",
-   "drivers/iio/temperature",
-   "arch/mips/include/asm/netlogic/xlp-hal",
-   "drivers/pci/controller/cadence",
-   "arch/sh/boards/mach-ecovec24",
-   "drivers/net/ethernet/microsoft/mana",
-   "drivers/iio/dac",
-   "fs/cifs",
-   "drivers/net/ethernet/intel",
-   "drivers/net/wireless/marvell/mwifiex",
-   "sound/soc/ti",
-   "samples/ftrace",
-   "tools/perf/bench",
-   "fs/9p",
-   "drivers/gpu/ipu-v3",
-   "arch/mips/include/asm",
-   "drivers/phy/st",
-   "drivers/media/platform/am437x",
-   "drivers/gpu/drm/amd/display/modules/inc",
-   "Documentation/devicetree/bindings/gpio",
-   "drivers/net/vmxnet3",
-   "kernel/kcsan",
-   "arch/sh/boot/compressed",
-   "include/linux/firmware/imx",
-   "include/crypto",
-   "drivers/irqchip",
-   "arch/powerpc/mm/book3s64",
-   "drivers/gpu/drm/vc4",
-   "drivers/net/ethernet/smsc",
-   "block",
-   "drivers/leds",
-   "arch/hexagon/kernel",
-   "fs/ocfs2/dlm",
-   "fs/xfs/scrub",
-   "Documentation/devicetree/bindings/net/nfc",
-   "arch/powerpc/include/asm/nohash/64",
-   "drivers/net/ethernet/microchip/sparx5",
-   "fs/overlayfs",
-   "drivers/usb/gadget",
-   "arch/sh/boards/mach-migor",
-   "drivers/thermal/intel",
-   "drivers/block/zram",
-   "drivers/staging/rtl8723bs",
-   "Documentation/devicetree/bindings/iio/accel",
-   "ipc",
-   "arch/x86/kernel/fpu",
-   "sound/soc/fsl",
-   "arch/mips/ralink",
-   "net/mpls",
-   "arch/mips/netlogic/xlp",
-   "drivers/net/ethernet/qlogic/qed",
-   "drivers/usb/host",
-   "drivers/scsi/aic7xxx",
-   "drivers/crypto",
-   "drivers/media/platform/mtk-jpeg",
-   "drivers/nfc/pn533",
-   "include/linux/netfilter_ipv4",
-   "drivers/s390/char",
-   "drivers/media/platform/xilinx",
-   "net/ncsi",
-   "drivers/net/ethernet/rdc",
-   "net/bpf",
-   "arch/arm/mach-vexpress",
-   "drivers/net/ethernet/atheros/atl1c",
-   "arch/parisc/lib",
-   "drivers/net/plip",
-   "drivers/input/mouse",
-   "drivers/reset/tegra",
-   "arch/microblaze/kernel",
-   "drivers/memory",
-   "drivers/media/usb/airspy",
-   "drivers/net/ethernet/mellanox/mlx5/core/en/tc",
-   "tools/perf/arch/arm/include",
-   "drivers/gpu/drm/amd/display/dc/gpio",
-   "drivers/gpu/drm/udl",
-   "arch/arm/mach-sa1100",
-   "net",
-   "Documentation/devicetree/bindings/media/i2c",
-   "arch/arm64/boot/dts/freescale",
-   "drivers/mtd/nand/raw/gpmi-nand",
-   "drivers/staging/most/dim2",
-   "arch/alpha/include/uapi/asm",
-   "drivers/gpu/drm/imx",
-   "tools/arch/arm64/include/asm",
-   "kernel/rcu",
-   "arch/sparc",
-   "drivers/media/platform/sti/c8sectpfe",
-   "arch/arm64/boot/dts/marvell",
-   "arch/mips/vdso",
-   "drivers/soc/qcom",
-   "include/linux/iio",
-   "samples/seccomp",
-   "arch/powerpc/include/uapi/asm",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn21",
-   "tools/objtool/include/objtool",
-   "Documentation/admin-guide/media",
-   "drivers/pci/endpoint/functions",
-   "drivers/net/ethernet/qlogic/qlcnic",
-   "drivers/infiniband/hw/mlx4",
-   "drivers/media/platform/cadence",
-   "drivers/net/ethernet/intel/ixgbevf",
-   "Documentation/translations/it_IT/kernel-hacking",
-   "drivers/gpu/drm/radeon",
-   "drivers/net/ethernet/realtek",
-   "drivers/pinctrl/intel",
-   "drivers/gpu/drm/msm/edp",
-   "Documentation/devicetree/bindings/display",
-   "fs/ntfs3",
-   "drivers/media/cec",
-   "Documentation/userspace-api/media/v4l",
-   "tools/arch/x86/lib",
-   "arch/parisc/configs",
-   "arch/openrisc/include/asm",
-   "Documentation/devicetree/bindings/iio/temperature",
-   "drivers/iio/health",
-   "drivers/net/can/spi/mcp251xfd",
-   "drivers/media/radio/si470x",
-   "arch/arm/mach-rockchip",
-   "drivers/target/iscsi",
-   "fs/notify/inotify",
-   "arch/csky/include/asm",
-   "tools/perf/util/c++",
-   "drivers/gpu/drm/bridge/analogix",
-   "sound/soc/mediatek/mt8183",
-   "arch/arc/include/asm",
-   "drivers/media/platform/davinci",
-   "drivers/net/ethernet/marvell",
-   "drivers/hid/amd-sfh-hid/hid_descriptor",
-   "include/linux/avf",
-   "drivers/net/wireless/marvell",
-   "drivers/clk/sunxi",
-   "drivers/gpu/drm/mga",
-   "kernel/events",
-   "Documentation/crypto",
-   "Documentation/virt/uml",
-   "drivers/gpu/drm/amd/pm/swsmu/smu12",
-   "drivers/vdpa/ifcvf",
-   "tools/testing/selftests/powerpc/security",
-   "drivers/scsi/bfa",
-   "tools/perf/trace/beauty/include/linux",
-   "drivers/net/ethernet/chelsio/cxgb3",
-   "drivers/scsi",
-   "arch/h8300/kernel",
-   "drivers/media/platform/exynos4-is",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn20",
-   "drivers/extcon",
-   "arch/powerpc/net",
-   "drivers/net/ethernet/google/gve",
-   "drivers/iio/potentiometer",
-   "drivers/phy/rockchip",
-   "drivers/net/can/usb/etas_es58x",
-   "arch/sh/kernel",
-   "arch/mips/netlogic",
-   "drivers/infiniband/hw/qedr",
-   "tools/bootconfig/include/linux",
-   "Documentation/devicetree/bindings/dma",
-   "fs/jfs",
-   "drivers/net/ethernet/alteon",
-   "drivers/staging/ks7010",
-   "sound/soc/qcom/qdsp6",
-   "samples/fanotify",
-   "tools/perf/arch/powerpc/include",
-   "tools/perf/arch/x86/entry/syscalls",
-   "drivers/net/ethernet/i825xx",
-   "Documentation/dev-tools/kunit",
-   "include/kunit",
-   "drivers/firewire",
-   "drivers/media/usb/gspca",
-   "include/trace",
-   "drivers/char/pcmcia",
-   "drivers/crypto/ccree",
-   "tools/testing/selftests/bpf/benchs",
-   "drivers/scsi/qla4xxx",
-   "drivers/gpu/drm/mediatek",
-   "arch/riscv/include/asm/vdso",
-   "drivers/net/ethernet/intel/igc",
-   "Documentation/devicetree/bindings/clock",
-   "scripts/kconfig",
-   "Documentation/devicetree/bindings/pinctrl",
-   "Documentation/kernel-hacking",
-   "drivers/vfio/platform",
-   "include/memory",
-   "drivers/gpu/drm/amd/display/dc/dcn301",
-   "drivers/staging/rtl8192e/rtl8192e",
-   "Documentation/devicetree/bindings/display/bridge",
-   "net/9p",
-   "tools/perf/pmu-events/arch/x86/icelakex",
-   "arch/s390/boot/compressed",
-   "Documentation/translations/zh_CN/core-api/irq",
-   "fs/reiserfs",
-   "drivers/phy/broadcom",
-   "drivers/net/phy/mscc",
-   "arch/sh/kernel/cpu/sh4a",
-   "drivers/gpu/drm/vmwgfx",
-   "drivers/net/ethernet/silan",
-   "drivers/hwtracing/coresight",
-   "include/xen",
-   "include/linux/mtd",
-   "tools/testing/selftests/ftrace",
-   "include/sound/sof",
-   "drivers/staging/media/atomisp/i2c/ov5693",
-   "arch/nios2",
-   "drivers/net/ethernet/intel/i40e",
-   "include/linux/platform_data",
-   "Documentation/networking/device_drivers/ethernet/mellanox",
-   "drivers/clocksource",
-   "drivers/media/pci/saa7164",
-   "fs/iomap",
-   "Documentation/devicetree/bindings/arm/rockchip",
-   "drivers/hid/intel-ish-hid",
-   "drivers/net/fjes",
-   "include/asm-generic",
-   "drivers/media/platform/qcom/venus",
-   "drivers/net/ethernet/qualcomm/rmnet",
-   "drivers/media/usb/dvb-usb",
-   "drivers/nfc",
-   "drivers/bus/mhi/core",
-   "drivers/target",
-   "drivers/media/rc",
-   "drivers/staging/rtl8712",
-   "drivers/staging/gdm724x",
-   "drivers/gpu/drm/i915/gvt",
-   "arch/arm/tools",
-   "arch/arm64/boot/dts/intel",
-   "drivers/media/platform/coda",
-   "Documentation/devicetree/bindings/rng",
-   "drivers/media/platform/sunxi/sun8i-di",
-   "drivers/scsi/qedf",
-   "arch/arm64/mm",
-   "drivers/usb/misc",
-   "drivers/isdn/mISDN",
-   "arch/x86/kernel/cpu/mce",
-   "tools/testing/selftests/tc-testing/tc-tests/actions",
-   "Documentation/firmware-guide/acpi",
-   "drivers/gpu/drm/nouveau/nvkm/engine/nvenc",
-   "drivers/net/ethernet/nxp",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn2x",
-   "drivers/firmware/smccc",
-   "drivers/net/ethernet/apm/xgene",
-   "arch/parisc/boot/compressed",
-   "drivers/scsi/csiostor",
-   "drivers/scsi/elx/efct",
-   "drivers/net/ethernet/intel/igbvf",
-   "kernel/sched",
-   "drivers/scsi/be2iscsi",
-   "arch/arm64",
-   "arch/mips/include/uapi/asm",
-   "drivers/scsi/bnx2fc",
-   "include/soc/tegra",
-   "drivers/net/wireless/zydas/zd1211rw",
-   "drivers/pinctrl/samsung",
-   "scripts/dtc",
-   "drivers/dma-buf/heaps",
-   "include/linux/qed",
-   "arch/microblaze",
-   "net/netfilter/ipvs",
-   "drivers/net/ethernet/broadcom/genet",
-   "include/linux/platform_data/x86",
-   "drivers/gpu/drm/scheduler",
-   "drivers/infiniband/hw/mlx5",
-   "drivers/usb/gadget/udc",
-   "arch/s390/include/uapi/asm",
-   "sound/usb/usx2y",
-   "arch/powerpc/kernel/syscalls",
-   "drivers/vfio",
-   "drivers/firmware/xilinx",
-   "arch/powerpc/sysdev",
-   "drivers/net/wireless/mediatek/mt76/mt76x0",
-   "drivers/gpu/drm/amd/display/dc/inc",
-   "fs/pstore",
-   "drivers/staging/media/tegra-vde",
-   "net/bridge/netfilter",
-   "Documentation/dev-tools",
-   "drivers/net/wireless/realtek/rtlwifi/rtl8192ee",
-   "tools/testing/selftests/kvm/lib/x86_64",
-   "tools/perf/pmu-events/arch/powerpc/power10",
-   "tools/perf/arch/arm64/tests",
-   "drivers/usb/mtu3",
-   "arch/mips/net",
-   "arch/s390/kernel",
-   "Documentation/networking",
-   "include/xen/interface",
-   "drivers/net/wireless/ath/ath5k",
-   "drivers/gpu/drm/amd/display/dc/dml/dcn31",
-   "drivers/media/pci/pluto2",
-   "include/uapi/asm-generic",
-   "drivers/net/wireless/mediatek/mt76/mt7915",
-   "drivers/gpu/drm/amd/display/dc/dml/dsc",
-   "net/nfc/hci",
-   "Documentation/devicetree/bindings/display/msm",
-   "drivers/net/wireless/rsi",
-   "drivers/gpu/drm/amd/pm/inc",
-   "arch/arm/configs",
-   "Documentation/virt/kvm",
-   "drivers/gpu/drm/mgag200",
-   "arch/powerpc",
-   "drivers/gpu/drm/amd/display/dmub/src",
-   "arch/openrisc/mm",
-   "Documentation/devicetree/bindings/i2c",
-   "include/uapi/linux/nfsd",
-   "arch/sparc/include/asm",
-   "lib/zstd/compress",
-   "drivers/dma/ti",
-   "drivers/net/ethernet/qualcomm/emac",
-   "drivers/net/ethernet/hisilicon/hns",
-   "drivers/vhost",
-   "drivers/net/dsa",
-   "arch/xtensa/boot/boot-elf",
-   "drivers/gpu/drm/bridge/adv7511",
-   "drivers/usb/phy",
-   "Documentation/devicetree/bindings/arm/sprd",
-   "arch/xtensa/boot/boot-redboot",
-   "net/netfilter",
-   "include/linux/amba",
-   "drivers/thermal/intel/int340x_thermal",
-   "arch/parisc/kernel",
-   "drivers/staging/r8188eu/os_dep",
-   "drivers/scsi/mvsas",
-   "drivers/net/ethernet/apple",
-   "net/mctp/test",
-   "Documentation/translations/zh_TW",
-   "Documentation/devicetree/bindings/devfreq",
-   "arch/powerpc/lib",
-   "drivers/net/ethernet/cirrus",
-   "drivers/xen/events",
-   "drivers/android",
-   "drivers/gpu/drm/meson",
-   "Documentation/admin-guide/sysctl",
-   "drivers/thermal",
-   "include/soc/arc",
-   "drivers/gpu/drm/amd/display/dc/dcn303",
-   "samples/vfio-mdev",
-   "drivers/net/ethernet/freescale",
-   "drivers/net/ethernet/mellanox/mlxbf_gige",
-   "net/ipv6/ila",
-   "drivers/phy/qualcomm",
-   "arch/riscv/mm",
-   "arch/openrisc",
-   "drivers/scsi/elx/libefc_sli",
-   "drivers/net/ethernet/mellanox/mlx5/core/sf",
-   "arch/x86/kernel/cpu/microcode",
-   "drivers/pci/switch",
-   "drivers/gpu/drm/amd/display/dc/dcn30",
-   "drivers/clk/uniphier",
-   "drivers/net/wireless/intel/iwlwifi/cfg",
-   "drivers/net/ethernet/amd",
-   "drivers/of/unittest-data",
-   "drivers/usb/typec/tcpm",
-   "drivers/net/ethernet/aquantia/atlantic/hw_atl",
-   "arch/s390/kernel/syscalls",
-   "arch/xtensa/lib",
-   "drivers/pinctrl/qcom",
-   "drivers/iommu",
-   "Documentation/bpf",
-   "drivers/net/ethernet/marvell/prestera",
-   "drivers/watchdog",
-   "drivers/net/wireless/mediatek/mt76",
-   "drivers/gpu/drm/amd/display/dc/dcn21",
-   "tools/vm",
-   "drivers/net/ethernet/mellanox/mlxfw",
-   "drivers/net/ethernet/3com",
-   "tools/testing/selftests/damon",
-   "drivers/staging/media/sunxi/cedrus",
-   "net/mac80211",
-   "drivers/gpu/drm/nouveau/dispnv50",
-   "drivers/block/mtip32xx",
-   "include/dt-bindings/reset",
-   "drivers/gpu/drm/sun4i",
-   "Documentation/devicetree/bindings/mmc",
-   "arch/riscv/kvm",
-   "drivers/net/dsa/microchip",
-   "drivers/iio/pressure",
-   "drivers/media/spi",
-   "drivers/gpu/drm/omapdrm",
-   "kernel/entry",
-   "drivers/net/ethernet/netronome/nfp/flower",
-   "net/can/j1939",
-   "arch/microblaze/include/asm",
-   "net/802",
-   "drivers/net/ethernet/emulex/benet",
-   "net/core",
-   "Documentation/devicetree/bindings/arm",
-   "Documentation/devicetree/bindings/soc/qcom",
-   "drivers/nfc/st21nfca",
-   "tools/perf/pmu-events",
-   "drivers/net/wireless/intel/iwlwifi/mvm",
-   "drivers/net/wireless/intel/iwlegacy",
-   "Documentation/admin-guide/laptops",
-   "drivers/usb/gadget/function",
-   "drivers/char/tpm",
-   "drivers/firmware/cirrus",
-   "arch/sh/boards/mach-ap325rxa",
-   "tools/testing/selftests/bpf",
-   "Documentation/devicetree/bindings/ipmi",
-   "drivers/dma/bestcomm",
-   "drivers/soc/samsung",
-   "arch/arm64/boot/dts/altera",
-   "arch/arm/mach-imx",
-   "arch/arm64/tools",
-   "drivers/i2c/busses",
-   "drivers/net/wwan/iosm",
-   "sound/isa/gus",
-   "drivers/staging/media/ipu3",
-   "net/batman-adv",
-   "drivers/dma/dw-axi-dmac",
-   "drivers/net/wireless/quantenna/qtnfmac/pcie",
-   "drivers/vdpa/vdpa_user",
-   "sound/core/oss",
-   "drivers/gpu/drm/nouveau",
-   "arch/mips/boot/dts/netlogic",
-   "drivers/net/ipa",
-   "drivers/counter",
-   "net/llc",
-   "drivers/mtd/spi-nor",
-   "Documentation/devicetree/bindings/pwm",
-   "sound/usb/6fire",
-   "tools/testing/selftests/kvm/x86_64",
-   "drivers/gpu/drm/amd/display/amdgpu_dm",
-   "drivers/pci",
-   "arch/h8300",
-   "Documentation/devicetree/bindings/sound",
-   "include/linux/surface_aggregator",
-   "drivers/iommu/amd",
-   "drivers/net/ethernet/netronome/nfp",
-   "drivers/net/ethernet/via",
-   "Documentation/networking/devlink",
-   "arch/arm/probes/kprobes",
-   "drivers/staging/media/atomisp/i2c",
-   "tools/testing/selftests/bpf/progs",
-   "tools/include/uapi/asm-generic",
-   "drivers/net/ethernet/intel/e1000",
-   "drivers/media/platform/sunxi/sun4i-csi",
-   "tools/perf/arch/s390/entry/syscalls",
-   "sound/soc/dwc",
-   "drivers/net/ethernet/allwinner",
-   "net/sctp",
-   "drivers/gpu/drm/amd/display/dc/clk_mgr/dcn301",
-   "drivers/pinctrl/stm32",
-   "sound/soc/amd/vangogh",
-   "drivers/staging/iio/cdc",
-   "arch/xtensa/kernel",
-   "arch/arm64/kvm/vgic",
-   "drivers/ata",
-   "kernel/debug/kdb",
-   "drivers/staging/media/atomisp/pci",
-   "arch/sh/boards/mach-kfr2r09",
-   "drivers/net/ethernet/asix",
-   "tools/bpf/runqslower",
-   "drivers/pinctrl/nomadik",
-   "drivers/dma-buf",
-   "drivers/gpu/drm/amd/display/dc/bios",
-   "drivers/net/ethernet/mellanox/mlx5/core",
-   "drivers/net/ethernet/sfc/falcon",
-   "drivers/media/cec/platform/meson",
-   "sound/soc/amd/yc",
-   "arch/riscv/boot/dts/microchip",
-   "drivers/net/ethernet/intel/igb",
-   "drivers/net/ethernet/mellanox/mlx5/core/sf/dev/diag",
-   "Documentation/filesystems/nfs",
-   "fs/quota",
-   "fs/btrfs/tests",
-   "drivers/net/wireless/ath/wil6210",
-   "arch/mips/kernel",
-   "drivers/media/dvb-frontends",
-   "arch/arm64/lib",
-   "drivers/net/phy",
-   "arch/x86/include/asm/xen",
-   "arch/s390/pci",
-   "drivers/misc/habanalabs",
-   "scripts",
-   "drivers/misc/habanalabs/common/mmu",
-   "arch/arm/mm",
-   "drivers/clk/rockchip",
-   "scripts/coccinelle/misc",
-   "drivers/firmware",
-   "include/rdma",
-   "Documentation/devicetree/bindings/display/xlnx",
-   "arch/alpha",
-   "arch/parisc",
-   "include/linux/netfilter_arp",
-   "drivers/mailbox",
-   "drivers/net/ethernet/freescale/dpaa2",
-   "tools/testing/selftests/drivers/net/netdevsim",
-   "drivers/net/wireless/broadcom/brcm80211/brcmfmac",
-   "drivers/staging/rtl8723bs/include",
-   "arch/arm/mach-versatile",
-   "drivers/net/wireless/intel/iwlwifi",
-   "drivers/net/wireless/realtek/rtw88",
-   "arch/s390/configs",
-   "arch/arm/mach-omap2",
-   "tools",
-   "Documentation/devicetree/bindings/net/dsa",
-   "drivers/net/ethernet/netronome/nfp/abm",
-   "drivers/net/ethernet/8390",
-   "tools/lib/lockdep",
-   "Documentation/devicetree/bindings/serial",
-   "arch/arm64/kvm",
-   "arch/x86/events/intel",
-   "tools/arch/x86/include/asm",
-   "drivers/net/ethernet/micrel",
-   "arch/xtensa/include/asm",
-   "fs/squashfs",
-   "drivers/base/firmware_loader/builtin",
-   "drivers/net/ethernet/mellanox/mlxsw",
-   "arch/x86/kernel/apic",
-   "tools/perf/pmu-events/arch/test/test_soc/sys",
-   "Documentation/block",
-   "drivers/media/platform",
-   "drivers/input/serio",
-   "drivers/media/test-drivers/vimc",
-   "arch/arm/boot/compressed",
-   "drivers/pinctrl",
-   "arch/xtensa",
-   "drivers/staging/unisys/visorhba",
-   "Documentation/devicetree/bindings/arm/stm32",
-   "drivers/interconnect/samsung",
-   "drivers/net/ethernet/wiznet",
-   "drivers/media/platform/sunxi/sun6i-csi",
-   "arch/mips/netlogic/common",
-   "Documentation/filesystems/cifs",
-   "arch/m68k",
-   "drivers/char",
-   "drivers/net/ethernet/broadcom/bnxt",
-   "Documentation/sound/hd-audio",
-   "drivers/gpu/drm/sti",
-   "drivers/media/cec/platform/stm32",
-   "arch/arm/mach-socfpga",
-   "drivers/clk/ingenic",
-   "Documentation/features/core/thread-info-in-task",
-   "drivers/acpi/pmic",
-   "Documentation/devicetree/bindings/iio/chemical",
-   "drivers/net/ethernet/mellanox/mlx5/core/esw",
-   "drivers/net/ethernet/neterion/vxge",
-   "tools/testing/selftests/kselftest",
-   "drivers/net/ethernet/mellanox/mlx5/core/en/rep",
-   "arch/ia64",
-   "arch/powerpc/kvm",
-   "arch/mips/bcm63xx",
-   "fs/nfsd",
-   "include/net/netfilter",
-   "drivers/gpu/drm/msm/hdmi",
-   "drivers/net/wireless/ath/ath11k",
-   "drivers/gpu/drm/msm",
-   "Documentation/devicetree/bindings/mtd",
-   "Documentation/devicetree/bindings/spi",
-   "Documentation/driver-api/media/drivers",
-   "arch/mips/loongson64",
-   "drivers/net/wireless/realtek/rtw89",
-   "drivers/gpu/drm/amd/pm/swsmu/smu13",
-   "arch/alpha/kernel",
-   "drivers/soc/mediatek",
-   "include/net/nfc",
-   "/",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "tools",
-   "samples",
-   "crypto",
-   "drivers",
-   "block",
-   "lib",
-   "security",
-   "fs",
-   "usr",
-   "kernel",
-   "scripts",
-   "virt",
-   "Documentation",
-   "mm",
-   "sound",
-   "ipc",
-   "net",
-   "arch",
-   "init",
-   "include"
-  ],
-  "num_mod_dirs": 1999,
-  "num_mod_sys": 20,
-  "author": "Dmitry Torokhov",
-  "author_email": "dmitry.torokhov@gmail.com",
-  "committer": "Dmitry Torokhov",
-  "committer_email": "dmitry.torokhov@gmail.com",
-  "author_date": "2022-01-17 18:03:39 -0800",
-  "committer_date": "2022-01-17 18:03:39 -0800"
+  "entropy": 10.75329135481018
  },
  "eee412e968f7b950564880bc6a7a9f00f49034da": {
   "num_adds_if": 0,
@@ -14043,56 +11980,11 @@
   "num_adds": 5,
   "num_dels": 0,
   "num_mod_lns_total": 5,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "cfcabbb24d5f"
-  ],
   "mod_files_lst": [
    "drivers/remoteproc/Kconfig",
    "drivers/remoteproc/qcom_q6v5.c"
   ],
-  "entropy": 0.7219280948873623,
-  "ppl_signed_off": [
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Bjorn Andersson <bjorn.andersson@linaro.org>",
-   "Cc: Mathieu Poirier <mathieu.poirier@linaro.org>",
-   "Cc: linux-remoteproc@vger.kernel.org",
-   "Cc: Sibi Sankar <sibis@codeaurora.org>",
-   "Cc: Stephen Boyd <swboyd@chromium.org>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Stephen Boyd <swboyd@chromium.org>",
-   "Reviewed-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: kernel test robot <lkp@intel.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: c1fe10d238c0 (\"remoteproc: qcom: q6v5: Use qmp_send to update co-processor load state\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/remoteproc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Randy Dunlap",
-  "author_email": "rdunlap@infradead.org",
-  "committer": "Bjorn Andersson",
-  "committer_email": "bjorn.andersson@linaro.org",
-  "author_date": "2022-01-14 17:13:38 -0800",
-  "committer_date": "2022-01-17 16:44:26 -0600"
+  "entropy": 0.7219280948873623
  },
  "7a534ae89e34e9b51acb5a63dd0f88308178b46a": {
   "num_adds_if": 0,
@@ -14105,50 +11997,10 @@
   "num_adds": 2,
   "num_dels": 9,
   "num_mod_lns_total": 11,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b7fb2dad571d"
-  ],
   "mod_files_lst": [
    "drivers/rpmsg/rpmsg_char.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthias Kaehlcke <mka@chromium.org>",
-   "Signed-off-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Mathieu Poirier <mathieu.poirier@linaro.org>",
-   "Reviewed-by: Stephen Boyd <swboyd@chromium.org>",
-   "Reviewed-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [
-   "Suggested-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: c0cdc19f84a4 (\"rpmsg: Driver for user space endpoint interface\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/rpmsg"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthias Kaehlcke",
-  "author_email": "mka@chromium.org",
-  "committer": "Bjorn Andersson",
-  "committer_email": "bjorn.andersson@linaro.org",
-  "author_date": "2022-01-10 10:47:37 -0800",
-  "committer_date": "2022-01-17 16:39:58 -0600"
+  "entropy": 0.0
  },
  "b7fb2dad571d1e21173c06cef0bced77b323990a": {
   "num_adds_if": 0,
@@ -14161,49 +12013,10 @@
   "num_adds": 2,
   "num_dels": 9,
   "num_mod_lns_total": 11,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8066c615cb69"
-  ],
   "mod_files_lst": [
    "drivers/rpmsg/rpmsg_char.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sujit Kautkar <sujitka@chromium.org>",
-   "Signed-off-by: Matthias Kaehlcke <mka@chromium.org>",
-   "Signed-off-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Mathieu Poirier <mathieu.poirier@linaro.org>",
-   "Reviewed-by: Bjorn Andersson <bjorn.andersson@linaro.org>",
-   "Reviewed-by: Stephen Boyd <swboyd@chromium.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: c0cdc19f84a4 (\"rpmsg: Driver for user space endpoint interface\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/rpmsg"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sujit Kautkar",
-  "author_email": "sujitka@chromium.org",
-  "committer": "Bjorn Andersson",
-  "committer_email": "bjorn.andersson@linaro.org",
-  "author_date": "2022-01-10 10:47:36 -0800",
-  "committer_date": "2022-01-17 16:38:48 -0600"
+  "entropy": 0.0
  },
  "d8adf5b92a9d2205620874d498c39923ecea8749": {
   "num_adds_if": 0,
@@ -14216,94 +12029,26 @@
   "num_adds": 2,
   "num_dels": 6,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "af35a8b5bab7"
-  ],
   "mod_files_lst": [
    "scripts/dtc/dtx_diff"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthias Schiffer <matthias.schiffer@ew.tq-group.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Frank Rowand <frank.rowand@sony.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 10eadc253ddf (\"dtc: create tool to diff device trees\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "scripts/dtc"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthias Schiffer",
-  "author_email": "matthias.schiffer@ew.tq-group.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 09:19:18 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "af35a8b5bab7c1e31d30b9ad78a981fae9bda903": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "af35a8b5bab7c1e31d30b9ad78a981fae9bda903",
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "154e5f296e2a"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/trivial-devices.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 14:39:20 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "154e5f296e2af04fc2775a6de3c76e6ee37b5609": {
   "num_adds_if": 0,
@@ -14316,42 +12061,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "364da22cb30e"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/trivial-devices.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 14:39:01 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "364da22cb30eb79198922ebf53c40f589bcece9d": {
   "num_adds_if": 0,
@@ -14364,42 +12077,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6f2dfed0b6f0"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 11:31:10 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "6f2dfed0b6f078149072c34631a77902a8c85c7e": {
   "num_adds_if": 0,
@@ -14412,42 +12093,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ca146834d6cd"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 11:30:36 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "ca146834d6cdbde80dead9daf8e7e127fc85d31f": {
   "num_adds_if": 0,
@@ -14460,42 +12109,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8316cbbafd8b"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 11:30:05 +0100",
-  "committer_date": "2022-01-17 16:26:44 -0600"
+  "entropy": 0.0
  },
  "8316cbbafd8bdf523fb1b3230f0701beae51679b": {
   "num_adds_if": 0,
@@ -14508,42 +12125,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "38a9840e2e39"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 11:29:26 +0100",
-  "committer_date": "2022-01-17 16:26:43 -0600"
+  "entropy": 0.0
  },
  "38a9840e2e396e86e3a39d1d2daf5f46204066c7": {
   "num_adds_if": 0,
@@ -14556,42 +12141,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2ba144e68edb"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Stanislav Jakubek <stano.jakubek@gmail.com>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stanislav Jakubek",
-  "author_email": "stano.jakubek@gmail.com",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-13 11:28:42 +0100",
-  "committer_date": "2022-01-17 16:26:43 -0600"
+  "entropy": 0.0
  },
  "2ba144e68edb4987a2fe1b1cf418b58cbdc4ee96": {
   "num_adds_if": 0,
@@ -14604,44 +12157,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e623611b4d3f"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/power/reset/gpio-restart.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sander Vanheule <sander@svanheule.net>",
-   "Signed-off-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/power/reset"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sander Vanheule",
-  "author_email": "sander@svanheule.net",
-  "committer": "Rob Herring",
-  "committer_email": "robh@kernel.org",
-  "author_date": "2022-01-10 22:44:56 +0100",
-  "committer_date": "2022-01-17 16:26:43 -0600"
+  "entropy": 0.0
  },
  "cc2cf6796a90bf356a8ddc854f65cea434477ea7": {
   "num_adds_if": 0,
@@ -14654,46 +12173,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6b0764598dc7"
-  ],
   "mod_files_lst": [
    "Documentation/trace/ftrace.rst"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Huichun Feng <foxhoundsk.tw@gmail.com>",
-   "Signed-off-by: Ching-Chun (Jim) Huang <jserv@ccns.ncku.edu.tw>",
-   "Signed-off-by: Chun-Hung Tseng <henrybear327@gmail.com>",
-   "Signed-off-by: Jonathan Corbet <corbet@lwn.net>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/trace"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Huichun Feng",
-  "author_email": "foxhoundsk.tw@gmail.com",
-  "committer": "Jonathan Corbet",
-  "committer_email": "corbet@lwn.net",
-  "author_date": "2022-01-11 13:20:01 +0800",
-  "committer_date": "2022-01-17 14:56:16 -0700"
+  "entropy": 0.0
  },
  "6b0764598dc7dea21a44cd4e7ec3dd4a7aabf5c2": {
   "num_adds_if": 0,
@@ -14706,102 +12189,34 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "87d6576ddf8a"
-  ],
   "mod_files_lst": [
    "Documentation/staging/tee.rst"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Wang Cheng <wanngchenng@gmail.com>",
-   "Signed-off-by: Jonathan Corbet <corbet@lwn.net>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Randy Dunlap <rdunlap@infradead.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Sumit Garg <sumit.garg@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/staging"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Wang Cheng",
-  "author_email": "wanngchenng@gmail.com",
-  "committer": "Jonathan Corbet",
-  "committer_email": "corbet@lwn.net",
-  "author_date": "2022-01-15 20:52:36 +0800",
-  "committer_date": "2022-01-17 14:55:03 -0700"
+  "entropy": 0.0
  },
  "a2809d0e16963fdf3984409e47f145cccb0c6821": {
-  "num_adds_if": 8,
+  "num_adds_if": 7,
   "num_dels_if": 0,
-  "num_mod_total_if": 8,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "a2809d0e16963fdf3984409e47f145cccb0c6821",
   "num_adds": 65,
   "num_dels": 0,
   "num_mod_lns_total": 65,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "7eacba3b00a3"
-  ],
   "mod_files_lst": [
    "fs/cifs/cifsproto.h",
    "fs/cifs/connect.c",
    "fs/cifs/inode.c",
    "fs/cifs/misc.c"
   ],
-  "entropy": 1.1939087620308275,
-  "ppl_signed_off": [
-   "Signed-off-by: Eugene Korenevsky <ekorenevsky@astralinux.ru>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eugene Korenevsky",
-  "author_email": "ekorenevsky@astralinux.ru",
-  "committer": "Steve French",
-  "committer_email": "stfrench@microsoft.com",
-  "author_date": "2022-01-14 22:53:40 +0300",
-  "committer_date": "2022-01-17 13:28:25 -0600"
+  "entropy": 1.1939087620308275
  },
  "7eacba3b00a3c35c1ad189f543b1995dd0bdca9c": {
-  "num_adds_if": 2,
+  "num_adds_if": 1,
   "num_dels_if": 0,
-  "num_mod_total_if": 2,
+  "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -14809,42 +12224,10 @@
   "num_adds": 7,
   "num_dels": 2,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "74ce6135ae6e"
-  ],
   "mod_files_lst": [
    "fs/cifs/smb2pdu.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Eugene Korenevsky <ekorenevsky@astralinux.ru>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Eugene Korenevsky",
-  "author_email": "ekorenevsky@astralinux.ru",
-  "committer": "Steve French",
-  "committer_email": "stfrench@microsoft.com",
-  "author_date": "2022-01-14 22:53:00 +0300",
-  "committer_date": "2022-01-17 13:28:05 -0600"
+  "entropy": 0.0
  },
  "e5b54867f47f765fcb439e09ed763b5de617af3e": {
   "num_adds_if": 0,
@@ -14857,43 +12240,11 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a95be874d26b"
-  ],
   "mod_files_lst": [
    "drivers/thermal/intel/int340x_thermal/processor_thermal_device.h",
    "drivers/thermal/intel/int340x_thermal/processor_thermal_device_pci.c"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>",
-   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/thermal/intel/int340x_thermal"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Srinivas Pandruvada",
-  "author_email": "srinivas.pandruvada@linux.intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-14 15:24:35 -0800",
-  "committer_date": "2022-01-17 19:48:07 +0100"
+  "entropy": 1.0
  },
  "a95be874d26bed7c12a87b5493d5dac9281f707f": {
   "num_adds_if": 0,
@@ -14906,95 +12257,30 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "fe2437ccbd27"
-  ],
   "mod_files_lst": [
    "drivers/thermal/intel/int340x_thermal/int3400_thermal.c",
    "drivers/thermal/intel/int340x_thermal/int3403_thermal.c"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>",
-   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/thermal/intel/int340x_thermal"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Srinivas Pandruvada",
-  "author_email": "srinivas.pandruvada@linux.intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-14 15:24:34 -0800",
-  "committer_date": "2022-01-17 19:48:07 +0100"
+  "entropy": 1.0
  },
  "a510c78e5b6f2f9b9add88071fdfc2b740d2e356": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "a510c78e5b6f2f9b9add88071fdfc2b740d2e356",
   "num_adds": 10,
   "num_dels": 0,
   "num_mod_lns_total": 10,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "bca21755b9fc"
-  ],
   "mod_files_lst": [
    "drivers/acpi/dptf/dptf_pch_fivr.c",
    "drivers/acpi/dptf/dptf_power.c",
    "drivers/acpi/dptf/int340x_thermal.c",
    "drivers/acpi/fan.h"
   ],
-  "entropy": 1.5709505944546687,
-  "ppl_signed_off": [
-   "Signed-off-by: Srinivas Pandruvada <srinivas.pandruvada@linux.intel.com>",
-   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi/dptf",
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Srinivas Pandruvada",
-  "author_email": "srinivas.pandruvada@linux.intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-14 15:24:33 -0800",
-  "committer_date": "2022-01-17 19:45:38 +0100"
+  "entropy": 1.5709505944546687
  },
  "f684b10751287e8b7e15e8f10ae40bdd74149bba": {
   "num_adds_if": 0,
@@ -15007,43 +12293,10 @@
   "num_adds": 3,
   "num_dels": 4,
   "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5f51c7ce1dc3"
-  ],
   "mod_files_lst": [
    "drivers/acpi/cppc_acpi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Huang Rui <ray.huang@amd.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Rafael J. Wysocki",
-  "author_email": "rafael.j.wysocki@intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-12 19:27:22 +0100",
-  "committer_date": "2022-01-17 19:38:55 +0100"
+  "entropy": 0.0
  },
  "5f51c7ce1dc36565296b3ef342585f70ec72a2a9": {
   "num_adds_if": 0,
@@ -15056,49 +12309,10 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b35b6d4d7136"
-  ],
   "mod_files_lst": [
    "drivers/acpi/cppc_acpi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Huang Rui <ray.huang@amd.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Dan Carpenter <dan.carpenter@oracle.com>"
-  ],
-  "ppl_suggested": [
-   "Suggested-by: Dan Carpenter <dan.carpenter@oracle.com>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: a2c8f92bea5f (\"ACPI: CPPC: Implement support for SystemIO registers\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Rafael J. Wysocki",
-  "author_email": "rafael.j.wysocki@intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-12 19:26:32 +0100",
-  "committer_date": "2022-01-17 19:38:55 +0100"
+  "entropy": 0.0
  },
  "74ce6135ae6ef482715cff2ccd703b7295f900f2": {
   "num_adds_if": 1,
@@ -15111,44 +12325,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e3548aaf41a2"
-  ],
   "mod_files_lst": [
    "fs/cifs/sess.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Yang Li <yang.lee@linux.alibaba.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Abaci Robot <abaci@linux.alibaba.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yang Li",
-  "author_email": "yang.lee@linux.alibaba.com",
-  "committer": "Steve French",
-  "committer_email": "stfrench@microsoft.com",
-  "author_date": "2022-01-17 09:11:30 +0800",
-  "committer_date": "2022-01-17 12:00:37 -0600"
+  "entropy": 0.0
  },
  "e3548aaf41a200c2af359462be23bcdd76efd795": {
   "num_adds_if": 0,
@@ -15161,51 +12341,15 @@
   "num_adds": 8,
   "num_dels": 5,
   "num_mod_lns_total": 13,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0c947b893d69"
-  ],
   "mod_files_lst": [
    "fs/cifs/sess.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Shyam Prasad N <sprasad@microsoft.com>",
-   "Signed-off-by: Steve French <stfrench@microsoft.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org # 5.16"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 49bd49f983b5 (\"cifs: send workstation name during ntlmssp session setup\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Shyam Prasad N",
-  "author_email": "sprasad@microsoft.com",
-  "committer": "Steve French",
-  "committer_email": "stfrench@microsoft.com",
-  "author_date": "2022-01-17 00:20:47 -0600",
-  "committer_date": "2022-01-17 11:56:19 -0600"
+  "entropy": 0.0
  },
  "4732f2444acd9b7eabc744f20eb5cc9694c0bfbd": {
-  "num_adds_if": 7,
+  "num_adds_if": 6,
   "num_dels_if": 5,
-  "num_mod_total_if": 12,
+  "num_mod_total_if": 11,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -15213,11 +12357,6 @@
   "num_adds": 17,
   "num_dels": 12,
   "num_mod_lns_total": 29,
-  "num_mod_files": 8,
-  "is_merge": false,
-  "parents": [
-   "ecebb966acaa"
-  ],
   "mod_files_lst": [
    "arch/x86/kvm/cpuid.c",
    "arch/x86/kvm/svm/pmu.c",
@@ -15228,38 +12367,7 @@
    "arch/x86/kvm/x86.c",
    "arch/x86/kvm/x86.h"
   ],
-  "entropy": 2.681449426894339,
-  "ppl_signed_off": [
-   "Signed-off-by: Like Xu <likexu@tencent.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: b1d66dad65dc (\"KVM: x86/svm: Add module param to control PMU virtualization\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "arch/x86/kvm/svm",
-   "arch/x86/kvm/vmx",
-   "arch/x86/kvm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Like Xu",
-  "author_email": "likexu@tencent.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-11 15:38:23 +0800",
-  "committer_date": "2022-01-17 12:56:03 -0500"
+  "entropy": 2.681449426894339
  },
  "ecebb966acaab2466d9857d1cc435ee1fc9eee50": {
   "num_adds_if": 1,
@@ -15272,46 +12380,12 @@
   "num_adds": 66,
   "num_dels": 4,
   "num_mod_lns_total": 70,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "9e6d484f9991"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/kvm/include/x86_64/processor.h",
    "tools/testing/selftests/kvm/lib/x86_64/processor.c",
    "tools/testing/selftests/kvm/x86_64/cpuid_test.c"
   ],
-  "entropy": 1.367522898923713,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/kvm/lib/x86_64",
-   "tools/testing/selftests/kvm/include/x86_64",
-   "tools/testing/selftests/kvm/x86_64"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-17 16:05:42 +0100",
-  "committer_date": "2022-01-17 12:30:24 -0500"
+  "entropy": 1.367522898923713
  },
  "9e6d484f9991176269607bb3c54a494e32eab27a": {
   "num_adds_if": 0,
@@ -15324,118 +12398,41 @@
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "c6617c61e8fe"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/kvm/.gitignore",
    "tools/testing/selftests/kvm/Makefile",
    "tools/testing/selftests/kvm/x86_64/cpuid_test.c"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/kvm",
-   "tools/testing/selftests/kvm/x86_64"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-17 16:05:41 +0100",
-  "committer_date": "2022-01-17 12:30:15 -0500"
+  "entropy": 0.9182958340544896
  },
  "c6617c61e8fe44b9e9fdfede921f61cac6b5149d": {
-  "num_adds_if": 3,
+  "num_adds_if": 2,
   "num_dels_if": 2,
-  "num_mod_total_if": 5,
-  "num_adds_loop": 3,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "c6617c61e8fe44b9e9fdfede921f61cac6b5149d",
   "num_adds": 36,
   "num_dels": 19,
   "num_mod_lns_total": 55,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "ee3a5f9e3d9b"
-  ],
   "mod_files_lst": [
    "arch/x86/kvm/cpuid.c",
    "arch/x86/kvm/x86.c"
   ],
-  "entropy": 0.9299429352091801,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Igor Mammedov <imammedo@redhat.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: feb627e8d6f6 (\"KVM: x86: Forbid KVM_SET_CPUID{,2} after KVM_RUN\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "arch/x86/kvm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-17 16:05:40 +0100",
-  "committer_date": "2022-01-17 12:29:41 -0500"
+  "entropy": 0.9299429352091801
  },
  "e3daa2607b1f4bb1d09a5a8ad89ad9f7327a2e63": {
-  "num_adds_if": 95,
+  "num_adds_if": 90,
   "num_dels_if": 0,
-  "num_mod_total_if": 95,
-  "num_adds_loop": 7,
+  "num_mod_total_if": 90,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 7,
+  "num_mod_total_loop": 1,
   "file_hash": "e3daa2607b1f4bb1d09a5a8ad89ad9f7327a2e63",
   "num_adds": 1936,
   "num_dels": 9,
   "num_mod_lns_total": 1945,
-  "num_mod_files": 13,
-  "is_merge": true,
-  "parents": [
-   "ebf8b135c04a",
-   "7bf2e4d5ca1c"
-  ],
   "mod_files_lst": [
    "Documentation/userspace-api/ioctl/ioctl-number.rst",
    "drivers/acpi/Kconfig",
@@ -15451,40 +12448,7 @@
    "tools/power/acpi/tools/pfrut/Makefile",
    "tools/power/acpi/tools/pfrut/pfrut.c"
   ],
-  "entropy": 2.5018817710279992,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/power/acpi",
-   "include/uapi/linux",
-   "Documentation/userspace-api/ioctl",
-   "tools/power/acpi/tools/pfrut",
-   "include/linux",
-   "tools/power/acpi/man",
-   "drivers/acpi"
-  ],
-  "mod_sys": [
-   "Documentation",
-   "include",
-   "drivers",
-   "tools"
-  ],
-  "num_mod_dirs": 7,
-  "num_mod_sys": 4,
-  "author": "Rafael J. Wysocki",
-  "author_email": "rafael.j.wysocki@intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-17 18:25:57 +0100",
-  "committer_date": "2022-01-17 18:25:57 +0100"
+  "entropy": 2.5018817710279992
  },
  "ee3a5f9e3d9bf94159f3cc80da542fbe83502dd8": {
   "num_adds_if": 0,
@@ -15497,47 +12461,15 @@
   "num_adds": 24,
   "num_dels": 10,
   "num_mod_lns_total": 34,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a21864486f7e"
-  ],
   "mod_files_lst": [
    "arch/x86/kvm/cpuid.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/kvm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Vitaly Kuznetsov",
-  "author_email": "vkuznets@redhat.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-17 16:05:39 +0100",
-  "committer_date": "2022-01-17 12:25:46 -0500"
+  "entropy": 0.0
  },
  "a21864486f7e220bd5938c6fb637613d9635739a": {
-  "num_adds_if": 3,
-  "num_dels_if": 1,
-  "num_mod_total_if": 4,
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
   "num_adds_loop": 1,
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
@@ -15545,46 +12477,11 @@
   "num_adds": 15,
   "num_dels": 6,
   "num_mod_lns_total": 21,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "c862dcd19975"
-  ],
   "mod_files_lst": [
    "arch/x86/kvm/pmu.c",
    "arch/x86/kvm/vmx/pmu_intel.c"
   ],
-  "entropy": 0.5916727785823275,
-  "ppl_signed_off": [
-   "Signed-off-by: Like Xu <likexu@tencent.com>",
-   "Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 62079d8a43128 (\"KVM: PMU: add proper support for fixed counter 2\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "arch/x86/kvm/vmx",
-   "arch/x86/kvm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Like Xu",
-  "author_email": "likexu@tencent.com",
-  "committer": "Paolo Bonzini",
-  "committer_email": "pbonzini@redhat.com",
-  "author_date": "2022-01-05 13:15:09 +0800",
-  "committer_date": "2022-01-17 12:19:41 -0500"
+  "entropy": 0.5916727785823275
  },
  "b3bb9413e717b44e4aea833d07f14e90fb91cf97": {
   "num_adds_if": 0,
@@ -15597,47 +12494,12 @@
   "num_adds": 13,
   "num_dels": 8,
   "num_mod_lns_total": 21,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "4d1b97f9ce7c"
-  ],
   "mod_files_lst": [
    "fs/xfs/libxfs/xfs_fs.h",
    "fs/xfs/xfs_ioctl.c",
    "fs/xfs/xfs_ioctl32.h"
   ],
-  "entropy": 1.5099686126368168,
-  "ppl_signed_off": [
-   "Signed-off-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Dave Chinner <dchinner@redhat.com>",
-   "Reviewed-by: Eric Sandeen <sandeen@redhat.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/xfs",
-   "fs/xfs/libxfs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Darrick J. Wong",
-  "author_email": "djwong@kernel.org",
-  "committer": "Darrick J. Wong",
-  "committer_email": "djwong@kernel.org",
-  "author_date": "2021-12-21 13:07:38 -0800",
-  "committer_date": "2022-01-17 09:17:11 -0800"
+  "entropy": 1.5099686126368168
  },
  "4d1b97f9ce7c0d2af2bb85b12d48e6902172a28e": {
   "num_adds_if": 0,
@@ -15650,11 +12512,6 @@
   "num_adds": 10,
   "num_dels": 127,
   "num_mod_lns_total": 137,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "9dec0368b964"
-  ],
   "mod_files_lst": [
    "fs/xfs/xfs_bmap_util.c",
    "fs/xfs/xfs_bmap_util.h",
@@ -15663,144 +12520,47 @@
    "fs/xfs/xfs_ioctl.h",
    "fs/xfs/xfs_ioctl32.c"
   ],
-  "entropy": 1.4741940575842314,
-  "ppl_signed_off": [
-   "Signed-off-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Eric Sandeen <sandeen@redhat.com>",
-   "Reviewed-by: Dave Chinner <dchinner@redhat.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/xfs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Darrick J. Wong",
-  "author_email": "djwong@kernel.org",
-  "committer": "Darrick J. Wong",
-  "committer_email": "djwong@kernel.org",
-  "author_date": "2022-01-07 17:45:51 -0800",
-  "committer_date": "2022-01-17 09:16:41 -0800"
+  "entropy": 1.4741940575842314
  },
  "9dec0368b9640c09ef5af48214e097245e57a204": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "9dec0368b9640c09ef5af48214e097245e57a204",
   "num_adds": 4,
   "num_dels": 25,
   "num_mod_lns_total": 29,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4a9bca86806f"
-  ],
   "mod_files_lst": [
    "fs/xfs/libxfs/xfs_fs.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Dave Chinner <dchinner@redhat.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/xfs/libxfs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Darrick J. Wong",
-  "author_email": "djwong@kernel.org",
-  "committer": "Darrick J. Wong",
-  "committer_email": "djwong@kernel.org",
-  "author_date": "2022-01-11 14:05:02 -0800",
-  "committer_date": "2022-01-17 09:16:40 -0800"
+  "entropy": 0.0
  },
  "ebf8b135c04ae5481fc053ecb9fad66b26fd1112": {
-  "num_adds_if": 4,
+  "num_adds_if": 3,
   "num_dels_if": 0,
-  "num_mod_total_if": 4,
-  "num_adds_loop": 3,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "ebf8b135c04ae5481fc053ecb9fad66b26fd1112",
   "num_adds": 32,
   "num_dels": 4,
   "num_mod_lns_total": 36,
-  "num_mod_files": 4,
-  "is_merge": true,
-  "parents": [
-   "c96f195deeef",
-   "7f7b4236f204",
-   "ee3fe99ff0a2",
-   "2cea3ec5b009",
-   "415b4b6c447a"
-  ],
   "mod_files_lst": [
    "arch/x86/kernel/resource.c",
    "drivers/acpi/acpi_apd.c",
    "drivers/acpi/acpi_pcc.c",
    "drivers/acpi/spcr.c"
   ],
-  "entropy": 1.3762791680453095,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi",
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "arch",
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Rafael J. Wysocki",
-  "author_email": "rafael.j.wysocki@intel.com",
-  "committer": "Rafael J. Wysocki",
-  "committer_email": "rafael.j.wysocki@intel.com",
-  "author_date": "2022-01-17 18:15:07 +0100",
-  "committer_date": "2022-01-17 18:15:07 +0100"
+  "entropy": 1.3762791680453095
  },
  "5765cee119bf5a36c94d20eceb37c445508934be": {
   "num_adds_if": 4,
-  "num_dels_if": 2,
-  "num_mod_total_if": 6,
+  "num_dels_if": 1,
+  "num_mod_total_if": 5,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -15808,48 +12568,10 @@
   "num_adds": 21,
   "num_dels": 4,
   "num_mod_lns_total": 25,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9ea674d7ca4f"
-  ],
   "mod_files_lst": [
    "drivers/net/phy/sfp.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: \u7167\u5c71\u5468\u4e00\u90ce <teruyama@springboard-inc.jp>"
-  ],
-  "ppl_reported": [
-   "Reported-by: \u7167\u5c71\u5468\u4e00\u90ce <teruyama@springboard-inc.jp>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 7cfa9c92d0a3 (\"net: sfp: avoid power switch on address-change modules\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/phy"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Russell King (Oracle)",
-  "author_email": "rmk+kernel@armlinux.org.uk",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2022-01-17 14:52:33 +0000",
-  "committer_date": "2022-01-17 16:30:44 +0000"
+  "entropy": 0.0
  },
  "269332997a160b3785690a32d2c5496bce7dae51": {
   "num_adds_if": 0,
@@ -15862,44 +12584,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "032a12590499"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/analogix/anx7625.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: owen <qwt9588@gmail.com>",
-   "Signed-off-by: Robert Foss <robert.foss@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Robert Foss <robert.foss@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge/analogix"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "owen",
-  "author_email": "qwt9588@gmail.com",
-  "committer": "Robert Foss",
-  "committer_email": "robert.foss@linaro.org",
-  "author_date": "2022-01-17 18:09:49 +0800",
-  "committer_date": "2022-01-17 16:39:30 +0100"
+  "entropy": 0.0
  },
  "d134ad2574a1c9b5c34659709769bdb25295fd25": {
   "num_adds_if": 0,
@@ -15912,42 +12600,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7281599201c3"
-  ],
   "mod_files_lst": [
    "drivers/char/ipmi/ipmi_ssif.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Wang <wangborong@cdjrlc.com>",
-   "Signed-off-by: Corey Minyard <cminyard@mvista.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/char/ipmi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Wang",
-  "author_email": "wangborong@cdjrlc.com",
-  "committer": "Corey Minyard",
-  "committer_email": "cminyard@mvista.com",
-  "author_date": "2021-12-22 11:27:07 +0800",
-  "committer_date": "2022-01-17 09:10:46 -0600"
+  "entropy": 0.0
  },
  "7281599201c3336e350406781e7d88ca92453727": {
   "num_adds_if": 0,
@@ -15960,42 +12616,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "993220ba6706"
-  ],
   "mod_files_lst": [
    "drivers/char/ipmi/ipmi_watchdog.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Rikard Falkeborn <rikard.falkeborn@gmail.com>",
-   "Signed-off-by: Corey Minyard <cminyard@mvista.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/char/ipmi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Rikard Falkeborn",
-  "author_email": "rikard.falkeborn@gmail.com",
-  "committer": "Corey Minyard",
-  "committer_email": "cminyard@mvista.com",
-  "author_date": "2021-11-28 23:01:54 +0100",
-  "committer_date": "2022-01-17 09:10:46 -0600"
+  "entropy": 0.0
  },
  "993220ba6706dddbc73d9fc6bc21d371b9b4570c": {
   "num_adds_if": 0,
@@ -16008,40 +12632,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0c947b893d69"
-  ],
   "mod_files_lst": [
    "MAINTAINERS"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Corey Minyard <cminyard@mvista.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Corey Minyard",
-  "author_email": "cminyard@mvista.com",
-  "committer": "Corey Minyard",
-  "committer_email": "cminyard@mvista.com",
-  "author_date": "2021-11-26 18:12:14 -0600",
-  "committer_date": "2022-01-17 09:10:45 -0600"
+  "entropy": 0.0
  },
  "850fd2abbe02eb2b52cbb1550adbcc89b36d65de": {
   "num_adds_if": 1,
@@ -16054,48 +12648,10 @@
   "num_adds": 3,
   "num_dels": 0,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e6a2e5116e07"
-  ],
   "mod_files_lst": [
    "block/blk-sysfs.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Ming Lei <ming.lei@redhat.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: syzbot+4f789823c1abc5accf13@syzkaller.appspotmail.com"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 704b914f15fb (\"blk-mq: move srcu from blk_mq_hw_ctx to request_queue\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "block"
-  ],
-  "mod_sys": [
-   "block"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Ming Lei",
-  "author_email": "ming.lei@redhat.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2022-01-11 20:34:01 +0800",
-  "committer_date": "2022-01-17 07:24:45 -0700"
+  "entropy": 0.0
  },
  "e6a2e5116e07ce5acc8698785c29e9e47f010fd5": {
   "num_adds_if": 0,
@@ -16108,42 +12664,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "00358933f66c"
-  ],
   "mod_files_lst": [
    "block/blk-sysfs.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: GuoYong Zheng <zhenggy@chinatelecom.cn>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "block"
-  ],
-  "mod_sys": [
-   "block"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "GuoYong Zheng",
-  "author_email": "zhenggy@chinatelecom.cn",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2022-01-17 18:22:37 +0800",
-  "committer_date": "2022-01-17 07:24:04 -0700"
+  "entropy": 0.0
  },
  "00358933f66c44d511368a57eb421e172447cfb9": {
   "num_adds_if": 4,
@@ -16156,45 +12680,10 @@
   "num_adds": 30,
   "num_dels": 43,
   "num_mod_lns_total": 73,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a6431e351c6e"
-  ],
   "mod_files_lst": [
    "drivers/block/brd.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Luis Chamberlain <mcgrof@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/block"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Tetsuo Handa",
-  "author_email": "penguin-kernel@i-love.sakura.ne.jp",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2022-01-06 18:53:16 +0900",
-  "committer_date": "2022-01-17 07:19:40 -0700"
+  "entropy": 0.0
  },
  "30fee1d7462a446ade399c0819717a830cbdca69": {
   "num_adds_if": 1,
@@ -16207,46 +12696,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0b39536cc699"
-  ],
   "mod_files_lst": [
    "drivers/gpio/gpio-idt3243x.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Miaoqian Lin <linmq006@gmail.com>",
-   "Signed-off-by: Bartosz Golaszewski <brgl@bgdev.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Linus Walleij <linus.walleij@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 4195926aedca (\"gpio: Add support for IDT 79RC3243x GPIO controller\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/gpio"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Miaoqian Lin",
-  "author_email": "linmq006@gmail.com",
-  "committer": "Bartosz Golaszewski",
-  "committer_email": "brgl@bgdev.pl",
-  "author_date": "2022-01-14 06:51:24 +0000",
-  "committer_date": "2022-01-17 14:18:11 +0100"
+  "entropy": 0.0
  },
  "0b39536cc699db6850c426db7f9cb45923de40c5": {
   "num_adds_if": 1,
@@ -16259,46 +12712,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "df0cc57e057f"
-  ],
   "mod_files_lst": [
    "drivers/gpio/gpio-mpc8xxx.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Miaoqian Lin <linmq006@gmail.com>",
-   "Signed-off-by: Bartosz Golaszewski <brgl@bgdev.pl>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Linus Walleij <linus.walleij@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 76c47d1449fc (\"gpio: mpc8xxx: Add ACPI support\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/gpio"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Miaoqian Lin",
-  "author_email": "linmq006@gmail.com",
-  "committer": "Bartosz Golaszewski",
-  "committer_email": "brgl@bgdev.pl",
-  "author_date": "2022-01-14 06:48:20 +0000",
-  "committer_date": "2022-01-17 14:17:42 +0100"
+  "entropy": 0.0
  },
  "c831d92890e037aafee662e66172d406804e4818": {
   "num_adds_if": 0,
@@ -16311,42 +12728,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "960dd884ddf5"
-  ],
   "mod_files_lst": [
    "drivers/irqchip/irq-loongson-pch-msi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>",
-   "Signed-off-by: Marc Zyngier <maz@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/irqchip"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe JAILLET",
-  "author_email": "christophe.jaillet@wanadoo.fr",
-  "committer": "Marc Zyngier",
-  "committer_email": "maz@kernel.org",
-  "author_date": "2021-12-26 15:46:21 +0100",
-  "committer_date": "2022-01-17 13:16:26 +0000"
+  "entropy": 0.0
  },
  "5754f9084f261f6fbfdcc6e57dae97c86a6ff688": {
   "num_adds_if": 0,
@@ -16359,45 +12744,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "012a224e1fa3"
-  ],
   "mod_files_lst": [
    "MAINTAINERS"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Heiko Carstens <hca@linux.ibm.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Sven Schnelle <svens@linux.ibm.com>",
-   "Acked-by: Alexander Gordeev <agordeev@linux.ibm.com>",
-   "Acked-by: Vasily Gorbik <gor@linux.ibm.com>",
-   "Acked-by: Christian Borntraeger <borntraeger@linux.ibm.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Heiko Carstens",
-  "author_email": "hca@linux.ibm.com",
-  "committer": "Heiko Carstens",
-  "committer_email": "hca@linux.ibm.com",
-  "author_date": "2022-01-17 13:31:40 +0100",
-  "committer_date": "2022-01-17 14:13:09 +0100"
+  "entropy": 0.0
  },
  "012a224e1fa31fc256aab921f691598e03db6018": {
   "num_adds_if": 0,
@@ -16410,50 +12760,11 @@
   "num_adds": 95,
   "num_dels": 49,
   "num_mod_lns_total": 144,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "745f5d20e793"
-  ],
   "mod_files_lst": [
    "arch/s390/include/asm/uaccess.h",
    "arch/s390/lib/uaccess.c"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Nico Boehr <nrb@linux.ibm.com>",
-   "Signed-off-by: Janis Schoetterl-Glausch <scgl@linux.ibm.com>",
-   "Signed-off-by: Heiko Carstens <hca@linux.ibm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Alexander Gordeev <agordeev@linux.ibm.com>",
-   "Cc: Christian Borntraeger <borntraeger@linux.ibm.com>",
-   "Cc: Vasily Gorbik <gor@linux.ibm.com>",
-   "Cc: Sven Schnelle <svens@linux.ibm.com>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/s390/include/asm",
-   "arch/s390/lib"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Nico Boehr",
-  "author_email": "nrb@linux.ibm.com",
-  "committer": "Heiko Carstens",
-  "committer_email": "hca@linux.ibm.com",
-  "author_date": "2022-01-11 11:00:03 +0100",
-  "committer_date": "2022-01-17 14:13:09 +0100"
+  "entropy": 0.6500224216483541
  },
  "745f5d20e7936931f924410f32d8b0e599b5990e": {
   "num_adds_if": 1,
@@ -16466,46 +12777,11 @@
   "num_adds": 4,
   "num_dels": 2,
   "num_mod_lns_total": 6,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a87b0fd4f900"
-  ],
   "mod_files_lst": [
    "arch/s390/include/asm/cpu_mf.h",
    "arch/s390/kernel/perf_cpum_sf.c"
   ],
-  "entropy": 0.9182958340544896,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Richter <tmricht@linux.ibm.com>",
-   "Signed-off-by: Heiko Carstens <hca@linux.ibm.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Sumanth Korikkar <sumanthk@linux.ibm.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/s390/include/asm",
-   "arch/s390/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Thomas Richter",
-  "author_email": "tmricht@linux.ibm.com",
-  "committer": "Heiko Carstens",
-  "committer_email": "hca@linux.ibm.com",
-  "author_date": "2022-01-13 12:51:56 +0100",
-  "committer_date": "2022-01-17 14:13:08 +0100"
+  "entropy": 0.9182958340544896
  },
  "a87b0fd4f9003f8521226e226cf92b18147b3519": {
   "num_adds_if": 2,
@@ -16518,45 +12794,11 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "f0d43b3a3809"
-  ],
   "mod_files_lst": [
    "arch/s390/kernel/perf_cpum_cf_common.c",
    "arch/s390/kernel/perf_cpum_cf_events.c"
   ],
-  "entropy": 0.9709505944546686,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Richter <tmricht@linux.ibm.com>",
-   "Signed-off-by: Heiko Carstens <hca@linux.ibm.com>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Sumanth Korikkar <sumanthk@linux.ibm.com>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/s390/kernel"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Thomas Richter",
-  "author_email": "tmricht@linux.ibm.com",
-  "committer": "Heiko Carstens",
-  "committer_email": "hca@linux.ibm.com",
-  "author_date": "2022-01-13 12:31:16 +0100",
-  "committer_date": "2022-01-17 14:13:08 +0100"
+  "entropy": 0.9709505944546686
  },
  "9ea674d7ca4f6ce080b813ac2d9a9397f13d2427": {
   "num_adds_if": 0,
@@ -16566,47 +12808,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9ea674d7ca4f6ce080b813ac2d9a9397f13d2427",
-  "num_adds": 0,
-  "num_dels": 4,
+  "num_adds": 4,
+  "num_dels": 0,
   "num_mod_lns_total": 4,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "c0b7f7d7e0ad",
-   "79074a72d335"
-  ],
   "mod_files_lst": [
    "net/core/sock.c",
    "net/tls/tls_sw.c"
   ],
-  "entropy": 0.8112781244591328,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core",
-   "net/tls"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2022-01-17 13:07:47 +0000",
-  "committer_date": "2022-01-17 13:07:47 +0000"
+  "entropy": 0.8112781244591328
  },
  "79074a72d335dbd021a716d8cc65cba3b2f706ab": {
   "num_adds_if": 0,
@@ -16619,44 +12828,10 @@
   "num_adds": 3,
   "num_dels": 0,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "db094aa8140e"
-  ],
   "mod_files_lst": [
    "net/core/sock.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Gal Pressman <gal@nvidia.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: f35f821935d8 (\"tcp: defer skb freeing after socket lock is released\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Gal Pressman",
-  "author_email": "gal@nvidia.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2022-01-17 11:27:33 +0200",
-  "committer_date": "2022-01-17 13:07:47 +0000"
+  "entropy": 0.0
  },
  "db094aa8140e6da25ba77345b24a8af0c220665e": {
   "num_adds_if": 0,
@@ -16669,44 +12844,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c0b7f7d7e0ad"
-  ],
   "mod_files_lst": [
    "net/tls/tls_sw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Gal Pressman <gal@nvidia.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: f35f821935d8 (\"tcp: defer skb freeing after socket lock is released\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "net/tls"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Gal Pressman",
-  "author_email": "gal@nvidia.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2022-01-17 11:27:32 +0200",
-  "committer_date": "2022-01-17 13:07:47 +0000"
+  "entropy": 0.0
  },
  "c0b7f7d7e0ad44f35745c01964b3fa2833e298cb": {
   "num_adds_if": 0,
@@ -16719,63 +12860,22 @@
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "429e3d123d9a"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/mscc/ocelot_net.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Horatiu Vultur <horatiu.vultur@microchip.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Vladimir Oltean <vladimir.oltean@nxp.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 4e51bf44a03af6 (\"net: bridge: move the switchdev object replay helpers to \"push\" mode\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/ethernet/mscc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Horatiu Vultur",
-  "author_email": "horatiu.vultur@microchip.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2022-01-17 13:53:00 +0100",
-  "committer_date": "2022-01-17 13:04:25 +0000"
+  "entropy": 0.0
  },
  "6bae9de622d3ef4805aba40e763eb4b0975c4f6d": {
-  "num_adds_if": 24,
-  "num_dels_if": 10,
-  "num_mod_total_if": 34,
-  "num_adds_loop": 6,
+  "num_adds_if": 19,
+  "num_dels_if": 6,
+  "num_mod_total_if": 25,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 6,
+  "num_mod_total_loop": 1,
   "file_hash": "6bae9de622d3ef4805aba40e763eb4b0975c4f6d",
   "num_adds": 722,
   "num_dels": 192,
   "num_mod_lns_total": 914,
-  "num_mod_files": 8,
-  "is_merge": false,
-  "parents": [
-   "d17efe4f80fc"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath10k/core.c",
    "drivers/net/wireless/ath/ath10k/htt.c",
@@ -16786,37 +12886,7 @@
    "drivers/net/wireless/ath/ath10k/hw.h",
    "drivers/net/wireless/ath/ath10k/rx_desc.h"
   ],
-  "entropy": 2.220015548546808,
-  "ppl_signed_off": [
-   "Signed-off-by: Enrico Lumetti <enrico@fracta.dev>",
-   "Signed-off-by: Francesco Magliocca <franciman12@gmail.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: e3def6f7ddf8 (\"ath10k: Update rx descriptor for WCN3990 target\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath10k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Francesco Magliocca",
-  "author_email": "franciman12@gmail.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:45:15 +0200"
+  "entropy": 2.220015548546808
  },
  "d17efe4f80fc729416b5a467b4c60448cee64bfb": {
   "num_adds_if": 2,
@@ -16829,42 +12899,10 @@
   "num_adds": 8,
   "num_dels": 13,
   "num_mod_lns_total": 21,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "76d7b996aab8"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/wcn36xx/main.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Lad Prabhakar <prabhakar.mahadev-lad.rj@bp.renesas.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/wcn36xx"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Lad Prabhakar",
-  "author_email": "prabhakar.mahadev-lad.rj@bp.renesas.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2021-12-24 19:26:24 +0000",
-  "committer_date": "2022-01-17 14:44:08 +0200"
+  "entropy": 0.0
  },
  "76d7b996aab822c80a6f18c5e2bba1d4de46eab5": {
   "num_adds_if": 0,
@@ -16877,45 +12915,10 @@
   "num_adds": 1,
   "num_dels": 5,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "dc7ff75690ea"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath9k/eeprom.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Minghao Chi <chi.minghao@zte.com.cn>",
-   "Signed-off-by: CGEL ZTE <cgel.zte@gmail.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Zeal Robot <zealci@zte.com.cn>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath9k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Minghao Chi",
-  "author_email": "chi.minghao@zte.com.cn",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 08:07:51 +0000",
-  "committer_date": "2022-01-17 14:43:02 +0200"
+  "entropy": 0.0
  },
  "dc7ff75690ea7e1920be08b2b9cc89647667bb90": {
   "num_adds_if": 2,
@@ -16928,43 +12931,11 @@
   "num_adds": 19,
   "num_dels": 0,
   "num_mod_lns_total": 19,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a063b650ce5d"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath11k/core.h",
    "drivers/net/wireless/ath/ath11k/mac.c"
   ],
-  "entropy": 0.2974722489192896,
-  "ppl_signed_off": [
-   "Signed-off-by: Baochen Qiang <quic_bqiang@quicinc.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath11k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Baochen Qiang",
-  "author_email": "quic_bqiang@quicinc.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:54:00 +0800",
-  "committer_date": "2022-01-17 14:42:35 +0200"
+  "entropy": 0.2974722489192896
  },
  "a063b650ce5d72585d780d653a123f9f273b7877": {
   "num_adds_if": 0,
@@ -16977,42 +12948,10 @@
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f14c3f4db9cb"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/dfs_pattern_detector.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Christophe JAILLET",
-  "author_email": "christophe.jaillet@wanadoo.fr",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2021-12-27 17:58:10 +0100",
-  "committer_date": "2022-01-17 14:41:51 +0200"
+  "entropy": 0.0
  },
  "f14c3f4db9cb098db70651434588ea519930f5d6": {
   "num_adds_if": 1,
@@ -17025,42 +12964,10 @@
   "num_adds": 5,
   "num_dels": 10,
   "num_mod_lns_total": 15,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "dff39ad93de8"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath10k/snoc.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Lad Prabhakar <prabhakar.mahadev-lad.rj@bp.renesas.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath10k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Lad Prabhakar",
-  "author_email": "prabhakar.mahadev-lad.rj@bp.renesas.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2021-12-24 19:26:25 +0000",
-  "committer_date": "2022-01-17 14:41:06 +0200"
+  "entropy": 0.0
  },
  "dff39ad93de8fad33bba798df2370ac0655311f0": {
   "num_adds_if": 0,
@@ -17073,47 +12980,15 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3296fe1a8339"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath5k/dma.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Seiderer <ps.report@gmx.net>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath5k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Seiderer",
-  "author_email": "ps.report@gmx.net",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:38:27 +0200"
+  "entropy": 0.0
  },
  "3296fe1a833980629b4345a571778447e8ad4f2f": {
   "num_adds_if": 0,
-  "num_dels_if": 2,
-  "num_mod_total_if": 2,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -17121,43 +12996,11 @@
   "num_adds": 0,
   "num_dels": 8,
   "num_mod_lns_total": 8,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "0feb4052ad47"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath5k/ath5k.h",
    "drivers/net/wireless/ath/ath5k/dma.c"
   ],
-  "entropy": 0.5435644431995964,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Seiderer <ps.report@gmx.net>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath5k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Seiderer",
-  "author_email": "ps.report@gmx.net",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:38:26 +0200"
+  "entropy": 0.5435644431995964
  },
  "0feb4052ad47aefa07a163beb6b25343d355e2eb": {
   "num_adds_if": 1,
@@ -17170,43 +13013,11 @@
   "num_adds": 1,
   "num_dels": 5,
   "num_mod_lns_total": 6,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "bcc08e05041e"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath5k/ath5k.h",
    "drivers/net/wireless/ath/ath5k/dma.c"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Seiderer <ps.report@gmx.net>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath5k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Seiderer",
-  "author_email": "ps.report@gmx.net",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:38:26 +0200"
+  "entropy": 0.6500224216483541
  },
  "bcc08e05041ebdd6506dff5c88c4e523d68b1d96": {
   "num_adds_if": 1,
@@ -17219,43 +13030,11 @@
   "num_adds": 1,
   "num_dels": 5,
   "num_mod_lns_total": 6,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "5b747459477b"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath5k/ath5k.h",
    "drivers/net/wireless/ath/ath5k/dma.c"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Seiderer <ps.report@gmx.net>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath5k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Seiderer",
-  "author_email": "ps.report@gmx.net",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:38:25 +0200"
+  "entropy": 0.6500224216483541
  },
  "5b747459477b4d7fc9c36dc8b8134859d905e52d": {
   "num_adds_if": 1,
@@ -17268,43 +13047,11 @@
   "num_adds": 1,
   "num_dels": 5,
   "num_mod_lns_total": 6,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "c9b41832dc08"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath5k/ath5k.h",
    "drivers/net/wireless/ath/ath5k/dma.c"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Seiderer <ps.report@gmx.net>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath5k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Seiderer",
-  "author_email": "ps.report@gmx.net",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:38:24 +0200"
+  "entropy": 0.6500224216483541
  },
  "c9b41832dc080fa59bad597de94865b3ea2d5bab": {
   "num_adds_if": 0,
@@ -17317,49 +13064,15 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3cd04a438754"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath11k/qmi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 6ac04bdc5edb (\"ath11k: Use reserved host DDR addresses from DT for PCI devices\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath11k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dan Carpenter",
-  "author_email": "dan.carpenter@oracle.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:11 +0200",
-  "committer_date": "2022-01-17 14:37:28 +0200"
+  "entropy": 0.0
  },
  "3cd04a438754aaa4297a5561ad9149eda73ce14d": {
-  "num_adds_if": 8,
-  "num_dels_if": 8,
-  "num_mod_total_if": 16,
+  "num_adds_if": 7,
+  "num_dels_if": 7,
+  "num_mod_total_if": 14,
   "num_adds_loop": 1,
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
@@ -17367,47 +13080,15 @@
   "num_adds": 84,
   "num_dels": 87,
   "num_mod_lns_total": 171,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "67a9d399fcb0"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath11k/dp_rx.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Aloka Dixit <quic_alokad@quicinc.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath11k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Aloka Dixit",
-  "author_email": "quic_alokad@quicinc.com",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:10 +0200",
-  "committer_date": "2022-01-17 14:36:55 +0200"
+  "entropy": 0.0
  },
  "67a9d399fcb03177152a8797a855cbd4c995c2de": {
-  "num_adds_if": 3,
-  "num_dels_if": 5,
-  "num_mod_total_if": 8,
+  "num_adds_if": 2,
+  "num_dels_if": 4,
+  "num_mod_total_if": 6,
   "num_adds_loop": 0,
   "num_dels_loop": 1,
   "num_mod_total_loop": 1,
@@ -17415,45 +13096,12 @@
   "num_adds": 34,
   "num_dels": 64,
   "num_mod_lns_total": 98,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "564d4eceb97e"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/ath/ath11k/debugfs.c",
    "drivers/net/wireless/ath/ath11k/dp_rx.c",
    "drivers/net/wireless/ath/ath11k/hal_rx.h"
   ],
-  "entropy": 0.7324196551586492,
-  "ppl_signed_off": [
-   "Signed-off-by: Miles Hu <milehu@codeaurora.org>",
-   "Signed-off-by: Aloka Dixit <quic_alokad@quicinc.com>",
-   "Signed-off-by: Kalle Valo <quic_kvalo@quicinc.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/ath/ath11k"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Miles Hu",
-  "author_email": "milehu@codeaurora.org",
-  "committer": "Kalle Valo",
-  "committer_email": "quic_kvalo@quicinc.com",
-  "author_date": "2022-01-12 10:15:10 +0200",
-  "committer_date": "2022-01-17 14:36:54 +0200"
+  "entropy": 0.7324196551586492
  },
  "960dd884ddf5621ae6284cd3a42724500a97ae4c": {
   "num_adds_if": 0,
@@ -17466,42 +13114,10 @@
   "num_adds": 6,
   "num_dels": 2,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "91351b5dd0fd"
-  ],
   "mod_files_lst": [
    "drivers/irqchip/irq-realtek-rtl.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sander Vanheule <sander@svanheule.net>",
-   "Signed-off-by: Marc Zyngier <maz@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/irqchip"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sander Vanheule",
-  "author_email": "sander@svanheule.net",
-  "committer": "Marc Zyngier",
-  "committer_email": "maz@kernel.org",
-  "author_date": "2022-01-09 15:54:34 +0100",
-  "committer_date": "2022-01-17 12:16:26 +0000"
+  "entropy": 0.0
  },
  "91351b5dd0fd494eb2d85e1bb6aca77b067447e0": {
   "num_adds_if": 1,
@@ -17514,44 +13130,10 @@
   "num_adds": 5,
   "num_dels": 3,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "291e79c7e2eb"
-  ],
   "mod_files_lst": [
    "drivers/irqchip/irq-realtek-rtl.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sander Vanheule <sander@svanheule.net>",
-   "Signed-off-by: Marc Zyngier <maz@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 9f3a0f34b84a (\"irqchip: Add support for Realtek RTL838x/RTL839x interrupt controller\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/irqchip"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sander Vanheule",
-  "author_email": "sander@svanheule.net",
-  "committer": "Marc Zyngier",
-  "committer_email": "maz@kernel.org",
-  "author_date": "2022-01-09 15:54:33 +0100",
-  "committer_date": "2022-01-17 12:14:04 +0000"
+  "entropy": 0.0
  },
  "291e79c7e2eb6fdc016453597b78482e06199d0f": {
   "num_adds_if": 0,
@@ -17564,44 +13146,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "45378cd33905"
-  ],
   "mod_files_lst": [
    "drivers/irqchip/irq-realtek-rtl.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sander Vanheule <sander@svanheule.net>",
-   "Signed-off-by: Marc Zyngier <maz@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 9f3a0f34b84a (\"irqchip: Add support for Realtek RTL838x/RTL839x interrupt controller\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/irqchip"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sander Vanheule",
-  "author_email": "sander@svanheule.net",
-  "committer": "Marc Zyngier",
-  "committer_email": "maz@kernel.org",
-  "author_date": "2022-01-09 15:54:32 +0100",
-  "committer_date": "2022-01-17 12:13:58 +0000"
+  "entropy": 0.0
  },
  "45378cd33905966baf16d12ab0adbd56794ee075": {
   "num_adds_if": 0,
@@ -17614,43 +13162,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cd448b24c621"
-  ],
   "mod_files_lst": [
    "drivers/irqchip/irq-apple-aic.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Marc Zyngier <maz@kernel.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Hector Martin <marcan@marcan.st>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/irqchip"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Marc Zyngier",
-  "author_email": "maz@kernel.org",
-  "committer": "Marc Zyngier",
-  "committer_email": "maz@kernel.org",
-  "author_date": "2022-01-08 14:01:18 +0000",
-  "committer_date": "2022-01-17 12:12:26 +0000"
+  "entropy": 0.0
  },
  "032a125904995985334766911de9e26ee2bbd646": {
   "num_adds_if": 0,
@@ -17663,11 +13178,6 @@
   "num_adds": 7,
   "num_dels": 7,
   "num_mod_lns_total": 14,
-  "num_mod_files": 8,
-  "is_merge": false,
-  "parents": [
-   "5b529e8d9c38"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/Makefile",
    "drivers/gpu/drm/bridge/parade-ps8640.c",
@@ -17678,40 +13188,7 @@
    "drivers/gpu/drm/panel/panel-samsung-atna33xc20.c",
    "include/drm/dp/drm_dp_aux_bus.h"
   ],
-  "entropy": 2.807354922057604,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Zimmermann <tzimmermann@suse.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Daniel Vetter <daniel@ffwll.ch>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/panel",
-   "include/drm/dp",
-   "drivers/gpu/drm/bridge",
-   "drivers/gpu/drm/dp",
-   "drivers/gpu/drm"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 5,
-  "num_mod_sys": 2,
-  "author": "Thomas Zimmermann",
-  "author_email": "tzimmermann@suse.de",
-  "committer": "Thomas Zimmermann",
-  "committer_email": "tzimmermann@suse.de",
-  "author_date": "2022-01-14 12:45:35 +0100",
-  "committer_date": "2022-01-17 11:25:45 +0100"
+  "entropy": 2.807354922057604
  },
  "5b529e8d9c387a34ca2b8008dc65f55d539b3ef6": {
   "num_adds_if": 0,
@@ -17724,11 +13201,6 @@
   "num_adds": 73,
   "num_dels": 73,
   "num_mod_lns_total": 146,
-  "num_mod_files": 67,
-  "is_merge": false,
-  "parents": [
-   "adb9d5a2cc77"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/amd/amdgpu/amdgpu_connectors.c",
    "drivers/gpu/drm/amd/amdgpu/amdgpu_mode.h",
@@ -17793,82 +13265,22 @@
    "drivers/gpu/drm/tegra/dpaux.c",
    "drivers/gpu/drm/tegra/sor.c",
    "drivers/gpu/drm/xlnx/zynqmp_dp.c",
-   "include/drm/dp/drm_dp_dual_mode_helper.h",
-   "include/drm/dp/drm_dp_helper.h",
    "include/drm/dp/drm_dp_mst_helper.h",
    "include/drm/drm_dsc.h"
   ],
-  "entropy": 5.970646476688245,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Zimmermann <tzimmermann@suse.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Daniel Vetter <daniel@ffwll.ch>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge/analogix",
-   "drivers/gpu/drm/panel",
-   "drivers/gpu/drm/bridge",
-   "include/drm/dp",
-   "drivers/gpu/drm/amd/display/amdgpu_dm",
-   "drivers/gpu/drm/amd/amdgpu",
-   "drivers/gpu/drm/msm/dp",
-   "drivers/gpu/drm",
-   "drivers/gpu/drm/gma500",
-   "drivers/gpu/drm/amd/display/include",
-   "drivers/gpu/drm/nouveau/dispnv50",
-   "drivers/gpu/drm/radeon",
-   "drivers/gpu/drm/dp",
-   "drivers/gpu/drm/amd/display/modules/hdcp",
-   "drivers/gpu/drm/i915/display",
-   "drivers/gpu/drm/amd/display/dc",
-   "drivers/gpu/drm/bridge/cadence",
-   "include/drm",
-   "drivers/gpu/drm/amd/display/dc/core",
-   "drivers/gpu/drm/tegra",
-   "drivers/gpu/drm/amd/display/dc/dsc",
-   "drivers/gpu/drm/xlnx",
-   "drivers/gpu/drm/nouveau",
-   "drivers/gpu/drm/selftests",
-   "drivers/gpu/drm/rockchip"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 25,
-  "num_mod_sys": 2,
-  "author": "Thomas Zimmermann",
-  "author_email": "tzimmermann@suse.de",
-  "committer": "Thomas Zimmermann",
-  "committer_email": "tzimmermann@suse.de",
-  "author_date": "2022-01-14 12:45:34 +0100",
-  "committer_date": "2022-01-17 11:25:44 +0100"
+  "entropy": 5.970646476688245
  },
  "adb9d5a2cc77e8aefe98fe4c11656c5b7025c248": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "adb9d5a2cc77e8aefe98fe4c11656c5b7025c248",
   "num_adds": 55,
   "num_dels": 22,
   "num_mod_lns_total": 77,
-  "num_mod_files": 22,
-  "is_merge": false,
-  "parents": [
-   "3681eb24a9f1"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/Kconfig",
    "drivers/gpu/drm/Makefile",
@@ -17876,14 +13288,7 @@
    "drivers/gpu/drm/bridge/analogix/Kconfig",
    "drivers/gpu/drm/bridge/cadence/Kconfig",
    "drivers/gpu/drm/dp/Makefile",
-   "drivers/gpu/drm/dp/drm_dp.c",
-   "drivers/gpu/drm/dp/drm_dp_aux_dev.c",
-   "drivers/gpu/drm/dp/drm_dp_cec.c",
-   "drivers/gpu/drm/dp/drm_dp_dual_mode_helper.c",
-   "drivers/gpu/drm/dp/drm_dp_helper_internal.h",
    "drivers/gpu/drm/dp/drm_dp_helper_mod.c",
-   "drivers/gpu/drm/dp/drm_dp_mst_topology.c",
-   "drivers/gpu/drm/dp/drm_dp_mst_topology_internal.h",
    "drivers/gpu/drm/drm_kms_helper_common.c",
    "drivers/gpu/drm/i915/Kconfig",
    "drivers/gpu/drm/msm/Kconfig",
@@ -17893,47 +13298,7 @@
    "drivers/gpu/drm/tegra/Kconfig",
    "drivers/gpu/drm/xlnx/Kconfig"
   ],
-  "entropy": 3.0774148530660015,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Zimmermann <tzimmermann@suse.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Lyude Paul <lyude@redhat.com>",
-   "Acked-by: Daniel Vetter <daniel@ffwll.ch>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge/analogix",
-   "drivers/gpu/drm/tegra",
-   "drivers/gpu/drm/bridge",
-   "drivers/gpu/drm/dp",
-   "drivers/gpu/drm/msm",
-   "drivers/gpu/drm/xlnx",
-   "drivers/gpu/drm/nouveau",
-   "drivers/gpu/drm/bridge/cadence",
-   "drivers/gpu/drm/i915",
-   "drivers/gpu/drm/rockchip",
-   "drivers/gpu/drm/selftests",
-   "drivers/gpu/drm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 12,
-  "num_mod_sys": 1,
-  "author": "Thomas Zimmermann",
-  "author_email": "tzimmermann@suse.de",
-  "committer": "Thomas Zimmermann",
-  "committer_email": "tzimmermann@suse.de",
-  "author_date": "2022-01-14 12:45:33 +0100",
-  "committer_date": "2022-01-17 11:25:44 +0100"
+  "entropy": 3.0774148530660015
  },
  "3681eb24a9f14e001d05f8d15d2e07a96abef8b3": {
   "num_adds_if": 0,
@@ -17946,11 +13311,6 @@
   "num_adds": 37,
   "num_dels": 30,
   "num_mod_lns_total": 67,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "dfacce59553b"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/drm_crtc_helper_internal.h",
    "drivers/gpu/drm/drm_dp_aux_dev.c",
@@ -17959,35 +13319,7 @@
    "drivers/gpu/drm/drm_dp_mst_topology.c",
    "drivers/gpu/drm/drm_kms_helper_common.c"
   ],
-  "entropy": 1.5758359293048976,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Zimmermann <tzimmermann@suse.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Daniel Vetter <daniel@ffwll.ch>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Thomas Zimmermann",
-  "author_email": "tzimmermann@suse.de",
-  "committer": "Thomas Zimmermann",
-  "committer_email": "tzimmermann@suse.de",
-  "author_date": "2022-01-14 12:45:32 +0100",
-  "committer_date": "2022-01-17 11:25:44 +0100"
+  "entropy": 1.5758359293048976
  },
  "dfacce59553b2a65f4357ba6019827eb4b9a0eed": {
   "num_adds_if": 0,
@@ -18000,43 +13332,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f4319f72a9bc"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/drm_dp_mst_topology.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Zimmermann <tzimmermann@suse.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Daniel Vetter <daniel@ffwll.ch>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Thomas Zimmermann",
-  "author_email": "tzimmermann@suse.de",
-  "committer": "Thomas Zimmermann",
-  "committer_email": "tzimmermann@suse.de",
-  "author_date": "2022-01-14 12:45:31 +0100",
-  "committer_date": "2022-01-17 11:25:44 +0100"
+  "entropy": 0.0
  },
  "e26602be4869c74dd8a0f66f718b8a0ce120edb4": {
   "num_adds_if": 3,
@@ -18049,51 +13348,11 @@
   "num_adds": 28,
   "num_dels": 2,
   "num_mod_lns_total": 30,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "ef3ac0156406"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/i915/display/intel_ddi.c",
    "drivers/gpu/drm/i915/i915_reg.h"
   ],
-  "entropy": 0.8366407419411673,
-  "ppl_signed_off": [
-   "Signed-off-by: Jos\u00e9 Roberto de Souza <jose.souza@intel.com>",
-   "Signed-off-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org",
-   "Cc: Jani Nikula <jani.nikula@linux.intel.com>",
-   "Cc: Clint Taylor <clinton.a.taylor@intel.com>",
-   "Cc: Imre Deak <imre.deak@intel.com>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Clint Taylor <Clinton.A.Taylor@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915/display",
-   "drivers/gpu/drm/i915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Jos\u00e9 Roberto de Souza",
-  "author_email": "jose.souza@intel.com",
-  "committer": "Tvrtko Ursulin",
-  "committer_email": "tvrtko.ursulin@intel.com",
-  "author_date": "2022-01-13 09:48:26 -0800",
-  "committer_date": "2022-01-17 10:19:41 +0000"
+  "entropy": 0.8366407419411673
  },
  "ef3ac01564067a4337bb798b8eddc6ea7b78fd10": {
   "num_adds_if": 0,
@@ -18106,47 +13365,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6ef295e34297"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/i915/display/intel_ddi_buf_trans.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jos\u00e9 Roberto de Souza <jose.souza@intel.com>",
-   "Signed-off-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org",
-   "Cc: Clint Taylor <clinton.a.taylor@intel.com>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Clint Taylor <Clinton.A.Taylor@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915/display"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jos\u00e9 Roberto de Souza",
-  "author_email": "jose.souza@intel.com",
-  "committer": "Tvrtko Ursulin",
-  "committer_email": "tvrtko.ursulin@intel.com",
-  "author_date": "2022-01-13 08:04:37 -0800",
-  "committer_date": "2022-01-17 10:19:36 +0000"
+  "entropy": 0.0
  },
  "f4319f72a9bc37c948832c0ef121460ad7c1573f": {
   "num_adds_if": 11,
@@ -18159,44 +13381,10 @@
   "num_adds": 99,
   "num_dels": 30,
   "num_mod_lns_total": 129,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6e55d273708b"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/sii902x.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Neil Armstrong <narmstrong@baylibre.com>",
-   "Signed-off-by: Robert Foss <robert.foss@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Robert Foss <robert.foss@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Neil Armstrong",
-  "author_email": "narmstrong@baylibre.com",
-  "committer": "Robert Foss",
-  "committer_email": "robert.foss@linaro.org",
-  "author_date": "2022-01-13 15:43:05 +0100",
-  "committer_date": "2022-01-17 10:50:38 +0100"
+  "entropy": 0.0
  },
  "2c420d79dae47f9fa3bb8ccb76eaba864c579721": {
   "num_adds_if": 0,
@@ -18209,44 +13397,10 @@
   "num_adds": 27,
   "num_dels": 0,
   "num_mod_lns_total": 27,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "073983233302"
-  ],
   "mod_files_lst": [
    "arch/arm64/boot/dts/amlogic/meson-g12-common.dtsi"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Gary Bisson <gary.bisson@boundarydevices.com>",
-   "Signed-off-by: Neil Armstrong <narmstrong@baylibre.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Neil Armstrong <narmstrong@baylibre.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm64/boot/dts/amlogic"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Gary Bisson",
-  "author_email": "gary.bisson@boundarydevices.com",
-  "committer": "Neil Armstrong",
-  "committer_email": "narmstrong@baylibre.com",
-  "author_date": "2022-01-12 22:16:42 +0100",
-  "committer_date": "2022-01-17 10:45:34 +0100"
+  "entropy": 0.0
  },
  "073983233302641d080b524640cc99be696e802a": {
   "num_adds_if": 0,
@@ -18259,95 +13413,26 @@
   "num_adds": 16,
   "num_dels": 0,
   "num_mod_lns_total": 16,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ac4dfd0d1d35"
-  ],
   "mod_files_lst": [
    "arch/arm64/boot/dts/amlogic/meson-g12-common.dtsi"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Gary Bisson <gary.bisson@boundarydevices.com>",
-   "Signed-off-by: Neil Armstrong <narmstrong@baylibre.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Neil Armstrong <narmstrong@baylibre.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/arm64/boot/dts/amlogic"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Gary Bisson",
-  "author_email": "gary.bisson@boundarydevices.com",
-  "committer": "Neil Armstrong",
-  "committer_email": "narmstrong@baylibre.com",
-  "author_date": "2022-01-12 22:16:41 +0100",
-  "committer_date": "2022-01-17 10:45:34 +0100"
+  "entropy": 0.0
  },
  "6e55d273708b2a9485eb7c035efd2757fdae1869": {
   "num_adds_if": 1,
   "num_dels_if": 0,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "6e55d273708b2a9485eb7c035efd2757fdae1869",
   "num_adds": 22,
   "num_dels": 5,
   "num_mod_lns_total": 27,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "803abfd8dda5"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/panfrost/panfrost_gpu.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexey Sheplyakov <asheplyakov@basealt.ru>",
-   "Signed-off-by: Vadim V. Vlasov <vadim.vlasov@elpitech.ru>",
-   "Signed-off-by: Steven Price <steven.price@arm.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Alexey Sheplyakov <asheplyakov@basealt.ru>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/panfrost"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexey Sheplyakov",
-  "author_email": "asheplyakov@basealt.ru",
-  "committer": "Steven Price",
-  "committer_email": "steven.price@arm.com",
-  "author_date": "2022-01-15 20:06:58 +0400",
-  "committer_date": "2022-01-17 09:43:34 +0000"
+  "entropy": 0.0
  },
  "803abfd8dda540b94ea3c754a70cba69d3825995": {
   "num_adds_if": 0,
@@ -18360,47 +13445,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "61cc48163a4f"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/Kconfig"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Julian Braha <julianbraha@gmail.com>",
-   "Signed-off-by: Robert Foss <robert.foss@linaro.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Robert Foss <robert.foss@linaro.org>",
-   "Reviewed-by: Laurent Pinchart <laurent.pinchart@ideasonboard.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: ce517f18944e (\"drm: bridge: Add Chipone ICN6211 MIPI-DSI to RGB bridge\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Julian Braha",
-  "author_email": "julianbraha@gmail.com",
-  "committer": "Robert Foss",
-  "committer_email": "robert.foss@linaro.org",
-  "author_date": "2022-01-17 00:21:46 -0500",
-  "committer_date": "2022-01-17 10:29:23 +0100"
+  "entropy": 0.0
  },
  "b0641cb8a1deae38990cea783d2a1117255f59f5": {
   "num_adds_if": 0,
@@ -18413,49 +13461,11 @@
   "num_adds": 0,
   "num_dels": 28,
   "num_mod_lns_total": 28,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "a8cf6073d20a"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/i915/display/intel_bios.c",
    "drivers/gpu/drm/i915/i915_drv.h"
   ],
-  "entropy": 0.863120568566631,
-  "ppl_signed_off": [
-   "Signed-off-by: Jani Nikula <jani.nikula@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Jos\u00e9 Roberto de Souza <jose.souza@intel.com>",
-   "Cc: Jouni H\u00f6gander <jouni.hogander@intel.com>",
-   "Cc: Ville Syrj\u00e4l\u00e4 <ville.syrjala@linux.intel.com>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Jos\u00e9 Roberto de Souza <jose.souza@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915/display",
-   "drivers/gpu/drm/i915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Jani Nikula",
-  "author_email": "jani.nikula@intel.com",
-  "committer": "Jani Nikula",
-  "committer_email": "jani.nikula@intel.com",
-  "author_date": "2022-01-12 13:27:15 +0200",
-  "committer_date": "2022-01-17 11:24:18 +0200"
+  "entropy": 0.863120568566631
  },
  "5576c4f24c56722a2d9fb9c447d896e5b312078b": {
   "num_adds_if": 0,
@@ -18468,63 +13478,22 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "5762f980ca10"
-  ],
   "mod_files_lst": [
    "sound/core/misc.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Takashi Iwai <tiwai@suse.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: <stable@vger.kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 73355ddd8775 (\"ALSA: hda: Code refactoring snd_hda_pick_fixup()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "sound/core"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Takashi Iwai",
-  "author_email": "tiwai@suse.de",
-  "committer": "Takashi Iwai",
-  "committer_email": "tiwai@suse.de",
-  "author_date": "2022-01-16 09:28:38 +0100",
-  "committer_date": "2022-01-17 09:59:32 +0100"
+  "entropy": 0.0
  },
  "0c947b893d69231a9add855939da7c66237ab44f": {
-  "num_adds_if": 57,
-  "num_dels_if": 45,
-  "num_mod_total_if": 102,
-  "num_adds_loop": 11,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 13,
+  "num_adds_if": 50,
+  "num_dels_if": 44,
+  "num_mod_total_if": 94,
+  "num_adds_loop": 4,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 5,
   "file_hash": "0c947b893d69231a9add855939da7c66237ab44f",
   "num_adds": 723,
   "num_dels": 325,
   "num_mod_lns_total": 1048,
-  "num_mod_files": 23,
-  "is_merge": true,
-  "parents": [
-   "a6097180d884",
-   "9bbf8662a27b"
-  ],
   "mod_files_lst": [
    "fs/cifs/cifs_debug.c",
    "fs/cifs/cifs_spnego.c",
@@ -18550,33 +13519,7 @@
    "fs/cifs/transport.c",
    "include/uapi/linux/magic.h"
   ],
-  "entropy": 3.3128201114789846,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/uapi/linux",
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 09:53:21 +0200",
-  "committer_date": "2022-01-17 09:53:21 +0200"
+  "entropy": 3.3128201114789846
  },
  "a6097180d884ddab769fb25588ea8598589c218c": {
   "num_adds_if": 1,
@@ -18589,54 +13532,12 @@
   "num_adds": 11,
   "num_dels": 2,
   "num_mod_lns_total": 13,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "3c750c7b6143"
-  ],
   "mod_files_lst": [
    "drivers/base/devtmpfs.c",
    "fs/super.c",
    "include/linux/fs_context.h"
   ],
-  "entropy": 1.419556298571613,
-  "ppl_signed_off": [
-   "Signed-off-by: NeilBrown <neilb@suse.de>",
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Christian Brauner <christian.brauner@ubuntu.com>"
-  ],
-  "ppl_cc": [
-   "Cc: Al Viro <viro@zeniv.linux.org.uk>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: d401727ea0d7 (\"devtmpfs: don't mix {ramfs,shmem}_fill_super() with mount_single()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs",
-   "include/linux",
-   "drivers/base"
-  ],
-  "mod_sys": [
-   "fs",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "NeilBrown",
-  "author_email": "neilb@suse.de",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 09:07:26 +1100",
-  "committer_date": "2022-01-17 09:40:29 +0200"
+  "entropy": 1.419556298571613
  },
  "3c750c7b614322a4ab50be0d57a76addb598d51d": {
   "num_adds_if": 0,
@@ -18649,57 +13550,22 @@
   "num_adds": 4,
   "num_dels": 3,
   "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "b520085ca579",
-   "f346f32701eb"
-  ],
   "mod_files_lst": [
    "MAINTAINERS"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:48:09 +0200",
-  "committer_date": "2022-01-17 08:48:09 +0200"
+  "entropy": 0.0
  },
  "b520085ca57982c4beeb9bb64b8f6018425cb61f": {
-  "num_adds_if": 34,
+  "num_adds_if": 31,
   "num_dels_if": 5,
-  "num_mod_total_if": 39,
-  "num_adds_loop": 10,
-  "num_dels_loop": 4,
-  "num_mod_total_loop": 14,
+  "num_mod_total_if": 36,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
   "file_hash": "b520085ca57982c4beeb9bb64b8f6018425cb61f",
   "num_adds": 507,
   "num_dels": 125,
   "num_mod_lns_total": 632,
-  "num_mod_files": 14,
-  "is_merge": true,
-  "parents": [
-   "4b3789512f01",
-   "762f99f4f3cb"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/input/touchscreen/zinitix,bt400.yaml",
    "Documentation/devicetree/bindings/input/touchscreen/zinitix.txt",
@@ -18716,42 +13582,12 @@
    "drivers/input/touchscreen/wacom_i2c.c",
    "drivers/input/touchscreen/zinitix.c"
   ],
-  "entropy": 2.8536004530385592,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/input/mouse",
-   "drivers/input/touchscreen",
-   "drivers/input/keyboard",
-   "Documentation/devicetree/bindings/input/touchscreen",
-   "drivers/input/misc",
-   "drivers/input"
-  ],
-  "mod_sys": [
-   "Documentation",
-   "drivers"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:27:55 +0200",
-  "committer_date": "2022-01-17 08:27:55 +0200"
+  "entropy": 2.8536004530385592
  },
  "4b3789512f018819e0c4b0776731dc4ce694c484": {
-  "num_adds_if": 21,
+  "num_adds_if": 20,
   "num_dels_if": 9,
-  "num_mod_total_if": 30,
+  "num_mod_total_if": 29,
   "num_adds_loop": 1,
   "num_dels_loop": 2,
   "num_mod_total_loop": 3,
@@ -18759,12 +13595,6 @@
   "num_adds": 260,
   "num_dels": 98,
   "num_mod_lns_total": 358,
-  "num_mod_files": 7,
-  "is_merge": true,
-  "parents": [
-   "96000bc95662",
-   "13462ba1815d"
-  ],
   "mod_files_lst": [
    "drivers/i3c/master.c",
    "drivers/i3c/master/dw-i3c-master.c",
@@ -18774,33 +13604,7 @@
    "drivers/i3c/master/mipi-i3c-hci/hci.h",
    "drivers/i3c/master/svc-i3c-master.c"
   ],
-  "entropy": 0.3949833434670321,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/i3c/master/mipi-i3c-hci",
-   "drivers/i3c",
-   "drivers/i3c/master"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:20:28 +0200",
-  "committer_date": "2022-01-17 08:20:28 +0200"
+  "entropy": 0.3949833434670321
  },
  "96000bc956628dc0cc608696d5385ffc19e65a76": {
   "num_adds_if": 5,
@@ -18813,65 +13617,25 @@
   "num_adds": 16,
   "num_dels": 17,
   "num_mod_lns_total": 33,
-  "num_mod_files": 4,
-  "is_merge": true,
-  "parents": [
-   "2225acc32275",
-   "8cd778650ae2"
-  ],
   "mod_files_lst": [
    "drivers/ntb/hw/amd/ntb_hw_amd.c",
    "drivers/ntb/hw/mscc/ntb_hw_switchtec.c",
    "drivers/ntb/msi.c",
    "include/linux/switchtec.h"
   ],
-  "entropy": 1.0757177504544575,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/ntb/hw/mscc",
-   "include/linux",
-   "drivers/ntb",
-   "drivers/ntb/hw/amd"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:14:18 +0200",
-  "committer_date": "2022-01-17 08:14:18 +0200"
+  "entropy": 1.0757177504544575
  },
  "2225acc32275085d5e0ce5845c6fd18d61204b49": {
-  "num_adds_if": 64,
-  "num_dels_if": 33,
-  "num_mod_total_if": 97,
-  "num_adds_loop": 32,
-  "num_dels_loop": 9,
-  "num_mod_total_loop": 41,
+  "num_adds_if": 60,
+  "num_dels_if": 30,
+  "num_mod_total_if": 90,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
   "file_hash": "2225acc32275085d5e0ce5845c6fd18d61204b49",
   "num_adds": 1492,
   "num_dels": 492,
   "num_mod_lns_total": 1984,
-  "num_mod_files": 24,
-  "is_merge": true,
-  "parents": [
-   "b70b878c32ef",
-   "ffd264bd152c"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/watchdog/brcm,bcm7038-wdt.txt",
    "Documentation/devicetree/bindings/watchdog/brcm,bcm7038-wdt.yaml",
@@ -18898,44 +13662,12 @@
    "drivers/watchdog/s3c2410_wdt.c",
    "include/linux/platform_data/bcm7038_wdt.h"
   ],
-  "entropy": 3.3002960549456146,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/watchdog",
-   "include/linux/platform_data",
-   "arch/mips/bcm63xx",
-   "Documentation/devicetree/bindings/watchdog",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "arch",
-   "Documentation",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 4,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:07:57 +0200",
-  "committer_date": "2022-01-17 08:07:57 +0200"
+  "entropy": 3.3002960549456146
  },
  "b70b878c32ef3971334ade7fac8f47e4629b029c": {
   "num_adds_if": 0,
-  "num_dels_if": 6,
-  "num_mod_total_if": 6,
+  "num_dels_if": 4,
+  "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -18943,63 +13675,24 @@
   "num_adds": 0,
   "num_dels": 188,
   "num_mod_lns_total": 188,
-  "num_mod_files": 3,
-  "is_merge": true,
-  "parents": [
-   "763978ca67a3",
-   "3cdb8e995ee2"
-  ],
   "mod_files_lst": [
    "MAINTAINERS",
    "scripts/coccinelle/iterators/fen.cocci",
    "scripts/coccinelle/misc/bugon.cocci"
   ],
-  "entropy": 0.9647538640794073,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "scripts/coccinelle/misc",
-   "scripts/coccinelle/iterators",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 08:00:56 +0200",
-  "committer_date": "2022-01-17 08:00:56 +0200"
+  "entropy": 0.9647538640794073
  },
  "763978ca67a3d7be3915e2035e2a6c331524c748": {
-  "num_adds_if": 27,
-  "num_dels_if": 2,
-  "num_mod_total_if": 29,
-  "num_adds_loop": 7,
+  "num_adds_if": 24,
+  "num_dels_if": 1,
+  "num_mod_total_if": 25,
+  "num_adds_loop": 4,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 7,
+  "num_mod_total_loop": 4,
   "file_hash": "763978ca67a3d7be3915e2035e2a6c331524c748",
   "num_adds": 340,
   "num_dels": 19,
   "num_mod_lns_total": 359,
-  "num_mod_files": 8,
-  "is_merge": true,
-  "parents": [
-   "98f2345773f9",
-   "a97ac8cb24a3"
-  ],
   "mod_files_lst": [
    "MAINTAINERS",
    "include/linux/module.h",
@@ -19010,38 +13703,7 @@
    "kernel/module.c",
    "kernel/module_decompress.c"
   ],
-  "entropy": 1.2831693342701618,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/uapi/linux",
-   "/",
-   "include/linux",
-   "kernel",
-   "init",
-   "/"
-  ],
-  "mod_sys": [
-   "init",
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 07:32:51 +0200",
-  "committer_date": "2022-01-17 07:32:51 +0200"
+  "entropy": 1.2831693342701618
  },
  "98f2345773f9ac739350230a85f9a7f7b1fe21a6": {
   "num_adds_if": 0,
@@ -19054,115 +13716,38 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "35ce8ae9ae2e"
-  ],
   "mod_files_lst": [
    "fs/unicode/.gitignore"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 2b3d04787012 (\"unicode: Add utf8-data module\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs/unicode"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 07:26:43 +0200",
-  "committer_date": "2022-01-17 07:26:43 +0200"
+  "entropy": 0.0
  },
  "429a64f6e91fbfe4912d17247c27d0d66767b1c2": {
-  "num_adds_if": 4,
-  "num_dels_if": 4,
-  "num_mod_total_if": 8,
-  "num_adds_loop": 2,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 4,
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "429a64f6e91fbfe4912d17247c27d0d66767b1c2",
   "num_adds": 28,
   "num_dels": 30,
   "num_mod_lns_total": 58,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d37823c3528e"
-  ],
   "mod_files_lst": [
    "arch/powerpc/perf/core-book3s.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Athira Rajeev <atrajeev@linux.vnet.ibm.com>",
-   "Signed-off-by: Michael Ellerman <mpe@ellerman.id.au>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Nicholas Piggin <npiggin@gmail.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: kernel test robot <lkp@intel.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 5a7745b96f43 (\"powerpc/64s/perf: add power_pmu_wants_prompt_pmi to say whether perf wants PMIs to be soft-NMI\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "arch/powerpc/perf"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Athira Rajeev",
-  "author_email": "atrajeev@linux.vnet.ibm.com",
-  "committer": "Michael Ellerman",
-  "committer_email": "mpe@ellerman.id.au",
-  "author_date": "2022-01-14 08:43:55 +0530",
-  "committer_date": "2022-01-17 15:04:13 +1100"
+  "entropy": 0.0
  },
  "35ce8ae9ae2e471f92759f9d6880eab42cc1c3b6": {
-  "num_adds_if": 27,
-  "num_dels_if": 29,
-  "num_mod_total_if": 56,
-  "num_adds_loop": 5,
-  "num_dels_loop": 9,
-  "num_mod_total_loop": 14,
+  "num_adds_if": 26,
+  "num_dels_if": 25,
+  "num_mod_total_if": 51,
+  "num_adds_loop": 2,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 6,
   "file_hash": "35ce8ae9ae2e471f92759f9d6880eab42cc1c3b6",
   "num_adds": 308,
   "num_dels": 400,
   "num_mod_lns_total": 708,
-  "num_mod_files": 86,
-  "is_merge": true,
-  "parents": [
-   "6661224e66f0",
-   "a403df29789b"
-  ],
   "mod_files_lst": [
    "arch/alpha/kernel/traps.c",
    "arch/alpha/mm/fault.c",
@@ -19251,113 +13836,19 @@
    "net/bluetooth/hidp/core.c",
    "tools/objtool/check.c"
   ],
-  "entropy": 5.000077555245569,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/ia64/kernel",
-   "fs/nfs",
-   "arch/alpha/mm",
-   "arch/h8300/mm",
-   "tools/objtool",
-   "fs/cifs",
-   "drivers/net/wireless/rsi",
-   "kernel/futex",
-   "arch/csky/kernel",
-   "arch/riscv/kernel",
-   "crypto",
-   "arch/hexagon/kernel",
-   "include/linux",
-   "drivers/usb/gadget/function",
-   "arch/csky/mm",
-   "fs/lockd",
-   "net/bluetooth/hidp",
-   "arch/arm/kernel",
-   "arch/openrisc/kernel",
-   "arch/arm64/mm",
-   "arch/m68k/kernel",
-   "fs",
-   "arch/mips/kernel",
-   "include/linux/sched",
-   "arch/arm64/kernel",
-   "kernel",
-   "arch/arm/mm",
-   "drivers/pnp/pnpbios",
-   "drivers/staging/rts5208",
-   "arch/microblaze/kernel",
-   "arch/h8300/kernel",
-   "arch/powerpc/kernel",
-   "fs/nfsd",
-   "kernel/sched",
-   "arch/nios2/kernel",
-   "lib/kunit",
-   "mm",
-   "include/linux/sunrpc",
-   "arch/alpha/kernel",
-   "arch/riscv/mm",
-   "fs/jffs2",
-   "arch/sh/kernel",
-   "net/bluetooth/bnep",
-   "arch/nds32/kernel",
-   "arch/xtensa/kernel",
-   "drivers/usb/atm",
-   "arch/csky/abiv1",
-   "arch/ia64/mm",
-   "arch/s390/kernel",
-   "arch/sparc/kernel",
-   "fs/proc",
-   "arch/parisc/kernel",
-   "arch/x86/kernel",
-   "net/bluetooth/cmtp",
-   "arch/m68k/mm",
-   "arch/x86/entry"
-  ],
-  "mod_sys": [
-   "tools",
-   "net",
-   "fs",
-   "crypto",
-   "drivers",
-   "kernel",
-   "lib",
-   "arch",
-   "mm",
-   "include"
-  ],
-  "num_mod_dirs": 56,
-  "num_mod_sys": 10,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 05:49:30 +0200",
-  "committer_date": "2022-01-17 05:49:30 +0200"
+  "entropy": 5.000077555245569
  },
  "6661224e66f03706daea8e27714436851cf01731": {
-  "num_adds_if": 25,
-  "num_dels_if": 59,
-  "num_mod_total_if": 84,
+  "num_adds_if": 22,
+  "num_dels_if": 45,
+  "num_mod_total_if": 67,
   "num_adds_loop": 2,
-  "num_dels_loop": 11,
-  "num_mod_total_loop": 13,
+  "num_dels_loop": 9,
+  "num_mod_total_loop": 11,
   "file_hash": "6661224e66f03706daea8e27714436851cf01731",
   "num_adds": 291,
   "num_dels": 456,
   "num_mod_lns_total": 747,
-  "num_mod_files": 12,
-  "is_merge": true,
-  "parents": [
-   "79e06c4c4950",
-   "e2a58d2d3416"
-  ],
   "mod_files_lst": [
    "fs/ext4/super.c",
    "fs/f2fs/super.c",
@@ -19372,34 +13863,6 @@
    "fs/unicode/utf8n.h",
    "include/linux/unicode.h"
   ],
-  "entropy": 2.9024828393432682,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "fs/ext4",
-   "fs/f2fs",
-   "fs/unicode"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2022-01-17 05:40:02 +0200",
-  "committer_date": "2022-01-17 05:40:02 +0200"
+  "entropy": 2.9024828393432682
  }
 }

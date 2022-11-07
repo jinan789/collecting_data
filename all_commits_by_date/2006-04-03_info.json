@@ -10,42 +10,10 @@
   "num_adds": 0,
   "num_dels": 3,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c12ea918ee17"
-  ],
   "mod_files_lst": [
    "drivers/acpi/sleep/wakeup.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bjorn Helgaas <bjorn.helgaas@hp.com>",
-   "Signed-off-by: Len Brown <len.brown@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi/sleep"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Bjorn Helgaas",
-  "author_email": "bjorn.helgaas@hp.com",
-  "committer": "Len Brown",
-  "committer_email": "len.brown@intel.com",
-  "author_date": "2006-04-03 13:14:00 -0400",
-  "committer_date": "2006-04-03 16:06:47 -0400"
+  "entropy": 0.0
  },
  "ce1823f0323be9f38bbe0df229a5bba025404923": {
   "num_adds_if": 0,
@@ -58,59 +26,22 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "227c939b00cf"
-  ],
   "mod_files_lst": [
    "drivers/infiniband/ulp/srp/ib_srp.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Roland Dreier <rolandd@cisco.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/infiniband/ulp/srp"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Roland Dreier",
-  "author_email": "rolandd@cisco.com",
-  "committer": "Roland Dreier",
-  "committer_email": "rolandd@cisco.com",
-  "author_date": "2006-04-03 09:31:04 -0700",
-  "committer_date": "2006-04-03 09:31:04 -0700"
+  "entropy": 0.0
  },
  "76467874b83835129dc454e3a7a8e5d1186101b0": {
-  "num_adds_if": 1259,
-  "num_dels_if": 3615,
-  "num_mod_total_if": 4874,
-  "num_adds_loop": 252,
-  "num_dels_loop": 1273,
-  "num_mod_total_loop": 1525,
+  "num_adds_if": 3116,
+  "num_dels_if": 1172,
+  "num_mod_total_if": 4288,
+  "num_adds_loop": 415,
+  "num_dels_loop": 122,
+  "num_mod_total_loop": 537,
   "file_hash": "76467874b83835129dc454e3a7a8e5d1186101b0",
-  "num_adds": 15599,
-  "num_dels": 59059,
-  "num_mod_lns_total": 74658,
-  "num_mod_files": 895,
-  "is_merge": true,
-  "parents": [
-   "8628de058350",
-   "6246b6128bbe"
-  ],
+  "num_adds": 52011,
+  "num_dels": 13981,
+  "num_mod_lns_total": 65992,
   "mod_files_lst": [
    "Documentation/DocBook/Makefile",
    "Documentation/DocBook/kernel-api.tmpl",
@@ -125,12 +56,12 @@
    "Documentation/networking/tuntap.txt",
    "Documentation/pcmcia/driver-changes.txt",
    "Documentation/sound/alsa/ALSA-Configuration.txt",
-   "Documentation/usb/ibmcam.txt",
-   "Documentation/usb/ov511.txt",
-   "Documentation/usb/sn9c102.txt",
-   "Documentation/usb/stv680.txt",
-   "Documentation/usb/w9968cf.txt",
    "Documentation/video4linux/CARDLIST.saa7134",
+   "Documentation/video4linux/ibmcam.txt",
+   "Documentation/video4linux/ov511.txt",
+   "Documentation/video4linux/sn9c102.txt",
+   "Documentation/video4linux/stv680.txt",
+   "Documentation/video4linux/w9968cf.txt",
    "MAINTAINERS",
    "Makefile",
    "arch/alpha/kernel/alpha_ksyms.c",
@@ -187,6 +118,7 @@
    "arch/arm/mach-omap1/mux.c",
    "arch/arm/mach-omap1/pm.c",
    "arch/arm/mach-omap1/serial.c",
+   "arch/arm/mach-omap1/sleep.S",
    "arch/arm/mach-omap1/time.c",
    "arch/arm/mach-omap2/Kconfig",
    "arch/arm/mach-omap2/Makefile",
@@ -200,8 +132,8 @@
    "arch/arm/mach-omap2/memory.h",
    "arch/arm/mach-omap2/mux.c",
    "arch/arm/mach-omap2/pm.c",
+   "arch/arm/mach-omap2/prcm-regs.h",
    "arch/arm/mach-omap2/prcm.c",
-   "arch/arm/mach-omap2/prcm.h",
    "arch/arm/mach-omap2/sleep.S",
    "arch/arm/mach-omap2/sram-fn.S",
    "arch/arm/mach-pxa/corgi.c",
@@ -232,7 +164,6 @@
    "arch/arm/plat-omap/mcbsp.c",
    "arch/arm/plat-omap/ocpi.c",
    "arch/arm/plat-omap/pm.c",
-   "arch/arm/plat-omap/sleep.S",
    "arch/arm/plat-omap/sram.c",
    "arch/arm/plat-omap/timer32k.c",
    "arch/arm26/kernel/armksyms.c",
@@ -515,9 +446,9 @@
    "drivers/media/video/cpia_pp.c",
    "drivers/media/video/cx25840/cx25840-audio.c",
    "drivers/media/video/cx25840/cx25840-core.c",
+   "drivers/media/video/cx25840/cx25840-core.h",
    "drivers/media/video/cx25840/cx25840-firmware.c",
    "drivers/media/video/cx25840/cx25840-vbi.c",
-   "drivers/media/video/cx25840/cx25840.h",
    "drivers/media/video/cx88/Kconfig",
    "drivers/media/video/em28xx/em28xx-cards.c",
    "drivers/media/video/em28xx/em28xx-video.c",
@@ -838,8 +769,8 @@
    "include/asm-sparc64/unistd.h",
    "include/asm-um/desc.h",
    "include/asm-um/host_ldt-i386.h",
+   "include/asm-um/host_ldt-x86_64.h",
    "include/asm-um/ldt-i386.h",
-   "include/asm-um/ldt-x86_64.h",
    "include/asm-um/ldt.h",
    "include/asm-um/processor-i386.h",
    "include/asm-um/processor-x86_64.h",
@@ -948,7 +879,6 @@
    "net/ipv4/netfilter/Makefile",
    "net/ipv4/netfilter/ip_conntrack_netlink.c",
    "net/ipv4/netfilter/ip_tables.c",
-   "net/ipv4/netfilter/ipt_esp.c",
    "net/ipv4/netfilter/ipt_multiport.c",
    "net/ipv4/xfrm4_input.c",
    "net/ipv4/xfrm4_tunnel.c",
@@ -965,6 +895,7 @@
    "net/netfilter/Makefile",
    "net/netfilter/nf_conntrack_netlink.c",
    "net/netfilter/x_tables.c",
+   "net/netfilter/xt_esp.c",
    "net/netfilter/xt_multiport.c",
    "net/netfilter/xt_policy.c",
    "net/socket.c",
@@ -1008,260 +939,7 @@
    "sound/pcmcia/vx/vxpocket.h",
    "sound/usb/usbmixer.c"
   ],
-  "entropy": 7.615054180405064,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/networking",
-   "drivers/input/mouse",
-   "drivers/md",
-   "fs/hfsplus",
-   "arch/sparc64",
-   "drivers/scsi/pcmcia",
-   "include/asm-arm/arch-ep93xx",
-   "include/asm-x86_64",
-   "include/asm-arm/arch-omap",
-   "drivers/media/video/zc0301",
-   "arch/arm/common",
-   "drivers/infiniband",
-   "drivers/char/pcmcia",
-   "drivers/media/video/pwc",
-   "drivers/input/joystick",
-   "arch/powerpc/mm",
-   "net/core",
-   "sound/isa",
-   "arch/powerpc/platforms/85xx",
-   "fs/cifs",
-   "include/asm-arm/arch-s3c2410",
-   "net/ipv4/netfilter",
-   "drivers/serial",
-   "arch/powerpc/kernel/vdso64",
-   "sound/usb",
-   "drivers/net/e1000",
-   "sound/pcmcia/pdaudiocf",
-   "Documentation/pcmcia",
-   "sound/isa/opti9xx",
-   "Documentation",
-   "drivers/media/dvb/dvb-core",
-   "Documentation/input",
-   "drivers/media/video/usbvideo",
-   "drivers/media/video/cx88",
-   "arch/powerpc/platforms/cell/spufs",
-   "drivers/pcmcia",
-   "arch/um/include/sysdep-x86_64",
-   "drivers/input/keyboard",
-   "drivers/s390/block",
-   "include/asm-arm/arch-ixp23xx",
-   "Documentation/usb",
-   "include/linux/netfilter_ipv4",
-   "sound/core/oss",
-   "arch/um/kernel/skas",
-   "drivers/scsi/aic7xxx",
-   "arch/sh/kernel",
-   "include/linux/mtd",
-   "arch/frv/kernel",
-   "arch/arm26/kernel",
-   "arch/alpha/kernel",
-   "drivers/isdn/hisax",
-   "drivers/isdn/sc",
-   "fs/xfs/quota",
-   "fs/vfat",
-   "arch/arm/mach-sa1100",
-   "drivers/net",
-   "drivers/media/video/sn9c102",
-   "drivers/input/joystick/iforce",
-   "arch/m68k/kernel",
-   "block",
-   "fs/sysv",
-   "drivers/s390/net",
-   "fs/jffs2",
-   "net/ipv6",
-   "drivers/input",
-   "fs/hppfs",
-   "include/asm-sparc64",
-   "arch/x86_64/ia32",
-   "drivers/bluetooth",
-   "arch/h8300/kernel",
-   "arch/powerpc/platforms/pseries",
-   "arch/i386/kernel",
-   "arch/um/os-Linux/drivers",
-   "arch/arm/mach-ixp23xx",
-   "drivers/scsi/ibmvscsi",
-   "arch/ia64/kernel",
-   "drivers",
-   "drivers/char",
-   "fs/sysfs",
-   "fs/udf",
-   "include/linux/netfilter_ipv6",
-   "drivers/char/watchdog",
-   "include/linux",
-   "arch/powerpc/platforms/cell",
-   "kernel/power",
-   "include/asm-sparc",
-   "arch/xtensa/kernel",
-   "arch/um/include/sysdep-i386",
-   "include/asm-arm/arch-imx",
-   "include/asm-ia64",
-   "arch/arm/configs",
-   "drivers/net/wireless",
-   "drivers/video",
-   "net/decnet",
-   "drivers/media/video/cx25840",
-   "arch/arm/kernel",
-   "include/asm-um",
-   "sound/pci/pcxhr",
-   "arch/arm/mach-at91rm9200",
-   "drivers/mmc",
-   "fs/msdos",
-   "drivers/block",
-   "arch/x86_64/mm",
-   "drivers/media",
-   "drivers/media/dvb/dvb-usb",
-   "drivers/video/backlight",
-   "drivers/media/video/bt8xx",
-   "Documentation/sound/alsa",
-   "arch/sparc/kernel",
-   "drivers/edac",
-   "arch/arm/mm",
-   "drivers/media/dvb/bt8xx",
-   "arch/powerpc/platforms/83xx",
-   "include/asm-powerpc",
-   "drivers/parport",
-   "include/media",
-   "arch/um/drivers",
-   "net",
-   "mm",
-   "arch/um/kernel",
-   "ipc",
-   "arch/powerpc/kernel/vdso32",
-   "drivers/s390/char",
-   "fs",
-   "fs/xfs/linux-2.6",
-   "include/sound",
-   "kernel",
-   "arch/arm/plat-omap",
-   "arch/m68knommu/kernel",
-   "arch/sh/kernel/cpu",
-   "drivers/mtd",
-   "arch/um/os-Linux",
-   "drivers/ide",
-   "drivers/ieee1394",
-   "drivers/serial/jsm",
-   "include/asm-arm",
-   "arch/arm/mach-omap1",
-   "drivers/isdn/hardware/avm",
-   "net/dccp",
-   "/",
-   "sound/pci/riptide",
-   "drivers/net/wireless/hostap",
-   "Documentation/video4linux",
-   "drivers/leds",
-   "arch/arm/mach-imx",
-   "drivers/net/irda",
-   "fs/xfs",
-   "fs/smbfs",
-   "arch/um/scripts",
-   "arch/sparc64/mm",
-   "sound/pcmcia/vx",
-   "include/asm-arm/arch-pxa",
-   "drivers/acpi",
-   "net/ipv6/netfilter",
-   "drivers/hwmon",
-   "arch/sparc64/kernel",
-   "drivers/mtd/devices",
-   "drivers/net/chelsio",
-   "arch/powerpc/kernel",
-   "sound/pci/hda",
-   "net/xfrm",
-   "arch/s390/kernel",
-   "arch/arm/boot/compressed",
-   "arch/i386/kernel/cpu/mcheck",
-   "drivers/telephony",
-   "include/asm-i386",
-   "drivers/usb/input",
-   "include/net",
-   "drivers/mtd/chips",
-   "Documentation/DocBook",
-   "drivers/mtd/nand",
-   "drivers/usb/host",
-   "sound/core",
-   "Documentation/fujitsu/frv",
-   "arch/arm/mach-pxa",
-   "arch/um",
-   "drivers/net/tokenring",
-   "arch/um/sys-i386",
-   "drivers/mtd/maps",
-   "arch/um/kernel/tt",
-   "drivers/char/ipmi",
-   "drivers/media/dvb/frontends",
-   "drivers/input/misc",
-   "include/asm-arm/arch-at91rm9200",
-   "arch/mips",
-   "net/netfilter",
-   "sound/pci",
-   "arch/arm/mach-s3c2410",
-   "arch/um/os-Linux/sys-i386",
-   "arch/arm/mach-ep93xx",
-   "drivers/ide/legacy",
-   "include/pcmcia",
-   "drivers/media/video/cpia2",
-   "drivers/media/dvb/ttpci",
-   "drivers/media/video/et61x251",
-   "drivers/net/pcmcia",
-   "fs/freevxfs",
-   "sound/pci/ice1712",
-   "net/ipv4",
-   "arch/um/sys-x86_64",
-   "arch/arm/mach-omap2",
-   "arch/um/include",
-   "drivers/scsi",
-   "arch/arm",
-   "fs/proc",
-   "drivers/input/gameport",
-   "drivers/infiniband/hw/ipath",
-   "drivers/media/video",
-   "drivers/net/arcnet",
-   "drivers/input/serio",
-   "drivers/video/console",
-   "drivers/media/video/saa7134",
-   "include/asm-generic",
-   "arch/x86_64/kernel",
-   "include/linux/netfilter",
-   "drivers/media/video/em28xx",
-   "arch/mips/kernel",
-   "include/asm-s390",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "net",
-   "include",
-   "block",
-   "mm",
-   "ipc",
-   "fs",
-   "arch",
-   "kernel",
-   "Documentation",
-   "drivers",
-   "sound"
-  ],
-  "num_mod_dirs": 220,
-  "num_mod_sys": 11,
-  "author": "Steven Whitehouse",
-  "author_email": "swhiteho@redhat.com",
-  "committer": "Steven Whitehouse",
-  "committer_email": "swhiteho@redhat.com",
-  "author_date": "2006-04-03 09:08:57 -0400",
-  "committer_date": "2006-04-03 09:08:57 -0400"
+  "entropy": 7.644222239561242
  },
  "4c41251e31982002bca0ce7e903c0cc66218c1ec": {
   "num_adds_if": 0,
@@ -1274,92 +952,27 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "b82fbe6c4232"
-  ],
   "mod_files_lst": [
    "Documentation/cpu-freq/index.txt",
    "drivers/cpufreq/Kconfig"
   ],
-  "entropy": 1.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Erik Mouw <erik@bitwizard.nl>",
-   "Signed-off-by: Dave Jones <davej@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/cpufreq",
-   "Documentation/cpu-freq"
-  ],
-  "mod_sys": [
-   "Documentation",
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Erik Mouw",
-  "author_email": "erik@bitwizard.nl",
-  "committer": "Dave Jones",
-  "committer_email": "davej@redhat.com",
-  "author_date": "2006-04-03 14:21:00 +0200",
-  "committer_date": "2006-04-03 07:25:54 -0500"
+  "entropy": 1.0
  },
  "51d797474f87b375819d084f7583a2864c5656c4": {
   "num_adds_if": 4,
   "num_dels_if": 6,
   "num_mod_total_if": 10,
   "num_adds_loop": 1,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 3,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
   "file_hash": "51d797474f87b375819d084f7583a2864c5656c4",
-  "num_adds": 34,
-  "num_dels": 37,
-  "num_mod_lns_total": 71,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3587c50991b9"
-  ],
+  "num_adds": 32,
+  "num_dels": 35,
+  "num_mod_lns_total": 67,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-04-03 16:19:26 +1000",
-  "committer_date": "2006-04-03 16:19:26 +1000"
+  "entropy": 0.0
  },
  "3587c50991b96fee2d26942f380e36e4f40fad71": {
   "num_adds_if": 1,
@@ -1369,95 +982,33 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 1,
   "file_hash": "3587c50991b96fee2d26942f380e36e4f40fad71",
-  "num_adds": 18,
+  "num_adds": 17,
   "num_dels": 1,
-  "num_mod_lns_total": 19,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "3aff13cfb881"
-  ],
+  "num_mod_lns_total": 18,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.4854607607459134,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-04-03 14:46:55 +1000",
-  "committer_date": "2006-04-03 14:46:55 +1000"
+  "entropy": 0.5032583347756457
  },
  "3aff13cfb8810cc228e8fdcb92103ed0b11ee38e": {
-  "num_adds_if": 16,
-  "num_dels_if": 12,
-  "num_mod_total_if": 28,
-  "num_adds_loop": 2,
+  "num_adds_if": 15,
+  "num_dels_if": 11,
+  "num_mod_total_if": 26,
+  "num_adds_loop": 1,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "3aff13cfb8810cc228e8fdcb92103ed0b11ee38e",
-  "num_adds": 137,
-  "num_dels": 84,
-  "num_mod_lns_total": 221,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "46f60b8e67e6"
-  ],
+  "num_adds": 109,
+  "num_dels": 74,
+  "num_mod_lns_total": 183,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfb.h",
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c",
    "drivers/video/intelfb/intelfbhw.h"
   ],
-  "entropy": 0.19036545320451215,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-31 17:08:52 +1000",
-  "committer_date": "2006-04-03 11:43:29 +1000"
+  "entropy": 0.22236349559541518
  },
  "46f60b8e67e6fceede851dc69cdee2d7c0de27b9": {
   "num_adds_if": 0,
@@ -1470,42 +1021,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9a90603f65dd"
-  ],
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Adrian Bunk <bunk@stusta.de>",
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-24 12:31:14 +1100",
-  "committer_date": "2006-04-03 11:43:29 +1000"
+  "entropy": 0.0
  },
  "9a90603f65dd5046ddcd586158abcad7784892b6": {
   "num_adds_if": 0,
@@ -1518,91 +1037,29 @@
   "num_adds": 16,
   "num_dels": 6,
   "num_mod_lns_total": 22,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "8b91b0b4f2d7"
-  ],
   "mod_files_lst": [
    "drivers/video/intelfb/intelfb.h",
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 1.5394847569315018,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 21:53:05 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 1.5394847569315018
  },
  "8b91b0b4f2d731b92f59bc82492769a09b4955a6": {
-  "num_adds_if": 9,
+  "num_adds_if": 7,
   "num_dels_if": 10,
-  "num_mod_total_if": 19,
+  "num_mod_total_if": 17,
   "num_adds_loop": 2,
   "num_dels_loop": 2,
   "num_mod_total_loop": 4,
   "file_hash": "8b91b0b4f2d731b92f59bc82492769a09b4955a6",
-  "num_adds": 35,
-  "num_dels": 41,
-  "num_mod_lns_total": 76,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "8bb91f6a2d1d"
-  ],
+  "num_adds": 32,
+  "num_dels": 38,
+  "num_mod_lns_total": 70,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.5617526078313282,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 19:23:48 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 0.5916727785823275
  },
  "8bb91f6a2d1db8031bfbb367df075f041d0cdfe2": {
   "num_adds_if": 6,
@@ -1612,93 +1069,31 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "8bb91f6a2d1db8031bfbb367df075f041d0cdfe2",
-  "num_adds": 17,
-  "num_dels": 7,
-  "num_mod_lns_total": 24,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "7679f4d69296"
-  ],
+  "num_adds": 14,
+  "num_dels": 6,
+  "num_mod_lns_total": 20,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfb.h",
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 1.3250112108241772,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 13:06:32 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 1.2344977967946407
  },
  "7679f4d69296de97a7f62458cc4d1c6c884dfcfb": {
   "num_adds_if": 10,
   "num_dels_if": 3,
   "num_mod_total_if": 13,
-  "num_adds_loop": 2,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 1,
   "file_hash": "7679f4d69296de97a7f62458cc4d1c6c884dfcfb",
-  "num_adds": 96,
-  "num_dels": 40,
-  "num_mod_lns_total": 136,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9639d5ec07a4"
-  ],
+  "num_adds": 90,
+  "num_dels": 39,
+  "num_mod_lns_total": 129,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 12:30:05 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 0.0
  },
  "9639d5ec07a490134f05ac890506a367aaf8663b": {
   "num_adds_if": 0,
@@ -1711,43 +1106,12 @@
   "num_adds": 17,
   "num_dels": 7,
   "num_mod_lns_total": 24,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "0c187addabba"
-  ],
   "mod_files_lst": [
    "drivers/video/intelfb/intelfb.h",
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 1.5545851693377994,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 11:23:55 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 1.5545851693377997
  },
  "0c187addabbaf93512902442b4a90140a21b0ddc": {
   "num_adds_if": 0,
@@ -1760,41 +1124,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "16109b3f4c1f"
-  ],
   "mod_files_lst": [
    "drivers/video/Kconfig"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-23 11:20:08 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 0.0
  },
  "16109b3f4c1f2635afd32eb6d49348590de2cb25": {
   "num_adds_if": 0,
@@ -1807,41 +1140,10 @@
   "num_adds": 7,
   "num_dels": 6,
   "num_mod_lns_total": 13,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8492f081e555"
-  ],
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-20 21:22:09 +1100",
-  "committer_date": "2006-04-03 11:43:28 +1000"
+  "entropy": 0.0
  },
  "8492f081e5552ff388068f612eae6f55f7210ed4": {
   "num_adds_if": 1,
@@ -1852,91 +1154,31 @@
   "num_mod_total_loop": 2,
   "file_hash": "8492f081e5552ff388068f612eae6f55f7210ed4",
   "num_adds": 13,
-  "num_dels": 11,
-  "num_mod_lns_total": 24,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d024960cff51"
-  ],
+  "num_dels": 10,
+  "num_mod_lns_total": 23,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-20 20:54:12 +1100",
-  "committer_date": "2006-04-03 11:43:27 +1000"
+  "entropy": 0.0
  },
  "d024960cff5173bef6e83c01cf9cd2763c2c0ab0": {
   "num_adds_if": 5,
-  "num_dels_if": 4,
-  "num_mod_total_if": 9,
+  "num_dels_if": 3,
+  "num_mod_total_if": 8,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d024960cff5173bef6e83c01cf9cd2763c2c0ab0",
-  "num_adds": 98,
-  "num_dels": 66,
-  "num_mod_lns_total": 164,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "7258b11d2e9a"
-  ],
+  "num_adds": 84,
+  "num_dels": 55,
+  "num_mod_lns_total": 139,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfb.h",
    "drivers/video/intelfb/intelfbdrv.c",
    "drivers/video/intelfb/intelfbhw.c",
    "drivers/video/intelfb/intelfbhw.h"
   ],
-  "entropy": 0.5667275560438774,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-20 20:26:45 +1100",
-  "committer_date": "2006-04-03 11:43:27 +1000"
+  "entropy": 0.5436221721721999
  },
  "7258b11d2e9a47d2b01620622579f22906960e1a": {
   "num_adds_if": 15,
@@ -1946,44 +1188,13 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "7258b11d2e9a47d2b01620622579f22906960e1a",
-  "num_adds": 63,
+  "num_adds": 60,
   "num_dels": 54,
-  "num_mod_lns_total": 117,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "6fdb94bd95dc"
-  ],
+  "num_mod_lns_total": 114,
   "mod_files_lst": [
    "drivers/video/intelfb/intelfbhw.c",
    "drivers/video/intelfb/intelfbhw.h"
   ],
-  "entropy": 0.5524951143251111,
-  "ppl_signed_off": [
-   "Signed-off-by: Dave Airlie <airlied@linux.ie>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/intelfb"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dave Airlie",
-  "author_email": "airlied@linux.ie",
-  "committer": "Dave Airlie",
-  "committer_email": "airlied@linux.ie",
-  "author_date": "2006-03-20 20:02:24 +1100",
-  "committer_date": "2006-04-03 11:43:27 +1000"
+  "entropy": 0.5617526078313282
  }
 }

@@ -3,19 +3,13 @@
   "num_adds_if": 6,
   "num_dels_if": 4,
   "num_mod_total_if": 10,
-  "num_adds_loop": 4,
+  "num_adds_loop": 2,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 5,
+  "num_mod_total_loop": 3,
   "file_hash": "27602e2c44da4091bef99e6c877e20c78b7f6e81",
-  "num_adds": 92,
-  "num_dels": 33,
-  "num_mod_lns_total": 125,
-  "num_mod_files": 5,
-  "is_merge": true,
-  "parents": [
-   "526949e877f4",
-   "a7d6ac3761d3"
-  ],
+  "num_adds": 86,
+  "num_dels": 32,
+  "num_mod_lns_total": 118,
   "mod_files_lst": [
    "kernel/bpf/syscall.c",
    "kernel/bpf/verifier.c",
@@ -23,85 +17,24 @@
    "tools/lib/bpf/README.rst",
    "tools/testing/selftests/bpf/verifier/calls.c"
   ],
-  "entropy": 2.0041351830287235,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/bpf/verifier",
-   "tools/lib/bpf",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "kernel",
-   "tools"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 23:45:35 -0400",
-  "committer_date": "2019-03-24 23:45:35 -0400"
+  "entropy": 2.017739814162648
  },
  "a7d6ac3761d34bfd4294d7843714c91c600738cf": {
-  "num_adds_if": 0,
-  "num_dels_if": 1,
+  "num_adds_if": 1,
+  "num_dels_if": 0,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a7d6ac3761d34bfd4294d7843714c91c600738cf",
-  "num_adds": 14,
-  "num_dels": 29,
-  "num_mod_lns_total": 43,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "83d163124cf1",
-   "63197f78bca2"
-  ],
+  "num_adds": 25,
+  "num_dels": 13,
+  "num_mod_lns_total": 38,
   "mod_files_lst": [
    "tools/lib/bpf/Makefile",
    "tools/lib/bpf/README.rst"
   ],
-  "entropy": 0.15935006268563445,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/lib/bpf"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexei Starovoitov",
-  "author_email": "ast@kernel.org",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2019-03-24 19:49:04 -0700",
-  "committer_date": "2019-03-24 19:49:05 -0700"
+  "entropy": 0.17556502585750278
  },
  "63197f78bca2d86093126783b0ee6519bd652435": {
   "num_adds_if": 0,
@@ -114,46 +47,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1d382264d911"
-  ],
   "mod_files_lst": [
    "tools/lib/bpf/README.rst"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Stanislav Fomichev <sdf@google.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 76d1b894c515 (\"libbpf: Document API and ABI conventions\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "tools/lib/bpf"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Daniel Borkmann",
-  "author_email": "daniel@iogearbox.net",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2019-03-23 01:49:11 +0100",
-  "committer_date": "2019-03-24 19:49:04 -0700"
+  "entropy": 0.0
  },
  "1d382264d911d91a8be5dbed1f0e053eb3245d81": {
   "num_adds_if": 1,
@@ -163,50 +60,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1d382264d911d91a8be5dbed1f0e053eb3245d81",
-  "num_adds": 28,
-  "num_dels": 14,
-  "num_mod_lns_total": 42,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "83d163124cf1"
-  ],
+  "num_adds": 24,
+  "num_dels": 13,
+  "num_mod_lns_total": 37,
   "mod_files_lst": [
    "tools/lib/bpf/Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Stanislav Fomichev <sdf@google.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 1bf4b05810fe (\"tools: bpftool: add probes for eBPF program types\")",
-   "Fixes: 1b76c13e4b36 (\"bpf tools: Introduce 'bpf' library and add bpf feature check\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "tools/lib/bpf"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Daniel Borkmann",
-  "author_email": "daniel@iogearbox.net",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2019-03-23 01:49:10 +0100",
-  "committer_date": "2019-03-24 19:49:04 -0700"
+  "entropy": 0.0
  },
  "62b31b42cff924c7d1e9a095b68ff3bbfc49b15b": {
   "num_adds_if": 0,
@@ -219,163 +79,54 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7df5e3db8f63"
-  ],
   "mod_files_lst": [
    "net/core/filter.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Willem de Bruijn <willemb@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: kbuild test robot <lkp@intel.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 868d523535c2 (\"bpf: add bpf_skb_adjust_room encap flags\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Willem de Bruijn",
-  "author_email": "willemb@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2019-03-23 12:23:07 -0400",
-  "committer_date": "2019-03-24 15:31:57 -0700"
+  "entropy": 0.0
  },
  "36ea73cb9a42aaf67451f6a9373777363a6ce508": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
   "num_adds_loop": 2,
-  "num_dels_loop": 3,
-  "num_mod_total_loop": 5,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
   "file_hash": "36ea73cb9a42aaf67451f6a9373777363a6ce508",
   "num_adds": 9,
   "num_dels": 8,
   "num_mod_lns_total": 17,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "472ec0ce3ef4"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/i2c/i2c-stm32.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bich Hemon <bich.hemon@st.com>",
-   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pierre-Yves MORDRET <pierre-yves.mordret@st.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/i2c"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Bich HEMON",
-  "author_email": "bich.hemon@st.com",
-  "committer": "Wolfram Sang",
-  "committer_email": "wsa@the-dreams.de",
-  "author_date": "2019-03-06 15:11:51 +0000",
-  "committer_date": "2019-03-24 23:12:39 +0100"
+  "entropy": 0.0
  },
  "472ec0ce3ef4111c1b55e6f677599cef4b52eed1": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 6,
-  "num_dels_loop": 6,
-  "num_mod_total_loop": 12,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "472ec0ce3ef4111c1b55e6f677599cef4b52eed1",
   "num_adds": 13,
   "num_dels": 13,
   "num_mod_lns_total": 26,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9d3ca54b550c"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/i2c/i2c-stm32.txt"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bich Hemon <bich.hemon@st.com>",
-   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pierre-Yves MORDRET <pierre-yves.mordret@st.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/i2c"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Bich HEMON",
-  "author_email": "bich.hemon@st.com",
-  "committer": "Wolfram Sang",
-  "committer_email": "wsa@the-dreams.de",
-  "author_date": "2019-03-06 15:11:51 +0000",
-  "committer_date": "2019-03-24 23:12:32 +0100"
+  "entropy": 0.0
  },
  "9d3ca54b550ca070d3e3ed0c137ed1655fcf2772": {
   "num_adds_if": 12,
   "num_dels_if": 0,
   "num_mod_total_if": 12,
-  "num_adds_loop": 3,
+  "num_adds_loop": 1,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 1,
   "file_hash": "9d3ca54b550ca070d3e3ed0c137ed1655fcf2772",
-  "num_adds": 198,
-  "num_dels": 4,
-  "num_mod_lns_total": 202,
-  "num_mod_files": 5,
-  "is_merge": false,
-  "parents": [
-   "ad7d142f8951"
-  ],
+  "num_adds": 161,
+  "num_dels": 3,
+  "num_mod_lns_total": 164,
   "mod_files_lst": [
    "drivers/i2c/busses/Kconfig",
    "drivers/i2c/busses/Makefile",
@@ -383,52 +134,19 @@
    "drivers/i2c/busses/i2c-at91-slave.c",
    "drivers/i2c/busses/i2c-at91.h"
   ],
-  "entropy": 1.3610102985864627,
-  "ppl_signed_off": [
-   "Signed-off-by: Juergen Fitschen <me@jue.yt>",
-   "Signed-off-by: Ludovic Desroches <ludovic.desroches@microchip.com>",
-   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/i2c/busses"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Juergen Fitschen",
-  "author_email": "jfi@ssv-embedded.de",
-  "committer": "Wolfram Sang",
-  "committer_email": "wsa@the-dreams.de",
-  "author_date": "2019-02-22 10:25:22 +0100",
-  "committer_date": "2019-03-24 22:41:51 +0100"
+  "entropy": 1.4400924359720615
  },
  "ad7d142f8951ce00e0366ba54bfaf8ab086eb4b9": {
-  "num_adds_if": 14,
-  "num_dels_if": 15,
-  "num_mod_total_if": 29,
+  "num_adds_if": 13,
+  "num_dels_if": 14,
+  "num_mod_total_if": 27,
   "num_adds_loop": 3,
   "num_dels_loop": 1,
   "num_mod_total_loop": 4,
   "file_hash": "ad7d142f8951ce00e0366ba54bfaf8ab086eb4b9",
-  "num_adds": 524,
-  "num_dels": 469,
-  "num_mod_lns_total": 993,
-  "num_mod_files": 5,
-  "is_merge": false,
-  "parents": [
-   "07345ab220d8"
-  ],
+  "num_adds": 442,
+  "num_dels": 393,
+  "num_mod_lns_total": 835,
   "mod_files_lst": [
    "MAINTAINERS",
    "drivers/i2c/busses/Makefile",
@@ -436,139 +154,41 @@
    "drivers/i2c/busses/i2c-at91-master.c",
    "drivers/i2c/busses/i2c-at91.h"
   ],
-  "entropy": 1.483665897438818,
-  "ppl_signed_off": [
-   "Signed-off-by: Juergen Fitschen <me@jue.yt>",
-   "Signed-off-by: Ludovic Desroches <ludovic.desroches@microchip.com>",
-   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "drivers/i2c/busses",
-   "/"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Juergen Fitschen",
-  "author_email": "me@jue.yt",
-  "committer": "Wolfram Sang",
-  "committer_email": "wsa@the-dreams.de",
-  "author_date": "2019-02-22 10:25:21 +0100",
-  "committer_date": "2019-03-24 22:41:51 +0100"
+  "entropy": 1.496273512353188
  },
  "07345ab220d80ac7edf4b6bfa4b43800dfbd2c97": {
-  "num_adds_if": 6,
-  "num_dels_if": 5,
-  "num_mod_total_if": 11,
+  "num_adds_if": 5,
+  "num_dels_if": 4,
+  "num_mod_total_if": 9,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "07345ab220d80ac7edf4b6bfa4b43800dfbd2c97",
-  "num_adds": 55,
-  "num_dels": 35,
-  "num_mod_lns_total": 90,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "94e290b0e9a6"
-  ],
+  "num_adds": 41,
+  "num_dels": 30,
+  "num_mod_lns_total": 71,
   "mod_files_lst": [
    "drivers/i2c/busses/i2c-at91.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Juergen Fitschen <me@jue.yt>",
-   "Signed-off-by: Ludovic Desroches <ludovic.desroches@microchip.com>",
-   "Signed-off-by: Wolfram Sang <wsa@the-dreams.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/i2c/busses"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Juergen Fitschen",
-  "author_email": "me@jue.yt",
-  "committer": "Wolfram Sang",
-  "committer_email": "wsa@the-dreams.de",
-  "author_date": "2019-02-22 10:25:20 +0100",
-  "committer_date": "2019-03-24 22:41:51 +0100"
+  "entropy": 0.0
  },
  "dd19f6bf9245dd17fa9e7f89ceda56c930a130d4": {
   "num_adds_if": 0,
   "num_dels_if": 1,
   "num_mod_total_if": 1,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "dd19f6bf9245dd17fa9e7f89ceda56c930a130d4",
   "num_adds": 0,
-  "num_dels": 18,
-  "num_mod_lns_total": 18,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "47c3b5e9b38b"
-  ],
+  "num_dels": 16,
+  "num_mod_lns_total": 16,
   "mod_files_lst": [
    "drivers/gpu/drm/i915/i915_gem.c",
    "drivers/gpu/drm/i915/intel_drv.h",
    "drivers/gpu/drm/i915/intel_pm.c"
   ],
-  "entropy": 0.6143694458867568,
-  "ppl_signed_off": [
-   "Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Sagar Arun Kamble <sagar.a.kamble@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [
-   "Suggested-by: \"Hiatt, Don\" <don.hiatt@intel.com>"
-  ],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Chris Wilson",
-  "author_email": "chris@chris-wilson.co.uk",
-  "committer": "Chris Wilson",
-  "committer_email": "chris@chris-wilson.co.uk",
-  "author_date": "2019-03-23 21:40:09 +0000",
-  "committer_date": "2019-03-24 21:29:44 +0000"
+  "entropy": 0.6685644431995964
  },
  "59c39840f5abf4a71e1810a8da71aaccd6c17d26": {
   "num_adds_if": 1,
@@ -581,44 +201,10 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8c2ffd917477"
-  ],
   "mod_files_lst": [
    "kernel/irq/manage.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Prasad Sodagudi <psodagud@codeaurora.org>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: marc.zyngier@arm.com"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/irq"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Prasad Sodagudi",
-  "author_email": "psodagud@codeaurora.org",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-24 07:57:04 -0700",
-  "committer_date": "2019-03-24 22:13:17 +0100"
+  "entropy": 0.0
  },
  "7f2daa96759b0700ad28579133aa91bc663632a7": {
   "num_adds_if": 0,
@@ -629,44 +215,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "7f2daa96759b0700ad28579133aa91bc663632a7",
   "num_adds": 0,
-  "num_dels": 3,
-  "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8c2ffd917477"
-  ],
+  "num_dels": 2,
+  "num_mod_lns_total": 2,
   "mod_files_lst": [
    "arch/x86/kernel/cpu/resctrl/monitor.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Peng Hao <peng.hao2@zte.com.cn>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/kernel/cpu/resctrl"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peng Hao",
-  "author_email": "peng.hao2@zte.com.cn",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-10 01:29:44 +0800",
-  "committer_date": "2019-03-24 22:09:27 +0100"
+  "entropy": 0.0
  },
  "8c2ffd9174779014c3fe1f96d9dc3641d9175f00": {
   "num_adds_if": 0,
@@ -679,38 +233,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "17403fa277ed"
-  ],
   "mod_files_lst": [
    "Makefile"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "/",
-   "/"
-  ],
-  "mod_sys": [],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 0,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 14:02:26 -0700",
-  "committer_date": "2019-03-24 14:02:26 -0700"
+  "entropy": 0.0
  },
  "17403fa277eda1328a7026dfca7e40249f27dc6b": {
   "num_adds_if": 7,
@@ -720,15 +246,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 2,
   "file_hash": "17403fa277eda1328a7026dfca7e40249f27dc6b",
-  "num_adds": 58,
-  "num_dels": 59,
-  "num_mod_lns_total": 117,
-  "num_mod_files": 7,
-  "is_merge": true,
-  "parents": [
-   "231c807a6071",
-   "18915b5873f0"
-  ],
+  "num_adds": 53,
+  "num_dels": 57,
+  "num_mod_lns_total": 110,
   "mod_files_lst": [
    "fs/ext4/ext4_jbd2.h",
    "fs/ext4/file.c",
@@ -738,86 +258,24 @@
    "fs/ext4/resize.c",
    "fs/ext4/super.c"
   ],
-  "entropy": 2.274856556539774,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/ext4"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 13:41:37 -0700",
-  "committer_date": "2019-03-24 13:41:37 -0700"
+  "entropy": 2.2559073276437203
  },
  "f28d3d5346e97e60c81f933ac89ccf015430e5cf": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "f28d3d5346e97e60c81f933ac89ccf015430e5cf",
-  "num_adds": 20,
+  "num_adds": 19,
   "num_dels": 8,
-  "num_mod_lns_total": 28,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "6849cbb0f9a8"
-  ],
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "include/trace/events/timer.h",
    "kernel/time/timer.c"
   ],
-  "entropy": 0.9666186325481028,
-  "ppl_signed_off": [
-   "Signed-off-by: Anna-Maria Gleixner <anna-maria@linutronix.de>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: fweisbec@gmail.com",
-   "Cc: peterz@infradead.org",
-   "Cc: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/trace/events",
-   "kernel/time"
-  ],
-  "mod_sys": [
-   "kernel",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Anna-Maria Gleixner",
-  "author_email": "anna-maria@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-21 13:09:21 +0100",
-  "committer_date": "2019-03-24 20:29:33 +0100"
+  "entropy": 0.9751190649408661
  },
  "6849cbb0f9a8dbc1ba56e9abc6955613103e01e3": {
   "num_adds_if": 0,
@@ -830,46 +288,10 @@
   "num_adds": 6,
   "num_dels": 4,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "dc1e7dc5ac62"
-  ],
   "mod_files_lst": [
    "include/trace/events/timer.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Anna-Maria Gleixner <anna-maria@linutronix.de>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: fweisbec@gmail.com",
-   "Cc: peterz@infradead.org",
-   "Cc: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/trace/events"
-  ],
-  "mod_sys": [
-   "include"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Anna-Maria Gleixner",
-  "author_email": "anna-maria@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-21 13:09:20 +0100",
-  "committer_date": "2019-03-24 20:29:33 +0100"
+  "entropy": 0.0
  },
  "dc1e7dc5ac6254ba0502323381a7ec847e408f1d": {
   "num_adds_if": 0,
@@ -879,118 +301,41 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dc1e7dc5ac6254ba0502323381a7ec847e408f1d",
-  "num_adds": 4,
-  "num_dels": 9,
-  "num_mod_lns_total": 13,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d6b87eaf10bd"
-  ],
+  "num_adds": 3,
+  "num_dels": 8,
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "kernel/time/timer.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Anna-Maria Gleixner <anna-maria@linutronix.de>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: fweisbec@gmail.com",
-   "Cc: peterz@infradead.org",
-   "Cc: Steven Rostedt <rostedt@goodmis.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/time"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Anna-Maria Gleixner",
-  "author_email": "anna-maria@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-21 13:09:19 +0100",
-  "committer_date": "2019-03-24 20:29:32 +0100"
+  "entropy": 0.0
  },
  "d6b87eaf10bd061914f6d277d7428b3285d8850e": {
-  "num_adds_if": 1,
+  "num_adds_if": 0,
   "num_dels_if": 0,
-  "num_mod_total_if": 1,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "d6b87eaf10bd061914f6d277d7428b3285d8850e",
   "num_adds": 10,
   "num_dels": 3,
   "num_mod_lns_total": 13,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "1b72d4323798"
-  ],
   "mod_files_lst": [
    "kernel/time/tick-sched.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Anna-Maria Gleixner <anna-maria@linutronix.de>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: fweisbec@gmail.com",
-   "Cc: peterz@infradead.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/time"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Anna-Maria Gleixner",
-  "author_email": "anna-maria@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2019-03-21 13:09:18 +0100",
-  "committer_date": "2019-03-24 20:29:32 +0100"
+  "entropy": 0.0
  },
  "68cc2999f6926590c7783f2de12ba467ecad8c7d": {
-  "num_adds_if": 4,
-  "num_dels_if": 6,
+  "num_adds_if": 6,
+  "num_dels_if": 4,
   "num_mod_total_if": 10,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "68cc2999f6926590c7783f2de12ba467ecad8c7d",
-  "num_adds": 560,
-  "num_dels": 117,
-  "num_mod_lns_total": 677,
-  "num_mod_files": 22,
-  "is_merge": true,
-  "parents": [
-   "956ca8fc5c64",
-   "f6b19b354d50"
-  ],
+  "num_adds": 110,
+  "num_dels": 483,
+  "num_mod_lns_total": 593,
   "mod_files_lst": [
    "drivers/net/Kconfig",
    "drivers/net/ethernet/broadcom/Kconfig",
@@ -1015,47 +360,7 @@
    "net/dsa/Kconfig",
    "net/dsa/dsa2.c"
   ],
-  "entropy": 1.6728053213932679,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/net",
-   "net",
-   "net/core",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "net/dsa",
-   "drivers/net/ethernet/netronome",
-   "drivers/net/ethernet/broadcom",
-   "drivers/net/ethernet/broadcom/bnxt",
-   "drivers/net/ethernet/mellanox/mlxsw",
-   "drivers/net/ethernet/cavium",
-   "drivers/net/ethernet/mellanox/mlx5/core",
-   "drivers/net",
-   "drivers/net/ethernet/netronome/nfp"
-  ],
-  "mod_sys": [
-   "drivers",
-   "net",
-   "include"
-  ],
-  "num_mod_dirs": 13,
-  "num_mod_sys": 3,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 14:55:31 -0400",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 1.8084679027522828
  },
  "f6b19b354d50c5ae46ad66b5273f92e563fbc847": {
   "num_adds_if": 0,
@@ -1065,14 +370,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f6b19b354d50c5ae46ad66b5273f92e563fbc847",
-  "num_adds": 13,
-  "num_dels": 497,
-  "num_mod_lns_total": 510,
-  "num_mod_files": 10,
-  "is_merge": false,
-  "parents": [
-   "b8f975545cdb"
-  ],
+  "num_adds": 11,
+  "num_dels": 420,
+  "num_mod_lns_total": 431,
   "mod_files_lst": [
    "drivers/net/Kconfig",
    "drivers/net/ethernet/broadcom/Kconfig",
@@ -1085,45 +385,7 @@
    "net/Kconfig",
    "net/dsa/Kconfig"
   ],
-  "entropy": 0.2678094792842416,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/net",
-   "net",
-   "drivers/net/ethernet/mellanox/mlx4",
-   "net/dsa",
-   "drivers/net/ethernet/netronome",
-   "drivers/net/ethernet/broadcom",
-   "drivers/net/ethernet/mellanox/mlxsw",
-   "drivers/net/ethernet/cavium",
-   "drivers/net/ethernet/mellanox/mlx5/core",
-   "drivers/net"
-  ],
-  "mod_sys": [
-   "drivers",
-   "net",
-   "include"
-  ],
-  "num_mod_dirs": 10,
-  "num_mod_sys": 3,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:38 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.3083087755598695
  },
  "b8f975545cdbcc316cf20e827e7966d4410b5c5a": {
   "num_adds_if": 0,
@@ -1133,48 +395,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "b8f975545cdbcc316cf20e827e7966d4410b5c5a",
-  "num_adds": 17,
+  "num_adds": 16,
   "num_dels": 4,
-  "num_mod_lns_total": 21,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "2b239e7090b8"
-  ],
+  "num_mod_lns_total": 20,
   "mod_files_lst": [
    "include/net/devlink.h",
    "net/core/devlink.c"
   ],
-  "entropy": 0.7024665512903903,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/net",
-   "net/core"
-  ],
-  "mod_sys": [
-   "net",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:37 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.7219280948873623
  },
  "2b239e7090b89d1e2b73b48300686221ca948637": {
   "num_adds_if": 1,
@@ -1187,42 +415,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d0d54e8c3593"
-  ],
   "mod_files_lst": [
    "net/core/devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:36 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "d0d54e8c359399a8d07656779d5b6ddae68ef3c7": {
   "num_adds_if": 0,
@@ -1235,42 +431,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "faaccbe6eb07"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/broadcom/bnxt/bnxt_devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/broadcom/bnxt"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:35 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "faaccbe6eb07ecd590bebae11eb236661ecfb069": {
   "num_adds_if": 2,
@@ -1280,47 +444,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "faaccbe6eb07ecd590bebae11eb236661ecfb069",
-  "num_adds": 19,
+  "num_adds": 17,
   "num_dels": 3,
-  "num_mod_lns_total": 22,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "45b861120e0c"
-  ],
+  "num_mod_lns_total": 20,
   "mod_files_lst": [
    "drivers/net/ethernet/netronome/nfp/nfp_devlink.c",
    "drivers/net/ethernet/netronome/nfp/nfp_net_main.c",
    "drivers/net/ethernet/netronome/nfp/nfp_port.h"
   ],
-  "entropy": 1.3420192178195207,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/netronome/nfp"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:34 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 1.3689955935892815
  },
  "45b861120e0c2694cabf082c63b022465ac572bb": {
   "num_adds_if": 1,
@@ -1333,42 +465,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d8ba36204cc7"
-  ],
   "mod_files_lst": [
    "net/core/devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:33 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "d8ba36204cc74c727f6653abc47310d513634e2e": {
   "num_adds_if": 1,
@@ -1378,47 +478,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "d8ba36204cc74c727f6653abc47310d513634e2e",
-  "num_adds": 26,
+  "num_adds": 24,
   "num_dels": 21,
-  "num_mod_lns_total": 47,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e519418f8992"
-  ],
+  "num_mod_lns_total": 45,
   "mod_files_lst": [
    "net/dsa/dsa2.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Andrew Lunn <andrew@lunn.ch>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/dsa"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:32 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "e519418f8992b0165728a3c2272000ff57c8c9c3": {
   "num_adds_if": 0,
@@ -1431,11 +497,6 @@
   "num_adds": 21,
   "num_dels": 18,
   "num_mod_lns_total": 39,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "773b1f38e34e"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/mellanox/mlxsw/core.c",
    "drivers/net/ethernet/mellanox/mlxsw/core.h",
@@ -1444,34 +505,7 @@
    "drivers/net/ethernet/mellanox/mlxsw/switchib.c",
    "drivers/net/ethernet/mellanox/mlxsw/switchx2.c"
   ],
-  "entropy": 2.4519793095284554,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/mellanox/mlxsw"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:31 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 2.4519793095284554
  },
  "773b1f38e34e1493fefeed714386d7f973d4b31d": {
   "num_adds_if": 0,
@@ -1484,42 +518,10 @@
   "num_adds": 3,
   "num_dels": 6,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e0dcd386d1fc"
-  ],
   "mod_files_lst": [
    "net/core/devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:30 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "e0dcd386d1fc6ed9e90d76dfdf533287555d79d2": {
   "num_adds_if": 1,
@@ -1532,42 +534,10 @@
   "num_adds": 8,
   "num_dels": 10,
   "num_mod_lns_total": 18,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c3f10cbcaa3d"
-  ],
   "mod_files_lst": [
    "net/core/devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:29 +0100",
-  "committer_date": "2019-03-24 14:55:31 -0400"
+  "entropy": 0.0
  },
  "c3f10cbcaa3d5e1980733c3ccd0261df426412d2": {
   "num_adds_if": 0,
@@ -1580,42 +550,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a0e18132ec51"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/broadcom/bnxt/bnxt_devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/broadcom/bnxt"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:28 +0100",
-  "committer_date": "2019-03-24 14:55:30 -0400"
+  "entropy": 0.0
  },
  "a0e18132ec51301414a5c92e6c258c2e62fdf08f": {
   "num_adds_if": 0,
@@ -1628,42 +566,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "402f99e550c6"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/broadcom/bnxt/bnxt_devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/broadcom/bnxt"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:27 +0100",
-  "committer_date": "2019-03-24 14:55:30 -0400"
+  "entropy": 0.0
  },
  "402f99e550c6f7df835dde707920038591384d20": {
   "num_adds_if": 0,
@@ -1676,44 +582,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "477edb7806b6"
-  ],
   "mod_files_lst": [
    "net/dsa/dsa2.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Andrew Lunn <andrew@lunn.ch>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/dsa"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:26 +0100",
-  "committer_date": "2019-03-24 14:55:30 -0400"
+  "entropy": 0.0
  },
  "477edb7806b652043750aa33c584b9838a7c2123": {
   "num_adds_if": 0,
@@ -1726,42 +598,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "375cf8c6439f"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/broadcom/bnxt/bnxt_devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/broadcom/bnxt"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:25 +0100",
-  "committer_date": "2019-03-24 14:55:30 -0400"
+  "entropy": 0.0
  },
  "375cf8c6439f44fbb51f9ba4eba6686d73d06229": {
   "num_adds_if": 0,
@@ -1774,108 +614,40 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "956ca8fc5c64"
-  ],
   "mod_files_lst": [
    "net/core/devlink.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiri Pirko <jiri@mellanox.com>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiri Pirko",
-  "author_email": "jiri@mellanox.com",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2019-03-24 11:14:24 +0100",
-  "committer_date": "2019-03-24 14:55:30 -0400"
+  "entropy": 0.0
  },
  "231c807a60715312e2a93a001cc9be9b888bc350": {
-  "num_adds_if": 14,
-  "num_dels_if": 11,
-  "num_mod_total_if": 25,
+  "num_adds_if": 9,
+  "num_dels_if": 9,
+  "num_mod_total_if": 18,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "231c807a60715312e2a93a001cc9be9b888bc350",
-  "num_adds": 89,
-  "num_dels": 56,
-  "num_mod_lns_total": 145,
-  "num_mod_files": 3,
-  "is_merge": true,
-  "parents": [
-   "49ef015632ab",
-   "b9a7b8831600"
-  ],
+  "num_adds": 84,
+  "num_dels": 55,
+  "num_mod_lns_total": 139,
   "mod_files_lst": [
    "kernel/sched/core.c",
    "kernel/sched/cpufreq_schedutil.c",
    "kernel/sched/fair.c"
   ],
-  "entropy": 1.0693532043200067,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/sched"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 11:42:10 -0700",
-  "committer_date": "2019-03-24 11:42:10 -0700"
+  "entropy": 1.0774908797494764
  },
  "49ef015632ab3fcc19b2cb37b199d6d7ebcfa5f8": {
-  "num_adds_if": 224,
-  "num_dels_if": 81,
-  "num_mod_total_if": 305,
-  "num_adds_loop": 71,
-  "num_dels_loop": 25,
-  "num_mod_total_loop": 96,
+  "num_adds_if": 212,
+  "num_dels_if": 74,
+  "num_mod_total_if": 286,
+  "num_adds_loop": 49,
+  "num_dels_loop": 12,
+  "num_mod_total_loop": 61,
   "file_hash": "49ef015632ab3fcc19b2cb37b199d6d7ebcfa5f8",
-  "num_adds": 3724,
-  "num_dels": 1314,
-  "num_mod_lns_total": 5038,
-  "num_mod_files": 110,
-  "is_merge": true,
-  "parents": [
-   "19caf581ba44",
-   "d8b5297f6d98"
-  ],
+  "num_adds": 3336,
+  "num_dels": 1259,
+  "num_mod_lns_total": 4595,
   "mod_files_lst": [
    "kernel/events/core.c",
    "tools/arch/arm64/include/uapi/asm/unistd.h",
@@ -1988,71 +760,19 @@
    "tools/perf/util/time-utils.c",
    "tools/perf/util/time-utils.h"
   ],
-  "entropy": 5.0531318146914845,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/perf/util",
-   "tools/perf/pmu-events/arch/x86",
-   "tools/perf/ui/browsers",
-   "tools/perf/tests",
-   "tools/bpf/bpftool",
-   "tools/perf/arch/x86/entry/syscalls",
-   "tools/arch/arm64/include/uapi/asm",
-   "tools/perf/bench",
-   "tools/perf",
-   "tools/perf/scripts/python",
-   "tools/include/uapi/asm-generic",
-   "tools/build/feature",
-   "tools/perf/pmu-events/arch/x86/amdfam17h",
-   "tools/perf/pmu-events/arch/powerpc/power8",
-   "tools/perf/tests/attr",
-   "tools/build",
-   "tools/lib/bpf",
-   "tools/perf/ui",
-   "tools/include/uapi/linux",
-   "kernel/events",
-   "tools/perf/arch/x86/util",
-   "tools/perf/Documentation"
-  ],
-  "mod_sys": [
-   "kernel",
-   "tools"
-  ],
-  "num_mod_dirs": 22,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 11:16:27 -0700",
-  "committer_date": "2019-03-24 11:16:27 -0700"
+  "entropy": 5.032644908671067
  },
  "19caf581ba441659f1a71e9a5baed032fdcfceef": {
   "num_adds_if": 6,
   "num_dels_if": 0,
   "num_mod_total_if": 6,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 2,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "19caf581ba441659f1a71e9a5baed032fdcfceef",
-  "num_adds": 81,
-  "num_dels": 58,
-  "num_mod_lns_total": 139,
-  "num_mod_files": 14,
-  "is_merge": true,
-  "parents": [
-   "a75eda7bce5e",
-   "ffc8599aa976"
-  ],
+  "num_adds": 76,
+  "num_dels": 54,
+  "num_mod_lns_total": 130,
   "mod_files_lst": [
    "arch/x86/boot/string.c",
    "arch/x86/hyperv/hv_init.c",
@@ -2069,42 +789,7 @@
    "fs/proc/kcore.c",
    "include/linux/kcore.h"
   ],
-  "entropy": 3.1030640412716743,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/kernel/cpu/microcode",
-   "arch/x86/hyperv",
-   "include/linux",
-   "arch/x86/mm",
-   "arch/x86/lib",
-   "arch/x86/kernel/cpu",
-   "arch/x86/boot",
-   "arch/x86/include/asm",
-   "fs/proc",
-   "arch/x86/kernel"
-  ],
-  "mod_sys": [
-   "fs",
-   "include",
-   "arch"
-  ],
-  "num_mod_dirs": 10,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 11:12:27 -0700",
-  "committer_date": "2019-03-24 11:12:27 -0700"
+  "entropy": 3.0815165728394613
  },
  "a75eda7bce5e8ffdebe6ddfe513b31e5ec3527d2": {
   "num_adds_if": 3,
@@ -2114,15 +799,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "a75eda7bce5e8ffdebe6ddfe513b31e5ec3527d2",
-  "num_adds": 21,
-  "num_dels": 40,
-  "num_mod_lns_total": 61,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "f6cc519b6aed",
-   "2a6a8e2d9004"
-  ],
+  "num_adds": 19,
+  "num_dels": 34,
+  "num_mod_lns_total": 53,
   "mod_files_lst": [
    "drivers/clocksource/clps711x-timer.c",
    "drivers/clocksource/mips-gic-timer.c",
@@ -2131,33 +810,7 @@
    "drivers/clocksource/timer-ti-dm.c",
    "kernel/time/jiffies.c"
   ],
-  "entropy": 1.474595834374724,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/clocksource",
-   "kernel/time"
-  ],
-  "mod_sys": [
-   "drivers",
-   "kernel"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 11:09:47 -0700",
-  "committer_date": "2019-03-24 11:09:47 -0700"
+  "entropy": 1.6198649729337637
  },
  "f6cc519b6aed437d61ca19c0e0031553925ff257": {
   "num_adds_if": 1,
@@ -2167,62 +820,26 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f6cc519b6aed437d61ca19c0e0031553925ff257",
-  "num_adds": 7,
+  "num_adds": 6,
   "num_dels": 2,
-  "num_mod_lns_total": 9,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "e08fef881dd5",
-   "5a07168d8d89"
-  ],
+  "num_mod_lns_total": 8,
   "mod_files_lst": [
    "kernel/futex.c",
    "kernel/workqueue.c"
   ],
-  "entropy": 0.9910760598382222,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 10:58:01 -0700",
-  "committer_date": "2019-03-24 10:58:01 -0700"
+  "entropy": 0.9544340029249649
  },
  "e08fef881dd5f33d97db35a32cc71e04061163fc": {
   "num_adds_if": 3,
   "num_dels_if": 4,
   "num_mod_total_if": 7,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "e08fef881dd5f33d97db35a32cc71e04061163fc",
-  "num_adds": 35,
-  "num_dels": 52,
-  "num_mod_lns_total": 87,
-  "num_mod_files": 14,
-  "is_merge": true,
-  "parents": [
-   "1ebf5afb23cd",
-   "93417a3fda20"
-  ],
+  "num_adds": 34,
+  "num_dels": 50,
+  "num_mod_lns_total": 84,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/interrupt-controller/renesas,irqc.txt",
    "arch/arm/mach-cns3xxx/core.c",
@@ -2239,40 +856,7 @@
    "kernel/irq/devres.c",
    "kernel/irq/manage.c"
   ],
-  "entropy": 2.605444124721879,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/interrupt-controller",
-   "include/linux",
-   "drivers/irqchip",
-   "include/linux/irqchip",
-   "arch/arm/mach-cns3xxx",
-   "kernel/irq"
-  ],
-  "mod_sys": [
-   "include",
-   "arch",
-   "Documentation",
-   "kernel",
-   "drivers"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 5,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 10:51:23 -0700",
-  "committer_date": "2019-03-24 10:51:23 -0700"
+  "entropy": 2.5887554735503633
  },
  "fccfb9ce70ed4ea7a145f77b86de62e38178517f": {
   "num_adds_if": 0,
@@ -2285,47 +869,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f6a7bf2ccf22"
-  ],
   "mod_files_lst": [
    "drivers/iio/adc/ad_sigma_delta.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dragos Bogdan <dragos.bogdan@analog.com>",
-   "Signed-off-by: Alexandru Ardelean <alexandru.ardelean@analog.com>",
-   "Signed-off-by: Jonathan Cameron <Jonathan.Cameron@huawei.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: <Stable@vger.kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: af3008485ea03 (\"iio:adc: Add common code for ADI Sigma Delta devices\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/iio/adc"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dragos Bogdan",
-  "author_email": "dragos.bogdan@analog.com",
-  "committer": "Jonathan Cameron",
-  "committer_email": "Jonathan.Cameron@huawei.com",
-  "author_date": "2019-03-19 12:47:00 +0200",
-  "committer_date": "2019-03-24 17:51:03 +0000"
+  "entropy": 0.0
  },
  "1ebf5afb23cd856043bd0a423e95f95e84d9728d": {
   "num_adds_if": 0,
@@ -2335,46 +882,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1ebf5afb23cd856043bd0a423e95f95e84d9728d",
-  "num_adds": 4,
+  "num_adds": 3,
   "num_dels": 3,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "9fc13bbdf1d6",
-   "48084abf2120"
-  ],
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "kernel/watchdog.c",
    "tools/objtool/check.c"
   ],
-  "entropy": 0.9852281360342515,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel",
-   "tools/objtool"
-  ],
-  "mod_sys": [
-   "kernel",
-   "tools"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 10:17:33 -0700",
-  "committer_date": "2019-03-24 10:17:33 -0700"
+  "entropy": 0.9182958340544896
  },
  "9fc13bbdf1d6b518c8377633c5fb198fbc9dcc03": {
   "num_adds_if": 1,
@@ -2384,15 +899,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9fc13bbdf1d6b518c8377633c5fb198fbc9dcc03",
-  "num_adds": 30,
+  "num_adds": 28,
   "num_dels": 16,
-  "num_mod_lns_total": 46,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "38104c002008",
-   "2d7c4e17811f"
-  ],
+  "num_mod_lns_total": 44,
   "mod_files_lst": [
    "drivers/thermal/broadcom/bcm2835_thermal.c",
    "drivers/thermal/cpu_cooling.c",
@@ -2401,53 +910,19 @@
    "drivers/thermal/mtk_thermal.c",
    "drivers/thermal/samsung/exynos_tmu.c"
   ],
-  "entropy": 2.150206241972198,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/thermal",
-   "drivers/thermal/intel/int340x_thermal",
-   "drivers/thermal/intel",
-   "drivers/thermal/broadcom",
-   "drivers/thermal/samsung"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 5,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 10:01:53 -0700",
-  "committer_date": "2019-03-24 10:01:53 -0700"
+  "entropy": 2.1586918591550592
  },
  "38104c00200898120e12a73db27cea2b7055ea3c": {
-  "num_adds_if": 21,
-  "num_dels_if": 12,
-  "num_mod_total_if": 33,
-  "num_adds_loop": 6,
-  "num_dels_loop": 6,
-  "num_mod_total_loop": 12,
+  "num_adds_if": 18,
+  "num_dels_if": 11,
+  "num_mod_total_if": 29,
+  "num_adds_loop": 4,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 8,
   "file_hash": "38104c00200898120e12a73db27cea2b7055ea3c",
-  "num_adds": 102,
-  "num_dels": 70,
-  "num_mod_lns_total": 172,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "e0046bb302da",
-   "cf7d624f8dcc"
-  ],
+  "num_adds": 98,
+  "num_dels": 69,
+  "num_mod_lns_total": 167,
   "mod_files_lst": [
    "fs/cifs/cifsfs.c",
    "fs/cifs/cifsfs.h",
@@ -2456,31 +931,7 @@
    "fs/cifs/smb2pdu.c",
    "fs/cifs/trace.h"
   ],
-  "entropy": 0.8604652871173001,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/cifs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 09:58:08 -0700",
-  "committer_date": "2019-03-24 09:58:08 -0700"
+  "entropy": 0.8796323674991399
  },
  "e0046bb302dad1c3e766eb7c171930d01f9439fa": {
   "num_adds_if": 0,
@@ -2490,15 +941,9 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "e0046bb302dad1c3e766eb7c171930d01f9439fa",
-  "num_adds": 75,
-  "num_dels": 29,
-  "num_mod_lns_total": 104,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "1fa8109f9a47",
-   "cc5d04d840d6"
-  ],
+  "num_adds": 63,
+  "num_dels": 28,
+  "num_mod_lns_total": 91,
   "mod_files_lst": [
    "drivers/auxdisplay/Kconfig",
    "drivers/auxdisplay/Makefile",
@@ -2507,51 +952,19 @@
    "drivers/auxdisplay/panel.c",
    "include/misc/charlcd.h"
   ],
-  "entropy": 1.5524009704996253,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/misc",
-   "drivers/auxdisplay"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 09:51:55 -0700",
-  "committer_date": "2019-03-24 09:51:55 -0700"
+  "entropy": 1.5489452137045723
  },
  "1fa8109f9a47804a180c93194b6261324f9dc647": {
-  "num_adds_if": 6,
+  "num_adds_if": 5,
   "num_dels_if": 1,
-  "num_mod_total_if": 7,
+  "num_mod_total_if": 6,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "1fa8109f9a47804a180c93194b6261324f9dc647",
-  "num_adds": 47,
+  "num_adds": 37,
   "num_dels": 8,
-  "num_mod_lns_total": 55,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "1bdd3dbfff7a",
-   "7f5203c13ba8"
-  ],
+  "num_mod_lns_total": 45,
   "mod_files_lst": [
    "drivers/scsi/hisi_sas/hisi_sas_main.c",
    "drivers/scsi/ibmvscsi/ibmvscsi.c",
@@ -2560,39 +973,12 @@
    "drivers/scsi/scsi_lib.c",
    "drivers/scsi/scsi_transport_iscsi.c"
   ],
-  "entropy": 2.1121498338488554,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/scsi/ibmvscsi",
-   "drivers/scsi/qla2xxx",
-   "drivers/scsi/hisi_sas",
-   "drivers/scsi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2019-03-24 09:43:35 -0700",
-  "committer_date": "2019-03-24 09:43:35 -0700"
+  "entropy": 2.158317137242211
  },
  "85fae294e1a506b4213668716acb586bd6b4ae1e": {
-  "num_adds_if": 1,
-  "num_dels_if": 1,
-  "num_mod_total_if": 2,
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -2600,42 +986,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "13f063815265"
-  ],
   "mod_files_lst": [
    "block/blk-mq.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Yufen Yu <yuyufen@huawei.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "block"
-  ],
-  "mod_sys": [
-   "block"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yufen Yu",
-  "author_email": "yuyufen@huawei.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2019-03-24 17:57:08 +0800",
-  "committer_date": "2019-03-24 10:26:17 -0600"
+  "entropy": 0.0
  },
  "13f063815265c5397ee92d84436804bc9fb6b58b": {
   "num_adds_if": 0,
@@ -2646,50 +1000,18 @@
   "num_mod_total_loop": 0,
   "file_hash": "13f063815265c5397ee92d84436804bc9fb6b58b",
   "num_adds": 2,
-  "num_dels": 11,
-  "num_mod_lns_total": 13,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "1bdd3dbfff7a"
-  ],
+  "num_dels": 9,
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "block/blk-flush.c",
    "block/blk-mq.h"
   ],
-  "entropy": 0.8904916402194913,
-  "ppl_signed_off": [
-   "Signed-off-by: Yufen Yu <yuyufen@huawei.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "block"
-  ],
-  "mod_sys": [
-   "block"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yufen Yu",
-  "author_email": "yuyufen@huawei.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2019-03-24 17:57:07 +0800",
-  "committer_date": "2019-03-24 10:26:16 -0600"
+  "entropy": 0.9456603046006401
  },
  "bfb57a91c2cb497c3780ed2e08f85d038efd0b7b": {
-  "num_adds_if": 1,
-  "num_dels_if": 1,
-  "num_mod_total_if": 2,
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -2697,41 +1019,10 @@
   "num_adds": 4,
   "num_dels": 5,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "79a3aaa7b82e"
-  ],
   "mod_files_lst": [
    "drivers/misc/habanalabs/goya/goya.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/misc/habanalabs/goya"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Oded Gabbay",
-  "author_email": "oded.gabbay@gmail.com",
-  "committer": "Oded Gabbay",
-  "committer_email": "oded.gabbay@gmail.com",
-  "author_date": "2019-03-24 18:07:02 +0200",
-  "committer_date": "2019-03-24 18:07:02 +0200"
+  "entropy": 0.0
  },
  "47c3b5e9b38b9da8db62d8c354be722852ea9d83": {
   "num_adds_if": 2,
@@ -2741,54 +1032,15 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "47c3b5e9b38b9da8db62d8c354be722852ea9d83",
-  "num_adds": 16,
+  "num_adds": 13,
   "num_dels": 6,
-  "num_mod_lns_total": 22,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "ddad5babb05e"
-  ],
+  "num_mod_lns_total": 19,
   "mod_files_lst": [
    "drivers/gpu/drm/i915/intel_guc.c",
    "drivers/gpu/drm/i915/intel_guc.h",
    "drivers/gpu/drm/i915/intel_guc_ct.c"
   ],
-  "entropy": 1.292727214755173,
-  "ppl_signed_off": [
-   "Signed-off-by: Michal Wajdeczko <michal.wajdeczko@intel.com>",
-   "Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Daniele Ceraolo Spurio <daniele.ceraolospurio@intel.com>",
-   "Cc: Vinay Belgaumkar <vinay.belgaumkar@intel.com>",
-   "Cc: Michal Winiarski <michal.winiarski@intel.com>",
-   "Cc: Tomasz Lis <tomasz.lis@intel.com>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Daniele Ceraolo Spurio <daniele.ceraolospurio@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Michal Wajdeczko",
-  "author_email": "michal.wajdeczko@intel.com",
-  "committer": "Chris Wilson",
-  "committer_email": "chris@chris-wilson.co.uk",
-  "author_date": "2019-03-21 12:00:04 +0000",
-  "committer_date": "2019-03-24 11:31:47 +0000"
+  "entropy": 1.3838077354640828
  },
  "ddad5babb05e92e655cae137c1f8a3ed2c43a685": {
   "num_adds_if": 1,
@@ -2798,49 +1050,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "ddad5babb05e92e655cae137c1f8a3ed2c43a685",
-  "num_adds": 7,
+  "num_adds": 6,
   "num_dels": 0,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4b225248dadd"
-  ],
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "drivers/gpu/drm/i915/i915_gem_context.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Zhenyu Wang <zhenyuw@linux.intel.com>",
-   "Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Chris Wilson <chris@chris-wilson.co.uk>"
-  ],
-  "ppl_reviewed": [
-   "Reviewed-by: Chris Wilson <chris@chris-wilson.co.uk>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/i915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Zhenyu Wang",
-  "author_email": "zhenyuw@linux.intel.com",
-  "committer": "Chris Wilson",
-  "committer_email": "chris@chris-wilson.co.uk",
-  "author_date": "2019-03-11 10:37:47 +0800",
-  "committer_date": "2019-03-24 11:28:09 +0000"
+  "entropy": 0.0
  },
  "2a6a8e2d9004b5303fcb494588ba3a3b87a256c3": {
   "num_adds_if": 3,
@@ -2850,49 +1066,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "2a6a8e2d9004b5303fcb494588ba3a3b87a256c3",
-  "num_adds": 13,
-  "num_dels": 32,
-  "num_mod_lns_total": 45,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "32d0be018f6f"
-  ],
+  "num_adds": 11,
+  "num_dels": 26,
+  "num_mod_lns_total": 37,
   "mod_files_lst": [
    "drivers/clocksource/clps711x-timer.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexander Shiyan <shc_work@mail.ru>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Arnd Bergmann <arnd@arndb.de>"
-  ],
-  "ppl_cc": [
-   "Cc: Daniel Lezcano <daniel.lezcano@linaro.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/clocksource"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Alexander Shiyan",
-  "author_email": "shc_work@mail.ru",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2018-12-20 14:16:26 +0300",
-  "committer_date": "2019-03-24 11:30:11 +0100"
+  "entropy": 0.0
  },
  "9308fd4074551f222f30322d1ee8c5aff18e9747": {
   "num_adds_if": 0,
@@ -2902,57 +1082,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "9308fd4074551f222f30322d1ee8c5aff18e9747",
-  "num_adds": 11,
-  "num_dels": 14,
-  "num_mod_lns_total": 25,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9e98c678c2d6"
-  ],
+  "num_adds": 10,
+  "num_dels": 12,
+  "num_mod_lns_total": 22,
   "mod_files_lst": [
    "arch/x86/include/asm/mce.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Yazen Ghannam <yazen.ghannam@amd.com>",
-   "Signed-off-by: Borislav Petkov <bp@suse.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Arnd Bergmann <arnd@arndb.de>",
-   "Cc: \"clemej@gmail.com\" <clemej@gmail.com>",
-   "Cc: \"H. Peter Anvin\" <hpa@zytor.com>",
-   "Cc: Ingo Molnar <mingo@redhat.com>",
-   "Cc: Pu Wen <puwen@hygon.cn>",
-   "Cc: Qiuxu Zhuo <qiuxu.zhuo@intel.com>",
-   "Cc: \"rafal@milecki.pl\" <rafal@milecki.pl>",
-   "Cc: Thomas Gleixner <tglx@linutronix.de>",
-   "Cc: Tony Luck <tony.luck@intel.com>",
-   "Cc: Vishal Verma <vishal.l.verma@intel.com>",
-   "Cc: x86-ml <x86@kernel.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/x86/include/asm"
-  ],
-  "mod_sys": [
-   "arch"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yazen Ghannam",
-  "author_email": "yazen.ghannam@amd.com",
-  "committer": "Borislav Petkov",
-  "committer_email": "bp@suse.de",
-  "author_date": "2019-03-22 20:29:00 +0000",
-  "committer_date": "2019-03-24 10:54:13 +0100"
+  "entropy": 0.0
  },
  "6a023205d2d712dd623856f0b7f2e1531da924b8": {
   "num_adds_if": 0,
@@ -2965,42 +1101,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9c0867e0b836"
-  ],
   "mod_files_lst": [
    "drivers/staging/rts5208/rtsx_chip.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Payal Kshirsagar <payal.s.kshirsagar.98@gmail.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rts5208"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Payal Kshirsagar",
-  "author_email": "payal.s.kshirsagar.98@gmail.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-24 09:13:42 +0530",
-  "committer_date": "2019-03-24 10:06:36 +0100"
+  "entropy": 0.0
  },
  "9c0867e0b836d4e273a204ee904ed7b408bc0502": {
   "num_adds_if": 0,
@@ -3013,42 +1117,10 @@
   "num_adds": 36,
   "num_dels": 36,
   "num_mod_lns_total": 72,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d01deea6d72c"
-  ],
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/include/wifi.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Vatsala Narang <vatsalanarang@gmail.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/include"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Vatsala Narang",
-  "author_email": "vatsalanarang@gmail.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-24 03:39:15 +0530",
-  "committer_date": "2019-03-24 10:06:04 +0100"
+  "entropy": 0.0
  },
  "d01deea6d72cdfd6c8c0c5910cf0f78fc671637b": {
   "num_adds_if": 0,
@@ -3061,42 +1133,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "3fe9ff487746"
-  ],
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/include/rtw_recv.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Vatsala Narang <vatsalanarang@gmail.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/include"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Vatsala Narang",
-  "author_email": "vatsalanarang@gmail.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-24 03:35:14 +0530",
-  "committer_date": "2019-03-24 10:06:04 +0100"
+  "entropy": 0.0
  },
  "3fe9ff487746b021f739a6dd1ca419ab52e28ba5": {
   "num_adds_if": 0,
@@ -3109,42 +1149,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "8e97f7d86623"
-  ],
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/include/wifi.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Vatsala Narang <vatsalanarang@gmail.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/include"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Vatsala Narang",
-  "author_email": "vatsalanarang@gmail.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-23 16:09:24 +0530",
-  "committer_date": "2019-03-24 10:01:28 +0100"
+  "entropy": 0.0
  },
  "8e97f7d8662302643448f1af3ad7b0d2df91c537": {
   "num_adds_if": 0,
@@ -3155,47 +1163,14 @@
   "num_mod_total_loop": 0,
   "file_hash": "8e97f7d8662302643448f1af3ad7b0d2df91c537",
   "num_adds": 5,
-  "num_dels": 13,
-  "num_mod_lns_total": 18,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "367cdd1305ac"
-  ],
+  "num_dels": 11,
+  "num_mod_lns_total": 16,
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/core/rtw_cmd.c",
    "drivers/staging/rtl8723bs/core/rtw_mlme.c",
    "drivers/staging/rtl8723bs/include/rtw_mlme.h"
   ],
-  "entropy": 0.9864267287308424,
-  "ppl_signed_off": [
-   "Signed-off-by: Nishka Dasgupta <nishka.dasgupta@yahoo.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/core",
-   "drivers/staging/rtl8723bs/include"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Nishka Dasgupta",
-  "author_email": "nishka.dasgupta@yahoo.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-22 20:08:26 +0530",
-  "committer_date": "2019-03-24 09:50:02 +0100"
+  "entropy": 1.061278124459133
  },
  "367cdd1305ac091813fe98342e868219d8146e5a": {
   "num_adds_if": 0,
@@ -3208,42 +1183,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2c506ddfd51b"
-  ],
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/core/rtw_mlme.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nishka Dasgupta <nishka.dasgupta@yahoo.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/core"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nishka Dasgupta",
-  "author_email": "nishka.dasgupta@yahoo.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-22 20:08:25 +0530",
-  "committer_date": "2019-03-24 09:50:02 +0100"
+  "entropy": 0.0
  },
  "2c506ddfd51b884138ab999faf7516d8e2c3b788": {
   "num_adds_if": 0,
@@ -3256,42 +1199,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cb8de77c78c7"
-  ],
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/core/rtw_mlme.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Nishka Dasgupta <nishka.dasgupta@yahoo.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/core"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Nishka Dasgupta",
-  "author_email": "nishka.dasgupta@yahoo.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-22 20:08:24 +0530",
-  "committer_date": "2019-03-24 09:50:02 +0100"
+  "entropy": 0.0
  },
  "cb8de77c78c73541edd32eeb62501af1bd73c76a": {
   "num_adds_if": 0,
@@ -3302,46 +1213,13 @@
   "num_mod_total_loop": 0,
   "file_hash": "cb8de77c78c73541edd32eeb62501af1bd73c76a",
   "num_adds": 2,
-  "num_dels": 13,
-  "num_mod_lns_total": 15,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "d4223e06b6ae"
-  ],
+  "num_dels": 9,
+  "num_mod_lns_total": 11,
   "mod_files_lst": [
    "drivers/staging/rtl8723bs/core/rtw_mlme.c",
    "drivers/staging/rtl8723bs/include/rtw_mlme.h"
   ],
-  "entropy": 0.5665095065529053,
-  "ppl_signed_off": [
-   "Signed-off-by: Nishka Dasgupta <nishka.dasgupta@yahoo.com>",
-   "Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/staging/rtl8723bs/core",
-   "drivers/staging/rtl8723bs/include"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Nishka Dasgupta",
-  "author_email": "nishka.dasgupta@yahoo.com",
-  "committer": "Greg Kroah-Hartman",
-  "committer_email": "gregkh@linuxfoundation.org",
-  "author_date": "2019-03-22 20:08:23 +0530",
-  "committer_date": "2019-03-24 09:50:02 +0100"
+  "entropy": 0.4394969869215134
  },
  "f981c57ffd2d7cf2dd4b6d6f8fcb3965df42f54c": {
   "num_adds_if": 1,
@@ -3351,45 +1229,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "f981c57ffd2d7cf2dd4b6d6f8fcb3965df42f54c",
-  "num_adds": 22,
-  "num_dels": 38,
-  "num_mod_lns_total": 60,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "65fd2c2afac3"
-  ],
+  "num_adds": 21,
+  "num_dels": 33,
+  "num_mod_lns_total": 54,
   "mod_files_lst": [
    "net/ipv4/ip_vti.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jeremy Sowden <jeremy@azazel.net>",
-   "Signed-off-by: Steffen Klassert <steffen.klassert@secunet.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/ipv4"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jeremy Sowden",
-  "author_email": "jeremy@azazel.net",
-  "committer": "Steffen Klassert",
-  "committer_email": "steffen.klassert@secunet.com",
-  "author_date": "2019-03-23 14:43:02 +0000",
-  "committer_date": "2019-03-24 09:48:38 +0100"
+  "entropy": 0.0
  },
  "65fd2c2afac31a4b46a80150347a1748fa9101cb": {
   "num_adds_if": 3,
@@ -3399,101 +1245,33 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "65fd2c2afac31a4b46a80150347a1748fa9101cb",
-  "num_adds": 10,
+  "num_adds": 9,
   "num_dels": 3,
-  "num_mod_lns_total": 13,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "e6d1407013a9"
-  ],
+  "num_mod_lns_total": 12,
   "mod_files_lst": [
    "net/ipv4/esp4_offload.c",
    "net/xfrm/xfrm_device.c"
   ],
-  "entropy": 0.7793498372920852,
-  "ppl_signed_off": [
-   "Signed-off-by: Boris Pismenny <borisp@mellanox.com>",
-   "Signed-off-by: Raed Salem <raeds@mellanox.com>",
-   "Signed-off-by: Steffen Klassert <steffen.klassert@secunet.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/ipv4",
-   "net/xfrm"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Boris Pismenny",
-  "author_email": "borisp@mellanox.com",
-  "committer": "Steffen Klassert",
-  "committer_email": "steffen.klassert@secunet.com",
-  "author_date": "2019-03-21 16:41:37 +0200",
-  "committer_date": "2019-03-24 09:48:38 +0100"
+  "entropy": 0.6500224216483541
  },
  "aa957088b4e846146b230e431dd9dad59e907f9a": {
-  "num_adds_if": 5,
+  "num_adds_if": 4,
   "num_dels_if": 0,
-  "num_mod_total_if": 5,
+  "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "aa957088b4e846146b230e431dd9dad59e907f9a",
-  "num_adds": 47,
+  "num_adds": 37,
   "num_dels": 0,
-  "num_mod_lns_total": 47,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "9354c29ed527"
-  ],
+  "num_mod_lns_total": 37,
   "mod_files_lst": [
    "drivers/misc/habanalabs/device.c",
    "drivers/misc/habanalabs/habanalabs.h",
    "drivers/misc/habanalabs/habanalabs_ioctl.c",
    "include/uapi/misc/habanalabs.h"
   ],
-  "entropy": 1.675152007034876,
-  "ppl_signed_off": [
-   "Signed-off-by: Dalit Ben Zoor <dbenzoor@habana.ai>",
-   "Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/uapi/misc",
-   "drivers/misc/habanalabs"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Dalit Ben Zoor",
-  "author_email": "dbenzoor@habana.ai",
-  "committer": "Oded Gabbay",
-  "committer_email": "oded.gabbay@gmail.com",
-  "author_date": "2019-03-24 10:15:44 +0200",
-  "committer_date": "2019-03-24 10:15:44 +0200"
+  "entropy": 1.708323639511816
  },
  "64ebde5b0fdb69fc4061bea0de661421af54f918": {
   "num_adds_if": 0,
@@ -3503,53 +1281,14 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "64ebde5b0fdb69fc4061bea0de661421af54f918",
-  "num_adds": 5,
-  "num_dels": 3,
-  "num_mod_lns_total": 8,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "9e98c678c2d6"
-  ],
+  "num_adds": 3,
+  "num_dels": 2,
+  "num_mod_lns_total": 5,
   "mod_files_lst": [
    "drivers/gpio/gpiolib-devprop.c",
    "drivers/gpio/gpiolib.h",
    "include/linux/gpio/driver.h"
   ],
-  "entropy": 1.561278124459133,
-  "ppl_signed_off": [
-   "Signed-off-by: Jan Kundr\u00e1t <jan.kundrat@cesnet.cz>",
-   "Signed-off-by: Linus Walleij <linus.walleij@linaro.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Mika Westerberg <mika.westerberg@linux.intel.com>"
-  ],
-  "ppl_cc": [
-   "Cc: Linus Walleij <linus.walleij@linaro.org>",
-   "Cc: Phil Reid <preid@electromag.com.au>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpio",
-   "include/linux/gpio"
-  ],
-  "mod_sys": [
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jan Kundr\u00e1t",
-  "author_email": "jan.kundrat@cesnet.cz",
-  "committer": "Linus Walleij",
-  "committer_email": "linus.walleij@linaro.org",
-  "author_date": "2019-03-07 14:30:13 +0100",
-  "committer_date": "2019-03-24 04:48:02 +0100"
+  "entropy": 1.5219280948873621
  }
 }

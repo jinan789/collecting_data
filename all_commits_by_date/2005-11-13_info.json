@@ -1,836 +1,2790 @@
 {
  "7b0a65f9923ffe7885a5473648baaa3a1a701726": {
-  "author": "Steve French",
-  "committer": "Steve French",
-  "author_date": "2005-11-13 20:28:58 -0800",
-  "committer_date": "2005-11-13 20:28:58 -0800"
+  "num_adds_if": 590,
+  "num_dels_if": 109,
+  "num_mod_total_if": 699,
+  "num_adds_loop": 127,
+  "num_dels_loop": 18,
+  "num_mod_total_loop": 145,
+  "file_hash": "7b0a65f9923ffe7885a5473648baaa3a1a701726",
+  "num_adds": 9292,
+  "num_dels": 1394,
+  "num_mod_lns_total": 10686,
+  "mod_files_lst": [
+   "CREDITS",
+   "Documentation/DocBook/Makefile",
+   "Documentation/DocBook/kernel-api.tmpl",
+   "Documentation/DocBook/stylesheet.xsl",
+   "Documentation/atomic_ops.txt",
+   "Documentation/oops-tracing.txt",
+   "Documentation/video4linux/CARDLIST.bttv",
+   "Documentation/video4linux/CARDLIST.saa7134",
+   "Documentation/video4linux/CARDLIST.tuner",
+   "MAINTAINERS",
+   "Makefile",
+   "README",
+   "arch/arm/Kconfig",
+   "arch/arm/common/locomo.c",
+   "arch/arm/common/scoop.c",
+   "arch/arm/kernel/apm.c",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/mach-footbridge/common.c",
+   "arch/arm/mach-pxa/Kconfig",
+   "arch/arm/mach-pxa/Makefile",
+   "arch/arm/mach-pxa/akita-ioexp.c",
+   "arch/arm/mach-pxa/corgi_pm.c",
+   "arch/arm/mach-pxa/sharpsl.h",
+   "arch/arm/mach-pxa/sharpsl_pm.c",
+   "arch/arm/mach-pxa/spitz.c",
+   "arch/arm/mach-pxa/spitz_pm.c",
+   "arch/frv/kernel/pm.c",
+   "arch/i386/Kconfig",
+   "arch/i386/kernel/apm.c",
+   "arch/i386/kernel/cpu/intel.c",
+   "arch/i386/kernel/entry.S",
+   "arch/i386/kernel/timers/timer_pit.c",
+   "arch/i386/mm/init.c",
+   "arch/m68k/fpsp040/skeleton.S",
+   "arch/m68k/ifpsp060/iskeleton.S",
+   "arch/m68k/kernel/asm-offsets.c",
+   "arch/m68k/kernel/entry.S",
+   "arch/m68k/kernel/ptrace.c",
+   "arch/mips/au1000/common/power.c",
+   "arch/mips/au1000/common/usbdev.c",
+   "arch/powerpc/kernel/head_fsl_booke.S",
+   "arch/powerpc/mm/fsl_booke_mmu.c",
+   "arch/powerpc/oprofile/op_model_fsl_booke.c",
+   "arch/powerpc/xmon/xmon.c",
+   "arch/ppc/kernel/head_fsl_booke.S",
+   "arch/ppc/mm/fsl_booke_mmu.c",
+   "arch/ppc/platforms/83xx/mpc834x_sys.c",
+   "arch/ppc/platforms/83xx/mpc834x_sys.h",
+   "arch/ppc/platforms/85xx/mpc8540_ads.c",
+   "arch/ppc/platforms/85xx/mpc8540_ads.h",
+   "arch/ppc/platforms/85xx/mpc8555_cds.h",
+   "arch/ppc/platforms/85xx/mpc8560_ads.c",
+   "arch/ppc/platforms/85xx/mpc8560_ads.h",
+   "arch/ppc/platforms/85xx/mpc85xx_ads_common.c",
+   "arch/ppc/platforms/85xx/mpc85xx_ads_common.h",
+   "arch/ppc/platforms/85xx/mpc85xx_cds_common.c",
+   "arch/ppc/platforms/85xx/mpc85xx_cds_common.h",
+   "arch/ppc/platforms/85xx/sbc8560.c",
+   "arch/ppc/platforms/pmac_feature.c",
+   "arch/ppc/platforms/pq2ads.c",
+   "arch/ppc/syslib/ipic.h",
+   "arch/ppc/syslib/mpc83xx_devices.c",
+   "arch/ppc/syslib/mpc83xx_sys.c",
+   "arch/ppc/syslib/mpc85xx_devices.c",
+   "arch/ppc/syslib/mpc85xx_sys.c",
+   "arch/ppc/syslib/mpc8xx_devices.c",
+   "arch/ppc/syslib/mpc8xx_sys.c",
+   "arch/ppc/syslib/ppc83xx_setup.c",
+   "arch/ppc/syslib/ppc83xx_setup.h",
+   "arch/ppc/syslib/ppc85xx_common.c",
+   "arch/ppc/syslib/ppc85xx_common.h",
+   "arch/ppc/syslib/ppc85xx_setup.c",
+   "arch/ppc/syslib/ppc85xx_setup.h",
+   "arch/ppc/syslib/ppc_sys.c",
+   "arch/ppc/syslib/pq2_devices.c",
+   "arch/ppc/syslib/pq2_sys.c",
+   "arch/ppc64/kernel/prom.c",
+   "arch/sparc/lib/atomic32.c",
+   "arch/sparc/lib/bitext.c",
+   "arch/um/Kconfig",
+   "arch/um/Kconfig.i386",
+   "arch/um/Makefile-i386",
+   "arch/um/drivers/chan_kern.c",
+   "arch/um/drivers/chan_user.c",
+   "arch/um/drivers/daemon_user.c",
+   "arch/um/drivers/fd.c",
+   "arch/um/drivers/mcast_user.c",
+   "arch/um/drivers/port_user.c",
+   "arch/um/drivers/pty.c",
+   "arch/um/drivers/tty.c",
+   "arch/um/drivers/xterm.c",
+   "arch/um/include/chan_user.h",
+   "arch/um/include/um_uaccess.h",
+   "arch/um/kernel/skas/include/uaccess-skas.h",
+   "arch/um/kernel/skas/uaccess.c",
+   "arch/um/kernel/trap_kern.c",
+   "arch/um/kernel/tt/include/uaccess-tt.h",
+   "arch/um/kernel/tt/uaccess.c",
+   "arch/x86_64/kernel/i8259.c",
+   "drivers/acpi/bus.c",
+   "drivers/base/firmware_class.c",
+   "drivers/block/pktcdvd.c",
+   "drivers/char/agp/uninorth-agp.c",
+   "drivers/char/pcmcia/Kconfig",
+   "drivers/char/pcmcia/Makefile",
+   "drivers/char/pcmcia/cm4000_cs.c",
+   "drivers/char/pcmcia/cm4040_cs.c",
+   "drivers/char/pcmcia/cm4040_cs.h",
+   "drivers/char/synclink.c",
+   "drivers/char/tpm/tpm.c",
+   "drivers/char/tpm/tpm.h",
+   "drivers/char/tpm/tpm_atmel.c",
+   "drivers/char/tpm/tpm_atmel.h",
+   "drivers/char/watchdog/booke_wdt.c",
+   "drivers/ide/pci/sl82c105.c",
+   "drivers/ide/ppc/pmac.c",
+   "drivers/media/common/ir-common.c",
+   "drivers/media/video/Kconfig",
+   "drivers/media/video/Makefile",
+   "drivers/media/video/bttv-cards.c",
+   "drivers/media/video/bttv-driver.c",
+   "drivers/media/video/bttv-gpio.c",
+   "drivers/media/video/bttv.h",
+   "drivers/media/video/bttvp.h",
+   "drivers/media/video/cx25840/Makefile",
+   "drivers/media/video/cx25840/cx25840-audio.c",
+   "drivers/media/video/cx25840/cx25840-core.c",
+   "drivers/media/video/cx25840/cx25840-firmware.c",
+   "drivers/media/video/cx25840/cx25840-vbi.c",
+   "drivers/media/video/cx25840/cx25840.h",
+   "drivers/media/video/cx88/cx88-dvb.c",
+   "drivers/media/video/em28xx/em28xx-input.c",
+   "drivers/media/video/ir-kbd-gpio.c",
+   "drivers/media/video/ir-kbd-i2c.c",
+   "drivers/media/video/saa7115.c",
+   "drivers/media/video/saa711x.c",
+   "drivers/media/video/saa7127.c",
+   "drivers/media/video/saa7134/Kconfig",
+   "drivers/media/video/saa7134/Makefile",
+   "drivers/media/video/saa7134/saa7134-alsa.c",
+   "drivers/media/video/saa7134/saa7134-cards.c",
+   "drivers/media/video/saa7134/saa7134-core.c",
+   "drivers/media/video/saa7134/saa7134-input.c",
+   "drivers/media/video/saa7134/saa7134-oss.c",
+   "drivers/media/video/saa7134/saa7134.h",
+   "drivers/media/video/tda8290.c",
+   "drivers/media/video/tuner-core.c",
+   "drivers/media/video/tuner-simple.c",
+   "drivers/media/video/wm8775.c",
+   "drivers/mmc/mmci.c",
+   "drivers/mtd/maps/Kconfig",
+   "drivers/net/3c509.c",
+   "drivers/net/gianfar.c",
+   "drivers/net/gianfar.h",
+   "drivers/net/gianfar_ethtool.c",
+   "drivers/net/gianfar_mii.c",
+   "drivers/net/gianfar_mii.h",
+   "drivers/net/irda/ali-ircc.c",
+   "drivers/net/irda/nsc-ircc.c",
+   "drivers/net/smc91x.h",
+   "drivers/net/sungem.c",
+   "drivers/pci/hotplug/pciehp_hpc.c",
+   "drivers/pci/hotplug/rpaphp_pci.c",
+   "drivers/pci/hotplug/shpchp_hpc.c",
+   "drivers/pcmcia/cs.c",
+   "drivers/pcmcia/ds.c",
+   "drivers/pcmcia/i82365.c",
+   "drivers/scsi/libata-core.c",
+   "drivers/scsi/libata-scsi.c",
+   "drivers/scsi/sata_sil24.c",
+   "drivers/serial/68328serial.c",
+   "drivers/serial/8250.c",
+   "drivers/serial/8250_pnp.c",
+   "drivers/serial/cpm_uart/cpm_uart_core.c",
+   "drivers/serial/cpm_uart/cpm_uart_cpm1.c",
+   "drivers/serial/cpm_uart/cpm_uart_cpm2.c",
+   "drivers/serial/dz.c",
+   "drivers/serial/mpc52xx_uart.c",
+   "drivers/serial/sa1100.c",
+   "drivers/serial/serial_core.c",
+   "drivers/video/console/fbcon.c",
+   "drivers/video/console/fbcon.h",
+   "drivers/video/console/fbcon_ccw.c",
+   "drivers/video/console/fbcon_cw.c",
+   "drivers/video/console/fbcon_ud.c",
+   "drivers/video/nvidia/nv_proto.h",
+   "drivers/video/nvidia/nvidia.c",
+   "drivers/video/vesafb.c",
+   "drivers/video/w100fb.c",
+   "fs/aio.c",
+   "fs/ext2/super.c",
+   "fs/ext3/inode.c",
+   "fs/jffs2/scan.c",
+   "fs/locks.c",
+   "fs/proc/task_mmu.c",
+   "include/asm-alpha/atomic.h",
+   "include/asm-arm/arch-pxa/akita.h",
+   "include/asm-arm/atomic.h",
+   "include/asm-arm26/atomic.h",
+   "include/asm-cris/atomic.h",
+   "include/asm-frv/atomic.h",
+   "include/asm-h8300/atomic.h",
+   "include/asm-i386/atomic.h",
+   "include/asm-i386/system.h",
+   "include/asm-ia64/atomic.h",
+   "include/asm-m68k/atomic.h",
+   "include/asm-m68k/processor.h",
+   "include/asm-m68k/thread_info.h",
+   "include/asm-m68knommu/atomic.h",
+   "include/asm-mips/atomic.h",
+   "include/asm-parisc/atomic.h",
+   "include/asm-powerpc/atomic.h",
+   "include/asm-ppc/immap_85xx.h",
+   "include/asm-ppc/ipic.h",
+   "include/asm-ppc/mpc83xx.h",
+   "include/asm-ppc/mpc85xx.h",
+   "include/asm-ppc/ppc_sys.h",
+   "include/asm-s390/atomic.h",
+   "include/asm-sh/atomic.h",
+   "include/asm-sh64/atomic.h",
+   "include/asm-sparc/atomic.h",
+   "include/asm-sparc64/atomic.h",
+   "include/asm-v850/atomic.h",
+   "include/asm-x86_64/atomic.h",
+   "include/asm-x86_64/desc.h",
+   "include/asm-xtensa/atomic.h",
+   "include/linux/acct.h",
+   "include/linux/aio.h",
+   "include/linux/cm4000_cs.h",
+   "include/linux/file.h",
+   "include/linux/fsl_devices.h",
+   "include/linux/gfp.h",
+   "include/linux/hardirq.h",
+   "include/linux/hugetlb.h",
+   "include/linux/i2c-id.h",
+   "include/linux/init_task.h",
+   "include/linux/interrupt.h",
+   "include/linux/mmzone.h",
+   "include/linux/pagemap.h",
+   "include/linux/pci_ids.h",
+   "include/linux/percpu.h",
+   "include/linux/pm.h",
+   "include/linux/pm_legacy.h",
+   "include/linux/preempt.h",
+   "include/linux/sched.h",
+   "include/linux/smp_lock.h",
+   "include/linux/thread_info.h",
+   "include/linux/time.h",
+   "include/linux/usb.h",
+   "include/linux/videodev2.h",
+   "include/media/ir-common.h",
+   "include/media/ir-kbd-i2c.h",
+   "include/media/tuner.h",
+   "include/media/v4l2-common.h",
+   "kernel/cpuset.c",
+   "kernel/exit.c",
+   "kernel/fork.c",
+   "kernel/posix-timers.c",
+   "kernel/power/Kconfig",
+   "kernel/power/Makefile",
+   "kernel/power/pm.c",
+   "kernel/printk.c",
+   "kernel/ptrace.c",
+   "kernel/rcutorture.c",
+   "kernel/sched.c",
+   "kernel/signal.c",
+   "kernel/stop_machine.c",
+   "mm/memory.c",
+   "mm/page_alloc.c",
+   "mm/slab.c",
+   "mm/vmscan.c",
+   "scripts/kernel-doc",
+   "sound/oss/ad1848.c",
+   "sound/oss/cs4281/cs4281m.c",
+   "sound/oss/maestro.c",
+   "sound/oss/nm256_audio.c",
+   "sound/oss/opl3sa2.c"
+  ],
+  "entropy": 5.287722066128537
  },
  "85d6162d6cea9220e483989817eac0cebc03070e": {
-  "author": "Jeff Garzik",
-  "committer": "Jeff Garzik",
-  "author_date": "2005-11-13 23:20:16 -0500",
-  "committer_date": "2005-11-13 23:20:16 -0500"
+  "num_adds_if": 16,
+  "num_dels_if": 12,
+  "num_mod_total_if": 28,
+  "num_adds_loop": 3,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 5,
+  "file_hash": "85d6162d6cea9220e483989817eac0cebc03070e",
+  "num_adds": 298,
+  "num_dels": 4290,
+  "num_mod_lns_total": 4588,
+  "mod_files_lst": [
+   "arch/powerpc/kernel/ioctl32.c",
+   "arch/sparc64/kernel/ioctl32.c",
+   "block/cfq-iosched.c",
+   "block/elevator.c",
+   "block/genhd.c",
+   "block/noop-iosched.c",
+   "drivers/char/i8k.c",
+   "drivers/media/dvb/b2c2/Kconfig",
+   "drivers/mtd/maps/Kconfig",
+   "drivers/sbus/char/rtc.c",
+   "drivers/scsi/libata-core.c",
+   "drivers/scsi/libata-scsi.c",
+   "drivers/scsi/sata_sil24.c",
+   "drivers/video/bw2.c",
+   "drivers/video/cg14.c",
+   "drivers/video/cg3.c",
+   "drivers/video/cg6.c",
+   "drivers/video/console/Kconfig",
+   "drivers/video/console/Makefile",
+   "drivers/video/console/font_rl.c",
+   "drivers/video/console/fonts.c",
+   "drivers/video/ffb.c",
+   "drivers/video/leo.c",
+   "drivers/video/p9100.c",
+   "drivers/video/sbuslib.c",
+   "drivers/video/sbuslib.h",
+   "drivers/video/tcx.c",
+   "fs/jffs2/scan.c",
+   "fs/locks.c",
+   "include/linux/blkdev.h",
+   "include/linux/compat_ioctl.h",
+   "include/linux/font.h",
+   "include/linux/genhd.h",
+   "net/ipv4/netfilter/ip_conntrack_proto_tcp.c",
+   "net/ipv6/route.c",
+   "net/netfilter/nf_conntrack_proto_tcp.c"
+  ],
+  "entropy": 0.8606036626824738
  },
  "ee90f62b3e69d0cd9f8edc6b95f07b1a8c38aaf4": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 18:22:49 -0800",
-  "committer_date": "2005-11-13 18:22:49 -0800"
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ee90f62b3e69d0cd9f8edc6b95f07b1a8c38aaf4",
+  "num_adds": 17,
+  "num_dels": 8,
+  "num_mod_lns_total": 25,
+  "mod_files_lst": [
+   "drivers/pcmcia/cs.c",
+   "drivers/pcmcia/ds.c",
+   "drivers/pcmcia/i82365.c"
+  ],
+  "entropy": 1.0154312795575997
  },
  "70ac551651a2c5a234b703d9a495817f2ca09639": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 18:17:54 -0800",
-  "committer_date": "2005-11-13 18:17:54 -0800"
+  "num_adds_if": 60,
+  "num_dels_if": 18,
+  "num_mod_total_if": 78,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "70ac551651a2c5a234b703d9a495817f2ca09639",
+  "num_adds": 736,
+  "num_dels": 119,
+  "num_mod_lns_total": 855,
+  "mod_files_lst": [
+   "arch/arm/Kconfig",
+   "arch/arm/common/locomo.c",
+   "arch/arm/common/scoop.c",
+   "arch/arm/kernel/smp.c",
+   "arch/arm/mach-footbridge/common.c",
+   "arch/arm/mach-pxa/Kconfig",
+   "arch/arm/mach-pxa/Makefile",
+   "arch/arm/mach-pxa/akita-ioexp.c",
+   "arch/arm/mach-pxa/corgi_pm.c",
+   "arch/arm/mach-pxa/sharpsl.h",
+   "arch/arm/mach-pxa/sharpsl_pm.c",
+   "arch/arm/mach-pxa/spitz.c",
+   "arch/arm/mach-pxa/spitz_pm.c",
+   "drivers/ide/pci/sl82c105.c",
+   "drivers/net/smc91x.h",
+   "include/asm-arm/arch-pxa/akita.h",
+   "include/linux/i2c-id.h"
+  ],
+  "entropy": 2.8387039682327178
  },
  "7f729ccff35befa08a836ab33a4372c7f6735645": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 18:17:21 -0800",
-  "committer_date": "2005-11-13 18:17:21 -0800"
+  "num_adds_if": 5,
+  "num_dels_if": 3,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "7f729ccff35befa08a836ab33a4372c7f6735645",
+  "num_adds": 79,
+  "num_dels": 62,
+  "num_mod_lns_total": 141,
+  "mod_files_lst": [
+   "drivers/serial/8250.c",
+   "drivers/serial/8250_pnp.c",
+   "drivers/serial/dz.c",
+   "drivers/serial/mpc52xx_uart.c",
+   "drivers/serial/sa1100.c",
+   "drivers/serial/serial_core.c"
+  ],
+  "entropy": 1.5512590575029943
  },
  "cbc749518235b0f1dacb867c8c25059a1b876276": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 18:16:56 -0800",
-  "committer_date": "2005-11-13 18:16:56 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "cbc749518235b0f1dacb867c8c25059a1b876276",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/mmc/mmci.c"
+  ],
+  "entropy": 0.0
  },
  "71f95cfbcfc31ba0d002ddb6e37ca5a0b5eaf02c": {
-  "author": "Martin Waitz",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:15 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "71f95cfbcfc31ba0d002ddb6e37ca5a0b5eaf02c",
+  "num_adds": 29,
+  "num_dels": 15,
+  "num_mod_lns_total": 44,
+  "mod_files_lst": [
+   "Documentation/DocBook/Makefile"
+  ],
+  "entropy": 0.0
  },
  "e56367fe70955beb82e5e7c71ccfa064add42c21": {
-  "author": "Martin Waitz",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:15 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e56367fe70955beb82e5e7c71ccfa064add42c21",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "Documentation/DocBook/stylesheet.xsl"
+  ],
+  "entropy": 0.0
  },
  "ddad86c2d6f660112c6ce8aabae6ffd346e25b9b": {
-  "author": "Martin Waitz",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:14 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ddad86c2d6f660112c6ce8aabae6ffd346e25b9b",
+  "num_adds": 15,
+  "num_dels": 5,
+  "num_mod_lns_total": 20,
+  "mod_files_lst": [
+   "Documentation/DocBook/kernel-api.tmpl",
+   "kernel/printk.c"
+  ],
+  "entropy": 0.7219280948873623
  },
  "aeec46b97a7975fd983219177980c58ed4fd607c": {
-  "author": "Martin Waitz",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:13 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "aeec46b97a7975fd983219177980c58ed4fd607c",
+  "num_adds": 13,
+  "num_dels": 5,
+  "num_mod_lns_total": 18,
+  "mod_files_lst": [
+   "include/linux/usb.h",
+   "scripts/kernel-doc"
+  ],
+  "entropy": 0.9182958340544896
  },
  "f5f4917c92a9a3814eda9c947fda8afabbd1812d": {
-  "author": "Jan Beulich",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:12 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f5f4917c92a9a3814eda9c947fda8afabbd1812d",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/video/vesafb.c"
+  ],
+  "entropy": 0.0
  },
  "60f6c464d14b177778334344c86f15616899735a": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:12 -0800",
-  "committer_date": "2005-11-13 18:14:21 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "60f6c464d14b177778334344c86f15616899735a",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/media/video/cx25840/cx25840-firmware.c"
+  ],
+  "entropy": 0.0
  },
  "c3e63002433d9a3de763b6cb49dc2c75a74d8604": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:11 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c3e63002433d9a3de763b6cb49dc2c75a74d8604",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/media/video/Makefile"
+  ],
+  "entropy": 0.0
  },
  "d5ee43afc9fdde8f853346d32f5ca5c00e8ed886": {
-  "author": "Ricardo Cerqueira",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:10 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 9,
+  "num_dels_if": 9,
+  "num_mod_total_if": 18,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d5ee43afc9fdde8f853346d32f5ca5c00e8ed886",
+  "num_adds": 104,
+  "num_dels": 138,
+  "num_mod_lns_total": 242,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/saa7134-alsa.c"
+  ],
+  "entropy": 0.0
  },
  "c01ee851d3e64753877017e8fb19f2e23a1945bc": {
-  "author": "Michael Krufky",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:09 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c01ee851d3e64753877017e8fb19f2e23a1945bc",
+  "num_adds": 2,
+  "num_dels": 1,
+  "num_mod_lns_total": 3,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/Kconfig"
+  ],
+  "entropy": 0.0
  },
  "93067f387e104e48e616436fe1804911f90402e3": {
-  "author": "Dave Jones",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:09 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "93067f387e104e48e616436fe1804911f90402e3",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/media/video/saa711x.c"
+  ],
+  "entropy": 0.0
  },
  "24b59258eb987c26c5813d7768c516422830db35": {
-  "author": "Mike Krufky",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:08 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "24b59258eb987c26c5813d7768c516422830db35",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/Kconfig"
+  ],
+  "entropy": 0.0
  },
  "e77f34d6948af83db75ece2e1bc0c73087d7cf69": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:06 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e77f34d6948af83db75ece2e1bc0c73087d7cf69",
+  "num_adds": 0,
+  "num_dels": 4,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "drivers/media/video/cx25840/cx25840-audio.c",
+   "drivers/media/video/cx25840/cx25840-core.c",
+   "drivers/media/video/saa7115.c",
+   "drivers/media/video/saa7127.c"
+  ],
+  "entropy": 2.0
  },
  "1f4b33651cfb18caac6b6a0d664b0750074b14f4": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:05 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "1f4b33651cfb18caac6b6a0d664b0750074b14f4",
+  "num_adds": 9,
+  "num_dels": 12,
+  "num_mod_lns_total": 21,
+  "mod_files_lst": [
+   "drivers/media/video/cx25840/cx25840-core.c",
+   "drivers/media/video/saa7115.c",
+   "drivers/media/video/saa7127.c",
+   "drivers/media/video/wm8775.c"
+  ],
+  "entropy": 1.9699000226227197
  },
  "e19b2fcccde976621560c26373c7fba29b0d0f29": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:04 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 51,
+  "num_dels_if": 0,
+  "num_mod_total_if": 51,
+  "num_adds_loop": 16,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 16,
+  "file_hash": "e19b2fcccde976621560c26373c7fba29b0d0f29",
+  "num_adds": 1185,
+  "num_dels": 0,
+  "num_mod_lns_total": 1185,
+  "mod_files_lst": [
+   "drivers/media/video/saa7115.c"
+  ],
+  "entropy": 0.0
  },
  "9e1e28da4059ce293334a8e820955a0ce320b07b": {
-  "author": "Michael Krufky",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:03 -0800",
-  "committer_date": "2005-11-13 18:14:20 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "9e1e28da4059ce293334a8e820955a0ce320b07b",
+  "num_adds": 0,
+  "num_dels": 2,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/media/video/cx88/cx88-dvb.c"
+  ],
+  "entropy": 0.0
  },
  "6555f4322f5c8dc03047eb566d8519ba348e02de": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:02 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6555f4322f5c8dc03047eb566d8519ba348e02de",
+  "num_adds": 0,
+  "num_dels": 3,
+  "num_mod_lns_total": 3,
+  "mod_files_lst": [
+   "drivers/media/video/em28xx/em28xx-input.c"
+  ],
+  "entropy": 0.0
  },
  "80d2ad9259b04bc46556c1cd8cec558a02460a2d": {
-  "author": "Ricardo Cerqueira",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:01 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "80d2ad9259b04bc46556c1cd8cec558a02460a2d",
+  "num_adds": 34,
+  "num_dels": 0,
+  "num_mod_lns_total": 34,
+  "mod_files_lst": [
+   "Documentation/video4linux/CARDLIST.saa7134",
+   "drivers/media/video/saa7134/saa7134-cards.c",
+   "drivers/media/video/saa7134/saa7134.h"
+  ],
+  "entropy": 0.3815804883091629
  },
  "3717e170e1585d79a8ceced9161f18ceb796411e": {
-  "author": "Tyler Trafford",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:00 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3717e170e1585d79a8ceced9161f18ceb796411e",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/media/video/cx25840/cx25840-firmware.c"
+  ],
+  "entropy": 0.0
  },
  "4aabf6331f89c18a46e7f083ca0b27f15ca85422": {
-  "author": "Ricardo Cerqueira",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:08:00 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 24,
+  "num_dels_if": 20,
+  "num_mod_total_if": 44,
+  "num_adds_loop": 5,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 5,
+  "file_hash": "4aabf6331f89c18a46e7f083ca0b27f15ca85422",
+  "num_adds": 205,
+  "num_dels": 159,
+  "num_mod_lns_total": 364,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/Makefile",
+   "drivers/media/video/saa7134/saa7134-alsa.c",
+   "drivers/media/video/saa7134/saa7134-core.c",
+   "drivers/media/video/saa7134/saa7134-oss.c",
+   "drivers/media/video/saa7134/saa7134.h"
+  ],
+  "entropy": 1.7114154064542624
  },
  "714a095abfa22dfe2accf641118a65796e966a98": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:59 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "714a095abfa22dfe2accf641118a65796e966a98",
+  "num_adds": 11,
+  "num_dels": 0,
+  "num_mod_lns_total": 11,
+  "mod_files_lst": [
+   "drivers/media/video/Kconfig",
+   "drivers/media/video/Makefile",
+   "drivers/media/video/cx25840/Makefile"
+  ],
+  "entropy": 1.3221793455166666
  },
  "70146cfc84dca917ac27cdc754deae63c1282844": {
-  "author": "Hartmut Hackmann",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:58 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "70146cfc84dca917ac27cdc754deae63c1282844",
+  "num_adds": 4,
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "drivers/media/video/tda8290.c"
+  ],
+  "entropy": 0.0
  },
  "bd985160a9f4623fdb24fcfeb36fe59e1b8f7b57": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:56 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 62,
+  "num_dels_if": 0,
+  "num_mod_total_if": 62,
+  "num_adds_loop": 15,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 15,
+  "file_hash": "bd985160a9f4623fdb24fcfeb36fe59e1b8f7b57",
+  "num_adds": 1635,
+  "num_dels": 0,
+  "num_mod_lns_total": 1635,
+  "mod_files_lst": [
+   "drivers/media/video/cx25840/cx25840-audio.c",
+   "drivers/media/video/cx25840/cx25840-core.c",
+   "drivers/media/video/cx25840/cx25840-firmware.c",
+   "drivers/media/video/cx25840/cx25840-vbi.c",
+   "drivers/media/video/cx25840/cx25840.h"
+  ],
+  "entropy": 1.8600264886446625
  },
  "b2f0648ffda862d53f04f0a05979f3fa530d63c9": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:55 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 2,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 2,
+  "file_hash": "b2f0648ffda862d53f04f0a05979f3fa530d63c9",
+  "num_adds": 89,
+  "num_dels": 0,
+  "num_mod_lns_total": 89,
+  "mod_files_lst": [
+   "include/media/v4l2-common.h"
+  ],
+  "entropy": 0.0
  },
  "419d4e753a5dbd6e19ad45cb4045ac213f15eac4": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:55 -0800",
-  "committer_date": "2005-11-13 18:14:19 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "419d4e753a5dbd6e19ad45cb4045ac213f15eac4",
+  "num_adds": 8,
+  "num_dels": 8,
+  "num_mod_lns_total": 16,
+  "mod_files_lst": [
+   "drivers/media/video/saa7127.c"
+  ],
+  "entropy": 0.0
  },
  "cfbb5b8cb059609696ba38a9a87eafb93b3de43c": {
-  "author": "Hans Verkuil",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:53 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 38,
+  "num_dels_if": 0,
+  "num_mod_total_if": 38,
+  "num_adds_loop": 6,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 6,
+  "file_hash": "cfbb5b8cb059609696ba38a9a87eafb93b3de43c",
+  "num_adds": 732,
+  "num_dels": 0,
+  "num_mod_lns_total": 732,
+  "mod_files_lst": [
+   "drivers/media/video/saa7127.c"
+  ],
+  "entropy": 0.0
  },
  "6c6c0b2c27e70c3593e023882fabb1cebcbd077e": {
-  "author": "Mark Weaver",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:52 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 17,
+  "num_dels_if": 0,
+  "num_mod_total_if": 17,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "6c6c0b2c27e70c3593e023882fabb1cebcbd077e",
+  "num_adds": 278,
+  "num_dels": 5,
+  "num_mod_lns_total": 283,
+  "mod_files_lst": [
+   "drivers/media/video/bttv-cards.c",
+   "drivers/media/video/bttv-driver.c",
+   "drivers/media/video/bttv-gpio.c",
+   "drivers/media/video/bttv.h",
+   "drivers/media/video/bttvp.h",
+   "drivers/media/video/ir-kbd-gpio.c"
+  ],
+  "entropy": 0.6195358383285721
  },
  "871242b93e75b24c99687249c2812aed026b40af": {
-  "author": "Nickolay V. Shmyrev",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:51 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "871242b93e75b24c99687249c2812aed026b40af",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/saa7134-alsa.c"
+  ],
+  "entropy": 0.0
  },
  "633323ffffae91c3f22a08e0185fbfd3fae2a825": {
-  "author": "Bill Pechter",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:50 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "633323ffffae91c3f22a08e0185fbfd3fae2a825",
+  "num_adds": 25,
+  "num_dels": 1,
+  "num_mod_lns_total": 26,
+  "mod_files_lst": [
+   "Documentation/video4linux/CARDLIST.bttv",
+   "Documentation/video4linux/CARDLIST.tuner",
+   "drivers/media/video/bttv-cards.c",
+   "drivers/media/video/bttv.h",
+   "drivers/media/video/tuner-simple.c",
+   "include/media/tuner.h"
+  ],
+  "entropy": 1.5058762556041065
  },
  "8069695c9e7da7ab7cd8ee749e8d5aa9e6e0660b": {
-  "author": "Ricardo Cerqueira",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:49 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 4,
+  "num_dels_if": 5,
+  "num_mod_total_if": 9,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "8069695c9e7da7ab7cd8ee749e8d5aa9e6e0660b",
+  "num_adds": 85,
+  "num_dels": 83,
+  "num_mod_lns_total": 168,
+  "mod_files_lst": [
+   "drivers/media/common/ir-common.c",
+   "drivers/media/video/ir-kbd-i2c.c",
+   "drivers/media/video/saa7134/saa7134-core.c",
+   "drivers/media/video/saa7134/saa7134-input.c",
+   "include/media/ir-common.h",
+   "include/media/ir-kbd-i2c.h"
+  ],
+  "entropy": 1.665635963973128
  },
  "800d3c6f90b61cc82b09db635b59c00b1c460728": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:48 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "800d3c6f90b61cc82b09db635b59c00b1c460728",
+  "num_adds": 9,
+  "num_dels": 3,
+  "num_mod_lns_total": 12,
+  "mod_files_lst": [
+   "drivers/media/video/tuner-core.c",
+   "include/linux/videodev2.h"
+  ],
+  "entropy": 0.41381685030363374
  },
  "c817e7634260b298fc03b856ddb53d9aa77326b5": {
-  "author": "Ricardo Cerqueira",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:47 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 3,
+  "num_dels_if": 3,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "c817e7634260b298fc03b856ddb53d9aa77326b5",
+  "num_adds": 41,
+  "num_dels": 41,
+  "num_mod_lns_total": 82,
+  "mod_files_lst": [
+   "drivers/media/video/saa7134/saa7134-alsa.c",
+   "drivers/media/video/saa7134/saa7134-core.c"
+  ],
+  "entropy": 0.0
  },
  "770599d07564f049234d0a5eb0ef3d607d747878": {
-  "author": "Mauro Carvalho Chehab",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:45 -0800",
-  "committer_date": "2005-11-13 18:14:18 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "770599d07564f049234d0a5eb0ef3d607d747878",
+  "num_adds": 7,
+  "num_dels": 0,
+  "num_mod_lns_total": 7,
+  "mod_files_lst": [
+   "drivers/media/video/Kconfig",
+   "drivers/media/video/Makefile"
+  ],
+  "entropy": 0.5916727785823275
  },
  "6ad44229ec85b3938a313a325f0449e23eac8aac": {
-  "author": "Jesper Juhl",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:44 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "6ad44229ec85b3938a313a325f0449e23eac8aac",
+  "num_adds": 4,
+  "num_dels": 0,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "README"
+  ],
+  "entropy": 0.0
  },
  "3f39894d1b5c253b10fcb8fbbbcf65a330f6cdc7": {
-  "author": "George Anzinger",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:44 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "3f39894d1b5c253b10fcb8fbbbcf65a330f6cdc7",
+  "num_adds": 4,
+  "num_dels": 8,
+  "num_mod_lns_total": 12,
+  "mod_files_lst": [
+   "include/linux/time.h",
+   "kernel/posix-timers.c"
+  ],
+  "entropy": 0.6500224216483541
  },
  "09e12f9f6bcd9af516d901223cebdbae58b32c9f": {
-  "author": "Kylene Jo Hall",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:43 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "09e12f9f6bcd9af516d901223cebdbae58b32c9f",
+  "num_adds": 7,
+  "num_dels": 0,
+  "num_mod_lns_total": 7,
+  "mod_files_lst": [
+   "drivers/char/tpm/tpm.c",
+   "drivers/char/tpm/tpm.h"
+  ],
+  "entropy": 0.5916727785823275
  },
  "f6a2382cec3ed9b67b01febfa85d7d72b254844a": {
-  "author": "Kylene Jo Hall",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:42 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f6a2382cec3ed9b67b01febfa85d7d72b254844a",
+  "num_adds": 2,
+  "num_dels": 3,
+  "num_mod_lns_total": 5,
+  "mod_files_lst": [
+   "drivers/char/tpm/tpm.c"
+  ],
+  "entropy": 0.0
  },
  "ad5ea3cc5f745aef243ade0dafc8cf6f7f0bfea7": {
-  "author": "Kylene Jo Hall",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:41 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 12,
+  "num_dels_if": 7,
+  "num_mod_total_if": 19,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "ad5ea3cc5f745aef243ade0dafc8cf6f7f0bfea7",
+  "num_adds": 147,
+  "num_dels": 64,
+  "num_mod_lns_total": 211,
+  "mod_files_lst": [
+   "drivers/char/tpm/tpm.h",
+   "drivers/char/tpm/tpm_atmel.c",
+   "drivers/char/tpm/tpm_atmel.h"
+  ],
+  "entropy": 1.1363643288428162
  },
  "c0131c143204ee0ba00592c016f20ce6fc67827d": {
-  "author": "Kylene Jo Hall",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:41 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c0131c143204ee0ba00592c016f20ce6fc67827d",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "arch/ppc64/kernel/prom.c"
+  ],
+  "entropy": 0.0
  },
  "36174494b64ec0f6c2593af12d1cec97c9754192": {
-  "author": "Diego Calleja",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:40 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "36174494b64ec0f6c2593af12d1cec97c9754192",
+  "num_adds": 3,
+  "num_dels": 1,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "Documentation/oops-tracing.txt"
+  ],
+  "entropy": 0.0
  },
  "113fab1386f0093602d9f48b424b945cafd3db23": {
-  "author": "matthieu castet",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:39 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "113fab1386f0093602d9f48b424b945cafd3db23",
+  "num_adds": 11,
+  "num_dels": 4,
+  "num_mod_lns_total": 15,
+  "mod_files_lst": [
+   "drivers/base/firmware_class.c"
+  ],
+  "entropy": 0.0
  },
  "ff6ed4063da39e6a30ce904005e4ed17385e2739": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:38 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ff6ed4063da39e6a30ce904005e4ed17385e2739",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "include/linux/acct.h"
+  ],
+  "entropy": 0.0
  },
  "ec63f22dc31de19b273b7aca66e73ae85cc2418e": {
-  "author": "Johann Lombardi",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:36 -0800",
-  "committer_date": "2005-11-13 18:14:17 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ec63f22dc31de19b273b7aca66e73ae85cc2418e",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "fs/ext2/super.c"
+  ],
+  "entropy": 0.0
  },
  "5ef1c49f8f9f0d6b5b8d57bb4b66c605a3d65876": {
-  "author": "Zach Brown",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:35 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 2,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 2,
+  "num_dels_loop": 2,
+  "num_mod_total_loop": 4,
+  "file_hash": "5ef1c49f8f9f0d6b5b8d57bb4b66c605a3d65876",
+  "num_adds": 9,
+  "num_dels": 2,
+  "num_mod_lns_total": 11,
+  "mod_files_lst": [
+   "include/linux/aio.h"
+  ],
+  "entropy": 0.0
  },
  "d00689af6b3b6ba9e1fdefec3bd62edc860c385d": {
-  "author": "Zach Brown",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:34 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d00689af6b3b6ba9e1fdefec3bd62edc860c385d",
+  "num_adds": 6,
+  "num_dels": 5,
+  "num_mod_lns_total": 11,
+  "mod_files_lst": [
+   "fs/aio.c"
+  ],
+  "entropy": 0.0
  },
  "20dcae32439384b6863c626bb3b2a09bed65b33e": {
-  "author": "Zach Brown",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:33 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "20dcae32439384b6863c626bb3b2a09bed65b33e",
+  "num_adds": 10,
+  "num_dels": 21,
+  "num_mod_lns_total": 31,
+  "mod_files_lst": [
+   "fs/aio.c",
+   "include/linux/aio.h",
+   "include/linux/init_task.h",
+   "include/linux/sched.h",
+   "kernel/fork.c"
+  ],
+  "entropy": 0.9473759016233784
  },
  "4557398f8cbaf9f254cff747534b4724c7f75c4f": {
-  "author": "Kirill Korotaev",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:30 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4557398f8cbaf9f254cff747534b4724c7f75c4f",
+  "num_adds": 3,
+  "num_dels": 2,
+  "num_mod_lns_total": 5,
+  "mod_files_lst": [
+   "kernel/stop_machine.c"
+  ],
+  "entropy": 0.0
  },
  "c5b609797b8e212dbfaf23944da8bf8c53233d5c": {
-  "author": "Clemens Buchacher",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:26 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c5b609797b8e212dbfaf23944da8bf8c53233d5c",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "arch/mips/au1000/common/usbdev.c"
+  ],
+  "entropy": 0.0
  },
  "8426e1f6af0fd7f44d040af7263750c5a52f3cc3": {
-  "author": "Nick Piggin",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:25 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 9,
+  "num_dels_if": 0,
+  "num_mod_total_if": 9,
+  "num_adds_loop": 14,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 14,
+  "file_hash": "8426e1f6af0fd7f44d040af7263750c5a52f3cc3",
+  "num_adds": 281,
+  "num_dels": 1,
+  "num_mod_lns_total": 282,
+  "mod_files_lst": [
+   "Documentation/atomic_ops.txt",
+   "arch/sparc/lib/atomic32.c",
+   "include/asm-alpha/atomic.h",
+   "include/asm-arm/atomic.h",
+   "include/asm-arm26/atomic.h",
+   "include/asm-cris/atomic.h",
+   "include/asm-frv/atomic.h",
+   "include/asm-h8300/atomic.h",
+   "include/asm-i386/atomic.h",
+   "include/asm-ia64/atomic.h",
+   "include/asm-m68k/atomic.h",
+   "include/asm-m68knommu/atomic.h",
+   "include/asm-mips/atomic.h",
+   "include/asm-parisc/atomic.h",
+   "include/asm-powerpc/atomic.h",
+   "include/asm-s390/atomic.h",
+   "include/asm-sh/atomic.h",
+   "include/asm-sh64/atomic.h",
+   "include/asm-sparc/atomic.h",
+   "include/asm-sparc64/atomic.h",
+   "include/asm-v850/atomic.h",
+   "include/asm-x86_64/atomic.h",
+   "include/asm-xtensa/atomic.h"
+  ],
+  "entropy": 4.415014857179997
  },
  "4a6dae6d382e9edf3ff440b819e554ed706359bc": {
-  "author": "Nick Piggin",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:24 -0800",
-  "committer_date": "2005-11-13 18:14:16 -0800"
+  "num_adds_if": 8,
+  "num_dels_if": 0,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "4a6dae6d382e9edf3ff440b819e554ed706359bc",
+  "num_adds": 130,
+  "num_dels": 5,
+  "num_mod_lns_total": 135,
+  "mod_files_lst": [
+   "Documentation/atomic_ops.txt",
+   "arch/sparc/lib/atomic32.c",
+   "include/asm-alpha/atomic.h",
+   "include/asm-arm/atomic.h",
+   "include/asm-arm26/atomic.h",
+   "include/asm-cris/atomic.h",
+   "include/asm-frv/atomic.h",
+   "include/asm-h8300/atomic.h",
+   "include/asm-i386/atomic.h",
+   "include/asm-ia64/atomic.h",
+   "include/asm-m68k/atomic.h",
+   "include/asm-m68knommu/atomic.h",
+   "include/asm-mips/atomic.h",
+   "include/asm-parisc/atomic.h",
+   "include/asm-powerpc/atomic.h",
+   "include/asm-s390/atomic.h",
+   "include/asm-sh/atomic.h",
+   "include/asm-sh64/atomic.h",
+   "include/asm-sparc/atomic.h",
+   "include/asm-sparc64/atomic.h",
+   "include/asm-v850/atomic.h",
+   "include/asm-x86_64/atomic.h",
+   "include/asm-xtensa/atomic.h"
+  ],
+  "entropy": 3.6309868380451675
  },
  "53e86b91b7ae66d4c2757195cbd42e00d9199cf2": {
-  "author": "Nick Piggin",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:23 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 4,
+  "num_dels_if": 0,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "53e86b91b7ae66d4c2757195cbd42e00d9199cf2",
+  "num_adds": 79,
+  "num_dels": 3,
+  "num_mod_lns_total": 82,
+  "mod_files_lst": [
+   "arch/i386/kernel/cpu/intel.c",
+   "include/asm-i386/system.h"
+  ],
+  "entropy": 0.9995708393473224
  },
  "dbdf65b1b7f8ec48bda1604cfea7ac09ce583d6b": {
-  "author": "Ingo Molnar",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:22 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "dbdf65b1b7f8ec48bda1604cfea7ac09ce583d6b",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "kernel/rcutorture.c"
+  ],
+  "entropy": 0.0
  },
  "66341a905ef5b3e7aea65b5d9bd1b0361b0ccc61": {
-  "author": "Paul Mundt",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:21 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "66341a905ef5b3e7aea65b5d9bd1b0361b0ccc61",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "include/linux/percpu.h"
+  ],
+  "entropy": 0.0
  },
  "0f5c79f2920cbc21c718daeb0b12d69acf4de163": {
-  "author": "Luiz Fernando Capitulino",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:20 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0f5c79f2920cbc21c718daeb0b12d69acf4de163",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "fs/proc/task_mmu.c"
+  ],
+  "entropy": 0.0
  },
  "0ff1b2c8ceaf92197f756be569afefd593c56f68": {
-  "author": "Paul Fulghum",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:19 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 3,
+  "num_dels_if": 3,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0ff1b2c8ceaf92197f756be569afefd593c56f68",
+  "num_adds": 16,
+  "num_dels": 14,
+  "num_mod_lns_total": 30,
+  "mod_files_lst": [
+   "drivers/char/synclink.c"
+  ],
+  "entropy": 0.0
  },
  "ab4eb43ce759559d7b15c5dde4a1562f202539f6": {
-  "author": "Denis Lunev",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:17 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ab4eb43ce759559d7b15c5dde4a1562f202539f6",
+  "num_adds": 3,
+  "num_dels": 1,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "fs/ext3/inode.c"
+  ],
+  "entropy": 0.0
  },
  "b17b0421d70f5b85a791afe145a16d5ca5f849aa": {
-  "author": "Heiko Carstens",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:14 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 3,
+  "num_mod_total_if": 3,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b17b0421d70f5b85a791afe145a16d5ca5f849aa",
+  "num_adds": 1,
+  "num_dels": 9,
+  "num_mod_lns_total": 10,
+  "mod_files_lst": [
+   "kernel/signal.c"
+  ],
+  "entropy": 0.0
  },
  "ba260e23efbabcff975f60401475c2bdd693f872": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:14 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ba260e23efbabcff975f60401475c2bdd693f872",
+  "num_adds": 4,
+  "num_dels": 2,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "arch/um/drivers/daemon_user.c"
+  ],
+  "entropy": 0.0
  },
  "7a590611c0f1e1302c58fdfdc958f2d6bdddd78a": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:13 -0800",
-  "committer_date": "2005-11-13 18:14:15 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7a590611c0f1e1302c58fdfdc958f2d6bdddd78a",
+  "num_adds": 26,
+  "num_dels": 23,
+  "num_mod_lns_total": 49,
+  "mod_files_lst": [
+   "arch/um/include/um_uaccess.h",
+   "arch/um/kernel/skas/include/uaccess-skas.h",
+   "arch/um/kernel/skas/uaccess.c",
+   "arch/um/kernel/tt/include/uaccess-tt.h",
+   "arch/um/kernel/tt/uaccess.c"
+  ],
+  "entropy": 2.2500003460891502
  },
  "55c033c1f6cdedc350c79c3198b542e3ab496899": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:11 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "55c033c1f6cdedc350c79c3198b542e3ab496899",
+  "num_adds": 5,
+  "num_dels": 6,
+  "num_mod_lns_total": 11,
+  "mod_files_lst": [
+   "arch/um/drivers/chan_kern.c",
+   "arch/um/drivers/chan_user.c",
+   "arch/um/include/chan_user.h"
+  ],
+  "entropy": 1.4949188482339508
  },
  "fd9bc53b99a77aefe89d810d889aa6385565959b": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:10 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "fd9bc53b99a77aefe89d810d889aa6385565959b",
+  "num_adds": 6,
+  "num_dels": 31,
+  "num_mod_lns_total": 37,
+  "mod_files_lst": [
+   "arch/um/drivers/fd.c",
+   "arch/um/drivers/port_user.c",
+   "arch/um/drivers/pty.c",
+   "arch/um/drivers/tty.c",
+   "arch/um/drivers/xterm.c"
+  ],
+  "entropy": 2.313905721558849
  },
  "c50d2c4d6685db9b45cf6521046296df5bc42592": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:07 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c50d2c4d6685db9b45cf6521046296df5bc42592",
+  "num_adds": 10,
+  "num_dels": 10,
+  "num_mod_lns_total": 20,
+  "mod_files_lst": [
+   "arch/um/drivers/mcast_user.c"
+  ],
+  "entropy": 0.0
  },
  "85977376c73b7712ed3618888ade126075888c06": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:06 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "85977376c73b7712ed3618888ade126075888c06",
+  "num_adds": 3,
+  "num_dels": 6,
+  "num_mod_lns_total": 9,
+  "mod_files_lst": [
+   "arch/um/Kconfig",
+   "arch/um/Kconfig.i386",
+   "arch/um/Makefile-i386"
+  ],
+  "entropy": 0.9182958340544896
  },
  "3b8d108a6e7992a53e0736abefac1b2e07ce98de": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:04 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3b8d108a6e7992a53e0736abefac1b2e07ce98de",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "arch/um/Kconfig"
+  ],
+  "entropy": 0.0
  },
  "cbc24afa82106b67df804cb434739e4382eecd9a": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:04 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "cbc24afa82106b67df804cb434739e4382eecd9a",
+  "num_adds": 9,
+  "num_dels": 0,
+  "num_mod_lns_total": 9,
+  "mod_files_lst": [
+   "arch/um/kernel/trap_kern.c"
+  ],
+  "entropy": 0.0
  },
  "2ab23c95a0b77d45dc764dd4aed48fe6e8906e59": {
-  "author": "Paolo 'Blaisorblade' Giarrusso",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:07:00 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "2ab23c95a0b77d45dc764dd4aed48fe6e8906e59",
+  "num_adds": 11,
+  "num_dels": 1,
+  "num_mod_lns_total": 12,
+  "mod_files_lst": [
+   "Makefile"
+  ],
+  "entropy": 0.0
  },
  "3b66a1edb01b82269a668a478625765b1fa4936f": {
-  "author": "Roman Zippel",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:59 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3b66a1edb01b82269a668a478625765b1fa4936f",
+  "num_adds": 68,
+  "num_dels": 158,
+  "num_mod_lns_total": 226,
+  "mod_files_lst": [
+   "arch/m68k/fpsp040/skeleton.S",
+   "arch/m68k/ifpsp060/iskeleton.S",
+   "arch/m68k/kernel/asm-offsets.c",
+   "arch/m68k/kernel/entry.S",
+   "arch/m68k/kernel/ptrace.c",
+   "include/asm-m68k/processor.h",
+   "include/asm-m68k/thread_info.h",
+   "include/linux/thread_info.h"
+  ],
+  "entropy": 2.3642937119443816
  },
  "abd03753bd1532c05eb13231569a5257b007e29c": {
-  "author": "Al Viro",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:58 -0800",
-  "committer_date": "2005-11-13 18:14:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "abd03753bd1532c05eb13231569a5257b007e29c",
+  "num_adds": 14,
+  "num_dels": 3,
+  "num_mod_lns_total": 17,
+  "mod_files_lst": [
+   "arch/m68k/kernel/asm-offsets.c",
+   "include/asm-m68k/processor.h",
+   "include/asm-m68k/thread_info.h"
+  ],
+  "entropy": 1.2607717938967942
  },
  "f037360f2ed111fe89a8f5cb6ba351f4e9934e53": {
-  "author": "Al Viro",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:57 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f037360f2ed111fe89a8f5cb6ba351f4e9934e53",
+  "num_adds": 7,
+  "num_dels": 1,
+  "num_mod_lns_total": 8,
+  "mod_files_lst": [
+   "arch/sparc/lib/bitext.c",
+   "include/linux/hardirq.h",
+   "include/linux/interrupt.h",
+   "include/linux/preempt.h",
+   "include/linux/sched.h",
+   "include/linux/smp_lock.h"
+  ],
+  "entropy": 2.5
  },
  "10ebffde3d3916026974352b7900e44afe2b243f": {
-  "author": "Al Viro",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:56 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "10ebffde3d3916026974352b7900e44afe2b243f",
+  "num_adds": 12,
+  "num_dels": 4,
+  "num_mod_lns_total": 16,
+  "mod_files_lst": [
+   "include/linux/sched.h",
+   "kernel/fork.c",
+   "kernel/sched.c"
+  ],
+  "entropy": 1.4197367178034825
  },
  "a1261f54611ec4ad6a7ab7080f86747e3ac3685b": {
-  "author": "Al Viro",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:55 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a1261f54611ec4ad6a7ab7080f86747e3ac3685b",
+  "num_adds": 14,
+  "num_dels": 13,
+  "num_mod_lns_total": 27,
+  "mod_files_lst": [
+   "include/linux/sched.h",
+   "kernel/exit.c",
+   "kernel/fork.c",
+   "kernel/sched.c"
+  ],
+  "entropy": 1.6395862451836642
  },
  "7feacd53347c04aee789ba5d632eda0c3fc421c4": {
-  "author": "Tim Mann",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:54 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7feacd53347c04aee789ba5d632eda0c3fc421c4",
+  "num_adds": 3,
+  "num_dels": 1,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "arch/i386/kernel/timers/timer_pit.c"
+  ],
+  "entropy": 0.0
  },
  "e27182088e607880713d9c286a3d92d861c280e4": {
-  "author": "Jan Beulich",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:52 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e27182088e607880713d9c286a3d92d861c280e4",
+  "num_adds": 3,
+  "num_dels": 4,
+  "num_mod_lns_total": 7,
+  "mod_files_lst": [
+   "arch/i386/kernel/entry.S"
+  ],
+  "entropy": 0.0
  },
  "27d99f7ead8cd6d2231798bff0d4c38814afea22": {
-  "author": "Adrian Bunk",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:51 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "27d99f7ead8cd6d2231798bff0d4c38814afea22",
+  "num_adds": 2,
+  "num_dels": 1,
+  "num_mod_lns_total": 3,
+  "mod_files_lst": [
+   "arch/i386/mm/init.c"
+  ],
+  "entropy": 0.0
  },
  "4694ca02d19f42f5fd0b62cc2d0c7d3e5a0eef47": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:50 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4694ca02d19f42f5fd0b62cc2d0c7d3e5a0eef47",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "arch/powerpc/xmon/xmon.c"
+  ],
+  "entropy": 0.0
  },
  "647422868e48c9abd8ab85ad2a7de9161170ec89": {
-  "author": "Kumar Gala",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:49 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "647422868e48c9abd8ab85ad2a7de9161170ec89",
+  "num_adds": 11,
+  "num_dels": 4,
+  "num_mod_lns_total": 15,
+  "mod_files_lst": [
+   "arch/ppc/platforms/83xx/mpc834x_sys.c"
+  ],
+  "entropy": 0.0
  },
  "7fce260a6bf75080ef61408504add5618f90e41b": {
-  "author": "Olof Johansson",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:48 -0800",
-  "committer_date": "2005-11-13 18:14:13 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "7fce260a6bf75080ef61408504add5618f90e41b",
+  "num_adds": 26,
+  "num_dels": 3,
+  "num_mod_lns_total": 29,
+  "mod_files_lst": [
+   "arch/ppc/platforms/pmac_feature.c",
+   "drivers/char/agp/uninorth-agp.c",
+   "drivers/ide/ppc/pmac.c",
+   "drivers/net/sungem.c",
+   "include/linux/pci_ids.h"
+  ],
+  "entropy": 2.097506932885839
  },
  "50c85a19e7b3928b5b5188524c44ffcbacdd4e35": {
-  "author": "Christoph Lameter",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:47 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 1,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "50c85a19e7b3928b5b5188524c44ffcbacdd4e35",
+  "num_adds": 1,
+  "num_dels": 5,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "mm/slab.c"
+  ],
+  "entropy": 0.0
  },
  "065d41cb269e9debb18c6d5052e4de1088ae3d8f": {
-  "author": "Pekka Enberg",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:46 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "065d41cb269e9debb18c6d5052e4de1088ae3d8f",
+  "num_adds": 29,
+  "num_dels": 17,
+  "num_mod_lns_total": 46,
+  "mod_files_lst": [
+   "mm/slab.c"
+  ],
+  "entropy": 0.0
  },
  "669ed17521b9b78cdbeac8a53c30599aca9527ce": {
-  "author": "Nick Piggin",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:45 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "669ed17521b9b78cdbeac8a53c30599aca9527ce",
+  "num_adds": 14,
+  "num_dels": 13,
+  "num_mod_lns_total": 27,
+  "mod_files_lst": [
+   "mm/page_alloc.c"
+  ],
+  "entropy": 0.0
  },
  "2d6c666e8704cf06267f29a4fa3d2cf823469c38": {
-  "author": "Paul Jackson",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:44 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "2d6c666e8704cf06267f29a4fa3d2cf823469c38",
+  "num_adds": 4,
+  "num_dels": 5,
+  "num_mod_lns_total": 9,
+  "mod_files_lst": [
+   "include/linux/gfp.h",
+   "include/linux/pagemap.h"
+  ],
+  "entropy": 0.9910760598382222
  },
  "7fb1d9fca5c6e3b06773b69165a73f3fb786b8ee": {
-  "author": "Rohit Seth",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:43 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 16,
+  "num_dels_if": 18,
+  "num_mod_total_if": 34,
+  "num_adds_loop": 2,
+  "num_dels_loop": 6,
+  "num_mod_total_loop": 8,
+  "file_hash": "7fb1d9fca5c6e3b06773b69165a73f3fb786b8ee",
+  "num_adds": 85,
+  "num_dels": 102,
+  "num_mod_lns_total": 187,
+  "mod_files_lst": [
+   "include/linux/mmzone.h",
+   "mm/page_alloc.c",
+   "mm/vmscan.c"
+  ],
+  "entropy": 0.28960676398053053
  },
  "51c6f666fceb3184eeff045dad4432b602cd648e": {
-  "author": "Robin Holt",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:42 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 6,
+  "num_dels_if": 6,
+  "num_mod_total_if": 12,
+  "num_adds_loop": 4,
+  "num_dels_loop": 4,
+  "num_mod_total_loop": 8,
+  "file_hash": "51c6f666fceb3184eeff045dad4432b602cd648e",
+  "num_adds": 50,
+  "num_dels": 34,
+  "num_mod_lns_total": 84,
+  "mod_files_lst": [
+   "include/linux/hugetlb.h",
+   "mm/memory.c"
+  ],
+  "entropy": 0.2761954276479391
  },
  "885036d32f5d3c427c3e2b385b5a5503805e3e52": {
-  "author": "Kirill Korotaev",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:41 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "885036d32f5d3c427c3e2b385b5a5503805e3e52",
+  "num_adds": 5,
+  "num_dels": 0,
+  "num_mod_lns_total": 5,
+  "mod_files_lst": [
+   "mm/page_alloc.c"
+  ],
+  "entropy": 0.0
  },
  "d4d28dd4b12649d02a89d19e6bd12ab92a6fcd4e": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:40 -0800",
-  "committer_date": "2005-11-13 18:14:12 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d4d28dd4b12649d02a89d19e6bd12ab92a6fcd4e",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/pci/hotplug/shpchp_hpc.c"
+  ],
+  "entropy": 0.0
  },
  "5d1b8c9ef6edbe5feea1439c428b9388b8dec6f8": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:39 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5d1b8c9ef6edbe5feea1439c428b9388b8dec6f8",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/pci/hotplug/pciehp_hpc.c"
+  ],
+  "entropy": 0.0
  },
  "afdd3b3c8ee63c662bafc9194c182610b254c59b": {
-  "author": "Richard Purdie",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:38 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "afdd3b3c8ee63c662bafc9194c182610b254c59b",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/video/w100fb.c"
+  ],
+  "entropy": 0.0
  },
  "ae7642bb05623988d8ca82b332dad1ed7bdb8ceb": {
-  "author": "Peter Osterlund",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:36 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "ae7642bb05623988d8ca82b332dad1ed7bdb8ceb",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/block/pktcdvd.c"
+  ],
+  "entropy": 0.0
  },
  "5563e77078d85c4f107a0a673500c43ce57cf702": {
-  "author": "Bob Picco",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:35 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5563e77078d85c4f107a0a673500c43ce57cf702",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "kernel/cpuset.c"
+  ],
+  "entropy": 0.0
  },
  "3c8d61bcf2d762fb84dbf741df400c833cada18a": {
-  "author": "Antonino A. Daplas",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:34 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3c8d61bcf2d762fb84dbf741df400c833cada18a",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/video/nvidia/nvidia.c"
+  ],
+  "entropy": 0.0
  },
  "89a071b80767c3a7ed56e13ae5e810f751b19eeb": {
-  "author": "akpm@osdl.org",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:33 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "89a071b80767c3a7ed56e13ae5e810f751b19eeb",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/pci/hotplug/rpaphp_pci.c"
+  ],
+  "entropy": 0.0
  },
  "005f18dfd0ed86c39716277b61dfb4bd2af91059": {
-  "author": "Christoph Hellwig",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:33 -0800",
-  "committer_date": "2005-11-13 18:14:11 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "005f18dfd0ed86c39716277b61dfb4bd2af91059",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "kernel/ptrace.c"
+  ],
+  "entropy": 0.0
  },
  "ab767201881fec073157986c314485ab26caa4a0": {
-  "author": "Antonino A. Daplas",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:32 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ab767201881fec073157986c314485ab26caa4a0",
+  "num_adds": 28,
+  "num_dels": 37,
+  "num_mod_lns_total": 65,
+  "mod_files_lst": [
+   "drivers/video/console/fbcon.c",
+   "drivers/video/console/fbcon.h",
+   "drivers/video/console/fbcon_ccw.c",
+   "drivers/video/console/fbcon_cw.c",
+   "drivers/video/console/fbcon_ud.c"
+  ],
+  "entropy": 2.1020732012827983
  },
  "c53ca784dc3e72a17dc210bee0361e13ad83d4cd": {
-  "author": "Andrew Morton",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:31 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c53ca784dc3e72a17dc210bee0361e13ad83d4cd",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/video/nvidia/nv_proto.h"
+  ],
+  "entropy": 0.0
  },
  "4c8d3d997ef3c0594350fba716529905b314287e": {
-  "author": "Kumar Gala",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:30 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4c8d3d997ef3c0594350fba716529905b314287e",
+  "num_adds": 51,
+  "num_dels": 51,
+  "num_mod_lns_total": 102,
+  "mod_files_lst": [
+   "CREDITS",
+   "MAINTAINERS",
+   "arch/powerpc/kernel/head_fsl_booke.S",
+   "arch/powerpc/mm/fsl_booke_mmu.c",
+   "arch/powerpc/oprofile/op_model_fsl_booke.c",
+   "arch/ppc/kernel/head_fsl_booke.S",
+   "arch/ppc/mm/fsl_booke_mmu.c",
+   "arch/ppc/platforms/83xx/mpc834x_sys.c",
+   "arch/ppc/platforms/83xx/mpc834x_sys.h",
+   "arch/ppc/platforms/85xx/mpc8540_ads.c",
+   "arch/ppc/platforms/85xx/mpc8540_ads.h",
+   "arch/ppc/platforms/85xx/mpc8555_cds.h",
+   "arch/ppc/platforms/85xx/mpc8560_ads.c",
+   "arch/ppc/platforms/85xx/mpc8560_ads.h",
+   "arch/ppc/platforms/85xx/mpc85xx_ads_common.c",
+   "arch/ppc/platforms/85xx/mpc85xx_ads_common.h",
+   "arch/ppc/platforms/85xx/mpc85xx_cds_common.c",
+   "arch/ppc/platforms/85xx/mpc85xx_cds_common.h",
+   "arch/ppc/platforms/85xx/sbc8560.c",
+   "arch/ppc/platforms/pq2ads.c",
+   "arch/ppc/syslib/ipic.h",
+   "arch/ppc/syslib/mpc83xx_devices.c",
+   "arch/ppc/syslib/mpc83xx_sys.c",
+   "arch/ppc/syslib/mpc85xx_devices.c",
+   "arch/ppc/syslib/mpc85xx_sys.c",
+   "arch/ppc/syslib/mpc8xx_devices.c",
+   "arch/ppc/syslib/mpc8xx_sys.c",
+   "arch/ppc/syslib/ppc83xx_setup.c",
+   "arch/ppc/syslib/ppc83xx_setup.h",
+   "arch/ppc/syslib/ppc85xx_common.c",
+   "arch/ppc/syslib/ppc85xx_common.h",
+   "arch/ppc/syslib/ppc85xx_setup.c",
+   "arch/ppc/syslib/ppc85xx_setup.h",
+   "arch/ppc/syslib/ppc_sys.c",
+   "arch/ppc/syslib/pq2_devices.c",
+   "arch/ppc/syslib/pq2_sys.c",
+   "drivers/char/watchdog/booke_wdt.c",
+   "drivers/net/gianfar.c",
+   "drivers/net/gianfar.h",
+   "drivers/net/gianfar_ethtool.c",
+   "drivers/net/gianfar_mii.c",
+   "drivers/net/gianfar_mii.h",
+   "drivers/serial/cpm_uart/cpm_uart_core.c",
+   "drivers/serial/cpm_uart/cpm_uart_cpm1.c",
+   "drivers/serial/cpm_uart/cpm_uart_cpm2.c",
+   "include/asm-ppc/immap_85xx.h",
+   "include/asm-ppc/ipic.h",
+   "include/asm-ppc/mpc83xx.h",
+   "include/asm-ppc/mpc85xx.h",
+   "include/asm-ppc/ppc_sys.h",
+   "include/linux/fsl_devices.h"
+  ],
+  "entropy": 5.6724253419715005
  },
  "c1986ee9bea3d880bcf0d3f1a31e055778f306c7": {
-  "author": "Harald Welte",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:29 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 165,
+  "num_dels_if": 0,
+  "num_mod_total_if": 165,
+  "num_adds_loop": 36,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 36,
+  "file_hash": "c1986ee9bea3d880bcf0d3f1a31e055778f306c7",
+  "num_adds": 1878,
+  "num_dels": 0,
+  "num_mod_lns_total": 1878,
+  "mod_files_lst": [
+   "MAINTAINERS",
+   "drivers/char/pcmcia/Kconfig",
+   "drivers/char/pcmcia/Makefile",
+   "drivers/char/pcmcia/cm4000_cs.c",
+   "include/linux/cm4000_cs.h"
+  ],
+  "entropy": 0.2519616901885532
  },
  "77c44ab1d8e9da31bf927223e1579b44f772b579": {
-  "author": "Harald Welte",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:26 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 75,
+  "num_dels_if": 0,
+  "num_mod_total_if": 75,
+  "num_adds_loop": 13,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 13,
+  "file_hash": "77c44ab1d8e9da31bf927223e1579b44f772b579",
+  "num_adds": 757,
+  "num_dels": 0,
+  "num_mod_lns_total": 757,
+  "mod_files_lst": [
+   "MAINTAINERS",
+   "drivers/char/pcmcia/Kconfig",
+   "drivers/char/pcmcia/Makefile",
+   "drivers/char/pcmcia/cm4040_cs.c",
+   "drivers/char/pcmcia/cm4040_cs.h"
+  ],
+  "entropy": 0.4515426447361429
  },
  "bca73e4bf8563d83f7856164caa44d5f42e44cca": {
-  "author": "Jeff Garzik",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:25 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "bca73e4bf8563d83f7856164caa44d5f42e44cca",
+  "num_adds": 82,
+  "num_dels": 55,
+  "num_mod_lns_total": 137,
+  "mod_files_lst": [
+   "arch/arm/kernel/apm.c",
+   "arch/frv/kernel/pm.c",
+   "arch/i386/Kconfig",
+   "arch/i386/kernel/apm.c",
+   "arch/mips/au1000/common/power.c",
+   "drivers/acpi/bus.c",
+   "drivers/net/3c509.c",
+   "drivers/net/irda/ali-ircc.c",
+   "drivers/net/irda/nsc-ircc.c",
+   "drivers/serial/68328serial.c",
+   "include/linux/pm.h",
+   "include/linux/pm_legacy.h",
+   "kernel/power/Kconfig",
+   "kernel/power/Makefile",
+   "kernel/power/pm.c",
+   "sound/oss/ad1848.c",
+   "sound/oss/cs4281/cs4281m.c",
+   "sound/oss/maestro.c",
+   "sound/oss/nm256_audio.c",
+   "sound/oss/opl3sa2.c"
+  ],
+  "entropy": 3.0537917860340666
  },
  "95e861db3eaba7bc99f8605db70103ec3d078203": {
-  "author": "Eric Dumazet",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:24 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "95e861db3eaba7bc99f8605db70103ec3d078203",
+  "num_adds": 5,
+  "num_dels": 5,
+  "num_mod_lns_total": 10,
+  "mod_files_lst": [
+   "include/linux/file.h"
+  ],
+  "entropy": 0.0
  },
  "d6c7ac081bf6cafcf780b919ee97978f1d01a0d7": {
-  "author": "Karsten Wiese",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:22 -0800",
-  "committer_date": "2005-11-13 18:14:10 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "d6c7ac081bf6cafcf780b919ee97978f1d01a0d7",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "arch/x86_64/kernel/i8259.c"
+  ],
+  "entropy": 0.0
  },
  "47936357c0d14809c3c9547e532511f6625654b2": {
-  "author": "Siddha, Suresh B",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 16:06:21 -0800",
-  "committer_date": "2005-11-13 18:14:09 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "47936357c0d14809c3c9547e532511f6625654b2",
+  "num_adds": 10,
+  "num_dels": 3,
+  "num_mod_lns_total": 13,
+  "mod_files_lst": [
+   "include/asm-x86_64/desc.h"
+  ],
+  "entropy": 0.0
  },
  "c9d39130123238ac18478a42e25cb7996eacfcc0": {
-  "author": "Jeff Garzik",
-  "committer": "Jeff Garzik",
-  "author_date": "2005-11-13 17:47:51 -0500",
-  "committer_date": "2005-11-13 17:47:51 -0500"
+  "num_adds_if": 5,
+  "num_dels_if": 1,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 2,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 5,
+  "file_hash": "c9d39130123238ac18478a42e25cb7996eacfcc0",
+  "num_adds": 204,
+  "num_dels": 42,
+  "num_mod_lns_total": 246,
+  "mod_files_lst": [
+   "drivers/scsi/sata_mv.c"
+  ],
+  "entropy": 0.0
  },
  "4ba529a8a39e15688b6a3d31b11930d1f8a1edad": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 13:45:00 -0800",
-  "committer_date": "2005-11-13 13:45:00 -0800"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4ba529a8a39e15688b6a3d31b11930d1f8a1edad",
+  "num_adds": 8,
+  "num_dels": 2,
+  "num_mod_lns_total": 10,
+  "mod_files_lst": [
+   "drivers/scsi/libata-core.c",
+   "drivers/scsi/libata-scsi.c",
+   "drivers/scsi/sata_sil24.c"
+  ],
+  "entropy": 1.295461844238322
  },
  "dcc2d1e7f0acf7d3f7ae632a73cd5f828ef9de20": {
-  "author": "Mark Lord",
-  "committer": "Jeff Garzik",
-  "author_date": "2005-11-13 16:22:06 -0500",
-  "committer_date": "2005-11-13 16:22:06 -0500"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "dcc2d1e7f0acf7d3f7ae632a73cd5f828ef9de20",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "drivers/scsi/libata-scsi.c"
+  ],
+  "entropy": 0.0
  },
  "e12a1be6e8fa47ae6cdc4127a1b4640e19c288eb": {
-  "author": "Mark Lord",
-  "committer": "Jeff Garzik",
-  "author_date": "2005-11-12 18:55:45 -0500",
-  "committer_date": "2005-11-13 16:19:26 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e12a1be6e8fa47ae6cdc4127a1b4640e19c288eb",
+  "num_adds": 1,
+  "num_dels": 2,
+  "num_mod_lns_total": 3,
+  "mod_files_lst": [
+   "drivers/scsi/libata-core.c"
+  ],
+  "entropy": 0.0
  },
  "41866a56cc4e676240b94ed8eaeca375aaef7496": {
-  "author": "Linus Torvalds",
-  "committer": "Linus Torvalds",
-  "author_date": "2005-11-13 12:30:14 -0800",
-  "committer_date": "2005-11-13 12:30:14 -0800"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "41866a56cc4e676240b94ed8eaeca375aaef7496",
+  "num_adds": 1,
+  "num_dels": 4,
+  "num_mod_lns_total": 5,
+  "mod_files_lst": [
+   "drivers/mtd/maps/Kconfig",
+   "fs/jffs2/scan.c"
+  ],
+  "entropy": 0.9709505944546686
  },
  "691b73b13220886aefacb7c7f7ace7f528bbf800": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:57 -0800",
-  "committer_date": "2005-11-13 14:48:21 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "691b73b13220886aefacb7c7f7ace7f528bbf800",
+  "num_adds": 26,
+  "num_dels": 0,
+  "num_mod_lns_total": 26,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.6193821946787638
  },
  "e944ef79184ff7f283e7bf79496d2873a0b0410b": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:50 -0800",
-  "committer_date": "2005-11-13 14:48:21 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e944ef79184ff7f283e7bf79496d2873a0b0410b",
+  "num_adds": 3,
+  "num_dels": 3,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_alb.c",
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.9182958340544896
  },
  "39755cad88f7b26dcb1edf9dcf14bd85f8fc2a3a": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:46 -0800",
-  "committer_date": "2005-11-13 14:48:21 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "39755cad88f7b26dcb1edf9dcf14bd85f8fc2a3a",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.0
  },
  "b76cdba9cdb29b091cacb4c11534ffb2eac02f64": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:41 -0800",
-  "committer_date": "2005-11-13 14:48:21 -0500"
+  "num_adds_if": 94,
+  "num_dels_if": 0,
+  "num_mod_total_if": 94,
+  "num_adds_loop": 4,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 4,
+  "file_hash": "b76cdba9cdb29b091cacb4c11534ffb2eac02f64",
+  "num_adds": 1264,
+  "num_dels": 1,
+  "num_mod_lns_total": 1265,
+  "mod_files_lst": [
+   "drivers/net/bonding/Makefile",
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bond_sysfs.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.17875158956143478
  },
  "4756b02f558cbbbef5ae278fd3bbed778458c124": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:25 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 2,
+  "num_dels_if": 0,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "4756b02f558cbbbef5ae278fd3bbed778458c124",
+  "num_adds": 19,
+  "num_dels": 0,
+  "num_mod_lns_total": 19,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "6b780567223524cac86c745aeac425521cf37490": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:19 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 1,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "6b780567223524cac86c745aeac425521cf37490",
+  "num_adds": 3,
+  "num_dels": 1,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "3c535952d86df83f817595068c9fd2b3cfbd3a4d": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:11 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "3c535952d86df83f817595068c9fd2b3cfbd3a4d",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "dfe60397a62b1a5ebc7f05fd65463d3e29397677": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:36:04 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 5,
+  "num_dels_if": 4,
+  "num_mod_total_if": 9,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "dfe60397a62b1a5ebc7f05fd65463d3e29397677",
+  "num_adds": 54,
+  "num_dels": 41,
+  "num_mod_lns_total": 95,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.08426242877623302
  },
  "a77b53258d76513c37e766dc0db1fc9db7c4ac1e": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:51 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "a77b53258d76513c37e766dc0db1fc9db7c4ac1e",
+  "num_adds": 24,
+  "num_dels": 13,
+  "num_mod_lns_total": 37,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.9090221560878149
  },
  "12479f9a823dc7d791f198af2d3e4efae418a65e": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:44 -0800",
-  "committer_date": "2005-11-13 14:48:20 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "12479f9a823dc7d791f198af2d3e4efae418a65e",
+  "num_adds": 9,
+  "num_dels": 8,
+  "num_mod_lns_total": 17,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c",
+   "drivers/net/bonding/bonding.h"
+  ],
+  "entropy": 0.7871265862012691
  },
  "b76850ab577bb4b929e60894d2025bbfcc043984": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:35 -0800",
-  "committer_date": "2005-11-13 14:48:19 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "b76850ab577bb4b929e60894d2025bbfcc043984",
+  "num_adds": 2,
+  "num_dels": 0,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_alb.c"
+  ],
+  "entropy": 0.0
  },
  "0d206a3af4329bd833cfa5fe1cc7fe146e49c131": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:30 -0800",
-  "committer_date": "2005-11-13 14:48:19 -0500"
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0d206a3af4329bd833cfa5fe1cc7fe146e49c131",
+  "num_adds": 10,
+  "num_dels": 8,
+  "num_mod_lns_total": 18,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_alb.c"
+  ],
+  "entropy": 0.0
  },
  "0f418b2ac49e97b7b763e0473320a201eec15ed3": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:21 -0800",
-  "committer_date": "2005-11-13 14:48:19 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "0f418b2ac49e97b7b763e0473320a201eec15ed3",
+  "num_adds": 2,
+  "num_dels": 2,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "c61b75ad03f3a30ef247cac27406f030c10628b0": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:13 -0800",
-  "committer_date": "2005-11-13 14:48:18 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c61b75ad03f3a30ef247cac27406f030c10628b0",
+  "num_adds": 6,
+  "num_dels": 0,
+  "num_mod_lns_total": 6,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "2ac47660f9b4d0ea1a2ab9becba03c14ef5d9b99": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:35:03 -0800",
-  "committer_date": "2005-11-13 14:48:18 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 2,
+  "num_dels_loop": 3,
+  "num_mod_total_loop": 5,
+  "file_hash": "2ac47660f9b4d0ea1a2ab9becba03c14ef5d9b99",
+  "num_adds": 12,
+  "num_dels": 5,
+  "num_mod_lns_total": 17,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 0.0
  },
  "4e0952c74ee450ded86e8946ce58ea8dfd05b007": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:34:57 -0800",
-  "committer_date": "2005-11-13 14:48:18 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 1,
+  "file_hash": "4e0952c74ee450ded86e8946ce58ea8dfd05b007",
+  "num_adds": 112,
+  "num_dels": 80,
+  "num_mod_lns_total": 192,
+  "mod_files_lst": [
+   "drivers/net/bonding/bond_3ad.c",
+   "drivers/net/bonding/bond_alb.c",
+   "drivers/net/bonding/bond_main.c"
+  ],
+  "entropy": 1.4644612019457397
  },
  "c2373ee98982a1c842dfb213c398f388d4227e63": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:34:45 -0800",
-  "committer_date": "2005-11-13 14:48:18 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "c2373ee98982a1c842dfb213c398f388d4227e63",
+  "num_adds": 3,
+  "num_dels": 1,
+  "num_mod_lns_total": 4,
+  "mod_files_lst": [
+   "include/linux/netdevice.h",
+   "net/core/dev.c"
+  ],
+  "entropy": 0.8112781244591328
  },
  "1e2e5659656b8b9bd9fa4714355d91282cb74178": {
-  "author": "Mitch Williams",
-  "committer": "John W. Linville",
-  "author_date": "2005-11-09 10:34:01 -0800",
-  "committer_date": "2005-11-13 14:48:17 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 1,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
+  "file_hash": "1e2e5659656b8b9bd9fa4714355d91282cb74178",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "net/core/utils.c"
+  ],
+  "entropy": 0.0
  },
  "5b9d1f19a7d6f13a97ac3eea9a1caea011ebd0ae": {
-  "author": "Thomas Gleixner",
-  "committer": "Thomas Gleixner",
-  "author_date": "2005-11-13 19:33:24 +0100",
-  "committer_date": "2005-11-13 19:33:24 +0100"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "5b9d1f19a7d6f13a97ac3eea9a1caea011ebd0ae",
+  "num_adds": 0,
+  "num_dels": 3,
+  "num_mod_lns_total": 3,
+  "mod_files_lst": [
+   "fs/jffs2/scan.c"
+  ],
+  "entropy": 0.0
  },
  "ef63d0049a28008c133e83743681c66e8b0872be": {
-  "author": "Sean Young",
-  "committer": "Thomas Gleixner",
-  "author_date": "2005-11-09 00:12:50 +0000",
-  "committer_date": "2005-11-13 19:30:44 +0100"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ef63d0049a28008c133e83743681c66e8b0872be",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "drivers/mtd/maps/Kconfig"
+  ],
+  "entropy": 0.0
  },
  "f3a9388e4ebea57583272007311fffa26ebbb305": {
-  "author": "Chris Wright",
-  "committer": "Trond Myklebust",
-  "author_date": "2005-11-11 17:20:14 -0800",
-  "committer_date": "2005-11-13 12:29:58 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "f3a9388e4ebea57583272007311fffa26ebbb305",
+  "num_adds": 0,
+  "num_dels": 1,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "fs/locks.c"
+  ],
+  "entropy": 0.0
  },
  "dc15ae14e97ee9d5ed740cbb0b94996076d8b37e": {
-  "author": "J. Bruce Fields",
-  "committer": "Trond Myklebust",
-  "author_date": "2005-11-10 19:08:00 -0500",
-  "committer_date": "2005-11-13 12:29:54 -0500"
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "dc15ae14e97ee9d5ed740cbb0b94996076d8b37e",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "fs/locks.c"
+  ],
+  "entropy": 0.0
  },
  "e9c05afa80ba9368ec5f78d493b17a8f836ef508": {
-  "author": "Tejun Heo",
-  "committer": "Jeff Garzik",
-  "author_date": "2005-11-14 00:24:18 +0900",
-  "committer_date": "2005-11-13 10:31:43 -0500"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e9c05afa80ba9368ec5f78d493b17a8f836ef508",
+  "num_adds": 1,
+  "num_dels": 0,
+  "num_mod_lns_total": 1,
+  "mod_files_lst": [
+   "drivers/scsi/sata_sil24.c"
+  ],
+  "entropy": 0.0
  },
  "ee31b337852ca8a65840702544ff5c64d37740f5": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2005-11-13 15:28:51 +0000",
-  "committer_date": "2005-11-13 15:28:51 +0000"
+  "num_adds_if": 4,
+  "num_dels_if": 3,
+  "num_mod_total_if": 7,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "ee31b337852ca8a65840702544ff5c64d37740f5",
+  "num_adds": 46,
+  "num_dels": 32,
+  "num_mod_lns_total": 78,
+  "mod_files_lst": [
+   "drivers/serial/serial_core.c"
+  ],
+  "entropy": 0.0
  },
  "bd5d080ab99642e3245ef7cfa54490384c01d878": {
-  "author": "Richard Purdie",
-  "committer": "Russell King",
-  "author_date": "2005-11-13 10:07:48 +0000",
-  "committer_date": "2005-11-13 10:07:48 +0000"
+  "num_adds_if": 8,
+  "num_dels_if": 0,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "bd5d080ab99642e3245ef7cfa54490384c01d878",
+  "num_adds": 180,
+  "num_dels": 0,
+  "num_mod_lns_total": 180,
+  "mod_files_lst": [
+   "arch/arm/mach-pxa/Makefile",
+   "arch/arm/mach-pxa/akita-ioexp.c",
+   "include/linux/i2c-id.h"
+  ],
+  "entropy": 0.09918337015179243
  },
  "e8b6f7f437a624fc2e2a2ec92fbeffdcf6f0e11e": {
-  "author": "Richard Purdie",
-  "committer": "Russell King",
-  "author_date": "2005-11-13 10:07:47 +0000",
-  "committer_date": "2005-11-13 10:07:47 +0000"
+  "num_adds_if": 15,
+  "num_dels_if": 0,
+  "num_mod_total_if": 15,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "e8b6f7f437a624fc2e2a2ec92fbeffdcf6f0e11e",
+  "num_adds": 199,
+  "num_dels": 1,
+  "num_mod_lns_total": 200,
+  "mod_files_lst": [
+   "arch/arm/mach-pxa/Makefile",
+   "arch/arm/mach-pxa/spitz_pm.c"
+  ],
+  "entropy": 0.08079313589591118
  },
  "d72f25b0dfb0807bd758da56a7ed88c0eb6e70d8": {
-  "author": "Richard Purdie",
-  "committer": "Russell King",
-  "author_date": "2005-11-13 10:07:46 +0000",
-  "committer_date": "2005-11-13 10:07:46 +0000"
+  "num_adds_if": 20,
+  "num_dels_if": 0,
+  "num_mod_total_if": 20,
+  "num_adds_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 1,
+  "file_hash": "d72f25b0dfb0807bd758da56a7ed88c0eb6e70d8",
+  "num_adds": 193,
+  "num_dels": 1,
+  "num_mod_lns_total": 194,
+  "mod_files_lst": [
+   "arch/arm/mach-pxa/Makefile",
+   "arch/arm/mach-pxa/corgi_pm.c"
+  ],
+  "entropy": 0.08283655281361223
  },
  "865052fd51a4f95a9c61961198695877ddc3dc9e": {
-  "author": "Russell King",
-  "committer": "Russell King",
-  "author_date": "2005-11-13 09:53:34 +0000",
-  "committer_date": "2005-11-13 09:53:34 +0000"
+  "num_adds_if": 0,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
+  "file_hash": "865052fd51a4f95a9c61961198695877ddc3dc9e",
+  "num_adds": 1,
+  "num_dels": 1,
+  "num_mod_lns_total": 2,
+  "mod_files_lst": [
+   "arch/arm/mach-footbridge/common.c"
+  ],
+  "entropy": 0.0
  }
 }

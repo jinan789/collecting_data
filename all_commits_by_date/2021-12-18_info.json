@@ -1,51 +1,19 @@
 {
  "3363bd0cfbb80dfcd25003cd3815b0ad8b68d0ff": {
-  "num_adds_if": 15,
-  "num_dels_if": 5,
-  "num_mod_total_if": 20,
-  "num_adds_loop": 1,
+  "num_adds_if": 13,
+  "num_dels_if": 4,
+  "num_mod_total_if": 17,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "3363bd0cfbb80dfcd25003cd3815b0ad8b68d0ff",
   "num_adds": 73,
   "num_dels": 21,
   "num_mod_lns_total": 94,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7f16d2aa4089"
-  ],
   "mod_files_lst": [
    "kernel/bpf/btf.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Kumar Kartikeya Dwivedi <memxor@gmail.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Kumar Kartikeya Dwivedi",
-  "author_email": "memxor@gmail.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-17 07:20:24 +0530",
-  "committer_date": "2021-12-18 18:11:47 -0800"
+  "entropy": 0.0
  },
  "53b1119a6e5028b125f431a0116ba73510d82a72": {
   "num_adds_if": 0,
@@ -58,65 +26,23 @@
   "num_adds": 8,
   "num_dels": 11,
   "num_mod_lns_total": 19,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "2585cf9dfaad"
-  ],
   "mod_files_lst": [
    "fs/nfsd/nfs3proc.c",
    "fs/nfsd/nfsproc.c"
   ],
-  "entropy": 0.9819407868640976,
-  "ppl_signed_off": [
-   "Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Anatoly Trosinenko <anatoly.trosinenko@gmail.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: f5dcccd647da (\"NFSD: Update the NFSv2 READDIR entry encoder to use struct xdr_stream\")",
-   "Fixes: 7f87fc2d34d4 (\"NFSD: Update NFSv3 READDIR entry encoders to use struct xdr_stream\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs/nfsd"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Chuck Lever",
-  "author_email": "chuck.lever@oracle.com",
-  "committer": "Chuck Lever",
-  "committer_email": "chuck.lever@oracle.com",
-  "author_date": "2021-12-16 11:12:11 -0500",
-  "committer_date": "2021-12-18 17:11:06 -0500"
+  "entropy": 0.9819407868640976
  },
  "7f16d2aa4089a882b6a9899876ac455036a8c34d": {
-  "num_adds_if": 36,
-  "num_dels_if": 48,
-  "num_mod_total_if": 84,
-  "num_adds_loop": 1,
-  "num_dels_loop": 5,
-  "num_mod_total_loop": 6,
+  "num_adds_if": 46,
+  "num_dels_if": 26,
+  "num_mod_total_if": 72,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "7f16d2aa4089a882b6a9899876ac455036a8c34d",
-  "num_adds": 335,
-  "num_dels": 443,
+  "num_adds": 443,
+  "num_dels": 335,
   "num_mod_lns_total": 778,
-  "num_mod_files": 15,
-  "is_merge": true,
-  "parents": [
-   "e967a20a8fab",
-   "9497c458c10b"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "include/linux/bpf_verifier.h",
@@ -134,41 +60,7 @@
    "tools/testing/selftests/bpf/prog_tests/ksyms_btf.c",
    "tools/testing/selftests/bpf/progs/test_ksyms_btf_write_check.c"
   ],
-  "entropy": 2.0008295470590562,
-  "ppl_signed_off": [
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/trace",
-   "net/core",
-   "kernel/bpf",
-   "include/linux",
-   "tools/testing/selftests/bpf/prog_tests",
-   "tools/testing/selftests/bpf/progs"
-  ],
-  "mod_sys": [
-   "net",
-   "include",
-   "kernel",
-   "tools"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 4,
-  "author": "Alexei Starovoitov",
-  "author_email": "ast@kernel.org",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-18 13:40:42 -0800",
-  "committer_date": "2021-12-18 13:41:20 -0800"
+  "entropy": 2.0008295470590562
  },
  "9497c458c10b049438ef6e6ddda898edbc3ec6a8": {
   "num_adds_if": 2,
@@ -181,63 +73,23 @@
   "num_adds": 43,
   "num_dels": 0,
   "num_mod_lns_total": 43,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "216e3cd2f28d"
-  ],
   "mod_files_lst": [
    "tools/testing/selftests/bpf/prog_tests/ksyms_btf.c",
    "tools/testing/selftests/bpf/progs/test_ksyms_btf_write_check.c"
   ],
-  "entropy": 0.9103480624345153,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Andrii Nakryiko <andrii@kernel.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/testing/selftests/bpf/progs",
-   "tools/testing/selftests/bpf/prog_tests"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:52 -0800",
-  "committer_date": "2021-12-18 13:27:41 -0800"
+  "entropy": 0.9103480624345153
  },
  "216e3cd2f28dbbf1fe86848e0e29e6693b9f0a20": {
   "num_adds_if": 3,
   "num_dels_if": 1,
   "num_mod_total_if": 4,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "216e3cd2f28dbbf1fe86848e0e29e6693b9f0a20",
   "num_adds": 73,
   "num_dels": 57,
   "num_mod_lns_total": 130,
-  "num_mod_files": 9,
-  "is_merge": false,
-  "parents": [
-   "34d3a78c681e"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "kernel/bpf/btf.c",
@@ -249,39 +101,7 @@
    "kernel/trace/bpf_trace.c",
    "net/core/filter.c"
   ],
-  "entropy": 2.1558293932637187,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/trace",
-   "include/linux",
-   "kernel/bpf",
-   "net/core"
-  ],
-  "mod_sys": [
-   "net",
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 4,
-  "num_mod_sys": 3,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:51 -0800",
-  "committer_date": "2021-12-18 13:27:41 -0800"
+  "entropy": 2.1558293932637187
  },
  "34d3a78c681e8e7844b43d1a2f4671a04249c821": {
   "num_adds_if": 4,
@@ -294,47 +114,11 @@
   "num_adds": 28,
   "num_dels": 6,
   "num_mod_lns_total": 34,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "cf9f2f8d62ec"
-  ],
   "mod_files_lst": [
    "kernel/bpf/helpers.c",
    "kernel/bpf/verifier.c"
   ],
-  "entropy": 0.5225593745369408,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 63d9b80dcf2c (\"bpf: Introducte bpf_this_cpu_ptr()\")",
-   "Fixes: eaa6bcb71ef6 (\"bpf: Introduce bpf_per_cpu_ptr()\")",
-   "Fixes: 4976b718c355 (\"bpf: Introduce pseudo_btf_id\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:50 -0800",
-  "committer_date": "2021-12-18 13:27:41 -0800"
+  "entropy": 0.5225593745369408
  },
  "cf9f2f8d62eca810afbd1ee6cc0800202b000e57": {
   "num_adds_if": 1,
@@ -347,51 +131,17 @@
   "num_adds": 2,
   "num_dels": 3,
   "num_mod_lns_total": 5,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "20b2aff4bc15"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "kernel/bpf/btf.c",
    "kernel/bpf/verifier.c"
   ],
-  "entropy": 1.5219280948873621,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:49 -0800",
-  "committer_date": "2021-12-18 13:27:41 -0800"
+  "entropy": 1.5219280948873621
  },
  "20b2aff4bc15bda809f994761d5719827d66c0b4": {
-  "num_adds_if": 8,
-  "num_dels_if": 7,
-  "num_mod_total_if": 15,
+  "num_adds_if": 7,
+  "num_dels_if": 6,
+  "num_mod_total_if": 13,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -399,11 +149,6 @@
   "num_adds": 60,
   "num_dels": 43,
   "num_mod_lns_total": 103,
-  "num_mod_files": 6,
-  "is_merge": false,
-  "parents": [
-   "c25b2ae13603"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "kernel/bpf/btf.c",
@@ -412,55 +157,19 @@
    "net/core/bpf_sk_storage.c",
    "net/core/sock_map.c"
   ],
-  "entropy": 1.0776699347989531,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core",
-   "include/linux",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "net",
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:48 -0800",
-  "committer_date": "2021-12-18 13:27:41 -0800"
+  "entropy": 1.0776699347989531
  },
  "c25b2ae136039ffa820c26138ed4a5e5f3ab3841": {
-  "num_adds_if": 17,
-  "num_dels_if": 13,
-  "num_mod_total_if": 30,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_if": 16,
+  "num_dels_if": 9,
+  "num_mod_total_if": 25,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "c25b2ae136039ffa820c26138ed4a5e5f3ab3841",
   "num_adds": 147,
   "num_dels": 188,
   "num_mod_lns_total": 335,
-  "num_mod_files": 7,
-  "is_merge": false,
-  "parents": [
-   "3c4807322660"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "include/linux/bpf_verifier.h",
@@ -470,104 +179,36 @@
    "net/core/bpf_sk_storage.c",
    "net/core/sock_map.c"
   ],
-  "entropy": 0.7342192149627796,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core",
-   "include/linux",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "net",
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 3,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:47 -0800",
-  "committer_date": "2021-12-18 13:27:23 -0800"
+  "entropy": 0.7342192149627796
  },
  "3f667b5d4053ad54aee13dab5c94f04ff75ddfdf": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 1,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 2,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "3f667b5d4053ad54aee13dab5c94f04ff75ddfdf",
   "num_adds": 22,
   "num_dels": 21,
   "num_mod_lns_total": 43,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "fb7d0829135a",
-   "6c33ff728812"
-  ],
   "mod_files_lst": [
    "drivers/tty/n_hdlc.c",
    "drivers/tty/serial/8250/8250_fintek.c"
   ],
-  "entropy": 0.996485989886783,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/tty",
-   "drivers/tty/serial/8250"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-12-18 13:23:55 -0800",
-  "committer_date": "2021-12-18 13:23:55 -0800"
+  "entropy": 0.996485989886783
  },
  "fb7d0829135a1db9abe9b8a10e42f47d5301861a": {
   "num_adds_if": 9,
   "num_dels_if": 4,
   "num_mod_total_if": 13,
-  "num_adds_loop": 3,
+  "num_adds_loop": 2,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "fb7d0829135a1db9abe9b8a10e42f47d5301861a",
   "num_adds": 87,
   "num_dels": 35,
   "num_mod_lns_total": 122,
-  "num_mod_files": 15,
-  "is_merge": true,
-  "parents": [
-   "0f03adcca7a1",
-   "c4d936efa46d"
-  ],
   "mod_files_lst": [
    "drivers/usb/cdns3/cdnsp-gadget.c",
    "drivers/usb/cdns3/cdnsp-ring.c",
@@ -585,45 +226,12 @@
    "drivers/usb/serial/option.c",
    "drivers/usb/typec/tcpm/tcpm.c"
   ],
-  "entropy": 3.6537376916635815,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/usb/typec/tcpm",
-   "drivers/usb/core",
-   "drivers/usb/early",
-   "drivers/usb/serial",
-   "drivers/usb/cdns3",
-   "drivers/usb/dwc2",
-   "drivers/usb/host",
-   "drivers/usb/gadget/legacy",
-   "drivers/usb/gadget",
-   "drivers/usb/gadget/function"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 10,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-12-18 13:16:43 -0800",
-  "committer_date": "2021-12-18 13:16:43 -0800"
+  "entropy": 3.6537376916635815
  },
  "3c4807322660d4290ac9062c034aed6b87243861": {
   "num_adds_if": 10,
-  "num_dels_if": 10,
-  "num_mod_total_if": 20,
+  "num_dels_if": 7,
+  "num_mod_total_if": 17,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -631,51 +239,17 @@
   "num_adds": 39,
   "num_dels": 34,
   "num_mod_lns_total": 73,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "48946bd6a5d6"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "kernel/bpf/helpers.c",
    "kernel/bpf/verifier.c"
   ],
-  "entropy": 0.996215132869539,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:46 -0800",
-  "committer_date": "2021-12-18 12:48:08 -0800"
+  "entropy": 0.996215132869539
  },
  "48946bd6a5d695c50b34546864b79c1f910a33c1": {
   "num_adds_if": 4,
-  "num_dels_if": 3,
-  "num_mod_total_if": 7,
+  "num_dels_if": 1,
+  "num_mod_total_if": 5,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -683,142 +257,45 @@
   "num_adds": 23,
   "num_dels": 31,
   "num_mod_lns_total": 54,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "d639b9d13a39"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "kernel/bpf/verifier.c"
   ],
-  "entropy": 0.8524051786494785,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux",
-   "kernel/bpf"
-  ],
-  "mod_sys": [
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:45 -0800",
-  "committer_date": "2021-12-18 12:47:24 -0800"
+  "entropy": 0.8524051786494785
  },
  "d639b9d13a39cf15639cbe6e8b2c43eb60148a73": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "d639b9d13a39cf15639cbe6e8b2c43eb60148a73",
   "num_adds": 55,
   "num_dels": 0,
   "num_mod_lns_total": 55,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "e967a20a8fab"
-  ],
   "mod_files_lst": [
    "include/linux/bpf.h",
    "include/linux/bpf_verifier.h"
   ],
-  "entropy": 0.7889406572966208,
-  "ppl_signed_off": [
-   "Signed-off-by: Hao Luo <haoluo@google.com>",
-   "Signed-off-by: Alexei Starovoitov <ast@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux"
-  ],
-  "mod_sys": [
-   "include"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Hao Luo",
-  "author_email": "haoluo@google.com",
-  "committer": "Alexei Starovoitov",
-  "committer_email": "ast@kernel.org",
-  "author_date": "2021-12-16 16:31:44 -0800",
-  "committer_date": "2021-12-18 12:46:40 -0800"
+  "entropy": 0.7889406572966208
  },
  "0f03adcca7a14d154ea1b64b7e2a091ee6951289": {
-  "num_adds_if": 0,
-  "num_dels_if": 2,
+  "num_adds_if": 2,
+  "num_dels_if": 0,
   "num_mod_total_if": 2,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0f03adcca7a14d154ea1b64b7e2a091ee6951289",
-  "num_adds": 4,
-  "num_dels": 14,
+  "num_adds": 14,
+  "num_dels": 4,
   "num_mod_lns_total": 18,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "9eaa88c7036e",
-   "c271a55b0c60"
-  ],
   "mod_files_lst": [
    "tools/perf/builtin-inject.c",
    "tools/perf/util/expr.c"
   ],
-  "entropy": 0.8524051786494785,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/perf",
-   "tools/perf/util"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2021-12-18 11:53:14 -0800",
-  "committer_date": "2021-12-18 11:53:14 -0800"
+  "entropy": 0.8524051786494785
  },
  "d558285413ea2f934ab90223ba908c30c5113aee": {
   "num_adds_if": 0,
@@ -831,47 +308,10 @@
   "num_adds": 8,
   "num_dels": 2,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "cd6cf06590b9"
-  ],
   "mod_files_lst": [
    "drivers/pci/msi/msi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Nathan Chancellor <nathan@kernel.org>"
-  ],
-  "ppl_reported": [
-   "Reported-by: Nathan Chancellor <nathan@kernel.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: f48235900182 (\"PCI/MSI: Simplify pci_irq_get_affinity()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/pci/msi"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Thomas Gleixner",
-  "author_email": "tglx@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2021-12-18 11:25:14 +0100",
-  "committer_date": "2021-12-18 20:33:21 +0100"
+  "entropy": 0.0
  },
  "eafba51c545a165b29777cde1fc8b04781a0a8db": {
   "num_adds_if": 0,
@@ -884,45 +324,11 @@
   "num_adds": 53,
   "num_dels": 17,
   "num_mod_lns_total": 70,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "fa55b7dcdc43"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/soc/bcm/brcm,bcm2835-vchiq.txt",
    "Documentation/devicetree/bindings/soc/bcm/brcm,bcm2835-vchiq.yaml"
   ],
-  "entropy": 0.7997594113291762,
-  "ppl_signed_off": [
-   "Signed-off-by: Stefan Wahren <stefan.wahren@i2se.com>",
-   "Signed-off-by: Nicolas Saenz Julienne <nsaenz@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/soc/bcm"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Stefan Wahren",
-  "author_email": "stefan.wahren@i2se.com",
-  "committer": "Nicolas Saenz Julienne",
-  "committer_email": "nsaenz@kernel.org",
-  "author_date": "2021-12-15 10:44:49 +0100",
-  "committer_date": "2021-12-18 18:54:57 +0100"
+  "entropy": 0.7997594113291762
  },
  "abc14eb1e01286819a671019e78a23542685eee2": {
   "num_adds_if": 1,
@@ -935,59 +341,22 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7ac5360cd4d0"
-  ],
   "mod_files_lst": [
    "drivers/acpi/nfit/core.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>",
-   "Signed-off-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/acpi/nfit"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Andy Shevchenko",
-  "author_email": "andriy.shevchenko@linux.intel.com",
-  "committer": "Dan Williams",
-  "committer_email": "dan.j.williams@intel.com",
-  "author_date": "2021-12-13 22:46:32 +0200",
-  "committer_date": "2021-12-18 08:12:40 -0800"
+  "entropy": 0.0
  },
  "7ac5360cd4d02cc7e0eaf10867f599e041822f12": {
   "num_adds_if": 2,
-  "num_dels_if": 11,
-  "num_mod_total_if": 13,
-  "num_adds_loop": 2,
-  "num_dels_loop": 3,
-  "num_mod_total_loop": 5,
+  "num_dels_if": 10,
+  "num_mod_total_if": 12,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "7ac5360cd4d02cc7e0eaf10867f599e041822f12",
   "num_adds": 41,
   "num_dels": 237,
   "num_mod_lns_total": 278,
-  "num_mod_files": 12,
-  "is_merge": false,
-  "parents": [
-   "30c6828a17a5"
-  ],
   "mod_files_lst": [
    "drivers/dax/bus.c",
    "drivers/dax/super.c",
@@ -1002,61 +371,19 @@
    "include/linux/dax.h",
    "include/linux/device-mapper.h"
   ],
-  "entropy": 3.0288258458324466,
-  "ppl_signed_off": [
-   "Signed-off-by: Christoph Hellwig <hch@lst.de>",
-   "Signed-off-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Vivek Goyal <vgoyal@redhat.com> [virtiofs]"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/fuse",
-   "fs",
-   "drivers/s390/block",
-   "include/linux",
-   "drivers/nvdimm",
-   "drivers/dax",
-   "drivers/md"
-  ],
-  "mod_sys": [
-   "fs",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 7,
-  "num_mod_sys": 3,
-  "author": "Christoph Hellwig",
-  "author_email": "hch@lst.de",
-  "committer": "Dan Williams",
-  "committer_email": "dan.j.williams@intel.com",
-  "author_date": "2021-12-15 09:45:08 +0100",
-  "committer_date": "2021-12-18 08:04:53 -0800"
+  "entropy": 3.0288258458324466
  },
  "30c6828a17a572aeb9e3a3bacce05fdcf1106541": {
   "num_adds_if": 1,
   "num_dels_if": 2,
   "num_mod_total_if": 3,
   "num_adds_loop": 0,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 1,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "30c6828a17a572aeb9e3a3bacce05fdcf1106541",
   "num_adds": 12,
   "num_dels": 20,
   "num_mod_lns_total": 32,
-  "num_mod_files": 7,
-  "is_merge": false,
-  "parents": [
-   "fd1d00ec9200"
-  ],
   "mod_files_lst": [
    "drivers/dax/bus.c",
    "drivers/dax/super.c",
@@ -1066,44 +393,7 @@
    "fs/fuse/virtio_fs.c",
    "include/linux/dax.h"
   ],
-  "entropy": 2.627620407472074,
-  "ppl_signed_off": [
-   "Signed-off-by: Christoph Hellwig <hch@lst.de>",
-   "Signed-off-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pankaj Gupta <pankaj.gupta@ionos.com>",
-   "Reviewed-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/fuse",
-   "drivers/s390/block",
-   "include/linux",
-   "drivers/nvdimm",
-   "drivers/dax",
-   "drivers/md"
-  ],
-  "mod_sys": [
-   "fs",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 3,
-  "author": "Christoph Hellwig",
-  "author_email": "hch@lst.de",
-  "committer": "Dan Williams",
-  "committer_email": "dan.j.williams@intel.com",
-  "author_date": "2021-12-15 09:45:07 +0100",
-  "committer_date": "2021-12-18 08:04:52 -0800"
+  "entropy": 2.627620407472074
  },
  "fd1d00ec92002d8fe28ca981a72395eaa7ae3d11": {
   "num_adds_if": 0,
@@ -1116,48 +406,11 @@
   "num_adds": 6,
   "num_dels": 14,
   "num_mod_lns_total": 20,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "e17f7a0bc4da"
-  ],
   "mod_files_lst": [
    "drivers/dax/super.c",
    "include/linux/dax.h"
   ],
-  "entropy": 0.9709505944546686,
-  "ppl_signed_off": [
-   "Signed-off-by: Christoph Hellwig <hch@lst.de>",
-   "Signed-off-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Pankaj Gupta <pankaj.gupta@ionos.com>",
-   "Reviewed-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/dax",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Christoph Hellwig",
-  "author_email": "hch@lst.de",
-  "committer": "Dan Williams",
-  "committer_email": "dan.j.williams@intel.com",
-  "author_date": "2021-12-15 09:45:06 +0100",
-  "committer_date": "2021-12-18 08:04:52 -0800"
+  "entropy": 0.9709505944546686
  },
  "e17f7a0bc4daa44a4809f5f2f947aa2aa74d1369": {
   "num_adds_if": 0,
@@ -1170,45 +423,11 @@
   "num_adds": 2,
   "num_dels": 22,
   "num_mod_lns_total": 24,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "de291b590286"
-  ],
   "mod_files_lst": [
    "drivers/nvdimm/pmem.c",
    "include/linux/uio.h"
   ],
-  "entropy": 0.6500224216483541,
-  "ppl_signed_off": [
-   "Signed-off-by: Christoph Hellwig <hch@lst.de>",
-   "Signed-off-by: Dan Williams <dan.j.williams@intel.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/nvdimm",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Christoph Hellwig",
-  "author_email": "hch@lst.de",
-  "committer": "Dan Williams",
-  "committer_email": "dan.j.williams@intel.com",
-  "author_date": "2021-12-15 09:45:05 +0100",
-  "committer_date": "2021-12-18 08:04:52 -0800"
+  "entropy": 0.6500224216483541
  },
  "60ec7fcfe76892a1479afab51ff17a4281923156": {
   "num_adds_if": 3,
@@ -1221,46 +440,12 @@
   "num_adds": 13,
   "num_dels": 5,
   "num_mod_lns_total": 18,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "1ade48d0c27d"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/qlogic/qlcnic/qlcnic_sriov.h",
    "drivers/net/ethernet/qlogic/qlcnic/qlcnic_sriov_common.c",
    "drivers/net/ethernet/qlogic/qlcnic/qlcnic_sriov_pf.c"
   ],
-  "entropy": 1.224394445405986,
-  "ppl_signed_off": [
-   "Signed-off-by: Jiasheng Jiang <jiasheng@iscas.ac.cn>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 154d0c810c53 (\"qlcnic: VLAN enhancement for 84XX adapters\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/ethernet/qlogic/qlcnic"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jiasheng Jiang",
-  "author_email": "jiasheng@iscas.ac.cn",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-17 17:39:11 +0800",
-  "committer_date": "2021-12-18 12:37:12 +0000"
+  "entropy": 1.224394445405986
  },
  "f85b244ee395c774a0039c176f46fc0d3747a0ae": {
   "num_adds_if": 1,
@@ -1273,42 +458,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "23044d77d606"
-  ],
   "mod_files_lst": [
    "net/core/xdp.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Yajun Deng <yajun.deng@linux.dev>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/core"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Yajun Deng",
-  "author_email": "yajun.deng@linux.dev",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-17 17:25:45 +0800",
-  "committer_date": "2021-12-18 12:35:49 +0000"
+  "entropy": 0.0
  },
  "1ade48d0c27d5da1ccf4b583d8c5fc8b534a3ac8": {
   "num_adds_if": 0,
@@ -1321,43 +474,10 @@
   "num_adds": 3,
   "num_dels": 1,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b2f37aead1b8"
-  ],
   "mod_files_lst": [
    "net/ax25/af_ax25.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Hanjie Wu <nagi@zju.edu.cn>",
-   "Signed-off-by: Lin Ma <linma@zju.edu.cn>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/ax25"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Lin Ma",
-  "author_email": "linma@zju.edu.cn",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-17 10:29:41 +0800",
-  "committer_date": "2021-12-18 12:33:56 +0000"
+  "entropy": 0.0
  },
  "b2f37aead1b82a770c48b5d583f35ec22aabb61e": {
   "num_adds_if": 0,
@@ -1370,60 +490,22 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "aa3cc8a9e400"
-  ],
   "mod_files_lst": [
    "drivers/net/hamradio/mkiss.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Lin Ma <linma@zju.edu.cn>",
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/hamradio"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Lin Ma",
-  "author_email": "linma@zju.edu.cn",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-17 10:13:56 +0800",
-  "committer_date": "2021-12-18 12:32:48 +0000"
+  "entropy": 0.0
  },
  "23044d77d6062ad1a5e26466931a7b75deaddbd7": {
-  "num_adds_if": 183,
-  "num_dels_if": 36,
-  "num_mod_total_if": 219,
-  "num_adds_loop": 42,
+  "num_adds_if": 110,
+  "num_dels_if": 29,
+  "num_mod_total_if": 139,
+  "num_adds_loop": 8,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 43,
+  "num_mod_total_loop": 9,
   "file_hash": "23044d77d6062ad1a5e26466931a7b75deaddbd7",
   "num_adds": 1637,
   "num_dels": 247,
   "num_mod_lns_total": 1884,
-  "num_mod_files": 6,
-  "is_merge": true,
-  "parents": [
-   "7e1c5d7b6926",
-   "92fc50859872"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/intel/iavf/iavf.h",
    "drivers/net/ethernet/intel/iavf/iavf_main.c",
@@ -1432,86 +514,26 @@
    "drivers/net/ethernet/intel/iavf/iavf_virtchnl.c",
    "include/linux/avf/virtchnl.h"
   ],
-  "entropy": 2.0133437263610734,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/intel/iavf",
-   "include/linux/avf"
-  ],
-  "mod_sys": [
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-18 12:22:17 +0000",
-  "committer_date": "2021-12-18 12:22:17 +0000"
+  "entropy": 2.0133437263610734
  },
  "aa3cc8a9e4001d50dd3e30b58257a9448b2b958b": {
   "num_adds_if": 6,
   "num_dels_if": 4,
   "num_mod_total_if": 10,
   "num_adds_loop": 1,
-  "num_dels_loop": 2,
-  "num_mod_total_loop": 3,
+  "num_dels_loop": 1,
+  "num_mod_total_loop": 2,
   "file_hash": "aa3cc8a9e4001d50dd3e30b58257a9448b2b958b",
   "num_adds": 62,
   "num_dels": 41,
   "num_mod_lns_total": 103,
-  "num_mod_files": 4,
-  "is_merge": true,
-  "parents": [
-   "158b515f703e",
-   "dcbaf72aa423"
-  ],
   "mod_files_lst": [
    "drivers/net/ethernet/intel/ice/ice_base.c",
    "drivers/net/ethernet/intel/ice/ice_txrx.c",
    "drivers/net/ethernet/intel/ice/ice_txrx.h",
    "drivers/net/ethernet/intel/ice/ice_xsk.c"
   ],
-  "entropy": 1.355165547238152,
-  "ppl_signed_off": [
-   "Signed-off-by: David S. Miller <davem@davemloft.net>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/ethernet/intel/ice"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "David S. Miller",
-  "author_email": "davem@davemloft.net",
-  "committer": "David S. Miller",
-  "committer_email": "davem@davemloft.net",
-  "author_date": "2021-12-18 12:19:15 +0000",
-  "committer_date": "2021-12-18 12:19:15 +0000"
+  "entropy": 1.355165547238152
  },
  "90d6cf349c5604bd79f1191d09ff1be0165a0513": {
   "num_adds_if": 0,
@@ -1524,44 +546,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f27456693b96"
-  ],
   "mod_files_lst": [
    "fs/9p/vfs_file.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Changcheng Deng <deng.changcheng@zte.com.cn>",
-   "Signed-off-by: Dominique Martinet <asmadeus@codewreck.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Zeal Robot <zealci@zte.com.cn>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/9p"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Changcheng Deng",
-  "author_email": "deng.changcheng@zte.com.cn",
-  "committer": "Dominique Martinet",
-  "committer_email": "asmadeus@codewreck.org",
-  "author_date": "2021-11-09 11:43:43 +0000",
-  "committer_date": "2021-12-18 21:04:50 +0900"
+  "entropy": 0.0
  },
  "f27456693b960ce4022d40b943808b3362ce80f9": {
   "num_adds_if": 0,
@@ -1574,42 +562,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2585cf9dfaad"
-  ],
   "mod_files_lst": [
    "net/9p/trans_virtio.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: zhuxinran <zhuran@mail.ustc.edu.cn>",
-   "Signed-off-by: Dominique Martinet <asmadeus@codewreck.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "net/9p"
-  ],
-  "mod_sys": [
-   "net"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "zhuxinran",
-  "author_email": "zhuran@mail.ustc.edu.cn",
-  "committer": "Dominique Martinet",
-  "committer_email": "asmadeus@codewreck.org",
-  "author_date": "2021-12-16 14:14:39 +0800",
-  "committer_date": "2021-12-18 21:04:43 +0900"
+  "entropy": 0.0
  },
  "c271a55b0c6029fed0cac909fa57999a11467132": {
   "num_adds_if": 0,
@@ -1622,51 +578,10 @@
   "num_adds": 7,
   "num_dels": 3,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0c8e32fe48f5"
-  ],
   "mod_files_lst": [
    "tools/perf/builtin-inject.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Adrian Hunter <adrian.hunter@intel.com>",
-   "Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Jiri Olsa <jolsa@redhat.com>",
-   "Cc: Namhyung Kim <namhyung@kernel.org>",
-   "Cc: Riccardo Mancini <rickyman7@gmail.com>",
-   "Cc: stable@vger.kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 0ae03893623dd1dd (\"perf tools: Pass a fd to perf_file_header__read_pipe()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "tools/perf"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Adrian Hunter",
-  "author_email": "adrian.hunter@intel.com",
-  "committer": "Arnaldo Carvalho de Melo",
-  "committer_email": "acme@redhat.com",
-  "author_date": "2021-12-13 10:48:29 +0200",
-  "committer_date": "2021-12-18 08:31:14 -0300"
+  "entropy": 0.0
  },
  "0c8e32fe48f549eef27c8c6b0a63530f83c3a643": {
   "num_adds_if": 1,
@@ -1679,51 +594,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0a515a06c5eb"
-  ],
   "mod_files_lst": [
    "tools/perf/builtin-inject.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Adrian Hunter <adrian.hunter@intel.com>",
-   "Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Jiri Olsa <jolsa@redhat.com>",
-   "Cc: Namhyung Kim <namhyung@kernel.org>",
-   "Cc: Riccardo Mancini <rickyman7@gmail.com>",
-   "Cc: stable@vger.kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 02e6246f5364d526 (\"perf inject: Close inject.output on exit\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "tools/perf"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Adrian Hunter",
-  "author_email": "adrian.hunter@intel.com",
-  "committer": "Arnaldo Carvalho de Melo",
-  "committer_email": "acme@redhat.com",
-  "author_date": "2021-12-13 10:48:28 +0200",
-  "committer_date": "2021-12-18 08:31:14 -0300"
+  "entropy": 0.0
  },
  "0a515a06c5ebfa46fee3ac519e418f801e718da4": {
   "num_adds_if": 1,
@@ -1736,50 +610,10 @@
   "num_adds": 5,
   "num_dels": 0,
   "num_mod_lns_total": 5,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "9eaa88c7036e"
-  ],
   "mod_files_lst": [
    "tools/perf/util/expr.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Miaoqian Lin <linmq006@gmail.com>",
-   "Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: Alexander Shishkin <alexander.shishkin@linux.intel.com>",
-   "Cc: Andi Kleen <ak@linux.intel.com>",
-   "Cc: Ian Rogers <irogers@google.com>",
-   "Cc: Jiri Olsa <jolsa@redhat.com>",
-   "Cc: Mark Rutland <mark.rutland@arm.com>",
-   "Cc: Namhyung Kim <namhyung@kernel.org>",
-   "Cc: Peter Zijlstra <peterz@infradead.org>"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/perf/util"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Miaoqian Lin",
-  "author_email": "linmq006@gmail.com",
-  "committer": "Arnaldo Carvalho de Melo",
-  "committer_email": "acme@redhat.com",
-  "author_date": "2021-12-12 06:25:02 +0000",
-  "committer_date": "2021-12-18 08:31:14 -0300"
+  "entropy": 0.0
  },
  "96c8bddb6cdefb029cc7e411a5ee2183477368ea": {
   "num_adds_if": 0,
@@ -1792,99 +626,30 @@
   "num_adds": 3,
   "num_dels": 2,
   "num_mod_lns_total": 5,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "b603377e408f"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/soc/samsung/exynos-chipid.yaml",
    "Documentation/devicetree/bindings/soc/samsung/exynos-pmu.yaml",
    "MAINTAINERS"
   ],
-  "entropy": 1.5219280948873621,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Sam Protsenko <semen.protsenko@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/soc/samsung",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Kozlowski",
-  "author_email": "krzysztof.kozlowski@canonical.com",
-  "committer": "Krzysztof Kozlowski",
-  "committer_email": "krzysztof.kozlowski@canonical.com",
-  "author_date": "2021-12-13 12:20:57 +0100",
-  "committer_date": "2021-12-18 11:55:59 +0100"
+  "entropy": 1.5219280948873621
  },
  "b603377e408fb41dbb0971635c57e123edbb5bf8": {
   "num_adds_if": 19,
   "num_dels_if": 0,
   "num_mod_total_if": 19,
-  "num_adds_loop": 5,
+  "num_adds_loop": 3,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 5,
+  "num_mod_total_loop": 3,
   "file_hash": "b603377e408fb41dbb0971635c57e123edbb5bf8",
   "num_adds": 301,
   "num_dels": 0,
   "num_mod_lns_total": 301,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "edb5dd48b320"
-  ],
   "mod_files_lst": [
    "drivers/soc/samsung/Kconfig",
    "drivers/soc/samsung/Makefile",
    "drivers/soc/samsung/exynos-usi.c"
   ],
-  "entropy": 0.32854947746184127,
-  "ppl_signed_off": [
-   "Signed-off-by: Sam Protsenko <semen.protsenko@linaro.org>",
-   "Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@canonical.com>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [
-   "Tested-by: Chanho Park <chanho61.park@samsung.com>"
-  ],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/soc/samsung"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sam Protsenko",
-  "author_email": "semen.protsenko@linaro.org",
-  "committer": "Krzysztof Kozlowski",
-  "committer_email": "krzysztof.kozlowski@canonical.com",
-  "author_date": "2021-12-04 21:57:54 +0200",
-  "committer_date": "2021-12-18 11:55:56 +0100"
+  "entropy": 0.32854947746184127
  },
  "f395d41f2a0343fa9d989d8f53e5640329554dd8": {
   "num_adds_if": 0,
@@ -1897,42 +662,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "c40b42c2b808"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7921/pci.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Deren Wu <deren.wu@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7921"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Deren Wu",
-  "author_email": "deren.wu@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-14 10:46:57 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.0
  },
  "c40b42c2b808bb4056aaa8dcf4f93863cc48981d": {
   "num_adds_if": 5,
@@ -1945,44 +678,12 @@
   "num_adds": 39,
   "num_dels": 3,
   "num_mod_lns_total": 42,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "bbc1d4154ec1"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt76.h",
    "drivers/net/wireless/mediatek/mt76/testmode.c",
    "drivers/net/wireless/mediatek/mt76/testmode.h"
   ],
-  "entropy": 0.7228578977329688,
-  "ppl_signed_off": [
-   "Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Shayne Chen",
-  "author_email": "shayne.chen@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-14 22:59:09 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.7228578977329688
  },
  "bbc1d4154ec1fcffbec7abf07bcb7cdc5b531400": {
   "num_adds_if": 9,
@@ -1995,48 +696,13 @@
   "num_adds": 94,
   "num_dels": 18,
   "num_mod_lns_total": 112,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "c23fa1bbc5d6"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7915/eeprom.c",
    "drivers/net/wireless/mediatek/mt76/mt7915/mcu.c",
    "drivers/net/wireless/mediatek/mt76/mt7915/mcu.h",
    "drivers/net/wireless/mediatek/mt76/mt7915/mt7915.h"
   ],
-  "entropy": 1.0290748076013319,
-  "ppl_signed_off": [
-   "Signed-off-by: Bo Jiao <Bo.Jiao@mediatek.com>",
-   "Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Ryder Lee <ryder.lee@mediatek.com>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Shayne Chen",
-  "author_email": "shayne.chen@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-01 01:48:42 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 1.0290748076013319
  },
  "c23fa1bbc5d6040398a3a1131d220a1ac5c90b3d": {
   "num_adds_if": 4,
@@ -2049,97 +715,30 @@
   "num_adds": 33,
   "num_dels": 45,
   "num_mod_lns_total": 78,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "dc5399a50b45"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7915/mac.c",
    "drivers/net/wireless/mediatek/mt76/mt7921/mac.c"
   ],
-  "entropy": 0.9881108365218302,
-  "ppl_signed_off": [
-   "Signed-off-by: Ryder Lee <ryder.lee@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915",
-   "drivers/net/wireless/mediatek/mt76/mt7921"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Ryder Lee",
-  "author_email": "ryder.lee@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-15 01:58:58 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.9881108365218302
  },
  "dc5399a50b45fa7656375612f0c9eb9bf47c0f9f": {
   "num_adds_if": 33,
   "num_dels_if": 3,
   "num_mod_total_if": 36,
-  "num_adds_loop": 3,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "dc5399a50b45fa7656375612f0c9eb9bf47c0f9f",
   "num_adds": 263,
   "num_dels": 9,
   "num_mod_lns_total": 272,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "8f05835425ce"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7615/mac.c",
    "drivers/net/wireless/mediatek/mt76/mt7615/mac.h",
    "drivers/net/wireless/mediatek/mt76/mt7915/mac.c",
    "drivers/net/wireless/mediatek/mt76/mt7921/mac.c"
   ],
-  "entropy": 1.6359910176877945,
-  "ppl_signed_off": [
-   "Signed-off-by: Xing Song <xing.song@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915",
-   "drivers/net/wireless/mediatek/mt76/mt7921",
-   "drivers/net/wireless/mediatek/mt76/mt7615"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 1,
-  "author": "Xing Song",
-  "author_email": "xing.song@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-10 12:19:31 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 1.6359910176877945
  },
  "8f05835425ce3f669e4b6d7c2c39a9aa22e1506c": {
   "num_adds_if": 4,
@@ -2152,46 +751,11 @@
   "num_adds": 61,
   "num_dels": 28,
   "num_mod_lns_total": 89,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "edc083183048"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7915/mcu.c",
    "drivers/net/wireless/mediatek/mt76/mt7915/mcu.h"
   ],
-  "entropy": 0.4360946642961213,
-  "ppl_signed_off": [
-   "Signed-off-by: Fang Zhao <fang.zhao@mediatek.com>",
-   "Signed-off-by: Ryder Lee <ryder.lee@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Fang Zhao <fang.zhao@mediatek.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Ryder Lee",
-  "author_email": "ryder.lee@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-12 03:45:31 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.4360946642961213
  },
  "edc083183048a42eb136ff4dfd31e15c8a551f34": {
   "num_adds_if": 2,
@@ -2204,42 +768,10 @@
   "num_adds": 8,
   "num_dels": 9,
   "num_mod_lns_total": 17,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0efaf31dec57"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7915/testmode.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Shayne Chen <shayne.chen@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Shayne Chen",
-  "author_email": "shayne.chen@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-05 18:37:26 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.0
  },
  "0efaf31dec572d3aac4316c6d952e06d1c33adc4": {
   "num_adds_if": 1,
@@ -2252,48 +784,12 @@
   "num_adds": 6,
   "num_dels": 1,
   "num_mod_lns_total": 7,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "8c55516de3f9"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7921/mt7921.h",
    "drivers/net/wireless/mediatek/mt76/mt7921/pci_mac.c",
    "drivers/net/wireless/mediatek/mt76/mt7921/pci_mcu.c"
   ],
-  "entropy": 1.3787834934861753,
-  "ppl_signed_off": [
-   "Signed-off-by: Sean Wang <sean.wang@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: YN Chen <YN.Chen@mediatek.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: dfc7743de1eb (\"mt76: mt7921: refactor mcu.c to be bus independent\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7921"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sean Wang",
-  "author_email": "sean.wang@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-03 08:05:16 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 1.3787834934861753
  },
  "8c55516de3f9b76b9d9444e7890682ec2efc809f": {
   "num_adds_if": 2,
@@ -2306,47 +802,15 @@
   "num_adds": 6,
   "num_dels": 2,
   "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2363b6a646b6"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7615/pci_init.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Peter Chiu <chui-hao.chiu@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7615"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Peter Chiu",
-  "author_email": "chui-hao.chiu@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-11-01 10:01:13 +0800",
-  "committer_date": "2021-12-18 11:47:57 +0100"
+  "entropy": 0.0
  },
  "2363b6a646b65a207345b9a9024dff0eff3fec44": {
   "num_adds_if": 0,
-  "num_dels_if": 1,
-  "num_mod_total_if": 1,
+  "num_dels_if": 0,
+  "num_mod_total_if": 0,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -2354,44 +818,10 @@
   "num_adds": 0,
   "num_dels": 6,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e42603af7ecc"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7921/main.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Sean Wang <sean.wang@mediatek.com>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: e0f9fdda81bd (\"mt76: mt7921: add ieee80211_ops\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7921"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Sean Wang",
-  "author_email": "sean.wang@mediatek.com",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-10-29 06:29:58 +0800",
-  "committer_date": "2021-12-18 11:47:56 +0100"
+  "entropy": 0.0
  },
  "e42603af7eccc3df20b7423faade95799dc213db": {
   "num_adds_if": 0,
@@ -2404,42 +834,10 @@
   "num_adds": 0,
   "num_dels": 47,
   "num_mod_lns_total": 47,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f75c1d55ecba"
-  ],
   "mod_files_lst": [
    "drivers/net/wireless/mediatek/mt76/mt7915/mcu.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>",
-   "Signed-off-by: Felix Fietkau <nbd@nbd.name>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/net/wireless/mediatek/mt76/mt7915"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Lorenzo Bianconi",
-  "author_email": "lorenzo@kernel.org",
-  "committer": "Felix Fietkau",
-  "committer_email": "nbd@nbd.name",
-  "author_date": "2021-10-23 15:49:38 +0200",
-  "committer_date": "2021-12-18 11:47:56 +0100"
+  "entropy": 0.0
  },
  "f16cc980d649e664b8f41e1bbaba50255d24e5d1": {
   "num_adds_if": 0,
@@ -2452,42 +850,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": true,
-  "parents": [
-   "5fb6e8cf53b0",
-   "8f556a326c93"
-  ],
   "mod_files_lst": [
    "kernel/locking/rtmutex.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "kernel/locking"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Thomas Gleixner",
-  "author_email": "tglx@linutronix.de",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2021-12-18 10:57:03 +0100",
-  "committer_date": "2021-12-18 10:57:03 +0100"
+  "entropy": 0.0
  },
  "8f556a326c93213927e683fc32bbf5be1b62540a": {
   "num_adds_if": 0,
@@ -2500,97 +866,27 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2585cf9dfaad"
-  ],
   "mod_files_lst": [
    "kernel/locking/rtmutex.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Zqiang <qiang1.zhang@intel.com>",
-   "Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: c3123c431447 (\"locking/rtmutex: Dont dereference waiter lockless\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "kernel/locking"
-  ],
-  "mod_sys": [
-   "kernel"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Zqiang",
-  "author_email": "qiang1.zhang@intel.com",
-  "committer": "Thomas Gleixner",
-  "committer_email": "tglx@linutronix.de",
-  "author_date": "2021-12-17 15:42:07 +0800",
-  "committer_date": "2021-12-18 10:55:51 +0100"
+  "entropy": 0.0
  },
  "107ba9bf49c211bebfab24b8e3525c320069f53a": {
   "num_adds_if": 0,
   "num_dels_if": 0,
   "num_mod_total_if": 0,
-  "num_adds_loop": 2,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 2,
+  "num_mod_total_loop": 0,
   "file_hash": "107ba9bf49c211bebfab24b8e3525c320069f53a",
   "num_adds": 158,
   "num_dels": 0,
   "num_mod_lns_total": 158,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "9710b162c8b9"
-  ],
   "mod_files_lst": [
    "drivers/phy/qualcomm/phy-qcom-qmp.c",
    "drivers/phy/qualcomm/phy-qcom-qmp.h"
   ],
-  "entropy": 0.7392994727240028,
-  "ppl_signed_off": [
-   "Signed-off-by: Dmitry Baryshkov <dmitry.baryshkov@linaro.org>",
-   "Signed-off-by: Vinod Koul <vkoul@kernel.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/phy/qualcomm"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dmitry Baryshkov",
-  "author_email": "dmitry.baryshkov@linaro.org",
-  "committer": "Vinod Koul",
-  "committer_email": "vkoul@kernel.org",
-  "author_date": "2021-12-15 01:58:39 +0300",
-  "committer_date": "2021-12-18 11:25:07 +0530"
+  "entropy": 0.7392994727240028
  },
  "9710b162c8b93cda554146520cddbc68c95dc6a6": {
   "num_adds_if": 0,
@@ -2603,46 +899,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6ad102e05d21"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/phy/qcom,qmp-phy.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Dmitry Baryshkov <dmitry.baryshkov@linaro.org>",
-   "Signed-off-by: Vinod Koul <vkoul@kernel.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Bjorn Andersson <bjorn.andersson@linaro.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/phy"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Dmitry Baryshkov",
-  "author_email": "dmitry.baryshkov@linaro.org",
-  "committer": "Vinod Koul",
-  "committer_email": "vkoul@kernel.org",
-  "author_date": "2021-12-15 01:58:38 +0300",
-  "committer_date": "2021-12-18 11:24:41 +0530"
+  "entropy": 0.0
  },
  "6795801366da0cd3d99e27c37f020a8f16714886": {
   "num_adds_if": 0,
@@ -2655,44 +915,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "60d8231089f0"
-  ],
   "mod_files_lst": [
    "fs/xfs/xfs_icache.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/xfs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-05-19 18:38:43 -0400",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "60d8231089f0d955e0cce033421df4b19e9adfb0": {
   "num_adds_if": 1,
@@ -2705,44 +931,10 @@
   "num_adds": 7,
   "num_dels": 2,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "589110e897ff"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-01-13 10:48:49 -0500",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "589110e897ff9cf7c3500c5fce1c688d1ffca6f4": {
   "num_adds_if": 1,
@@ -2755,49 +947,15 @@
   "num_adds": 7,
   "num_dels": 5,
   "num_mod_lns_total": 12,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e735c0079465"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-05-07 15:08:09 -0400",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "e735c0079465900d78d687f00aba625d46426b29": {
-  "num_adds_if": 4,
-  "num_dels_if": 4,
-  "num_mod_total_if": 8,
+  "num_adds_if": 2,
+  "num_dels_if": 2,
+  "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -2805,44 +963,10 @@
   "num_adds": 34,
   "num_dels": 36,
   "num_mod_lns_total": 70,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "81d4782a741b"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-11-02 12:45:12 -0400",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "81d4782a741b21c101eb368c120f65f7d624c219": {
   "num_adds_if": 1,
@@ -2855,44 +979,10 @@
   "num_adds": 10,
   "num_dels": 13,
   "num_mod_lns_total": 23,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "926550362d60"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-11-02 11:41:16 -0400",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "926550362d609bba6aa3f8cab99ae324adadc343": {
   "num_adds_if": 0,
@@ -2905,44 +995,10 @@
   "num_adds": 10,
   "num_dels": 11,
   "num_mod_lns_total": 21,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6e478521df53"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-11-02 10:51:55 -0400",
-  "committer_date": "2021-12-18 00:06:08 -0500"
+  "entropy": 0.0
  },
  "6e478521df535b9d5ef5eb84d4352f235bbbef99": {
   "num_adds_if": 1,
@@ -2955,49 +1011,12 @@
   "num_adds": 15,
   "num_dels": 15,
   "num_mod_lns_total": 30,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "9c4ce08dd211"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c",
    "fs/xfs/xfs_aops.c",
    "include/linux/iomap.h"
   ],
-  "entropy": 0.9055872616982603,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap",
-   "include/linux",
-   "fs/xfs"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-07-30 09:56:05 -0400",
-  "committer_date": "2021-12-18 00:06:07 -0500"
+  "entropy": 0.9055872616982603
  },
  "9c4ce08dd21145d10775c6ce6f21330a9558f8d9": {
   "num_adds_if": 0,
@@ -3010,44 +1029,10 @@
   "num_adds": 5,
   "num_dels": 5,
   "num_mod_lns_total": 10,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "bc6123a84a71"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>",
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-05-02 11:44:44 -0400",
-  "committer_date": "2021-12-18 00:06:07 -0500"
+  "entropy": 0.0
  },
  "bc6123a84a71b5dd39192c02ea8f9f4266980b0e": {
   "num_adds_if": 2,
@@ -3060,44 +1045,10 @@
   "num_adds": 33,
   "num_dels": 38,
   "num_mod_lns_total": 71,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a25def1fe568"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-05-02 11:33:08 -0400",
-  "committer_date": "2021-12-18 00:06:07 -0500"
+  "entropy": 0.0
  },
  "a25def1fe56858efa40a8490e875da4a711487f8": {
   "num_adds_if": 1,
@@ -3110,44 +1061,10 @@
   "num_adds": 9,
   "num_dels": 5,
   "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "d454ab82bc7f"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Christoph Hellwig <hch@lst.de>",
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-11-05 14:24:09 -0400",
-  "committer_date": "2021-12-18 00:06:07 -0500"
+  "entropy": 0.0
  },
  "d454ab82bc7f4aa7af9f539d5cf9a1e237cdcbc2": {
   "num_adds_if": 3,
@@ -3160,42 +1077,9 @@
   "num_adds": 8,
   "num_dels": 1,
   "num_mod_lns_total": 9,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ea0f843aa794"
-  ],
   "mod_files_lst": [
    "fs/iomap/buffered-io.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Darrick J. Wong <djwong@kernel.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs/iomap"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Matthew Wilcox (Oracle)",
-  "author_email": "willy@infradead.org",
-  "committer": "Matthew Wilcox (Oracle)",
-  "committer_email": "willy@infradead.org",
-  "author_date": "2021-12-09 15:47:44 -0500",
-  "committer_date": "2021-12-18 00:06:00 -0500"
+  "entropy": 0.0
  }
 }

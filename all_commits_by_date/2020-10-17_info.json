@@ -7,62 +7,25 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "edc05fe5559e9b79e64cfec3b960f6a913b73493",
-  "num_adds": 228,
+  "num_adds": 191,
   "num_dels": 0,
-  "num_mod_lns_total": 228,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "82c2d81361ec"
-  ],
+  "num_mod_lns_total": 191,
   "mod_files_lst": [
    "scripts/coccinelle/api/kfree_mismatch.cocci"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Denis Efremov <efremov@linux.com>",
-   "Signed-off-by: Julia Lawall <Julia.Lawall@lip6.fr>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "scripts/coccinelle/api"
-  ],
-  "mod_sys": [
-   "scripts"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Denis Efremov",
-  "author_email": "efremov@linux.com",
-  "committer": "Julia Lawall",
-  "committer_email": "Julia.Lawall@lip6.fr",
-  "author_date": "2020-10-16 11:54:42 +0300",
-  "committer_date": "2020-10-17 23:11:06 +0200"
+  "entropy": 0.0
  },
  "91989c707884ecc7cd537281ab1a4b8fb7219da3": {
-  "num_adds_if": 5,
-  "num_dels_if": 6,
-  "num_mod_total_if": 11,
-  "num_adds_loop": 2,
+  "num_adds_if": 4,
+  "num_dels_if": 4,
+  "num_mod_total_if": 8,
+  "num_adds_loop": 1,
   "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 2,
   "file_hash": "91989c707884ecc7cd537281ab1a4b8fb7219da3",
-  "num_adds": 46,
+  "num_adds": 45,
   "num_dels": 30,
-  "num_mod_lns_total": 76,
-  "num_mod_files": 14,
-  "is_merge": false,
-  "parents": [
-   "3c532798ec96"
-  ],
+  "num_mod_lns_total": 75,
   "mod_files_lst": [
    "arch/x86/kernel/cpu/mce/core.c",
    "arch/x86/kernel/cpu/resctrl/rdtgroup.c",
@@ -79,53 +42,7 @@
    "security/keys/keyctl.c",
    "security/yama/yama_lsm.c"
   ],
-  "entropy": 2.887846171218585,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: e91b48162332 (\"task_work: teach task_work_add() to do signal_wake_up()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "security/keys",
-   "drivers/android",
-   "arch/x86/kernel/cpu/resctrl",
-   "kernel/sched",
-   "arch/x86/kernel/cpu/mce",
-   "drivers/acpi/apei",
-   "fs",
-   "include/linux",
-   "kernel",
-   "kernel/events",
-   "security/yama",
-   "kernel/irq"
-  ],
-  "mod_sys": [
-   "security",
-   "fs",
-   "kernel",
-   "drivers",
-   "arch",
-   "include"
-  ],
-  "num_mod_dirs": 12,
-  "num_mod_sys": 6,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-16 09:02:26 -0600",
-  "committer_date": "2020-10-17 15:05:30 -0600"
+  "entropy": 2.888395821789702
  },
  "3c532798ec96b6c2d77706f04ed1d8b566a805df": {
   "num_adds_if": 16,
@@ -138,11 +55,6 @@
   "num_adds": 18,
   "num_dels": 46,
   "num_mod_lns_total": 64,
-  "num_mod_files": 27,
-  "is_merge": false,
-  "parents": [
-   "324bcf54c449"
-  ],
   "mod_files_lst": [
    "arch/alpha/kernel/signal.c",
    "arch/arc/kernel/signal.c",
@@ -172,114 +84,23 @@
    "kernel/entry/common.c",
    "kernel/entry/kvm.c"
   ],
-  "entropy": 4.53125,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Oleg Nesterov <oleg@redhat.com>",
-   "Reviewed-by: Thomas Gleixner <tglx@linutronix.de>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "arch/ia64/kernel",
-   "arch/csky/kernel",
-   "arch/riscv/kernel",
-   "include/linux",
-   "arch/hexagon/kernel",
-   "arch/arm/kernel",
-   "arch/openrisc/kernel",
-   "arch/m68k/kernel",
-   "arch/mips/kernel",
-   "arch/arm64/kernel",
-   "arch/arc/kernel",
-   "arch/microblaze/kernel",
-   "arch/h8300/kernel",
-   "arch/powerpc/kernel",
-   "arch/nios2/kernel",
-   "arch/um/kernel",
-   "arch/c6x/kernel",
-   "arch/alpha/kernel",
-   "arch/sh/kernel",
-   "arch/nds32/kernel",
-   "arch/xtensa/kernel",
-   "kernel/entry",
-   "arch/s390/kernel",
-   "arch/sparc/kernel",
-   "arch/parisc/kernel"
-  ],
-  "mod_sys": [
-   "arch",
-   "include",
-   "kernel"
-  ],
-  "num_mod_dirs": 25,
-  "num_mod_sys": 3,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-03 10:49:22 -0600",
-  "committer_date": "2020-10-17 15:04:36 -0600"
+  "entropy": 4.53125
  },
  "324bcf54c449c7b5b7024c9fa4549fbaaae1935d": {
-  "num_adds_if": 4,
+  "num_adds_if": 3,
   "num_dels_if": 3,
-  "num_mod_total_if": 7,
-  "num_adds_loop": 1,
+  "num_mod_total_if": 6,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "324bcf54c449c7b5b7024c9fa4549fbaaae1935d",
   "num_adds": 14,
   "num_dels": 6,
   "num_mod_lns_total": 20,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "13bd691421bc"
-  ],
   "mod_files_lst": [
    "mm/readahead.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Johannes Weiner <hannes@cmpxchg.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Matthew Wilcox (Oracle) <willy@infradead.org>",
-   "Reported-by: Hao_Xu <haoxu@linux.alibaba.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "mm"
-  ],
-  "mod_sys": [
-   "mm"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-17 09:25:52 -0600",
-  "committer_date": "2020-10-17 13:49:08 -0600"
+  "entropy": 0.0
  },
  "13bd691421bc191a402d2e0d3da5f248d170a632": {
   "num_adds_if": 1,
@@ -289,68 +110,25 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "13bd691421bc191a402d2e0d3da5f248d170a632",
-  "num_adds": 8,
+  "num_adds": 7,
   "num_dels": 0,
-  "num_mod_lns_total": 8,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "58852d4d6737"
-  ],
+  "num_mod_lns_total": 7,
   "mod_files_lst": [
    "mm/filemap.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org # v5.9"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Kent Overstreet <kent.overstreet@gmail.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 1a0a7853b901 (\"mm: support async buffered reads in generic_file_buffered_read()\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "mm"
-  ],
-  "mod_sys": [
-   "mm"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-17 08:31:29 -0600",
-  "committer_date": "2020-10-17 13:49:05 -0600"
+  "entropy": 0.0
  },
  "9d9af1007bc08971953ae915d88dc9bb21344b53": {
-  "num_adds_if": 336,
-  "num_dels_if": 112,
-  "num_mod_total_if": 448,
-  "num_adds_loop": 212,
-  "num_dels_loop": 99,
-  "num_mod_total_loop": 311,
+  "num_adds_if": 297,
+  "num_dels_if": 94,
+  "num_mod_total_if": 391,
+  "num_adds_loop": 108,
+  "num_dels_loop": 58,
+  "num_mod_total_loop": 166,
   "file_hash": "9d9af1007bc08971953ae915d88dc9bb21344b53",
-  "num_adds": 10449,
-  "num_dels": 5719,
-  "num_mod_lns_total": 16168,
-  "num_mod_files": 164,
-  "is_merge": true,
-  "parents": [
-   "a1e16bc7d5f7",
-   "744aec4df2c5"
-  ],
+  "num_adds": 9723,
+  "num_dels": 5645,
+  "num_mod_lns_total": 15368,
   "mod_files_lst": [
    "tools/build/Makefile.feature",
    "tools/build/feature/Makefile",
@@ -449,8 +227,6 @@
    "tools/perf/tests/parse-metric.c",
    "tools/perf/tests/pe-file-parsing.c",
    "tools/perf/tests/pe-file.c",
-   "tools/perf/tests/pe-file.exe",
-   "tools/perf/tests/pe-file.exe.debug",
    "tools/perf/tests/python-use.c",
    "tools/perf/tests/sdt.c",
    "tools/perf/tests/shell/buildid.sh",
@@ -517,74 +293,19 @@
    "tools/perf/util/tsc.h",
    "tools/perf/util/util.h"
   ],
-  "entropy": 5.2336026613154765,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "tools/build/feature",
-   "tools/perf",
-   "tools/perf/arch/x86/annotate",
-   "tools/perf/pmu-events/arch/x86/skylakex",
-   "tools/perf/Documentation",
-   "tools/perf/util/scripting-engines",
-   "tools/perf/pmu-events",
-   "tools/perf/scripts/python",
-   "tools/perf/arch/powerpc/util",
-   "tools/build",
-   "tools/lib/perf/include/perf",
-   "tools/perf/arch/arm64/util",
-   "tools/perf/pmu-events/arch/x86/amdzen1",
-   "tools/perf/bench",
-   "tools/perf/pmu-events/arch/powerpc/power9",
-   "tools/perf/tests",
-   "tools/perf/tests/shell",
-   "tools/perf/util",
-   "tools/perf/trace/beauty",
-   "tools/perf/pmu-events/arch/x86/amdzen2",
-   "tools/perf/pmu-events/arch/x86",
-   "tools/lib/traceevent",
-   "tools/lib/perf",
-   "tools/perf/pmu-events/arch/x86/cascadelakex",
-   "tools/perf/arch/x86/util",
-   "tools/perf/pmu-events/arch/powerpc/power8"
-  ],
-  "mod_sys": [
-   "tools"
-  ],
-  "num_mod_dirs": 26,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2020-10-17 11:47:46 -0700",
-  "committer_date": "2020-10-17 11:47:46 -0700"
+  "entropy": 5.136607918423061
  },
  "a1e16bc7d5f7ca3599d8a7f061841c93a563665e": {
-  "num_adds_if": 397,
-  "num_dels_if": 333,
-  "num_mod_total_if": 730,
-  "num_adds_loop": 55,
-  "num_dels_loop": 50,
-  "num_mod_total_loop": 105,
+  "num_adds_if": 361,
+  "num_dels_if": 301,
+  "num_mod_total_if": 662,
+  "num_adds_loop": 24,
+  "num_dels_loop": 19,
+  "num_mod_total_loop": 43,
   "file_hash": "a1e16bc7d5f7ca3599d8a7f061841c93a563665e",
-  "num_adds": 5213,
-  "num_dels": 4703,
-  "num_mod_lns_total": 9916,
-  "num_mod_files": 224,
-  "is_merge": true,
-  "parents": [
-   "2a934b38c066",
-   "c7a198c70076"
-  ],
+  "num_adds": 4731,
+  "num_dels": 4422,
+  "num_mod_lns_total": 9153,
   "mod_files_lst": [
    ".clang-format",
    "Documentation/ABI/stable/sysfs-class-infiniband",
@@ -811,142 +532,36 @@
    "tools/testing/scatterlist/linux/mm.h",
    "tools/testing/scatterlist/main.c"
   ],
-  "entropy": 6.415526556744024,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "include/linux/qed",
-   "drivers/net/ethernet/mellanox/mlx5/core",
-   "drivers/infiniband/ulp/rtrs",
-   "drivers/net/ethernet/mellanox/mlx5/core/ipoib",
-   "Documentation/ABI/stable",
-   "drivers/infiniband/hw/ocrdma",
-   "drivers/infiniband/hw/qib",
-   "tools/testing/scatterlist",
-   "include/linux",
-   "lib",
-   "drivers/infiniband/hw/usnic",
-   "drivers/infiniband/ulp/ipoib",
-   "drivers/infiniband/hw/mlx5",
-   "drivers/gpu/drm/vmwgfx",
-   "drivers/infiniband/hw/bnxt_re",
-   "drivers/infiniband/hw/hns",
-   "drivers/net/ethernet/qlogic/qede",
-   "drivers/infiniband/sw/rdmavt",
-   "drivers/infiniband/hw/efa",
-   "/",
-   "drivers/infiniband/sw/siw",
-   "drivers/infiniband/hw/mlx4",
-   "drivers/gpu/drm",
-   "include/linux/mlx5",
-   "include/rdma",
-   "drivers/infiniband/hw/cxgb4",
-   "drivers/infiniband",
-   "include/uapi/rdma",
-   "drivers/infiniband/sw/rxe",
-   "drivers/infiniband/hw/i40iw",
-   "drivers/infiniband/hw/mthca",
-   "drivers/infiniband/hw/qedr",
-   "drivers/gpu/drm/i915/gem",
-   "drivers/infiniband/ulp/isert",
-   "drivers/infiniband/core",
-   "drivers/infiniband/hw/hfi1",
-   "tools/testing/scatterlist/linux",
-   "drivers/net/ethernet/qlogic/qed",
-   "include/trace/events",
-   "drivers/infiniband/hw/vmw_pvrdma",
-   "/",
-   "/"
-  ],
-  "mod_sys": [
-   "tools",
-   "Documentation",
-   "lib",
-   "drivers",
-   "include"
-  ],
-  "num_mod_dirs": 42,
-  "num_mod_sys": 5,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2020-10-17 11:18:18 -0700",
-  "committer_date": "2020-10-17 11:18:18 -0700"
+  "entropy": 6.439417009710014
  },
  "2a934b38c066ff221b08a9c703314a2a1c885dbd": {
-  "num_adds_if": 10,
-  "num_dels_if": 8,
-  "num_mod_total_if": 18,
-  "num_adds_loop": 2,
-  "num_dels_loop": 1,
-  "num_mod_total_loop": 3,
+  "num_adds_if": 7,
+  "num_dels_if": 6,
+  "num_mod_total_if": 13,
+  "num_adds_loop": 0,
+  "num_dels_loop": 0,
+  "num_mod_total_loop": 0,
   "file_hash": "2a934b38c066ff221b08a9c703314a2a1c885dbd",
-  "num_adds": 94,
-  "num_dels": 54,
-  "num_mod_lns_total": 148,
-  "num_mod_files": 2,
-  "is_merge": true,
-  "parents": [
-   "6f78b9acf04f",
-   "abea14bfdebb"
-  ],
+  "num_adds": 82,
+  "num_dels": 50,
+  "num_mod_lns_total": 132,
   "mod_files_lst": [
    "drivers/i3c/master.c",
    "drivers/i3c/master/i3c-master-cdns.c"
   ],
-  "entropy": 0.1792560669283215,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/i3c",
-   "drivers/i3c/master"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 1,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2020-10-17 11:01:01 -0700",
-  "committer_date": "2020-10-17 11:01:01 -0700"
+  "entropy": 0.19590927087360493
  },
  "6f78b9acf04fbf9ede7f4265e7282f9fb39d2c8c": {
-  "num_adds_if": 197,
-  "num_dels_if": 151,
-  "num_mod_total_if": 348,
-  "num_adds_loop": 26,
-  "num_dels_loop": 14,
-  "num_mod_total_loop": 40,
+  "num_adds_if": 178,
+  "num_dels_if": 145,
+  "num_mod_total_if": 323,
+  "num_adds_loop": 12,
+  "num_dels_loop": 7,
+  "num_mod_total_loop": 19,
   "file_hash": "6f78b9acf04fbf9ede7f4265e7282f9fb39d2c8c",
-  "num_adds": 2316,
-  "num_dels": 1076,
-  "num_mod_lns_total": 3392,
-  "num_mod_files": 121,
-  "is_merge": true,
-  "parents": [
-   "5a77b6a0131f",
-   "6402f4ce9581"
-  ],
+  "num_adds": 2082,
+  "num_dels": 1001,
+  "num_mod_lns_total": 3083,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/mtd/nand-controller.yaml",
    "arch/arm/mach-davinci/board-da830-evm.c",
@@ -1070,74 +685,19 @@
    "include/linux/platform_data/mtd-davinci.h",
    "include/linux/platform_data/mtd-nand-s3c2410.h"
   ],
-  "entropy": 4.8028589928510845,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/mtd/spi-nor",
-   "drivers/mtd/nand",
-   "drivers/mtd/nand/raw",
-   "drivers/mtd/maps",
-   "drivers/mtd/nand/raw/bcm47xxnflash",
-   "drivers/mtd/spi-nor/controllers",
-   "drivers/mtd/parsers",
-   "drivers/mtd/lpddr",
-   "drivers/mtd/nand/onenand",
-   "drivers/mtd/hyperbus",
-   "drivers/mtd/nand/spi",
-   "include/linux/mtd",
-   "drivers/mtd/devices",
-   "include/linux/platform_data",
-   "arch/arm/mach-davinci",
-   "Documentation/devicetree/bindings/mtd",
-   "drivers/mtd/nand/raw/brcmnand",
-   "arch/arm/mach-s3c64xx",
-   "drivers/mtd",
-   "drivers/mtd/nand/raw/atmel",
-   "drivers/mtd/nand/raw/ingenic",
-   "arch/arm/mach-s3c24xx",
-   "drivers/mtd/nand/raw/gpmi-nand"
-  ],
-  "mod_sys": [
-   "arch",
-   "Documentation",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 23,
-  "num_mod_sys": 4,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2020-10-17 10:45:42 -0700",
-  "committer_date": "2020-10-17 10:45:42 -0700"
+  "entropy": 4.8805807972135264
  },
  "5a77b6a0131f7197e1a037f65fc7cbabcb4fe680": {
   "num_adds_if": 13,
   "num_dels_if": 11,
   "num_mod_total_if": 24,
-  "num_adds_loop": 1,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 1,
+  "num_mod_total_loop": 0,
   "file_hash": "5a77b6a0131f7197e1a037f65fc7cbabcb4fe680",
-  "num_adds": 156,
-  "num_dels": 82,
-  "num_mod_lns_total": 238,
-  "num_mod_files": 22,
-  "is_merge": true,
-  "parents": [
-   "071a0578b0ce",
-   "48b458591749"
-  ],
+  "num_adds": 142,
+  "num_dels": 79,
+  "num_mod_lns_total": 221,
   "mod_files_lst": [
    "Documentation/devicetree/bindings/thermal/allwinner,sun8i-a83t-ths.yaml",
    "Documentation/devicetree/bindings/thermal/rcar-gen3-thermal.yaml",
@@ -1162,38 +722,7 @@
    "include/linux/idle_inject.h",
    "include/linux/thermal.h"
   ],
-  "entropy": 3.626289398278476,
-  "ppl_signed_off": [],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/thermal/ti-soc-thermal",
-   "Documentation/devicetree/bindings/thermal",
-   "drivers/thermal",
-   "include/linux",
-   "drivers/thermal/intel/int340x_thermal",
-   "drivers/thermal/st"
-  ],
-  "mod_sys": [
-   "Documentation",
-   "include",
-   "drivers"
-  ],
-  "num_mod_dirs": 6,
-  "num_mod_sys": 3,
-  "author": "Linus Torvalds",
-  "author_email": "torvalds@linux-foundation.org",
-  "committer": "Linus Torvalds",
-  "committer_email": "torvalds@linux-foundation.org",
-  "author_date": "2020-10-17 10:40:22 -0700",
-  "committer_date": "2020-10-17 10:40:22 -0700"
+  "entropy": 3.7026359781466254
  },
  "58852d4d673760cf7c88b9360b3c24a041bec298": {
   "num_adds_if": 0,
@@ -1203,45 +732,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "58852d4d673760cf7c88b9360b3c24a041bec298",
-  "num_adds": 3,
+  "num_adds": 2,
   "num_dels": 1,
-  "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4ea33a976bfe"
-  ],
+  "num_mod_lns_total": 3,
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-16 20:55:56 +0100",
-  "committer_date": "2020-10-17 09:25:47 -0600"
+  "entropy": 0.0
  },
  "4ea33a976bfe79293965d0815e1914e4b6e58967": {
   "num_adds_if": 2,
@@ -1251,50 +748,16 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4ea33a976bfe79293965d0815e1914e4b6e58967",
-  "num_adds": 41,
-  "num_dels": 1,
-  "num_mod_lns_total": 42,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "d8a6df10aac9"
-  ],
+  "num_adds": 38,
+  "num_dels": 0,
+  "num_mod_lns_total": 38,
   "mod_files_lst": [
    "fs/io-wq.c",
    "fs/io_uring.c",
    "fs/proc/base.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 1.6004512092982517,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux",
-   "fs/proc"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 3,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 13:46:44 -0600",
-  "committer_date": "2020-10-17 09:25:47 -0600"
+  "entropy": 1.5797246680445114
  },
  "d8a6df10aac9f2e4d5f30aff3129d552d2984ce7": {
   "num_adds_if": 3,
@@ -1304,102 +767,36 @@
   "num_dels_loop": 1,
   "num_mod_total_loop": 2,
   "file_hash": "d8a6df10aac9f2e4d5f30aff3129d552d2984ce7",
-  "num_adds": 30,
-  "num_dels": 27,
-  "num_mod_lns_total": 57,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "500a373d731a"
-  ],
+  "num_adds": 27,
+  "num_dels": 25,
+  "num_mod_lns_total": 52,
   "mod_files_lst": [
    "fs/io_uring.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 0.5373760853377336,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 16:24:45 -0600",
-  "committer_date": "2020-10-17 09:25:47 -0600"
+  "entropy": 0.5159469300074474
  },
  "500a373d731ac506612db12631ec21295c1ff360": {
-  "num_adds_if": 5,
-  "num_dels_if": 2,
-  "num_mod_total_if": 7,
+  "num_adds_if": 3,
+  "num_dels_if": 1,
+  "num_mod_total_if": 4,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "500a373d731ac506612db12631ec21295c1ff360",
-  "num_adds": 17,
+  "num_adds": 15,
   "num_dels": 5,
-  "num_mod_lns_total": 22,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "5c3462cfd123"
-  ],
+  "num_mod_lns_total": 20,
   "mod_files_lst": [
    "fs/io_uring.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 0.5746356978376794,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 17:38:03 -0600",
-  "committer_date": "2020-10-17 09:25:46 -0600"
+  "entropy": 0.6098403047164004
  },
  "5c3462cfd123b341c9d3c947c1a2bab373f1697f": {
-  "num_adds_if": 2,
-  "num_dels_if": 2,
-  "num_mod_total_if": 4,
+  "num_adds_if": 1,
+  "num_dels_if": 1,
+  "num_mod_total_if": 2,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
@@ -1407,94 +804,28 @@
   "num_adds": 12,
   "num_dels": 10,
   "num_mod_lns_total": 22,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "1e6fa5216a0e"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 0.26676498780302604,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 09:02:33 -0600",
-  "committer_date": "2020-10-17 09:25:46 -0600"
+  "entropy": 0.26676498780302604
  },
  "1e6fa5216a0e59ef02e8b6b40d553238a3b81d49": {
-  "num_adds_if": 29,
+  "num_adds_if": 25,
   "num_dels_if": 11,
-  "num_mod_total_if": 40,
-  "num_adds_loop": 3,
+  "num_mod_total_if": 36,
+  "num_adds_loop": 0,
   "num_dels_loop": 0,
-  "num_mod_total_loop": 3,
+  "num_mod_total_loop": 0,
   "file_hash": "1e6fa5216a0e59ef02e8b6b40d553238a3b81d49",
-  "num_adds": 171,
+  "num_adds": 150,
   "num_dels": 52,
-  "num_mod_lns_total": 223,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "98447d65b4a7"
-  ],
+  "num_mod_lns_total": 202,
   "mod_files_lst": [
    "fs/io_uring.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 0.04143657108746383,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 08:46:24 -0600",
-  "committer_date": "2020-10-17 09:25:46 -0600"
+  "entropy": 0.045036285093553896
  },
  "98447d65b4a7a59f8ea37dc6e5d743247d9a7b01": {
   "num_adds_if": 10,
@@ -1504,146 +835,51 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "98447d65b4a7a59f8ea37dc6e5d743247d9a7b01",
-  "num_adds": 64,
+  "num_adds": 62,
   "num_dels": 57,
-  "num_mod_lns_total": 121,
-  "num_mod_files": 4,
-  "is_merge": false,
-  "parents": [
-   "dfead8a8e2c4"
-  ],
+  "num_mod_lns_total": 119,
   "mod_files_lst": [
    "fs/io-wq.c",
    "fs/io-wq.h",
    "fs/io_uring.c",
    "include/linux/io_uring.h"
   ],
-  "entropy": 1.6853163431342155,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs",
-   "include/linux"
-  ],
-  "mod_sys": [
-   "fs",
-   "include"
-  ],
-  "num_mod_dirs": 2,
-  "num_mod_sys": 2,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-14 10:48:51 -0600",
-  "committer_date": "2020-10-17 09:25:45 -0600"
+  "entropy": 1.6577824216259103
  },
  "dfead8a8e2c494b947480bac90a6f9792f08bc12": {
   "num_adds_if": 11,
-  "num_dels_if": 12,
-  "num_mod_total_if": 23,
+  "num_dels_if": 11,
+  "num_mod_total_if": 22,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "dfead8a8e2c494b947480bac90a6f9792f08bc12",
   "num_adds": 33,
-  "num_dels": 22,
-  "num_mod_lns_total": 55,
-  "num_mod_files": 2,
-  "is_merge": false,
-  "parents": [
-   "0f203765880c"
-  ],
+  "num_dels": 21,
+  "num_mod_lns_total": 54,
   "mod_files_lst": [
    "fs/io-wq.c",
    "fs/io_uring.c"
   ],
-  "entropy": 0.3760198509692728,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-14 10:12:37 -0600",
-  "committer_date": "2020-10-17 09:25:45 -0600"
+  "entropy": 0.3809465857053901
  },
  "0f203765880c4416675726be558b65da4a7604e2": {
-  "num_adds_if": 10,
-  "num_dels_if": 9,
-  "num_mod_total_if": 19,
+  "num_adds_if": 9,
+  "num_dels_if": 8,
+  "num_mod_total_if": 17,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "0f203765880c4416675726be558b65da4a7604e2",
-  "num_adds": 52,
+  "num_adds": 50,
   "num_dels": 64,
-  "num_mod_lns_total": 116,
-  "num_mod_files": 3,
-  "is_merge": false,
-  "parents": [
-   "a8b595b22d31"
-  ],
+  "num_mod_lns_total": 114,
   "mod_files_lst": [
    "fs/io-wq.c",
    "fs/io-wq.h",
    "fs/io_uring.c"
   ],
-  "entropy": 0.7104406940010806,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-14 09:23:55 -0600",
-  "committer_date": "2020-10-17 09:25:45 -0600"
+  "entropy": 0.6825810070490241
  },
  "a8b595b22d31f83b715511f59012f152a269d83b": {
   "num_adds_if": 0,
@@ -1656,43 +892,10 @@
   "num_adds": 1,
   "num_dels": 0,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "55cbc2564ab2"
-  ],
   "mod_files_lst": [
    "fs/io-wq.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [
-   "Cc: stable@vger.kernel.org"
-  ],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-15 10:13:07 -0600",
-  "committer_date": "2020-10-17 09:25:44 -0600"
+  "entropy": 0.0
  },
  "55cbc2564ab2fd555ec0fc39311a9cfb811d7da5": {
   "num_adds_if": 0,
@@ -1705,45 +908,10 @@
   "num_adds": 2,
   "num_dels": 1,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "0918682be432"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: syzbot+f4ebcc98223dafd8991e@syzkaller.appspotmail.com"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 5398ae698525 (\"io_uring: clean file_data access in files_register\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-14 07:35:57 -0600",
-  "committer_date": "2020-10-17 09:25:44 -0600"
+  "entropy": 0.0
  },
  "0918682be432b85ccd49285832221d9b65831ef5": {
   "num_adds_if": 0,
@@ -1756,139 +924,42 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "216578e55ac9"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Linus Torvalds <torvalds@linux-foundation.org>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jens Axboe",
-  "author_email": "axboe@kernel.dk",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 15:01:40 -0600",
-  "committer_date": "2020-10-17 09:25:43 -0600"
+  "entropy": 0.0
  },
  "216578e55ac932cf5e348d9e65d8e129fc9e34cc": {
-  "num_adds_if": 4,
-  "num_dels_if": 7,
-  "num_mod_total_if": 11,
+  "num_adds_if": 3,
+  "num_dels_if": 6,
+  "num_mod_total_if": 9,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "216578e55ac932cf5e348d9e65d8e129fc9e34cc",
-  "num_adds": 69,
-  "num_dels": 80,
-  "num_mod_lns_total": 149,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4edf20f99902"
-  ],
+  "num_adds": 60,
+  "num_dels": 72,
+  "num_mod_lns_total": 132,
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 09:44:00 +0100",
-  "committer_date": "2020-10-17 09:25:43 -0600"
+  "entropy": 0.0
  },
  "4edf20f9990230e9b85e79954d5cd28fc93616e9": {
   "num_adds_if": 1,
-  "num_dels_if": 5,
-  "num_mod_total_if": 6,
+  "num_dels_if": 4,
+  "num_mod_total_if": 5,
   "num_adds_loop": 0,
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "4edf20f9990230e9b85e79954d5cd28fc93616e9",
-  "num_adds": 9,
-  "num_dels": 24,
-  "num_mod_lns_total": 33,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "6a0af224c213"
-  ],
+  "num_adds": 8,
+  "num_dels": 21,
+  "num_mod_lns_total": 29,
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 09:43:59 +0100",
-  "committer_date": "2020-10-17 09:25:43 -0600"
+  "entropy": 0.0
  },
  "6a0af224c21309f24dbb1b79d0744b255d7156a0": {
   "num_adds_if": 0,
@@ -1901,42 +972,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b1b74cfc1967"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 09:43:58 +0100",
-  "committer_date": "2020-10-17 09:25:42 -0600"
+  "entropy": 0.0
  },
  "b1b74cfc1967bd0747ff85f650f598e84eeb3d1c": {
   "num_adds_if": 0,
@@ -1949,42 +988,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "368c5481ae7c"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 09:43:57 +0100",
-  "committer_date": "2020-10-17 09:25:42 -0600"
+  "entropy": 0.0
  },
  "368c5481ae7c6a9719c40984faea35480d9f4872": {
   "num_adds_if": 0,
@@ -1997,42 +1004,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "035fbafc7a54"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Pavel Begunkov <asml.silence@gmail.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Pavel Begunkov",
-  "author_email": "asml.silence@gmail.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-13 09:43:56 +0100",
-  "committer_date": "2020-10-17 09:25:42 -0600"
+  "entropy": 0.0
  },
  "035fbafc7a54b8c7755b3c508b8f3ab6ff3c8d65": {
   "num_adds_if": 0,
@@ -2045,44 +1020,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "071a0578b0ce"
-  ],
   "mod_files_lst": [
    "fs/io_uring.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Colin Ian King <colin.king@canonical.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 5398ae698525 (\"io_uring: clean file_data access in files_register\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "fs"
-  ],
-  "mod_sys": [
-   "fs"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Colin Ian King",
-  "author_email": "colin.king@canonical.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-12 15:03:41 +0100",
-  "committer_date": "2020-10-17 09:25:41 -0600"
+  "entropy": 0.0
  },
  "db073272700fce69a9c41b27c62d0003dbb66488": {
   "num_adds_if": 0,
@@ -2095,42 +1036,10 @@
   "num_adds": 0,
   "num_dels": 1,
   "num_mod_lns_total": 1,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b2a182a40278"
-  ],
   "mod_files_lst": [
    "drivers/block/skd_main.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Tian Tao <tiantao6@hisilicon.com>",
-   "Signed-off-by: Jens Axboe <axboe@kernel.dk>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/block"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Tian Tao",
-  "author_email": "tiantao6@hisilicon.com",
-  "committer": "Jens Axboe",
-  "committer_email": "axboe@kernel.dk",
-  "author_date": "2020-10-17 09:52:29 +0800",
-  "committer_date": "2020-10-17 08:11:14 -0600"
+  "entropy": 0.0
  },
  "14212fe77ef6f9b0ec61f9ad946dea90a22496ec": {
   "num_adds_if": 0,
@@ -2143,42 +1052,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "77bb5aaf2bb8"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/via/via_mm.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Bernard Zhao <bernard@vivo.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/via"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Bernard Zhao",
-  "author_email": "bernard@vivo.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-08-14 01:30:19 -0700",
-  "committer_date": "2020-10-17 10:10:24 +0200"
+  "entropy": 0.0
  },
  "9ce88a13b3016436441fec0b8b00ce8116f91269": {
   "num_adds_if": 0,
@@ -2191,42 +1068,10 @@
   "num_adds": 12,
   "num_dels": 6,
   "num_mod_lns_total": 18,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "a97cbcd00f05"
-  ],
   "mod_files_lst": [
    "sound/pci/hda/patch_ca0132.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Colin Ian King <colin.king@canonical.com>",
-   "Signed-off-by: Takashi Iwai <tiwai@suse.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/pci/hda"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Colin Ian King",
-  "author_email": "colin.king@canonical.com",
-  "committer": "Takashi Iwai",
-  "committer_email": "tiwai@suse.de",
-  "author_date": "2020-10-16 23:49:13 +0100",
-  "committer_date": "2020-10-17 09:58:59 +0200"
+  "entropy": 0.0
  },
  "a97cbcd00f05a23146fdd8269011c40b7229242d": {
   "num_adds_if": 0,
@@ -2239,42 +1084,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ce1558c285f9"
-  ],
   "mod_files_lst": [
    "sound/sparc/dbri.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Randy Dunlap <rdunlap@infradead.org>",
-   "Signed-off-by: Takashi Iwai <tiwai@suse.de>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "sound/sparc"
-  ],
-  "mod_sys": [
-   "sound"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Randy Dunlap",
-  "author_email": "rdunlap@infradead.org",
-  "committer": "Takashi Iwai",
-  "committer_email": "tiwai@suse.de",
-  "author_date": "2020-10-16 10:44:05 -0700",
-  "committer_date": "2020-10-17 09:58:35 +0200"
+  "entropy": 0.0
  },
  "77bb5aaf2bb8180e7d1bb70b4df306f511707a7d": {
   "num_adds_if": 1,
@@ -2287,46 +1100,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "e2dae672a9d5"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/tve200/tve200_drv.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Kozlowski <krzk@kernel.org>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Linus Walleij <linus.walleij@linaro.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 179c02fe90a4 (\"drm/tve200: Add new driver for TVE200\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/gpu/drm/tve200"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Kozlowski",
-  "author_email": "krzk@kernel.org",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-08-27 09:11:07 +0200",
-  "committer_date": "2020-10-17 09:33:01 +0200"
+  "entropy": 0.0
  },
  "e2dae672a9d5e11856fe30ede63467c65f999a81": {
   "num_adds_if": 1,
@@ -2339,46 +1116,10 @@
   "num_adds": 2,
   "num_dels": 2,
   "num_mod_lns_total": 4,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7a1f4fa4a629"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/mcde/mcde_drv.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Krzysztof Kozlowski <krzk@kernel.org>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Linus Walleij <linus.walleij@linaro.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [
-   "Fixes: 5fc537bfd000 (\"drm/mcde: Add new driver for ST-Ericsson MCDE\")"
-  ],
-  "is_fix": true,
-  "mod_dirs": [
-   "drivers/gpu/drm/mcde"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Krzysztof Kozlowski",
-  "author_email": "krzk@kernel.org",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-08-27 09:11:06 +0200",
-  "committer_date": "2020-10-17 09:32:56 +0200"
+  "entropy": 0.0
  },
  "7a1f4fa4a62933797152578d3730058fe6861b42": {
   "num_adds_if": 0,
@@ -2388,45 +1129,13 @@
   "num_dels_loop": 0,
   "num_mod_total_loop": 0,
   "file_hash": "7a1f4fa4a62933797152578d3730058fe6861b42",
-  "num_adds": 29,
+  "num_adds": 27,
   "num_dels": 0,
-  "num_mod_lns_total": 29,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "b73946a2efea"
-  ],
+  "num_mod_lns_total": 27,
   "mod_files_lst": [
    "drivers/gpu/drm/panel/panel-simple.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jagan Teki <jagan@amarulasolutions.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/panel"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jagan Teki",
-  "author_email": "jagan@amarulasolutions.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-04 23:38:21 +0530",
-  "committer_date": "2020-10-17 09:14:54 +0200"
+  "entropy": 0.0
  },
  "b73946a2efeab26325259a07a1f3fde9cce6958f": {
   "num_adds_if": 0,
@@ -2439,44 +1148,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7924bcdbcb12"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/display/panel/panel-simple.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jagan Teki <jagan@amarulasolutions.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings/display/panel"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jagan Teki",
-  "author_email": "jagan@amarulasolutions.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-04 23:38:20 +0530",
-  "committer_date": "2020-10-17 09:13:32 +0200"
+  "entropy": 0.0
  },
  "7924bcdbcb127b3f7d3b1eea94a8ef8ea035ca2e": {
   "num_adds_if": 0,
@@ -2489,44 +1164,10 @@
   "num_adds": 2,
   "num_dels": 0,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "83fc7f6a3514"
-  ],
   "mod_files_lst": [
    "Documentation/devicetree/bindings/vendor-prefixes.yaml"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jagan Teki <jagan@amarulasolutions.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Rob Herring <robh@kernel.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "Documentation/devicetree/bindings"
-  ],
-  "mod_sys": [
-   "Documentation"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jagan Teki",
-  "author_email": "jagan@amarulasolutions.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-04 23:38:19 +0530",
-  "committer_date": "2020-10-17 09:12:39 +0200"
+  "entropy": 0.0
  },
  "83fc7f6a351464815067e48f3cbe1db372143eb6": {
   "num_adds_if": 0,
@@ -2539,46 +1180,10 @@
   "num_adds": 1,
   "num_dels": 2,
   "num_mod_lns_total": 3,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "2f39766ea23a"
-  ],
   "mod_files_lst": [
    "drivers/video/fbdev/fsl-diu-fb.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Yan <yanaijie@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [
-   "Acked-by: Gustavo A. R. Silva <gustavoars@kernel.org>"
-  ],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Hulk Robot <hulkci@huawei.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/fbdev"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Yan",
-  "author_email": "yanaijie@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-10 22:05:58 +0800",
-  "committer_date": "2020-10-17 08:23:14 +0200"
+  "entropy": 0.0
  },
  "2f39766ea23aa41c329cf10af207fe6df584758e": {
   "num_adds_if": 0,
@@ -2591,44 +1196,10 @@
   "num_adds": 7,
   "num_dels": 7,
   "num_mod_lns_total": 14,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "4caca3d8f912"
-  ],
   "mod_files_lst": [
    "drivers/video/fbdev/sis/sis_accel.h"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Yan <yanaijie@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Hulk Robot <hulkci@huawei.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/fbdev/sis"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Yan",
-  "author_email": "yanaijie@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-10 22:05:36 +0800",
-  "committer_date": "2020-10-17 08:22:32 +0200"
+  "entropy": 0.0
  },
  "4caca3d8f912ebaae8af8bd12507194352584322": {
   "num_adds_if": 0,
@@ -2641,46 +1212,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "759962b5dc99"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/panel/panel-sitronix-st7703.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Yan <yanaijie@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [
-   "Reviewed-by: Guido G\u00fcnther <agx@sigxcpu.org>"
-  ],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Hulk Robot <hulkci@huawei.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/panel"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Yan",
-  "author_email": "yanaijie@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-12 11:38:09 +0800",
-  "committer_date": "2020-10-17 08:13:22 +0200"
+  "entropy": 0.0
  },
  "759962b5dc99bf22d2894a41d29847ce76ac3bc8": {
   "num_adds_if": 0,
@@ -2693,44 +1228,10 @@
   "num_adds": 3,
   "num_dels": 3,
   "num_mod_lns_total": 6,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7d3618fdeef1"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/adv7511/adv7511_audio.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Yan <yanaijie@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Hulk Robot <hulkci@huawei.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge/adv7511"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Yan",
-  "author_email": "yanaijie@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-12 11:38:26 +0800",
-  "committer_date": "2020-10-17 08:12:00 +0200"
+  "entropy": 0.0
  },
  "7d3618fdeef1991f8fc060b7919212ea1a02fc9f": {
   "num_adds_if": 0,
@@ -2743,44 +1244,10 @@
   "num_adds": 1,
   "num_dels": 1,
   "num_mod_lns_total": 2,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "ba43961b2dcb"
-  ],
   "mod_files_lst": [
    "drivers/gpu/drm/bridge/analogix/analogix_dp_reg.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Jason Yan <yanaijie@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [
-   "Reported-by: Hulk Robot <hulkci@huawei.com>"
-  ],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/bridge/analogix"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Jason Yan",
-  "author_email": "yanaijie@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-12 11:38:43 +0800",
-  "committer_date": "2020-10-17 08:11:50 +0200"
+  "entropy": 0.0
  },
  "ba43961b2dcb0ea39b3bbed951060da891a765b8": {
   "num_adds_if": 0,
@@ -2791,44 +1258,12 @@
   "num_mod_total_loop": 0,
   "file_hash": "ba43961b2dcb0ea39b3bbed951060da891a765b8",
   "num_adds": 1,
-  "num_dels": 6,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "7604caa1f099"
-  ],
+  "num_dels": 5,
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "drivers/gpu/drm/panel/panel-ronbo-rb070d30.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Liu Shixin <liushixin2@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/gpu/drm/panel"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Liu Shixin",
-  "author_email": "liushixin2@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-15 11:26:23 +0800",
-  "committer_date": "2020-10-17 08:10:42 +0200"
+  "entropy": 0.0
  },
  "7604caa1f09911a290fcfa1f57ff2e573af0e887": {
   "num_adds_if": 0,
@@ -2839,43 +1274,11 @@
   "num_mod_total_loop": 0,
   "file_hash": "7604caa1f09911a290fcfa1f57ff2e573af0e887",
   "num_adds": 1,
-  "num_dels": 6,
-  "num_mod_lns_total": 7,
-  "num_mod_files": 1,
-  "is_merge": false,
-  "parents": [
-   "f215d6003736"
-  ],
+  "num_dels": 5,
+  "num_mod_lns_total": 6,
   "mod_files_lst": [
    "drivers/video/fbdev/omap2/omapfb/displays/connector-dvi.c"
   ],
-  "entropy": 0.0,
-  "ppl_signed_off": [
-   "Signed-off-by: Liu Shixin <liushixin2@huawei.com>",
-   "Signed-off-by: Sam Ravnborg <sam@ravnborg.org>"
-  ],
-  "ppl_acked": [],
-  "ppl_cc": [],
-  "ppl_reviewed": [],
-  "ppl_tested": [],
-  "ppl_reported": [],
-  "ppl_suggested": [],
-  "ppl_co_developed": [],
-  "fixes_lst": [],
-  "is_fix": false,
-  "mod_dirs": [
-   "drivers/video/fbdev/omap2/omapfb/displays"
-  ],
-  "mod_sys": [
-   "drivers"
-  ],
-  "num_mod_dirs": 1,
-  "num_mod_sys": 1,
-  "author": "Liu Shixin",
-  "author_email": "liushixin2@huawei.com",
-  "committer": "Sam Ravnborg",
-  "committer_email": "sam@ravnborg.org",
-  "author_date": "2020-09-15 11:26:27 +0800",
-  "committer_date": "2020-10-17 08:10:10 +0200"
+  "entropy": 0.0
  }
 }
